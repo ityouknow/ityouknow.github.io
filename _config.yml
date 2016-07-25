@@ -7,7 +7,7 @@
 
 # Site settings
 title: ityouknow # ex. I m Chuan
-name: neo zhang # ex. DONGChuan
+name: june.neo # ex. DONGChuan
 email: ityouknow@126.com
 location: beijing # ex. Nice, France
 company: 众信金融
@@ -86,7 +86,7 @@ analytics :
 
 
 # For about.html. Fell free to create your own!
-skill_software_keywords: [Java, MySQL, Oracle, SQLite, Design Patterns]
+skill_software_keywords: [Java, MySQL, Oracle, Design Patterns]
 skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
-skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, AngularJS, NodeJS, ExpressJS, MongoDB, Redis, PHP,  Boostrap]
+skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, NodeJS, ExpressJS, MongoDB, Redis, PHP,  Boostrap]
 skill_mobile_app_keywords: [vuejs, hyhird app]

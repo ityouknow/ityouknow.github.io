@@ -1,5 +1,5 @@
-# Yummy Jekyll Theme
+# it you know
 
-this is my persion blog
+this is my personal blog
 
 http://www.ityouknow.com/
