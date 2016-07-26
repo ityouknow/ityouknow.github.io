@@ -73,6 +73,10 @@ navs:
     label: Bookmark
 
   -
+    href: /http://www.cnblogs.com/ityouknow
+    label: cnblogs
+
+  -
     href: /about
     label: About
 
