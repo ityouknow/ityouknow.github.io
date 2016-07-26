@@ -9,10 +9,11 @@
 title: ityouknow # ex. I m Chuan
 name: june.neo # ex. DONGChuan
 email: ityouknow@126.com
-location: beijing # ex. Nice, France
+location: beijing,china # ex. Nice, France
 company: 众信金融
 company_url: http://www.imzhongxin.com/
 github_url: https://github.com/ityouknow # ex. https://github.com/DONGChuan
+cnblog_url:http://www.cnblogs.com/ityouknow
 description: this is my blog
 favicon: favicon.png # Image must be in assets/images
 repository: ityouknow/ityouknow.github.io # ex. DONGChuan/DONGChuan.github.io
