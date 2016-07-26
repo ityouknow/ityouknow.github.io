@@ -47,7 +47,7 @@ kramdown:
   enable_coderay: true
 
 # Disque
-disque: httpityouknowgithubio.disqus.com  # ex. httpdongchuangithubio.disqus.com
+disque: httpityouknow.disqus.com  # ex. httpdongchuangithubio.disqus.com
 
 # Pagination
 paginate: 10
