@@ -10,7 +10,7 @@ tags: [spring]
 
 ##  web开发
 
-spring boot web开发非常的简单，其中包括常用的json输出、filters、Property等
+spring boot web开发非常的简单，其中包括常用的json输出、filters、property等
 
 ### json 接口开发
 
