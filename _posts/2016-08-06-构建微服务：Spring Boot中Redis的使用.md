@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 构建微服务(三)：Spring Boot中Redis的使用
+title: 构建微服务：Spring Boot中Redis的使用
 category: spring boot
 tags: [spring]
 ---
