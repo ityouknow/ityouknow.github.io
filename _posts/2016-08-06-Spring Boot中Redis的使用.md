@@ -213,6 +213,9 @@ t(spring:session:expirations:1472976480000
  其实就是按照上面的步骤在另一个项目中再次配置一次，启动后自动就进行了session共享。
 
 
+### [示例代码地址](https://github.com/ityouknow/spring-home/tree/master/spring-boot/spring-boot-web)
+
+
 
 ## 参考
 
