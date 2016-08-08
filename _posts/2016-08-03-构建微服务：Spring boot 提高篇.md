@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 构建微服务：Spring boot 提高篇
-category: spring
+category: spring boot
 tags: [spring]
 ---
 
