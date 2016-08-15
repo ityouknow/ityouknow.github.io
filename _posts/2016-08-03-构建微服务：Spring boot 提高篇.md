@@ -10,7 +10,7 @@ tags: [spring]
 
 ##  web开发
 
-spring boot web开发非常的简单，其中包括常用的json输出、filters、property等
+spring boot web开发非常的简单，其中包括常用的json输出、filters、property、log等
 
 ### json 接口开发
 
@@ -114,6 +114,18 @@ public class NeoProperties {
 	}
 
 ```
+
+###  log配置
+配置输出的地址和输出级别
+
+``` properties
+logging.path=/user/local/log
+logging.level.com.favorites=DEBUG
+logging.level.org.springframework.web=INFO
+logging.level.org.hibernate=ERROR
+```
+path为本机的log地址，``` logging.level  ``` 后面可以根据包路径配置不同资源的log级别
+
 
 ##  数据库操作
 
@@ -365,6 +377,8 @@ bootRun {
 ## 参考：
 
 [新一代Java模板引擎Thymeleaf](http://www.tianmaying.com/tutorial/using-thymeleaf)
+
+[Spring Boot参考指南-中文版](https://qbgbook.gitbooks.io/spring-boot-reference-guide-zh/content/)
 
 
 

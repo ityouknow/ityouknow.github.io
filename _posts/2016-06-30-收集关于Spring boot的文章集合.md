@@ -17,5 +17,11 @@ tags: [Spring boot]
 
 4、[新一代Java模板引擎Thymeleaf](http://www.tianmaying.com/tutorial/using-thymeleaf)
 
+5、[spring boot demo](https://github.com/spring-projects/spring-boot/tree/master/spring-boot-samples/spring-boot-sample-data-jpa-thymeleaf)
+
+
+
+
+
 
 
