@@ -68,6 +68,16 @@ URL在Web应用模板中占据着十分重要的地位，需要特别注意的�
  *  ``` @{/order} ```是Context相关的相对路径，在渲染时会自动添加上当前Web应用的Context名字，假设context名字为app，那么结果应该是/app/order
 
 
+5、If/Unless
+
+Thymeleaf中使用th:if和th:unless属性进行条件判断，下面的例子中，<a>标签只有在th:if中条件成立时才显示：
+
+``` html
+<a th:href="@{/login}" th:unless=${session.user != null}>Login</a>
+``` 
+
+th:unless于th:if恰好相反，只有表达式中的条件不成立，才会显示其内容。
+
 ## 参考
 
 [新一代Java模板引擎Thymeleaf](http://www.tianmaying.com/tutorial/using-thymeleaf)
