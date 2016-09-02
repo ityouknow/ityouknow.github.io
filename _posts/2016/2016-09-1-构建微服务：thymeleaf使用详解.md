@@ -15,7 +15,7 @@ tags: [thymeleaf]
 
 
 **作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/)**
+**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/thymeleaf/2016/09/01/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-thymeleaf%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3.html)**
 
 
 
@@ -179,7 +179,7 @@ URL还可以设置参数：
 
 
 关键字	| 功能介绍	| 案例
- :---  	| :---      |	 :--- 
+---|---|---
  th:id | 替换id |  ```     <input th:id="'xxx' + ${collect.id}"/>  ```   
  th:text|文本替换|``` <p  th:text="${collect.description}">description</p>```
  th:utext|支持html的文本替换|  ``` <p  th:utext="${htmlcontent}">conten</p>```
