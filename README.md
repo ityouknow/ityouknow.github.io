@@ -1,5 +1,6 @@
-# it you know
+# 个人博客
 
-this is my personal blog
+这是我的个人博客项目，里面会记录生活和技术的点点滴滴。
 
-http://www.ityouknow.com/
+
+访问地址：[http://www.ityouknow.com/](http://www.ityouknow.com/)
