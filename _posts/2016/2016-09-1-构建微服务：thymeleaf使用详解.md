@@ -18,6 +18,7 @@ tags: [thymeleaf]
 **出处：[http://www.ityouknow.com/](http://www.ityouknow.com/)**
 
 
+
 ## thymeleaf介绍
 
 简单说， Thymeleaf 是一个跟 Velocity、FreeMarker 类似的模板引擎，它可以完全替代 JSP 。相较与其他的模板引擎，它有如下三个极吸引人的特点：
@@ -402,6 +403,7 @@ ${#strings.concatReplaceNulls(str)}
 ${#strings.randomAlphanumeric(count)}
 
 ```
+
 
 ## 使用thymeleaf布局
 
