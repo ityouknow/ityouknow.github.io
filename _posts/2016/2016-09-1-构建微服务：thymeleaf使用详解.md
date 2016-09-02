@@ -179,7 +179,7 @@ URL还可以设置参数：
 
 
 关键字	| 功能介绍	| 案例
----|---|---
+---     |---        |---
  th:id | 替换id |  ```     <input th:id="'xxx' + ${collect.id}"/>  ```   
  th:text|文本替换|``` <p  th:text="${collect.description}">description</p>```
  th:utext|支持html的文本替换|  ``` <p  th:utext="${htmlcontent}">conten</p>```
