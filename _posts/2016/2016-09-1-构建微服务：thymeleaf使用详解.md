@@ -236,7 +236,6 @@ th:unless于th:if恰好相反，只有表达式中的条件不成立，才会显
 
 也可以使用  ```(if) ? (then) : (else)``` 这种语法来判断显示的内容
 
-
 ###  3、for 循环
 
 ``` html
@@ -412,7 +411,7 @@ ${#strings.randomAlphanumeric(count)}
 
 使用thymeleaf布局非常的方便
 
-### 定义代码片段
+定义代码片段
 
 ``` html
 <footer th:fragment="copy"> 
