@@ -223,6 +223,7 @@ URL还可以设置参数：
 ``` html
 <span th:text="|Welcome to our application, ${user.name}!|">
 ```
+
 ###  2、条件判断 If/Unless
 
 Thymeleaf中使用th:if和th:unless属性进行条件判断，下面的例子中，```<a> ```标签只有在```th:if```中条件成立时才显示：
@@ -234,6 +235,7 @@ Thymeleaf中使用th:if和th:unless属性进行条件判断，下面的例子中
 th:unless于th:if恰好相反，只有表达式中的条件不成立，才会显示其内容。
 
 也可以使用  ```(if) ? (then) : (else)``` 这种语法来判断显示的内容
+
 
 ###  3、for 循环
 
