@@ -46,7 +46,8 @@ tags: [thymeleaf]
  ``` ${session.user.name} ```  
 
 它们将以HTML标签的一个属性来表示：  
-```
+
+``` html
 <span th:text="${book.author.name}">  
 <li th:each="book : ${books}">  
 ```
