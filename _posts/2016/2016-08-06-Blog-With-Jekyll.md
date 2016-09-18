@@ -40,7 +40,7 @@ If you are able to see similar messages as below, you are lucky:
 
 it says your sample site is being served at : **http://127.0.0.1:4000/**  
 Check it with your browser:    
-![Sample Blog Site in Browser](../images/2016/BrowsingSampleSite.PNG)  
+![Sample Blog Site in Browser](/assets/images/2016/BrowsingSampleSite.PNG)  
 
 However, I am not a lucky guy most of time :(
 The 1st time I run `jekyll serve`, I got errors below:  
