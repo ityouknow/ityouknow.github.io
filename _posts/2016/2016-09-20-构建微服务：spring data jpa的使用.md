@@ -22,7 +22,7 @@ tags: [spring]
 使用spring data jpa 开发时，发现国内对spring boot jpa全面介绍的文章比较少案例也比较零碎，因此写文章总结一下。本人也正在翻译[Spring Data JPA 参考指南](https://www.gitbook.com/book/ityouknow/spring-data-jpa-reference-documentation/details),有兴趣的同学欢迎联系我，一起加入翻译中！
 
 
-
+<br/>
 ## spring data jpa介绍
 
 ### 首先了解JPA是什么？
@@ -37,7 +37,7 @@ Spring Data JPA 是 Spring 基于 ORM 框架、JPA 规范的基础上封装的�
 
 >spring data jpa让我们解脱了DAO层的操作，基本上所有CRUD都可以依赖于它来实现
 
-
+<br/>
 ## 基本查询
 
 基本查询也分为两种，一种是spring data默认已经实现，一种是根据查询的方法来自动解析成SQL。
@@ -131,7 +131,7 @@ FALSE|	findByActiveFalse()	|… where x.active = false
 IgnoreCase|	findByFirstnameIgnoreCase	|… where UPPER(x.firstame) = UPPER(?1)
 
 
-
+<br/>
 ## 复杂查询
 
 在实际的开发中我们需要用到分页、删选、连表等查询的时候就需要特殊的方法或者自定义SQL
@@ -241,7 +241,7 @@ for(HotelSummary summay:hotels){
 > 在运行中Spring会给接口（HotelSummary）自动生产一个代理类来接收返回的结果，代码汇总使用```getXX```的形式来获取
 
 
-
+<br/>
 ## 多数据源的支持
 
 ###  同源数据库的多源支持
@@ -307,7 +307,7 @@ public class Person {
 interface Configuration { }
 ```
 
-
+<br/>
 ## 其它
 
 **使用枚举**
@@ -330,7 +330,7 @@ private String  userName;
 ```
 
 
-
+<br/>
 ## 参考
 
 [Spring Data JPA - Reference Documentation](http://docs.spring.io/spring-data/jpa/docs/current/reference/html/)
