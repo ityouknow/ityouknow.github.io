@@ -15,7 +15,7 @@ tags: [thymeleaf]
 
 
 **作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/thymeleaf/2016/09/01/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-thymeleaf%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3.html)**
+**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/spring%20data%20jpa/2016/09/20/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-spring-data-jpa%E7%9A%84%E4%BD%BF%E7%94%A8.html)**
 
 
 

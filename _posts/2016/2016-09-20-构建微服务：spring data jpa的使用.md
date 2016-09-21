@@ -16,10 +16,11 @@ tags: [spring]
 
 
 **作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/thymeleaf/2016/09/01/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-thymeleaf%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3.html)**
+**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/spring%20data%20jpa/2016/09/20/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-spring-data-jpa%E7%9A%84%E4%BD%BF%E7%94%A8.html)**
 
 
 使用spring data jpa 开发时，发现国内对spring boot jpa全面介绍的文章比较少案例也比较零碎，因此写文章总结一下。本人也正在翻译[Spring Data JPA 参考指南](https://www.gitbook.com/book/ityouknow/spring-data-jpa-reference-documentation/details),有兴趣的同学欢迎联系我，一起加入翻译中！
+
 
 
 ## spring data jpa介绍
@@ -48,24 +49,24 @@ spring data jpa 默认预先生成了一些基本的CURD的方法，例如：增
 1 继承JpaRepository
 
 ``` java 
-	public interface UserRepository extends JpaRepository<User, Long> {
-	}
+public interface UserRepository extends JpaRepository<User, Long> {
+}
 ```
 
 2 使用默认方法
 
 ``` java 
-	@Test
-	public void testBaseQuery() throws Exception {
-		User user=new User();
-		userRepository.findAll();
-		userRepository.findOne(1l);
-		userRepository.save(user);
-		userRepository.delete(user);
-		userRepository.count();
-		userRepository.exists(1l);
-		// ...
-	}
+@Test
+public void testBaseQuery() throws Exception {
+	User user=new User();
+	userRepository.findAll();
+	userRepository.findOne(1l);
+	userRepository.save(user);
+	userRepository.delete(user);
+	userRepository.count();
+	userRepository.exists(1l);
+	// ...
+}
 ```
 就不解释了根据方法名就看出意思来
 
@@ -74,36 +75,36 @@ spring data jpa 默认预先生成了一些基本的CURD的方法，例如：增
 自定义的简单查询就是根据方法名来自动生成SQL，主要的语法是```findXXBy```,```readAXXBy```,```queryXXBy```,```countXXBy```, ```getXXBy```后面跟属性名称：
 
 ``` java 
-	User findByUserName(String userName);
+User findByUserName(String userName);
 ```
 也使用一些加一些关键字```And ```、 ```Or```
 
 ``` java 
-    User findByUserNameOrEmail(String username, String email);
+User findByUserNameOrEmail(String username, String email);
 ```
 修改、删除、统计也是类似语法
 
 ``` java 
-    Long deleteById(Long id);
+Long deleteById(Long id);
 
-    Long countByUserName(String userName)
+Long countByUserName(String userName)
 ```
 
-基本上SQL用户中的关键词都可以使用，例如：``` LIKE ```、 ```IgnoreCase```、 ```OrderBy```。
+基本上SQL体系中的关键词都可以使用，例如：``` LIKE ```、 ```IgnoreCase```、 ```OrderBy```。
 
 
 ``` java 
-    List<User> findByEmailLike(String email);
+List<User> findByEmailLike(String email);
 
-    User findByUserNameIgnoreCase(String userName);
+User findByUserNameIgnoreCase(String userName);
     
-    List<User> findByUserNameOrderByEmailDesc(String email);
+List<User> findByUserNameOrderByEmailDesc(String email);
 ```
 
-**具体的关键字，使用方法和生产的SQL如下表所示**
+**具体的关键字，使用方法和生产成SQL如下表所示**
 
 Keyword	| Sample	|JPQL snippet
- :-  	| :-        |	 :-  
+---     |---        |---
 And	|findByLastnameAndFirstname	|… where x.lastname = ?1 and x.firstname = ?2
 Or	|findByLastnameOrFirstname	|… where x.lastname = ?1 or x.firstname = ?2
 Is,Equals|	findByFirstnameIs,findByFirstnameEquals	|… where x.firstname = ?1
@@ -130,32 +131,33 @@ FALSE|	findByActiveFalse()	|… where x.active = false
 IgnoreCase|	findByFirstnameIgnoreCase	|… where UPPER(x.firstame) = UPPER(?1)
 
 
+
 ## 复杂查询
 
-在正常的开发中我们需要用到分页、删选、连表等查询的时候就需要特殊的方法或者自定义SQL
+在实际的开发中我们需要用到分页、删选、连表等查询的时候就需要特殊的方法或者自定义SQL
 
 
 ### 分页查询
-分页查询在实际使用中台普遍了，spring data jpa已经帮我们实现了分页的功能，在查询的方法中，需要传入参数```Pageable``` 
-,当查询中有多个参数的时候```Pageable```作为最后一个参数传入
+分页查询在实际使用中非常普遍了，spring data jpa已经帮我们实现了分页的功能，在查询的方法中，需要传入参数```Pageable``` 
+,当查询中有多个参数的时候```Pageable```建议做为最后一个参数传入
 
 ``` java 
-    Page<User> findALL(Pageable pageable);
+Page<User> findALL(Pageable pageable);
     
-    Page<User> findByUserName(String userName,Pageable pageable);
+Page<User> findByUserName(String userName,Pageable pageable);
 ```
 
 ```Pageable``` 是spring封装的分页实现类，使用的时候需要传入页数、每页条数和排序规则
 
 ``` java 
-   @Test
-	public void testPageQuery() throws Exception {
-		int page=1,size=10;
-		Sort sort = new Sort(Direction.DESC, "id");
-	    Pageable pageable = new PageRequest(page, size, sort);
-	    userRepository.findALL(pageable);
-	    userRepository.findByUserName("testName", pageable);
-	}
+@Test
+public void testPageQuery() throws Exception {
+	int page=1,size=10;
+	Sort sort = new Sort(Direction.DESC, "id");
+    Pageable pageable = new PageRequest(page, size, sort);
+    userRepository.findALL(pageable);
+    userRepository.findByUserName("testName", pageable);
+}
 ```
 
 **限制查询**
@@ -179,17 +181,17 @@ List<User> findTop10ByLastname(String lastname, Pageable pageable);
 其实Spring data 觉大部分的SQL都可以根据方法名定义的方式来实现，但是由于某些原因我们想使用自定义的SQL来查询，spring data也是完美支持的；在SQL的查询方法上面使用```@Query```注解，如涉及到删除和修改在需要加上```@Modifying```.也可以根据需要添加 ```@Transactional``` 对事物的支持，查询超时的设置等
 
 ``` java 
-	@Modifying
-	@Query("update User u set u.userName = ?1 where c.id = ?2")
-	int modifyByIdAndUserId(String  userName, Long id);
+@Modifying
+@Query("update User u set u.userName = ?1 where c.id = ?2")
+int modifyByIdAndUserId(String  userName, Long id);
 	
-	@Transactional
-	@Modifying
-	@Query("delete from User where id = ?1")
-	void deleteByUserId(Long id);
-	  
-	@Transactional(timeout = 10)
-	@Query("select u from User u where u.emailAddress = ?1")
+@Transactional
+@Modifying
+@Query("delete from User where id = ?1")
+void deleteByUserId(Long id);
+  
+@Transactional(timeout = 10)
+@Query("select u from User u where u.emailAddress = ?1")
     User findByEmailAddress(String emailAddress);
 ```
 
@@ -200,7 +202,7 @@ List<User> findTop10ByLastname(String lastname, Pageable pageable);
 首先需要定义一个结果集的接口类。
 
 ``` java 
-	public interface HotelSummary {
+public interface HotelSummary {
 
 	City getCity();
 
@@ -218,22 +220,22 @@ List<User> findTop10ByLastname(String lastname, Pageable pageable);
 查询的方法返回类型设置为新创建的接口
 
 ``` java
-	@Query("select h.city as city, h.name as name, avg(r.rating) as averageRating "
-			+ "from Hotel h left outer join h.reviews r where h.city = ?1 group by h")
-	Page<HotelSummary> findByCity(City city, Pageable pageable);
-	
-	@Query("select h.name as name, avg(r.rating) as averageRating "
-			+ "from Hotel h left outer join h.reviews r  group by h")
-	Page<HotelSummary> findByCity(Pageable pageable);
+@Query("select h.city as city, h.name as name, avg(r.rating) as averageRating "
+		- "from Hotel h left outer join h.reviews r where h.city = ?1 group by h")
+Page<HotelSummary> findByCity(City city, Pageable pageable);
+
+@Query("select h.name as name, avg(r.rating) as averageRating "
+		- "from Hotel h left outer join h.reviews r  group by h")
+Page<HotelSummary> findByCity(Pageable pageable);
 ```
 
 使用
 
 ``` java
-	Page<HotelSummary> hotels = this.hotelRepository.findByCity(new PageRequest(0, 10, Direction.ASC, "name"));
-	for(HotelSummary summay:hotels){
-			System.out.println("Name" +summay.getName());
-		}
+Page<HotelSummary> hotels = this.hotelRepository.findByCity(new PageRequest(0, 10, Direction.ASC, "name"));
+for(HotelSummary summay:hotels){
+		System.out.println("Name" +summay.getName());
+	}
 ```
 
 > 在运行中Spring会给接口（HotelSummary）自动生产一个代理类来接收返回的结果，代码汇总使用```getXX```的形式来获取
@@ -256,73 +258,75 @@ List<User> findTop10ByLastname(String lastname, Pageable pageable);
 
 比如我们的项目中，即需要对mysql的支持，也需要对mongodb的查询等。
 
-实体类声明为 ```@Entity```、声明为```@Document``` 为mongodb使用，不同的数据源使用不同的实体就可以了
+实体类声明```@Entity``` 关系型数据库支持类型、声明```@Document``` 为mongodb支持类型，不同的数据源使用不同的实体就可以了
 
 ``` java 
-	interface PersonRepository extends Repository<Person, Long> {
-	 …
-	}
+interface PersonRepository extends Repository<Person, Long> {
+ …
+}
 
-	@Entity
-	public class Person {
-	  …
-	}
+@Entity
+public class Person {
+  …
+}
 
-	interface UserRepository extends Repository<User, Long> {
-	 …
-	}
+interface UserRepository extends Repository<User, Long> {
+ …
+}
 
-	@Document
-	public class User {
-	  …
-	}
+@Document
+public class User {
+  …
+}
 ```
 
 但是，如果User用户既使用mysql也使用mongodb呢，也可以做混合使用
 
 ``` java 
-	interface JpaPersonRepository extends Repository<Person, Long> {
-	 …
-	}
+interface JpaPersonRepository extends Repository<Person, Long> {
+ …
+}
 
-	interface MongoDBPersonRepository extends Repository<Person, Long> {
-	 …
-	}
+interface MongoDBPersonRepository extends Repository<Person, Long> {
+ …
+}
 
-	@Entity
-	@Document
-	public class Person {
-	  …
-	}
+@Entity
+@Document
+public class Person {
+  …
+}
 ```
 
 也可以通过对不同的包路径进行声明，比如A包路径下使用mysql,B包路径下使用mongoDB 
 
 
 ``` java 
-	@EnableJpaRepositories(basePackages = "com.acme.repositories.jpa")
-	@EnableMongoRepositories(basePackages = "com.acme.repositories.mongo")
-	interface Configuration { }
+@EnableJpaRepositories(basePackages = "com.neo.repositories.jpa")
+@EnableMongoRepositories(basePackages = "com.neo.repositories.mongo")
+interface Configuration { }
 ```
+
 
 ## 其它
 
-### 使用枚举
+**使用枚举**
+
 使用枚举的时候，我们希望数据库中存储的是枚举对应的String类型，而不是枚举的索引值，需要在属性上面添加```	@Enumerated(EnumType.STRING) ``` 注解
 
 ``` java 
-	@Enumerated(EnumType.STRING) 
-	@Column(nullable = true)
-	private UserType type;
+@Enumerated(EnumType.STRING) 
+@Column(nullable = true)
+private UserType type;
 ```
 
-### 不需要和数据库映射的熟悉
+**不需要和数据库映射的属性**
 
-正常情况下我们在实体类上加入注解```@Entity```，就会让实体类和表相关连如果其中某个熟悉我们不需要和数据库来关联只是在展示的时候做计算，只需要加上```@Transient```属性既可。
+正常情况下我们在实体类上加入注解```@Entity```，就会让实体类和表相关连如果其中某个属性我们不需要和数据库来关联只是在展示的时候做计算，只需要加上```@Transient```属性既可。
 
 ``` java 
-	@Transient
-	private String  userName;
+@Transient
+private String  userName;
 ```
 
 
