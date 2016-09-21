@@ -80,3 +80,41 @@ But another dependency that is also supposed to be installed with Jekyll came ou
 
 Finally, my blog site is able to be served successfully after I installed the dependency '**minima**'.
 
+
+## else
+
+in some case ,you must change gem source 
+
+~~~
+gem sources --add http://gems.ruby-china.org/ --remove https://rubygems.org/
+~~~
+
+congig bundle  miroor
+
+~~~
+bundle config mirror.https://rubygems.org http://gems.ruby-china.org
+~~~
+
+then  excute bundle command
+
+now, find a nather error 
+
+>jekyll service
+>WARN: Unresolved specs during Gem::Specification.reset:
+>       rouge (~> 1.7)
+>       jekyll-watch (~> 1.1)
+> WARN: Clearing out unresolved specs.
+> Please report a bug if this causes problems.
+> fatal: 'jekyll service' could not be found. You may need to install the jekyll-service gem or a related gem to be able to use this subcommand.
+
+then  excute bundle install command
+
+other command :
+
+``` xml
+netstat –ano|findstr “4000”
+
+bundle exec jekyll serve
+```
+
+done!!
