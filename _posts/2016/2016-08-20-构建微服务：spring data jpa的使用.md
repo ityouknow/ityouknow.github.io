@@ -5,18 +5,18 @@ category: spring data jpa
 tags: [spring]
 ---
 
-在上篇文章[构建微服务：Spring boot 提高篇](http://www.ityouknow.com/spring%20boot/2016/08/03/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-Spring-boot-%E6%8F%90%E9%AB%98%E7%AF%87.html)中简单介绍了一下spring data jpa的基础性使用，这篇文章将更加全面的介绍spring data jpa 常见用法以及注意事项
+在上篇文章[构建微服务：Spring boot 提高篇](http://www.ityouknow.com/spring%20boot/2016/02/03/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-Spring-boot-%E6%8F%90%E9%AB%98%E7%AF%87.html)中简单介绍了一下spring data jpa的基础性使用，这篇文章将更加全面的介绍spring data jpa 常见用法以及注意事项
 
 前几篇文章地址：
 
 - [构建微服务：Spring boot 入门篇](http://www.cnblogs.com/ityouknow/p/5662753.html)
-- [构建微服务：Spring boot 提高篇](http://www.ityouknow.com/spring%20boot/2016/08/03/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-Spring-boot-%E6%8F%90%E9%AB%98%E7%AF%87.html)
-- [构建微服务：Spring boot中Redis的使用](http://www.ityouknow.com/spring%20boot/2016/08/06/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-Spring-Boot%E4%B8%ADRedis%E7%9A%84%E4%BD%BF%E7%94%A8.html)
-- [构建微服务：thymeleaf使用详解](http://www.ityouknow.com/thymeleaf/2016/09/01/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-thymeleaf%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3.html)
+- [构建微服务：Spring boot 提高篇](http://www.ityouknow.com/spring%20boot/2016/02/03/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-Spring-boot-%E6%8F%90%E9%AB%98%E7%AF%87.html)
+- [构建微服务：Spring Boot中Redis的使用](http://www.ityouknow.com/spring%20boot/2016/03/06/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-Spring-Boot%E4%B8%ADRedis%E7%9A%84%E4%BD%BF%E7%94%A8.html)
+- [构建微服务：thymeleaf使用详解](http://www.ityouknow.com/thymeleaf/2016/05/01/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-thymeleaf%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3.html)
 
 
 **作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/spring%20data%20jpa/2016/09/20/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-spring-data-jpa%E7%9A%84%E4%BD%BF%E7%94%A8.html)**
+**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/spring%20data%20jpa/2016/08/20/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-spring-data-jpa%E7%9A%84%E4%BD%BF%E7%94%A8.html)**
 
 
 使用spring data jpa 开发时，发现国内对spring boot jpa全面介绍的文章比较少案例也比较零碎，因此写文章总结一下。本人也正在翻译[Spring Data JPA 参考指南](https://www.gitbook.com/book/ityouknow/spring-data-jpa-reference-documentation/details),有兴趣的同学欢迎联系我，一起加入翻译中！
