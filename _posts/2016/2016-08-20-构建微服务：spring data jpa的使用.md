@@ -39,6 +39,7 @@ Spring Data JPA 是 Spring 基于 ORM 框架、JPA 规范的基础上封装的�
 >spring data jpa让我们解脱了DAO层的操作，基本上所有CRUD都可以依赖于它来实现
 
 <br/>
+
 ## 基本查询
 
 基本查询也分为两种，一种是spring data默认已经实现，一种是根据查询的方法来自动解析成SQL。
@@ -133,6 +134,7 @@ IgnoreCase|	findByFirstnameIgnoreCase	|… where UPPER(x.firstame) = UPPER(?1)
 
 
 <br/>
+
 ## 复杂查询
 
 在实际的开发中我们需要用到分页、删选、连表等查询的时候就需要特殊的方法或者自定义SQL
@@ -243,6 +245,7 @@ for(HotelSummary summay:hotels){
 
 
 <br/>
+
 ## 多数据源的支持
 
 ###  同源数据库的多源支持
@@ -309,6 +312,7 @@ interface Configuration { }
 ```
 
 <br/>
+
 ## 其它
 
 **使用枚举**
@@ -332,6 +336,7 @@ private String  userName;
 
 
 <br/>
+
 ## 参考
 
 [Spring Data JPA - Reference Documentation](http://docs.spring.io/spring-data/jpa/docs/current/reference/html/)
