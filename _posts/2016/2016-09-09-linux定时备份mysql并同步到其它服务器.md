@@ -109,7 +109,7 @@ vi /etc/crontab
 
 ## 同步到其它服务器
 
-这里使用Linux同步文件工具rsync来进行文件的同步
+这里使用Linux同步文件工具rsync+inotify来进行文件的同步
 
 ### rsync
 
@@ -147,9 +147,10 @@ rsync -vzrtopg --progress --delete root@192.168.53.85:/bak/mysqlbak  /bak
 
 rsycn的服务端为服务器的文件接收端，rsycn的客户端为服务器的文件推动端。
 
+
 **rsycn的服务端/文件接收端配置**
 
-服务端需求开启rsyncd服务
+服务端需要开启rsyncd服务
 
 添加配置文件rsyncd.conf
 
@@ -296,13 +297,13 @@ chmod 777 rsync.sh
 ./rsync.sh 
 ```
 
+## 参考：
+
+[Linux下同步工具inotify+rsync使用详解](http://seanlook.com/2014/12/12/rsync_inotify_setup/)
+
+
 -------------
 
 **作者：纯洁的微笑**  
 **出处：[http://www.ityouknow.com/](http://www.ityouknow.com/mysql/2016/09/09/linux%E5%AE%9A%E6%97%B6%E5%A4%87%E4%BB%BDmysql%E5%B9%B6%E5%90%8C%E6%AD%A5%E5%88%B0%E5%85%B6%E5%AE%83%E6%9C%8D%E5%8A%A1%E5%99%A8.html)**    
 **版权所有，欢迎保留原文链接进行转载 :)**
-
-
-## 参考：
-
-[Linux下同步工具inotify+rsync使用详解](http://seanlook.com/2014/12/12/rsync_inotify_setup/)
