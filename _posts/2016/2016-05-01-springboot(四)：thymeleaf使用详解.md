@@ -5,7 +5,7 @@ category: thymeleaf
 tags: [thymeleaf]
 ---
 
-在上篇文章[构建微服务：Spring boot 提高篇](http://www.ityouknow.com/spring%20boot/2016/02/03/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-Spring-boot-%E6%8F%90%E9%AB%98%E7%AF%87.html)中简单介绍了一下thymeleaf，这篇文章将更加全面详细的介绍thymeleaf的使用。thymeleaf 是新一代的模板引擎，在spring4.0中推荐使用thymeleaf来做前端模版引擎。
+在上篇文章[springboot(二)：web综合开发](http://www.ityouknow.com/springboot/2016/02/03/springboot(%E4%BA%8C)-web%E7%BB%BC%E5%90%88%E5%BC%80%E5%8F%91.html)中简单介绍了一下thymeleaf，这篇文章将更加全面详细的介绍thymeleaf的使用。thymeleaf 是新一代的模板引擎，在spring4.0中推荐使用thymeleaf来做前端模版引擎。
 
 
 ## thymeleaf介绍
