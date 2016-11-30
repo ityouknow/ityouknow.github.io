@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 构建微服务：如何优雅的使用mybatis
-category: mybatis
-tags: [spring]
+title: springboot(六)：如何优雅的使用mybatis
+category: springboot
+tags: [springboot]
 ---
 
 这两天启动了一个新项目因为项目组成员一直都使用的是mybatis，虽然个人比较喜欢jpa这种极简的模式，但是为了项目保持统一性技术选型还是定了 mybatis。到网上找了一下关于spring boot和mybatis组合的相关资料，各种各样的形式都有，看的人心累，结合了mybatis的官方demo和文档终于找到了最简的两种模式，花了一天时间总结后分享出来。

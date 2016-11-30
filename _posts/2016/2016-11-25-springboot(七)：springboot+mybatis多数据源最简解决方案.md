@@ -1,6 +1,6 @@
 ---
 layout: post
-title: springboot+mybatis多数据源最简解决方案
+title: springboot(七)：springboot+mybatis多数据源最简解决方案
 category: springboot 
 tags: [springboot]
 ---

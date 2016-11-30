@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 构建微服务：Spring boot 提高篇
-category: spring boot
-tags: [spring]
+title: springboot(二)：web综合开发
+category: springboot
+tags: [springboot]
 ---
 
-上篇文章介绍了Spring boot初级教程：[构建微服务：Spring boot 入门篇](http://www.cnblogs.com/ityouknow/p/5662753.html)，方便大家快速入门、了解实践Spring boot特性；本篇文章接着上篇内容继续为大家介绍spring boot的其它特性（有些未必是spring boot体系桟的功能，但是是spring特别推荐的一些开源技术本文也会介绍），对了这里只是一个大概的介绍，特别详细的使用我们会在其它的文章中来展开说明。
+上篇文章介绍了Spring boot初级教程：[spring boot(一)：入门篇](http://www.cnblogs.com/ityouknow/p/5662753.html)，方便大家快速入门、了解实践Spring boot特性；本篇文章接着上篇内容继续为大家介绍spring boot的其它特性（有些未必是spring boot体系桟的功能，但是是spring特别推荐的一些开源技术本文也会介绍），对了这里只是一个大概的介绍，特别详细的使用我们会在其它的文章中来展开说明。
 
 
 ##  web开发
@@ -376,7 +376,7 @@ bootRun {
 
 就可以正常使用了！
 
-**[本文所有讲的代码示例都在这里](https://github.com/ityouknow/spring-home/tree/master/spring-boot/spring-boot-web)**
+**[本文所有讲的代码示例都在这里](https://github.com/ityouknow/spring-boot-starter/tree/master/spring-boot-web)**
 
 ## 参考：
 

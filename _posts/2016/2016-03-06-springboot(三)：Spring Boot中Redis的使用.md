@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 构建微服务：Spring boot中Redis的使用
-category: spring boot
-tags: [spring]
+title: springboot(三)：Spring boot中Redis的使用
+category: springboot
+tags: [springboot]
 ---
 
 spring boot对常用的数据库支持外，对nosql 数据库也进行了封装自动化。
@@ -213,7 +213,7 @@ t(spring:session:expirations:1472976480000
  其实就是按照上面的步骤在另一个项目中再次配置一次，启动后自动就进行了session共享。
 
 
-### [示例代码地址](https://github.com/ityouknow/spring-home/tree/master/spring-boot/spring-boot-web)
+### [示例代码地址](https://github.com/ityouknow/spring-boot-starter/tree/master/spring-boot-web)
 
 
 ## 版权声明

@@ -1,22 +1,11 @@
 ---
 layout: post
-title: 构建微服务：thymeleaf使用详解
+title: springboot(四)：thymeleaf使用详解
 category: thymeleaf
 tags: [thymeleaf]
 ---
 
 在上篇文章[构建微服务：Spring boot 提高篇](http://www.ityouknow.com/spring%20boot/2016/02/03/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-Spring-boot-%E6%8F%90%E9%AB%98%E7%AF%87.html)中简单介绍了一下thymeleaf，这篇文章将更加全面详细的介绍thymeleaf的使用。thymeleaf 是新一代的模板引擎，在spring4.0中推荐使用thymeleaf来做前端模版引擎。
-
-前几篇文章地址：
-
-- [构建微服务：Spring boot 入门篇](http://www.cnblogs.com/ityouknow/p/5662753.html)
-- [构建微服务：Spring boot 提高篇](http://www.ityouknow.com/spring%20boot/2016/02/03/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-Spring-boot-%E6%8F%90%E9%AB%98%E7%AF%87.html)
-- [构建微服务：Spring Boot中Redis的使用](http://www.ityouknow.com/spring%20boot/2016/03/06/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-Spring-Boot%E4%B8%ADRedis%E7%9A%84%E4%BD%BF%E7%94%A8.html)
-
-
-**作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/thymeleaf/2016/05/01/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-thymeleaf%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3.html)**
-
 
 
 ## thymeleaf介绍
@@ -487,9 +476,11 @@ htmlhead 是指定义的代码片段 如 ```th:fragment="copy"```
 [thymeleaf 学习笔记](http://www.blogjava.net/bjwulin/archive/2013/02/07/395234.html)  
 
 
+-------------
 
-
-
+**作者：纯洁的微笑**  
+**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/mybatis/2016/11/06/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8mybatis.html)**    
+**版权所有，欢迎保留原文链接进行转载：)**
 
 
 
