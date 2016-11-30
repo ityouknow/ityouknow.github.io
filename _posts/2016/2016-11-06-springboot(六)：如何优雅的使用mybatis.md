@@ -155,10 +155,9 @@ public interface UserMapper {
 Teacher selectTeachForGivenName(@Param("name") String name);
 
 // This example creates n inlined statement, something like select * from teacher where name = 'someName';
-@Select("Select * from teacher where name = '${name}')
+@Select("Select * from teacher where name = '${name}'")
 Teacher selectTeachForGivenName(@Param("name") String name);
 ```
-
 ### 4、使用
 上面三步就基本完成了相关dao层开发，使用的时候当作普通的类注入进入就可以了
 
@@ -331,17 +330,8 @@ public interface UserMapper {
 [完整代码地址](https://github.com/ityouknow/spring-boot-starter)
 
 
-前几篇关于微服务的文章地址：
-
-- [构建微服务：Spring boot 入门篇](http://www.cnblogs.com/ityouknow/p/5662753.html)
-- [构建微服务：Spring boot 提高篇](http://www.ityouknow.com/spring%20boot/2016/02/03/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-Spring-boot-%E6%8F%90%E9%AB%98%E7%AF%87.html)
-- [构建微服务：Spring Boot中Redis的使用](http://www.ityouknow.com/spring%20boot/2016/03/06/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-Spring-Boot%E4%B8%ADRedis%E7%9A%84%E4%BD%BF%E7%94%A8.html)
-- [构建微服务：thymeleaf使用详解](http://www.ityouknow.com/thymeleaf/2016/05/01/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-thymeleaf%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3.html)
-- [构建微服务：spring data jpa的使用](http://www.ityouknow.com/spring%20data%20jpa/2016/08/20/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-spring-data-jpa%E7%9A%84%E4%BD%BF%E7%94%A8.html)
-
-
 -------------
 
 **作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/mybatis/2016/11/06/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8mybatis.html)**    
+**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/springboot/2016/11/06/springboot(%E5%85%AD)-%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8mybatis.html)**    
 **版权所有，欢迎保留原文链接进行转载：)**

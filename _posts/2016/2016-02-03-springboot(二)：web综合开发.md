@@ -165,7 +165,7 @@ spring.jpa.show-sql= true
 > 3. update：最常用的属性，第一次加载hibernate时根据model类会自动建立起表的结构（前提是先建立好数据库），以后加载hibernate时根据 model类自动更新表结构，即使表结构改变了但表中的行仍然存在不会删除以前的行。要注意的是当部署到服务器后，表结构是不会被马上建立起来的，是要等 应用第一次运行起来后才会。
 > 4.  validate ：每次加载hibernate时，验证创建数据库表结构，只会和数据库中的表进行比较，不会创建新表，但是会插入新值。
 
-``` dialect ``` 主要是指定生成表名的存储引擎为InneoDB<br/>
+``` dialect ``` 主要是指定生成表名的存储引擎为InneoDB  
 ``` show-sql ``` 是否打印出自动生产的SQL，方便调试的时候查看
 
 ### 3、添加实体类和Dao
@@ -386,7 +386,11 @@ bootRun {
 
 
 
+-------------
 
+**作者：纯洁的微笑**  
+**出处：[http://www.ityouknow.com/springboot/2016/02/03/springboot(%E4%BA%8C)-web%E7%BB%BC%E5%90%88%E5%BC%80%E5%8F%91.html)**    
+**版权所有，欢迎保留原文链接进行转载：)**
 
 
 

@@ -479,7 +479,7 @@ htmlhead 是指定义的代码片段 如 ```th:fragment="copy"```
 -------------
 
 **作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/mybatis/2016/11/06/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8mybatis.html)**    
+**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/thymeleaf/2016/05/01/springboot(%E5%9B%9B)-thymeleaf%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3.html)**    
 **版权所有，欢迎保留原文链接进行转载：)**
 
 

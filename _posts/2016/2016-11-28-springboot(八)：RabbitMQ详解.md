@@ -433,3 +433,10 @@ fanout Receiver C: hi, fanout msg
 [RabbitMQ 使用参考](https://www.zouyesheng.com/rabbitmq.html)
 
 [RabbitMQ：Spring 集成 RabbitMQ 与其概念，消息持久化，ACK机制](https://github.com/401Studio/WeekLearn/issues/2)
+
+
+-------------
+
+**作者：纯洁的微笑**  
+**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/springboot/2016/11/28/springboot(%E5%85%AB)-RabbitMQ%E8%AF%A6%E8%A7%A3.html)**    
+**版权所有，欢迎保留原文链接进行转载：)**

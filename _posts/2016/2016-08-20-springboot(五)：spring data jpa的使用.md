@@ -324,7 +324,10 @@ private String  userName;
 ```
 
 
-<br/>
+**源码案例**
+
+这里有一个开源项目几乎使用了这里介绍的所有标签和布局，大家可以参考：
+[cloudfavorites](https://github.com/cloudfavorites/favorites-web)
 
 ## 参考
 
@@ -337,5 +340,5 @@ private String  userName;
 -------------
 
 **作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/mybatis/2016/11/06/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8mybatis.html)**    
+**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/springboot/2016/08/20/springboot(%E4%BA%94)-spring-data-jpa%E7%9A%84%E4%BD%BF%E7%94%A8.html)**    
 **版权所有，欢迎保留原文链接进行转载：)**

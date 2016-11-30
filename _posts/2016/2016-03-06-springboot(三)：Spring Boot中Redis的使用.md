@@ -216,10 +216,14 @@ t(spring:session:expirations:1472976480000
 ### [示例代码地址](https://github.com/ityouknow/spring-boot-starter/tree/master/spring-boot-web)
 
 
-## 版权声明
-本文由纯洁的微笑创作，转载需署名作者且注明文章出处
-
 ## 参考
 
 [Redis的两个典型应用场景](http://emacoo.cn/blog/spring-redis)<br/>
 [pringBoot应用之分布式会话](https://segmentfault.com/a/1190000004358410)
+
+
+-------------
+
+**作者：纯洁的微笑**  
+**出处：[http://www.ityouknow.com/springboot/2016/03/06/springboot(%E4%B8%89)-Spring-Boot%E4%B8%ADRedis%E7%9A%84%E4%BD%BF%E7%94%A8.html)**    
+**版权所有，欢迎保留原文链接进行转载：)**
