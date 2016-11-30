@@ -14,7 +14,8 @@ spring boot web开发非常的简单，其中包括常用的json输出、filters
 
 ### json 接口开发
 
-在以前的spring 开发的时候需要我们提供json接口的时候需要做那些配置呢
+在以前的spring 开发的时候需要我们提供json接口的时候需要做那些配置呢  
+
  > 1. 添加 jackjson 等相关jar包
  > 2. 配置spring controller扫描
  > 3. 对接的方法添加@ResponseBody
@@ -40,6 +41,7 @@ public class HelloWorldController {
 我们常常在项目中会使用filters用于录调用日志、排除有XSS威胁的字符、执行权限验证等等。Spring Boot自动添加了OrderedCharacterEncodingFilter和HiddenHttpMethodFilter，并且我们可以自定义Filter。
 
 两个步骤：
+
  > 1. 实现Filter接口，实现Filter方法
  > 2. 添加``` @Configurationz ``` 注解，将自定义Filter加入过滤链
 
@@ -195,7 +197,7 @@ public class User implements Serializable {
 ```
 dao只要继承JpaRepository类就可以，几乎可以不用写方法，还有一个特别有尿性的功能非常赞，就是可以根据方法名来自动的生产SQL，比如``` findByUserName ``` 会自动生产一个以 ``` userName ``` 为参数的查询方法，比如 ``` findAlll ``` 自动会查询表里面的所有数据，比如自动分页等等。。
 
-** Entity中不映射成列的字段得加@Transient 注解，不加注解也会映射成列 **
+**Entity中不映射成列的字段得加@Transient 注解，不加注解也会映射成列**
 
 
 ``` java 
@@ -231,6 +233,7 @@ public class UserRepositoryTests {
 
 }
 ```
+
 当让 spring data jpa 还有很多功能，比如封装好的分页，可以自己定义SQL，主从分离等等，这里就不详细讲了
 
 ##  thymeleaf模板
@@ -389,7 +392,7 @@ bootRun {
 -------------
 
 **作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/springboot/2016/02/03/springboot(%E4%BA%8C)-web%E7%BB%BC%E5%90%88%E5%BC%80%E5%8F%91.html)**    
+**出处：[www.ityouknow.com](http://www.ityouknow.com/springboot/2016/02/03/springboot(%E4%BA%8C)-web%E7%BB%BC%E5%90%88%E5%BC%80%E5%8F%91.html)**    
 **版权所有，欢迎保留原文链接进行转载：)**
 
 
