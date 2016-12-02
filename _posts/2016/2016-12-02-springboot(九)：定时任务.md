@@ -9,7 +9,7 @@ tags: [springboot]
 
 
 
-### 1、pom包配置
+## 1、pom包配置
 
 pom包里面只需要引入springboot starter包即可
 
@@ -33,7 +33,7 @@ pom包里面只需要引入springboot starter包即可
 ```
 
 
-### 2、启动类启用定时
+## 2、启动类启用定时
 
 在启动类上面加上```@EnableScheduling```即可开启定时
 
@@ -49,7 +49,7 @@ public class Application {
 ```
 
 
-### 3、创建定时任务实现类
+## 3、创建定时任务实现类
 
 定时任务1：
 
@@ -99,7 +99,7 @@ this is scheduler task runing  3
 ```
 
 
-### 参数说明
+## 参数说明
 
 ```@Scheduled``` 参数可以接受两种定时的设置，一种是我们常用的```cron="*/6 * * * * ?"```,一种是 ```fixedRate = 6000```，两种都表示每隔六秒打印一下内容。
 
