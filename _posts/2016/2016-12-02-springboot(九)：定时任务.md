@@ -32,6 +32,7 @@ pom包里面只需要引入springboot starter包即可
 </dependencies>
 ```
 
+
 ### 2、启动类启用定时
 
 在启动类上面加上```@EnableScheduling```即可开启定时
@@ -46,6 +47,7 @@ public class Application {
 	}
 }
 ```
+
 
 ### 3、创建定时任务实现类
 
@@ -82,9 +84,24 @@ public class Scheduler2Task {
 }
 ```
 
+
+结果如下：
+
+``` xml
+this is scheduler task runing  0
+现在时间：09:44:17
+this is scheduler task runing  1
+现在时间：09:44:23
+this is scheduler task runing  2
+现在时间：09:44:29
+this is scheduler task runing  3
+现在时间：09:44:35
+```
+
+
 ### 参数说明
 
-```@Scheduled``` 参数可以接受两种定时的设置，一种是我们常用的```cron="*/6 * * * * ?"``,一种是 ```fixedRate = 6000```，两种都表示每隔六秒打印一下内容。
+```@Scheduled``` 参数可以接受两种定时的设置，一种是我们常用的```cron="*/6 * * * * ?"```,一种是 ```fixedRate = 6000```，两种都表示每隔六秒打印一下内容。
 
 **fixedRate 说明**
 
@@ -98,5 +115,5 @@ public class Scheduler2Task {
 -------------
 
 **作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/springboot/2016/11/30/springboot(%E5%85%AB)-RabbitMQ%E8%AF%A6%E8%A7%A3.html)**    
+**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/springboot/2016/12/02/springboot(%E4%B9%9D)-%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1.html)**    
 **版权所有，欢迎保留原文链接进行转载：)**
