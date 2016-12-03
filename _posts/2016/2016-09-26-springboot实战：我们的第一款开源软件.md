@@ -1,7 +1,7 @@
 ---
 layout: post
 title: springboot实战：我们的第一款开源软件
-category: 开源软件
+category: springboot
 tags: [云收藏]
 ---
 
