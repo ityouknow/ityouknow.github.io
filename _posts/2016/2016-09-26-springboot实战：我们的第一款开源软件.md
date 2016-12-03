@@ -50,7 +50,7 @@ tags: [云收藏]
 
 ## 技术点
 
-这段时间我们团队主要在学习spring boot,这个开源项目也就成了我们的练习新技术的一个非常好的产品，主要的技术都是和spring boot相关，可以参考我以前文章 [构建微服务：spring boot系列文章](http://www.cnblogs.com/ityouknow/)
+这段时间我们团队主要在学习spring boot,这个开源项目也就成了我们的练习新技术的一个非常好的产品，主要的技术都是和spring boot相关，可以参考我以前文章 [spring boot系列文章](http://www.cnblogs.com/ityouknow/)
 
 ### 网页端
 
@@ -63,15 +63,15 @@ tags: [云收藏]
 
 **前端**
 
-前端页面由[Angle - Bootstrap Admin theme](https://wrapbootstrap.com/theme/angle-bootstrap-admin-template-WB04HF123)这套主题改造而来;模版引擎使用了```thymeleaf```，可以参考这篇文章：[构建微服务：thymeleaf使用详解](http://www.ityouknow.com/thymeleaf/2016/05/01/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-thymeleaf%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3.html)
+前端页面由[Angle - Bootstrap Admin theme](https://wrapbootstrap.com/theme/angle-bootstrap-admin-template-WB04HF123)这套主题改造而来;模版引擎使用了```thymeleaf```，可以参考这篇文章：[springboot(四)：thymeleaf使用详解](http://www.ityouknow.com/thymeleaf/2016/05/01/springboot(%E5%9B%9B)-thymeleaf%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3.html)
  
 **持久层**
 
-数据库主要使用了 Spring data jpa模版来实现，可以参考这篇文章：[构建微服务：spring data jpa的使用](http://www.ityouknow.com/spring%20data%20jpa/2016/08/20/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-spring-data-jpa%E7%9A%84%E4%BD%BF%E7%94%A8.html)
+数据库主要使用了 Spring data jpa模版来实现，可以参考这篇文章：[springboot(五)：spring data jpa的使用](http://www.ityouknow.com/springboot/2016/08/20/springboot(%E4%BA%94)-spring-data-jpa%E7%9A%84%E4%BD%BF%E7%94%A8.html)
 
 **session**
 
-session使用持久化技术来保存登录状态，登录一次保持需要会话30天，主要是依赖redis来实现，参考：[构建微服务：Spring boot中Redis的使用](http://www.ityouknow.com/spring%20boot/2016/03/06/%E6%9E%84%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1-Spring-Boot%E4%B8%ADRedis%E7%9A%84%E4%BD%BF%E7%94%A8.html)
+session使用持久化技术来保存登录状态，登录一次保持需要会话30天，主要是依赖redis来实现，参考：[springboot(三)：Spring boot中Redis的使用](http://ityouknow.com/springboot/2016/03/06/springboot(%E4%B8%89)-Spring-Boot%E4%B8%ADRedis%E7%9A%84%E4%BD%BF%E7%94%A8.html)
 
 **其它**
 
