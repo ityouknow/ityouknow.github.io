@@ -63,7 +63,7 @@ tags: [云收藏]
 
 **前端**
 
-前端页面由[Angle - Bootstrap Admin theme](https://wrapbootstrap.com/theme/angle-bootstrap-admin-template-WB04HF123)这套主题改造而来;模版引擎使用了```thymeleaf```，可以参考这篇文章：[springboot(四)：thymeleaf使用详解](http://www.ityouknow.com/thymeleaf/2016/05/01/springboot(%E5%9B%9B)-thymeleaf%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3.html)
+前端页面由[Angle - Bootstrap Admin theme](https://wrapbootstrap.com/theme/angle-bootstrap-admin-template-WB04HF123)这套主题改造而来;模版引擎使用了```thymeleaf```，可以参考这篇文章：[springboot(四)：thymeleaf使用详解](http://www.ityouknow.com/springboot/2016/05/01/springboot(%E5%9B%9B)-thymeleaf%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3.html)
  
 **持久层**
 
