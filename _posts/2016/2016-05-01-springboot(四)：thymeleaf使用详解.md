@@ -1,7 +1,7 @@
 ---
 layout: post
 title: springboot(四)：thymeleaf使用详解
-category: thymeleaf
+category: springboot
 tags: [thymeleaf]
 ---
 
