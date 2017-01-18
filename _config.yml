@@ -48,7 +48,7 @@ kramdown:
   enable_coderay: true
 
 # Disque
- disque: ityouknow.disqus.com  # ex. httpdongchuangithubio.disqus.com
+# disque: ityouknow.disqus.com  # ex. httpdongchuangithubio.disqus.com
 
 # Pagination
 paginate: 10
@@ -84,10 +84,10 @@ navs:
 side_bar_repo_limit: 5 # Number of repos to show
 
 # Google Analytics
-# analytics :
-#  provider : google
-#  google :
-#      tracking_id : 'UA-81503915-1'  # ex. UA-72165600-X
+analytics :
+  provider : google
+  google :
+      tracking_id : 'UA-81503915-1'  # ex. UA-72165600-X
 
 
 # For about.html. Fell free to create your own!
