@@ -1,15 +1,13 @@
 .card-image {
-    display: flex;
+    display: table;
     height: 120px;
     width: 100%;
-    overflow-x: hidden;
     border-radius: 4px;
 }
 
 .card-image .card-image-cell {
-    text-align: center;
-    margin: auto;
-    padding: 10px;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .card-image h3 {
