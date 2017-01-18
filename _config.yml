@@ -87,7 +87,7 @@ side_bar_repo_limit: 5 # Number of repos to show
 analytics :
   provider : google
   google :
-      tracking_id : 'UA-81503915-1'  # ex. UA-72165600-X
+      tracking_id : ''  # ex. UA-72165600-X
 
 
 # For about.html. Fell free to create your own!
