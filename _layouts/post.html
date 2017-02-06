@@ -16,7 +16,7 @@ css: ['sidebar-post-nav.css']
             {% include duoshuo-comments.html %}
         </div>
         {% else %}
-        <div class="col-md-12 markdown-body">
+        <div class="col-md-8 markdown-body">
 
             {{ content }}
 
@@ -24,10 +24,9 @@ css: ['sidebar-post-nav.css']
             {% include duoshuo-comments.html %}
         </div>
 
-        <!--<div class="col-md-4">
+        <div class="col-md-4">
             {% include sidebar-post-nav.html %}
-        </div>-->
-        
+        </div>
         {% endif %}
 
     </div>
