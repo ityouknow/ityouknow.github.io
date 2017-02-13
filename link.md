@@ -8,15 +8,30 @@ menu: Link
 
 
 ## 个人链接
-- [ityouknow](http://www.ityouknow.com/) - 个人博客地址
-- [cnblogs](https://www.cnblogs.com/ityouknow/) - 个人博客园博客地址
-- [github](https://github.com/ityouknow) -  个人github地址
+- [ityouknow](http://www.ityouknow.com/) - 博客地址
+- [cnblogs](https://www.cnblogs.com/ityouknow/) - 博客园博客地址
+- [github](https://github.com/ityouknow) -  github地址
+
+
+
+## 推荐网站
+- [云收藏](http://www.favorites.ren/) - 云收藏，让收藏更简单。一个在线云端的网络收藏夹，可以分享和查看其它人分享
+- [wherebt](http://wherebt.com/) - 提供各种BT资源导航,主要收录了bt sync keys的分享网站
+- [六月](http://www.liuyue.ren/) - 记录生活
+- [荒蛮故事](http://relatos.top/) - 一个分享故事的网站
 
 
 
 ## 友情链接
-- [云收藏](http://www.favorites.ren/) - 云收藏，让收藏更简单。一个在线云端的网络收藏夹，可以分享和查看其它人分享
-- [wherebt](http://wherebt.com/) - 提供各种BT资源导航,主要收录了bt sync keys的分享网站
-- [六月](http://www.liuyue.ren/) - 一个博友的文章
-- [荒蛮故事](http://relatos.top/) - 一个分享故事的网站
+- [xxx](http://www.ityouknow.com/) - 博客地址
+
+
+
+## 其它  
+*欢迎交互友情链接，最好同样是技术类的博客，需要的朋友请在下方留言，格式要求如下：*
+- 网站名称：ityouknow  
+- 网站链接：http://www.ityouknow.com  
+- 网站描述：neo的个人博客，分享技术，分享生活  
+
+
 
