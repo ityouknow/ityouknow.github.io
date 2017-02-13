@@ -158,7 +158,9 @@ Teacher selectTeachForGivenName(@Param("name") String name);
 @Select("Select * from teacher where name = '${name}'")
 Teacher selectTeachForGivenName(@Param("name") String name);
 ```
-### 4、使用
+
+### 4、使用  
+
 上面三步就基本完成了相关dao层开发，使用的时候当作普通的类注入进入就可以了
 
 
