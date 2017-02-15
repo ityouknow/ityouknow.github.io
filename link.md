@@ -11,8 +11,8 @@ menu: Link
 - [ityouknow](http://www.ityouknow.com/) - 个人独立博客
 - [cnblogs](https://www.cnblogs.com/ityouknow/) - 博客园个人博客
 - [github](https://github.com/ityouknow) -  我分享代码的地方
-- [简书](http://www.jianshu.com/u/464a879f8351） - 简书
-- [知乎](https://www.zhihu.com/people/ityouknow）- 知乎
+- [简书](http://www.jianshu.com/u/464a879f8351) - 简书
+- [知乎](https://www.zhihu.com/people/ityouknow) - 知乎
 
 
 
