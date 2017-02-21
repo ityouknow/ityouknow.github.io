@@ -27,6 +27,6 @@
     color: #fff;
 }
 
-.col-md-4 {
+.col-md-3 {
     position: static; /* fix strange behavior */
 }
