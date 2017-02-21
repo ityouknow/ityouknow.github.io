@@ -25,7 +25,7 @@ menu: Link
 
 
 ## 友情链接
-- [xxx](http://www.ityouknow.com/) - 博客地址
+- [韩威博客](http://www.hanwei1234.com) - 韩威java知识分享网
 
 
 
