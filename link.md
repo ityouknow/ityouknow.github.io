@@ -13,7 +13,7 @@ menu: Link
 - [github](https://github.com/ityouknow) -  我分享代码的地方
 - [简书](http://www.jianshu.com/u/464a879f8351) - 个人简书地址，刚开始关注
 - [知乎](https://www.zhihu.com/people/ityouknow) - 个人知乎地址，用的不太多大多数都在潜水
-- [CSDN](http://blog.csdn.net/ityouknow)  - 很老了
+- [CSDN](http://blog.csdn.net/ityouknow)  - 最开始写博客的地方
 - [微博](http://weibo.com/ityouknow) - 个人微博地址，虽然一直没有用过
 
 
