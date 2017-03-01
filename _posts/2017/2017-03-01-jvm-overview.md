@@ -1,6 +1,6 @@
 ---
 layout: post
-title: jvm系列(七):jvm知识点总览-高级Java工程师面试必备
+title: jvm系列(八):jvm知识点总览-高级Java工程师面试必备
 category: java 
 tags: [java]
 ---
@@ -162,7 +162,7 @@ GC最基础的算法有三种：标记 -清除算法、复制算法、标记-压
 
 **GC日志分析**
 
-摘录GC日志一部分（绿色为年轻代gc回收；蓝色为full gc回收）：
+摘录GC日志一部分（前部分为年轻代gc回收；后部分为full gc回收）：
 
 ``` xml
 2016-07-05T10:43:18.093+0800: 25.395: [GC [PSYoungGen: 274931K->10738K(274944K)] 371093K->147186K(450048K), 0.0668480 secs] [Times: user=0.17 sys=0.08, real=0.07 secs] 

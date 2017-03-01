@@ -46,6 +46,7 @@ css: ['blog-page.css']
 - [jvm系列(五):tomcat性能调优和性能监控（visualvm）](http://www.cnblogs.com/ityouknow/p/5378874.html)
 - [jvm系列(六):jvm调优-从eclipse开始](http://www.cnblogs.com/ityouknow/p/5647513.html)
 - [jvm系列(七):jvm调优-工具篇](http://www.ityouknow.com/java/2017/02/22/jvm-tool.html)
+- [jvm系列(八):jvm知识点总览-高级Java工程师面试必备](http://www.ityouknow.com/java/2017/03/01/jvm-overview.html)
 
 
 ## 爬虫
