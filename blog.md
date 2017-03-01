@@ -6,6 +6,13 @@ menu: blog
 css: ['blog-page.css']
 ---
 
+## 近期文章
+
+- [百亿互金平台救火故事](http://www.ityouknow.com/%E4%BC%98%E5%8C%96/2017/02/16/%E7%99%BE%E4%BA%BF%E4%BA%92%E9%87%91%E5%B9%B3%E5%8F%B0%E6%95%91%E7%81%AB%E6%95%85%E4%BA%8B.html)
+- [jvm系列(八):jvm知识点总览-高级Java工程师面试必备](http://www.ityouknow.com/java/2017/03/01/jvm-overview.html)
+- [jvm系列(七):jvm调优-工具篇](http://www.ityouknow.com/java/2017/02/22/jvm-tool.html)
+
+
 ## 实战
 
 - [一次生产事故的优化经历](http://www.ityouknow.com/%E4%BC%98%E5%8C%96/2017/02/06/%E4%B8%80%E6%AC%A1%E7%94%9F%E4%BA%A7%E4%BA%8B%E6%95%85%E7%9A%84%E4%BC%98%E5%8C%96%E7%BB%8F%E5%8E%86.html)  
