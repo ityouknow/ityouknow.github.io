@@ -1,6 +1,6 @@
 ---
 layout: post
-title: jvm系列(八):jvm知识点总览-高级Java工程师面试必备
+title: jvm系列(八):jvm知识点总览
 category: java 
 tags: [java]
 ---
