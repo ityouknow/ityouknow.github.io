@@ -50,7 +50,7 @@ tags: [云收藏]
 
 ## 技术点
 
-这段时间我们团队主要在学习spring boot,这个开源项目也就成了我们的练习新技术的一个非常好的产品，主要的技术都是和spring boot相关，可以参考我以前文章 [spring boot系列文章](http://www.cnblogs.com/ityouknow/)
+这段时间我们团队主要在学习spring boot,这个开源项目也就成了我们的练习新技术的一个非常好的产品，主要的技术都是和spring boot相关，可以参考我以前文章 [spring boot系列文章](http://www.ityouknow.com/spring-boot)
 
 ### 网页端
 
