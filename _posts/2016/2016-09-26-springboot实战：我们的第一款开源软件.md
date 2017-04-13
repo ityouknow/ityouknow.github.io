@@ -13,7 +13,7 @@ tags: [云收藏]
 
 浏览器收藏夹应该是我们在收藏文章、网站的第一个利器，平时遇到喜欢的网站或者文章很方便的收藏到收藏夹中；很快我们的收藏夹就满了，于是就像我这样,创建文件夹来分组两层、三层都有：
 
-![favorites_chrome](/assets/images/2016/favorites_chrome.jpg)  
+![favorites_chrome](http://www.ityouknow.com/assets/images/2016/favorites_chrome.jpg)  
 
 
 有的也会借助百度首页导航这样的一些功能来整理自己收藏的网站，以前我记得QQ还有一款产品叫做网络收藏夹，用过一段时间，后来QQ也把这款产品给淘汰了；也尝试了去用印象笔记、有道笔记这些产品，这些产品都偏向收藏一些具体的文章或者自己整理的日志信息方面。
@@ -36,16 +36,16 @@ tags: [云收藏]
 放产品一些截图:
 
 主页  
-![favorites_chrome](/assets/images/2016/favorites_index.png)  
+![favorites_chrome](http://www.ityouknow.com/assets/images/2016/favorites_index.png)  
 
 注册  
-![favorites_chrome](/assets/images/2016/favorites_register.png)  
+![favorites_chrome](http://www.ityouknow.com/assets/images/2016/favorites_register.png)  
 
 首页  
-![favorites_chrome](/assets/images/2016/favorites_home.png)  
+![favorites_chrome](http://www.ityouknow.com/assets/images/2016/favorites_home.png)  
 
 收藏  
-![favorites_chrome](/assets/images/2016/favorites_collect.png)  
+![favorites_chrome](http://www.ityouknow.com/assets/images/2016/favorites_collect.png)  
 
 
 ## 技术点
