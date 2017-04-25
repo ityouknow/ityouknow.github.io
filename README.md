@@ -4,3 +4,10 @@
 
 
 访问地址：[http://www.ityouknow.com/](http://www.ityouknow.com/)
+
+
+
+
+## 我的公共账号
+
+![](http://www.ityouknow.com/assets/images/keeppuresmile.jpg)
