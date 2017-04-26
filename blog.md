@@ -8,10 +8,9 @@ css: ['blog-page.css']
 
 ## 近期文章
 
-- [那些年我们租过的房子](http://www.ityouknow.com/life/2017/04/21/house-rented.html)
+- [那些年，我们租过的房子](http://www.ityouknow.com/life/2017/04/21/house-rented.html)
 - [你看那个人他像一条狗](http://www.ityouknow.com/career/2017/03/26/programmer-confused.html)
 - [百亿互金平台救火故事](http://www.ityouknow.com/%E4%BC%98%E5%8C%96/2017/02/16/%E7%99%BE%E4%BA%BF%E4%BA%92%E9%87%91%E5%B9%B3%E5%8F%B0%E6%95%91%E7%81%AB%E6%95%85%E4%BA%8B.html)
-- [jvm系列(八):jvm知识点总览-高级Java工程师面试必备](http://www.ityouknow.com/java/2017/03/01/jvm-overview.html)
 
 
 ## 实战
@@ -26,7 +25,7 @@ css: ['blog-page.css']
 ## 生活
 
 - [你看那个人他像一条狗](http://www.ityouknow.com/career/2017/03/26/programmer-confused.html)
-- [那些年我们租过的房子](http://www.ityouknow.com/life/2017/04/21/house-rented.html)
+- [那些年，我们租过的房子](http://www.ityouknow.com/life/2017/04/21/house-rented.html)
 - [六年程序生涯](http://www.ityouknow.com/%E5%85%AD%E5%B9%B4/2016/11/20/%E5%85%AD%E5%B9%B4%E7%A8%8B%E5%BA%8F%E7%94%9F%E6%B6%AF.html)
 - [程序员该用哪种姿势来理财](http://www.ityouknow.com/%E7%94%9F%E6%B4%BB/2016/05/08/%E7%A8%8B%E5%BA%8F%E5%91%98%E8%AF%A5%E7%94%A8%E5%93%AA%E7%A7%8D%E5%A7%BF%E5%8A%BF%E6%9D%A5%E7%90%86%E8%B4%A2.html)
 - [2016颠倒梦想,2017静心前行](http://www.ityouknow.com/%E7%94%9F%E6%B4%BB/2017/01/01/2016%E9%A2%A0%E5%80%92%E6%A2%A6%E6%83%B3,2017%E9%9D%99%E5%BF%83%E5%89%8D%E8%A1%8C.html)
@@ -56,7 +55,7 @@ css: ['blog-page.css']
 - [jvm系列(五):tomcat性能调优和性能监控（visualvm）](http://www.cnblogs.com/ityouknow/p/5378874.html)
 - [jvm系列(六):jvm调优-从eclipse开始](http://www.cnblogs.com/ityouknow/p/5647513.html)
 - [jvm系列(七):jvm调优-工具篇](http://www.ityouknow.com/java/2017/02/22/jvm-tool.html)
-- [jvm系列(八):jvm知识点总览-高级Java工程师面试必备](http://www.ityouknow.com/java/2017/03/01/jvm-overview.html)
+- [jvm系列(八):jvm知识点总览](http://www.ityouknow.com/java/2017/03/01/jvm-overview.html)
 
 
 ## 爬虫
