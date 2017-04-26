@@ -44,3 +44,10 @@ tags: [life]
 {:.center}
 ![](http://www.ityouknow.com/assets/images/keeppuresmile_430.jpg)
 
+
+
+-------------
+
+**作者：纯洁的微笑**  
+**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/life/2017/04/26/open-wechat.html)**      
+**版权归作者所有，转载请注明出处** 
