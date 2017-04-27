@@ -109,9 +109,9 @@ pom.xml文件中默认有两个模块：
 
 ```spring-boot-starter``` ：核心模块，包括自动配置支持、日志和YAML；
 
-```spring-boot-starter-test```：测试模块，包括JUnit、Hamcrest、Mockito。
+```spring-boot-starter-test```：测试模块，包括JUnit、Hamcrest、Mockito。  
 
-2、编写controller内容
+2、编写controller内容：
 
 ``` java
 @RestController
