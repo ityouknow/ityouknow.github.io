@@ -46,7 +46,7 @@ Spring Boot是由Pivotal团队提供的全新框架，其设计目的是用来�
 - 2、选择构建工具Maven Project、Spring Boot版本1.3.6以及一些工程基本信息，点击“Switch to the full version.”java版本选择1.7，可参考下图所示：
 
 {:.center}
-![](http://www.ityouknow.com/assets/images/2016/springboot1.jpg)  
+![](http://www.ityouknow.com/assets/images/2016/springboot1.png)
 
 - 3、点击Generate Project下载项目压缩包
 - 4、解压后，使用eclipse，Import -> Existing Maven Projects -> Next ->选择解压后的文件夹-> Finsh，OK done!
@@ -55,7 +55,7 @@ Spring Boot是由Pivotal团队提供的全新框架，其设计目的是用来�
 **项目结构介绍**
 
 {:.center}
-![](http://www.ityouknow.com/assets/images/2016/springboot2.jpg)  
+![](http://www.ityouknow.com/assets/images/2016/springboot2.png)  
 
 
 如上图所示，Spring Boot的基础结构共三个文件:
@@ -105,8 +105,10 @@ com
  </dependency>
 ```
 
-pom.xml文件中默认有两个模块：  
-```spring-boot-starter```：核心模块，包括自动配置支持、日志和YAML；  
+pom.xml文件中默认有两个模块：
+
+```spring-boot-starter```：核心模块，包括自动配置支持、日志和YAML；
+
 ```spring-boot-starter-test```：测试模块，包括JUnit、Hamcrest、Mockito。
 
 2、编写controller内容
