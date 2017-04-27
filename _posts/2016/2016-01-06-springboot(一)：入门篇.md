@@ -107,7 +107,7 @@ com
 
 pom.xml文件中默认有两个模块：
 
-```spring-boot-starter```：核心模块，包括自动配置支持、日志和YAML；
+```spring-boot-starter``` ：核心模块，包括自动配置支持、日志和YAML；
 
 ```spring-boot-starter-test```：测试模块，包括JUnit、Hamcrest、Mockito。
 
@@ -123,7 +123,7 @@ public class HelloWorldController {
 }
 ```
 
-```@RestController```的意思就是controller里面的方法都以json格式输出，不用再写什么jackjson配置的了！
+```@RestController``` 的意思就是controller里面的方法都以json格式输出，不用再写什么jackjson配置的了！
 
 3、启动主程序，打开浏览器访问http://localhost:8080/hello，就可以看到效果了，有木有很简单！
 
