@@ -10,4 +10,4 @@
 
 ## 我的公共账号
 
-![](http://www.ityouknow.com/assets/images/keeppuresmile.jpg)
+![](http://www.ityouknow.com/assets/images/keeppuresmile_430.jpg)
