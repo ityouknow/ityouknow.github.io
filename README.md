@@ -6,6 +6,7 @@
 访问地址：[http://www.ityouknow.com/](http://www.ityouknow.com/)
 
 
+博客主题使用:[Yummy-Jekyll](https://github.com/DONGChuan/Yummy-Jekyll)
 
 
 ## 我的公共账号
