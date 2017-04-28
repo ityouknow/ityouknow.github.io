@@ -125,7 +125,7 @@ Spring Boot式的启动项目，为Spring Cloud提供开箱即用的依赖管理
 
 ##  和Spring boot 是什么关系
 
-Spring boot 是 Spring 的一套快速配置脚手架，可以基于spring boot 快速开发单个微服务，Spring Cloud是一个基于Spring Boot实现的云应用开发工具；Spring boot专注于快速、方便集成的单个个体，Spring Cloud是关注全局的服务治理框架；spring boot使用了默认大于配置的理念，很多集成方案已经帮你选择好了，能不配置就不配置，Spring Cloud很大的一部分是基于Spring boot来实现,可以不基于Spring boot吗？也可以就是需要费很多其它的功夫。
+Spring boot 是 Spring 的一套快速配置脚手架，可以基于spring boot 快速开发单个微服务，Spring Cloud是一个基于Spring Boot实现的云应用开发工具；Spring boot专注于快速、方便集成的单个个体，Spring Cloud是关注全局的服务治理框架；spring boot使用了默认大于配置的理念，很多集成方案已经帮你选择好了，能不配置就不配置，Spring Cloud很大的一部分是基于Spring boot来实现,可以不基于Spring boot吗？不可以。
 
 Spring boot可以离开Spring Cloud独立使用开发项目，但是Spring Cloud离不开Spring boot，属于依赖的关系。
 
@@ -135,7 +135,7 @@ Spring boot可以离开Spring Cloud独立使用开发项目，但是Spring Cloud
 微服务的框架那么多比如：dubbo、Kubernetes，为什么就要使用Spring Cloud的呢？
 
 - 产出于spring大家族，spring在企业级开发框架中无人能敌，来头很大，可以保证后续的更新、完善。比如dubbo现在就差不多死了
-- 有spring Boot 这个独立干将可以省很多的代码量，方便快速不是使用。
+- 有spring Boot 这个独立干将可以省很多事，大大小小的活spring boot都搞的挺不错。
 - 作为一个微服务治理的大家伙，考虑的很全面，几乎服务治理的方方面面都考虑到了，方便开发开箱即用。
 - Spring Cloud 活跃度很高，教程很丰富，遇到问题很容易找到解决方案
 
@@ -145,7 +145,7 @@ Spring Cloud 也有一个缺点，只能使用Java开发。
 -------------
 
 **作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/life/2017/04/26/open-wechat.html)**      
+**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/springcloud/2017/05/01/simple-springcloud.html)**      
 **版权归作者所有，转载请注明出处** 
 
 
