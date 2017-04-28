@@ -141,7 +141,7 @@ Spring boot可以离开Spring Cloud独立使用开发项目，但是Spring Cloud
 - 作为一个微服务治理的大家伙，考虑的很全面，几乎服务治理的方方面面都考虑到了，方便开发开箱即用。
 - Spring Cloud 活跃度很高，教程很丰富，遇到问题很容易找到解决方案
 
-Spring Cloud 也有一个缺点，只能使用Java开发。
+Spring Cloud 也有一个缺点，只能使用Java开发,不适合小型独立的项目。
 
 
 -------------
