@@ -8,6 +8,8 @@ css: ['blog-page.css']
 
 ## 近期文章
 
+- [给你1000万你可以把生活过的更好吗？](http://www.ityouknow.com/life/2017/05/05/1000-and-life.html)
+- [springcloud(一)：大话Spring Cloud](http://www.ityouknow.com/springcloud/2017/05/01/simple-springcloud.html)
 - [我开通了微信公众号](http://www.ityouknow.com/life/2017/04/26/open-wechat.html)
 - [那些年，我们租过的房子](http://www.ityouknow.com/life/2017/04/21/house-rented.html)
 - [你看那个人他像一条狗](http://www.ityouknow.com/career/2017/03/26/programmer-confused.html)
@@ -25,6 +27,8 @@ css: ['blog-page.css']
 
 ## 生活
 
+- [给你1000万你可以把生活过的更好吗？](http://www.ityouknow.com/life/2017/05/05/1000-and-life.html)
+- [你看那个人他像一条狗](http://www.ityouknow.com/career/2017/03/26/programmer-confused.html)
 - [你看那个人他像一条狗](http://www.ityouknow.com/career/2017/03/26/programmer-confused.html)
 - [那些年，我们租过的房子](http://www.ityouknow.com/life/2017/04/21/house-rented.html)
 - [六年程序生涯](http://www.ityouknow.com/%E5%85%AD%E5%B9%B4/2016/11/20/%E5%85%AD%E5%B9%B4%E7%A8%8B%E5%BA%8F%E7%94%9F%E6%B6%AF.html)
@@ -32,6 +36,11 @@ css: ['blog-page.css']
 - [2016颠倒梦想,2017静心前行](http://www.ityouknow.com/%E7%94%9F%E6%B4%BB/2017/01/01/2016%E9%A2%A0%E5%80%92%E6%A2%A6%E6%83%B3,2017%E9%9D%99%E5%BF%83%E5%89%8D%E8%A1%8C.html)
 - [发现另外一个世界-网盘关闭背后](http://www.ityouknow.com/%E7%94%9F%E6%B4%BB/2017/01/18/%E5%8F%91%E7%8E%B0%E5%8F%A6%E5%A4%96%E4%B8%80%E4%B8%AA%E4%B8%96%E7%95%8C.html)
 - [我开通了微信公众号](http://www.ityouknow.com/life/2017/04/26/open-wechat.html)
+
+
+## spring cloud 
+
+- [springcloud(一)：大话Spring Cloud](http://www.ityouknow.com/springcloud/2017/05/01/simple-springcloud.html)
 
 
 ## spring boot 
