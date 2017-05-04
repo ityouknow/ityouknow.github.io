@@ -126,7 +126,7 @@ public void sendHtmlMail(String to, String subject, String content) {
 public void testHtmlMail() throws Exception {
     String content="<html>\n" +
             "<body>\n" +
-            "    <h3>hello world ! 这是一封模板邮件!</h3>\n" +
+            "    <h3>hello world ! 这是一封Html邮件!</h3>\n" +
             "</body>\n" +
             "</html>";
     MailService.sendHtmlMail("ityouknow@126.com","test simple mail",content);
