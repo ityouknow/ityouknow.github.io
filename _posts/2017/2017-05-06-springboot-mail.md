@@ -293,5 +293,5 @@ public void sendTemplateMail() {
 -------------
 
 **作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/life/2017/05/06/springboot-mail.html)**      
+**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/springboot/2017/05/06/springboot-mail.html)**      
 **版权归作者所有，转载请注明出处** 

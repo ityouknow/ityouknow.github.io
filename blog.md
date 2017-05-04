@@ -8,9 +8,9 @@ css: ['blog-page.css']
 
 ## 近期文章
 
+- [springboot(十)：邮件服务](http://www.ityouknow.com/springboot/2017/05/06/springboot-mail.html)
 - [给你1000万你可以把生活过的更好吗？](http://www.ityouknow.com/life/2017/05/05/1000-and-life.html)
 - [springcloud(一)：大话Spring Cloud](http://www.ityouknow.com/springcloud/2017/05/01/simple-springcloud.html)
-- [我开通了微信公众号](http://www.ityouknow.com/life/2017/04/26/open-wechat.html)
 - [那些年，我们租过的房子](http://www.ityouknow.com/life/2017/04/21/house-rented.html)
 - [你看那个人他像一条狗](http://www.ityouknow.com/career/2017/03/26/programmer-confused.html)
 - [百亿互金平台救火故事](http://www.ityouknow.com/%E4%BC%98%E5%8C%96/2017/02/16/%E7%99%BE%E4%BA%BF%E4%BA%92%E9%87%91%E5%B9%B3%E5%8F%B0%E6%95%91%E7%81%AB%E6%95%85%E4%BA%8B.html)
@@ -48,6 +48,7 @@ css: ['blog-page.css']
 - [springboot(七)：springboot+mybatis多数据源最简解决方案](http://www.ityouknow.com/springboot/2016/11/25/springboot(%E4%B8%83)-springboot+mybatis%E5%A4%9A%E6%95%B0%E6%8D%AE%E6%BA%90%E6%9C%80%E7%AE%80%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.html)
 - [springboot(八)：RabbitMQ详解](http://www.ityouknow.com/springboot/2016/11/30/springboot(%E5%85%AB)-RabbitMQ%E8%AF%A6%E8%A7%A3.html)
 - [springboot(九)：定时任务](http://www.ityouknow.com/springboot/2016/12/02/springboot(%E4%B9%9D)-%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1.html)
+- [springboot(十)：邮件服务](http://www.ityouknow.com/springboot/2017/05/06/springboot-mail.html)
 - [springboot实战：我们的第一款开源软件](http://www.ityouknow.com/springboot/2016/09/26/springboot%E5%AE%9E%E6%88%98-%E6%88%91%E4%BB%AC%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%BE%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6.html)
 
 
