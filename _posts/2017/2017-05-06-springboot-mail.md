@@ -284,7 +284,7 @@ public void sendTemplateMail() {
 - 2、调用邮件发送接口发送邮件，并且将发送结果记录入库。
 - 3、启动定时系统扫描时间段内，未发送成功并且重试次数小于3次的邮件，进行再次发送
 
-[完整代码在这里](https://github.com/ityouknow/spring-boot-starter/tree/master/spring-boot-scheduler)
+[完整代码在这里](https://github.com/ityouknow/spring-boot-starter/tree/master/spring-boot-mail)
 
 **参考:**
 [spring boot 发送邮件](http://blog.csdn.net/clementad/article/details/51833416)
