@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 收集关于Spring boot的文章集合
-category: Spring
-tags: [Spring boot]
+category: spirngboot
+tags: [spirngboot]
 ---
 
 收集Spring boot相关的一些相关文章
@@ -20,6 +20,10 @@ tags: [Spring boot]
 5、[spring boot demo](https://github.com/spring-projects/spring-boot/tree/master/spring-boot-samples/spring-boot-sample-data-jpa-thymeleaf)
 
 
+
+## sping boot 博客
+
+[]()
 
 
 
