@@ -1,6 +1,6 @@
 ---
 layout: post
-title: springboot(十)：Spring boot中mongodb的使用
+title: springboot(十一)：Spring boot中mongodb的使用
 category: springboot 
 tags: [springboot]
 ---
@@ -57,7 +57,7 @@ public class UserEntity implements Serializable {
 }
 ```
 
-### 3、 创建实体dao的增删改查操作
+### 3、创建实体dao的增删改查操作
 
 dao层实现了UserEntity对象的增删改查
 
@@ -117,7 +117,7 @@ public class UserDaoImpl implements UserDao {
 ```
 
 
-### 4、 开发对应的测试方法
+### 4、开发对应的测试方法
 
 
 ``` java
@@ -161,3 +161,12 @@ public class UserDaoTest {
 ```
 
 到此springboot对应mongodb的增删改查功能已经全部实现。
+
+**[示例代码](https://github.com/ityouknow/spring-boot-starter)**
+
+
+-------------
+
+**作者：纯洁的微笑**  
+**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/springboot/2017/05/08/springboot-mongodb.html)**      
+**版权归作者所有，转载请注明出处** 
