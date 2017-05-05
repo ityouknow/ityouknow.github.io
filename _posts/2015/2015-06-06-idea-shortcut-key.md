@@ -9,8 +9,8 @@ tags: [idea]
 
 1、进入实现方法的快捷键
 
-> Ctrl-Alt-B 
-
+> Ctrl + Alt + B 
+> > Ctrl + Alt + 鼠标点击
 
 2、自动给方法添加注释的快捷键
 
@@ -18,9 +18,20 @@ tags: [idea]
 
 3、删除一行
 
-> CTRL+Y / CTRL+X
+> CTRL + Y / CTRL + X
 
+4、复制一行
 
-3、复制一行
+> CTRL + D
 
-> CTRL+D
+5、自动导入包
+
+> ALT + Enter
+
+6、生成getter、setter方式
+
+> ALT + insert
+
+7、实现接口方法
+
+> CTRL + O
