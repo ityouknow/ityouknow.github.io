@@ -35,3 +35,7 @@ tags: [idea]
 7、实现接口方法
 
 > CTRL + O
+
+8、移动整个代码块
+
+> Ctrl + SHIfT + 上下箭头 
