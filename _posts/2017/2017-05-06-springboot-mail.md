@@ -29,8 +29,8 @@ pom包里面添加spring-boot-starter-mail包引用
 
 ``` properties
 spring.mail.host=smtp.qiye.163.com //邮箱服务器地址
-spring.mail.username=xxx@oo.com //邮箱服务器地址
-spring.mail.password=xxyyooo    //邮箱密码
+spring.mail.username=xxx@oo.com //用户名
+spring.mail.password=xxyyooo    //密码
 spring.mail.default-encoding=UTF-8
 
 mail.fromMail.addr=xxx@oo.com  //以谁来发送邮件
