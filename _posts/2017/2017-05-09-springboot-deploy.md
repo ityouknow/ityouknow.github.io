@@ -259,5 +259,5 @@ war会生成在build\libs 目录下。
 -------------
 
 **作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/springboot/2017/05/08/springboot-mongodb.html)**      
+**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/springboot/2017/05/09/springboot-deploy.html)**      
 **版权归作者所有，转载请注明出处** 
