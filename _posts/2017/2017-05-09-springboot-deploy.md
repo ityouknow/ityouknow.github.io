@@ -167,27 +167,6 @@ gradle build
 java -jar build/libs/mymodule-0.0.1-SNAPSHOT.jar
 ```
 
-**查看JVM参数的值**  
-
-可以根据java自带的jinfo命令：
-
-``` shell
-jinfo -flags pid
-```
-
-来查看jar 启动后使用的是什么gc、新生代、老年代分批的内存都是多少，示例如下：
-
-``` shell
--XX:CICompilerCount=3 -XX:InitialHeapSize=234881024 -XX:MaxHeapSize=3743416320 -XX:MaxNewSize=1247805440 -XX:MinHeapDeltaBytes=524288 -XX:NewSize=78118912 -XX:OldSize=156762112 -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseFastUnorderedTimeStamps -XX:+UseParallelGC
-```
-
-- ```-XX:CICompilerCount ``` ：最大的并行编译数
-- ```-XX:InitialHeapSize``` 和 ```-XX:MaxHeapSize``` ：指定JVM的初始和最大堆内存大小  
-- ```-XX:MaxNewSize``` ： JVM堆区域新生代内存的最大可分配大小
-- ...   
-- ```-XX:+UseParallelGC``` ：垃圾回收使用Parallel收集器
-
-
 ### 打成war包
 
 打成war包一般可以分两种方式来实现，第一种可以通过eclipse这种开发工具来导出war包，另外一种是使用命令来完成，这里主要介绍后一种
@@ -272,10 +251,100 @@ gradle build
 war会生成在build\libs 目录下。
 
 
+## 生产运维
+
+###  查看JVM参数的值 
+
+可以根据java自带的jinfo命令：
+
+``` shell
+jinfo -flags pid
+```
+
+来查看jar 启动后使用的是什么gc、新生代、老年代分批的内存都是多少，示例如下：
+
+``` shell
+-XX:CICompilerCount=3 -XX:InitialHeapSize=234881024 -XX:MaxHeapSize=3743416320 -XX:MaxNewSize=1247805440 -XX:MinHeapDeltaBytes=524288 -XX:NewSize=78118912 -XX:OldSize=156762112 -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseFastUnorderedTimeStamps -XX:+UseParallelGC
+```
+
+- ```-XX:CICompilerCount ``` ：最大的并行编译数
+- ```-XX:InitialHeapSize``` 和 ```-XX:MaxHeapSize``` ：指定JVM的初始和最大堆内存大小  
+- ```-XX:MaxNewSize``` ： JVM堆区域新生代内存的最大可分配大小
+- ...   
+- ```-XX:+UseParallelGC``` ：垃圾回收使用Parallel收集器
+
+
+### 如何重启
+
+*简单粗暴*
+
+直接kill掉进程再次启动jar包
+
+``` shell
+ps -ef|grep java 
+##拿到对于Java程序的pid
+kill -9 pid
+## 再次重启
+Java -jar  xxxx.jar
+```
+
+当然这种方式比较传统和暴力，所以建议大家使用下面的方式来管理
+
+
+*脚本执行*
+    
+如果使用的是maven,需要包含以下的配置
+
+``` xml
+<plugin>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-maven-plugin</artifactId>
+    <configuration>
+        <executable>true</executable>
+    </configuration>
+</plugin>
+```
+
+如果使用是gradle，需要包含下面配置
+
+``` shell
+springBoot {
+    executable = true
+}
+```
+
+做一个软链接指向你的jar包并加入到```init.d```中或者将jar包封装成一个服务来管理。
+
+init.d 例子:
+
+``` shell
+$ln -s /var/yourapp/yourapp.jar /etc/init.d/yourapp
+```
+
+这样就可以使用```stop```或者是```restart```命令去管理你的应用。
+
+``` shell
+$/etc/init.d/yourapp start|stop|restart
+```
+
+或者添加脚本，将jar包注册为服务
+
+``` shell
+[Unit]
+Description=yourapp
+After=syslog.target
+
+[Service]
+ExecStart=/var/yourapp/yourapp.jar
+
+[Install]
+WantedBy=multi-user.target
+```
+
+
 到此 springboot项目如何测试、联调和打包投产均已经介绍完，以后可以找时间研究一下springboot的自动化运维，以及spring boot 和docker相结合的使用。
 
 **[示例代码](https://github.com/ityouknow/spring-boot-starter)**
-
 
 -------------
 
