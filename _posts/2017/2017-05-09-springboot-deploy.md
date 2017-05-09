@@ -1,6 +1,6 @@
 ---
 layout: post
-title: springboot(十二)：springboot如何部署
+title: springboot(十二)：springboot如何测试打包部署
 category: springboot 
 tags: [springboot]
 ---
