@@ -276,7 +276,7 @@ jinfo -flags pid
 
 ### 如何重启
 
-*简单粗暴*
+**简单粗暴**
 
 直接kill掉进程再次启动jar包
 
@@ -291,7 +291,7 @@ Java -jar  xxxx.jar
 当然这种方式比较传统和暴力，所以建议大家使用下面的方式来管理
 
 
-*脚本执行*
+**脚本执行**
     
 如果使用的是maven,需要包含以下的配置
 
@@ -313,38 +313,41 @@ springBoot {
 }
 ```
 
-做一个软链接指向你的jar包并加入到```init.d```中或者将jar包封装成一个服务来管理。
+启动方式：
+
+1、 可以直接```./yourapp.jar``` 来启动
+
+2、注册为服务
+
+也可以做一个软链接指向你的jar包并加入到```init.d```中，然后用命令来启动。
 
 init.d 例子:
 
 ``` shell
-$ln -s /var/yourapp/yourapp.jar /etc/init.d/yourapp
+ln -s /var/yourapp/yourapp.jar /etc/init.d/yourapp
+chmod +x /etc/init.d/yourapp
 ```
 
 这样就可以使用```stop```或者是```restart```命令去管理你的应用。
 
 ``` shell
-$/etc/init.d/yourapp start|stop|restart
+/etc/init.d/yourapp start|stop|restart
 ```
 
-或者添加脚本，将jar包注册为服务
+或者
 
 ``` shell
-[Unit]
-Description=yourapp
-After=syslog.target
-
-[Service]
-ExecStart=/var/yourapp/yourapp.jar
-
-[Install]
-WantedBy=multi-user.target
+service yourapp  start|stop|restart
 ```
 
 
 到此 springboot项目如何测试、联调和打包投产均已经介绍完，以后可以找时间研究一下springboot的自动化运维，以及spring boot 和docker相结合的使用。
 
 **[示例代码](https://github.com/ityouknow/spring-boot-starter)**
+
+**参考:**
+[Installing Spring Boot applications](http://docs.spring.io/spring-boot/docs/current/reference/html/deployment-install.html)
+
 
 -------------
 
