@@ -278,7 +278,7 @@ public void send(User user) {
 
 ...
 
-//接受者
+//接收者
 @RabbitHandler
 public void process(User user) {
     System.out.println("Receiver object : " + user);
