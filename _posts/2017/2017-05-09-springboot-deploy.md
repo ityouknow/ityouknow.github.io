@@ -167,9 +167,9 @@ gradle build
 java -jar build/libs/mymodule-0.0.1-SNAPSHOT.jar
 ```
 
-**查看启动后的各项内存参数**  
+**查看JVM参数的值**  
 
-可以根据java自带的命令：
+可以根据java自带的jinfo命令：
 
 ``` shell
 jinfo -flags pid
