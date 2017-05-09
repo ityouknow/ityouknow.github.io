@@ -167,6 +167,27 @@ gradle build
 java -jar build/libs/mymodule-0.0.1-SNAPSHOT.jar
 ```
 
+**查看启动后的各项内存参数**  
+
+可以根据java自带的命令：
+
+``` shell
+jinfo -flags pid
+```
+
+来查看jar 启动后使用的是什么gc、新生代、老年代分批的内存都是多少，示例如下：
+
+``` shell
+-XX:CICompilerCount=3 -XX:InitialHeapSize=234881024 -XX:MaxHeapSize=3743416320 -XX:MaxNewSize=1247805440 -XX:MinHeapDeltaBytes=524288 -XX:NewSize=78118912 -XX:OldSize=156762112 -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseFastUnorderedTimeStamps -XX:+UseParallelGC
+```
+
+- ```-XX:CICompilerCount ``` ：最大的并行编译数
+- ```-XX:InitialHeapSize``` 和 ```-XX:MaxHeapSize``` ：指定JVM的初始和最大堆内存大小  
+- ```-XX:MaxNewSize``` ： JVM堆区域新生代内存的最大可分配大小
+- ...   
+- ```-XX:+UseParallelGC``` ：垃圾回收使用Parallel收集器
+
+
 ### 打成war包
 
 打成war包一般可以分两种方式来实现，第一种可以通过eclipse这种开发工具来导出war包，另外一种是使用命令来完成，这里主要介绍后一种
