@@ -95,7 +95,7 @@ Eureka由两个组件组成：Eureka服务器和Eureka客户端。Eureka服务�
 ## 案例实践
 
 
-### 启动一个Eureka
+### Eureka Server
 
 spring cloud已经帮我实现了服务注册中心，我们只需要很简单的几个步骤就可以完成。
 
@@ -159,11 +159,11 @@ eureka.client.serviceUrl.defaultZone=http://localhost:${server.port}/eureka/
 ![](http://www.ityouknow.com/assets/images/2017/springcloud/eureka_start.jpg)
 
 
-### 注册中心集群
+## 集群
 
 注册中心这么关键的服务，如果是单点话，遇到故障就是毁灭性的。在一个分布式系统中，服务注册中心是最重要的基础部分，理应随时处于可以提供服务的状态。为了维持其可用性，使用集群是很好的解决方案。Eureka通过互相注册的方式来实现高可用的部署，所以我们只需要将Eureke Server配置其他可用的serviceUrl就能实现高可用部署。
 
-## 双节点注册中心
+### 双节点注册中心
 
 首次我们尝试一下双节点的注册中心的搭建。
 
@@ -220,7 +220,7 @@ java -jar spring-cloud-eureka-0.0.1-SNAPSHOT.jar --spring.profiles.active=peer2
 到此双节点的配置已经完成。
 
 
-## eureka集群使用
+### eureka集群使用
 
 在生产中我们可能需要三台或者大于三台的注册中心来保证服务的稳定性，配置的原理其实都一样，将注册中心分别指向其它的注册中心。这里只介绍三台集群的配置情况，其实和双节点的注册中心类似，每台注册中心分别又指向其它两个节点即可，使用application.yml来配置。
 
