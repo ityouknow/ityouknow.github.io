@@ -337,7 +337,7 @@ chmod +x /etc/init.d/yourapp
 或者
 
 ``` shell
-service yourapp  start|stop|restart
+service yourapp start|stop|restart
 ```
 
 
