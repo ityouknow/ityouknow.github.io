@@ -9,7 +9,7 @@ tags: [springcloud]
 
 案例中有三个角色：服务注册中心、服务提供者、服务消费者，其中服务注册中心就是我们上一篇的eureka单机版启动既可，流程是首先启动注册中心，服务提供者生产服务并注册到服务中心中，消费者从服务中心中获取服务并执行。
 
-## 服务提供者
+## 服务提供
 
 我们假设服务提供者有一个hello方法，可以根据传入的参数，提供输出“hello  xxx，this is first messge”的服务
 
@@ -76,7 +76,7 @@ public class HelloController {
 
 到此服务提供者配置就完成了。
 
-### 消费者
+## 服务调用
 
 ### 1、pom包配置
 
@@ -164,27 +164,31 @@ public class ConsumerController {
 
 到此，最简单的一个服务注册与调用的例子就完成了。
 
+
 ## 测试
 
-## 简单调用
+### 简单调用
 依次启动spring-cloud-eureka、spring-cloud-producer、spring-cloud-consumer三个项目
 
 先输入：```http://localhost:9000/hello?name=neo``` 检查spring-cloud-producer服务是否正常
 
 返回：  
+
 ```hello neo，this is first messge```
 
 说明spring-cloud-producer正常启动，提供的服务也正常。
 
 浏览器中输入：  
+
 ```http://localhost:9001/hello/neo```  
 
 返回：  
+
 ```hello neo，this is first messge```
 
 说明客户端已经成功的通过feign调用了远程服务hello，并且将结果返回到了浏览器。
 
-## 负载均衡
+### 负载均衡
 
 以上面spring-cloud-producer为例子修改，将其中的controller改动如下：
 
