@@ -13,7 +13,7 @@ tags: [springcloud]
 
 我们假设服务提供者有一个hello方法，可以根据传入的参数，提供输出“hello  xxx，this is first messge”的服务
 
-### 1、pom文包配置
+### 1、pom包配置
 
 创建一个springboot项目，pom.xml中添加如下配置：
 
@@ -43,7 +43,9 @@ eureka.client.serviceUrl.defaultZone=http://localhost:8000/eureka/
 
 参数在上一篇都已经解释过，这里不多说。
 
-### 3、启动类中添加```@EnableDiscoveryClient```注解
+### 3、启动类
+
+启动类中添加```@EnableDiscoveryClient```注解
 
 ``` java
 @SpringBootApplication
@@ -56,7 +58,9 @@ public class ProducerApplication {
 }
 ```
 
-### 4、controller提供hello服务
+### 4、controller
+
+提供hello服务
 
 ``` java
 @RestController
