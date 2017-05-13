@@ -172,19 +172,13 @@ public class ConsumerController {
 
 先输入：```http://localhost:9000/hello?name=neo``` 检查spring-cloud-producer服务是否正常
 
-返回：  
-
-```hello neo，this is first messge```
+返回：```hello neo，this is first messge```
 
 说明spring-cloud-producer正常启动，提供的服务也正常。
 
-浏览器中输入：  
+浏览器中输入：```http://localhost:9001/hello/neo```  
 
-```http://localhost:9001/hello/neo```  
-
-返回：  
-
-```hello neo，this is first messge```
+返回：```hello neo，this is first messge``` 
 
 说明客户端已经成功的通过feign调用了远程服务hello，并且将结果返回到了浏览器。
 
@@ -218,17 +212,9 @@ eureka.client.serviceUrl.defaultZone=http://localhost:8000/eureka/
 
 然后在浏览器再次输入：```http://localhost:9001/hello/neo```  进行测试：
 
-第一次返回结果如下：
+第一次返回结果：```hello neo，this is first messge```
 
-```
-hello neo，this is first messge
-```
-
-第二次返回结果如下：
-
-```
-hello neo，this is producer 2  send first messge
-```
+第二次返回结果：```hello neo，this is producer 2  send first messge```
 
 不断的进行测试下去会发现两种结果交替出现，说明两个服务中心自动提供了服务均衡负载的功能。如果我们将服务提供者的数量在提高为N个，测试结果一样，请求会自动轮询到每个服务端来处理。
 
