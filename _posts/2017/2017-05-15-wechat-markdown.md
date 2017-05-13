@@ -93,7 +93,7 @@ public static void main(String[] args) {
 
 
 
-我的公众号是：纯洁的微笑（KeepPureSmile），欢迎大家一起交流。
+我的公众号是：纯洁的微笑（KeepPureSmile），欢迎大家关注一起交流。
 
 {:.center}
 ![](http://www.ityouknow.com/assets/images/keeppuresmile_430.jpg)
