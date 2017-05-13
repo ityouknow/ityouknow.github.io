@@ -226,10 +226,15 @@ hello neo，this is first messge
 hello neo，this is producer 2  send first messge
 ```
 
-不断的进行测试下去会发现两种结果交替出现，说明两个producer自动提供了均衡负载的功能。如果我们将服务提供者的数量在提高为N个，测试结果一样，请求会自动轮询到每个服务端来处理。
+不断的进行测试下去会发现两种结果交替出现，说明两个服务中心自动提供了服务均衡负载的功能。如果我们将服务提供者的数量在提高为N个，测试结果一样，请求会自动轮询到每个服务端来处理。
 
 
 
+-------------
+
+**作者：纯洁的微笑**  
+**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/springcloud/2017/05/12/service-provider-constomer.html)**      
+**版权归作者所有，转载请注明出处** 
 
 
 
