@@ -20,7 +20,7 @@ menu: Link
 ## 推荐网站
 - [云收藏](http://www.favorites.ren/) - 云收藏，让收藏更简单。一个在线云端的网络收藏夹，可以分享和查看其它人分享
 - [wherebt](http://wherebt.com/) - 提供各种BT资源导航,主要收录了bt sync keys的分享网站
-- [公众号编辑器](http://md.ityouknow.com/) - 可以优雅的方式在微信公众号去发布markdown编写的文章
+- [公众号编辑器](http://md.ityouknow.com/) - 可以以优雅的方式在微信公众号去发布markdown文章
 
 
 
