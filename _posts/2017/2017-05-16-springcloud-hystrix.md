@@ -55,10 +55,9 @@ Fallback相当于是降级操作. 对于查询操作, 我们可以实现一个fa
 在Hystrix中, 主要通过线程池来实现资源隔离. 通常在使用的时候我们会根据调用的远程服务划分出多个线程池. 例如调用产品服务的Command放入A线程池, 调用账户服务的Command放入B线程池. 这样做的主要优点是运行环境被隔离开了. 这样就算调用服务的代码存在bug或者由于其他原因导致自己所在线程池被耗尽时, 不会对系统的其他服务造成影响. 但是带来的代价就是维护多个线程池会对系统带来额外的性能开销. 如果是对性能有严格要求而且确信自己调用服务的客户端代码不会出问题的话, 可以使用Hystrix的信号模式(Semaphores)来隔离资源.
 
 
-## Hystrix 示例
+## Feign Hystrix
 
 因为熔断只是作用在服务调用这一端，因此我们根据上一篇的示例代码只需要改动spring-cloud-consumer项目相关代码就可以。因为，Feign中已经依赖了Hystrix所以在maven配置上不用做任何改动。
-
 
 
 ### 1、配置文件
@@ -68,10 +67,6 @@ application.properties添加这一条：
 ``` properties
 feign.hystrix.enabled=true
 ```
-
-
-feign.hystrix.enabled=true
-
 
 ### 2、创建回调类
 
