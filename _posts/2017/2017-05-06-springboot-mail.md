@@ -7,7 +7,7 @@ tags: [springboot]
 
 springboot仍然在狂速发展，才五个多月没有关注，现在看[官网](http://projects.spring.io/spring-boot/)已经到1.5.3.RELEASE版本了。准备慢慢在写写springboot相关的文章，本篇文章使用springboot最新版本1.5.3进行开发。
 
-发送邮件应该是网站的必备功能之一，什么注册验证，忘记密码或者是给用户发送营销信息。最早期的时候我们会使用JavaMail相关api来写发送邮件的相关代码，后来spring退出了JavaMailSender更加简化了邮件发送的过程，在之后springboot对此进行了封装就有了现在的spring-boot-starter-mail,本章文章的介绍主要来自于此包。
+发送邮件应该是网站的必备功能之一，什么注册验证，忘记密码或者是给用户发送营销信息。最早期的时候我们会使用JavaMail相关api来写发送邮件的相关代码，后来spring推出了JavaMailSender更加简化了邮件发送的过程，在之后springboot对此进行了封装就有了现在的spring-boot-starter-mail,本章文章的介绍主要来自于此包。
 
 
 ## 简单使用

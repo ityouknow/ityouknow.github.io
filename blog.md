@@ -8,6 +8,7 @@ css: ['blog-page.css']
 
 ## 近期文章
 
+- [如何在微信公众号优雅的展示代码](http://www.ityouknow.com/other/2017/05/15/wechat-markdown.html)
 - [springcloud(三)：服务提供与调用](http://www.ityouknow.com/springcloud/2017/05/12/service-provider-constomer.html)
 - [springcloud(二)：注册中心Eureka](http://www.ityouknow.com/springcloud/2017/05/10/springcloud-eureka.html)
 - [springboot(十二)：springboot如何测试打包部署](http://www.ityouknow.com/springboot/2017/05/09/springboot-deploy.html)
@@ -17,7 +18,6 @@ css: ['blog-page.css']
 - [springcloud(一)：大话Spring Cloud](http://www.ityouknow.com/springcloud/2017/05/01/simple-springcloud.html)
 - [那些年，我们租过的房子](http://www.ityouknow.com/life/2017/04/21/house-rented.html)
 - [你看那个人他像一条狗](http://www.ityouknow.com/career/2017/03/26/programmer-confused.html)
-- [百亿互金平台救火故事](http://www.ityouknow.com/%E4%BC%98%E5%8C%96/2017/02/16/%E7%99%BE%E4%BA%BF%E4%BA%92%E9%87%91%E5%B9%B3%E5%8F%B0%E6%95%91%E7%81%AB%E6%95%85%E4%BA%8B.html)
 
 
 ## 实战
@@ -31,6 +31,7 @@ css: ['blog-page.css']
 
 ## 生活
 
+- [如何在微信公众号优雅的展示代码](http://www.ityouknow.com/other/2017/05/15/wechat-markdown.html)
 - [给你1000万你可以把生活过的更好吗？](http://www.ityouknow.com/life/2017/05/05/1000-and-life.html)
 - [你看那个人他像一条狗](http://www.ityouknow.com/career/2017/03/26/programmer-confused.html)
 - [那些年，我们租过的房子](http://www.ityouknow.com/life/2017/04/21/house-rented.html)
