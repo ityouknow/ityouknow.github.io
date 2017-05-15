@@ -24,7 +24,7 @@ tags: [springcloud]
 如果下图所示：A作为服务提供者，B为A的服务消费者，C和D是B的服务消费者。A不可用引起了B的不可用，并将不可用像滚雪球一样放大到C和D时，雪崩效应就形成了。
 
 {:.center}
-![](http://www.ityouknow.com/assets/images/2017/hystrix-1.png)
+![](http://www.ityouknow.com/assets/images/2017/springcloud/hystrix-1.png)
 
 
 ### 熔断器（CircuitBreaker）
@@ -36,7 +36,7 @@ tags: [springcloud]
 熔断器开关相互转换的逻辑如下图：
 
 {:.center}
-![](http://www.ityouknow.com/assets/images/2017/hystrix-2.png)
+![](http://www.ityouknow.com/assets/images/2017/springcloud/hystrix-2.png)
 
 熔断器就是保护服务高可用的最后一道防线。
 
@@ -123,6 +123,7 @@ public interface HelloRemote {
 
 根据返回结果说明熔断成功。
 
+**[示例代码](https://github.com/ityouknow/spring-cloud-starter)**
 
 
 参考：

@@ -222,7 +222,7 @@ eureka.client.serviceUrl.defaultZone=http://localhost:8000/eureka/
 
 不断的进行测试下去会发现两种结果交替出现，说明两个服务中心自动提供了服务均衡负载的功能。如果我们将服务提供者的数量在提高为N个，测试结果一样，请求会自动轮询到每个服务端来处理。
 
-
+**[示例代码](https://github.com/ityouknow/spring-cloud-starter)**
 
 -------------
 
