@@ -9,6 +9,6 @@
 博客主题使用:[Yummy-Jekyll](https://github.com/DONGChuan/Yummy-Jekyll)
 
 
-## 我的公共账号
+## 我的微信公众号
 
 ![](http://www.ityouknow.com/assets/images/keeppuresmile_430.jpg)
