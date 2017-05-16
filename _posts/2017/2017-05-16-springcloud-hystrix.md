@@ -5,11 +5,7 @@ category: springcloud
 tags: [springcloud]
 ---
 
-今天在写这个文章的同时我想先说点别的，今天我们和浙商银行在测试环境联调测试的时候，对方说调不了，因为国家一带一路峰会给影响了，让我很尴尬，一带一路都影响到了我们，而且是测试环境呀，真是和国家政策息息相关呀，或者算是蝴蝶效应？
-
-{:.center}
-![](http://www.ityouknow.com/assets/images/2017/11.png)
-
+今天我们和浙商银行在测试环境联调测试的时候，对方说调不了，因为国家一带一路峰会给影响了，让我很尴尬，一带一路都影响到了我们，而且是测试环境呀，真是和国家政策息息相关呀，或者算是蝴蝶效应？
 
 说起springcloud熔断让我想起了去年股市中的熔断，多次痛的领悟，随意实施的熔断对整个系统的影响是灾难性的，好了接下来我们还是说正事。
 
@@ -118,6 +114,8 @@ public interface HelloRemote {
 
 根据返回结果说明熔断成功。
 
+
+
 **[示例代码](https://github.com/ityouknow/spring-cloud-starter)**
 
 
@@ -126,8 +124,6 @@ public interface HelloRemote {
 [使用Spring Cloud与Docker实战微服务](https://www.gitbook.com/book/eacdy/spring-cloud-book/details)
 
 [微服务框架Spring Cloud介绍 Part5: 在微服务系统中使用Hystrix, Hystrix Dashboard与Turbine](http://skaka.me/blog/2016/09/04/springcloud5/)
-
-
 
 -------------
 **作者：纯洁的微笑**  
