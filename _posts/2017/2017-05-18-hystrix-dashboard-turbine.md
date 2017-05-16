@@ -161,12 +161,9 @@ public class DashboardApplication {
 
 ### 4、测试
 
-启动spring-cloud-eureka
-
-在上述示例项目spring-cloud-consumer-hystrix基础上修改为两个服务的调用者spring-cloud-consumer-node1和spring-cloud-consumer-node2
+在示例项目spring-cloud-consumer-hystrix基础上修改为两个服务的调用者spring-cloud-consumer-node1和spring-cloud-consumer-node2
 
 spring-cloud-consumer-node1项目改动如下：
-
 application.properties文件内容
 
 ``` properties
@@ -178,7 +175,6 @@ eureka.client.serviceUrl.defaultZone=http://localhost:8000/eureka/
 ```
 
 spring-cloud-consumer-node2项目改动如下：
-
 application.properties文件内容
 
 ``` properties
@@ -204,7 +200,7 @@ public interface HelloRemote {
 
 对应的```HelloRemoteHystrix```和```ConsumerController```类跟随修改，具体查看代码
 
-修改完毕后，依次启动spring-cloud-consumer-node1、spring-cloud-consumer-node1、hystrix-dashboard-turbine（Turbine）
+修改完毕后，依次启动spring-cloud-eureka、spring-cloud-consumer-node1、spring-cloud-consumer-node1、hystrix-dashboard-turbine（Turbine）
 
 打开eureka后台可以看到注册了三个服务：
 
