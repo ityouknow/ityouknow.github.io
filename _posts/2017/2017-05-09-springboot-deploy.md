@@ -159,6 +159,12 @@ nohup java -jar target/spring-boot-scheduler-1.0.0.jar &
 java -jar app.jar --spring.profiles.active=dev
 ```
 
+也可以在启动的时候设置jvm参数
+
+``` shell
+java -Xms10m -Xmx80m -jar app.jar &
+```
+
 **gradle**  
 如果使用的是gradle,使用下面命令打包
 
