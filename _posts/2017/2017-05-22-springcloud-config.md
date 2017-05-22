@@ -14,7 +14,7 @@ tags: [springcloud]
 
 在我们了解spring cloud config之前，我可以想想一个配置中心提供的核心功能应该有什么
 
-- 提供 服务端 和 客户端 支持
+- 提供服务端和客户端支持
 - 集中管理各环境的配置文件
 - 配置文件修改之后，可以快速的生效
 - 可以进行版本管理
@@ -226,6 +226,7 @@ class HelloController {
 
 我们在进行一些小实验，手动修改neo-config-dev.properties中配置信息为：```neo.hello=hello im dev update1```提交到github,再次在浏览器访问http://localhost:8002/hello，返回：```neo.hello: hello im dev update```，说明获取的信息还是旧的参数，这是为什么呢？因为spirngboot项目只有在启动的时候才会获取配置文件的值，修改github信息后，client端并没有在次去获取，所以导致这个问题。如何去解决这个问题呢？留到下一章我们在介绍。
 
+**[示例代码](https://github.com/ityouknow/spring-cloud-starter)**
 
 -------------
 **作者：纯洁的微笑**  
