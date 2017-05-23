@@ -5,7 +5,7 @@ category: springboot
 tags: [springboot]
 ---
 
-收集Spring boot相关的一些相关文章
+收集Spring boot相关的学习资料
 
 
 ## 推荐博客
@@ -35,9 +35,20 @@ tags: [springboot]
 
 - [Gradle 中文参考指南](https://dongchuan.gitbooks.io/gradle-user-guide-/content/tutorials/)
 
-- [spring boot官方例子](https://github.com/spring-projects/spring-boot/tree/master/spring-boot-samples)
-
 - [慕课网视频](http://www.imooc.com/learn/767)
 
+- [spring-boot-tutorials](http://www.mkyong.com/tutorials/spring-boot-tutorials/)
 
+
+
+
+## 开源代码
+
+- [spring boot官方例子](https://github.com/spring-projects/spring-boot/tree/master/spring-boot-samples)
+
+- [spring-boot-starter](https://github.com/ityouknow/spring-boot-starter)
+
+- [SpringBoot-Learning](https://github.com/dyc87112/SpringBoot-Learning)
+
+- [favorites-web](https://github.com/cloudfavorites/favorites-web)
 
