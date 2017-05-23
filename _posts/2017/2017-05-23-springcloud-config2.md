@@ -125,7 +125,7 @@ management.security.enabled=false
 
 OK 这样就改造完了，以post请求的方式来访问```http://localhost:8002/refresh``` 就会更新修改后的配置文件。
 
-我们再次来测试，首先访问```http://localhost:8002/hello```，返回：```hello im dev```，我将svn库中的值修改为```hello im dev update```。在win上面打开cmd执行```curl -X POST http://localhost:8002/refresh```，返回```["neo.hello"]```说明已经更新了```neo.hello```的值。我们再次访问```http://localhost:8002/hello```，返回：```hello im dev update``,客户端已经得到了最新的值。
+我们再次来测试，首先访问```http://localhost:8002/hello```，返回：```hello im dev```，我将svn库中的值修改为```hello im dev update```。在win上面打开cmd执行```curl -X POST http://localhost:8002/refresh```，返回```["neo.hello"]```说明已经更新了```neo.hello```的值。我们再次访问```http://localhost:8002/hello```，返回：```hello im dev update```,客户端已经得到了最新的值。
 
 但是每次手动刷新客户端也挺麻烦的，如果以后的配置文件越来越多手动刷新弊端会更多。其实spring已经给了我们解决方案，留到下一篇文章来介绍。
 
