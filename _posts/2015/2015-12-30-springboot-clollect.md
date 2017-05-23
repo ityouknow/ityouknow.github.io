@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 收集关于Spring boot相关资料
+title: Spring boot相关资料
 category: springboot
 tags: [springboot]
 ---
@@ -10,9 +10,9 @@ tags: [springboot]
 
 ## sping boot 推荐博客
 
-[程序猿DD](http://blog.didispace.com/)
+[程序猿DD](http://blog.didispace.com/Spring-Boot%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/)
 
-[liaokailin的专栏](http://blog.csdn.net/liaokailin)
+[liaokailin的专栏](http://blog.csdn.net/liaokailin/article/category/5765237)
 
 
 

@@ -8,12 +8,12 @@ css: ['blog-page.css']
 
 ## 近期文章
 
+- [springcloud(七)：配置中心(二)](http://www.ityouknow.com/springcloud/2017/05/23/springcloud-config2.html)
 - [springcloud(六)：配置中心(一)](http://www.ityouknow.com/springcloud/2017/05/22/springcloud-config.html)
 - [思维的局限](http://www.ityouknow.com/life/2017/05/19/Limitations-of-thinking.html)
 - [springcloud(五)：熔断监控Hystrix Dashboard和Turbine](http://www.ityouknow.com/springcloud/2017/05/18/hystrix-dashboard-turbine.html)
 - [springcloud(四)：熔断器Hystrix](http://www.ityouknow.com/springcloud/2017/05/16/springcloud-hystrix.html)
 - [如何在微信公众号优雅的展示代码](http://www.ityouknow.com/other/2017/05/15/wechat-markdown.html)
-- [springcloud(三)：服务提供与调用](http://www.ityouknow.com/springcloud/2017/05/12/service-provider-constomer.html)
 
 
 ## 实战
@@ -64,6 +64,8 @@ css: ['blog-page.css']
 - [springcloud(四)：熔断器Hystrix](http://www.ityouknow.com/springcloud/2017/05/16/springcloud-hystrix.html)
 - [springcloud(五)：熔断监控Hystrix Dashboard和Turbine](http://www.ityouknow.com/springcloud/2017/05/18/hystrix-dashboard-turbine.html)
 - [springcloud(六)：配置中心(一)](http://www.ityouknow.com/springcloud/2017/05/22/springcloud-config.html)
+- [springcloud(七)：配置中心(二)](http://www.ityouknow.com/springcloud/2017/05/23/springcloud-config2.html)
+
 
 
 ## JVM
