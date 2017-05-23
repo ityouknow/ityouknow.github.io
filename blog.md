@@ -8,12 +8,12 @@ css: ['blog-page.css']
 
 ## 近期文章
 
+- [springcloud(六)：配置中心(一)](http://www.ityouknow.com/springcloud/2017/05/22/springcloud-config.html)
 - [思维的局限](http://www.ityouknow.com/life/2017/05/19/Limitations-of-thinking.html)
 - [springcloud(五)：熔断监控Hystrix Dashboard和Turbine](http://www.ityouknow.com/springcloud/2017/05/18/hystrix-dashboard-turbine.html)
 - [springcloud(四)：熔断器Hystrix](http://www.ityouknow.com/springcloud/2017/05/16/springcloud-hystrix.html)
 - [如何在微信公众号优雅的展示代码](http://www.ityouknow.com/other/2017/05/15/wechat-markdown.html)
 - [springcloud(三)：服务提供与调用](http://www.ityouknow.com/springcloud/2017/05/12/service-provider-constomer.html)
-- [springcloud(二)：注册中心Eureka](http://www.ityouknow.com/springcloud/2017/05/10/springcloud-eureka.html)
 
 
 ## 实战
@@ -27,6 +27,7 @@ css: ['blog-page.css']
 
 ## 生活
 
+- [思维的局限](http://www.ityouknow.com/life/2017/05/19/Limitations-of-thinking.html)
 - [如何在微信公众号优雅的展示代码](http://www.ityouknow.com/other/2017/05/15/wechat-markdown.html)
 - [给你1000万你可以把生活过的更好吗？](http://www.ityouknow.com/life/2017/05/05/1000-and-life.html)
 - [你看那个人他像一条狗](http://www.ityouknow.com/career/2017/03/26/programmer-confused.html)
@@ -62,6 +63,7 @@ css: ['blog-page.css']
 - [springcloud(三)：服务提供与调用](http://www.ityouknow.com/springcloud/2017/05/12/service-provider-constomer.html)
 - [springcloud(四)：熔断器Hystrix](http://www.ityouknow.com/springcloud/2017/05/16/springcloud-hystrix.html)
 - [springcloud(五)：熔断监控Hystrix Dashboard和Turbine](http://www.ityouknow.com/springcloud/2017/05/18/hystrix-dashboard-turbine.html)
+- [springcloud(六)：配置中心(一)](http://www.ityouknow.com/springcloud/2017/05/22/springcloud-config.html)
 
 
 ## JVM
