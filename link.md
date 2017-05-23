@@ -29,6 +29,7 @@ menu: Link
 - [荒蛮故事](http://relatos.top/) - 一个分享故事的网站
 - [韩威博客](http://www.hanwei1234.com) - 韩威java知识分享网
 - [小柒博客](http://blog.52itstyle.com/) - 小柒博客，一个主JAVA，次架构，偶尔聊聊生活的地方。
+- [cmsblogs](hhttp://cmsblogs.com/) - cmsblogs-chenssy-记录、分享JAVA技术
 
 
 ## 其它  
