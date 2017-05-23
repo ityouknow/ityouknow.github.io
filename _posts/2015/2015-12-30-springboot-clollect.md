@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spring boot相关资料
+title: Spring boot学习资料汇总
 category: springboot
 tags: [springboot]
 ---
@@ -8,20 +8,36 @@ tags: [springboot]
 收集Spring boot相关的一些相关文章
 
 
-## sping boot 推荐博客
-
-[程序猿DD](http://blog.didispace.com/Spring-Boot%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/)
-
-[liaokailin的专栏](http://blog.csdn.net/liaokailin/article/category/5765237)
+## 推荐博客
 
 
+- [纯洁的微笑](http://www.ityouknow.com/spring-boot)
+
+- [程序猿DD](http://blog.didispace.com/Spring-Boot%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/) ：例子简单易懂
+
+- [liaokailin的专栏](http://blog.csdn.net/liaokailin/article/category/5765237)
+
+- [Spring Boot 揭秘与实战 系列](http://blog.720ui.com/columns/springboot_all/)
+
+- [catoop的专栏](http://blog.csdn.net/column/details/spring-boot.html)
+
+- [简书Spring Boot专题](http://www.jianshu.com/c/f0cf6eae1754)
 
 
 
-## Spring boot 推荐网站
 
-1、[Spring boot 官网](http://projects.spring.io/spring-boot/)
 
-2、[Spring Boot参考指南-中文版](https://qbgbook.gitbooks.io/spring-boot-reference-guide-zh/content/)
+## 推荐网站
 
-3、[Gradle 中文参考指南](https://dongchuan.gitbooks.io/gradle-user-guide-/content/tutorials/)
+- [Spring boot 官网](http://projects.spring.io/spring-boot/)
+
+- [Spring Boot参考指南-中文版](https://qbgbook.gitbooks.io/spring-boot-reference-guide-zh/content/)
+
+- [Gradle 中文参考指南](https://dongchuan.gitbooks.io/gradle-user-guide-/content/tutorials/)
+
+- [spring boot官方例子](https://github.com/spring-projects/spring-boot/tree/master/spring-boot-samples)
+
+- [慕课网视频](http://www.imooc.com/learn/767)
+
+
+
