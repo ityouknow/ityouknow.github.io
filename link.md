@@ -7,7 +7,24 @@ menu: Link
 
 
 
+## 友情链接
+
+- [cmsblogs](hhttp://cmsblogs.com/) - cmsblogs-chenssy-记录、分享JAVA技术
+- [韩威博客](http://www.hanwei1234.com) - 韩威java知识分享网
+- [小柒博客](http://blog.52itstyle.com/) - 小柒博客，一个主JAVA，次架构，偶尔聊聊生活的地方。
+- [六月](http://www.liuyue.ren/) - 一个博友的博客
+- [荒蛮故事](http://relatos.top/) - 一个分享故事的网站
+
+
+## 推荐网站
+
+- [云收藏](http://www.favorites.ren/) - 云收藏，让收藏更简单。一个在线云端的网络收藏夹，可以分享和查看其它人分享
+- [wherebt](http://wherebt.com/) - 提供各种BT资源导航,主要收录了bt sync keys的分享网站
+- [公众号编辑器](http://md.ityouknow.com/) - 可以以优雅的方式在微信公众号去发布markdown文章
+
+
 ## 个人链接
+
 - [ityouknow](http://www.ityouknow.com/) - 个人独立博客
 - [cnblogs](https://www.cnblogs.com/ityouknow/) - 博客园个人博客，最开始写博客的地方
 - [github](https://github.com/ityouknow) -  我分享代码的地方
@@ -17,19 +34,7 @@ menu: Link
 - [微博](http://weibo.com/ityouknow) - 个人微博地址，虽然一直没有用过
 
 
-## 推荐网站
-- [云收藏](http://www.favorites.ren/) - 云收藏，让收藏更简单。一个在线云端的网络收藏夹，可以分享和查看其它人分享
-- [wherebt](http://wherebt.com/) - 提供各种BT资源导航,主要收录了bt sync keys的分享网站
-- [公众号编辑器](http://md.ityouknow.com/) - 可以以优雅的方式在微信公众号去发布markdown文章
 
-
-
-## 友情链接
-- [六月](http://www.liuyue.ren/) - 一个博友的博客
-- [荒蛮故事](http://relatos.top/) - 一个分享故事的网站
-- [韩威博客](http://www.hanwei1234.com) - 韩威java知识分享网
-- [小柒博客](http://blog.52itstyle.com/) - 小柒博客，一个主JAVA，次架构，偶尔聊聊生活的地方。
-- [cmsblogs](hhttp://cmsblogs.com/) - cmsblogs-chenssy-记录、分享JAVA技术
 
 
 ## 其它  
