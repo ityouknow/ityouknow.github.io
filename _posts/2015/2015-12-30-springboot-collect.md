@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Spring boot学习资料汇总
+title: springboot学习资料汇总
 category: springboot
 tags: [springboot]
 ---
 
-收集Spring boot相关的学习资料
+收集Spring Boot相关的学习资料
 
 
 ## 推荐博客
