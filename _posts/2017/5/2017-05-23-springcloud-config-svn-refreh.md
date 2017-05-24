@@ -1,6 +1,6 @@
 ---
 layout: post
-title: springcloud(七)：配置中心(二)
+title: springcloud(七)：配置中心svn示例和refresh
 category: springcloud
 tags: [springcloud]
 ---
@@ -127,11 +127,11 @@ OK 这样就改造完了，以post请求的方式来访问```http://localhost:80
 
 我们再次来测试，首先访问```http://localhost:8002/hello```，返回：```hello im dev```，我将svn库中的值修改为```hello im dev update```。在win上面打开cmd执行```curl -X POST http://localhost:8002/refresh```，返回```["neo.hello"]```说明已经更新了```neo.hello```的值。我们再次访问```http://localhost:8002/hello```，返回：```hello im dev update```,客户端已经得到了最新的值。
 
-但是每次手动刷新客户端也挺麻烦的，如果以后的配置文件越来越多手动刷新弊端会更多。其实spring已经给了我们解决方案，留到下一篇文章来介绍。
+但是每次手动刷新客户端也挺麻烦的，如果以后的配置文件越来越多手动刷新弊端会更多。其实spring已经给了我们解决方案，留到后面文章来介绍。
 
 **[示例代码](https://github.com/ityouknow/spring-cloud-starter)**
 
 -------------
 **作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/springcloud/2017/05/23/springcloud-config2.html)**      
+**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/springcloud/2017/05/23/springcloud-config-svn-refreh.html)**      
 **版权归作者所有，转载请注明出处** 

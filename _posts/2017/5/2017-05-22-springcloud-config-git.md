@@ -1,6 +1,6 @@
 ---
 layout: post
-title: springcloud(六)：配置中心(一)
+title: springcloud(六)：配置中心git示例
 category: springcloud
 tags: [springcloud]
 ---
@@ -225,7 +225,7 @@ class HelloController {
 }
 ```
 
-启动项目后访问：```http://localhost:8002/hello```，返回：```hello im dev update``说明已经正确的从server端获取到了参数。到此一个完整的服务端提供配置服务，客户端获取配置参数的例子就完成了。
+启动项目后访问：```http://localhost:8002/hello```，返回：```hello im dev update```说明已经正确的从server端获取到了参数。到此一个完整的服务端提供配置服务，客户端获取配置参数的例子就完成了。
 
 我们在进行一些小实验，手动修改```neo-config-dev.properties```中配置信息为：```neo.hello=hello im dev update1```提交到github,再次在浏览器访问```http://localhost:8002/hello```，返回：```neo.hello: hello im dev update```，说明获取的信息还是旧的参数，这是为什么呢？因为springboot项目只有在启动的时候才会获取配置文件的值，修改github信息后，client端并没有在次去获取，所以导致这个问题。如何去解决这个问题呢？留到下一章我们在介绍。
 
@@ -233,6 +233,6 @@ class HelloController {
 
 -------------
 **作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/springcloud/2017/05/22/springcloud-config.html)**      
+**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/springcloud/2017/05/22/springcloud-config-git.html)**      
 **版权归作者所有，转载请注明出处** 
 
