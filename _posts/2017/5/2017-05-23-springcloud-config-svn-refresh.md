@@ -80,7 +80,7 @@ public class ConfigServerApplication {
 客户端直接使用上一篇示例项目```spring-cloud-config-client```来测试，配置基本不用变动。启动项目后访问：```http://localhost:8002/hello，返回：```hello im dev update``说明已经正确的从server端获取到了参数。同样修改svn配置并提交，再次访问```http://localhost:8002/hello```依然获取的是旧的信息，和git版本的问题一样。
 
 
-## 自动刷新
+## refresh
 
 现在来解决上一篇的遗留问题，这个问题在svn版本中依然存在。SpringCloudConfig分服务端和客户端，服务端负责将git（svn）中存储的配置文件发布成REST接口，客户端可以从服务端REST接口获取配置。但客户端并不能主动感知到配置的变化，从而主动去获取新的配置。客户端如何去主动获取新的配置信息呢，springcloud已经给我们提供了解决方案，每个客户端通过POST方法触发各自的```/refresh```。
 
@@ -133,5 +133,5 @@ OK 这样就改造完了，以post请求的方式来访问```http://localhost:80
 
 -------------
 **作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/springcloud/2017/05/23/springcloud-config-svn-refreh.html)**      
+**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/springcloud/2017/05/23/springcloud-config-svn-refresh.html)**      
 **版权归作者所有，转载请注明出处** 
