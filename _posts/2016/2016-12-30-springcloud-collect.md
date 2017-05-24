@@ -20,7 +20,7 @@ tags: [springcloud]
 
 - [liaokailin的专栏](http://blog.csdn.net/liaokailin/article/category/6212338)
 
-- [周立|Spring Cloud](http://www.itmuch.com/)
+- [周立 Spring Cloud](http://www.itmuch.com/)
 
 - [史上最简单的 Spring Cloud 教程](http://blog.csdn.net/column/details/15197.html)
 
