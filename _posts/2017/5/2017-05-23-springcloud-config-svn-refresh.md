@@ -82,7 +82,7 @@ public class ConfigServerApplication {
 
 ## refresh
 
-现在来解决上一篇的遗留问题，这个问题在svn版本中依然存在。SpringCloudConfig分服务端和客户端，服务端负责将git（svn）中存储的配置文件发布成REST接口，客户端可以从服务端REST接口获取配置。但客户端并不能主动感知到配置的变化，从而主动去获取新的配置。客户端如何去主动获取新的配置信息呢，springcloud已经给我们提供了解决方案，每个客户端通过POST方法触发各自的```/refresh```。
+现在来解决上一篇的遗留问题，这个问题在svn版本中依然存在。Spring Cloud Config分服务端和客户端，服务端负责将git（svn）中存储的配置文件发布成REST接口，客户端可以从服务端REST接口获取配置。但客户端并不能主动感知到配置的变化，从而主动去获取新的配置。客户端如何去主动获取新的配置信息呢，springcloud已经给我们提供了解决方案，每个客户端通过POST方法触发各自的```/refresh```。
 
 修改```spring-cloud-config-client```项目已到达可以refresh的功能。
 
@@ -128,7 +128,7 @@ management.security.enabled=false
 
 OK 这样就改造完了，以post请求的方式来访问```http://localhost:8002/refresh``` 就会更新修改后的配置文件。
 
-我们再次来测试，首先访问```http://localhost:8002/hello```，返回：```hello im dev```，我将svn库中的值修改为```hello im dev update```。在win上面打开cmd执行```curl -X POST http://localhost:8002/refresh```，返回```["neo.hello"]```说明已经更新了```neo.hello```的值。我们再次访问```http://localhost:8002/hello```，返回：```hello im dev update```,客户端已经得到了最新的值。
+我们再次来测试，首先访问```http://localhost:8002/hello```，返回：```hello im dev```，我将库中的值修改为```hello im dev update```。在win上面打开cmd执行```curl -X POST http://localhost:8002/refresh```，返回```["neo.hello"]```说明已经更新了```neo.hello```的值。我们再次访问```http://localhost:8002/hello```，返回：```hello im dev update```,客户端已经得到了最新的值。
 
 每次手动刷新客户端也很麻烦，有没有什么办法只要提交一次代码就自动调用客户端来更新呢，github的webhook是一个好的办法。
 
