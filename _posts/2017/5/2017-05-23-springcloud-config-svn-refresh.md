@@ -130,7 +130,7 @@ OK 这样就改造完了，以post请求的方式来访问```http://localhost:80
 每次手动刷新客户端也很麻烦，有没有什么办法只要提交一次代码就自动调用客户端来更新呢，github的webhook是一个好的办法。
 
 
-### webhook 是什么
+### 3、webhook 
 
 WebHook是当某个事件发生时，通过发送http post请求的方式来通知信息接收方。Webhook来监测你在Github.com上的各种事件，最常见的莫过于 push 事件。如果你设置了一个监测 push 事件的 Webhook，那么每当你的这个项目有了任何提交，这个Webhoo 都会被触发，这时 Github 就会发送一个 HTTP POST 请求到你配置好的地址。
 
