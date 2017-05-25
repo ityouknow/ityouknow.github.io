@@ -13,7 +13,12 @@ tags: [springboot]
 
 - [纯洁的微笑](http://www.ityouknow.com/spring-boot)
 
-- [程序猿DD](http://blog.didispace.com/Spring-Boot%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/) 
+- [程序猿DD](http://blog.didispace.com/categories/Spring-Boot/) 
+
+- [程序猿DD](http://xujin.org/categories/%E8%B7%9F%E6%88%91%E5%AD%A6Spring-Cloud/) 
+
+
+
 
 - [liaokailin的专栏](http://blog.csdn.net/liaokailin/article/category/5765237)
 
@@ -51,6 +56,11 @@ tags: [springboot]
 - [SpringBoot-Learning](https://github.com/dyc87112/SpringBoot-Learning)
 
 - [favorites-web](https://github.com/cloudfavorites/favorites-web)
+
+- [springboot-learning-example](https://github.com/JeffLi1993/springboot-learning-example)
+
+
+
 
 
 

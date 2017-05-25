@@ -16,7 +16,7 @@ tags: [springcloud]
 
 - [纯洁的微笑](http://www.ityouknow.com/spring-cloud)
 
-- [程序猿DD](http://blog.didispace.com/Spring-Cloud%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/) 
+- [程序猿DD](http://blog.didispace.com/categories/Spring-Cloud/) 
 
 - [liaokailin的专栏](http://blog.csdn.net/liaokailin/article/category/6212338)
 
@@ -24,8 +24,9 @@ tags: [springcloud]
 
 - [史上最简单的 Spring Cloud 教程](http://blog.csdn.net/column/details/15197.html)
 
+- [跟我学Spring Cloud](http://xujin.org/categories/%E8%B7%9F%E6%88%91%E5%AD%A6Spring-Cloud/) 
 
-
+- [Spring Cloud 源码分析](http://xujin.org/tags/Spring-Cloud-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/) 
 
 
 

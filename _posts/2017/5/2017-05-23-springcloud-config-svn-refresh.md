@@ -127,7 +127,34 @@ OK 这样就改造完了，以post请求的方式来访问```http://localhost:80
 
 我们再次来测试，首先访问```http://localhost:8002/hello```，返回：```hello im dev```，我将svn库中的值修改为```hello im dev update```。在win上面打开cmd执行```curl -X POST http://localhost:8002/refresh```，返回```["neo.hello"]```说明已经更新了```neo.hello```的值。我们再次访问```http://localhost:8002/hello```，返回：```hello im dev update```,客户端已经得到了最新的值。
 
-但是每次手动刷新客户端也挺麻烦的，如果以后的配置文件越来越多手动刷新弊端会更多。其实spring已经给了我们解决方案，留到后面文章来介绍。
+每次手动刷新客户端也很麻烦，有没有什么办法只要提交一次代码就自动调用客户端来更新呢，github的webhook是一个好的办法。
+
+
+### webhook 是什么
+
+WebHook是当某个事件发生时，通过发送http post请求的方式来通知信息接收方。Webhook来监测你在Github.com上的各种事件，最常见的莫过于 push 事件。如果你设置了一个监测 push 事件的 Webhook，那么每当你的这个项目有了任何提交，这个Webhoo 都会被触发，这时 Github 就会发送一个 HTTP POST 请求到你配置好的地址。
+
+如此一来，你就可以通过这种方式去自动完成一些重复性工作，比如，你可以用Webhook来自动触发一些持续集成（CI）工具的运作，比如 Travis CI；又或者是通过 Webhook 去部署你的线上服务器。下图就是github上面的webhook配置。
+
+{:.center}
+![](http://www.ityouknow.com/assets/images/2017/springcloud/webhook.jpg)
+
+
+- ```Payload URL``` ：触发后回调的URL
+
+- ```Content type``` ：数据格式，两种一般使用json
+
+- ```Secret``` ：用作给POST的body加密的字符串。采用HMAC算法
+
+- ```events``` ：触发的事件列表。
+
+events事件类型 | 描述|
+---     |---       
+push  | 仓库有push时触发。默认事件
+create  | 当有分支或标签被创建时触发
+delete | 当有分支或标签被删除时触发
+
+我们就可以利用webhook的机制去触发客户端的更新，但是当客户端越来越多的时候webhook已经不支持，另外每次增加客户端都需要改动webhook也是不现实的。其实spring已经给了我们解决方案，留到后面文章来介绍。
 
 **[示例代码](https://github.com/ityouknow/spring-cloud-starter)**
 
