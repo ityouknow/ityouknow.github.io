@@ -98,7 +98,7 @@ public class ConfigServerApplication {
 增加了```spring-boot-starter-actuator```包，```spring-boot-starter-actuator```是一套监控的功能，可以监控程序在运行时状态，其中就包括```/refresh```的功能。
 
 
-### 2、添加```@RefreshScope```
+### 2、 开启更新机制
 
 需要给加载变量的类上面加载```@RefreshScope```，在客户端执行```/refresh```的时候就会更新此类下面的变量值。
 
@@ -117,6 +117,9 @@ class HelloController {
 }
 ```
 
+
+### 3、测试
+
 *springboot 1.5.X 以上默认开通了安全认证，所以需要在配置文件```application.properties```添加以下配置*
 
 ``` properties
@@ -130,7 +133,7 @@ OK 这样就改造完了，以post请求的方式来访问```http://localhost:80
 每次手动刷新客户端也很麻烦，有没有什么办法只要提交一次代码就自动调用客户端来更新呢，github的webhook是一个好的办法。
 
 
-### 3、webhook 
+### 4、webhook 
 
 WebHook是当某个事件发生时，通过发送http post请求的方式来通知信息接收方。Webhook来监测你在Github.com上的各种事件，最常见的莫过于 push 事件。如果你设置了一个监测 push 事件的 Webhook，那么每当你的这个项目有了任何提交，这个Webhoo 都会被触发，这时 Github 就会发送一个 HTTP POST 请求到你配置好的地址。
 
@@ -154,7 +157,7 @@ push  | 仓库有push时触发。默认事件
 create  | 当有分支或标签被创建时触发
 delete | 当有分支或标签被删除时触发
 
-我们就可以利用webhook的机制去触发客户端的更新，但是当客户端越来越多的时候webhook已经不支持，另外每次增加客户端都需要改动webhook也是不现实的。其实spring已经给了我们解决方案，留到后面文章来介绍。
+我们就可以利用webhook的机制去触发客户端的更新，但是当客户端越来越多的时候webhook已经不支持，另外每次增加客户端都需要改动webhook也是不现实的。spring给了我们更好解决方案，后面文章来介绍。
 
 **[示例代码](https://github.com/ityouknow/spring-cloud-starter)**
 
