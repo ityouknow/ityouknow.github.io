@@ -7,6 +7,8 @@ tags: [idea]
 
 记录idea的一些常用快捷键
 
+## 快捷键
+
 1、进入实现方法的快捷键
 
 > Ctrl + Alt + B 
@@ -42,3 +44,14 @@ tags: [idea]
 
 9、上下移动代码
 
+
+
+## 错误 
+
+1、maven导入项目报错
+
+> Failed to read artifact descriptor for org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.3.0.RELE
+> intellij inspects a maven model for resolution problems
+
+
+不同project下面存在相同的module,导致此问题，删除其它project中项目，再次导入OK。
