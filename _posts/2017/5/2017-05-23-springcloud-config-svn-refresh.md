@@ -143,12 +143,9 @@ WebHook是当某个事件发生时，通过发送http post请求的方式来通�
 ![](http://www.ityouknow.com/assets/images/2017/springcloud/webhook.jpg)
 
 
-- ```Payload URL``` ：触发后回调的URL
-
-- ```Content type``` ：数据格式，两种一般使用json
-
-- ```Secret``` ：用作给POST的body加密的字符串。采用HMAC算法
-
+- ```Payload URL``` ：触发后回调的URL  
+- ```Content type``` ：数据格式，两种一般使用json  
+- ```Secret``` ：用作给POST的body加密的字符串。采用HMAC算法  
 - ```events``` ：触发的事件列表。
 
 events事件类型 | 描述|
