@@ -6,7 +6,7 @@ tags: [springcloud]
 ---
 
 
-在前两篇的介绍中，客户端都是直接调用配置中心的server端来获取配置文件信息。这样就存在了一个问题，客户端和服务端的耦合性太高，如果server端要做集群，客户端只能通过原始的方式来路由；server端改变IP地址的时候，客户端也需要修改配置,不符合springcloud服务治理的理念。springcloud提供了这样的解决方案，我们只需要将server端当做一个服务注册到eureka中，client端去eureka中去获取配置中心server端的服务既可。
+在前两篇的介绍中，客户端都是直接调用配置中心的server端来获取配置文件信息。这样就存在了一个问题，客户端和服务端的耦合性太高，如果server端要做集群，客户端只能通过原始的方式来路由，server端改变IP地址的时候，客户端也需要修改配置，不符合springcloud服务治理的理念。springcloud提供了这样的解决方案，我们只需要将server端当做一个服务注册到eureka中，client端去eureka中去获取配置中心server端的服务既可。
 
 这篇文章我们基于配置中心git版本的内容来改造
 
@@ -71,7 +71,7 @@ public class ConfigServerApplication {
 }
 ```
 
-这样server端的改造就完成了。启动server端，在浏览器中访问：```http://localhost:8000/``` 就会看到server端已经注册了到注册中心了。
+这样server端的改造就完成了。先启动eureka注册中心，在启动server端，在浏览器中访问：```http://localhost:8000/``` 就会看到server端已经注册了到注册中心了。
 
 {:.center}
 ![](http://www.ityouknow.com/assets/images/2017/springcloud/eureka-config01.jpg)
@@ -153,7 +153,7 @@ public class ConfigClientApplication {
 ![](http://www.ityouknow.com/assets/images/2017/springcloud/eureka-config02.jpg)
 
 
-## 配置中心的高可用
+## 高可用
 
 为了模拟生产集群环境，我们改动server端的端口为8003，再启动一个server端来做服务的负载，提供高可用的server端支持。
 
@@ -186,7 +186,7 @@ public class ConfigClientApplication {
 
 说明两个server端都正常读取到了配置信息。
 
-再次访问：```http://localhost:8002/hello```，返回：```hello im dev update```。说明已经读取到了server端的内容，我们随机停掉一台server端的服务，再次访问```http://localhost:8002/hello```，返回：```hello im dev update```，说明达到了高可用的目的。
+再次访问：```http://localhost:8002/hello```，返回：```hello im dev update```。说明客户端已经读取到了server端的内容，我们随机停掉一台server端的服务，再次访问```http://localhost:8002/hello```，返回：```hello im dev update```，说明达到了高可用的目的。
 
 
 **[示例代码](https://github.com/ityouknow/spring-cloud-starter)**

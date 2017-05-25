@@ -8,7 +8,7 @@ tags: [springcloud]
 收集Spring Cloud相关的学习资料
 
 
-> 学习Spring Cloud首先需要了解Spring Boot，没有了解的可以先看这款[Spring Boot学习资料汇总](http://www.ityouknow.com/springboot/2015/12/30/springboot-collect.html)
+> 学习Spring Cloud首先需要了解Spring Boot，不了解Spring Boot的同学戳这里[Spring Boot学习资料汇总](http://www.ityouknow.com/springboot/2015/12/30/springboot-collect.html)
 
 
 ## 推荐博客
