@@ -5,7 +5,7 @@ category: springboot
 tags: [springboot]
 ---
 
-收集Spring Boot相关的学习资料
+收集Spring Boot相关的学习资料，[Spring Cloud点这里](http://www.ityouknow.com/springcloud/2016/12/30/springcloud-collect.html)
 
 
 ## 推荐博客
