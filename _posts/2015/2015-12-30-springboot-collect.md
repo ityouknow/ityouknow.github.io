@@ -15,11 +15,6 @@ tags: [springboot]
 
 - [程序猿DD](http://blog.didispace.com/categories/Spring-Boot/) 
 
-- [程序猿DD](http://xujin.org/categories/%E8%B7%9F%E6%88%91%E5%AD%A6Spring-Cloud/) 
-
-
-
-
 - [liaokailin的专栏](http://blog.csdn.net/liaokailin/article/category/5765237)
 
 - [Spring Boot 揭秘与实战 系列](http://blog.720ui.com/columns/springboot_all/)
@@ -28,8 +23,7 @@ tags: [springboot]
 
 - [简书Spring Boot专题](http://www.jianshu.com/c/f0cf6eae1754)
 
-
-
+- [方志朋Spring Boot 专栏](http://blog.csdn.net/column/details/15397.html)
 
 
 ## 推荐网站
