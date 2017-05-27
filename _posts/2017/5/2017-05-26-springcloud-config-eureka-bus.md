@@ -190,7 +190,7 @@ management:
      enabled: false
 ```
 
-配置文件增加RebbitMq的相关配置，关闭安全严重。这样server端代码就改造完成了。
+配置文件增加RebbitMq的相关配置，关闭安全验证。这样server端代码就改造完成了。
 
 ### 3、测试
 
@@ -260,7 +260,7 @@ destination参数也可以用来定位特定的微服务。例如：```/bus/refr
 }
 ```
 
-这个日志显示了```customers:8001```发出了RefreshRemoteApplicationEvent事件,广播给所有的服务，被```customers:9000```和```stores:8081``接受到了。想要对接受到的消息自定义自己的处理方式的话，可以添加@EventListener注解的AckRemoteApplicationEvent和SentApplicationEvent类型到你自己的应用中。或者到TraceRepository类中，直接处理数据。
+这个日志显示了```customers:8001```发出了RefreshRemoteApplicationEvent事件，广播给所有的服务，被```customers:9000```和```stores:8081```接受到了。想要对接受到的消息自定义自己的处理方式的话，可以添加```@EventListener```注解的AckRemoteApplicationEvent和SentApplicationEvent类型到你自己的应用中。或者到TraceRepository类中，直接处理数据。
 
 这样，我们就可清晰地知道事件的传播细节。
 
@@ -270,7 +270,7 @@ destination参数也可以用来定位特定的微服务。例如：```/bus/refr
 ```/bus/refresh``` 有一个很严重的BUG，一直没有解决：对客户端执行```/bus/refresh```之后，挂到总线的上的客户端都会从Eureka注册中心撤销登记；如果对server端执行```/bus/refresh```,server端也会从Eureka注册中心撤销登记。再用白话解释一下，就是本来人家在Eureka注册中心注册的好好的，只要你对着它执行一次```/bus/refresh```，立刻就会从Euraka中挂掉。
 
 
-其实这个问题挺严重的，你想本来你利用```/bus/refresh```给所有的节点来更新配置信息呢，结果把服务从Euraka中给搞掉了，那么如果别人需要调用客户端的服务的时候就直接歇菜了。不知道国内有童鞋公司在生产中用到这个功能没有，用了不就很惨烈。在网上搜索了一下，国内网友和国外网页都遇到过很多次，但是一直没有解决，很幸运就是我在写这篇文章的**前三天**，Netflix修复了这个问题，使用Spring Cloud最新版本的包就可以解决这个问题。
+其实这个问题挺严重的，本来你利用```/bus/refresh```给所有的节点来更新配置信息呢，结果把服务从Euraka中给搞掉了，那么如果别人需要调用客户端的服务的时候就直接歇菜了。不知道国内有童鞋公司在生产中用到这个功能没有，用了不就很惨烈。在网上搜索了一下，国内网友和国外网友都遇到过很多次，但是一直没有解决，很幸运就是我在写这篇文章的**前三天**，Netflix修复了这个问题，使用Spring Cloud最新版本的包就可以解决这个问题.由此也可以发现Spring Cloud还在快速的发展中，最新的版本也应该会有存在一些BUG。
 
 
 在pom中使用Spring Cloud的版本，解决这个bug.
