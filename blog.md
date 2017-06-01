@@ -8,15 +8,12 @@ css: ['blog-page.css']
 
 ## 近期文章
 
+- [springcloud(十)：服务网关zuul](http://www.ityouknow.com/springcloud/2017/06/01/gateway-service-zuul.html)
 - [springcloud(九)：配置中心和消息总线（配置中心终结版）](http://www.ityouknow.com/springcloud/2017/05/26/springcloud-config-eureka-bus.html)
 - [springcloud(八)：配置中心服务化和高可用](http://www.ityouknow.com/springcloud/2017/05/25/springcloud-config-eureka.html)
 - [springcloud(七)：配置中心svn示例和refresh](http://www.ityouknow.com/springcloud/2017/05/23/springcloud-config-svn-refresh.html)
 - [springcloud(六)：配置中心git示例](http://www.ityouknow.com/springcloud/2017/05/22/springcloud-config-git.html)
 - [思维的局限](http://www.ityouknow.com/life/2017/05/19/Limitations-of-thinking.html)
-- [springcloud(五)：熔断监控Hystrix Dashboard和Turbine](http://www.ityouknow.com/springcloud/2017/05/18/hystrix-dashboard-turbine.html)
-- [springcloud(四)：熔断器Hystrix](http://www.ityouknow.com/springcloud/2017/05/16/springcloud-hystrix.html)
-- [如何在微信公众号优雅的展示代码](http://www.ityouknow.com/other/2017/05/15/wechat-markdown.html)
-
 
 ## 实战
 
@@ -69,6 +66,7 @@ css: ['blog-page.css']
 - [springcloud(七)：配置中心svn示例和refresh](http://www.ityouknow.com/springcloud/2017/05/23/springcloud-config-svn-refresh.html)
 - [springcloud(八)：配置中心服务化和高可用](http://www.ityouknow.com/springcloud/2017/05/25/springcloud-config-eureka.html)
 - [springcloud(九)：配置中心和消息总线（配置中心终结版）](http://www.ityouknow.com/springcloud/2017/05/26/springcloud-config-eureka-bus.html)
+- [springcloud(十)：服务网关zuul](http://www.ityouknow.com/springcloud/2017/06/01/gateway-service-zuul.html)
 
 
 ## JVM
@@ -81,6 +79,7 @@ css: ['blog-page.css']
 - [jvm系列(六):jvm调优-从eclipse开始](http://www.cnblogs.com/ityouknow/p/5647513.html)
 - [jvm系列(七):jvm调优-工具篇](http://www.ityouknow.com/java/2017/02/22/jvm-tool.html)
 - [jvm系列(八):jvm知识点总览](http://www.ityouknow.com/java/2017/03/01/jvm-overview.html)
+- [springcloud(十)：服务网关zuul](http://www.ityouknow.com/springcloud/2017/06/01/gateway-service-zuul.html)
 
 
 ## 爬虫
