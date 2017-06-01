@@ -7,7 +7,7 @@ tags: [springcloud]
 
 前面的文章我们介绍了，Eureka用于服务的注册于发现，feign支持服务的调用以及均衡负载，Hystrix处理服务的熔断防止故障扩散，Spring Cloud Config服务集群配置中心，似乎一个微服务框架已经完成了。
 
-我们还是少考虑了一个问题，外部的应用如何来访问内部各种各样的微服务呢？在微服务架构中，后端服务往往不直接开放给调用端，而是通过一个API网关根据请求的url，路由到相应的服务。当添加API网关后，再第三方调用端和服务提供方之间就创建了一面墙，这面墙直接与调用方通信进行权限控制，后将请求均衡分发给后台服务端。
+我们还是少考虑了一个问题，外部的应用如何来访问内部各种各样的微服务呢？在微服务架构中，后端服务往往不直接开放给调用端，而是通过一个API网关根据请求的url，路由到相应的服务。当添加API网关后，在第三方调用端和服务提供方之间就创建了一面墙，这面墙直接与调用方通信进行权限控制，后将请求均衡分发给后台服务端。
 
 
 ## 为什么需要API Gateway
@@ -117,8 +117,7 @@ zuul.routes.hello.url=http://localhost:9000/
 
 ### 服务化
 
-
-通过url映射的方式来实现zull的转发有局限性，比如没增加一个服务就需要配置一条内容，另外后端的服务如果是动态来提供，就不能采用这种方案来配置了。实际上在实现微服务架构时，服务名与服务实例地址的关系在eureka server中已经存在了，所以只需要将Zuul注册到eureka server上去发现其他服务，就可以实现对serviceId的映射。
+通过url映射的方式来实现zull的转发有局限性，比如每增加一个服务就需要配置一条内容，另外后端的服务如果是动态来提供，就不能采用这种方案来配置了。实际上在实现微服务架构时，服务名与服务实例地址的关系在eureka server中已经存在了，所以只需要将Zuul注册到eureka server上去发现其他服务，就可以实现对serviceId的映射。
 
 我们结合示例来说明，在上面示例项目```gateway-service-zuul-simple```的基础上来改造。
 
@@ -186,16 +185,16 @@ hello 小明，this is two messge
 但是如果后端服务多达十几个的时候，每一个都这样配置也挺麻烦的，spring cloud zuul已经帮我们做了默认配置。默认情况下，Zuul会代理所有注册到Eureka Server的微服务，并且Zuul的路由规则如下：```http://ZUUL_HOST:ZUUL_PORT/微服务在Eureka上的serviceId/**```会被转发到serviceId对应的微服务。
 
 
-我们注销掉```gateway-service-zuul-eureka```项目中如下配置：
+我们注销掉```gateway-service-zuul-eureka```项目中关于路由的配置：
 
 ``` properties
-zuul.routes.api-a.path=/producer/**
-zuul.routes.api-a.serviceId=spring-cloud-producer
+#zuul.routes.api-a.path=/producer/**
+#zuul.routes.api-a.serviceId=spring-cloud-producer
 ```
 
-重新启动后，访问```http://localhost:8888/spring-cloud-producer/hello?name=%E5%B0%8F%E6%98%8E```，测试返回结果和上述示例相同。
+重新启动后，访问```http://localhost:8888/spring-cloud-producer/hello?name=%E5%B0%8F%E6%98%8E```，测试返回结果和上述示例相同，说明spirng cloud zuul默认已经提供了转发功能。
 
-到此zuul的基本基本使用我们就介绍完了。关于zuul的高级使用，我们下篇再来介绍。
+到此zuul的基本使用我们就介绍完了。关于zuul更高级使用，我们下篇再来介绍。
 
 参考：
 
