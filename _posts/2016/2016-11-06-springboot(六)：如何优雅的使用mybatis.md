@@ -199,8 +199,6 @@ public class UserMapperTest {
 ```
 
 源码中controler层有完整的增删改查，这里就不贴了  
-源码在这里[spring-boot-mybatis-annotation](https://github.com/ityouknow/spring-boot-starter/tree/master/spring-boot-mybatis-annotation)
-
 
 ## 极简xml版本
 
@@ -320,8 +318,6 @@ public interface UserMapper {
 
 使用和上个版本没有任何区别，大家就看代码吧
 
-[xml配置版本](https://github.com/ityouknow/spring-boot-starter/tree/master/spring-boot-mybatis-xml)
-
 
 ## 如何选择
 
@@ -329,7 +325,7 @@ public interface UserMapper {
 
 老传统模式比适合大型项目，可以灵活的动态生成SQL，方便调整SQL，也有痛痛快快，洋洋洒洒的写SQL的感觉。
 
-[完整代码地址](https://github.com/ityouknow/spring-boot-starter)
+**[示例代码](https://github.com/ityouknow/spring-boot-examples)**
 
 
 -------------

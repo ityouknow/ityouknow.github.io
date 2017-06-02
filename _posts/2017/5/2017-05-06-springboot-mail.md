@@ -292,7 +292,7 @@ public void sendTemplateMail() {
 可以参考前期文章：[springboot(八)：RabbitMQ详解](http://www.ityouknow.com/springboot/2016/11/30/springboot(%E5%85%AB)-RabbitMQ%E8%AF%A6%E8%A7%A3.html) 来实现。
 
 
-[完整代码在这里](https://github.com/ityouknow/spring-boot-starter/tree/master/spring-boot-mail)
+**[示例代码](https://github.com/ityouknow/spring-boot-examples)**
 
 **参考:**
 [spring boot 发送邮件](http://blog.csdn.net/clementad/article/details/51833416)

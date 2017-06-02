@@ -393,7 +393,7 @@ public class MuliDatabaseTest {
 
 到此，mongodb多数据源的使用已经完成。
 
-**[示例代码](https://github.com/ityouknow/spring-boot-starter)**
+**[示例代码](https://github.com/ityouknow/spring-boot-examples)**
 
 -------------
 

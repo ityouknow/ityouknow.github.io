@@ -203,8 +203,8 @@ public class UserController {
 }
 ```
 
+**[示例代码](https://github.com/ityouknow/spring-boot-examples)**
 
-最后源码地址在这里[spring-boot-mybatis-mulidatasource](https://github.com/ityouknow/spring-boot-starter/tree/master/spring-boot-mybatis-mulidatasource)
 
 
 -------------

@@ -349,7 +349,7 @@ service yourapp start|stop|restart
 
 到此 springboot项目如何测试、联调和打包投产均已经介绍完，以后可以找时间研究一下springboot的自动化运维，以及spring boot 和docker相结合的使用。
 
-**[示例代码](https://github.com/ityouknow/spring-boot-starter)**
+**[示例代码](https://github.com/ityouknow/spring-boot-examples)**
 
 **参考:**
 [Installing Spring Boot applications](http://docs.spring.io/spring-boot/docs/current/reference/html/deployment-install.html)
