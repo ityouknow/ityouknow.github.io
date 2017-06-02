@@ -114,7 +114,7 @@ public interface HelloRemote {
 
 
 
-**[示例代码](https://github.com/ityouknow/spring-cloud-starter)**
+**[示例代码](https://github.com/ityouknow/spring-cloud-examples)**
 
 
 参考：

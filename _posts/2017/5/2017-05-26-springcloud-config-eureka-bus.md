@@ -302,8 +302,7 @@ BUG的讨论和解决过程可以看github上面这两个issue:
 [Spring Cloud构建微服务架构（七）消息总线](http://blog.didispace.com/springcloud7/)
 
 
-
-**[示例代码](https://github.com/ityouknow/spring-cloud-starter)**
+**[示例代码](https://github.com/ityouknow/spring-cloud-examples)**
 
 -------------
 **作者：纯洁的微笑**  
