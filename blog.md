@@ -8,7 +8,7 @@ css: ['blog-page.css']
 
 ## 近期文章
 
-- [书籍推荐第一期](http://www.ityouknow.com/book/2017/06/06/book-list.html)
+- [编程科普书籍推荐](http://www.ityouknow.com/book/2017/06/06/book-list.html)
 - [springcloud(十)：服务网关zuul](http://www.ityouknow.com/springcloud/2017/06/01/gateway-service-zuul.html)
 - [springcloud(九)：配置中心和消息总线（配置中心终结版）](http://www.ityouknow.com/springcloud/2017/05/26/springcloud-config-eureka-bus.html)
 - [springcloud(八)：配置中心服务化和高可用](http://www.ityouknow.com/springcloud/2017/05/25/springcloud-config-eureka.html)
@@ -81,6 +81,11 @@ css: ['blog-page.css']
 - [jvm系列(七):jvm调优-工具篇](http://www.ityouknow.com/java/2017/02/22/jvm-tool.html)
 - [jvm系列(八):jvm知识点总览](http://www.ityouknow.com/java/2017/03/01/jvm-overview.html)
 - [springcloud(十)：服务网关zuul](http://www.ityouknow.com/springcloud/2017/06/01/gateway-service-zuul.html)
+
+
+## 读书
+
+- [编程科普书籍推荐](http://www.ityouknow.com/book/2017/06/06/book-list.html)
 
 
 ## 爬虫
