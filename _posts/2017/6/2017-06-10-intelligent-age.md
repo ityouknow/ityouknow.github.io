@@ -37,7 +37,7 @@ tags: [book]
 会上纽厄尔和西蒙讨论了“逻辑理论家”，而麦卡锡则说服与会者接受“人工智能”一词作为本领域的名称。1956年达特矛斯会议上人工智能的名称和任务得以确定，同时出现了最初的成就和最早的一批研究者，因此这一事件被广泛承认为人工智能诞生的标志。
 
 {:.center}
-![](http://www.ityouknow.com/assets/images/2017/reading/Dartmouth_College_campus_60.jpeg)
+![](http://www.ityouknow.com/assets/images/2017/reading/Dartmouth_College_campus_60.jpeg)  
 60年前的达特茅斯大学
 
 
@@ -73,7 +73,7 @@ tags: [book]
 英国开始了耗资三亿五千万英镑的Alvey工程。美国一个企业协会组织了MCC（Microelectronics and Computer Technology Corporation，微电子与计算机技术集团），向AI和信息技术的大规模项目提供资助。DARPA也行动起来，组织了战略计算促进会（Strategic Computing Initiative），其1988年向AI的投资是1984年的三倍。人工智能又迎来了大发展。
 
 {:.center}
-![](http://www.ityouknow.com/assets/images/2017/reading/Symbolics3640_Modified.jpg)
+![](http://www.ityouknow.com/assets/images/2017/reading/Symbolics3640_Modified.jpg)  
 早期的专家系统Symbolics 3640
 
 专家系统是一种程序，能够依据一组从专门知识中推演出的逻辑规则在某一特定领域回答或解决问题。最早的示例由Edward Feigenbaum和他的学生们开发。1965年起设计的Dendral能够根据分光计读数分辨混合物。1972年设计的MYCIN能够诊断血液传染病。它们展示了这一方法的威力。专家系统仅限于一个很小的知识领域，从而避免了常识问题；其简单的设计又使它能够较为容易地编程实现或修改。总之，实践证明了这类程序的实用性。直到现在AI才开始变得实用起来。
@@ -103,7 +103,7 @@ XCON等最初大获成功的专家系统维护费用居高不下。它们难以�
 深蓝实际上收集了世界上百位国际大师的对弈棋谱，供计算机学习。这样一来，深蓝其实看到了名家们在各种局面下的走法，因此在对弈中计算出最优的路线。深蓝也是数据+计算模式的代表。
 
 {:.center}
-![](http://www.ityouknow.com/assets/images/2017/reading/Deep_Blue.jpg)
+![](http://www.ityouknow.com/assets/images/2017/reading/Deep_Blue.jpg)  
 深蓝机组之一
 
 越来越多的AI研究者们开始开发和使用复杂的数学工具。人们广泛地认识到，许多AI需要解决的问题已经成为数学，经济学和运筹学领域的研究课题。数学语言的共享不仅使AI可以与其他学科展开更高层次的合作，而且使研究结果更易于评估和证明。AI已成为一门更严格的科学分支。
