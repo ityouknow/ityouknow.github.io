@@ -8,6 +8,7 @@ css: ['blog-page.css']
 
 ## 近期文章
 
+- [人工智能发展史](http://www.ityouknow.com/book/2017/06/10/intelligent-age.html)
 - [编程科普书籍推荐](http://www.ityouknow.com/book/2017/06/06/book-list.html)
 - [springcloud(十)：服务网关zuul](http://www.ityouknow.com/springcloud/2017/06/01/gateway-service-zuul.html)
 - [springcloud(九)：配置中心和消息总线（配置中心终结版）](http://www.ityouknow.com/springcloud/2017/05/26/springcloud-config-eureka-bus.html)
