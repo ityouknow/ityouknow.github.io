@@ -40,7 +40,7 @@ tags: [cloudfavorites]
 ![](http://www.ityouknow.com/assets/images/2017/cloudfavorites/gradle5.png)
 
 
-4、导入完成之后，选择Project Stucture查看项目依赖
+4、导入完成之后，选择Project Stucture查看项目依赖(最新版本已经修复，使用最新版本构建可以跳过第4、5步)
 
 
 {:.center}
@@ -52,7 +52,8 @@ tags: [cloudfavorites]
 {:.center}
 ![](http://www.ityouknow.com/assets/images/2017/cloudfavorites/gradle7.png)
 
-5、将标红色部分的jar级别由Provided改为Compile
+
+5、将标红色部分的jar级别由Provided改为Compile(最新版本已经修复，使用最新版本构建可以跳过第4、5步)
 
 {:.center}
 ![](http://www.ityouknow.com/assets/images/2017/cloudfavorites/gradle8.png)
