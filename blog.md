@@ -14,11 +14,8 @@ css: ['blog-page.css']
 - [springcloud(十)：服务网关zuul](http://www.ityouknow.com/springcloud/2017/06/01/gateway-service-zuul.html)
 - [springcloud(九)：配置中心和消息总线（配置中心终结版）](http://www.ityouknow.com/springcloud/2017/05/26/springcloud-config-eureka-bus.html)
 - [springcloud(八)：配置中心服务化和高可用](http://www.ityouknow.com/springcloud/2017/05/25/springcloud-config-eureka.html)
-- [springcloud(七)：配置中心svn示例和refresh](http://www.ityouknow.com/springcloud/2017/05/23/springcloud-config-svn-refresh.html)
-- [springcloud(六)：配置中心git示例](http://www.ityouknow.com/springcloud/2017/05/22/springcloud-config-git.html)
-- [思维的局限](http://www.ityouknow.com/life/2017/05/19/Limitations-of-thinking.html)
 
-## 实战互联网金融
+## 实战互金
 
 - [从零到百亿互联网金融架构发展史](http://www.ityouknow.com/%E6%9E%B6%E6%9E%84/2017/01/10/%E4%BB%8E%E9%9B%B6%E5%88%B0%E7%99%BE%E4%BA%BF%E4%BA%92%E8%81%94%E7%BD%91%E9%87%91%E8%9E%8D%E6%9E%B6%E6%9E%84%E5%8F%91%E5%B1%95%E5%8F%B2.html)
 - [一次生产事故的优化经历](http://www.ityouknow.com/%E4%BC%98%E5%8C%96/2017/02/06/%E4%B8%80%E6%AC%A1%E7%94%9F%E4%BA%A7%E4%BA%8B%E6%95%85%E7%9A%84%E4%BC%98%E5%8C%96%E7%BB%8F%E5%8E%86.html)  
