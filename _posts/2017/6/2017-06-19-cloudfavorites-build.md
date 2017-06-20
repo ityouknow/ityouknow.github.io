@@ -70,4 +70,5 @@ tags: [cloudfavorites]
 ![](http://www.ityouknow.com/assets/images/2017/cloudfavorites/mvn3.png)
 
 
-感谢@souvc提供mvn的支持！
+感谢@souvc提供mvn的支持！  
+感谢@shatangege提供本地化支持！

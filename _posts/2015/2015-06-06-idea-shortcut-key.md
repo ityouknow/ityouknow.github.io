@@ -46,6 +46,11 @@ tags: [idea]
 
 > Ctrl + ALT + 左/右
 
+10、查找和替换
+
+> Ctrl+R，替换文本
+> Ctrl+F，查找文本
+
 ## 错误 
 
 1、maven导入项目报错
@@ -55,3 +60,14 @@ tags: [idea]
 
 
 不同project下面存在相同的module,导致此问题，删除其它project中项目，再次导入OK。
+
+
+2、gradle no cached version available for offline mode
+
+> Error:No cached version of org.springframework.boot:spring-boot-gradle-plugin:1.5.4.RELEASE available for offline mode.
+
+抱这个错误直接把gradle中的offline work关掉就可以解决  
+File > Settings > Gradle 中的offline work 的勾去掉。
+
+
+
