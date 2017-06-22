@@ -51,6 +51,16 @@ tags: [idea]
 > Ctrl+R，替换文本
 > Ctrl+F，查找文本
 
+11、 debug
+
+> Ctrl+F1 ,显示结果  
+> F9 ,下一个断点
+> F8 ,下一步
+
+12、 移动代码
+
+> Alt+Shift+Up/Down，上/下移一行
+
 ## 错误 
 
 1、maven导入项目报错

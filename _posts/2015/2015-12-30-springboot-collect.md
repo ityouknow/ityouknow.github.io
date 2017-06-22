@@ -25,6 +25,8 @@ tags: [springboot]
 
 - [方志朋Spring Boot 专栏](http://blog.csdn.net/column/details/15397.html)
 
+- [Spring-boot集成](http://lihao312.iteye.com/)
+
 
 ## 推荐网站
 
@@ -53,6 +55,7 @@ tags: [springboot]
 
 - [springboot-learning-example](https://github.com/JeffLi1993/springboot-learning-example)
 
+- [spring-boot-all](https://github.com/leelance/spring-boot-all)
 
 
 
