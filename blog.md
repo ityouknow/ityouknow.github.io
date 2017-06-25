@@ -8,12 +8,13 @@ css: ['blog-page.css']
 
 ## 近期文章
 
+- [救人一命是怎样的体验？](http://www.ityouknow.com/life/2017/06/25/save-a-life.html)
 - [如何做一个对账系统](http://www.ityouknow.com/pay/2017/06/13/reconciliation-system.html)
 - [人工智能发展史](http://www.ityouknow.com/book/2017/06/10/intelligent-age.html)
 - [编程科普书籍推荐](http://www.ityouknow.com/book/2017/06/06/book-list.html)
 - [springcloud(十)：服务网关zuul](http://www.ityouknow.com/springcloud/2017/06/01/gateway-service-zuul.html)
 - [springcloud(九)：配置中心和消息总线（配置中心终结版）](http://www.ityouknow.com/springcloud/2017/05/26/springcloud-config-eureka-bus.html)
-- [springcloud(八)：配置中心服务化和高可用](http://www.ityouknow.com/springcloud/2017/05/25/springcloud-config-eureka.html)
+
 
 ## 实战互金
 
