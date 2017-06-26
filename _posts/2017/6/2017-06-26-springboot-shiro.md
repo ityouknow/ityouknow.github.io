@@ -457,17 +457,13 @@ public String login(HttpServletRequest request, Map<String, Object> map) throws 
 3、修改admin不同的权限进行测试
 
 
-shiro很强大，这仅仅是完成了登录认证和权限管理这两个功能，以后有时间再做探讨。
-
-
+shiro很强大，这仅仅是完成了登录认证和权限管理这两个功能，更多内容以后有时间再做探讨。
 
 
 **[示例代码](https://github.com/ityouknow/spring-boot-examples)**
 
 参考：
 
-[Apache Shiro中文手册](https://waylau.gitbooks.io/apache-shiro-1-2-x-reference/content/)  
-
-[Spring Boot Shiro权限管理【从零开始学Spring Boot】](http://412887952-qq-com.iteye.com/blog/2299777)
-
+[Apache Shiro中文手册](https://waylau.gitbooks.io/apache-shiro-1-2-x-reference/content/)   
+[Spring Boot Shiro权限管理【从零开始学Spring Boot】](http://412887952-qq-com.iteye.com/blog/2299777)  
 [SpringBoot+shiro整合学习之登录认证和权限控制](http://z77z.oschina.io/2017/02/13/SpringBoot+shiro%E6%95%B4%E5%90%88%E5%AD%A6%E4%B9%A0%E4%B9%8B%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E5%92%8C%E6%9D%83%E9%99%90%E6%8E%A7%E5%88%B6/)
