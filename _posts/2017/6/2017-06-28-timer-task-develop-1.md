@@ -5,9 +5,9 @@ category: java
 tags: [java]
 ---
 
-定时任务应该是互联网行业里面最常用的服务之一了，不同的语言有不同的实现方式，比较常用的也有使用linux的crontab命令来实现的。但是在Java里，使用最广泛的就是quartz了。 就连我们公司使用的quartz已经使用了三个版本，每一个版本在上个版本中有所优化，写这篇文章一方面介绍一下quartz的使用，另一方可以根据此项目的变迁反应出我司平台架构不断变迁的一个缩影。
+定时任务应该是互联网行业里面最常用的服务之一了，不同的语言有不同的实现方式，linux系统中比较常用crontab命令来实现。在Java世界里，使用最广泛的就是quartz了。我司使用quartz就已经升级了三代，每一代在上一代系统之上有所优化，写这篇文章一方面介绍一下quartz的使用，另一方面可以根据此项目的变迁反应出我司平台架构不断升级变化的一个缩影。
 
-定时任务的使用场景很多，以我司来讲：定时计息，派息、对账等等。
+定时任务的使用场景很多，以我们平台来讲：定时计息，派息、对账等等。
 
 ## quartz 介绍
 
@@ -40,9 +40,9 @@ Quartz 定时器的时间设置
 
 ## 第一代定时任务系统
 
-我的第一代定时任务系统使用的很简单，全部按照当时spring推荐的配置方式来进行，开发于2014年初。
+第一代定时任务系统使用的很简单，全部按照当时spring推荐的配置方式来进行，开发于2014年初。
 
-首先在配置文件中配置定时任务的线城市
+首先在配置线程池
 
 ``` xml
 <bean id="executor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
@@ -52,7 +52,7 @@ Quartz 定时器的时间设置
 </bean>
 ```
 
-配置一个定时任务的工程和一个具体任务的基类
+配置定时任务工厂和任务基类
 
 ``` xml
 <bean id="timerFactory" class="com.zx.timer.TimerFactory" />
@@ -65,8 +65,6 @@ Quartz 定时器的时间设置
 
 - machineId：机器编码  
 - recordErrorDetail：是否记录详细日志
-
-这些都是自己实现的
 
 
 通过timerFactory 来获取具体的任务和触发器
@@ -94,7 +92,7 @@ public class TimerFactory implements BeanFactoryAware {
 }
 ```
 
-baseTask集成了task，在里面做了一些基础的业务，比如定时任务开始的时候记录定时任务的执行时间，定时任务结束的时候记录执行的结果等。
+baseTask集成了task，在里面做了一些基础的业务，比如定时任务开始执行的时候记录定时任务的开始执行时间，定时任务结束的时候记录执行的结果等。
 
 ``` java
 public interface Task {
@@ -102,7 +100,7 @@ public interface Task {
 }
 ```
 
-最后就是配置具体的定时任务了。已重发短信邮件的定时任务为例
+配置具体的定时任务。以重发短信邮件的定时任务为例
 
 ``` xml
 <bean id="resendSmsAndEmailTask" class="com.zx.timer.core.tasks.ResendSmsAndEmailTask"
@@ -153,7 +151,7 @@ public class ResendSmsAndEmailTask extends BaseTask{
 }
 ```
 
-最后配置scheduler进行任务的调度。
+最后配置scheduler任务调度
 
 ``` xml
 <bean id="scheduler" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
@@ -249,7 +247,7 @@ public class DynamicJobAssembler {
 }
 ```
 
-同时在库里面也记录了一下定时任务，执行的时候以库里面的数据为准，方便编辑。
+定时任务表，执行的时候以表里面的数据为准，方便编辑。
 
 ``` sql
 SET FOREIGN_KEY_CHECKS=0;
@@ -280,7 +278,7 @@ CREATE TABLE `zx_task_informations` (
 INSERT INTO `zx_task_informations` VALUES ('1', '0', 'resendSmsAndEmail', '重发短信和邮件', '10 */10 * * * ?', 'FROZEN', '0', 'yyyy-MM-dd HH:mm', '0', '0', '0', '1486807296009');
 ```
 
-这就是我们第一代定时任务系统了，比较好解决了分布式定时任务的功能，但是同样有两个缺点：
+这就是我们第一代定时任务系统，比较好解决了分布式定时任务的功能，但是同样有两个缺点：
 
 - 1、定时调度代码和业务代码耦合在一起
 - 2、每次调整定时任务的时间需要重新启动服务
