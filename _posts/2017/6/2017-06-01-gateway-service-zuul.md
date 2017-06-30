@@ -1,6 +1,6 @@
 ---
 layout: post
-title: springcloud(十)：服务网关zuul
+title: springcloud(十)：服务网关zuul初级篇
 category: springcloud
 tags: [springcloud]
 ---
