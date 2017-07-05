@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 南下打工到高级项目经理-屌丝程序员的逆袭之旅
+title: 高中毕业，我想出去看看
 category: life
 tags: [life]
 ---
