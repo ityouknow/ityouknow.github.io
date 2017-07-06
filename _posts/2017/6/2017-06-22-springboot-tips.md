@@ -62,7 +62,7 @@ spring boot项目启动的时候会自动执行脚本。
 
 通过设置thymeleaf模板可以解决这个问题，下面是具体的配置:
 
-```
+``` properties
 spring.thymeleaf.cache=false
 spring.thymeleaf.mode=LEGACYHTML5
 ```
@@ -79,4 +79,27 @@ LEGACYHTML5需要搭配一个额外的库NekoHTML才可用
 ``` 
 
 参考：[thymeleaf模板对没有结束符的HTML5标签解析出错的解决办法](http://blog.csdn.net/yalishadaa/article/details/60768811)
+
+
+
+## 随机端口
+
+为Spring Cloud的应用实用随机端口非常简单，主要有两种方法：
+
+设置server.port=0，当应用启动的时候会自动的分配一个随机端口，但是该方式在注册到Eureka的时候会一个问题：所有实例都使用了同样的实例名（如：Lenovo-test:hello-service:0），这导致只出现了一个实例。所以，我们还需要修改实例ID的定义，让每个实例的ID不同，比如使用随机数来配置实例ID：
+
+``` properties
+server.port=0
+eureka.instance.instance-id=${spring.application.name}:${random.int}
+```
+
+除了上面的方法，实际上我们还可以直接使用random函数来配置server.port。这样就可以指定端口的取值范围，比如：
+
+``` properties
+server.port=${random.int[10000,19999]}
+```
+
+由于默认的实例ID会由server.port拼接，而此时server.port设置的随机值会重新取一次随机数，所以使用这种方法的时候不需要重新定义实例ID的规则就能产生不同的实例ID了。
+
+参考：[thymeleaf模板对没有结束符的HTML5标签解析出错的解决办法](http://blog.didispace.com/spring-cloud-tips-2/)
 
