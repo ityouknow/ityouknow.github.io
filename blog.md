@@ -8,9 +8,9 @@ css: ['blog-page.css']
 
 ## 近期文章
 
+- [大案](http://www.ityouknow.com/life/2017/07/06/big-case.html)  
+- [高中毕业，我想出去看看](http://www.ityouknow.com/life/2017/07/03/pingjing-life.html)  
 - [百亿互金平台技术栈大起底](http://www.ityouknow.com/arch/2017/06/30/technology-stack.html)
-- [定时任务发展史(二)](http://www.ityouknow.com/java/2017/06/29/timer-task-develop-2.html)  
-- [定时任务发展史(一)](http://www.ityouknow.com/java/2017/06/28/timer-task-develop-1.html)  
 - [springboot(十四)：springboot整合shiro-登录认证和权限管理](http://www.ityouknow.com/springboot/2017/06/26/springboot-shiro.html)  
 - [救人一命是怎样的体验？](http://www.ityouknow.com/life/2017/06/25/save-a-life.html)  
 - [如何做一个对账系统](http://www.ityouknow.com/pay/2017/06/13/reconciliation-system.html)
