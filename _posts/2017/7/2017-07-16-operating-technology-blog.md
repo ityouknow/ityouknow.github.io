@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 如何正确的运营你的技术博客?
+title: 技术博客那些事儿
 category: tech
 tags: [tech]
 ---
