@@ -9,12 +9,14 @@ hbase和hadoop一样也分为单机版、伪分布式版和完全分布式集群
 
 hbase依赖于hadoop环境，搭建habase之前首先需要搭建好hadoop的完全集群环境，因此看这篇文章之前需要先看我的上一篇文章：[hadoop分布式集群搭建](http://www.ityouknow.com/hadoop/2017/07/24/hadoop-cluster-setup.html)。本文中没有按照独立的zookeeper，使用了hbase自带的zookeeper。
 
-1、环境准备
+## 环境准备
 
 - hbase软件包: http://mirror.bit.edu.cn/apache/hbase/1.3.1/hbase-1.3.1-bin.tar.gz  
 - 完成hadoop集群环境搭建
 
-2、安装hbase(在hadoop-master上)
+## 安装hbase
+
+> 首先在hadoop-master安装配置好之后，在复制到从节点
 
 ``` shell 
 wget http://mirror.bit.edu.cn/apache/hbase/1.3.1/hbase-1.3.1-bin.tar.gz
@@ -40,7 +42,7 @@ source /etc/profile
 ulimit -n 10240
 ```
 
-3、 hbase配置文件修改
+## 配置文件
 
 hbase 相关的配置主要包括hbase-env.sh、hbase-site.xml、regionservers三个文件，都在 /usr/local/hbase/conf目录下面：
 
@@ -100,7 +102,9 @@ scp -r /usr/local/hbase hadoop-slave2:/usr/local/
 scp -r /usr/local/hbase hadoop-slave3:/usr/local/
 ```
 
-4. 启动hbase（仅在master节点上执行即可）
+## 启动hbase
+
+> 启动仅在master节点上执行即可
 
 ``` shell 
 ~/hbase/bin/start-hbase.sh
