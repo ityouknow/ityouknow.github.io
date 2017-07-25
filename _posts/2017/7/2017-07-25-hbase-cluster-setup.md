@@ -138,12 +138,12 @@ salve中的信息
 
 如果安装了独立的zookeeper
 
-启动顺序: ```hadoop-> zookeeper-> hbase```
+启动顺序: ```hadoop-> zookeeper-> hbase```  
 停止顺序：```hbase-> zookeeper-> hadoop```
 
 使用自带的zookeeper
 
-启动顺序: ```hadoop-> hbase```
+启动顺序: ```hadoop-> hbase```  
 停止顺序：```hbase->  hadoop```
 
 
