@@ -48,8 +48,8 @@ tags: [idea]
 
 10、查找和替换
 
-> Ctrl+R，替换文本
-> Ctrl+F，查找文本
+> Ctrl + SHIfT + R，替换文本
+> Ctrl + SHIfT + F，查找文本
 
 11、 debug
 
