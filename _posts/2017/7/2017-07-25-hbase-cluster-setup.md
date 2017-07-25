@@ -169,7 +169,7 @@ Caused by: org.apache.hadoop.hbase.ipc.RemoteWithExtrasException(org.apache.hado
  master.  Time difference of 77348ms > max allowed of 30000ms
 ```
 
-看大概的意思是主节点链接从节点超时了。可能有两方面的原因，第一linux服务器时间不一致导致，第二、由于网络其它原因导致链接的时间超长。
+看大概的意思是主节点连接从节点超时了。可能有两方面的原因，第一、linux服务器时间不一致导致，第二、由于网络其它原因导致连接的时间超长。
 
 解决方案：
 
