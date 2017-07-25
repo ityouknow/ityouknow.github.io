@@ -156,14 +156,17 @@ salve中的信息
 ~/hbase/bin/start-hbase.sh
 ```
 
-## 报错
+## 错误处理
 
 在搭建的过程中，报了这么一个错误，错误信息如下：
 
 ``` shell
 Unhandled: org.apache.hadoop.hbase.ClockOutOfSyncException: Server hadoop-slave3,16020,1500526355333
 
-Caused by: org.apache.hadoop.hbase.ipc.RemoteWithExtrasException(org.apache.hadoop.hbase.ClockOutOfSyncException): org.apache.hadoop.hbase.ClockOutOfSyncException: Server hadoop-slave3,16020,1500526355333 has been rejected; Reported time is too far out of sync with master.  Time difference of 77348ms > max allowed of 30000ms
+Caused by: org.apache.hadoop.hbase.ipc.RemoteWithExtrasException(org.apache.hadoop.hbase.ClockOutOfSyncException):   
+ org.apache.hadoop.hbase.ClockOutOfSyncException:       
+ Server hadoop-slave3,16020,1500526355333 has been rejected; Reported time is too far out of sync with  
+ master.  Time difference of 77348ms > max allowed of 30000ms
 ```
 
 看大概的意思是主节点链接从节点超时了。可能有两方面的原因，第一linux服务器时间不一致导致，第二、由于网络其它原因导致链接的时间超长。
