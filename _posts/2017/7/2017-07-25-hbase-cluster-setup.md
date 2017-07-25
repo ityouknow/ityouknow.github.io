@@ -149,12 +149,55 @@ salve中的信息
 
 重启hbase
 
+``` shell
 ~/hbase/bin/stop-hbase.sh
 ~/hadoop/sbin/stop-all.sh
 ~/hadoop/sbin/start-all.sh
 ~/hbase/bin/start-hbase.sh
+```
 
+## 报错
 
+在搭建的过程中，报了这么一个错误，错误信息如下：
+
+``` shell
+Unhandled: org.apache.hadoop.hbase.ClockOutOfSyncException: Server hadoop-slave3,16020,1500526355333
+
+Caused by: org.apache.hadoop.hbase.ipc.RemoteWithExtrasException(org.apache.hadoop.hbase.ClockOutOfSyncException): org.apache.hadoop.hbase.ClockOutOfSyncException: Server hadoop-slave3,16020,1500526355333 has been rejected; Reported time is too far out of sync with master.  Time difference of 77348ms > max allowed of 30000ms
+```
+
+看大概的意思是主节点链接从节点超时了。可能有两方面的原因，第一linux服务器时间不一致导致，第二、由于网络其它原因导致链接的时间超长。
+
+解决方案：
+
+第一个原因，修改各服务器时间保持一致。最终的解决方案是：设置一个定时使用ntp从某个服务器定时同步时间
+
+``` shell
+查看定时 
+crontab -l
+编辑
+crontab -e 
+# 内容
+0 */1 * * *  /usr/sbin/ntpdate 192.168.0.12;/sbin/hwclock -w
+```
+
+手动执行
+
+``` shell
+#从 0.12同步时间
+/usr/sbin/ntpdate 192.168.0.12
+```
+
+第二个原因，可以修改hbase默认的最大链接时间长一些。
+
+HBase配置文件hbase-siter.xml中添加连接时长的属性
+
+``` xml 
+<property>
+    <name>hbase.master.maxclockskew</name>
+    <value>120000</value>
+ </property>
+```
 
 参考:  
 [centos 6.4下hbase 1.0.1 分布式集群搭建](http://www.ixirong.com/2015/05/25/how-to-install-hbase-cluster/)
