@@ -10,11 +10,11 @@ HBase shell是HBase的一套命令行工具，类似传统数据中的sql概念�
 
 ## HBase介绍
 
-### 概念
+### HBase简介
 
 HBase的名字的来源于Hadoop database，即hadoop数据库，不同于一般的关系数据库，它是一个适合于非结构化数据存储的数据库，而且它是基于列的而不是基于行的模式。
 
-HBase是一个分布式的、面向列的开源数据库,源于google的一篇论文《bigtable：一个结构化数据的分布式存储系统》。HBase是Google Bigtable的开源实现，它利用Hadoop HDFS作为其文件存储系统，利用Hadoop MapReduce来处理HBase中的海量数据，利用Zookeeper作为协同服务。
+HBase是一个分布式的、面向列的开源数据库,源于google的一篇论文[《bigtable：一个结构化数据的分布式存储系统》](https://static.googleusercontent.com/media/research.google.com/zh-CN//archive/bigtable-osdi06.pdf)。HBase是Google Bigtable的开源实现，它利用Hadoop HDFS作为其文件存储系统，利用Hadoop MapReduce来处理HBase中的海量数据，利用Zookeeper作为协同服务。
 
 hbase提供了一个shell的终端给用户交互。使用命令hbase shell进入命令界面。通过执行 help可以看到命令的帮助信息。
 
@@ -25,7 +25,7 @@ HBase以表的形式存储数据。表有行和列组成。列划分为若干个
 {:.center}
 ![](http://www.ityouknow.com/assets/images/2017/bigdata/hbase-table.png)
 
-如上图所示，key1,key2,key3是三条记录的唯一的row key值，column-family1,column-family2,column-family3是三个列族，每个列族下又包括几列。比如column-family1这个列族下包括两列，名字是column1和column2，t1:abc,t2:gdxdf是由row key1和column-family1-column1唯一确定的一个单元cell。这个cell中有两个数据，abc和gdxdf。两个值的时间戳不一样，分别是t1,t2, hbase会返回最新时间的值给请求者。
+如上图所示，```key1```,```key2```,```key3```是三条记录的唯一的```row key```值，```column-family1```,```column-family2```,```column-family3```是三个列族，每个列族下又包括几列。比如```column-family1```这个列族下包括两列，名字是```column1```和```column2```，```t1:abc```,```t2:gdxdf```是由```row key1```和```column-family1-column1```唯一确定的一个单元```cell```。这个```cell```中有两个数据，abc和gdxdf。两个值的时间戳不一样，分别是t1,t2, hbase会返回最新时间的值给请求者。
 
 这些名词的具体含义如下：
 
@@ -49,13 +49,13 @@ Row key行键 (Row key)可以是任意字符串(最大长度是 64KB，实际应
 
 2、列族 column family
 
-hbase表中的每个列，都归属与某个列族。列族是表的chema的一部分(而列不是)，必须在使用表之前定义。列名都以列族作为前缀。例如courses:history ， courses:math 都属于 courses 这个列族。
+hbase表中的每个列，都归属与某个列族。列族是表的chema的一部分(而列不是)，必须在使用表之前定义。列名都以列族作为前缀。例如```courses:history```，```courses:math```都属于```courses```这个列族。
 
 访问控制、磁盘和内存的使用统计都是在列族层面进行的。实际应用中，列族上的控制权限能帮助我们管理不同类型的应用：我们允许一些应用可以添加新的基本数据、一些应用可以读取基本数据并创建继承的列族、一些应用则只允许浏览数据（甚至可能因为隐私的原因不能浏览所有数据）。
 
 3、单元 Cell
 
-HBase中通过row和columns确定的为一个存贮单元称为cell。由{row key, column( =<family> + <label>), version} 唯一确定的单元。cell中的数据是没有类型的，全部是字节码形式存贮。
+HBase中通过row和columns确定的为一个存贮单元称为cell。由```{row key, column( =<family> + <label>)```, version} 唯一确定的单元。cell中的数据是没有类型的，全部是字节码形式存贮。
 
 4、时间戳 timestamp
 
@@ -135,7 +135,7 @@ alter 'member', {NAME => 'member_id', METHOD => 'delete’}
 
 5、删除列
 
-1）通过delete命令，我们可以删除id为某个值的‘info:age’字段，接下来的get就无视了
+1）通过```delete```命令，我们可以删除id为某个值的```‘info:age’```字段，接下来的get就无视了
 
 ``` shell 
 delete 'member','debugo','info:age'
@@ -149,10 +149,11 @@ deleteall 'member','debugo'
 get 'member',’debugo'
 ```
 
-6、通过enable和disable来启用/禁用这个表,相应的可以通过is_enabled和is_disabled来检查表是否被禁用。
+6、通过enable和disable来启用/禁用这个表,相应的可以通过```is_enabled```和```is_disabled```来检查表是否被禁用。
 
 ``` shell 
 is_enabled 'member'
+is_disabled 'member'
 ```
 
 7、使用exists来检查表是否存在
@@ -235,7 +236,7 @@ scan 'member', {COLUMN=>'info'}
 scan 'member', {COLUMNS=> 'info:birthday'}
 ```
 
-6、除了列（COLUMNS）修饰词外，HBase还支持Limit（限制查询结果行数），STARTROW （ROWKEY起始行。会先根据这个key定位到region，再向后扫描）、STOPROW(结束行)、TIMERANGE（限定时间戳范围）、VERSIONS（版本数）、和FILTER（按条件过滤行）等。比如我们从Sariel这个rowkey开始，找下一个行的最新版本
+6、除了列```（COLUMNS）```修饰词外，HBase还支持```Limit```（限制查询结果行数），```STARTROW ```（```ROWKEY```起始行。会先根据这个```key```定位到```region```，再向后扫描）、```STOPROW```(结束行)、```TIMERANGE```（限定时间戳范围）、```VERSIONS```（版本数）、和```FILTER```（按条件过滤行）等。比如我们从```Sariel```这个```rowkey```开始，找下一个行的最新版本
 
 ``` shell
 scan 'member', { STARTROW => 'Sariel', LIMIT=>1, VERSIONS=>1}
@@ -265,12 +266,12 @@ FILTER中支持多个过滤条件通过括号、AND和OR的条件组合
 scan 'member', FILTER=>"ColumnPrefixFilter('birth') AND ValueFilter ValueFilter(=,'substring:1988')"
 ```
 
-PrefixFilter是对Rowkey的前缀进行判断,这是一个非常常用的功能。
+```PrefixFilter```是对Rowkey的前缀进行判断,这是一个非常常用的功能。
 
 ``` shell
 scan 'member', FILTER=>"PrefixFilter('E')"
 ```
 
-参考：
-[hbase shell基础和常用命令详解](http://blog.pureisle.net/archives/1887.html)
+**参考：**  
+[hbase shell基础和常用命令详解](http://blog.pureisle.net/archives/1887.html)   
 [HBase Shell 常用操作](http://debugo.com/hbase-shell-cmds/)

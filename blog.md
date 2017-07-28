@@ -8,10 +8,13 @@ css: ['blog-page.css']
 
 ## 近期文章
 
+- [HBase shell 命令介绍](http://www.ityouknow.com/hbase/2017/07/28/hbase-shell.html)  
+- [hbase分布式集群搭建](http://www.ityouknow.com/hbase/2017/07/25/hbase-cluster-setup.html)  
+- [hadoop分布式集群搭建](http://www.ityouknow.com/hadoop/2017/07/24/hadoop-cluster-setup.html)  
+- [技术博客那些事儿](http://www.ityouknow.com/tech/2017/07/16/operating-technology-blog.html)  
 - [大案](http://www.ityouknow.com/life/2017/07/06/big-case.html)  
 - [高中毕业，我想出去看看](http://www.ityouknow.com/life/2017/07/03/pingjing-life.html)  
 - [百亿互金平台技术栈大起底](http://www.ityouknow.com/arch/2017/06/30/technology-stack.html)
-- [springboot(十四)：springboot整合shiro-登录认证和权限管理](http://www.ityouknow.com/springboot/2017/06/26/springboot-shiro.html)  
 - [救人一命是怎样的体验？](http://www.ityouknow.com/life/2017/06/25/save-a-life.html)  
 - [如何做一个对账系统](http://www.ityouknow.com/pay/2017/06/13/reconciliation-system.html)
 
@@ -88,9 +91,15 @@ css: ['blog-page.css']
 - [jvm系列(八):jvm知识点总览](http://www.ityouknow.com/java/2017/03/01/jvm-overview.html)
 - [springcloud(十)：服务网关zuul](http://www.ityouknow.com/springcloud/2017/06/01/gateway-service-zuul.html)
 
+## 大数据
+
+- [HBase shell 命令介绍](http://www.ityouknow.com/hbase/2017/07/28/hbase-shell.html)  
+- [hbase分布式集群搭建](http://www.ityouknow.com/hbase/2017/07/25/hbase-cluster-setup.html)  
+- [hadoop分布式集群搭建](http://www.ityouknow.com/hadoop/2017/07/24/hadoop-cluster-setup.html) 
 
 ## 读书
 
+- [技术博客那些事儿](http://www.ityouknow.com/tech/2017/07/16/operating-technology-blog.html)  
 - [编程科普书籍推荐](http://www.ityouknow.com/book/2017/06/06/book-list.html)
 
 
