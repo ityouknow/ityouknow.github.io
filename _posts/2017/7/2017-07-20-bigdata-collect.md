@@ -14,3 +14,11 @@ tags: [bigdata]
 - [纯洁的微笑](http://www.ityouknow.com)
 
 - [粉丝日志](http://blog.fens.me/series-hadoop-family/)
+
+
+## 网站
+
+http://bigdata.evget.com/
+
+
+## 开源项目
