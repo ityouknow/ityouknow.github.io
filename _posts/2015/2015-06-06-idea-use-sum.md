@@ -1,6 +1,6 @@
 ---
 layout: post
-title: idea常用快捷键
+title: idea使用总结
 category: idea
 tags: [idea]
 ---
@@ -80,4 +80,20 @@ tags: [idea]
 File > Settings > Gradle 中的offline work 的勾去掉。
 
 
+## 其它
+
+1、添加插件mac
+
+Intellij IDEA 菜单 -》Preferences-》Plugins 选项卡 
+
+
+
+2、开启自动 import 包的功能
+
+Java就是这种包组合在一个的一个东西, 我们在写代码时常常需要引入一些类, 一些第三方的包. 在eclipse时我们使用快捷键引入, IDEA也可以使用Alt + Enter进行导入包.
+
+如果我们在写代码时IDE自动帮我们引入相关的包, 是不是很酷的意见事情. IDEA提供了这个功能, 不过默认是关闭的. 打开自动导入包设置如下:
+
+{:.center}
+![](http://www.ityouknow.com/assets/images/2015/idea-auto-import.jpg)  
 
