@@ -61,6 +61,9 @@ tags: [idea]
 
 > Alt+Shift+Up/Down，上/下移一行
 
+13、输出打印
+
+
 ## 错误 
 
 1、maven导入项目报错
