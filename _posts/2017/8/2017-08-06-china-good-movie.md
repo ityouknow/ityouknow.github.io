@@ -98,7 +98,7 @@ tags: [movie]
 ![](http://www.ityouknow.com/assets/images/2017/movie/xjzw.jpeg)
 
 
-> 有什么好的国产电影，记得推荐给我。
+> 还有什么好的国产电影，记得推荐给我。
 
 
 
