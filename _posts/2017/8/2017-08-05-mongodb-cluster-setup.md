@@ -5,7 +5,7 @@ category: mongodb
 tags: [mongodb]
 ---
 
-mongodb是最常用的nodql数据库，mongodb在所以的数据库排名中已经上升到了前六。这篇文章给大家介绍如何大家mongodb分片和副本集的集群。
+mongodb是最常用的nodql数据库，mongodb在数据库排名中已经上升到了前六。这篇文章给大家介绍如何大家mongodb分片和副本集的集群。
 
 在搭建集群之前，需要首先了解几个概念：分片、副本集、配置服务器等。
 
@@ -68,7 +68,7 @@ tar -xzvf mongodb-linux-x86_64-3.4.6.tgz -C /usr/local/
 mv mongodb-linux-x86_64-3.4.6 mongodb
 ```
 
-分别在每台机器建立mongos、config、shard1、shard2、shard3五个目录，因为mongos不存储数据，只需要建立日志文件目录即可。
+分别在每台机器建立conf、mongos、config、shard1、shard2、shard3六个目录，因为mongos不存储数据，只需要建立日志文件目录即可。
 
 ``` sh
 mkdir -p /usr/local/mongodb/conf
@@ -148,7 +148,7 @@ config = {
 rs.initiate(config)
 ```
 
-其中，"_id" : "configs"应与配置文件中配置的 replicaction.replSetName 一致，"members" 中的 "host" 为三个节点的 ip 和 port，第三个节点的 "arbiterOnly":true 代表其为仲裁节点。
+其中，"_id" : "configs"应与配置文件中配置的 replicaction.replSetName 一致，"members" 中的 "host" 为三个节点的 ip 和 port
 
 ### 3、配置分片副本集(三台机器)
 
@@ -196,7 +196,7 @@ mongod -f /usr/local/mongodb/conf/shard1.conf
 mongo --port 27001
 #使用admin数据库
 use admin
-#定义副本集配置
+#定义副本集配置，第三个节点的 "arbiterOnly":true 代表其为仲裁节点。
 config = {
 ...    _id : "shard1",
 ...     members : [
