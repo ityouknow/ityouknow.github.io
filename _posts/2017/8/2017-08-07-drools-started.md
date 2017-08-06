@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 小明历险记：drools规则引擎教程一
-category: mongodb
-tags: [mongodb]
+title: 小明历险记：规则引擎drools教程一
+category: drools
+tags: [drools]
 ---
 
 小明是一家互联网公司的软件工程师，他们公司为了吸引新用户经常会搞活动，小明常常为了做活动加班加点很烦躁，这不今天呀又来了一个活动需求，我们大家一起帮他看看。
