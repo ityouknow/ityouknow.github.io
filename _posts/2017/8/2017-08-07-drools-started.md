@@ -255,7 +255,7 @@ public static void execute( KieContainer kc ) throws Exception{
 
 OK 代码这样写就行了，完全不用考虑以后的规则变化了。当活动的规则有变化的时候，小明只要修改规则文件Point-rules.drl里面的规则既可。
 
-看到这里小明又开始哼起了歌声。。。
+看到这里小明又开始哼起了歌曲。。。
 
 **[文中完整的示例代码](https://github.com/ityouknow/drools-examples)**
 
