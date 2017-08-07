@@ -212,9 +212,19 @@ rule "add1000"
 end    
 ```
 
+- package 与Java语言类似，drl的头部需要有package和import的声明,package不必和物理路径一致。  
+- import 导出java Bean的完整路径，也可以将Java静态方法导入调用。  
+- rule 规则名称，需要保持唯一  件,可以无限次执行。
+- no-loop 定义当前的规则是否不允许多次循环执行,默认是 false,也就是当前的规则只要满足条件,可以无限次执行。  
+- lock-on-active 将lock-on-active属性的值设置为true,可避免因某些Fact对象被修改而使已经执行过的规则再次被激活执行。  
+- salience 用来设置规则执行的优先级,salience 属性的值是一个数字,数字越大执行优先级越高, 同时它的值可以是一个负数。默认情况下,规则的 salience 默认值为 0。如果不设置规则的 salience 属性,那么执行顺序是随机的。  
+- when 条件语句，就是当到达什么条件的时候  
+- then 根据条件的结果，来执行什么动作  
+- end 规则结束  
+
 这个规则文件就是描述了，当符合什么条件的时候，应该去做什么事情，每当规则有变动的时候，我们只需要修改规则文件，然后重新加载即可生效。
 
-这里需要有一个配置文件告诉代码规则文件drl在哪里，这drols中这个配置文件就是kmodule.xml，放置到resources/META-INF目录下。
+这里需要有一个配置文件告诉代码规则文件drl在哪里，在drools中这个文件就是kmodule.xml，放置到resources/META-INF目录下。
 
 kmodule.xml内容如下：
 
@@ -230,8 +240,16 @@ kmodule.xml内容如下：
 </kmodule>
 ```
 
-再看看代码端怎么处理，贴出核心代码
+以下对配置说明进行简单说明：
 
+- Kmodule 中可以包含一个到多个 kbase,分别对应 drl 的规则文件。
+- Kbase 需要一个唯一的 name,可以取任意字符串。
+- packages 为drl文件所在resource目录下的路径。注意区分drl文件中的package与此处的package不一定相同。多个包用逗号分隔。默认情况下会扫描 resources目录下所有(包含子目录)规则文件。  
+- kbase的default属性,标示当前KieBase是不是默认的,如果是默认的则不用名称
+就可以查找到该 KieBase,但每个 module 最多只能有一个默认 KieBase。
+- kbase 下面可以有一个或多个 ksession,ksession 的 name 属性必须设置,且必须唯一。
+
+再看看代码端怎么处理，贴出核心代码
 
 ``` java
 public static final void main(final String[] args) throws Exception{
@@ -253,12 +271,29 @@ public static void execute( KieContainer kc ) throws Exception{
 }
 ```
 
-OK 代码这样写就行了，完全不用考虑以后的规则变化了。当活动的规则有变化的时候，小明只要修改规则文件Point-rules.drl里面的规则既可。
+代码解释：首先通过请求获取 KieServices，通过KieServices获取KieContainer，KieContainer加载规则文件并获取KieSession，KieSession来执行规则引擎，KieSession是一个轻量级组建，每次执行完销毁。KieContainer是重量级组建可以考虑复用。
 
+OK 小明的需求，代码部分这样写就行了，完全不用考虑以后的规则变化了。当活动的规则有变化的时候，小明只要修改规则文件Point-rules.drl中下方相关规则内容既可,如果活动规则动态的添加、减少也可以相应的去增加、减少规则文件既可，再也不用去动代码了。
+
+``` drl
+rule "xxx"
+    no-loop true
+    lock-on-active true
+    salience 1
+    when
+        $s : Order(amout > yy)
+    then
+        $s.setScore(yy);
+        update($s);
+end  
+```
 看到这里小明又开始哼起了歌曲。。。
 
 **[文中完整的示例代码](https://github.com/ityouknow/drools-examples)**
 
 > 本篇文章算是对drools的简单介绍，后续文章将详细介绍drools的使用。
+
+参考：  
+[专栏：drools规则引擎](http://blog.csdn.net/column/details/16183.html)
 
 
