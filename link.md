@@ -6,7 +6,6 @@ menu: Link
 ---
 
 
-
 ## 友情链接
 
 - [丑胖侠的技术生涯](http://blog.csdn.net/wo541075754) - 每一步成长都想与你分享 
@@ -33,9 +32,6 @@ menu: Link
 - [知乎](https://www.zhihu.com/people/ityouknow) - 个人知乎地址，用的不太多大多数都在潜水
 - [CSDN](http://blog.csdn.net/ityouknow)  - 最开始写博客的地方
 - [微博](http://weibo.com/ityouknow) - 个人微博地址，虽然一直没有用过
-
-
-
 
 
 ## 其它  
