@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Link
-subtitle: <span class="mega-octicon octicon-repo"></span>&nbsp;&nbsp; Resource link
-menu: Link
+title: All My Blogs
+subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; Take notes about everything new
+menu: blog
+css: ['blog-page.css']
 ---
 
 
