@@ -4,7 +4,6 @@
     color: #fff;
     background: #4183c4;
 }
-
 .site-header #site-header-brand {
     color: #fff;
 }
@@ -16,6 +15,7 @@
 .site-header a:hover {
     color: #fff;
 }
+.icon-logo{fill: #fff;}
 
 .jumbotron {
     background: #4183c4;
@@ -24,6 +24,7 @@
 .site-header.site-header-nav-scrolled a {
     color: #2e2e2e;
 }
+
 
 .site-header.site-header-nav-scrolled #site-header-brand {
     color: #2e2e2e !important;

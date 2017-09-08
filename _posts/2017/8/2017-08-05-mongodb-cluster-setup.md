@@ -327,7 +327,7 @@ rs.initiate(config);
 
 ### 4、配置路由服务器 mongos
 
-先启动配置服务器和分片服务器,后启动路由实例启动路由实例:（三台机器）
+先启动配置服务器和分片服务器,后启动路由实例:（三台机器）
 
 ``` sh
 vi /usr/local/mongodb/conf/mongos.conf
@@ -351,7 +351,7 @@ maxConns=20000
 启动三台服务器的mongos server
 
 ``` sh
-mongod -f /usr/local/mongodb/conf/mongos.conf
+mongos -f /usr/local/mongodb/conf/mongos.conf
 ```
 
 ### 5、启用分片
@@ -363,7 +363,7 @@ mongod -f /usr/local/mongodb/conf/mongos.conf
 ``` sh
 mongo --port 20000
 #使用admin数据库
-user  admin
+use  admin
 #串联路由服务器与分配副本集
 sh.addShard("shard1/192.168.0.75:27001,192.168.0.84:27001,192.168.0.86:27001")
 sh.addShard("shard2/192.168.0.75:27002,192.168.0.84:27002,192.168.0.86:27002")

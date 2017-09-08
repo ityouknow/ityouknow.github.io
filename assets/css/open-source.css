@@ -28,6 +28,7 @@
 .jumbotron h1, .jumbotron .meta-info {
     color: #fff;
 }
+.icon-logo{fill: #000;}
 
 .card .thumbnail {
     border: 1px solid rgba(0,0,0,0.075);

@@ -15,8 +15,12 @@ var windowScroll = function () {
             if ($(window).scrollTop() > 70)
             {
                 $('.site-header').addClass('site-header-nav-scrolled');
+                $('.icon-logo').addClass('site-header-nav-scrolled');
+
             } else {
                 $('.site-header').removeClass('site-header-nav-scrolled');
+                $('.icon-logo').removeClass('site-header-nav-scrolled');
+
             }
         }else{
             //如果是手机则将顶栏移除界面

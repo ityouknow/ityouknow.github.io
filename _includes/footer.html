@@ -2,11 +2,19 @@
 
     <div class="site-footer">
 
-        <a href="https://github.com/ityouknow" target="_blank" aria-label="view source code">
+        <div class="pull-left">
+            <span class="meta-info hvr-grow">
+                <span class="octicon octicon-rss"></span>
+                <a href="{{ site.url }}\feed.xml"> Subscribe Via RSS</a><br/>
+                Power by <a href="https://github.com/DONGChuan/Yummy-Jekyll">Yummy Jekyll</a>
+            </span>
+        </div>
+
+        <a href="{{ site.github_url }}" target="_blank" aria-label="view source code">
             <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
         </a>
 
-        <div class="pull-right">
+        <div class="copyright pull-right">
             <a href="javascript:window.scrollTo(0,0)" >TOP</a>
         </div>
 
@@ -30,7 +38,7 @@
                     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
             })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-            ga('create', 'UA-72165600-1', 'auto');
+            ga('create', '{{ site.analytics.google.tracking_id }}', 'auto');
             ga('send', 'pageview');
 
         </script>

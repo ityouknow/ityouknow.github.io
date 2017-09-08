@@ -1,12 +1,19 @@
 <head>
+    <script type="text/javascript">
+        var host = "ityouknow.com";
+        if ((host == window.location.host) && (window.location.protocol != "http:"))
+            window.location.protocol = "https";
+    </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="canonical" href=" { { site.url } }{ { page.url } }" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Favicon Icon -->
     <link rel="shortcut icon" type="image/x-icon" href="/assets/images/{{ site.favicon }}">
 
-    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <title>{% if page.titlebar %} {{ page.titlebar | escape }} - ityouknow's Blog {% elsif page.title %} {{ page.title | escape }} - ityouknow's Blog {% else %}{{ site.title | escape }}{% endif %}</title>
+
     <meta name="description"
           content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
