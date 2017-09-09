@@ -101,5 +101,5 @@ server.port=${random.int[10000,19999]}
 
 由于默认的实例ID会由server.port拼接，而此时server.port设置的随机值会重新取一次随机数，所以使用这种方法的时候不需要重新定义实例ID的规则就能产生不同的实例ID了。
 
-参考：[thymeleaf模板对没有结束符的HTML5标签解析出错的解决办法](http://blog.didispace.com/spring-cloud-tips-2/)
+参考：[Spring Cloud实战小贴士：随机端口](http://blog.didispace.com/spring-cloud-tips-2/)
 
