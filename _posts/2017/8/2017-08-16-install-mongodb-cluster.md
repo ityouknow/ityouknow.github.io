@@ -654,4 +654,4 @@ ERROR: child process failed, exited with error number 1
 成功
 
 
-> 为了方便大家拿取配置文件，我在github上面放置了一份:[]()
+> 为了方便大家拿取配置文件，我在github上面放置了一份:[mongodb-five-cluster-conf](https://github.com/ityouknow/hadoop-ecosystem-examples/tree/master/mongodb/mongodb-five-cluster-conf)
