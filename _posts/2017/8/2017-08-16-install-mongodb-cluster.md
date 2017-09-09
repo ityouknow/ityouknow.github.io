@@ -652,3 +652,6 @@ ERROR: child process failed, exited with error number 1
 改为：```path: /data/log/mongos.log```
 
 成功
+
+
+> 为了方便大家拿取配置文件，我在github上面放置了一份:[]()
