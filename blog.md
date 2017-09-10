@@ -9,15 +9,18 @@ css: ['blog-page.css']
 
 ## 近期文章
 
-- [HBase shell 命令介绍](http://www.ityouknow.com/hbase/2017/07/28/hbase-shell.html)  
-- [hbase分布式集群搭建](http://www.ityouknow.com/hbase/2017/07/25/hbase-cluster-setup.html)  
-- [hadoop分布式集群搭建](http://www.ityouknow.com/hadoop/2017/07/24/hadoop-cluster-setup.html)  
+- [博客停更的这一月](http://www.ityouknow.com/blog/2017/09/10/blog-stop-a-month.html)  
+- [小明历险记：规则引擎drools教程一](http://www.ityouknow.com/drools/2017/08/07/drools-started.html)  
+- [mongodb 3.4 集群搭建：分片+副本集](http://www.ityouknow.com/mongodb/2017/08/05/mongodb-cluster-setup.html)  
+- [mongodb 3.4 集群搭建升级版 五台集群](http://www.ityouknow.com/mongodb/2017/08/16/install-mongodb-cluster.html)  
+- [mongodb集群性能优化](http://www.ityouknow.com/mongodb/2017/09/01/mongodb-performance-optimization.html)  
+- [mongodb集群监控和运维](http://www.ityouknow.com/mongodb/2017/09/06/mongodb-operation.html)  
+- [我的故事里也许有你](http://www.ityouknow.com/life/2017/08/26/mystory-maybe-and-you.html)  
+- [童年趣事](http://www.ityouknow.com/life/2017/07/29/childhood-fun.html)  
+- [谁说国产无好片](http://www.ityouknow.com/movie/2017/08/06/china-good-movie.html)  
 - [技术博客那些事儿](http://www.ityouknow.com/tech/2017/07/16/operating-technology-blog.html)  
 - [大案](http://www.ityouknow.com/life/2017/07/06/big-case.html)  
 - [高中毕业，我想出去看看](http://www.ityouknow.com/life/2017/07/03/pingjing-life.html)  
-- [百亿互金平台技术栈大起底](http://www.ityouknow.com/arch/2017/06/30/technology-stack.html)
-- [救人一命是怎样的体验？](http://www.ityouknow.com/life/2017/06/25/save-a-life.html)  
-- [如何做一个对账系统](http://www.ityouknow.com/pay/2017/06/13/reconciliation-system.html)
 
 
 ## 实战互金
@@ -35,6 +38,7 @@ css: ['blog-page.css']
 
 ## 生活
 
+- [高中毕业，我想出去看看](http://www.ityouknow.com/life/2017/07/03/pingjing-life.html)  
 - [思维的局限](http://www.ityouknow.com/life/2017/05/19/Limitations-of-thinking.html)
 - [如何在微信公众号优雅的展示代码](http://www.ityouknow.com/other/2017/05/15/wechat-markdown.html)
 - [给你1000万你可以把生活过的更好吗？](http://www.ityouknow.com/life/2017/05/05/1000-and-life.html)
@@ -45,6 +49,9 @@ css: ['blog-page.css']
 - [2016颠倒梦想,2017静心前行](http://www.ityouknow.com/%E7%94%9F%E6%B4%BB/2017/01/01/2016%E9%A2%A0%E5%80%92%E6%A2%A6%E6%83%B3,2017%E9%9D%99%E5%BF%83%E5%89%8D%E8%A1%8C.html)
 - [发现另外一个世界-网盘关闭背后](http://www.ityouknow.com/%E7%94%9F%E6%B4%BB/2017/01/18/%E5%8F%91%E7%8E%B0%E5%8F%A6%E5%A4%96%E4%B8%80%E4%B8%AA%E4%B8%96%E7%95%8C.html)
 - [我开通了微信公众号](http://www.ityouknow.com/life/2017/04/26/open-wechat.html)
+- [大案](http://www.ityouknow.com/life/2017/07/06/big-case.html)  
+- [谁说国产无好片](http://www.ityouknow.com/movie/2017/08/06/china-good-movie.html)  
+- [童年趣事](http://www.ityouknow.com/life/2017/07/29/childhood-fun.html)  
 
 
 ## spring boot 
@@ -82,8 +89,8 @@ css: ['blog-page.css']
 
 ## JVM
 
-- [jvm系列(一):java类的加载机制](http://www.cnblogs.com/ityouknow/p/5603287.html)
-- [jvm系列(二):JVM内存结构](http://www.cnblogs.com/ityouknow/p/5610232.html)
+- [jvm系列(一):java类的加载机制](http://www.ityouknow.com/jvm/2017/08/19/class-loading-principle.html)
+- [jvm系列(二):JVM内存结构](http://www.ityouknow.com/jvm/2017/08/25/jvm-memory-structure.html)
 - [jvm系列(三):GC算法 垃圾收集器](http://www.cnblogs.com/ityouknow/p/5614961.html)
 - [jvm系列(四):jvm调优-命令篇](http://www.ityouknow.com/java/2016/01/01/jvm%E8%B0%83%E4%BC%98-%E5%91%BD%E4%BB%A4%E7%AF%87.html)
 - [jvm系列(五):tomcat性能调优和性能监控（visualvm）](http://www.cnblogs.com/ityouknow/p/5378874.html)
@@ -97,6 +104,11 @@ css: ['blog-page.css']
 - [HBase shell 命令介绍](http://www.ityouknow.com/hbase/2017/07/28/hbase-shell.html)  
 - [hbase分布式集群搭建](http://www.ityouknow.com/hbase/2017/07/25/hbase-cluster-setup.html)  
 - [hadoop分布式集群搭建](http://www.ityouknow.com/hadoop/2017/07/24/hadoop-cluster-setup.html) 
+- [mongodb 3.4 集群搭建：分片+副本集](http://www.ityouknow.com/mongodb/2017/08/05/mongodb-cluster-setup.html)  
+- [mongodb 3.4 集群搭建升级版 五台集群](http://www.ityouknow.com/mongodb/2017/08/16/install-mongodb-cluster.html)  
+- [mongodb集群性能优化](http://www.ityouknow.com/mongodb/2017/09/01/mongodb-performance-optimization.html)  
+- [mongodb集群监控和运维](http://www.ityouknow.com/mongodb/2017/09/06/mongodb-operation.html) 
+
 
 ## 读书
 
