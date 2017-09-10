@@ -100,9 +100,9 @@ Hi 您好：
 要不换个很近似的：/smartjinyu?tab=repositories
 ```
 
-跟着里面的链接我找到了这个地址：[https://github.com/smartjinyu/smartjinyu.github.io](https://github.com/smartjinyu/smartjinyu.github.io)，这个哪是近似，就是和我使用了同一个模板主题。作者也是在原来的模板上进行了一些改造，赶紧瞄了一下Gemfile.lock的最新修改时间，是14天前貌似有戏，于是我迅速复制了一份代码在coding.net上面进行了测试，但仍然还是报错，感觉很奇怪给"lzhr"回复了还是不行，不一会"lzhr"又给我回复了信息："不是啊，我直接 fork，改改地址就行了 https://github.com/RGXY/rgxy.github.io"，于是我想是不是coding.net和github的打包环境不一致导致的，于是fork了smartjinyu作者的代码在github上面进行了测试，果然可以！
+跟着里面的链接我找到了这个地址：[https://github.com/smartjinyu/smartjinyu.github.io](https://github.com/smartjinyu/smartjinyu.github.io)，这个哪是近似，就是和我使用了同一个模板主题。作者也是在原来的模板上进行了一些改造，赶紧瞄了一下Gemfile.lock的最新修改时间，是14天前貌似有戏，于是我迅速复制了一份代码在coding.net上面进行了测试，但仍然还是报错，感觉很奇怪给"lzhr"回复了还是不行，不一会"lzhr"又给我回复了信息："不是啊，我直接 fork，改改地址就行了 [https://github.com/RGXY/rgxy.github.io](https://github.com/RGXY/rgxy.github.io)"，于是我想是不是coding.net和github的打包环境不一致导致的，于是fork了smartjinyu作者的代码在github上面进行了测试，果然可以！
 
-就在周五的晚上，终于看到了胜利的曙光。使用对比工具"Beyond Compare"将原来我的博客和smartjinyu的博客进行了一一对比，对比修改一些配置文件，然后提交过去看是否报错，是哪里出了问题。持续了一个多小时之后，发现这样效率太低了，不断的改动一点配置，提交上去看对不对，是哪块报错了，于是转变了思路，直接在smartjinyu的博客上面进行修改定制，花费了两个多小时，终于将smartjinyu的博客修改成和我原先博客一模一样，然后再同步上博客内容，提交上去做了测试，都非常成功，完了一看时间已经凌晨3点了，但终究是搞定了一件事情。
+就在周五的晚上，终于看到了胜利的曙光。使用对比工具"Beyond Compare"将原来我的博客和smartjinyu的博客进行了一一对比。不断的改动、提交、查看报错，持续了一个多小时之后，发现这样效率太低了，于是转变了思路，直接在smartjinyu的博客上面进行修改定制，花费了两个多小时，终于将smartjinyu的博客修改成和我原先博客一模一样，然后再同步上博客内容，提交上去做了测试，都非常成功，完了一看时间已经凌晨3点了，但终究是搞定了一件事情。
 
 在对照改造的过程中，我发现smartjinyu将依赖的组件包都相应的做了升级，以前很多的模板写法到现在的环境已经不通过编译。问题的本质应该是Github官方升级了相关的打包环境，导致博客中有一些写法和组件包不兼容。虽然最后修改的版本在Github上已经没有问题了，但我复制到了coding.net上面进行打包测试还是报错，有机会的话哪位对Jekyll熟悉的朋友可以一起看看，最后再次感谢v2ex的[lzhr](https://www.v2ex.com/member/lzhr)。
 
