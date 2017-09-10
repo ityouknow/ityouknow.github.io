@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 博客停更的这一月
+title: 千里追踪博客问题
 category: blog
 tags: [blog]
 ---
