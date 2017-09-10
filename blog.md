@@ -9,7 +9,7 @@ css: ['blog-page.css']
 
 ## 近期文章
 
-- [千里追踪博客问题](http://www.ityouknow.com/blog/2017/09/10/blog-stop-a-month.html)  
+- [千里追踪博客之殇](http://www.ityouknow.com/blog/2017/09/10/blog-stop-a-month.html)  
 - [小明历险记：规则引擎drools教程一](http://www.ityouknow.com/drools/2017/08/07/drools-started.html)  
 - [mongodb 3.4 集群搭建：分片+副本集](http://www.ityouknow.com/mongodb/2017/08/05/mongodb-cluster-setup.html)  
 - [mongodb 3.4 集群搭建升级版 五台集群](http://www.ityouknow.com/mongodb/2017/08/16/install-mongodb-cluster.html)  
