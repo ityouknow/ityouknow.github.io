@@ -91,13 +91,12 @@ css: ['blog-page.css']
 
 - [jvm系列(一):java类的加载机制](http://www.ityouknow.com/jvm/2017/08/19/class-loading-principle.html)
 - [jvm系列(二):JVM内存结构](http://www.ityouknow.com/jvm/2017/08/25/jvm-memory-structure.html)
-- [jvm系列(三):GC算法 垃圾收集器](http://www.cnblogs.com/ityouknow/p/5614961.html)
-- [jvm系列(四):jvm调优-命令篇](http://www.ityouknow.com/java/2016/01/01/jvm%E8%B0%83%E4%BC%98-%E5%91%BD%E4%BB%A4%E7%AF%87.html)
+- [jvm系列(三):GC算法 垃圾收集器](http://www.ityouknow.com/jvm/2017/08/29/GC-garbage-collection.html)
+- [jvm系列(四):jvm调优-命令篇](http://www.ityouknow.com/java/2016/01/01/jvm-command.html)
 - [jvm系列(五):tomcat性能调优和性能监控（visualvm）](http://www.cnblogs.com/ityouknow/p/5378874.html)
 - [jvm系列(六):jvm调优-从eclipse开始](http://www.cnblogs.com/ityouknow/p/5647513.html)
 - [jvm系列(七):jvm调优-工具篇](http://www.ityouknow.com/java/2017/02/22/jvm-tool.html)
 - [jvm系列(八):jvm知识点总览](http://www.ityouknow.com/java/2017/03/01/jvm-overview.html)
-- [springcloud(十)：服务网关zuul](http://www.ityouknow.com/springcloud/2017/06/01/gateway-service-zuul.html)
 
 ## 大数据
 
