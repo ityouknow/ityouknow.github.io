@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Springcloud(十一)：Spring Cloud在国内中小型公司能用起来吗？
-category: Springcloud
-tags: [Springcloud]
+title: springcloud(十一)：Spring Cloud在国内中小型公司能用起来吗？
+category: springcloud
+tags: [springcloud]
 ---
 
 今天吃完饭休息的时候瞎逛知乎，突然看到这个一个问题[Spring Cloud在国内中小型公司能用起来吗？](https://www.zhihu.com/question/61403505)，吸引了我的注意。仔细的看了题主的问题，发现这是一个好问题，题主经过了一番思考，并且用图形全面的将自己的疑问表达了出来，作为一个研究并使用Spring Boot和Spring Cloud近两年的程序员，看的我手痒痒不答不快呀。
