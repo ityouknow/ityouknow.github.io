@@ -32,7 +32,7 @@ Spring Boot简化了基于Spring的应用开发，通过少量的代码就能创
 
 Spring Boot是由Pivotal团队提供的全新框架，其设计目的是用来简化新Spring应用的初始搭建以及开发过程。该框架使用了特定的方式来进行配置，从而使开发人员不再需要定义样板化的配置。用我的话来理解，就是Spring Boot其实不是什么新的框架，它默认配置了很多框架的使用方式，就像maven整合了所有的jar包，Spring Boot整合了所有的框架（不知道这样比喻是否合适）。
 
-Spring Boot的核心思想就是约定大于配置，一切自动完成。采用Spring Boot可以大大的简化你的开发模式，所有你想集成的常用框架，它都有对应的组件支持。如果你对Spring Boot完全不了解，可以参考我的这篇文章：[Springboot(一)：入门篇](http://www.ityouknow.com/springboot/2016/01/06/Springboot(%E4%B8%80)-%E5%85%A5%E9%97%A8%E7%AF%87.html)
+Spring Boot的核心思想就是约定大于配置，一切自动完成。采用Spring Boot可以大大的简化你的开发模式，所有你想集成的常用框架，它都有对应的组件支持。如果你对Spring Boot完全不了解，可以参考我的这篇文章：[Springboot(一)：入门篇](http://www.ityouknow.com/springboot/2016/01/06/springboot(%E4%B8%80)-%E5%85%A5%E9%97%A8%E7%AF%87.html)
 
 ## 什么是Spring Cloud
 
@@ -40,7 +40,7 @@ Spring Cloud是一系列框架的有序集合。它利用Spring Boot的开发便
 
 微服务是可以独立部署、水平扩展、独立访问（或者有独立的数据库）的服务单元，Spring Cloud就是这些微服务的大管家，采用了微服务这种架构之后，项目的数量会非常多，Spring Cloud做为大管家就需要提供各种方案来维护整个生态。
 
-Spring Cloud就是一套分布式服务治理的框架，既然它是一套服务治理的框架，那么它本身不会提供具体功能性的操作，更专注于服务之间的通讯、熔断、监控等。因此就需要很多的组件来支持一套功能，如果你对Spring Cloud组件不是特别了解的话，可以参考我的这篇文章：[Springcloud(一)：大话Spring Cloud](http://www.ityouknow.com/Springcloud/2017/05/01/simple-springcloud.html)
+Spring Cloud就是一套分布式服务治理的框架，既然它是一套服务治理的框架，那么它本身不会提供具体功能性的操作，更专注于服务之间的通讯、熔断、监控等。因此就需要很多的组件来支持一套功能，如果你对Spring Cloud组件不是特别了解的话，可以参考我的这篇文章：[springcloud(一)：大话Spring Cloud](http://www.ityouknow.com/Springcloud/2017/05/01/simple-springcloud.html)
 
 ## Spring Boot和Spring Cloud的关系
 
