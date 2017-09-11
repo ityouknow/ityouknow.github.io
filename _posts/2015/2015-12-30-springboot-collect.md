@@ -47,7 +47,7 @@ tags: [springboot]
 
 - [spring boot官方例子](https://github.com/spring-projects/spring-boot/tree/master/spring-boot-samples)
 
-- [spring-boot-starter](https://github.com/ityouknow/spring-boot-starter)
+- [spring-boot-examples](https://github.com/ityouknow/spring-boot-examples)
 
 - [SpringBoot-Learning](https://github.com/dyc87112/SpringBoot-Learning)
 
