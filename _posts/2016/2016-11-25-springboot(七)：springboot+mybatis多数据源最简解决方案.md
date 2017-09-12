@@ -69,7 +69,7 @@ public class DataSource1Config {
 }
 ```
 
-最关键的地方就是这块了，一层一层注入,先创建DataSource，在创建SqlSessionFactory在创建事务，最后包装到SqlSessionTemplate中。其中需要制定分库的mapper文件地址，以及分库到层代码
+最关键的地方就是这块了，一层一层注入,首先创建DataSource，然后创建SqlSessionFactory再创建事务，最后包装到SqlSessionTemplate中。其中需要指定分库的mapper文件地址，以及分库dao层代码
 
 ``` java
 @MapperScan(basePackages = "com.neo.mapper.test1", sqlSessionTemplateRef  = "test1SqlSessionTemplate")
