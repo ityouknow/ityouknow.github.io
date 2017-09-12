@@ -28,7 +28,7 @@ spring.datasource.test2.username = root
 spring.datasource.test2.password = root
 ```
 
-一个test1库和一个test2库，其中test1位主库，在使用的过程中必须制定主库，不然会报错。
+一个test1库和一个test2库，其中test1位主库，在使用的过程中必须指定主库，不然会报错。
 
 
 ## 数据源配置
