@@ -1,6 +1,6 @@
 ---
 layout: post
-title: springcloud(十一)：Spring Cloud在国内中小型公司能用起来吗？
+title: Spring Cloud在国内中小型公司能用起来吗？
 category: springcloud
 tags: [springcloud]
 ---
@@ -122,3 +122,8 @@ Turbine、zipkin可以用来做熔断和性能监控；动态上下线某个节�
 
 最后送一个完整示例的Spirng Cloud开源项目等你去[spring-cloud-examples](https://github.com/ityouknow/spring-cloud-examples)
 
+-------------
+
+**作者：纯洁的微笑**  
+**出处：[http://www.ityouknow.com/](http://www.ityouknow.com)**      
+**版权归作者所有，转载请注明出处** 
