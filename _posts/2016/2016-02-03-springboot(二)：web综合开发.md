@@ -43,7 +43,7 @@ public class HelloWorldController {
 两个步骤：
 
  > 1. 实现Filter接口，实现Filter方法
- > 2. 添加``` @Configurationz ``` 注解，将自定义Filter加入过滤链
+ > 2. 添加``` @Configuration ``` 注解，将自定义Filter加入过滤链
 
 好吧，直接上代码
 
