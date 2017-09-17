@@ -85,7 +85,7 @@ tags: [blog]
 武术到底是真还是假，前一段时间闹的沸沸扬扬，但以我的时间经验来讲，武术作为养生还是非常有益处的。老板的经历告诉我，其实人人都有最难的时刻，关键时期挺一挺就过去了，也许还会有意外的收获，看见不一样的景致。
 
 <div align="center">
-  <img src="http://www.ityouknow.com/assets/images/2017/life/leng.jpeg">
+  <img src="http://www.ityouknow.com/assets/images/2017/life/jianxin.jpg">
 </div>
 
 在杀手不太冷的电影里面，小女孩和杀生有这么一段对话：  
