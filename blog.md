@@ -9,18 +9,14 @@ css: ['blog-page.css']
 
 ## 近期文章
 
+- [老板让我们去陪睡!](http://www.ityouknow.com/blog/2017/09/17/boss-anxious.html)  
 - [Spring Cloud在国内中小型公司能用起来吗？](http://www.ityouknow.com/springcloud/2017/09/11/can-use-springcloud.html)  
 - [千里追踪博客之殇](http://www.ityouknow.com/blog/2017/09/10/blog-stop-a-month.html)  
-- [小明历险记：规则引擎drools教程一](http://www.ityouknow.com/drools/2017/08/07/drools-started.html)  
-- [mongodb 3.4 集群搭建：分片+副本集](http://www.ityouknow.com/mongodb/2017/08/05/mongodb-cluster-setup.html)  
-- [mongodb 3.4 集群搭建升级版 五台集群](http://www.ityouknow.com/mongodb/2017/08/16/install-mongodb-cluster.html)  
+- [小明历险记：规则引擎drools教程一](http://www.ityouknow.com/drools/2017/08/07/drools-started.html)   
 - [mongodb集群性能优化](http://www.ityouknow.com/mongodb/2017/09/01/mongodb-performance-optimization.html)  
 - [mongodb集群监控和运维](http://www.ityouknow.com/mongodb/2017/09/06/mongodb-operation.html)  
-- [我的故事里也许有你](http://www.ityouknow.com/life/2017/08/26/mystory-maybe-and-you.html)  
-- [童年趣事](http://www.ityouknow.com/life/2017/07/29/childhood-fun.html)  
 - [谁说国产无好片](http://www.ityouknow.com/movie/2017/08/06/china-good-movie.html)  
 - [技术博客那些事儿](http://www.ityouknow.com/tech/2017/07/16/operating-technology-blog.html)  
-- [大案](http://www.ityouknow.com/life/2017/07/06/big-case.html)  
 - [高中毕业，我想出去看看](http://www.ityouknow.com/life/2017/07/03/pingjing-life.html)  
 
 
@@ -39,6 +35,7 @@ css: ['blog-page.css']
 
 ## 生活
 
+- [老板让我们去陪睡!](http://www.ityouknow.com/blog/2017/09/17/boss-anxious.html)  
 - [高中毕业，我想出去看看](http://www.ityouknow.com/life/2017/07/03/pingjing-life.html)  
 - [思维的局限](http://www.ityouknow.com/life/2017/05/19/Limitations-of-thinking.html)
 - [如何在微信公众号优雅的展示代码](http://www.ityouknow.com/other/2017/05/15/wechat-markdown.html)

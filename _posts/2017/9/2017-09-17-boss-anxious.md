@@ -66,7 +66,7 @@ tags: [blog]
   <img src="http://www.ityouknow.com/assets/images/2017/life/yijinjing.jpeg">
 </div>
 
-###  事情由来
+## 事情由来
 
 我感觉老板也是一个性情中人，有感情有温度爱分享。当他觉得自己已经从这个过程中走出来后，给我们分享了他那段难忘的经历。
 
@@ -88,7 +88,7 @@ tags: [blog]
   <img src="http://www.ityouknow.com/assets/images/2017/life/jianxin.jpg">
 </div>
 
-在杀手不太冷的电影里面，小女孩和杀生有这么一段对话：  
+在杀手不太冷的电影里面，小女孩和杀手有这么一段对话：  
 
 ``` text
 Mathilda： Is life always this hard, or is it just when you're a kid?
