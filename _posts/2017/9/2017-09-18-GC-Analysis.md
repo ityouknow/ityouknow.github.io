@@ -5,7 +5,7 @@ category: jvm
 tags: [jvm]
 ---
 
-Java GC就是JVM记录仪，描绘了JVM各个分区的表演。
+Java GC就是JVM记录仪，书画了JVM各个分区的表演。
 
 ## 什么是 Java GC
 
@@ -43,17 +43,19 @@ $ jstat -gc 1262 2000 20
 更详细的内容参考这篇文章：[jvm系列(四):jvm调优-命令篇](http://www.ityouknow.com/jvm/2017/09/03/jvm-command.html)
 
 
-### 设置启动参数
+### GC参数
 
 JVM的GC日志的主要参数包括如下几个：
 
-```-XX:+PrintGC``` 输出GC日志    
-```-XX:+PrintGCDetails``` 输出GC的详细日志     
-```-XX:+PrintGCTimeStamps``` 输出GC的时间戳（以基准时间的形式）    
-```-XX:+PrintGCDateStamps``` 输出GC的时间戳（以日期的形式，如 2017-09-04T21:53:59.234+0800）    
-```-XX:+PrintHeapAtGC``` 在进行GC的前后打印出堆的信息     
-```-Xloggc:../logs/gc.log``` 日志文件的输出路径     
- 
+- ```-XX:+PrintGC``` 输出GC日志    
+- ```-XX:+PrintGCDetails``` 输出GC的详细日志     
+- ```-XX:+PrintGCTimeStamps``` 输出GC的时间戳（以基准时间的形式）    
+- ```-XX:+PrintGCDateStamps``` 输出GC的时间戳（以日期的形式，如 2017-09-04T21:53:59.234+0800）    
+- ```-XX:+PrintHeapAtGC``` 在进行GC的前后打印出堆的信息     
+- ```-Xloggc:../logs/gc.log``` 日志文件的输出路径     
+
+在生产环境中，根据需要配置相应的参数来监控JVM运行情况。
+
 ### Tomcat 设置示例
 
 我们经常在tomcat的启动参数中添加JVM相关参数，这里有一个典型的示例：
