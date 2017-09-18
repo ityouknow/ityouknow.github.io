@@ -89,7 +89,7 @@ css: ['blog-page.css']
 - [jvm系列(一):java类的加载机制](http://www.ityouknow.com/jvm/2017/08/19/class-loading-principle.html)
 - [jvm系列(二):JVM内存结构](http://www.ityouknow.com/jvm/2017/08/25/jvm-memory-structure.html)
 - [jvm系列(三):GC算法 垃圾收集器](http://www.ityouknow.com/jvm/2017/08/29/GC-garbage-collection.html)
-- [jvm系列(四):jvm调优-命令篇](http://www.ityouknow.com/java/2016/01/01/jvm-command.html)
+- [jvm系列(四):jvm调优-命令篇](http://www.ityouknow.com/jvm/2017/09/03/jvm-command.html)
 - [jvm系列(五):tomcat性能调优和性能监控（visualvm）](http://www.cnblogs.com/ityouknow/p/5378874.html)
 - [jvm系列(六):jvm调优-从eclipse开始](http://www.cnblogs.com/ityouknow/p/5647513.html)
 - [jvm系列(七):jvm调优-工具篇](http://www.ityouknow.com/java/2017/02/22/jvm-tool.html)
