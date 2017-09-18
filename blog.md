@@ -35,7 +35,7 @@ css: ['blog-page.css']
 
 ## 生活
 
-- [老板让我们去陪睡!](http://www.ityouknow.com/blog/2017/09/17/boss-anxious.html)  
+- [老板和易筋经的故事](http://www.ityouknow.com/blog/2017/09/17/boss-anxious.html)  
 - [高中毕业，我想出去看看](http://www.ityouknow.com/life/2017/07/03/pingjing-life.html)  
 - [思维的局限](http://www.ityouknow.com/life/2017/05/19/Limitations-of-thinking.html)
 - [如何在微信公众号优雅的展示代码](http://www.ityouknow.com/other/2017/05/15/wechat-markdown.html)
