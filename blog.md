@@ -9,7 +9,7 @@ css: ['blog-page.css']
 
 ## 近期文章
 
-- [IT高管的焦虑](http://www.ityouknow.com/blog/2017/09/17/boss-anxious.html)  
+- [IT高管和易筋经的故事](http://www.ityouknow.com/blog/2017/09/17/boss-anxious.html)  
 - [Spring Cloud在国内中小型公司能用起来吗？](http://www.ityouknow.com/springcloud/2017/09/11/can-use-springcloud.html)  
 - [千里追踪博客之殇](http://www.ityouknow.com/blog/2017/09/10/blog-stop-a-month.html)  
 - [小明历险记：规则引擎drools教程一](http://www.ityouknow.com/drools/2017/08/07/drools-started.html)   

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  IT高管的焦虑
+title:  IT高管和易筋经的故事
 category: blog
 tags: [blog]
 ---
