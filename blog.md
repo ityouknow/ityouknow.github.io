@@ -90,7 +90,7 @@ css: ['blog-page.css']
 - [jvm系列(二):JVM内存结构](http://www.ityouknow.com/jvm/2017/08/25/jvm-memory-structure.html)
 - [jvm系列(三):GC算法 垃圾收集器](http://www.ityouknow.com/jvm/2017/08/29/GC-garbage-collection.html)
 - [jvm系列(四):jvm调优-命令篇](http://www.ityouknow.com/jvm/2017/09/03/jvm-command.html)
-- [jvm系列(五):tomcat性能调优和性能监控（visualvm）](http://www.cnblogs.com/ityouknow/p/5378874.html)
+- [jvm系列(五):Java GC 分析](http://www.ityouknow.com/jvm/2017/09/18/GC-Analysis.html)
 - [jvm系列(六):jvm调优-从eclipse开始](http://www.cnblogs.com/ityouknow/p/5647513.html)
 - [jvm系列(七):jvm调优-工具篇](http://www.ityouknow.com/java/2017/02/22/jvm-tool.html)
 - [jvm系列(八):jvm知识点总览](http://www.ityouknow.com/java/2017/03/01/jvm-overview.html)
@@ -110,6 +110,7 @@ css: ['blog-page.css']
 
 - [技术博客那些事儿](http://www.ityouknow.com/tech/2017/07/16/operating-technology-blog.html)  
 - [编程科普书籍推荐](http://www.ityouknow.com/book/2017/06/06/book-list.html)
+- [人工智能发展史](http://www.ityouknow.com/book/2017/06/10/intelligent-age.html)
 
 
 ## 爬虫

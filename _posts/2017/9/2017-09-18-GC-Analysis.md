@@ -5,13 +5,15 @@ category: jvm
 tags: [jvm]
 ---
 
+Java GC就是JVM记录仪，描绘了JVM各个分区的表演。
+
 ## 什么是 Java GC
 
 Java GC（Garbage Collection，垃圾收集，垃圾回收）机制，是Java与C++/C的主要区别之一，作为Java开发者，一般不需要专门编写内存回收和垃圾清理代码，对内存泄露和溢出的问题，也不需要像C程序员那样战战兢兢。这是因为在Java虚拟机中，存在自动内存管理和垃圾清扫机制。概括地说，该机制对JVM（Java Virtual Machine）中的内存进行标记，并确定哪些内存需要回收，根据一定的回收策略，自动的回收内存，永不停息（Nerver Stop）的保证JVM中的内存空间，防止出现内存泄露和溢出问题。
 
 在Java语言出现之前，就有GC机制的存在，如Lisp语言），Java GC机制已经日臻完善，几乎可以自动的为我们做绝大多数的事情。然而，如果我们从事较大型的应用软件开发，曾经出现过内存优化的需求，就必定要研究Java GC机制。
 
-简单总结一下，Java GC就是通过GC收集器回收不在存活的对象，保证JVM内容更加高效的运转。如果不了解GC算法和垃圾回收期可以参考这篇文章：[jvm系列(三):GC算法 垃圾收集器](http://www.ityouknow.com/jvm/2017/08/29/GC-garbage-collection.html)。
+简单总结一下，Java GC就是通过GC收集器回收不在存活的对象，保证JVM更加高效的运转。如果不了解GC算法和垃圾回收器可以参考这篇文章：[jvm系列(三):GC算法 垃圾收集器](http://www.ityouknow.com/jvm/2017/08/29/GC-garbage-collection.html)。
 
 
 ## 如何获取 Java GC日志
@@ -20,9 +22,9 @@ Java GC（Garbage Collection，垃圾收集，垃圾回收）机制，是Java与
 
 ### 命令动态查看
 
-Java 自动的工具行命令，jstat可以用来动态监控JVM内容的使用，统计垃圾回收的各项信息。
+Java 自动的工具行命令，jstat可以用来动态监控JVM内存的使用，统计垃圾回收的各项信息。
 
-比如常用命令，jstat -gc 统计垃圾回收堆的行为
+比如常用命令，```jstat -gc``` 统计垃圾回收堆的行为
 
 ```  sh
 $ jstat -gc 1262
@@ -45,13 +47,15 @@ $ jstat -gc 1262 2000 20
 
 JVM的GC日志的主要参数包括如下几个：
 
-```-XX:+PrintGC``` 输出GC日志  
-```-XX:+PrintGCDetails``` 输出GC的详细日志   
-```-XX:+PrintGCTimeStamps``` 输出GC的时间戳（以基准时间的形式）  
-```-XX:+PrintGCDateStamps``` 输出GC的时间戳（以日期的形式，如 2017-09-04T21:53:59.234+0800）  
-```-XX:+PrintHeapAtGC``` 在进行GC的前后打印出堆的信息   
-```-Xloggc:../logs/gc.log``` 日志文件的输出路径  
+```-XX:+PrintGC``` 输出GC日志    
+```-XX:+PrintGCDetails``` 输出GC的详细日志     
+```-XX:+PrintGCTimeStamps``` 输出GC的时间戳（以基准时间的形式）    
+```-XX:+PrintGCDateStamps``` 输出GC的时间戳（以日期的形式，如 2017-09-04T21:53:59.234+0800）    
+```-XX:+PrintHeapAtGC``` 在进行GC的前后打印出堆的信息     
+```-Xloggc:../logs/gc.log``` 日志文件的输出路径     
  
+### Tomcat 设置示例
+
 我们经常在tomcat的启动参数中添加JVM相关参数，这里有一个典型的示例：
 
 ```  sh
@@ -86,9 +90,10 @@ Headless模式是系统的一种配置模式。在该模式下，系统缺少了
 - ```-XX:+UseConcMarkSweepGC -XX:MaxTenuringThreshold=15 ``` 
 采用并发gc方式，经过15次minor gc 后进入年老代
 
+
 ## 如何分析GC日志
 
-摘录GC日志一部分（蓝色为；绿色为）：
+摘录GC日志一部分
 
 Young GC回收日志:
 
@@ -111,3 +116,57 @@ Young GC日志:
 
 Full GC日志:
 ![](http://ityouknow.com/assets/images/2017/jvm/Full GC.png)
+
+
+## GC分析工具
+
+### GChisto
+
+GChisto是一款专业分析gc日志的工具，可以通过gc日志来分析：Minor GC、full gc的时间、频率等等，通过列表、报表、图表等不同的形式来反应gc的情况。虽然界面略显粗糙，但是功能还是不错的。
+
+配置好本地的jdk环境之后，双击GChisto.jar,在弹出的输入框中点击 add 选择gc.log日志
+
+{:.center}
+![](http://www.ityouknow.com/assets/images/2017/jvm/g1.jpg)
+
+- GC Pause Stats:可以查看GC 的次数、GC的时间、GC的开销、最大GC时间和最小GC时间等，以及相应的柱状图
+
+{:.center}
+![](http://www.ityouknow.com/assets/images/2017/jvm/g2.jpg)
+
+- GC Pause Distribution:查看GC停顿的详细分布，x轴表示垃圾收集停顿时间，y轴表示是停顿次数。
+
+- GC Timeline：显示整个时间线上的垃圾收集
+
+{:.center}
+![](http://www.ityouknow.com/assets/images/2017/jvm/g3.jpg)
+
+不过这款工具已经不再维护
+
+
+###  GC Easy
+
+这是一个web工具,在线使用非常方便.  
+
+地址: [http://gceasy.io](http://gceasy.io)
+
+进入官网，讲打包好的zip或者gz为后缀的压缩包上传，过一会就会拿到分析结果。
+
+
+{:.center}
+![](http://www.ityouknow.com/assets/images/2017/jvm/gceasy1.png)
+
+{:.center}
+![](http://www.ityouknow.com/assets/images/2017/jvm/gceasy2.png)
+
+
+推荐使用此工具进行gc分析。
+
+
+
+
+
+
+
+
+
