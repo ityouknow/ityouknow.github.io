@@ -14,22 +14,21 @@ css: ['blog-page.css']
 - [百亿互金平台救火故事](http://www.ityouknow.com/%E4%BC%98%E5%8C%96/2017/02/16/%E7%99%BE%E4%BA%BF%E4%BA%92%E9%87%91%E5%B9%B3%E5%8F%B0%E6%95%91%E7%81%AB%E6%95%85%E4%BA%8B.html)  
 - [Spring Cloud在国内中小型公司能用起来吗？](http://www.ityouknow.com/springcloud/2017/09/11/can-use-springcloud.html) 
 - [高中毕业，我想出去看看](http://www.ityouknow.com/life/2017/07/03/pingjing-life.html)  
-- [你看那个人他像一条狗](http://www.ityouknow.com/career/2017/03/26/programmer-confused.html)
-- [六年程序生涯](http://www.ityouknow.com/%E5%85%AD%E5%B9%B4/2016/11/20/%E5%85%AD%E5%B9%B4%E7%A8%8B%E5%BA%8F%E7%94%9F%E6%B6%AF.html)
-- [思维的局限](http://www.ityouknow.com/life/2017/05/19/Limitations-of-thinking.html)
+- [你看那个人他像一条狗](http://www.ityouknow.com/career/2017/03/26/programmer-confused.html)  
+- [六年程序生涯](http://www.ityouknow.com/%E5%85%AD%E5%B9%B4/2016/11/20/%E5%85%AD%E5%B9%B4%E7%A8%8B%E5%BA%8F%E7%94%9F%E6%B6%AF.html)  
+- [思维的局限](http://www.ityouknow.com/life/2017/05/19/Limitations-of-thinking.html)  
 
 ## 近期文章
 
 - [老板和易筋经的故事](http://www.ityouknow.com/blog/2017/09/17/boss-anxious.html)  
-- [Spring Cloud在国内中小型公司能用起来吗？](http://www.ityouknow.com/springcloud/2017/09/11/can-use-springcloud.html)  
 - [千里追踪博客之殇](http://www.ityouknow.com/blog/2017/09/10/blog-stop-a-month.html)  
 - [小明历险记：规则引擎drools教程一](http://www.ityouknow.com/drools/2017/08/07/drools-started.html)   
 - [mongodb集群性能优化](http://www.ityouknow.com/mongodb/2017/09/01/mongodb-performance-optimization.html)  
 - [mongodb集群监控和运维](http://www.ityouknow.com/mongodb/2017/09/06/mongodb-operation.html)  
 - [谁说国产无好片](http://www.ityouknow.com/movie/2017/08/06/china-good-movie.html)  
 - [技术博客那些事儿](http://www.ityouknow.com/tech/2017/07/16/operating-technology-blog.html)  
-- [高中毕业，我想出去看看](http://www.ityouknow.com/life/2017/07/03/pingjing-life.html)  
-
+- [jvm系列(五):Java GC 分析](http://www.ityouknow.com/jvm/2017/09/18/GC-Analysis.html)
+- [jvm系列(六):Java服务GC参数调优案例](http://www.ityouknow.com/jvm/2017/09/19/GC-tuning.html)
 
 ## 实战互金
 
