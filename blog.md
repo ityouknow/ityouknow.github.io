@@ -7,6 +7,17 @@ menu: blog
 css: ['blog-page.css']
 ---
 
+## 热门文章
+
+- [从零到百亿互联网金融架构发展史](http://www.ityouknow.com/%E6%9E%B6%E6%9E%84/2017/01/10/%E4%BB%8E%E9%9B%B6%E5%88%B0%E7%99%BE%E4%BA%BF%E4%BA%92%E8%81%94%E7%BD%91%E9%87%91%E8%9E%8D%E6%9E%B6%E6%9E%84%E5%8F%91%E5%B1%95%E5%8F%B2.html)
+- [一次生产事故的优化经历](http://www.ityouknow.com/%E4%BC%98%E5%8C%96/2017/02/06/%E4%B8%80%E6%AC%A1%E7%94%9F%E4%BA%A7%E4%BA%8B%E6%95%85%E7%9A%84%E4%BC%98%E5%8C%96%E7%BB%8F%E5%8E%86.html)  
+- [百亿互金平台救火故事](http://www.ityouknow.com/%E4%BC%98%E5%8C%96/2017/02/16/%E7%99%BE%E4%BA%BF%E4%BA%92%E9%87%91%E5%B9%B3%E5%8F%B0%E6%95%91%E7%81%AB%E6%95%85%E4%BA%8B.html)  
+- [Spring Cloud在国内中小型公司能用起来吗？](http://www.ityouknow.com/springcloud/2017/09/11/can-use-springcloud.html) 
+- [高中毕业，我想出去看看](http://www.ityouknow.com/life/2017/07/03/pingjing-life.html)  
+- [你看那个人他像一条狗](http://www.ityouknow.com/career/2017/03/26/programmer-confused.html)
+- [六年程序生涯](http://www.ityouknow.com/%E5%85%AD%E5%B9%B4/2016/11/20/%E5%85%AD%E5%B9%B4%E7%A8%8B%E5%BA%8F%E7%94%9F%E6%B6%AF.html)
+- [思维的局限](http://www.ityouknow.com/life/2017/05/19/Limitations-of-thinking.html)
+
 ## 近期文章
 
 - [老板和易筋经的故事](http://www.ityouknow.com/blog/2017/09/17/boss-anxious.html)  
@@ -91,7 +102,7 @@ css: ['blog-page.css']
 - [jvm系列(三):GC算法 垃圾收集器](http://www.ityouknow.com/jvm/2017/08/29/GC-garbage-collection.html)
 - [jvm系列(四):jvm调优-命令篇](http://www.ityouknow.com/jvm/2017/09/03/jvm-command.html)
 - [jvm系列(五):Java GC 分析](http://www.ityouknow.com/jvm/2017/09/18/GC-Analysis.html)
-- [jvm系列(六):jvm调优-从eclipse开始](http://www.cnblogs.com/ityouknow/p/5647513.html)
+- [jvm系列(六):Java服务GC参数调优案例](http://www.ityouknow.com/jvm/2017/09/19/GC-tuning.html)
 - [jvm系列(七):jvm调优-工具篇](http://www.ityouknow.com/java/2017/02/22/jvm-tool.html)
 - [jvm系列(八):jvm知识点总览](http://www.ityouknow.com/java/2017/03/01/jvm-overview.html)
 
