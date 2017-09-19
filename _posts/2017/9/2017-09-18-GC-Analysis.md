@@ -75,7 +75,7 @@ JAVA_OPTS="-server -Xms2000m -Xmx2000m -Xmn800m -XX:PermSize=64m -XX:MaxPermSize
 Xms，即为jvm启动时得JVM初始堆大小,Xmx为jvm的最大堆大小，xmn为新生代的大小，permsize为永久代的初始大小，MaxPermSize为永久代的最大空间。
 
 - ```-XX:SurvivorRatio=4```  
-SurvivorRatio为新生代空间中的Eden区和救助空间Survivor区的大小比值，默认是32，也就是说Eden区是 Survivor区的32倍大小，要注意Survivo是有两个区的，因此Surivivor其实占整个young genertation的1/34。调小这个参数将增大survivor区，让对象尽量在survitor区呆长一点，减少进入年老代的对象。去掉救助空间的想法是让大部分不能马上回收的数据尽快进入年老代，加快年老代的回收频率，减少年老代暴涨的可能性，这个是通过将-XX:SurvivorRatio 设置成比较大的值（比如65536)来做到。
+SurvivorRatio为新生代空间中的Eden区和救助空间Survivor区的大小比值，默认是8，则两个Survivor区与一个Eden区的比值为2:8,一个Survivor区占整个年轻代的1/10。调小这个参数将增大survivor区，让对象尽量在survitor区呆长一点，减少进入年老代的对象。去掉救助空间的想法是让大部分不能马上回收的数据尽快进入年老代，加快年老代的回收频率，减少年老代暴涨的可能性，这个是通过将-XX:SurvivorRatio 设置成比较大的值（比如65536)来做到。
 
 - ```-verbose:gc -Xloggc:$CATALINA_HOME/logs/gc.log```  
 将虚拟机每次垃圾回收的信息写到日志文件中，文件名由file指定，文件格式是平文件，内容和-verbose:gc输出内容相同。
