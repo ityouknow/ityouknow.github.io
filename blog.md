@@ -29,7 +29,6 @@ css: ['blog-page.css']
 - [谁说国产无好片](http://www.ityouknow.com/movie/2017/08/06/china-good-movie.html)  
 - [技术博客那些事儿](http://www.ityouknow.com/tech/2017/07/16/operating-technology-blog.html)  
 - [jvm系列(五):Java GC 分析](http://www.ityouknow.com/jvm/2017/09/18/GC-Analysis.html)
-- [jvm系列(六):Java服务GC参数调优案例](http://www.ityouknow.com/jvm/2017/09/19/GC-tuning.html)
 
 ## 实战互金
 
