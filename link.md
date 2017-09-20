@@ -9,6 +9,8 @@ menu: Link
 
 ## 友情链接
 
+
+- [匠心零度](http://www.jianshu.com/u/3def157aab07) - 专注java分享    
 - [Any Video](https://www.ictgu.cn/) - 在线看视频的网站    
 - [丑胖侠的技术生涯](http://blog.csdn.net/wo541075754) - 每一步成长都想与你分享    
 - [梁桂钊的博客](http://blog.720ui.com/) - 后端攻城狮
