@@ -20,6 +20,7 @@ css: ['blog-page.css']
 
 ## 近期文章
 
+- [jvm系列(九):如何优化Java GC「译」](http://www.ityouknow.com/jvm/2017/09/21/How-to-optimize-Java-GC.html)
 - [老板和易筋经的故事](http://www.ityouknow.com/blog/2017/09/17/boss-anxious.html)  
 - [千里追踪博客之殇](http://www.ityouknow.com/blog/2017/09/10/blog-stop-a-month.html)  
 - [小明历险记：规则引擎drools教程一](http://www.ityouknow.com/drools/2017/08/07/drools-started.html)   
