@@ -171,14 +171,13 @@ GC最基础的算法有三种：标记 -清除算法、复制算法、标记-压
 
 通过上面日志分析得出，PSYoungGen、ParOldGen、PSPermGen属于Parallel收集器。其中PSYoungGen表示gc回收前后年轻代的内存变化；ParOldGen表示gc回收前后老年代的内存变化；PSPermGen表示gc回收前后永久区的内存变化。young gc 主要是针对年轻代进行内存回收比较频繁，耗时短；full gc 会对整个堆内存进行回城，耗时长，因此一般尽量减少full gc的次数
 
-
-young gc 日志:   
+Young GC日志:
 {:.center}
-![](http://www.ityouknow.com/assets/images/2017/jvm/yong.jpg)  
+![](http://ityouknow.com/assets/images/2017/jvm/Young GC.png)
 
-Full GC日志:  
+Full GC日志:
 {:.center}
-![](http://www.ityouknow.com/assets/images/2017/jvm/full.jpg)  
+![](http://ityouknow.com/assets/images/2017/jvm/Full GC.png)
 
 **调优命令**  
 
