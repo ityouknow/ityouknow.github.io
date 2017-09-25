@@ -20,13 +20,13 @@ css: ['blog-page.css']
 
 ## 近期文章
 
+- [springboot(十五)：springboot+jpa+thymeleaf增删改查示例](http://www.ityouknow.com/springboot/2017/09/23/spring-boot-jpa-thymeleaf-curd.html)
 - [jvm系列(九):如何优化Java GC「译」](http://www.ityouknow.com/jvm/2017/09/21/How-to-optimize-Java-GC.html)
 - [老板和易筋经的故事](http://www.ityouknow.com/blog/2017/09/17/boss-anxious.html)  
 - [千里追踪博客之殇](http://www.ityouknow.com/blog/2017/09/10/blog-stop-a-month.html)  
 - [小明历险记：规则引擎drools教程一](http://www.ityouknow.com/drools/2017/08/07/drools-started.html)   
 - [mongodb集群性能优化](http://www.ityouknow.com/mongodb/2017/09/01/mongodb-performance-optimization.html)  
 - [mongodb集群监控和运维](http://www.ityouknow.com/mongodb/2017/09/06/mongodb-operation.html)  
-- [谁说国产无好片](http://www.ityouknow.com/movie/2017/08/06/china-good-movie.html)  
 - [技术博客那些事儿](http://www.ityouknow.com/tech/2017/07/16/operating-technology-blog.html)  
 - [jvm系列(五):Java GC 分析](http://www.ityouknow.com/jvm/2017/09/18/GC-Analysis.html)
 
@@ -77,7 +77,7 @@ css: ['blog-page.css']
 - [springboot(十一)：Spring boot中mongodb的使用](http://www.ityouknow.com/springboot/2017/05/08/springboot-mongodb.html)
 - [springboot(十二)：springboot如何测试打包部署](http://www.ityouknow.com/springboot/2017/05/09/springboot-deploy.html)
 - [springboot(十三)：springboot小技巧](http://www.ityouknow.com/springboot/2017/06/22/springboot-tips.html)
-- [springboot(十四)：springboot整合shiro-登录认证和权限管理](http://www.ityouknow.com/springboot/2017/06/26/springboot-shiro.html)
+- [springboot(十五)：springboot+jpa+thymeleaf增删改查示例](http://www.ityouknow.com/springboot/2017/09/23/spring-boot-jpa-thymeleaf-curd.html)
 - [springboot实战：我们的第一款开源软件](http://www.ityouknow.com/springboot/2016/09/26/springboot%E5%AE%9E%E6%88%98-%E6%88%91%E4%BB%AC%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%BE%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6.html)
 
 ## spring cloud 

@@ -29,6 +29,7 @@ jvm体系总体分四大块：
 {:.center}
 ![](http://www.ityouknow.com/assets/images/2017/jvm/JVM.jpg)
 
+> 公众号内回复："jvm",可查看大图。
 
 ## 类的加载机制  
 
