@@ -105,7 +105,7 @@ css: ['blog-page.css']
 - [jvm系列(七):jvm调优-工具篇](http://www.ityouknow.com/java/2017/02/22/jvm-tool.html)
 - [jvm系列(八):jvm知识点总览](http://www.ityouknow.com/java/2017/03/01/jvm-overview.html)
 - [jvm系列(九):如何优化Java GC「译」](http://www.ityouknow.com/jvm/2017/09/21/How-to-optimize-Java-GC.html)
-- [jvm系列(十):Jvm演讲PPT分享](http://www.ityouknow.com/jvm/2017/09/30/jvm-ppt.html)
+- [jvm系列(十):JVM演讲PPT分享](http://www.ityouknow.com/jvm/2017/09/30/jvm-ppt.html)
 
 
 
