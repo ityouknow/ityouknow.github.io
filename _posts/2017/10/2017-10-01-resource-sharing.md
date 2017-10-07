@@ -11,7 +11,7 @@ tags: [share]
 
 1、回复“我要健康”，获取程序员健康、内涵大礼包！   
 2、回复“大数据”，获取大数据相关资源。   
-3、回复“分布式, springcloud, 项目汇总, 搜索, linux, jbpm, mongodb, redis, zookeeper, dubbo”，获取分布式等相关资料。   
+3、回复“springcloud, 项目汇总, 搜索, linux, jbpm, mongodb, redis, zookeeper, dubbo”，获取分布式等相关资料。   
 4、回复“基础, java, git, xml, jni, java8, 设计模式, jvm, svn, 开发词汇”，获取对应的基础资料  
 5、回复“面试, 面试资料, 简历”，获取面试相关的资料  
 6、回复“微信, 小程序”，获取小程序相关资料   
