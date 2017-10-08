@@ -6,7 +6,7 @@ tags: [springcloud]
 ---
 
 
-研究了一段时间spring boot了准备向spirng cloud进发，公司架构和项目也全面拥抱了Spring Cloud。在使用了一段时间后发现Spring Cloud从技术架构上降低了对大型系统构建的要求，使我们以非常低的成本（技术或者硬件）搭建一套高效、分布式、容错的平台，但Spring Cloud也不是没有缺点，小型独立的项目不适合使用。
+研究了一段时间Spring Boot了准备向Spring Cloud进发，公司架构和项目也全面拥抱了Spring Cloud。在使用了一段时间后发现Spring Cloud从技术架构上降低了对大型系统构建的要求，使我们以非常低的成本（技术或者硬件）搭建一套高效、分布式、容错的平台，但Spring Cloud也不是没有缺点，小型独立的项目不适合使用。
 
 
 ## Spring Cloud是什么鬼？
@@ -88,13 +88,13 @@ Spring Cloud Consul 封装了Consul操作，consul是一个服务发现与配置
 
 - 对于在现代运行环境中可组合的微服务程序来说，Spring Cloud data flow是一个原生云可编配的服务。使用Spring Cloud data flow，开发者可以为像数据抽取，实时分析，和数据导入/导出这种常见用例创建和编配数据通道 （data pipelines）。
 
-- Spring Cloud data flow 是基于原生云对 spring XD的重新设计，该项目目标是简化大数据应用的开发。Spring XD 的流处理和批处理模块的重构分别是基于 spring boot的stream 和 task/batch 的微服务程序。这些程序现在都是自动部署单元而且他们原生的支持像 Cloud Foundry、Apache YARN、Apache Mesos和Kubernetes 等现代运行环境。
+- Spring Cloud data flow 是基于原生云对 spring XD的重新设计，该项目目标是简化大数据应用的开发。Spring XD 的流处理和批处理模块的重构分别是基于 Spring Boot的stream 和 task/batch 的微服务程序。这些程序现在都是自动部署单元而且他们原生的支持像 Cloud Foundry、Apache YARN、Apache Mesos和Kubernetes 等现代运行环境。
 
 - Spring Cloud data flow 为基于微服务的分布式流处理和批处理数据通道提供了一系列模型和最佳实践。
 
 **Spring Cloud Stream**
 
-Spring Cloud Stream是创建消息驱动微服务应用的框架。Spring Cloud Stream是基于spring boot创建，用来建立单独的／工业级spring应用，使用spring integration提供与消息代理之间的连接。数据流操作开发包，封装了与Redis,Rabbit、Kafka等发送接收消息。
+Spring Cloud Stream是创建消息驱动微服务应用的框架。Spring Cloud Stream是基于Spring Boot创建，用来建立单独的／工业级spring应用，使用spring integration提供与消息代理之间的连接。数据流操作开发包，封装了与Redis,Rabbit、Kafka等发送接收消息。
 
 一个业务会牵扯到多个任务，任务之间是通过事件触发的，这就是Spring Cloud stream要干的事了
 
@@ -123,13 +123,13 @@ Spring Boot式的启动项目，为Spring Cloud提供开箱即用的依赖管理
 基于 Spring Boot CLI，可以让你以命令行方式快速建立云组件。
 
 
-##  和Spring boot 是什么关系
+##  和Spring Boot 是什么关系
 
-Spring boot 是 Spring 的一套快速配置脚手架，可以基于spring boot 快速开发单个微服务，Spring Cloud是一个基于Spring Boot实现的云应用开发工具；Spring boot专注于快速、方便集成的单个个体，Spring Cloud是关注全局的服务治理框架；spring boot使用了默认大于配置的理念，很多集成方案已经帮你选择好了，能不配置就不配置，Spring Cloud很大的一部分是基于Spring boot来实现,可以不基于Spring boot吗？不可以。
+Spring Boot 是 Spring 的一套快速配置脚手架，可以基于Spring Boot 快速开发单个微服务，Spring Cloud是一个基于Spring Boot实现的云应用开发工具；Spring Boot专注于快速、方便集成的单个个体，Spring Cloud是关注全局的服务治理框架；Spring Boot使用了默认大于配置的理念，很多集成方案已经帮你选择好了，能不配置就不配置，Spring Cloud很大的一部分是基于Spring Boot来实现,可以不基于Spring Boot吗？不可以。
 
-Spring boot可以离开Spring Cloud独立使用开发项目，但是Spring Cloud离不开Spring boot，属于依赖的关系。
+Spring Boot可以离开Spring Cloud独立使用开发项目，但是Spring Cloud离不开Spring Boot，属于依赖的关系。
 
->   spring -> spring booot > spring cloud 这样的关系。
+>   spring -> spring booot > Spring Cloud 这样的关系。
 
 
 ##  Spring Cloud的优势
@@ -137,7 +137,7 @@ Spring boot可以离开Spring Cloud独立使用开发项目，但是Spring Cloud
 微服务的框架那么多比如：dubbo、Kubernetes，为什么就要使用Spring Cloud的呢？
 
 - 产出于spring大家族，spring在企业级开发框架中无人能敌，来头很大，可以保证后续的更新、完善。比如dubbo现在就差不多死了
-- 有spring Boot 这个独立干将可以省很多事，大大小小的活spring boot都搞的挺不错。
+- 有Spring Boot 这个独立干将可以省很多事，大大小小的活Spring Boot都搞的挺不错。
 - 作为一个微服务治理的大家伙，考虑的很全面，几乎服务治理的方方面面都考虑到了，方便开发开箱即用。
 - Spring Cloud 活跃度很高，教程很丰富，遇到问题很容易找到解决方案
 - 轻轻松松几行代码就完成了熔断、均衡负责、服务中心的各种平台功能
