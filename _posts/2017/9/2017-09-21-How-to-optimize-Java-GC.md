@@ -7,9 +7,6 @@ tags: [jvm]
 
 本文由[CrowHawk](https://crowhawk.github.io/)翻译，是Java GC调优的经典佳作。
 
-> 经作者授权转载，原文出处：[JVM
-深入理解JVM(4)——如何优化Java GC「译」](https://crowhawk.github.io/2017/08/21/jvm_4/)
-
 本文翻译自Sangmin Lee发表在[Cubrid](http://www.cubrid.org/blog)上的"Become a Java GC Expert"系列文章的第三篇[《How to Tune Java Garbage Collection》](http://www.cubrid.org/blog/how-to-tune-java-garbage-collection),本文的作者是韩国人，写在JDK 1.8发布之前，虽然有些地方有些许过时，但整体内容还是非常有价值的。译者此前也看到有人翻译了本文，发现其中有许多错漏生硬和语焉不详之处，因此决定自己翻译一份，供大家分享。
 
 本文是“成为Java GC专家”系列文章的第三篇，在系列的第一篇文章[《理解Java GC》](http://www.cubrid.org/blog/understanding-java-garbage-collection)中，我们了解到了不同GC算法的执行过程、GC的工作原理、新生代和老年代的概念、JDK 7中你需要了解的5种GC类型以及每一种GC对性能的影响。
