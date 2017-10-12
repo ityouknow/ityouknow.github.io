@@ -140,7 +140,7 @@ Exception in thread “main”: java.lang.OutOfMemoryError: Java heap space
 Exception in thread “main”: java.lang.OutOfMemoryError: PermGen space
 ```
 
-原因：类或者方法不能被加载到老年代。它可能出现在一个程序加载很多类的时候，比如引用了很多第三方的库；
+原因：类或者方法不能被加载到持久代。它可能出现在一个程序加载很多类的时候，比如引用了很多第三方的库；
 
 ``` java
 Exception in thread “main”: java.lang.OutOfMemoryError: Requested array size exceeds VM limit
