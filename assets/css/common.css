@@ -189,8 +189,7 @@
   margin: 0 auto;
 }
 
-
-.markdown-body img {
- max-width: 600px; 
- height: auto;
- }
+.center img {
+  max-width: 600px; 
+  height: auto;
+}
