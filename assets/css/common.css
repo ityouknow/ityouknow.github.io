@@ -188,3 +188,9 @@
   text-align: center;
   margin: 0 auto;
 }
+
+
+.markdown-body img {
+ max-width: 600px; 
+ height: auto;
+ }
