@@ -16,9 +16,10 @@ tags: [share]
 5、回复“面试, 面试资料, 简历”，获取面试相关的资料  
 6、回复“微信, 小程序”，获取小程序相关资料   
 7、回复“安卓, android”，获取安卓相关资料   
-8、回复“java”，获取java相关资料    
+8、回复“java”，获取java相关资料   
 9、回复“springboot, springcloud”，获取微服务等相关资料。   
-
+{:.center}
+![](http://www.ityouknow.com/assets/images/2017/book/AB.jpg)  
 
 以下为超级大礼包：
 
