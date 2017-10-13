@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 免费资源大汇总
-no-post-nav:flase
+no-post-nav: true
 category: share
 tags: [share]
 ---
