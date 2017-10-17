@@ -43,7 +43,7 @@ css: ['blog-page.css']
 - [定时任务发展史(一)](http://www.ityouknow.com/java/2017/06/28/timer-task-develop-1.html)  
 - [定时任务发展史(二)](http://www.ityouknow.com/java/2017/06/29/timer-task-develop-2.html)  
 
-## 生活
+## 我的故事
 
 - [老板和易筋经的故事](http://www.ityouknow.com/blog/2017/09/17/boss-anxious.html)  
 - [高中毕业，我想出去看看](http://www.ityouknow.com/life/2017/07/03/pingjing-life.html)  
