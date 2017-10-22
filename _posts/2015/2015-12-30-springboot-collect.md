@@ -38,9 +38,9 @@ tags: [springboot]
 
 - [慕课网视频](http://www.imooc.com/learn/767)
 
-- [spring-boot-tutorials](http://www.mkyong.com/tutorials/spring-boot-tutorials/)
+- [spring-boot-tutorials](http://www.mkyong.com/tutorials/spring-boot-tutorials/)  
 
-
+- [开源书籍-微服务：从设计到部署](https://github.com/oopsguy/microservices-from-design-to-deployment-chinese)  
 
 
 ## 开源代码
