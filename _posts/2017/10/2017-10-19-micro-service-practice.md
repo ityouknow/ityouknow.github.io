@@ -219,10 +219,6 @@ Spring 推出Spring Boot/Cloud也是因为自身的很多原因。Spring最初�
 
 **近期我会在GitChat分享[从架构演进的角度聊聊 Spring Cloud 都做了些什么？](http://gitbook.cn/m/mazi/activity/59d9f8f83c47cd7bb69447df?sceneId=bfbec890b01611e7b05d87f805be1357)**，如果你感兴趣也可以来听听。
 
-![](http://www.ityouknow.com/assets/images/2017/book/gitchatb.jpg)  
-
-
-
 
 -------------
 
