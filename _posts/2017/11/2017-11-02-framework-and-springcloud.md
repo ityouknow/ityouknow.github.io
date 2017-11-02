@@ -219,4 +219,4 @@ Spring Cloud从设计之初就考虑了绝大多数互联网公司架构演化�
 微服务架构是一种趋势，Spring Cloud提供了标准化的、全站式的技术方案，意义可能会堪比当前Servlet规范的诞生，有效推进服务端软件系统技术水平的进步。
 
 
-**这是我在GitChat的分享[从架构演进的角度聊聊 Spring Cloud 都做了些什么？](http://gitbook.cn/gitchat/activity/59d9f8f83c47cd7bb69447df)**
+**这是我在GitChat的分享[从架构演进的角度聊聊 Spring Cloud 都做了些什么？](http://gitbook.cn/gitchat/author/5949f1f19bc6b9498d120a0d)**
