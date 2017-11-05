@@ -7,6 +7,7 @@ menu: blog
 css: ['blog-page.css']
 ---
 
+
 ## 热门文章
 
 - [从零到百亿互联网金融架构发展史](http://www.ityouknow.com/%E6%9E%B6%E6%9E%84/2017/01/10/%E4%BB%8E%E9%9B%B6%E5%88%B0%E7%99%BE%E4%BA%BF%E4%BA%92%E8%81%94%E7%BD%91%E9%87%91%E8%9E%8D%E6%9E%B6%E6%9E%84%E5%8F%91%E5%B1%95%E5%8F%B2.html)
@@ -66,6 +67,7 @@ css: ['blog-page.css']
 
 ## spring boot 
 
+- [Spring Boot 精选达人课程，欢迎关注！](http://gitbook.cn/gitchat/column/59f5daa149cd4330613605ba)  
 - [springboot(一)：入门篇](http://www.ityouknow.com/springboot/2016/01/06/springboot(%E4%B8%80)-%E5%85%A5%E9%97%A8%E7%AF%87.html)
 - [springboot(二)：web综合开发](http://www.ityouknow.com/springboot/2016/02/03/springboot(%E4%BA%8C)-web%E7%BB%BC%E5%90%88%E5%BC%80%E5%8F%91.html)
 - [springboot(三)：Spring boot中Redis的使用](http://www.ityouknow.com/springboot/2016/03/06/springboot(%E4%B8%89)-Spring-Boot%E4%B8%ADRedis%E7%9A%84%E4%BD%BF%E7%94%A8.html)
