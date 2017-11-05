@@ -9,7 +9,7 @@ menu: Link
 
 ## 友情链接
 
-- [rickiyeat](http://blog.csdn.net/rickiyeat) - hadoop、spring boot/cloud技术博客   
+- [rickiyeat的博客](http://blog.csdn.net/rickiyeat) - hadoop、spring boot/cloud技术博客   
 - [丑胖侠的技术生涯](http://blog.csdn.net/wo541075754) - 每一步成长都想与你分享    
 - [梁桂钊的博客](http://blog.720ui.com/) - 后端攻城狮
 - [cmsblogs](http://cmsblogs.com/) - chenssy记录、分享JAVA技术
