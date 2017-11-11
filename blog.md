@@ -14,24 +14,11 @@ css: ['blog-page.css']
 - [一次生产事故的优化经历](http://www.ityouknow.com/%E4%BC%98%E5%8C%96/2017/02/06/%E4%B8%80%E6%AC%A1%E7%94%9F%E4%BA%A7%E4%BA%8B%E6%95%85%E7%9A%84%E4%BC%98%E5%8C%96%E7%BB%8F%E5%8E%86.html)  
 - [百亿互金平台救火故事](http://www.ityouknow.com/%E4%BC%98%E5%8C%96/2017/02/16/%E7%99%BE%E4%BA%BF%E4%BA%92%E9%87%91%E5%B9%B3%E5%8F%B0%E6%95%91%E7%81%AB%E6%95%85%E4%BA%8B.html)  
 - [从架构演进的角度聊聊Spring Cloud都做了些什么？](http://www.ityouknow.com/springcloud/2017/11/02/framework-and-springcloud.html)  
-- [中小型互联网公司微服务实践-经验和教训](http://www.ityouknow.com/springcloud/2017/10/19/micro-service-practice.html)  
-- [Spring Cloud在国内中小型公司能用起来吗？](http://www.ityouknow.com/springcloud/2017/09/11/can-use-springcloud.html)   
 - [高中毕业，我想出去看看](http://www.ityouknow.com/life/2017/07/03/pingjing-life.html)  
 - [你看那个人他像一条狗](http://www.ityouknow.com/career/2017/03/26/programmer-confused.html)  
 - [六年程序生涯](http://www.ityouknow.com/%E5%85%AD%E5%B9%B4/2016/11/20/%E5%85%AD%E5%B9%B4%E7%A8%8B%E5%BA%8F%E7%94%9F%E6%B6%AF.html)  
 - [思维的局限](http://www.ityouknow.com/life/2017/05/19/Limitations-of-thinking.html)  
 
-## 近期文章
-
-- [springboot(十五)：springboot+jpa+thymeleaf增删改查示例](http://www.ityouknow.com/springboot/2017/09/23/spring-boot-jpa-thymeleaf-curd.html)
-- [jvm系列(九):如何优化Java GC「译」](http://www.ityouknow.com/jvm/2017/09/21/How-to-optimize-Java-GC.html)
-- [老板和易筋经的故事](http://www.ityouknow.com/blog/2017/09/17/boss-anxious.html)  
-- [千里追踪博客之殇](http://www.ityouknow.com/blog/2017/09/10/blog-stop-a-month.html)  
-- [小明历险记：规则引擎drools教程一](http://www.ityouknow.com/drools/2017/08/07/drools-started.html)   
-- [mongodb集群性能优化](http://www.ityouknow.com/mongodb/2017/09/01/mongodb-performance-optimization.html)  
-- [mongodb集群监控和运维](http://www.ityouknow.com/mongodb/2017/09/06/mongodb-operation.html)  
-- [技术博客那些事儿](http://www.ityouknow.com/tech/2017/07/16/operating-technology-blog.html)  
-- [jvm系列(五):Java GC 分析](http://www.ityouknow.com/jvm/2017/09/18/GC-Analysis.html)
 
 ## 实战互金
 
@@ -82,7 +69,10 @@ css: ['blog-page.css']
 - [springboot(十二)：springboot如何测试打包部署](http://www.ityouknow.com/springboot/2017/05/09/springboot-deploy.html)
 - [springboot(十三)：springboot小技巧](http://www.ityouknow.com/springboot/2017/06/22/springboot-tips.html)
 - [springboot(十五)：springboot+jpa+thymeleaf增删改查示例](http://www.ityouknow.com/springboot/2017/09/23/spring-boot-jpa-thymeleaf-curd.html)
-- [springboot实战：我们的第一款开源软件](http://www.ityouknow.com/springboot/2016/09/26/springboot%E5%AE%9E%E6%88%98-%E6%88%91%E4%BB%AC%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%BE%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6.html)
+- [springboot(十六)：使用Jenkins部署Spring Boot](http://www.ityouknow.com/springboot/2017/11/11/springboot-jenkins.html)  
+
+
+- **[springboot实战：我们的第一款开源软件](http://www.ityouknow.com/springboot/2016/09/26/springboot%E5%AE%9E%E6%88%98-%E6%88%91%E4%BB%AC%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%BE%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6.html)**
 
 ## spring cloud 
 
