@@ -1,20 +1,21 @@
 ---
 layout: post
-title: 使用jenkins部署Spring Boot
+title: springboot(十六)：使用Jenkins部署Spring Boot
 category: springboot
 tags: [springboot]
 ---
 
+jenkins是devops神器，本篇文章介绍如何安装和使用jenkins部署Spring Boot项目
+
 jenkins搭建 部署分为三个步骤；
 
-- 第一步：安装 jenkins  
-- 第二步，安装插件和配置。  
-- 第三步，配置push ssh相关内容。  
+- 第一步，jenkins安装  
+- 第二步，插件安装和配置  
+- 第三步，Push SSH 
+- 第四步，部署项目
 
-> 第四步，我们部署一个项目看看效果
 
-
-## 第一步 ：安装 Jenkins
+## 第一步 ，jenkins安装
 
 
 准备环境：
@@ -151,7 +152,7 @@ This may also be found at: /root/.jenkins/secrets/initialAdminPassword
 ![](http://www.ityouknow.com/assets/images/2017/jenkins/5.png)
 
 
-## 安装插件和配置
+## 第二步，插件安装和配置
 
 有很多插件都是选择的默认的安装的，所以现在需要我们安装的插件不多，Git plugin和Maven Integration plugin，publish over SSH、CVS插件管理SSH。
 
@@ -218,7 +219,7 @@ service sshd restart
 最后，如果可以SSH IP 免密登录成功说明SSH公钥认证成功。
 
 
-### 第三步：配置push ssh相关内容。 
+## 第三步，Push SSH 
 
 系统管理 > 系统设置
 
@@ -238,7 +239,7 @@ Remote Directory 不填
 
 > 点击下方增加可以添加多个应用服务器的地址
 
-### 第四步：部署一个项目。 
+### 第四步，部署项目 
 
 首页点击**新建**：输入项目名称
 
