@@ -239,7 +239,7 @@ Remote Directory 不填
 
 > 点击下方增加可以添加多个应用服务器的地址
 
-### 第四步，部署项目 
+## 第四步，部署项目 
 
 首页点击**新建**：输入项目名称
 
@@ -279,7 +279,7 @@ Post Steps 选择 Run only if build succeeds
 
 ![](http://www.ityouknow.com/assets/images/2017/jenkins/16.png)
 
-Name选择刚启动名字
+Name选择上面配置的Push SSH
 
 ![](http://www.ityouknow.com/assets/images/2017/jenkins/17.png)
 
