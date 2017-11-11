@@ -219,7 +219,7 @@ t(spring:session:expirations:1472976480000
 ## 参考
 
 [Redis的两个典型应用场景](http://emacoo.cn/blog/spring-redis)<br/>
-[pringBoot应用之分布式会话](https://segmentfault.com/a/1190000004358410)
+[SpringBoot应用之分布式会话](https://segmentfault.com/a/1190000004358410)
 
 
 -------------
