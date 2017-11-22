@@ -15,8 +15,10 @@ css: ['sidebar-post-nav.css']
             <!-- copyright -->
             {% include copyright.html %}
             <!-- Comments -->
-            {% include disqus-comments.html %}
-            {% include gitment-comments.html %}
+      
+           <div class="comment">
+             {% include comments.html %}
+           </div>
 
         </div>
         {% else %}
@@ -27,8 +29,9 @@ css: ['sidebar-post-nav.css']
             <!-- copyright -->
             {% include copyright.html %}
             <!-- Comments -->
-            {% include disqus-comments.html %}
-            {% include gitment-comments.html %}
+          <div class="comment">
+             {% include comments.html %}
+           </div>
         </div>
 
         <div class="col-md-3">
