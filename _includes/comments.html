@@ -39,13 +39,6 @@
     {% when 'disqus' %}
       {% if site.disqus and site.disqus.username %}
         {% assign load_disqus = true %}
-        <!-- Disqus Protection, see https://github.com/mzlogin/mzlogin.github.io/issues/2 -->
-        {% if site.disqus.username == 'ityouknow' %}
-          {% assign load_disqus = false %}
-          {% if site.url contains 'ityouknow.com' %}
-            {% assign load_disqus = true %}
-          {% endif %}
-        {% endif %}
         {% if load_disqus %}
           <div id="disqus_thread"></div>
           <script>
@@ -85,6 +78,23 @@
             },
         })
         gitment.render('container')
+        </script>
+    {% when 'gitalk' %}
+        <div id="gitalk-container"></div>
+        <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+        <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+        <script>
+        var gitalk = new Gitalk({
+            id: '{{ page.url }}',
+            clientID: '{{ site.gitalk.clientID }}',
+            clientSecret: '{{ site.gitalk.clientSecret }}',
+            repo: '{{ site.gitalk.repo }}',
+            owner: '{{ site.gitalk.owner }}',
+            admin: ['{{ site.gitalk.owner }}'],
+            labels: ['gitment'],
+            perPage: 50,
+        })
+        gitalk.render('gitalk-container')
         </script>
   {% endcase %}
 {% endif %}

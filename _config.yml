@@ -102,19 +102,25 @@ skill_mobile_app_keywords: [vuejs, hyhird app]
 # ---------------- #
 #      Comments    #
 # ---------------- #
-# support provider: disqus, gitment
-comments_provider: gitment
+# support provider: disqus, gitment, gitalk
+comments_provider: gitalk
 # !!!重要!!! 请修改下面这些信息为你自己申请的
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username: ityouknow
+    username: 
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-  owner: ityouknow
-  repo: blog-comments
-  oauth:
-      client_id: 61bfc53d957e74e78f8f
-      client_secret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
+    owner: ityouknow
+    repo: blog-comments
+    oauth:
+        client_id: 61bfc53d957e74e78f8f
+        client_secret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
+# https://github.com/gitalk/gitalk#install
+gitalk:
+    owner: ityouknow
+    repo: blog-comments
+    clientID: 61bfc53d957e74e78f8f
+    clientSecret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
 # 在使用其它评论组件时可点击显示 Disqus
-lazy_load_disqus : true
+lazy_load_disqus : false
