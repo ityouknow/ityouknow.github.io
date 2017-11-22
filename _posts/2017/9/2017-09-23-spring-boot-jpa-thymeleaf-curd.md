@@ -322,5 +322,8 @@ list列表
 
 这样一个使用jpa和thymeleaf的增删改查示例就完成了。
 
-当然所以的示例代码都在这里：  
-**[示例代码](https://github.com/ityouknow/spring-boot-examples)**
+当然所以的示例代码都在这里： 
+ 
+**[示例代码-github](https://github.com/ityouknow/spring-boot-examples)**
+
+**[示例代码-码云](https://gitee.com/ityouknow/spring-boot-examples)**
