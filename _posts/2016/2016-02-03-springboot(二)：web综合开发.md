@@ -379,7 +379,9 @@ bootRun {
 
 就可以正常使用了！
 
-**[示例代码](https://github.com/ityouknow/spring-boot-examples)**
+**[示例代码-github](https://github.com/ityouknow/spring-boot-examples)**
+
+**[示例代码-码云](https://gitee.com/ityouknow/spring-boot-examples)**
 
 ## 参考：
 

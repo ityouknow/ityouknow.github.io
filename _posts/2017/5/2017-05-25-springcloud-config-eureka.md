@@ -189,7 +189,9 @@ public class ConfigClientApplication {
 再次访问：```http://localhost:8002/hello```，返回：```hello im dev update```。说明客户端已经读取到了server端的内容，我们随机停掉一台server端的服务，再次访问```http://localhost:8002/hello```，返回：```hello im dev update```，说明达到了高可用的目的。
 
 
-**[示例代码](https://github.com/ityouknow/spring-cloud-examples)**
+**[示例代码-github](https://github.com/ityouknow/spring-cloud-examples)**
+
+**[示例代码-码云](https://gitee.com/ityouknow/spring-cloud-examples)**
 
 -------------
 **作者：纯洁的微笑**  

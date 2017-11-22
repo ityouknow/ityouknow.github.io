@@ -201,7 +201,9 @@ hello 小明，this is two messge
 [API网关那些儿](http://yunlzheng.github.io/2017/03/14/the-things-about-api-gateway/)
 
 
-**[示例代码](https://github.com/ityouknow/spring-cloud-starter)**
+**[示例代码-github](https://github.com/ityouknow/spring-cloud-examples)**
+
+**[示例代码-码云](https://gitee.com/ityouknow/spring-cloud-examples)**
 
 -------------
 **作者：纯洁的微笑**  

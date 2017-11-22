@@ -325,8 +325,9 @@ public interface UserMapper {
 
 老传统模式比适合大型项目，可以灵活的动态生成SQL，方便调整SQL，也有痛痛快快，洋洋洒洒的写SQL的感觉。
 
-**[示例代码](https://github.com/ityouknow/spring-boot-examples)**
+**[示例代码-github](https://github.com/ityouknow/spring-boot-examples)**
 
+**[示例代码-码云](https://gitee.com/ityouknow/spring-boot-examples)**
 
 -------------
 

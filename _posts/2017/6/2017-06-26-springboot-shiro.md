@@ -460,7 +460,10 @@ public String login(HttpServletRequest request, Map<String, Object> map) throws 
 shiro很强大，这仅仅是完成了登录认证和权限管理这两个功能，更多内容以后有时间再做探讨。
 
 
-**[示例代码](https://github.com/ityouknow/spring-boot-examples)**
+**[示例代码-github](https://github.com/ityouknow/spring-boot-examples)**
+
+**[示例代码-码云](https://gitee.com/ityouknow/spring-boot-examples)**
+
 
 参考：
 

@@ -159,7 +159,9 @@ delete | 当有分支或标签被删除时触发
 
 这样我们就可以利用hook的机制去触发客户端的更新，但是当客户端越来越多的时候hook支持的已经不够优雅，另外每次增加客户端都需要改动hook也是不现实的。其实Spring Cloud给了我们更好解决方案，后面文章来介绍。
 
-**[示例代码](https://github.com/ityouknow/spring-cloud-examples)**
+**[示例代码-github](https://github.com/ityouknow/spring-cloud-examples)**
+
+**[示例代码-码云](https://gitee.com/ityouknow/spring-cloud-examples)**
 
 -------------
 **作者：纯洁的微笑**  
