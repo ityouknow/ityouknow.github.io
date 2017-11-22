@@ -1,6 +1,7 @@
 ---
 layout: post
-title: 免费资源大汇总
+title: 价值百万的IT学习资料
+
 no-post-nav: true
 category: share
 tags: [share]
@@ -10,14 +11,20 @@ tags: [share]
 
 领取资源方式，关注“纯洁的微笑”公众号，回复对应的关键字
 
-1、回复“我要健康”，获取程序员健康、内涵大礼包！   
-2、回复“大数据”，获取大数据相关资源。   
-3、回复“搜索, linux, mongodb, redis, zookeeper, dubbo”，获取分布式等相关资料。   
-4、回复“基础, git, xml, jni, java8, 设计模式, svn”，获取对应的基础资料  
-5、回复“微信, 小程序”，获取小程序相关资料   
-6、回复“安卓, android”，获取安卓相关资料   
-7、回复“java”，获取java相关资料   
-8、回复“springboot, springcloud”，获取微服务等相关资料。 
+1、回复“我要健康”，获取程序员健康、内涵大礼包！ 
+2、回复“大数据”，获取大数据相关资源。 
+3、回复“linux”，获取linux相关资料。 
+4、回复“mongodb”，获取mongodb学习资料。 
+5、回复“redis，获取redis相关资料。 
+6、回复“zookeeper”，获取分布式等相关资料。 
+7、回复“dubbo”，获取dubbo相关资料。
+8、回复“git”，获取git资料
+9、回复“设计模式”，获取设计模式资料
+10、回复“小程序”，获取小程序相关的资料 
+11、回复“android”，获取安卓相关的资料 
+12、回复“java”，获取java相关的资料
+13、回复“springboot”，获取springboot相关资料。
+14、回复“springcloud”，获取springcloud相关资料。
   
 {:.center}
 ![](http://www.ityouknow.com/assets/images/2017/book/AB.jpg)  
