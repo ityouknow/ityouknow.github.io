@@ -25,6 +25,7 @@ tags: [share]
 - 12、回复"**java**"，获取java相关的资料  
 - 13、回复"**springboot**"，获取springboot相关资料。  
 - 14、回复"**springcloud**"，获取springcloud相关资料。  
+- 15、回复"**pyhton**"，获取Pyhton相关资料。  
 
 
 {:.center}
