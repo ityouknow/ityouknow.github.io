@@ -23,10 +23,9 @@ tags: [share]
 - 10、回复"**小程序**"，获取小程序相关的资料   
 - 11、回复"**android**"，获取安卓相关的资料   
 - 12、回复"**java**"，获取java相关的资料  
-- 13、回复"**springboot**"，获取springboot相关资料。  
-- 14、回复"**springcloud**"，获取springcloud相关资料。  
-- 15、回复"**pyhton**"，获取Pyhton相关资料。  
-
+- 13、回复"**pyhton**"，获取Pyhton相关资料。  
+- 14、回复"**springboot**"，获取springboot相关资料。  
+- 15、回复"**springcloud**"，获取springcloud相关资料。  
 
 {:.center}
 ![](http://www.ityouknow.com/assets/images/2017/book/AB.jpg)  
