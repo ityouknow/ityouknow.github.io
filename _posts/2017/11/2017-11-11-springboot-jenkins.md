@@ -154,7 +154,7 @@ This may also be found at: /root/.jenkins/secrets/initialAdminPassword
 
 ## 第二步，插件安装和配置
 
-有很多插件都是选择的默认的安装的，所以现在需要我们安装的插件不多，Git plugin和Maven Integration plugin，publish over SSH、CVS插件管理SSH。
+有很多插件都是选择的默认的安装的，所以现在需要我们安装的插件不多，Git plugin和Maven Integration plugin，publish over SSH。
 
 插件安装：系统管理 > 插件管理 > 可选插件,勾选需要安装的插件，点击直接安装或者下载重启后安装
 
