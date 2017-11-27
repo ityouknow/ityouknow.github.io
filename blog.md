@@ -35,6 +35,7 @@ css: ['blog-page.css']
 
 ## 我的故事
 
+- [救人一命是怎样的体验？](http://www.ityouknow.com/life/2017/06/25/save-a-life.html)  
 - [老板和易筋经的故事](http://www.ityouknow.com/blog/2017/09/17/boss-anxious.html)  
 - [高中毕业，我想出去看看](http://www.ityouknow.com/life/2017/07/03/pingjing-life.html)  
 - [思维的局限](http://www.ityouknow.com/life/2017/05/19/Limitations-of-thinking.html)
