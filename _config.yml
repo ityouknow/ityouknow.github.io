@@ -57,14 +57,14 @@ paginate_path: 'page:num'
 navs:
   -
     href: /
-    label: Home
+    label: 首页
 
   -
     href: /spring-boot
-    label: Spring-Boot
+    label: SpringBoot
   -
     href: /spring-cloud
-    label: Spring-Cloud
+    label: SpringCloud
 
 #  -
 #    href: /open-source
@@ -72,15 +72,21 @@ navs:
 
   -
     href: /blog
-    label: Archives
+    label: 合集
 
   -
     href: /link
-    label: Links
+    label: 友链
+
+  -
+    href: /categories/
+    label: 分类
     
   -
     href: /about
-    label: About
+    label: 关于
+
+
 
 # Sidebar to show popular repo
 side_bar_repo_limit: 6 # Number of repos to show
