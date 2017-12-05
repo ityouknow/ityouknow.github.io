@@ -83,7 +83,10 @@ navs:
     href: /about
     label: About
 
-
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
 
 # Sidebar to show popular repo
 side_bar_repo_limit: 6 # Number of repos to show
