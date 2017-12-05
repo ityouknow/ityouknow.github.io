@@ -62,10 +62,10 @@ navs:
 
   -
     href: /spring-boot
-    label: SpringBoot
+    label: Spring-Boot
   -
     href: /spring-cloud
-    label: SpringCloud
+    label: Spring-Cloud
 
 #  -
 #    href: /open-source
