@@ -60,10 +60,10 @@ navs:
     label: Home
 
   -
-    href: /spring-boot
+    href: /spring-boot/
     label: Spring-Boot
   -
-    href: /spring-cloud
+    href: /spring-cloud/
     label: Spring-Cloud
 
 #  -
@@ -71,15 +71,15 @@ navs:
 #    label: Open-Source
 
   -
-    href: /blog
+    href: /blog/
     label: Archives
 
   -
-    href: /link
+    href: /link/
     label: Links
     
   -
-    href: /about
+    href: /about/
     label: About
 
 # Sidebar to show popular repo
