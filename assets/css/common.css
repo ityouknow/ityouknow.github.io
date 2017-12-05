@@ -193,3 +193,12 @@
   max-width: 600px; 
   height: auto;
 }
+
+.site-footer-links {
+    margin: 0;
+    list-style: none;
+}
+
+
+
+
