@@ -58,7 +58,7 @@ paginate_path: 'page:num'
 navs:
   -
     href: /
-    label: 首页
+    label: Home
 
   -
     href: /spring-boot
@@ -73,19 +73,15 @@ navs:
 
   -
     href: /blog
-    label: 合集
+    label: All
 
   -
     href: /link
-    label: 友链
+    label: Link
 
   -
-    href: /categories/
-    label: 分类
-    
-  -
     href: /about
-    label: 关于
+    label: About
 
 
 
