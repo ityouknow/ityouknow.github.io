@@ -15,6 +15,7 @@ company_url: http://www.ityouknow.com/share/2017/10/01/resource-sharing.html
 github_url: https://github.com/ityouknow # ex. https://github.com/DONGChuan
 cnblog_url: http://www.cnblogs.com/ityouknow
 description: the world is colorful
+encoding: "utf-8"
 
 favicon: favicon.png # Image must be in assets/images
 repository: ityouknow/ityouknow.github.io # ex. DONGChuan/DONGChuan.github.io
