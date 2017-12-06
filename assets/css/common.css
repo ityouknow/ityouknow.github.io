@@ -199,6 +199,7 @@
 }
 .site-footer-icons a{
     display: inline-block;
+    margin: 0 2px;
     vertical-align: middle;
 }
 .site-footer-links {
@@ -207,6 +208,7 @@
 }
 .site-footer-links a{
     display: inline-block;
+    margin: 0 2px;
     vertical-align: middle;
 }
 .site-footer .scrolltop{
