@@ -193,12 +193,19 @@
   max-width: 600px; 
   height: auto;
 }
-
+.site-footer-icon{
+    position: absolute;
+    left: 50%;
+    
+}
 .site-footer-links {
+    float: left;
     margin: 0;
     list-style: none;
 }
-
+.site-footer-links li{
+    float: left;
+}
 
 
 
