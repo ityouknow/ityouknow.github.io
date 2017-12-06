@@ -193,10 +193,14 @@
   max-width: 600px; 
   height: auto;
 }
-.site-footer-icon{
+.site-footer-icons{
     position: absolute;
-    left: 50%;
-    
+    left: 0;
+    text-align: center;
+}
+.site-footer-icons a{
+    display: inline-block;
+    vertical-align: middle;
 }
 .site-footer-links {
     float: left;
@@ -205,6 +209,7 @@
 }
 .site-footer-links li{
     float: left;
+    margin-right: 5px;
 }
 
 
