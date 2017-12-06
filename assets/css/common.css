@@ -196,6 +196,8 @@
 .site-footer-icons{
     position: absolute;
     left: 0;
+    z-index: 1;
+    width: 100%;
     text-align: center;
 }
 .site-footer-icons a{
@@ -203,6 +205,8 @@
     vertical-align: middle;
 }
 .site-footer-links {
+    position: relative;
+    z-index: 2;
     float: left;
     margin: 0;
     list-style: none;
@@ -210,7 +214,12 @@
 .site-footer-links li{
     float: left;
     margin-right: 5px;
+    line-height: 32px;
 }
-
+.site-footer .scrolltop{
+    position: relative;
+    z-index: 2;
+    line-height: 32px;
+}
 
 
