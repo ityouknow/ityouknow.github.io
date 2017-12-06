@@ -194,10 +194,7 @@
   height: auto;
 }
 .site-footer-icons{
-    position: absolute;
-    left: 0;
-    z-index: 1;
-    width: 100%;
+    line-height: 32px;
     text-align: center;
 }
 .site-footer-icons a{
@@ -205,21 +202,25 @@
     vertical-align: middle;
 }
 .site-footer-links {
-    position: relative;
-    z-index: 2;
-    float: left;
-    margin: 0;
-    list-style: none;
-}
-.site-footer-links li{
-    float: left;
-    margin-right: 5px;
     line-height: 32px;
+    text-align: center;
+}
+.site-footer-links a{
+    display: inline-block;
+    vertical-align: middle;
 }
 .site-footer .scrolltop{
-    position: relative;
-    z-index: 2;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -16px;
     line-height: 32px;
 }
-
+.site-footer .rss{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -16px;
+    line-height: 32px;
+}
 
