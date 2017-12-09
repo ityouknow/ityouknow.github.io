@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 价值百万的IT学习资料
-
 no-post-nav: true
 category: share
 tags: [share]
