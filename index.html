@@ -7,10 +7,6 @@ css: ['index.css', 'sidebar-popular-repo.css']
     <div class="container">
         <h1>{{ site.title }}</h1>
         <div id="jumbotron-meta-info">
-            <span class="meta-info">
-                <span class="octicon octicon-location"></span>
-                {{ site.location }}
-            </span>
             <span class="meta-info hvr-grow">
                 <span class="octicon octicon-mark-github"></span>
                 <a href="{{ site.github_url }}" target="_blank">@{{ site.name }}</a>
@@ -18,6 +14,10 @@ css: ['index.css', 'sidebar-popular-repo.css']
             <span class="meta-info hvr-grow">
                 <span class="octicon octicon-organization"></span>
                 <a href="{{ site.company_url }}" target="_blank">{{ site.company }}</a>
+            </span>
+            <span class="meta-info">
+                <span class="octicon octicon-location"></span>
+                <a href="http://www.ityouknow.com/jvm" target="_blank">JVM</a>
             </span>
         </div>
     </div>
