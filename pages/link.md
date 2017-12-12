@@ -11,6 +11,7 @@ permalink: /link
 ## 友情链接
 
 - [spring4all](http://spring4all.com/) - Spring For All 垂直技术社区  
+- [猿天地](http://cxytiandi.com/) - 天地是一个综合性的网站,以程序猿用户为主,提供各种开发相关的内容。     
 - [rickiyeat的博客](http://blog.csdn.net/rickiyeat) - hadoop、spring boot/cloud技术博客   
 - [丑胖侠的技术生涯](http://blog.csdn.net/wo541075754) - 每一步成长都想与你分享    
 - [梁桂钊的博客](http://blog.720ui.com/) - 后端攻城狮
