@@ -226,3 +226,7 @@
     line-height: 32px;
 }
 
+.markdown-body img {
+  max-width: 600px; 
+  height: auto;
+}
