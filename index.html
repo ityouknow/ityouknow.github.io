@@ -10,7 +10,6 @@ css: ['index.css', 'sidebar-popular-repo.css']
 
              {% for nav in site.labels %}
                 <span class="meta-info hvr-grow">
-                    <span class="{{ nav.class }}n"></span>
                     <a href="{{ nav.href }}" title="{{ nav.name }}" target="{{ nav.target | default: _self }}">{{ nav.name }}</a>
                 </span>
             {% endfor %}
