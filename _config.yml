@@ -52,36 +52,47 @@ paginate_path: 'page:num'
 
 # Navigation. If you do not like these modules, just remove them :D
 navs:
+
   -
     href: /
     label: Home
+
   -
     href: /spring-boot
     label: Spring-Boot
+
   -
     href: /spring-cloud
     label: Spring-Cloud
+
   -
     href: /blog
     label: Archives
+
   -
     href: /link
     label: Link
+
   -
     href: /about
     label: About
 
+
 # labels. my blog key words
- labels:
+labels:
+
   -
     href: /share/2017/10/01/resource-sharing.html
     name: 学习资源
+
   -
     href: /https://wx.xiaomiquan.com/mweb/views/joingroup/join_group.html?group_id=881415141512&secret=gg9ch1oco389vka95d6zb18a8x5x804n&user_id=51122215822184
     name: 知识星球
+
   -
     href: /jvm
     name: Jvm
+
   -
     href: /open-source
     label: Open-Source   
