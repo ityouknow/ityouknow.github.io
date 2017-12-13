@@ -92,6 +92,10 @@ labels:
   -
     href: /life
     name: 生活故事
+
+  -
+    href: /arch
+    name: 架构之路
     
   -
     href: /jvm
