@@ -90,6 +90,10 @@ labels:
     name: 知识星球
 
   -
+    href: /life
+    name: 生活故事
+    
+  -
     href: /jvm
     name: Jvm
 
