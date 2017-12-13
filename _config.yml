@@ -95,7 +95,7 @@ labels:
 
   -
     href: /open-source
-    label: Open-Source   
+    name: Open-Source   
 
 # ---------------- #
 #       RSS        #

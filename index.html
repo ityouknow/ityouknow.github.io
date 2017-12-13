@@ -9,7 +9,7 @@ css: ['index.css', 'sidebar-popular-repo.css']
         <div id="jumbotron-meta-info">
 
              {% for nav in site.labels %}
-            <a href="{{ nav.href }}" title="{{ nav.label }}" target="{{ nav.target | default: _self }}">{{ nav.label }}</a>
+            <a href="{{ nav.href }}" title="{{ nav.name }}" target="{{ nav.target | default: _self }}">{{ nav.name }}</a>
             {% endfor %}
 
             
