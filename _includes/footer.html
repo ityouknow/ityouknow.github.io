@@ -22,7 +22,7 @@
         </div>
         <div class="site-footer-links mobile-hidden">
             {% for nav in site.labels %}
-            <a href="{{ nav.name }}" title="{{ nav.label }}" target="{{ nav.target | default: _self }}">{{ nav.label }}</a>
+            <a href="{{ nav.href }}" title="{{ nav.name }}" target="{{ nav.target | default: _self }}">{{ nav.name }}</a>
             {% endfor %}
         </div>
         <div class="scrolltop">
