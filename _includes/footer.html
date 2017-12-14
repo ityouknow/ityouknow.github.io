@@ -21,15 +21,8 @@
             </a>
         </div>
         <div class="site-footer-links mobile-hidden">
-<<<<<<< HEAD
-             <a href="/jvm" title="JVM" >JVM</a>
-             <a href="/bigdata" title="JVM" >JVM</a>
-            {% for nav in site.navs %}
-            <a href="{{ nav.href }}" title="{{ nav.label }}" target="{{ nav.target | default: _self }}">{{ nav.label }}</a>
-=======
             {% for nav in site.labels %}
             <a href="{{ nav.href }}" title="{{ nav.name }}" target="{{ nav.target | default: _self }}">{{ nav.name }}</a>
->>>>>>> 1ba62c6b5403bc7d09767de9c4d224b870fa0f0f
             {% endfor %}
         </div>
         <div class="scrolltop">
