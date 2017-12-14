@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Jvm系列文章
-titlebar: jvm
-subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; jvm系列文章
-menu: jvm
+title: 架构师的自我修养
+titlebar: arch
+subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; 其实我是一个程序员。
+menu: arch
 css: ['blog-page.css']
-permalink: /jvm
+permalink: /arch
 ---
 
 <div class="row">
@@ -14,7 +14,7 @@ permalink: /jvm
 
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='jvm' %}
+                {% if post.category=='架构' %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>

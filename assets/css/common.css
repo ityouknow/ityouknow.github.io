@@ -119,6 +119,15 @@
     margin-right: 15px;
     display: inline-block;
     vertical-align: middle;
+    color: #2e2e2e;
+}
+
+.jumbotron .meta-info-index {
+    font-size: 12px;
+    margin-right: 3px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #2e2e2e;
 }
 
 .jumbotron.meta-info, .jumbotron .meta-info .octicon {

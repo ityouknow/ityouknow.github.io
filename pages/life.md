@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Jvm系列文章
-titlebar: jvm
-subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; jvm系列文章
-menu: jvm
+title: 你的生活和我一样吗
+titlebar: life
+subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; 你的生活有什么故事？
+menu: life
 css: ['blog-page.css']
-permalink: /jvm
+permalink: /life
 ---
 
 <div class="row">
@@ -14,7 +14,7 @@ permalink: /jvm
 
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='jvm' %}
+                {% if post.category=='life' %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
