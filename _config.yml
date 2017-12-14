@@ -12,7 +12,6 @@ email: ityouknow@126.com
 github_url: https://github.com/ityouknow # ex. https://github.com/DONGChuan
 description: the world is colorful
 encoding: "utf-8"
-
 favicon: favicon.png # Image must be in assets/images
 repository: ityouknow/ityouknow.github.io # ex. DONGChuan/DONGChuan.github.io
 
