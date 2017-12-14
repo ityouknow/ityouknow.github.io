@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 价值百万的IT学习资料
+title: 超过1024G的IT学习资料免费领取
 no-post-nav: true
 category: share
 tags: [share]
