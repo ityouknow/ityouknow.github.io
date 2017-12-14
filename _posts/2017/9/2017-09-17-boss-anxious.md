@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  老板和易筋经的故事
-category: blog
-tags: [blog]
+category: life
+tags: [life]
 ---
 
 老板是我非常敬重的前领导之一，他的一些管理风格，也影响了后来我对技术团队的管理。
