@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 我的故事里也许有你
-no-post-nav: true
 category: life
 tags: [life]
 ---
