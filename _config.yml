@@ -69,10 +69,6 @@ navs:
     label: Archives
 
   -
-    href: /categories
-    label: Categories
-
-  -
     href: /link
     label: Link
 
