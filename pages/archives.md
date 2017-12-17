@@ -1,5 +1,10 @@
 ---
 layout: page
+title: All blog here
+titlebar: archives
+subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp;全部文章都在这里了。
+menu: archives
+css: ['blog-page.css']
 permalink: /archives
 ---
 
