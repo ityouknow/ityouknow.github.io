@@ -93,20 +93,3 @@ public static void main(String[] args) {
 > 如果你有更好的解决方案，也请一定告诉我。
 
 
--------------
-
-**作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/other/2017/05/15/wechat-markdown.html)**      
-**版权归作者所有，转载请注明出处** 
-
-
-
-
-
-
-
-
-
-
-
-
