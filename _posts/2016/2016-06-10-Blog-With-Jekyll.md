@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Blog With Jekyll
-category: 生活
+category: Jekyll
 tags: [Jekyll]
 ---
 
