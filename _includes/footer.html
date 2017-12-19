@@ -38,17 +38,26 @@
     <script src="/assets/js/{{javascript}}"></script>
     {% endfor %}
      
-   <div style="display:none">
-    <script>
-    var _hmt = _hmt || [];
-    (function() {
-    var hm = document.createElement("script");
-    hm.src = "https://hm.baidu.com/hm.js?6d8e8bb59814010152d98507a18ad229";
-    var s = document.getElementsByTagName("script")[0]; 
-    s.parentNode.insertBefore(hm, s);
-    })();
-    </script>
+    <!-- Baidu Analytics --> 
+    <div style="display:none">
+        <script>
+        var _hmt = _hmt || [];
+            (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?6d8e8bb59814010152d98507a18ad229";
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
     </div>
+    <!-- Baidu Analytics -->
+
+     <!-- Cnzz Analytics -->
+        <div style="display:none">
+         <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260945749'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1260945749' type='text/javascript'%3E%3C/script%3E"));</script>
+        </div>
+     <!-- Cnzz Analytics -->
+
 
     <!-- Google Analytics -->
     <!--div style="display:none">
@@ -63,14 +72,4 @@
 
         </script>
     </div-->
-    <div style="display:none">
-    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260945749'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1260945749' type='text/javascript'%3E%3C/script%3E"));</script>
-    </div>
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-1854062325380137",
-        enable_page_level_ads: true
-      });
-    </script>
 </footer>
