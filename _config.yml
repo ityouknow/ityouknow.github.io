@@ -18,8 +18,8 @@ repository: ityouknow/ityouknow.github.io # ex. DONGChuan/DONGChuan.github.io
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
 # For production, use your github page url. ex. http://dongchuan.github.io
-url: http://ityouknow.com
-enforce_ssl: ityouknow.com
+url: http://www.mooooc.com/
+enforce_ssl: mooooc.com/
 
 ## Gem
 gems:
