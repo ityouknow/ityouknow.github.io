@@ -11,7 +11,7 @@ tags: [springboot]
 ## 推荐博客
 
 
-- [纯洁的微笑](http://www.ityouknow.com/spring-boot)
+- [纯洁的微笑](http://www.ityouknow.com/spring-boot.html)
 
 - [程序猿DD](http://blog.didispace.com/categories/Spring-Boot/) 
 
