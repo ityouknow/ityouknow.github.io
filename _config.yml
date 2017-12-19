@@ -57,23 +57,23 @@ navs:
     label: Home
 
   -
-    href: /spring-boot
+    href: /spring-boot.html
     label: Spring-Boot
 
   -
-    href: /spring-cloud
+    href: /spring-cloud.html
     label: Spring-Cloud
 
   -
-    href: /archives
+    href: /archives.html
     label: Archives
 
   -
-    href: /link
+    href: /link.html
     label: Link
 
   -
-    href: /about
+    href: /about.html
     label: About
 
 
@@ -89,19 +89,19 @@ labels:
     name: 知识星球
 
   -
-    href: /life
+    href: /life.html
     name: 生活故事
 
   -
-    href: /arch
+    href: /arch.html
     name: 架构之路
     
   -
-    href: /jvm
+    href: /jvm.html
     name: Jvm
 
   -
-    href: /open-source
+    href: /open-source.html
     name: Open-Source   
 
 # ---------------- #

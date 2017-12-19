@@ -1,8 +1,8 @@
 ---
 layout: post
 title: FastDFS 集群 安装 配置
-category: fastdfs
-tags: [fastdfs]
+category: FastDFS
+tags: [FastDFS]
 ---
 
 这篇文章介绍如何搭建FastDFS 集群
