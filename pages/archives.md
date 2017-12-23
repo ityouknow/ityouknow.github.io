@@ -2,7 +2,7 @@
 layout: page
 title: All articles are here
 titlebar: archives
-subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp;一览大好江山
+subtitle: <span class="mega-octicon octicon-calendar"></span>&nbsp;&nbsp;一览大好江山
 menu: archives
 css: ['blog-page.css']
 permalink: /archives

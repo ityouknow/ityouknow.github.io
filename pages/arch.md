@@ -2,7 +2,7 @@
 layout: page
 title: 架构师的自我修养
 titlebar: arch
-subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; 其实我是一名程序员。
+subtitle: <span class="mega-octicon octicon-keyboard"></span>&nbsp;&nbsp; 其实我是一名程序员。
 menu: arch
 css: ['blog-page.css']
 permalink: /arch
