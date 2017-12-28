@@ -7,10 +7,12 @@
 
 # Site settings
 title: 分享技术,品味人生 # ex. I m Chuan
+subtitle: 其实我是一个程序员
 name: 纯洁的微笑 # ex. DONGChuan
 email: ityouknow@126.com
 github_url: https://github.com/ityouknow # ex. https://github.com/DONGChuan
-description: the world is colorful
+description: 一个纯洁的程序员，一个还在一线写代码的研发总监。
+keywords: ityouknow, 纯洁的微笑, Spring, SpringBoot, SpringCloud, MongoDB, Jvm, 生活故事, 架构
 encoding: "utf-8"
 favicon: favicon.png # Image must be in assets/images
 repository: ityouknow/ityouknow.github.io # ex. DONGChuan/DONGChuan.github.io
@@ -18,8 +20,8 @@ repository: ityouknow/ityouknow.github.io # ex. DONGChuan/DONGChuan.github.io
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
 # For production, use your github page url. ex. http://dongchuan.github.io
-url: http://www.mooooc.com/
-enforce_ssl: mooooc.com/
+url: http://www.mooooc.com
+enforce_ssl: mooooc.com
 
 ## Gem
 gems:
