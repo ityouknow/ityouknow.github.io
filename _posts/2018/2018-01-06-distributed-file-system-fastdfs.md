@@ -193,7 +193,7 @@ storage的同步进度会作为元数据的一部分汇报到tracker上，tracke
 
 > 文中图片均来源于网络
 
-## 参考：
+## 参考
 
 [官方网站](https://github.com/happyfish100/)  
 [配置文档](https://github.com/happyfish100/fastdfs/wiki/)  

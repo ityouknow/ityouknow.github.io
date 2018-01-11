@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 如何构建云收藏项目
-category: cloudfavorites 
-tags: [cloudfavorites]
+category: springboot 
+tags: [springboot]
 ---
 
 很多人github上面反馈我们的springboot开源项目无法构建，这里简单写一下构建的流程希望可以帮助到大家。

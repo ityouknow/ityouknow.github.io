@@ -1,11 +1,11 @@
 ---
 layout: page
-title: 架构师的自我修养
-titlebar: arch
-subtitle: <span class="mega-octicon octicon-keyboard"></span>&nbsp;&nbsp; 其实我是一名程序员。
-menu: arch
+title: MongoDB系列文章
+titlebar: MongoDB
+subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; MongoDB系列文章
+menu: mongodb
 css: ['blog-page.css']
-permalink: /arch
+permalink: /mongodb
 ---
 
 <div class="row">
@@ -14,7 +14,7 @@ permalink: /arch
 
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='arch' or post.keywords contains '架构' %}
+                {% if post.category=='mongodb'  or post.keywords contains 'mongodb' %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>

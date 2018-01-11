@@ -10,13 +10,14 @@ title:  万事皆因忙中错，好人半自苦中来！
 subtitle: 分享技术，品味人生
 name: 纯洁的微笑 
 email: ityouknow@126.com
-github_url: https://github.com/ityouknow 
 description: 本站是纯洁的微笑的技术分享博客。内容涵盖生活故事、Java后端技术、Spring Boot、Spring Cloud、微服务架构、大数据演进、高可用架构、中间件使用、系统监控等相关的研究与知识分享。
-keywords: ityouknow, 纯洁的微笑, Spring, SpringBoot, SpringCloud, MongoDB, Jvm, 生活故事, 架构，大数据、一线
+keywords: ityouknow, 纯洁的微笑, Spring, SpringBoot, SpringCloud, MongoDB, Jvm, 生活故事, 架构，大数据、一线、FastDFS
 encoding: "utf-8"
 favicon: favicon.png 
-repository: ityouknow/ityouknow.github.io 
 
+repository: ityouknow/ityouknow.github.io
+github_url: https://github.com/ityouknow
+cnblog_url: http://www.cnblogs.com/ityouknow
 url: http://www.ityouknow.com
 enforce_ssl: ityouknow.com
 
@@ -96,8 +97,35 @@ labels:
     name: Jvm
 
   -
+    href: /fastdfs.html
+    name: FastDFS
+
+  -
+    href: /mongodb.html
+    name: MongoDB
+
+  -
     href: /open-source.html
     name: Code   
+
+# selected articles
+classes:
+
+  -
+    href: /life.html
+    name: 我的故事
+    describe: 生活就是故事，故事就是生活
+
+  -
+    href: /arch.html
+    name: 架构师之路
+    describe: 一个架构师的自我修养
+
+  -
+    href: /jvm.html
+    name: Jvm系列文章
+    describe: Java之根基，Java程序员必学
+
 
 # ---------------- #
 #       RSS        #
