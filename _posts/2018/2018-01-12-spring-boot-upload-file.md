@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 使用Spring Boot上传文件
+title: springboot(十七)：使用Spring Boot上传文件
 category: springboot
 tags: [springboot]
 excerpt: 使用thymeleaf制作上传页面，Spring Boot接收文件并保持到本地。
