@@ -249,16 +249,18 @@ public class SysPermission implements Serializable {
 根据以上的代码会自动生成user_info（用户信息表）、sys_role（角色表）、sys_permission（权限表）、sys_user_role（用户角色表）、sys_role_permission（角色权限表）这五张表，为了方便测试我们给这五张表插入一些初始化数据：
 
 ``` sql
+INSERT INTO `user_info` (`uid`,`username`,`name`,`password`,`salt`,`state`) VALUES ('1', 'admin', '管理员', 'd3c59d25033dbf980d29554025c23a75', '8d78869f470951332959580424d4bf4f', 0);
 INSERT INTO `sys_permission` (`id`,`available`,`name`,`parent_id`,`parent_ids`,`permission`,`resource_type`,`url`) VALUES (1,0,'用户管理',0,'0/','userInfo:view','menu','userInfo/userList');
 INSERT INTO `sys_permission` (`id`,`available`,`name`,`parent_id`,`parent_ids`,`permission`,`resource_type`,`url`) VALUES (2,0,'用户添加',1,'0/1','userInfo:add','button','userInfo/userAdd');
 INSERT INTO `sys_permission` (`id`,`available`,`name`,`parent_id`,`parent_ids`,`permission`,`resource_type`,`url`) VALUES (3,0,'用户删除',1,'0/1','userInfo:del','button','userInfo/userDel');
-INSERT INTO `sys_role` (`id`,`available`,`description`,`role`) VALUES (1,'0','管理员','admin');
-INSERT INTO `sys_role` (`id`,`available`,`description`,`role`) VALUES (2,'0','VIP会员','vip');INSERT INTO `sys_role_permission` VALUES ('1', '1');
+INSERT INTO `sys_role` (`id`,`available`,`description`,`role`) VALUES (1,0,'管理员','admin');
+INSERT INTO `sys_role` (`id`,`available`,`description`,`role`) VALUES (2,0,'VIP会员','vip');
+INSERT INTO `sys_role` (`id`,`available`,`description`,`role`) VALUES (3,1,'test','test');
+INSERT INTO `sys_role_permission` VALUES ('1', '1');
 INSERT INTO `sys_role_permission` (`permission_id`,`role_id`) VALUES (1,1);
-INSERT INTO `sys_role_permission` (`permission_id`,`role_id`) VALUES (1,2);
-INSERT INTO `sys_role_permission` (`permission_id`,`role_id`) VALUES (1,3);
+INSERT INTO `sys_role_permission` (`permission_id`,`role_id`) VALUES (2,1);
+INSERT INTO `sys_role_permission` (`permission_id`,`role_id`) VALUES (3,2);
 INSERT INTO `sys_user_role` (`role_id`,`uid`) VALUES (1,1);
-INSERT INTO `user_info` (`uid`,`username`,`name`,`password`,`salt`,`state`) VALUES ('1', 'admin', '管理员', 'd3c59d25033dbf980d29554025c23a75', '8d78869f470951332959580424d4bf4f', 0);
 ```
 
 ### Shiro 配置
@@ -450,15 +452,13 @@ public String login(HttpServletRequest request, Map<String, Object> map) throws 
 
 ### 测试
 
-1、编写好后就可以启动程序，访问index页面，由于没有登录就会跳转到login页面。登录之后就会跳转到index页面，登录后，有直接在浏览器中输入index页面访问，又会跳转到login页面。上面这些操作时候触发```MyShiroRealm.doGetAuthenticationInfo()```这个方法，也就是登录认证的方法。
+1、编写好后就可以启动程序，访问`http://localhost:8080/userInfo/userList`页面，由于没有登录就会跳转到`http://localhost:8080/login`页面。登录之后就会跳转到index页面，登录后，直接在浏览器中输入`http://localhost:8080/userInfo/userList`访问就会看到用户信息。上面这些操作时候触发```MyShiroRealm.doGetAuthenticationInfo()```这个方法，也就是登录认证的方法。
 
 2、登录admin账户，访问：```http://127.0.0.1:8080/userInfo/userAdd```显示```用户添加界面```，访问```http://127.0.0.1:8080/userInfo/userDel```显示```403没有权限```。上面这些操作时候触发```MyShiroRealm.doGetAuthorizationInfo()```这个方面，也就是权限校验的方法。
 
 3、修改admin不同的权限进行测试
 
-
 shiro很强大，这仅仅是完成了登录认证和权限管理这两个功能，更多内容以后有时间再做探讨。
-
 
 **[示例代码-github](https://github.com/ityouknow/spring-boot-examples)**
 
