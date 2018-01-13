@@ -190,12 +190,13 @@ public class GlobalExceptionHandler {
 设置一个`@ControllerAdvice`用来监控`Multipart`上传的文件大小是否受限，当出现此异常时在前端页面给出提示。利用`@ControllerAdvice`可以做很多东西，比如全局的统一异常处理等，感兴趣的同学可以下来了解。
 
 
-
 ## 6、总结
 
 这样一个使用Spring Boot上传文件的简单Demo就完成了，感兴趣的同学可以将示例代码下载下来试试吧。
 
-**参考**：[](http://www.mkyong.com/spring-boot/spring-boot-file-upload-example/)
+**参考**：
+
+[Spring Boot file upload example](http://www.mkyong.com/spring-boot/spring-boot-file-upload-example/)
 
 **[示例代码-github](https://github.com/ityouknow/spring-boot-examples)**
 
