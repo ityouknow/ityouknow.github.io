@@ -232,7 +232,7 @@ Path to key 写上生成的ssh路径：```/root/.ssh/id_rsa```
 
 下面的SSH Servers是重点
 
-Name 随意起名代表这个服务，待会要根据它来选则
+Name 随意起名代表这个服务，待会要根据它来选择
 Hostname 配置应用服务器的地址
 Username 配置linux登陆用户名
 Remote Directory 不填
