@@ -3,6 +3,7 @@ layout: post
 title: 高中毕业，我想出去看看
 category: life
 tags: [life]
+no-post-nav: true
 ---
 
 > 这是我身边一个朋友的真实经历

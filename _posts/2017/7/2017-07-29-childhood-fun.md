@@ -3,6 +3,7 @@ layout: post
 title: 童年趣事
 category: life
 tags: [life]
+no-post-nav: true
 ---
 
 这段时间更新文章少了，原因无它，上班了，刚进这个公司有很多新东西需要学习，平常基本都是9点下班，不过自己对新的工作很感兴趣也能学到新东西，所以疼并快乐着。
