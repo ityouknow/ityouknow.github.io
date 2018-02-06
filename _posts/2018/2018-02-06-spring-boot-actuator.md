@@ -607,6 +607,12 @@ endpoints.enabled = false
 endpoints.metrics.enabled = true
 ```
 
+
+**[示例代码-github](https://github.com/ityouknow/spring-boot-examples)**
+
+**[示例代码-码云](https://gitee.com/ityouknow/spring-boot-examples)**
+
+
 ## 参考
 
 [Spring Boot Actuator: Production-ready features](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#production-ready)  
