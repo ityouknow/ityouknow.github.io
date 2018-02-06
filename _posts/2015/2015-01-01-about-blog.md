@@ -3,6 +3,7 @@ layout: post
 title: 关于此博客
 category: life
 tags: [life]
+no-post-nav: true
 ---
 
 我是一名来自一线的coder,目前就职于某互联网金融公司，负责公司的整体技术架构，热爱开源。
