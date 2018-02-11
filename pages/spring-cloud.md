@@ -7,5 +7,6 @@ subtitle: <span class="mega-octicon octicon-cloud-upload"></span>&nbsp;&nbsp;
 menu: spring-cloud
 css: ['blog-page.css']
 permalink: /spring-cloud
+keywords: Spring Boot 教程，Spring Boot 示例，Spring Boot 学习，Spring Boot 资源
 ---
 {% include spring-cloud.html %}
