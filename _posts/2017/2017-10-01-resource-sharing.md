@@ -10,6 +10,13 @@ tags: [share]
 
 领取资源方式，关注“纯洁的微笑”公众号，回复对应的关键字
 
+或者
+
+直接扫描二维码关注“IT轻社区”，此公号内回复对应的关键字
+
+![](http://www.ityouknow.com/assets/images/itmind.jpg)  
+
+
 - 01、回复"**我要健康**"，获取程序员健康、内涵大礼包！  
 - 02、回复"**大数据**"，获取大数据相关资源。    
 - 03、回复"**linux**"，获取linux相关资料。    
@@ -23,24 +30,23 @@ tags: [share]
 - 11、回复"**android**"，获取安卓相关的资料   
 - 12、回复"**java**"，获取java相关的资料  
 - 13、回复"**pyhton**"，获取Pyhton相关资料。  
+- 14、回复"**springboot**"，获取Spring Boot相关资料。  
+- 15、回复"**springcloud**"，获取Spring Cloud相关资料。  
 
 
 以下为超级大礼包：
 
 - 回复 “程序员”，获取计算机专业超全教科书礼包
 
-{:.center}
 ![](http://www.ityouknow.com/assets/images/2017/book/programmer.jpeg)  
 
 
 - 回复“面试”，获取互联网行业私密面试大礼包
 
-{:.center}
 ![](http://www.ityouknow.com/assets/images/2017/book/Interview.jpg)  
 
 - 回复“架构师",获取十套1000G精选架构师资料
 
-{:.center}
 ![](http://www.ityouknow.com/assets/images/2017/book/architect.png)  
 
 
