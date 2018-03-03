@@ -1,10 +1,10 @@
 ---
 layout: post
-title: springboot2.0(一)：【重磅】Spring Boot 2.0权威发布
+title: Spring Boot 2.0(一)：【重磅】Spring Boot 2.0权威发布
 category: springboot
 tags: [springboot]
 excerpt: 有哪些新特性值得我们关注
-keywords: Spring Boot,Spring Boot2.0,发布
+keywords: Spring Boot,Spring Boot2.0,发布,Spring Boot 2.0新特性
 ---
 
 就在今天Spring Boot`2.0.0.RELEASE`正式发布，今天早上在发布Spring Boot2.0的时候还出现一个小插曲，将Spring Boot2.0同步到Maven仓库的时候出现了错误，然后Spring Boot官方又赶紧把 GitHub 上发布的 v2.0.0.RELEASE 版本进行了撤回。到了下午将问题修复后，又重新进行了上传，至此Spring Boot2.0正式推出！
@@ -159,7 +159,7 @@ Gson 是google解析Json的一个开源框架,同类的框架fastJson,JackJson�
 
 > 换句话说就是，当你觉得 Java 不好用的时候，我做了个轻量级的 S，让你好好用 Java。等你觉的 S 也不够轻了，我做了个 SB，让你觉得 S 还是挺轻的。
 
-从2002年Rod Johnson的`interface21`到如今的`Spring Boot2.0`，Spring 走过了16年的春秋，经历了N多的贡献者，Spring 也从一个小小的开源框架，发展成Java领域最成功的开源软件没有之一！同时作为一名Java开发从业者，也特别的感谢Spring这类的开源组织，为推动企业级开发做了巨大的贡献，全世界的Java开发者都是它的受益者！
+从2002年Rod Johnson的`interface21`到如今的`Spring Boot2.0`，Spring 走过了16年的春秋，经历了N多的贡献者，Spring 也从一个小小的开源框架，发展成Java领域最成功的开源软件没有之一！同时做为一名Java开发从业者，也特别的感谢Spring这类的开源组织，为推动企业级开发做了巨大的贡献，全世界的Java开发者都是它的受益者！
 
 ![](http://www.ityouknow.com/assets/images/2018/life/spring.png)
 
