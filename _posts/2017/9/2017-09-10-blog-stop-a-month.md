@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 千里追踪博客之殇
-category: blog
-tags: [blog]
+category: other
+tags: [other]
 ---
 
 发生了什么

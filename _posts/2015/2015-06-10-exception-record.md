@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 异常处理记录
-category: exception
-tags: [exception]
+category: other
+tags: [other]
 ---
 
 记录工程中的各种异常

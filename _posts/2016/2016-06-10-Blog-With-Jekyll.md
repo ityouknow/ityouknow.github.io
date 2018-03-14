@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Blog With Jekyll
-category: Jekyll
-tags: [Jekyll]
+category: other
+tags: [other]
 ---
 
 ## Create a blog site

@@ -79,7 +79,7 @@ Spring Boot 2支持了Thymeleaf 3，Thymeleaf 3相对于Thymeleaf 2性能提升�
 - Flyway 5
 - Hibernate 5.2
 - Gradle 3.4
-- Thymeleaf 3。0
+- Thymeleaf 3.0
 
 
 > 最后还有一个小彩蛋，Spring Boot2.0支持了动态gif的启动logo打印.

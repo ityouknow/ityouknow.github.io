@@ -1,8 +1,8 @@
 ---
 layout: post
 title: sublime3 使用总结
-category: tool
-tags: [sublime]
+category: other
+tags: [other]
 ---
 
 Sublime 刚刚使用有一段时间了，感觉可以用惊艳来形容这款工具。对于使用了6年的eclipse的我，sublime的启动、反应速度就是火箭，当然eclipse也是一款优秀的编程工具，可以调优，但从最根本角度来讲：不在同一个视角。因为刚刚使用也不是很熟悉，因此在这里总结一些基础的用法和快捷键。

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 股票分析相关网站
-category: stock
-tags: [stock]
+category: other
+tags: [other]
 ---
 
 收集股票相关的一些网站

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: git 使用总结
-category: github
-tags: [github]
+category: other
+tags: [other]
 ---
 
 git 使用总结

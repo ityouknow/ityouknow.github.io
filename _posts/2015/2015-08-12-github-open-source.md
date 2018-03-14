@@ -1,8 +1,8 @@
 ---
 layout: post
 title: sublime3 使用总结
-category: github
-tags: [github]
+category: other
+tags: [other]
 ---
 
 收集github 开源的好玩好用的项目

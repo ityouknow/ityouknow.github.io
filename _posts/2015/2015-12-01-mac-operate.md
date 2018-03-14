@@ -1,8 +1,8 @@
 ---
 layout: post
 title: mac 常用操作
-category: mac
-tags: [mac]
+category: other
+tags: [other]
 ---
 
 ## 1、shell命令下载

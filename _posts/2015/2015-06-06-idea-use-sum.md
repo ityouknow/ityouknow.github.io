@@ -1,8 +1,8 @@
 ---
 layout: post
 title: idea使用总结
-category: idea
-tags: [idea]
+category: other
+tags: [other]
 ---
 
 记录idea的一些常用快捷键
