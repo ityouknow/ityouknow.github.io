@@ -28,6 +28,7 @@ gems:
   - rouge
   - kramdown
   - jekyll-github-metadata
+  - jekyll-octicons
   
 # Build settings
 markdown: kramdown

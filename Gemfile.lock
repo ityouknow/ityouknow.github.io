@@ -71,6 +71,9 @@ GEM
     jekyll-github-metadata (2.9.4)
       jekyll (~> 3.1)
       octokit (~> 4.0, != 4.4.0)
+    jekyll-octicons (4.2.0)
+      jekyll (~> 3.1)
+      octicons (= 5.2.0)
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.1)
       sass (~> 3.4)
@@ -95,6 +98,8 @@ GEM
     multipart-post (2.0.0)
     nokogiri (1.8.1-x64-mingw32)
       mini_portile2 (~> 2.3.0)
+    octicons (5.2.0)
+      nokogiri (>= 1.6.3.1)
     octokit (4.7.0)
       sawyer (~> 0.8.0, >= 0.5.3)
     pathutil (0.16.1)
@@ -168,6 +173,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll-geo-pattern
   jekyll-github-metadata
+  jekyll-octicons
   jekyll-paginate
   kramdown
   rough
