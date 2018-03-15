@@ -15,7 +15,7 @@ keywords: docker,Dockerfile,使用
 通过上图可以看出使用 Dockerfile 定义镜像，运行镜像启动容器。
 
 
-### Dockerfile 概念
+## Dockerfile 概念
 
 Docker 镜像是一个特殊的文件系统，除了提供容器运行时所需的程序、库、资源、配置等文件外，还包含了一些为运行时准备的一些配置参数（如匿名卷、环境变量、用户等）。镜像不包含任何动态数据，其内容在构建之后也不会被改变。
 
@@ -24,7 +24,7 @@ Docker 镜像是一个特殊的文件系统，除了提供容器运行时所需�
 Dockerfile 是一个文本文件，其内包含了一条条的指令(Instruction)，每一条指令构建一层，因此每一条指令的内容，就是描述该层应当如何构建。有了 Dockerfile，当我们需要定制自己额外的需求时，只需在 Dockerfile 上添加或者修改指令，重新生成 image 即可，省去了敲命令的麻烦。
 
 
-### Dockerfile 文件格式
+## Dockerfile 文件格式
 
 Dockerfile文件格式如下：
 
@@ -53,7 +53,7 @@ CMD /usr/sbin/nginx
 
 Dockerfile 分为四部分：**基础镜像信息、维护者信息、镜像操作指令、容器启动执行指令**。一开始必须要指明所基于的镜像名称，接下来一般会说明维护者信息；后面则是镜像操作指令，例如 RUN 指令。每执行一条RUN 指令，镜像添加新的一层，并提交；最后是 CMD 指令，来指明运行容器时的操作命令。
 
-### 构建镜像
+## 构建镜像
 
 docker build 命令会根据 Dockerfile 文件及上下文构建新 Docker 镜像。构建上下文是指 Dockerfile 所在的本地路径或一个URL（Git仓库地址）。构建上下文环境会被递归处理，所以构建所指定的路径还包括了子目录，而URL还包括了其中指定的子模块。
 
@@ -81,7 +81,7 @@ docker build -f /path/to/a/Dockerfile .
 构建时，还可以通过`-t`参数指定构建成镜像的仓库、标签。
 
 
-###  镜像标签
+##  镜像标签
 
 ``` sh
 docker build -t nginx/v3 .
@@ -101,7 +101,7 @@ Sending build context to Docker daemon 2.048 kB
 Error response from daemon: Unknown instruction: RUNCMD
 ```
 
-### 缓存
+## 缓存
 
 Docker 守护进程会一条一条的执行 Dockerfile 中的指令，而且会在每一步提交并生成一个新镜像，最后会输出最终镜像的ID。生成完成后，Docker 守护进程会自动清理你发送的上下文。
 Dockerfile文件中的每条指令会被独立执行，并会创建一个新镜像，RUN cd /tmp等命令不会对下条指令产生影响。
@@ -126,7 +126,7 @@ Successfully built 7ea8aef582cc
 
 构建缓存仅会使用本地父生成链上的镜像，如果不想使用本地缓存的镜像，也可以通过`--cache-from`指定缓存。指定后将不再使用本地生成的镜像链，而是从镜像仓库中下载。
 
-###  寻找缓存的逻辑
+## 寻找缓存的逻辑
 
 Docker 寻找缓存的逻辑其实就是树型结构根据 Dockerfile 指令遍历子节点的过程。下图可以说明这个逻辑。
 
@@ -156,7 +156,7 @@ RUN cmd11     RUN cmd12
 如果 Docker 没有找到当前指令的缓存，则会构建一个新的镜像，并且之后的所有指令都不会再去寻找缓存。
 
 
-### 简单示例
+## 简单示例
 
 接下来用一个简单的示例来感受一下 Dockerfile 是如何用来构建镜像启动容器。我们以定制 nginx 镜像为例，在一个空白目录中，建立一个文本文件，并命名为 Dockerfile：
 
@@ -206,7 +206,7 @@ docker run  --name docker_nginx_v1   -d -p 80:80 nginx:v1
 这样一个简单使用 Dockerfile 构建镜像，运行容器的示例就完成了！
 
 
-### 修改容器内容
+## 修改容器内容
 
 容器启动后，需要对容器内的文件进行进一步的完善，可以使用`docker exec -it xx   bash`命令再次进行修改，以上面的示例为基础，修改 nginx 启动页面内容：
 
@@ -233,7 +233,7 @@ docker diff docker_nginx_v1
 
 这样 Dockerfile 使用方式就为大家介绍完了，下期为大家介绍  Dockerfile 命令的详细使用。
 
-### 参考：
+## 参考
 
 [Dockerfile reference](https://docs.docker.com/engine/reference/builder/#usage)  
 [使用Dockerfile构建Docker镜像](https://www.jianshu.com/p/cbce69c7a52f)  
