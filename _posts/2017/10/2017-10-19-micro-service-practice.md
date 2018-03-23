@@ -3,7 +3,7 @@ layout: post
 title: 中小型互联网公司微服务实践-经验和教训
 category: springcloud
 tags: [springcloud]
-keywords: 微服务, 实践，经验教训，架构，互联网
+keywords: 微服务,实践,经验教训,架构,互联网
 ---
 
 上次写了一篇文章叫[Spring Cloud在国内中小型公司能用起来吗?](https://mp.weixin.qq.com/s/vnWXpH5pv-FAzLZfbgTGvg)介绍了Spring Cloud是否能在中小公司使用起来，这篇文章是它的姊妹篇。其实我们在这条路上已经走了一年多，从16年初到现在。在使用Spring Cloud之前我们对微服务实践是没有太多的体会和经验的。从最初的开源软件[云收藏](https://github.com/cloudfavorites/favorites-web)来熟悉Spring Boot，到项目中的慢慢使用，再到最后全面拥抱Spring Cloud。这篇文章就给大家介绍一下我们使用Spring Boot/Cloud一年多的经验。

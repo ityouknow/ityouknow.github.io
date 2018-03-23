@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 那一定都是你的错！- 一次FastDFS并发问题的排查经历
+title: 一次FastDFS并发问题的排查经历
 category: FastDFS
 tags: [FastDFS]
 excerpt: 一次FastDFS并发问题的排查经历
-keywords: FastDFS, 并发, 架构
+keywords: FastDFS,并发,架构
 ---
 
 ![](http://www.ityouknow.com/assets/images/2017/life/router.jpg)  

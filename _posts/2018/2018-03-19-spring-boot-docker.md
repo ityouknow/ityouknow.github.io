@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Spring Boot 2.0(三)：使用 Docker 部署 Spring Boot
+title: Spring Boot 2.0(四)：使用 Docker 部署 Spring Boot
 category: springboot
 tags: [springboot]
-keywords: Spring Boot,Docker,部署
+keywords: Spring Boot,Docker,部署,docker
 ---
 
 Docker 技术发展为微服务落地提供了更加便利的环境，使用 Docker 部署 Spring Boot 其实非常简单，这篇文章我们就来简单学习下。
@@ -143,7 +143,7 @@ yum install docker
 安装完成后，使用下面的命令来启动 docker 服务，并将其设置为开机启动：
 
 ``` sh
-ervice docker start
+service docker start
 chkconfig docker on
 
 #LCTT 译注：此处采用了旧式的 sysv 语法，如采用CentOS 7中支持的新式 systemd 语法，如下：

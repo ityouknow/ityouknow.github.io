@@ -235,6 +235,12 @@ docker pull centos:latest
 docker pull centos:latest
 ```
 
+查找Docker Hub上的nginx镜像
+
+``` sh
+docker search nginx
+```
+
 执行docker pull centos会将Centos这个仓库下面的所有镜像下载到本地repository。
 
 ## 参考

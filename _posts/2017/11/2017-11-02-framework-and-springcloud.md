@@ -3,6 +3,7 @@ layout: post
 title: 从架构演进的角度聊聊Spring Cloud都做了些什么？
 category: springcloud
 tags: [springcloud]
+keywords: 微服务,架构,Spring Cloud
 ---
 
 Spring Cloud作为一套微服务治理的框架，几乎考虑到了微服务治理的方方面面，之前也写过一些关于Spring Cloud文章，主要偏重各组件的使用，本次分享主要解答这两个问题：Spring Cloud在微服务的架构中都做了哪些事情？Spring Cloud提供的这些功能对微服务的架构提供了怎样的便利？
