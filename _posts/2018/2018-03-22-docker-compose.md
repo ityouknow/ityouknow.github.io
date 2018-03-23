@@ -4,6 +4,7 @@ title: Docker(四)：Docker 三剑客之 Docker Compose
 category: docker
 tags: [docker]
 keywords: docker,Docker Compose,使用,介绍
+excerpt: 精彩马上开始
 ---
 
 前两篇文章我们介绍了 Dockerfile 的使用[Docker(二)：Dockerfile 使用介绍](http://www.ityouknow.com/docker/2018/03/12/docker-use-dockerfile.html)，我们知道使用一个 Dockerfile 模板文件可以定义一个单独的应用容器，如果需要定义多个容器就需要服务编排。服务编排有很多种技术方案，今天给大家介绍 Docker 官方产品 Docker Compose 。
