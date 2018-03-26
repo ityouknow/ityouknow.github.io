@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 这才是年轻人应该有的样子！！！和我的大学生活。
+title: 很燃的青春让我想起，我的大学生活经历。
 no-post-nav: true
 category: life
 tags: [life]
