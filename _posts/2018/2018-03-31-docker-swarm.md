@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Docker(六)：Docker 三剑客之 Docker Machine
+title: Docker(六)：Docker 三剑客之 Docker Swarm
 category: docker
 tags: [docker]
-keywords: docker,Docker Machine,使用,介绍
+keywords: docker,Docker Swarm,使用,介绍
 ---
 
 实践中会发现，生产环境中使用单个 Docker 节点是远远不够的，搭建 Docker  集群势在必行。然而，面对 Kubernetes, Mesos 以及 Swarm 等众多容器集群系统，我们该如何选择呢？它们之中，Swarm 是 Docker 原生的，同时也是最简单，最易学，最节省资源的，比较适合中小型公司使用。

@@ -4,8 +4,11 @@ title: Docker(四)：Docker 三剑客之 Docker Compose
 category: docker
 tags: [docker]
 keywords: docker,Docker Compose,使用,介绍
-excerpt: 精彩马上开始
+excerpt: Docker-Compose 是 Docker 的一种编排服务，是一个用于在 Docker 上定义并运行复杂应用的工具，可以让用户在集群中部署分布式应用。
+
 ---
+
+Docker-Compose 是 Docker 的一种编排服务，是一个用于在 Docker 上定义并运行复杂应用的工具，可以让用户在集群中部署分布式应用。
 
 前两篇文章我们介绍了 Dockerfile 的使用[Docker(二)：Dockerfile 使用介绍](http://www.ityouknow.com/docker/2018/03/12/docker-use-dockerfile.html)，我们知道使用一个 Dockerfile 模板文件可以定义一个单独的应用容器，如果需要定义多个容器就需要服务编排。服务编排有很多种技术方案，今天给大家介绍 Docker 官方产品 Docker Compose 。
 
@@ -13,8 +16,6 @@ Dockerfile 可以让用户管理一个单独的应用容器；而 Compose 则允
 
 
 ## Docker Compose 介绍
-
-Docker-Compose 是 Docker 的一种编排服务，是一个用于在 Docker 上定义并运行复杂应用的工具，可以让用户在集群中部署分布式应用。
 
 通过 Docker-Compose 用户可以很容易地用一个配置文件定义一个多容器的应用，然后使用一条指令安装这个应用的所有依赖，完成构建。Docker-Compose 解决了容器与容器之间如何管理编排的问题。
 
