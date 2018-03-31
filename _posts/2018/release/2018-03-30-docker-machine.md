@@ -41,7 +41,7 @@ Docker Engine Linux 系统上原生地运行。如果你有一个 Linux 作为�
 
 ## Docker Engine 和 Docker Machine 有什么区别？
 
-当人们说“Docker”时，他们通常是指 Docker Engine，它是一个客户端 - 服务器应用程序，由 Docker 守护进程、一个REST API指定与守护进程交互的接口、和一个命令行接口（CLI）与守护进程通信（通过封装REST API）。Docker Engine 从 CLI 中接受docker 命令，例如 docker run <image>、docker ps 来列出正在运行的容器、docker images 来列出镜像，等等。
+当人们说“Docker”时，他们通常是指 Docker Engine，它是一个客户端 - 服务器应用程序，由 Docker 守护进程、一个REST API指定与守护进程交互的接口、和一个命令行接口（CLI）与守护进程通信（通过封装REST API）。Docker Engine 从 CLI 中接受docker 命令，例如`docker run <image>`、`docker ps` 来列出正在运行的容器、`docker images`来列出镜像，等等。
 
 ![](http://www.ityouknow.com/assets/images/2018/docker/engine.png)
 

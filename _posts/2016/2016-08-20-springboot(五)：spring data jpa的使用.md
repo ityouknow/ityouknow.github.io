@@ -245,8 +245,6 @@ for(HotelSummary summay:hotels){
 - 2 不同源的实体类放入不同包路径
 - 3 声明不同的包路径下使用不同的数据源、事务支持
 
-这里有一篇文章写的很清楚：[Spring Boot多数据源配置与使用](http://www.jianshu.com/p/34730e595a8c)
-
 ###  异构数据库多源支持
 
 比如我们的项目中，即需要对mysql的支持，也需要对mongodb的查询等。
