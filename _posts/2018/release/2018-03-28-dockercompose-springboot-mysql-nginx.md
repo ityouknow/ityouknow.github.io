@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Spring Boot 2.0(五)：感受 Docker 魅力， 排解决多应用部署之疼
+title: Spring Boot 2.0(五)：Docker Compose + Spring Boot + Nginx + Mysql 实践
 category: springboot
 tags: [springboot]
 keywords: Spring Boot,Docker,Compose,Nginx,Mysql,docker
-excerpt: Docker Compose + Spring Boot + Nginx + Mysql 实践
+excerpt: 感受 Docker 魅力，排解决多应用部署之疼，Docker Compose + Spring Boot + Nginx + Mysql 实践
 ---
 
 我知道大家这段时间看了我写关于 docker 相关的几篇文章，不疼不痒的，仍然没有感受 docker 的便利，是的，我也是这样认为的，I know your felling 。
