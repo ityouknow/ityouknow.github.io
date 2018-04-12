@@ -73,7 +73,7 @@ public class ConfigServerApplication {
 
 这样server端的改造就完成了。先启动eureka注册中心，在启动server端，在浏览器中访问：```http://localhost:8000/``` 就会看到server端已经注册了到注册中心了。
 
-{:.center}
+ 
 ![](http://www.ityouknow.com/assets/images/2017/springcloud/eureka-config01.jpg)
 
 
@@ -149,7 +149,7 @@ public class ConfigClientApplication {
 
 启动client端，在浏览器中访问：```http://localhost:8000/``` 就会看到server端和client端都已经注册了到注册中心了。
 
-{:.center}
+ 
 ![](http://www.ityouknow.com/assets/images/2017/springcloud/eureka-config02.jpg)
 
 
@@ -157,7 +157,7 @@ public class ConfigClientApplication {
 
 为了模拟生产集群环境，我们改动server端的端口为8003，再启动一个server端来做服务的负载，提供高可用的server端支持。
 
-{:.center}
+ 
 ![](http://www.ityouknow.com/assets/images/2017/springcloud/eureka-config03.jpg)
 
 如上图就可发现会有两个server端同时提供配置中心的服务，防止某一台down掉之后影响整个系统的使用。

@@ -101,14 +101,14 @@ public void initScheduler(TaskEntity taskInfo) throws Exception {
 
 于是计划开发一个统一的定时任务调度中心，负责整个平台中所有的定时任务的调度，另外规划了监控系统，来监控和分析每次定时任务的执行结果和执行时间等信息。为了更好的管理定时任务开发了简单的管理界面。如下：
 
-{:.center}
+ 
 ![](http://www.ityouknow.com/assets/images/2017/quartz-01.png)
 
 根据上图可以看出，通过这个管理界面我们可以非常方便的去修改、启动、暂停定时任务。别的系统如果需要定时任务，可以随时在页面去添加，全部界面化操作，不需要重新启动项目等。
 
 点击详情可以清晰的查看定时任务的上次执行情况
 
-{:.center}
+ 
 ![](http://www.ityouknow.com/assets/images/2017/quartz-02.png)
 
 

@@ -17,7 +17,7 @@ tags: [springcloud]
 
 如果下图所示：A作为服务提供者，B为A的服务消费者，C和D是B的服务消费者。A不可用引起了B的不可用，并将不可用像滚雪球一样放大到C和D时，雪崩效应就形成了。
 
-{:.center}
+ 
 ![](http://www.ityouknow.com/assets/images/2017/springcloud/hystrix-1.png)
 
 
@@ -29,7 +29,7 @@ tags: [springcloud]
 熔断器模式就像是那些容易导致错误的操作的一种代理。这种代理能够记录最近调用发生错误的次数，然后决定使用允许操作继续，或者立即返回错误。
 熔断器开关相互转换的逻辑如下图：
 
-{:.center}
+ 
 ![](http://www.ityouknow.com/assets/images/2017/springcloud/hystrix-2.png)
 
 熔断器就是保护服务高可用的最后一道防线。

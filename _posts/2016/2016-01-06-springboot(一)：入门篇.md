@@ -31,7 +31,7 @@ Spring Boot是由Pivotal团队提供的全新框架，其设计目的是用来�
 
 使用sping boot到底有多爽，用下面这幅图来表达
 
-{:.center}
+ 
 ![](http://www.ityouknow.com/assets/images/2016/dog.jpg)  
 
 
@@ -45,7 +45,7 @@ Spring Boot是由Pivotal团队提供的全新框架，其设计目的是用来�
 - 1、访问http://start.spring.io/  
 - 2、选择构建工具Maven Project、Spring Boot版本1.3.6以及一些工程基本信息，点击“Switch to the full version.”java版本选择1.7，可参考下图所示：
 
-{:.center}
+ 
 ![](http://www.ityouknow.com/assets/images/2016/springboot1.png)
 
 - 3、点击Generate Project下载项目压缩包
@@ -54,7 +54,7 @@ Spring Boot是由Pivotal团队提供的全新框架，其设计目的是用来�
 
 **项目结构介绍**
 
-{:.center}
+ 
 ![](http://www.ityouknow.com/assets/images/2016/springboot2.png)  
 
 

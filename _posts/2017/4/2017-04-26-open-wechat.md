@@ -42,7 +42,7 @@ tags: [life]
 
 我的公众号是：纯洁的微笑（KeepPureSmile），欢迎大家关注。
 
-{:.center}
+ 
 ![](http://www.ityouknow.com/assets/images/keeppuresmile.jpg)
 
 -------------

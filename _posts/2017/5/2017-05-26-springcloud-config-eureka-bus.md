@@ -15,7 +15,7 @@ Spring cloud bus通过轻量消息代理连接各个分布的节点。这会用�
 
 Spring cloud bus被国内很多都翻译为消息总线，也挺形象的。大家可以将它理解为管理和传播所有分布式项目中的消息既可，其实本质是利用了MQ的广播机制在分布式的系统中传播消息，目前常用的有Kafka和RabbitMQ。利用bus的机制可以做很多的事情，其中配置中心客户端刷新就是典型的应用场景之一，我们用一张图来描述bus在配置中心使用的机制。
 
-{:.center}
+ 
 ![](http://www.ityouknow.com/assets/images/2017/springcloud/configbus1.jpg)
 
 根据此图我们可以看出利用Spring Cloud Bus做配置更新的步骤:
@@ -71,7 +71,7 @@ spring.rabbitmq.password=123456
 
 说明客户端已经具备了消息总线通知的能力了，为了更好的模拟消息总线的效果，我们更改客户端spring-cloud-config-client项目的端口为8003、8004依次启动，这样测试环境就准备好了。启动后eureka后台效果图如下：
 
-{:.center}
+ 
 ![](http://www.ityouknow.com/assets/images/2017/springcloud/configbus3.jpg)
 
 我们先分别测试一下服务端和客户端是否正确运行，访问：```http://localhost:8001/neo-config/dev```，返回信息：
@@ -121,7 +121,7 @@ curl -X POST http://localhost:8002/bus/refresh
 因此我们将上面的架构模式稍微改变一下
 
 
-{:.center}
+ 
 ![](http://www.ityouknow.com/assets/images/2017/springcloud/configbus2.jpg)
 
 这时Spring Cloud Bus做配置更新步骤如下:

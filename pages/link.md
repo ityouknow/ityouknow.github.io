@@ -41,13 +41,13 @@ permalink: /link
 ## 个人链接
 
 - [ityouknow](http://www.ityouknow.com/) - 个人独立博客
-- [cnblogs](https://www.cnblogs.com/ityouknow/) - 博客园个人博客，最开始写博客的地方
 - [github](https://github.com/ityouknow) -  我分享代码的地方
-- [简书](http://www.jianshu.com/u/464a879f8351) - 个人简书地址，刚开始关注
+- [博客园](https://www.cnblogs.com/ityouknow/) - 博客园个人博客，最开始写博客的地方
+- [微博](http://weibo.com/ityouknow) - 个人微博地址，虽然一直没有用过
 - [知乎](https://www.zhihu.com/people/ityouknow) - 个人知乎地址，用的不太多大多数都在潜水
 - [CSDN](http://blog.csdn.net/ityouknow)  - 最开始写博客的地方
-- [微博](http://weibo.com/ityouknow) - 个人微博地址，虽然一直没有用过
-
+- [51CTO](http://blog.51cto.com/ityouknow) - 个人微博地址，虽然一直没有用过
+- [简书](http://www.jianshu.com/u/464a879f8351) - 个人简书地址，刚开始关注
 
 ## 其它  
 

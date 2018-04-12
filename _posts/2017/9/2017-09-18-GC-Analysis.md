@@ -128,19 +128,19 @@ GChisto是一款专业分析gc日志的工具，可以通过gc日志来分析：
 
 配置好本地的jdk环境之后，双击GChisto.jar,在弹出的输入框中点击 add 选择gc.log日志
 
-{:.center}
+ 
 ![](http://www.ityouknow.com/assets/images/2017/jvm/g1.jpg)
 
 - GC Pause Stats:可以查看GC 的次数、GC的时间、GC的开销、最大GC时间和最小GC时间等，以及相应的柱状图
 
-{:.center}
+ 
 ![](http://www.ityouknow.com/assets/images/2017/jvm/g2.jpg)
 
 - GC Pause Distribution:查看GC停顿的详细分布，x轴表示垃圾收集停顿时间，y轴表示是停顿次数。
 
 - GC Timeline：显示整个时间线上的垃圾收集
 
-{:.center}
+ 
 ![](http://www.ityouknow.com/assets/images/2017/jvm/g3.jpg)
 
 不过这款工具已经不再维护
@@ -155,10 +155,10 @@ GChisto是一款专业分析gc日志的工具，可以通过gc日志来分析：
 进入官网，讲打包好的zip或者gz为后缀的压缩包上传，过一会就会拿到分析结果。
 
 
-{:.center}
+ 
 ![](http://www.ityouknow.com/assets/images/2017/jvm/gceasy1.png)
 
-{:.center}
+ 
 ![](http://www.ityouknow.com/assets/images/2017/jvm/gceasy2.png)
 
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 如何构建云收藏项目
+no-post-nav: true
 category: springboot 
 tags: [springboot]
 ---
@@ -16,46 +17,46 @@ tags: [springboot]
 
 1、手动下载[favorites-web](https://github.com/cloudfavorites/favorites-web)代码到本地，或者通过idea的VCS功能下载到本地。
 
-{:.center}
+ 
 ![](http://www.ityouknow.com/assets/images/2017/cloudfavorites/gradle1.png)
 
 
 2、导入项目
 
-{:.center}
+ 
 ![](http://www.ityouknow.com/assets/images/2017/cloudfavorites/gradle2.png)
 
 
-{:.center}
+ 
 ![](http://www.ityouknow.com/assets/images/2017/cloudfavorites/gradle3.png)
 
 
 3、选择gradle的方式导入
 
-{:.center}
+ 
 ![](http://www.ityouknow.com/assets/images/2017/cloudfavorites/gradle4.png)
 
 
-{:.center}
+ 
 ![](http://www.ityouknow.com/assets/images/2017/cloudfavorites/gradle5.png)
 
 
 4、导入完成之后，选择Project Stucture查看项目依赖(最新版本已经修复，使用最新版本构建可以跳过第4、5步)
 
 
-{:.center}
+ 
 ![](http://www.ityouknow.com/assets/images/2017/cloudfavorites/gradle6.png)
 
 
 发现有部分的jar包级别是Provided  
 
-{:.center}
+ 
 ![](http://www.ityouknow.com/assets/images/2017/cloudfavorites/gradle7.png)
 
 
 5、将标红色部分的jar级别由Provided改为Compile(最新版本已经修复，使用最新版本构建可以跳过第4、5步)
 
-{:.center}
+ 
 ![](http://www.ityouknow.com/assets/images/2017/cloudfavorites/gradle8.png)
 
 修改对应的配置文件为本地配置信息，在运行Application项目便可成功启动
@@ -66,7 +67,7 @@ tags: [springboot]
 已经有网友提供了项目的mvn支持，导入方式和上面的流程相同，只是在第三步的时候选择maven既可。
 
 
-{:.center}
+ 
 ![](http://www.ityouknow.com/assets/images/2017/cloudfavorites/mvn3.png)
 
 

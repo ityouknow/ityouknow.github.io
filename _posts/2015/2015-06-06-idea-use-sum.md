@@ -61,7 +61,9 @@ tags: [other]
 
 > Alt+Shift+Up/Down，上/下移一行
 
-13、输出打印
+13、显示类图
+
+> Ctrl+Shift+Alt+U
 
 
 ## 错误 
@@ -97,6 +99,6 @@ Java就是这种包组合在一个的一个东西, 我们在写代码时常常�
 
 如果我们在写代码时IDE自动帮我们引入相关的包, 是不是很酷的意见事情. IDEA提供了这个功能, 不过默认是关闭的. 打开自动导入包设置如下:
 
-{:.center}
+ 
 ![](http://www.ityouknow.com/assets/images/2015/idea-auto-import.jpg)  
 

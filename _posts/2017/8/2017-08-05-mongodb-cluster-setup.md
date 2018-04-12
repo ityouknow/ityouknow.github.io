@@ -13,7 +13,7 @@ mongodb是最常用的nosql数据库，在数据库排名中已经上升到了�
 
 先来看一张图：
 
-{:.center}
+ 
 ![](http://www.ityouknow.com/assets/images/2017/bigdata/sharded-cluster-production-architecture.bakedsvg.svg)
 
 从图中可以看到有四个组件：mongos、config server、shard、replica set。
