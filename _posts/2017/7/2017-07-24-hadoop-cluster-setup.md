@@ -34,7 +34,7 @@ hadoop使用2.7.3版本，下载地址：http://apache.claz.org/hadoop/common/ha
 192.168.0.74 hadoop-slave3
 ```
 
-分别斯塔服务器的主机名:HOSTNAME，master为例说明
+分别修改服务器的主机名:HOSTNAME，master为例说明
 
 ```vi /etc/sysconfig/network```
 
