@@ -42,7 +42,7 @@ GEM
     color (1.8)
     colorator (1.1.0)
     concurrent-ruby (1.0.5)
-    crass (1.0.3)
+    crass (1.0.4)
     erubis (2.7.0)
     faraday (0.13.1)
       multipart-post (>= 1.2, < 3)
@@ -85,9 +85,9 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
       ruby_dep (~> 1.2)
-    loofah (2.2.1)
+    loofah (2.2.2)
       crass (~> 1.0.2)
-      nokogiri (>= 1.8.2)
+      nokogiri (>= 1.5.9)
     mail (2.7.0)
       mini_mime (>= 0.1.1)
     mercenary (0.3.6)
@@ -109,7 +109,7 @@ GEM
       middleware
       thor
       thread_safe
-    public_suffix (3.0.1)
+    public_suffix (3.0.2)
     rack (1.6.8)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -179,4 +179,4 @@ DEPENDENCIES
   rough
 
 BUNDLED WITH
-   1.16.0
+   1.16.1
