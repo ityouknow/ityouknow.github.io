@@ -235,7 +235,7 @@ public String resumeScheduler(String key){
 
 项目已经开源,详细的代码请在github上面查看。
 
-[zx-quartz](https://github.com/zhongxintech/zx-quartz)
+[zx-quartz](https://github.com/justdojava/zx-quartz)
 
 
 其实最后这版定时调度系统，还是有很多的缺陷，http模式没有进行完善，开源的代码中有部分内部依赖的jar还没有去掉。开放出来仅仅做为交流使用，后期有时间的话再去慢慢完善。也欢迎各网友多提提建议，一起加入完善。
