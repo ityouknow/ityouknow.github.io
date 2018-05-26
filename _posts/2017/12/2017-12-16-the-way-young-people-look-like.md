@@ -10,20 +10,20 @@ tags: [life]
 
 在餐厅里，一群学生吃着吃着突然开始大合唱
 
-![](http://www.ityouknow.com/assets/images/2017/life/ren1.png)  
+![](http://www.mooooc.com/assets/images/2017/life/ren1.png)  
 
 这个男生一遍大声的唱着歌曲，一边非常激情的进行指挥和激起大家的情绪
 
-![](http://www.ityouknow.com/assets/images/2017/life/ren2.png)  
+![](http://www.mooooc.com/assets/images/2017/life/ren2.png)  
 
 到了歌曲的高潮，同学们情不自禁地站了起来
 
-![](http://www.ityouknow.com/assets/images/2017/life/ren3.png)  
+![](http://www.mooooc.com/assets/images/2017/life/ren3.png)  
 
 
 这个微博发到网上之后，迅速走红，引起了这首摇滚风格《我爱你中国》的原唱汪峰的注意。
 
-![](http://www.ityouknow.com/assets/images/2017/life/ren4.png)  
+![](http://www.mooooc.com/assets/images/2017/life/ren4.png)  
 
 对于汪峰的邀请，老师说“打动大家的是学生的蓬勃朝气，不是歌唱水平……”，看来老师们还是比较爱较真。
 
@@ -31,21 +31,21 @@ tags: [life]
 
 有人以为这是音乐专业的，其实他们并非音乐专业，而是中国人民大学统计学院的学生。当天，在中国人民大学一年一度的“一二·九”合唱比赛中，统计学院代表队以《陕北公学校歌》《梦想前行》和《我爱你中国》三首作品，获得B组二等奖、最佳表现力奖。
 
-![](http://www.ityouknow.com/assets/images/2017/life/ren5.jpg)
+![](http://www.mooooc.com/assets/images/2017/life/ren5.jpg)
 
 比赛结束后，统计学院代表队的队员们在餐厅中“快闪”，再度唱响《我爱你中国》。
 
-![](http://www.ityouknow.com/assets/images/2017/life/ren6.jpg)
+![](http://www.mooooc.com/assets/images/2017/life/ren6.jpg)
 
 网友们纷纷好评，很燃，这才是中国大学生应有的风貌!!
 
-![](http://www.ityouknow.com/assets/images/2017/life/ren7.png)
+![](http://www.mooooc.com/assets/images/2017/life/ren7.png)
 
 视频地址：[视频：学子餐厅即兴合唱《我爱你中国》 歌声让人陶醉](http://v.ifeng.com/video_10075715.shtml)
 
 [我爱你中国-歌手：汪峰](http://music.163.com/#/m/song?id=155922&userid=613401)
 
-![](http://www.ityouknow.com/assets/images/2017/life/love.png)  
+![](http://www.mooooc.com/assets/images/2017/life/love.png)  
 
 看完这个视频之后我莫名的感动，一方面是我爱你中国的歌词激起了我的爱国心，虽然在北京吸着雾霾，身边的朋友被驱赶四处无家，虽然中国还有太多的无奈，太多的不完善，但仍然对祖国保持热爱。
 
@@ -65,7 +65,7 @@ tags: [life]
 
 那两年我走进了50多个家庭，看到了50多个不同的生活，有公务员、工薪家庭、有做小买卖母亲。后面越来越熟悉，针对不同的学生有不同的教学方案，另外需要和家长做好沟通，后来我的家教生意越做越好，经常是给这个学生代课，家长感觉不错又把我介绍给了另外一家，于是在大学我的生活费有一半都是通过家教赚取的，每次没钱了多带几个学生就行。
 
-![](http://www.ityouknow.com/assets/images/2017/life/baoji.png)
+![](http://www.mooooc.com/assets/images/2017/life/baoji.png)
 
 2009年的时候，已经到了大三学期末，大学三年几乎没有学习过，特别空虚寂寞冷，于是看到学院组织2009年全国大学生数学建模竞赛，就报了名。就想着大学总要干一件和学习相关的事情吧！好歹对的起我这大学四年的学费和光阴，这个决定是我大学最对的选择之一。
 
@@ -75,11 +75,11 @@ tags: [life]
 
 参加建模的日子是我大学最充实的一段时光，也是我从数学到编程的最初动力，那时候就想这才是大学，才是我想要的大学生活，最后我们还上了校报：[我院组织12支大学生代表队参加2009年全国大学生数学建模竞赛](http://www.bjwlxy.cn/info/1040/14472.htm)。
 
-![](http://www.ityouknow.com/assets/images/2017/life/jianmo.jpg)
+![](http://www.mooooc.com/assets/images/2017/life/jianmo.jpg)
 
 上面都说的很正面，其实大学生活很腐败，天天hgih到半夜两点，12点熄灯之后才真正开始我们的夜生活，大一每周五晚上都通宵出去打游戏，然后昏天暗地的大睡一天，那时候身体好，一点事都没有，甚至有时候第二天不休息继续打篮球。每周末必打篮球，往往一打球就是一天，完了直接去澡堂洗澡。
 
-![](http://www.ityouknow.com/assets/images/2017/life/lanqiu.png)
+![](http://www.mooooc.com/assets/images/2017/life/lanqiu.png)
 
 大学有给同学表白说我喜欢你，同学说我刚好有男朋友，你怎么不早一点；大学有同专业的女生，托人说想认识我，女生还不错，狂喜。矫情加装X的说，我先考虑一下，可以从朋友开始做起，托人的朋友说，要不接受要不拜拜，立刻答道，让她下来吧，处了一段日子，处事风格相差太大而分手，其实因为当时我太屌丝。
 
@@ -87,6 +87,6 @@ tags: [life]
 
 08年汶川地震，我们正在上课，突然感觉是不是有人摇桌子，才突然想起来桌子是固定在地板上的，突然就听到小马喊道地震啦！大家都往外狂跑，毕竟是大学生，下楼虽然紧张，但很有秩序。晚上路过学校花园的时候，听到一个女孩大声的哭声，心中一片悲凉，操场上四川同学们围成了一个大圈，点着蜡烛，祈祷自己联系不到的亲人，后来全校就在操场住了两周。眼看着快十年了，还能想起2008年5月19日14时28分的那天，车辆全部停止行驶，老师站在讲台上，中国默哀3分钟，在防控警报响起的时候，心里哇哩哇啦的难受！
 
-![](http://www.ityouknow.com/assets/images/2017/life/caochang.png)
+![](http://www.mooooc.com/assets/images/2017/life/caochang.png)
 
 这是我的大学，我的青葱岁月。留言分享最能体现你曾经年轻过的一件事情。

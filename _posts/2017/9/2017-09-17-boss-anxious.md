@@ -20,7 +20,7 @@ tags: [life]
 甚至我一度感觉，这样的公司比我老姐的公务员工作都轻松。
 
 <div align="center">
-  <img src="http://www.ityouknow.com/assets/images/2017/life/guomao.jpg">
+  <img src="http://www.mooooc.com/assets/images/2017/life/guomao.jpg">
 </div>
 
 ## 传奇老板
@@ -40,7 +40,7 @@ tags: [life]
 但确认了老板的精神状态确实有点不太好。
 
 <div align="center">
-  <img src="http://www.ityouknow.com/assets/images/2017/life/yuquanying.jpg">
+  <img src="http://www.mooooc.com/assets/images/2017/life/yuquanying.jpg">
 </div>
 
 ## 一套拳法
@@ -60,7 +60,7 @@ tags: [life]
 在一次分享的时候，老板说这套拳法拯救了自己。
 
 <div align="center">
-  <img src="http://www.ityouknow.com/assets/images/2017/life/yijinjing.jpeg">
+  <img src="http://www.mooooc.com/assets/images/2017/life/yijinjing.jpeg">
 </div>
 
 ## 事情由来
@@ -82,7 +82,7 @@ tags: [life]
 武术到底是真还是假，前一段时间闹的沸沸扬扬，但以我的实践经验来讲，武术作为养生还是非常有益处的。老板的经历告诉我，其实人人都有最难的时刻，关键时期挺一挺就过去了，也许还会有意外的收获，看见不一样的景致。
 
 <div align="center">
-  <img src="http://www.ityouknow.com/assets/images/2017/life/jianxin.jpg">
+  <img src="http://www.mooooc.com/assets/images/2017/life/jianxin.jpg">
 </div>
 
 在杀手不太冷的电影里面，小女孩和杀手有这么一段对话：  

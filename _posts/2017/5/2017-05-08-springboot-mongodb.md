@@ -401,5 +401,5 @@ public class MuliDatabaseTest {
 -------------
 
 **作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/springboot/2017/05/08/springboot-mongodb.html)**      
+**出处：[http://www.mooooc.com/](http://www.mooooc.com/springboot/2017/05/08/springboot-mongodb.html)**      
 **版权归作者所有，转载请注明出处** 

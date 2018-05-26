@@ -7,7 +7,7 @@ excerpt: Spring Boot Admin 监控、介绍和使用，Spring Boot Admin图形化
 keywords: Spring Boot Admin，监控，应用，图形化
 ---
 
-上一篇文章[《springboot(十九)：使用Spring Boot Actuator监控应用》](http://www.ityouknow.com/springboot/2018/02/06/spring-boot-actuator.html)介绍了Spring Boot Actuator的使用，Spring Boot Actuator提供了对单个Spring Boot的监控，信息包含：应用状态、内存、线程、堆栈等等，比较全面的监控了Spring Boot应用的整个生命周期。
+上一篇文章[《springboot(十九)：使用Spring Boot Actuator监控应用》](http://www.mooooc.com/springboot/2018/02/06/spring-boot-actuator.html)介绍了Spring Boot Actuator的使用，Spring Boot Actuator提供了对单个Spring Boot的监控，信息包含：应用状态、内存、线程、堆栈等等，比较全面的监控了Spring Boot应用的整个生命周期。
 
 但是这样监控也有一些问题：第一，所有的监控都需要调用固定的接口来查看，如果全面查看应用状态需要调用很多接口，并且接口返回的Json信息不方便运营人员理解；第二，如果Spring Boot应用集群非常大，每个应用都需要调用不同的接口来查看监控信息，操作非常繁琐低效。在这样的背景下，就诞生了另外一个开源软件：**Spring Boot Admin**。
 
@@ -65,7 +65,7 @@ public class AdminServerApplication {
 
 完成上面三步之后，启动服务端，浏览器访问`http://localhost:8000`可以看到以下界面：
 
-![](http://www.ityouknow.com/assets/images/2018/springboot/admin1.png)
+![](http://www.mooooc.com/assets/images/2018/springboot/admin1.png)
 
 
 **[示例代码](https://github.com/ityouknow/spring-boot-examples)**
@@ -110,11 +110,11 @@ public class AdminClientApplication {
 
 配置完成之后，启动Client端服务，再次访问服务：`http://localhost:8000`可以看到客户端的相关信息。
 
-![](http://www.ityouknow.com/assets/images/2018/springboot/admin2.png)
+![](http://www.mooooc.com/assets/images/2018/springboot/admin2.png)
 
 首页会展示被监控的各个服务，点击详情可以查看某个服务的具体监控信息
 
-![](http://www.ityouknow.com/assets/images/2018/springboot/admin3.png)
+![](http://www.mooooc.com/assets/images/2018/springboot/admin3.png)
 
 通过上图可以看出，Spring Boot Admin以图形化的形式展示了应用的各项信息，这些信息大多都来自于Spring Boot Actuator提供的接口。
 
@@ -130,7 +130,7 @@ public class AdminClientApplication {
 - spring-cloud-producer  应用一，Admin Client端
 - spring-cloud-producer-2  应用二，Admin Client端
 
-首先启动注册中心spring-cloud-eureka，如果对Eureka不了解的同学可以查看这篇文章[springcloud(二)：注册中心Eureka](http://www.ityouknow.com/springcloud/2017/05/10/springcloud-eureka.html)
+首先启动注册中心spring-cloud-eureka，如果对Eureka不了解的同学可以查看这篇文章[springcloud(二)：注册中心Eureka](http://www.mooooc.com/springcloud/2017/05/10/springcloud-eureka.html)
 
 ### Server端
 
@@ -265,7 +265,7 @@ web层添加了/hello的请求方法，方法中使用one/two区别是哪个应�
 
 完成上面配置之后，分别启动项目：spring-cloud-producer和spring-cloud-producer-2，浏览器访问`http://localhost:8000` 可以看到以下界面：
 
-![](http://www.ityouknow.com/assets/images/2018/springboot/admin4.png)
+![](http://www.mooooc.com/assets/images/2018/springboot/admin4.png)
 
 从上图可以看出Admin Server监控了四个实例，包括Server自己，注册中心、两个PRODUCER。说明Admin Server自动从服务中心抓取了所有的实例信息并进行了监控。点击Detail可以具体查看某一个示例的监控信息。
 
@@ -313,11 +313,11 @@ spring:
 # http://codecentric.github.io/spring-boot-admin/1.5.6/#mail-notifications
 ```
 
-在配置文件中添加邮件发送相关信息：邮件的发送者、接受者、协议、移动授权码等。关于Spring Boot邮件发送，可以参考[springboot(十)：邮件服务](http://www.ityouknow.com/springboot/2017/05/06/springboot-mail.html)
+在配置文件中添加邮件发送相关信息：邮件的发送者、接受者、协议、移动授权码等。关于Spring Boot邮件发送，可以参考[springboot(十)：邮件服务](http://www.mooooc.com/springboot/2017/05/06/springboot-mail.html)
 
 配置完成后，重新启动项目spring-boot-admin-server，这样Admin Server就具备了邮件告警的功能，默认情况下Admin Server对Eureka中的服务上下线都进行了监控，当服务上下线的时候我们就会收到如下邮件：
 
-![](http://www.ityouknow.com/assets/images/2018/springboot/admin5.png)
+![](http://www.mooooc.com/assets/images/2018/springboot/admin5.png)
 
 当然这只是最基本的邮件监控，在实际的使用过程中，需要根据我们的情况对邮件告警内容进行自定义，比如监控堆内存的使用情况，当到达一定比例的时候进行告警等。
 

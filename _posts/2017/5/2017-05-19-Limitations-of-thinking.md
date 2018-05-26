@@ -40,7 +40,7 @@ tags: [life]
 后来村长说，这个村子常年不通公路，村里面的人要出去需要先坐牛车，再坐拖拉机两天后才能到达小县城，村里面就一个小学，一个教室里面坐了六个年级的学生，很多孩子上到一半就回家干活了。这两年有一些年轻人走出了村子去深圳、东莞打工，慢慢的也带动了一些人，但还是有一些年轻人因为不会说普通话，不能直接和人交流，就一直都没有出去，在村里面种地生活。这是21世纪呀，非常有可能他们一辈子就走不去了。
 
  
-![](http://www.ityouknow.com/assets/images/2017/life/life-limit.jpg)  
+![](http://www.mooooc.com/assets/images/2017/life/life-limit.jpg)  
 
 贫穷在这个年代仍然是存在的，只是可能你不了解。但贫穷其实不是最可怕的，最可怕的是贫穷的人不知道贫穷的可怕，不了解外面的世界，所以对他们来讲没有走出去的动力和勇气，只有让他们了解外面的世界，认识外面的世界，从思想上有了改变的动力和目标，才能真正的走出贫穷。
 
@@ -60,12 +60,12 @@ tags: [life]
 程序员呢，其实也是一样。大家有没有一种感觉，刚毕业一年左右的时候是最自信的，觉得自己已经掌握了程序开发的基本规律，应付工作没有问题，简历上写的各种精通，精通前端，精通数据库，精通core java等等。反而工作多年以后越发觉得，研究不够深入涉猎不够广泛，很多的新老技术还都停留在使用阶段。为了解释这个问题我画了两个图。
 
  
-![](http://www.ityouknow.com/assets/images/2017/it-limit-01.jpg)
+![](http://www.mooooc.com/assets/images/2017/it-limit-01.jpg)
 
 把整个的IT知识领域用一个圆圈来表示，黑色实体部分就是我们刚开始认知的区域，因为我们刚开始知道的少，了解的少，里面的圆的周长就会小很多，我们感觉到自己需要了解的东西也相对小。
 
  
-![](http://www.ityouknow.com/assets/images/2017/it-limit-02.jpg)
+![](http://www.mooooc.com/assets/images/2017/it-limit-02.jpg)
 
 当我们通过不断的学习、扩宽自己知识的边界，就像里面的小圆不断的长大一些，我们感受到的未知也越来越多，认识到自己了解的内容占整个体系只是很小的一部分。
 
@@ -109,5 +109,5 @@ tags: [life]
 
 -------------
 **作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/life/2017/05/19/Limitations-of-thinking.html)**      
+**出处：[http://www.mooooc.com/](http://www.mooooc.com/life/2017/05/19/Limitations-of-thinking.html)**      
 **版权归作者所有，转载请注明出处** 

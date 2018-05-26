@@ -100,5 +100,5 @@ Java就是这种包组合在一个的一个东西, 我们在写代码时常常�
 如果我们在写代码时IDE自动帮我们引入相关的包, 是不是很酷的意见事情. IDEA提供了这个功能, 不过默认是关闭的. 打开自动导入包设置如下:
 
  
-![](http://www.ityouknow.com/assets/images/2015/idea-auto-import.jpg)  
+![](http://www.mooooc.com/assets/images/2015/idea-auto-import.jpg)  
 

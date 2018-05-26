@@ -257,7 +257,7 @@ public void sendInlineResourceMail() {
     </head>
     <body>
         您好,这是验证邮件,请点击下面的链接完成验证,<br/>
-        <a href="#" th:href="@{ http://www.ityouknow.com/neo/{id}(id=${id}) }">激活账号</a>
+        <a href="#" th:href="@{ http://www.mooooc.com/neo/{id}(id=${id}) }">激活账号</a>
     </body>
 </html>
 ```
@@ -289,7 +289,7 @@ public void sendTemplateMail() {
 
 很多时候邮件发送并不是我们主业务必须关注的结果，比如通知类、提醒类的业务可以允许延时或者失败。这个时候可以采用异步的方式来发送邮件，加快主交易执行速度，在实际项目中可以采用MQ发送邮件相关参数，监听到消息队列之后启动发送邮件。
 
-可以参考前期文章：[springboot(八)：RabbitMQ详解](http://www.ityouknow.com/springboot/2016/11/30/springboot(%E5%85%AB)-RabbitMQ%E8%AF%A6%E8%A7%A3.html) 来实现。
+可以参考前期文章：[springboot(八)：RabbitMQ详解](http://www.mooooc.com/springboot/2016/11/30/springboot(%E5%85%AB)-RabbitMQ%E8%AF%A6%E8%A7%A3.html) 来实现。
 
 
 **[示例代码-github](https://github.com/ityouknow/spring-boot-examples)**
@@ -303,5 +303,5 @@ public void sendTemplateMail() {
 -------------
 
 **作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/springboot/2017/05/06/springboot-mail.html)**      
+**出处：[http://www.mooooc.com/](http://www.mooooc.com/springboot/2017/05/06/springboot-mail.html)**      
 **版权归作者所有，转载请注明出处** 

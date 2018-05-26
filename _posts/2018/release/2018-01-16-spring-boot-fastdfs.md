@@ -7,7 +7,7 @@ excerpt: 分布式文件系统FastDFS和Spring Boot的故事。
 keywords: FastDFS, Spring Boot
 ---
 
-上篇文章介绍了[如何使用Spring Boot上传文件](http://www.ityouknow.com/springboot/2018/01/12/spring-boot-upload-file.html)，这篇文章我们介绍如何使用Spring Boot将文件上传到分布式文件系统FastDFS中。
+上篇文章介绍了[如何使用Spring Boot上传文件](http://www.mooooc.com/springboot/2018/01/12/spring-boot-upload-file.html)，这篇文章我们介绍如何使用Spring Boot将文件上传到分布式文件系统FastDFS中。
 
 这个项目会在上一个项目的基础上进行构建。
 
@@ -216,11 +216,11 @@ public String singleFileUpload(@RequestParam("file") MultipartFile file,
 
 上传成功之后，将文件的路径展示到页面，效果图如下：
 
-![](http://www.ityouknow.com/assets/images/2018/fastdfs/fastDfs_sucees.png)
+![](http://www.mooooc.com/assets/images/2018/fastdfs/fastDfs_sucees.png)
 
 在浏览器中访问此Url，可以看到成功通过FastDFS展示：
 
-![](http://www.ityouknow.com/assets/images/2018/fastdfs/fastDfs_pic.png)
+![](http://www.mooooc.com/assets/images/2018/fastdfs/fastDfs_pic.png)
 
 > 这样使用Spring Boot 集成FastDFS的案例就完成了。
 

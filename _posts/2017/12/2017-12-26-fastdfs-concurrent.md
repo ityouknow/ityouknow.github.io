@@ -7,7 +7,7 @@ excerpt: 一次FastDFS并发问题的排查经历
 keywords: FastDFS,并发,架构
 ---
 
-![](http://www.ityouknow.com/assets/images/2017/life/router.jpg)  
+![](http://www.mooooc.com/assets/images/2017/life/router.jpg)  
 
 前一段时间，业务部门同事反馈在一次生产服务器升级之后，POS消费上传小票业务偶现异常，上传小票业务有重试机制，有些重试三次也不会成功，他们排查了一下没有找到原因，希望架构部帮忙解决。
 
@@ -19,7 +19,7 @@ keywords: FastDFS,并发,架构
 - nginx ：1.7.9      
 - fastdfs-nginx-module：1.16
 
-为了尽可能的模拟生产，我在测试环境1:1搭建了一套和生产一样的FastDFS集群，当时也写了搭建过程：[FastDFS 集群 安装 配置](http://www.ityouknow.com/fastdfs/2017/10/10/cluster-building-fastdfs.html)
+为了尽可能的模拟生产，我在测试环境1:1搭建了一套和生产一样的FastDFS集群，当时也写了搭建过程：[FastDFS 集群 安装 配置](http://www.mooooc.com/fastdfs/2017/10/10/cluster-building-fastdfs.html)
 
 ## 从日志中找线索
 

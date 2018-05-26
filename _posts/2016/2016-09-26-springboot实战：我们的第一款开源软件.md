@@ -13,7 +13,7 @@ tags: [云收藏]
 
 浏览器收藏夹应该是我们在收藏文章、网站的第一个利器，平时遇到喜欢的网站或者文章很方便的收藏到收藏夹中；很快我们的收藏夹就满了，于是就像我这样,创建文件夹来分组两层、三层都有：
 
-![favorites_chrome](http://www.ityouknow.com/assets/images/2016/favorites_chrome.jpg)  
+![favorites_chrome](http://www.mooooc.com/assets/images/2016/favorites_chrome.jpg)  
 
 
 有的也会借助百度首页导航这样的一些功能来整理自己收藏的网站，以前我记得QQ还有一款产品叫做网络收藏夹，用过一段时间，后来QQ也把这款产品给淘汰了；也尝试了去用印象笔记、有道笔记这些产品，这些产品都偏向收藏一些具体的文章或者自己整理的日志信息方面。
@@ -36,21 +36,21 @@ tags: [云收藏]
 放产品一些截图:
 
 主页  
-![favorites_chrome](http://www.ityouknow.com/assets/images/2016/favorites_index.png)  
+![favorites_chrome](http://www.mooooc.com/assets/images/2016/favorites_index.png)  
 
 注册  
-![favorites_chrome](http://www.ityouknow.com/assets/images/2016/favorites_register.png)  
+![favorites_chrome](http://www.mooooc.com/assets/images/2016/favorites_register.png)  
 
 首页  
-![favorites_chrome](http://www.ityouknow.com/assets/images/2016/favorites_home.png)  
+![favorites_chrome](http://www.mooooc.com/assets/images/2016/favorites_home.png)  
 
 收藏  
-![favorites_chrome](http://www.ityouknow.com/assets/images/2016/favorites_collect.png)  
+![favorites_chrome](http://www.mooooc.com/assets/images/2016/favorites_collect.png)  
 
 
 ## 技术点
 
-这段时间我们团队主要在学习spring boot,这个开源项目也就成了我们的练习新技术的一个非常好的产品，主要的技术都是和spring boot相关，可以参考我以前文章 [spring boot系列文章](http://www.ityouknow.com/spring-boot)
+这段时间我们团队主要在学习spring boot,这个开源项目也就成了我们的练习新技术的一个非常好的产品，主要的技术都是和spring boot相关，可以参考我以前文章 [spring boot系列文章](http://www.mooooc.com/spring-boot)
 
 ### 网页端
 
@@ -63,11 +63,11 @@ tags: [云收藏]
 
 **前端**
 
-前端页面由[Angle - Bootstrap Admin theme](https://wrapbootstrap.com/theme/angle-bootstrap-admin-template-WB04HF123)这套主题改造而来;模版引擎使用了```thymeleaf```，可以参考这篇文章：[springboot(四)：thymeleaf使用详解](http://www.ityouknow.com/springboot/2016/05/01/springboot(%E5%9B%9B)-thymeleaf%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3.html)
+前端页面由[Angle - Bootstrap Admin theme](https://wrapbootstrap.com/theme/angle-bootstrap-admin-template-WB04HF123)这套主题改造而来;模版引擎使用了```thymeleaf```，可以参考这篇文章：[springboot(四)：thymeleaf使用详解](http://www.mooooc.com/springboot/2016/05/01/springboot(%E5%9B%9B)-thymeleaf%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3.html)
  
 **持久层**
 
-数据库主要使用了 Spring data jpa模版来实现，可以参考这篇文章：[springboot(五)：spring data jpa的使用](http://www.ityouknow.com/springboot/2016/08/20/springboot(%E4%BA%94)-spring-data-jpa%E7%9A%84%E4%BD%BF%E7%94%A8.html)
+数据库主要使用了 Spring data jpa模版来实现，可以参考这篇文章：[springboot(五)：spring data jpa的使用](http://www.mooooc.com/springboot/2016/08/20/springboot(%E4%BA%94)-spring-data-jpa%E7%9A%84%E4%BD%BF%E7%94%A8.html)
 
 **session**
 
@@ -113,5 +113,5 @@ session使用持久化技术来保存登录状态，登录一次保持需要会�
 -------------
 
 **作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/)**    
+**出处：[http://www.mooooc.com/](http://www.mooooc.com/)**    
 **版权所有，欢迎保留原文链接进行转载：)**

@@ -226,5 +226,5 @@ t(spring:session:expirations:1472976480000
 -------------
 
 **作者：纯洁的微笑**  
-**出处：[www.ityouknow.com](http://www.ityouknow.com/springboot/2016/03/06/springboot(%E4%B8%89)-Spring-Boot%E4%B8%ADRedis%E7%9A%84%E4%BD%BF%E7%94%A8.html)**    
+**出处：[www.mooooc.com](http://www.mooooc.com/springboot/2016/03/06/springboot(%E4%B8%89)-Spring-Boot%E4%B8%ADRedis%E7%9A%84%E4%BD%BF%E7%94%A8.html)**    
 **版权所有，欢迎保留原文链接进行转载：)**

@@ -10,7 +10,7 @@ excerpt: Docker-Compose 是 Docker 的一种编排服务，是一个用于在 Do
 
 Docker-Compose 是 Docker 的一种编排服务，是一个用于在 Docker 上定义并运行复杂应用的工具，可以让用户在集群中部署分布式应用。
 
-前两篇文章我们介绍了 Dockerfile 的使用[Docker(二)：Dockerfile 使用介绍](http://www.ityouknow.com/docker/2018/03/12/docker-use-dockerfile.html)，我们知道使用一个 Dockerfile 模板文件可以定义一个单独的应用容器，如果需要定义多个容器就需要服务编排。服务编排有很多种技术方案，今天给大家介绍 Docker 官方产品 Docker Compose 。
+前两篇文章我们介绍了 Dockerfile 的使用[Docker(二)：Dockerfile 使用介绍](http://www.mooooc.com/docker/2018/03/12/docker-use-dockerfile.html)，我们知道使用一个 Dockerfile 模板文件可以定义一个单独的应用容器，如果需要定义多个容器就需要服务编排。服务编排有很多种技术方案，今天给大家介绍 Docker 官方产品 Docker Compose 。
 
 Dockerfile 可以让用户管理一个单独的应用容器；而 Compose 则允许用户在一个模板（YAML 格式）中定义一组相关联的应用容器（被称为一个 project，即项目），例如一个 Web 服务容器再加上后端的数据库服务容器等。
 
@@ -21,7 +21,7 @@ Dockerfile 可以让用户管理一个单独的应用容器；而 Compose 则允
 
 Docker Compose 工作原理图
 
-![](http://www.ityouknow.com/assets/images/2018/docker/docker-compose.png)
+![](http://www.mooooc.com/assets/images/2018/docker/docker-compose.png)
 
 
 Compose 中有两个重要的概念：
@@ -223,7 +223,7 @@ services:
 Hello World! I have been seen 1 times.
 ```
 
-![](http://www.ityouknow.com/assets/images/2018/docker/quick-hello-world-1.png)
+![](http://www.mooooc.com/assets/images/2018/docker/quick-hello-world-1.png)
 
 刷新再次访问返回
 
@@ -231,7 +231,7 @@ Hello World! I have been seen 1 times.
 Hello World! I have been seen 2 times.
 ```
 
-![](http://www.ityouknow.com/assets/images/2018/docker/quick-hello-world-2.png)
+![](http://www.mooooc.com/assets/images/2018/docker/quick-hello-world-2.png)
 
 不断的刷新数字会不断的增长。
 

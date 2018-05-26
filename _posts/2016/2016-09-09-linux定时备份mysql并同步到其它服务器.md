@@ -305,5 +305,5 @@ chmod 777 rsync.sh
 -------------
 
 **作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/mysql/2016/09/09/linux%E5%AE%9A%E6%97%B6%E5%A4%87%E4%BB%BDmysql%E5%B9%B6%E5%90%8C%E6%AD%A5%E5%88%B0%E5%85%B6%E5%AE%83%E6%9C%8D%E5%8A%A1%E5%99%A8.html)**    
+**出处：[http://www.mooooc.com/](http://www.mooooc.com/mysql/2016/09/09/linux%E5%AE%9A%E6%97%B6%E5%A4%87%E4%BB%BDmysql%E5%B9%B6%E5%90%8C%E6%AD%A5%E5%88%B0%E5%85%B6%E5%AE%83%E6%9C%8D%E5%8A%A1%E5%99%A8.html)**    
 **版权所有，欢迎保留原文链接进行转载 :)**

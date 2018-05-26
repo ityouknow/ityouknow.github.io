@@ -31,7 +31,7 @@ excerpt: 只需三步即可部署开源项目云收藏，打造专属个人的�
 
 **产品截图**
 
-![](http://www.ityouknow.com/assets/images/2016/favorites_index.png)  
+![](http://www.mooooc.com/assets/images/2016/favorites_index.png)  
 
 核心功能点：
 
@@ -64,16 +64,16 @@ excerpt: 只需三步即可部署开源项目云收藏，打造专属个人的�
 
 准备一台系统为 Centos 7 以上的服务器，系统需要安装 Docker 和 Docker Compos 环境，安装方法可以参考前面两篇文章：
 
-- [Docker(一)：Docker入门教程](http://www.ityouknow.com/docker/2018/03/07/docker-introduction.html)
-- [Docker(四)：Docker 三剑客之 Docker Compose](http://www.ityouknow.com/docker/2018/03/22/docker-compose.html)
+- [Docker(一)：Docker入门教程](http://www.mooooc.com/docker/2018/03/07/docker-introduction.html)
+- [Docker(四)：Docker 三剑客之 Docker Compose](http://www.mooooc.com/docker/2018/03/22/docker-compose.html)
 
 **Docker 化改造**
 
 项目改造后的项目机构图如下：
 
-![](http://www.ityouknow.com/assets/images/2018/springboot/favorites_mulu.png)
+![](http://www.mooooc.com/assets/images/2018/springboot/favorites_mulu.png)
 
-因为上一篇文章[Spring Boot 2.0(五)：Docker Compose + Spring Boot + Nginx + Mysql 实践](http://www.ityouknow.com/springboot/2018/03/28/dockercompose-springboot-mysql-nginx.html) 已经介绍了此类项目结构和内容含义，因此这里主要描述新增内容。
+因为上一篇文章[Spring Boot 2.0(五)：Docker Compose + Spring Boot + Nginx + Mysql 实践](http://www.mooooc.com/springboot/2018/03/28/dockercompose-springboot-mysql-nginx.html) 已经介绍了此类项目结构和内容含义，因此这里主要描述新增内容。
 
 
 **`docker-compose.yaml` 文件**

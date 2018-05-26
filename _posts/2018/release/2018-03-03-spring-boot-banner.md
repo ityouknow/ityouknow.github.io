@@ -55,7 +55,7 @@ Spring Boot 2.0 刚刚发布，一些 Maven 仓库还没更新，如果导入项
 
 一般情况下，我们会借助第三方工具帮忙转化内容，如网站`http://www.network-science.de/ascii/`将文字转化成字符串，网站：`http://www.degraeve.com/img2txt.php`可以将图片转化成字符串。
 
-![](http://www.ityouknow.com/assets/images/2018/springboot/hello.png)
+![](http://www.mooooc.com/assets/images/2018/springboot/hello.png)
 
 我们以Hello World为启动字符串来进行测试：
 
@@ -72,7 +72,7 @@ Spring Boot 2.0 刚刚发布，一些 Maven 仓库还没更新，如果导入项
 
 接下来在 Spring Boot 2.0 项目中测试打印动态 Banner ，使用的gif如下：
 
-![](http://www.ityouknow.com/assets/images/2018/springboot/banner.gif)
+![](http://www.mooooc.com/assets/images/2018/springboot/banner.gif)
 
 同样我们将 banner.gif 文件放到项目的`src/main/resources`路径下，启动项目进行测试，输出栏打印信息如下：
 

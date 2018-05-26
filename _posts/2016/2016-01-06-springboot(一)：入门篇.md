@@ -32,7 +32,7 @@ Spring Boot是由Pivotal团队提供的全新框架，其设计目的是用来�
 使用sping boot到底有多爽，用下面这幅图来表达
 
  
-![](http://www.ityouknow.com/assets/images/2016/dog.jpg)  
+![](http://www.mooooc.com/assets/images/2016/dog.jpg)  
 
 
 ## 快速入门
@@ -46,7 +46,7 @@ Spring Boot是由Pivotal团队提供的全新框架，其设计目的是用来�
 - 2、选择构建工具Maven Project、Spring Boot版本1.3.6以及一些工程基本信息，点击“Switch to the full version.”java版本选择1.7，可参考下图所示：
 
  
-![](http://www.ityouknow.com/assets/images/2016/springboot1.png)
+![](http://www.mooooc.com/assets/images/2016/springboot1.png)
 
 - 3、点击Generate Project下载项目压缩包
 - 4、解压后，使用eclipse，Import -> Existing Maven Projects -> Next ->选择解压后的文件夹-> Finsh，OK done!
@@ -55,7 +55,7 @@ Spring Boot是由Pivotal团队提供的全新框架，其设计目的是用来�
 **项目结构介绍**
 
  
-![](http://www.ityouknow.com/assets/images/2016/springboot2.png)  
+![](http://www.mooooc.com/assets/images/2016/springboot2.png)  
 
 
 如上图所示，Spring Boot的基础结构共三个文件:
@@ -195,5 +195,5 @@ public class HelloTests {
 -------------
 
 **作者：纯洁的微笑**  
-**出处：[www.ityouknow.com](http://www.ityouknow.com/springboot/2016/01/06/springboot(%E4%B8%80)-%E5%85%A5%E9%97%A8%E7%AF%87.html)**    
+**出处：[www.mooooc.com](http://www.mooooc.com/springboot/2016/01/06/springboot(%E4%B8%80)-%E5%85%A5%E9%97%A8%E7%AF%87.html)**    
 **版权所有，欢迎保留原文链接进行转载：)**

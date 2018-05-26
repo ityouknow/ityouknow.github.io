@@ -6,7 +6,7 @@ tags: [springcloud]
 ---
 
 
-我们在[springcloud(七)：配置中心svn示例和refresh](http://www.ityouknow.com/springcloud/2017/05/23/springcloud-config-svn-refresh.html)中讲到，如果需要客户端获取到最新的配置信息需要执行```refresh```，我们可以利用webhook的机制每次提交代码发送请求来刷新客户端，当客户端越来越多的时候，需要每个客户端都执行一遍，这种方案就不太适合了。使用Spring Cloud Bus可以完美解决这一问题。
+我们在[springcloud(七)：配置中心svn示例和refresh](http://www.mooooc.com/springcloud/2017/05/23/springcloud-config-svn-refresh.html)中讲到，如果需要客户端获取到最新的配置信息需要执行```refresh```，我们可以利用webhook的机制每次提交代码发送请求来刷新客户端，当客户端越来越多的时候，需要每个客户端都执行一遍，这种方案就不太适合了。使用Spring Cloud Bus可以完美解决这一问题。
 
 
 ## Spring Cloud Bus
@@ -16,7 +16,7 @@ Spring cloud bus通过轻量消息代理连接各个分布的节点。这会用�
 Spring cloud bus被国内很多都翻译为消息总线，也挺形象的。大家可以将它理解为管理和传播所有分布式项目中的消息既可，其实本质是利用了MQ的广播机制在分布式的系统中传播消息，目前常用的有Kafka和RabbitMQ。利用bus的机制可以做很多的事情，其中配置中心客户端刷新就是典型的应用场景之一，我们用一张图来描述bus在配置中心使用的机制。
 
  
-![](http://www.ityouknow.com/assets/images/2017/springcloud/configbus1.jpg)
+![](http://www.mooooc.com/assets/images/2017/springcloud/configbus1.jpg)
 
 根据此图我们可以看出利用Spring Cloud Bus做配置更新的步骤:
 
@@ -30,7 +30,7 @@ Spring cloud bus被国内很多都翻译为消息总线，也挺形象的。大�
 ## 项目示例
 
 
-我们选择上一篇文章[springcloud(八)：配置中心服务化和高可用](http://www.ityouknow.com/springcloud/2017/05/25/springcloud-config-eureka.html)版本的[示例代码](https://github.com/ityouknow/spring-cloud-starter/tree/master/spring-cloud-config-eureka)来改造,MQ我们使用RabbitMQ来做示例。
+我们选择上一篇文章[springcloud(八)：配置中心服务化和高可用](http://www.mooooc.com/springcloud/2017/05/25/springcloud-config-eureka.html)版本的[示例代码](https://github.com/ityouknow/spring-cloud-starter/tree/master/spring-cloud-config-eureka)来改造,MQ我们使用RabbitMQ来做示例。
 
 **客户端spring-cloud-config-client改造**
 
@@ -72,7 +72,7 @@ spring.rabbitmq.password=123456
 说明客户端已经具备了消息总线通知的能力了，为了更好的模拟消息总线的效果，我们更改客户端spring-cloud-config-client项目的端口为8003、8004依次启动，这样测试环境就准备好了。启动后eureka后台效果图如下：
 
  
-![](http://www.ityouknow.com/assets/images/2017/springcloud/configbus3.jpg)
+![](http://www.mooooc.com/assets/images/2017/springcloud/configbus3.jpg)
 
 我们先分别测试一下服务端和客户端是否正确运行，访问：```http://localhost:8001/neo-config/dev```，返回信息：
 
@@ -122,7 +122,7 @@ curl -X POST http://localhost:8002/bus/refresh
 
 
  
-![](http://www.ityouknow.com/assets/images/2017/springcloud/configbus2.jpg)
+![](http://www.mooooc.com/assets/images/2017/springcloud/configbus2.jpg)
 
 这时Spring Cloud Bus做配置更新步骤如下:
 
@@ -308,5 +308,5 @@ BUG的讨论和解决过程可以看github上面这两个issue:
 
 -------------
 **作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/springcloud/2017/05/26/springcloud-config-eureka-bus.html)**      
+**出处：[http://www.mooooc.com/](http://www.mooooc.com/springcloud/2017/05/26/springcloud-config-eureka-bus.html)**      
 **版权归作者所有，转载请注明出处** 
