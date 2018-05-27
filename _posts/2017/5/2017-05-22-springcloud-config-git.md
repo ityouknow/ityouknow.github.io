@@ -60,7 +60,7 @@ neo-config-pro.properties
 
 ``` properties
 server:
-  port: 8040
+  port: 8001
 spring:
   application:
     name: spring-cloud-config-server
