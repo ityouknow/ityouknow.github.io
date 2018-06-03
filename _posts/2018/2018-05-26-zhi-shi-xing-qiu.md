@@ -50,5 +50,4 @@ tags: [life]
 
 好了我在知识星球等你，我们一起畅谈技术与梦想。
 
-
 ![](http://www.mooooc.com/assets/images/2018/life/xingqiu.jpeg)
