@@ -8,7 +8,7 @@ tags: [arch]
 技术栈(technology stack)就是一个公司的透视镜，从某些程度上可以展示出公司的技术实力。从技术桟也可以看出整个平台的技术要素，平台大小规模等，今天来给大家分享我司的技术全家桶。
 
  
-![](http://www.mooooc.com/assets/images/2017/architecture/programming-languages.jpg)  
+![](http://www.ityouknow.com/assets/images/2017/architecture/programming-languages.jpg)  
 
 ## 题外话
 
@@ -25,8 +25,8 @@ tags: [arch]
 回到主题，这两天已经提了离职，闲来无事就想着还可以总结总结什么，平台架构、事故解决方案等以前都写过了，这次就主要写写我们都用过那些技术吧。我分了五块内容来介绍我们的技术栈：前端、后端、中间件、运维和工具。画了一个思维导图方便大家整体预览。
 
  
-![](http://www.mooooc.com/assets/images/2017/architecture/technology-stack.png)  
-[点击这里看大图](http://www.mooooc.com/assets/images/2017/architecture/technology-stack.png)
+![](http://www.ityouknow.com/assets/images/2017/architecture/technology-stack.png)  
+[点击这里看大图](http://www.ityouknow.com/assets/images/2017/architecture/technology-stack.png)
 
 接下来就展开来说
 
@@ -34,7 +34,7 @@ tags: [arch]
 ## 前端
 
  
-![](http://www.mooooc.com/assets/images/2017/architecture/frontend.png)  
+![](http://www.ityouknow.com/assets/images/2017/architecture/frontend.png)  
 
 
 我司的前端比较简单主要分为了三大块：PC前端、移动端、模板引擎。
@@ -49,7 +49,7 @@ tags: [arch]
 后端以开发语言的角度给大家介绍
 
  
-![](http://www.mooooc.com/assets/images/2017/architecture/backend.png)  
+![](http://www.ityouknow.com/assets/images/2017/architecture/backend.png)  
 
 
 后端使用的开发语言有：php、golang、python和Java。
@@ -73,7 +73,7 @@ Java技术栈比较多，这里挑选了几个具有代表性的来讲：
 这里面是比较泛的中间件集合，把相关的组件也都包含进来，主要分为：数据库、web容器、消息、缓存、文件服务器和安全。
 
  
-![](http://www.mooooc.com/assets/images/2017/architecture/middleware.png)  
+![](http://www.ityouknow.com/assets/images/2017/architecture/middleware.png)  
 
 - 数据库 业务主要使用mysql，需要跑批统计的离线数据由tungsten replicator同步到mongodb。  
 - web容器  php使用的apache，Java使用的tomcat，静态资源代理使用的是nginx  
@@ -88,7 +88,7 @@ Java技术栈比较多，这里挑选了几个具有代表性的来讲：
 运维是平台的生命线，主要分为六部分：监控、负载均衡、CI（持续集成）、服务器、自动化部署和网络
 
  
-![](http://www.mooooc.com/assets/images/2017/architecture/ops.png)  
+![](http://www.ityouknow.com/assets/images/2017/architecture/ops.png)  
 
 - 监控 主要使用了zabbix来监控服务器的各项指标，少量使用shell脚本和crontab   
 - 负载 使用VIP来做均衡负载，也就是LVS。  
@@ -103,7 +103,7 @@ Java技术栈比较多，这里挑选了几个具有代表性的来讲：
 优秀的工具可以让工作事半功倍，节省很多时间。这里分开发、测试、数据库、画图和运维五个维度来介绍
 
  
-![](http://www.mooooc.com/assets/images/2017/architecture/tools.png)
+![](http://www.ityouknow.com/assets/images/2017/architecture/tools.png)
 
 - 开发 Java常用的开发工具：eclipse和idea。前两年一直使用的是eclipse，但eclipse对spring boot支持的不够友好，后来就全面使用了idea；php开发工具比较多，我司开发人员主要使用phpstorm和zend，集成环境使用upupw；前端使用WebStorm和sublime3；golang开发工具liteide，IOS使用xcode。  
 - 测试  自动化测试工具selenjum，性能测试使用jmeter或者loadrunner，开发人员一般使用jmeter。接口测试使用postman；移动端测试使用 appiumforandroid和appiumforIOS；抓包工具使用 firebug、MIniSniffer、Fiddler。  

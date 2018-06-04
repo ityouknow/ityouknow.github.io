@@ -21,7 +21,7 @@ tags: [life]
 
 后来写着写着，我的某篇文章就上了博客园首页编辑推荐，在我写互联网金融行业实战系列文章的时候连续上榜，再后来就被博客园推荐为"推荐博客"，积分排名从我有记录的时候看到10万多名到现在的2千多名。所以在此我深深的感谢博客园，因为我的写作激情完全是由博客园的博友们给带来的，博客不断的推荐和博友不断回复成了对我源源不断的鼓励，博客园的文章推荐机制和评论氛围特别的好，最多推荐和最多评论就是博友自发推荐到首页。ps：这并不是软文~~
 
-有一天我发现可以通过github+jekyll可免费在github上面构建自己的博客，再结合markdown来写作，这对我而言简直就是一种以写代码的方式来写文章的感觉，刚好也遇到了[DONGChuan-Yummy](https://github.com/DONGChuan/Yummy-Jekyll)的一个模版我特别喜欢，研究后做了一些改造就有了我现在的这个博客[www.mooooc.com](http://www.mooooc.com/)
+有一天我发现可以通过github+jekyll可免费在github上面构建自己的博客，再结合markdown来写作，这对我而言简直就是一种以写代码的方式来写文章的感觉，刚好也遇到了[DONGChuan-Yummy](https://github.com/DONGChuan/Yummy-Jekyll)的一个模版我特别喜欢，研究后做了一些改造就有了我现在的这个博客[www.ityouknow.com](http://www.ityouknow.com/)
 
 
 ## 微信公众号
@@ -43,12 +43,12 @@ tags: [life]
 我的公众号是：纯洁的微笑（KeepPureSmile），欢迎大家关注。
 
  
-![](http://www.mooooc.com/assets/images/keeppuresmile.jpg)
+![](http://www.ityouknow.com/assets/images/keeppuresmile.jpg)
 
 -------------
 
 **作者：纯洁的微笑**  
-**出处：[http://www.mooooc.com/](http://www.mooooc.com/life/2017/04/26/open-wechat.html)**      
+**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/life/2017/04/26/open-wechat.html)**      
 **版权归作者所有，转载请注明出处** 
 
 

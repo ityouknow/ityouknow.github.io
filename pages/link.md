@@ -40,7 +40,7 @@ permalink: /link
 
 ## 个人链接
 
-- [ityouknow](http://www.mooooc.com/) - 个人独立博客
+- [ityouknow](http://www.ityouknow.com/) - 个人独立博客
 - [github](https://github.com/ityouknow) -  我分享代码的地方
 - [博客园](https://www.cnblogs.com/ityouknow/) - 博客园个人博客，最开始写博客的地方
 - [微博](http://weibo.com/ityouknow) - 个人微博地址，虽然一直没有用过
@@ -54,6 +54,6 @@ permalink: /link
 *欢迎交换友情链接，最好同样是技术类的博客，需要交换友链的朋友请发送邮件到：ityouknow@126.com，或者在本页留言。格式要求如下：*
 
 - 网站名称：ityouknow  
-- 网站链接：http://www.mooooc.com  
+- 网站链接：http://www.ityouknow.com  
 - 网站描述：neo的个人博客，分享技术，分享生活  
 

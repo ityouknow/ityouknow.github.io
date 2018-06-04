@@ -13,7 +13,7 @@ excerpt: 感受 Docker 魅力，排解决多应用部署之疼，Docker Compose 
 
 今天给大家演出的导演是 Docker 家族的 docker-compare ，主演是 Spring Boot、Nginx、Mysql 三位又红又紫的大碗，名导名演在一起的时候往往是准备搞事情，接下来又一场经典大片值得大家期待。
 
-![](http://www.mooooc.com/assets/images/2018/springboot/qifen.gif)
+![](http://www.ityouknow.com/assets/images/2018/springboot/qifen.gif)
 
 Spring Boot + Nginx + Mysql 是实际工作中最常用的一个组合，最前端使用 Nginx 代理请求转发到后端 Spring Boot 内嵌的 Tomcat 服务，Mysql 负责业务中数据相关的交互，那么在没有 docker 之前，我们是如何来搞定这些环境的呢？
 
@@ -23,7 +23,7 @@ Spring Boot + Nginx + Mysql 是实际工作中最常用的一个组合，最前�
 
 大家看我只写了三行，但其实搭建这些环境的时候还挺费事的，但这还不是结局，在用了一段时间时候需要迁移到另外一个环境，怎么办又需要重新搞一次？正常情况下，测试环境、SIT 环境、UAT 环境、生产环境！我们需要重复搭建四次。有人说不就是搭建四次吗？也没什么大不了的，那么我想告诉你，Too yong ,Too Simple 。
 
-![](http://www.mooooc.com/assets/images/2018/springboot/tooyang.jpg)
+![](http://www.ityouknow.com/assets/images/2018/springboot/tooyang.jpg)
 
 让我们看看以下几个因素：
 
@@ -129,7 +129,7 @@ I have been seen ip 0:0:0:0:0:0:0:1 2 times.
 
 首先我们将目录改造成这样一个结构
 
-![](http://www.mooooc.com/assets/images/2018/springboot/mulu.png)
+![](http://www.ityouknow.com/assets/images/2018/springboot/mulu.png)
 
 我们先从最外层说起：
 
@@ -241,8 +241,8 @@ FROM maven:3.5-jdk-8
 
 我们将项目拷贝到服务器中进行测试，服务器需要先安装 Docker 和 Docker Compos 环境，如果不了解的朋友可以查看我前面的两篇文章：
 
-- [Docker(一)：Docker入门教程](http://www.mooooc.com/docker/2018/03/07/docker-introduction.html)
-- [Docker(四)：Docker 三剑客之 Docker Compose](http://www.mooooc.com/docker/2018/03/22/docker-compose.html)
+- [Docker(一)：Docker入门教程](http://www.ityouknow.com/docker/2018/03/07/docker-introduction.html)
+- [Docker(四)：Docker 三剑客之 Docker Compose](http://www.ityouknow.com/docker/2018/03/22/docker-compose.html)
 
 将项目拷贝到服务器中，进入目录`cd  dockercompose-springboot-mysql-nginx`
 

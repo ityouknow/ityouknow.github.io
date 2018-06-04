@@ -6,7 +6,7 @@ tags: [springcloud]
 ---
 
 
-上一篇[springcloud(六)：配置中心git示例](http://www.mooooc.com/springcloud/2017/05/22/springcloud-config-git.html)留了一个小问题，当重新修改配置文件提交后，客户端获取的仍然是修改前的信息，这个问题我们先放下，待会再讲。国内很多公司都使用的svn来做代码的版本控制，我们先介绍以下如何使用svn+Spring Cloud Config来做配置中心。
+上一篇[springcloud(六)：配置中心git示例](http://www.ityouknow.com/springcloud/2017/05/22/springcloud-config-git.html)留了一个小问题，当重新修改配置文件提交后，客户端获取的仍然是修改前的信息，这个问题我们先放下，待会再讲。国内很多公司都使用的svn来做代码的版本控制，我们先介绍以下如何使用svn+Spring Cloud Config来做配置中心。
 
 
 ## svn版本
@@ -140,7 +140,7 @@ WebHook是当某个事件发生时，通过发送http post请求的方式来通�
 如此一来，你就可以通过这种方式去自动完成一些重复性工作，比如，你可以用Webhook来自动触发一些持续集成（CI）工具的运作，比如Travis CI；又或者是通过 Webhook 去部署你的线上服务器。下图就是github上面的webhook配置。
 
  
-![](http://www.mooooc.com/assets/images/2017/springcloud/webhook.jpg)
+![](http://www.ityouknow.com/assets/images/2017/springcloud/webhook.jpg)
 
 
 - ```Payload URL``` ：触发后回调的URL  
@@ -165,5 +165,5 @@ delete | 当有分支或标签被删除时触发
 
 -------------
 **作者：纯洁的微笑**  
-**出处：[http://www.mooooc.com/](http://www.mooooc.com/springcloud/2017/05/23/springcloud-config-svn-refresh.html)**      
+**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/springcloud/2017/05/23/springcloud-config-svn-refresh.html)**      
 **版权归作者所有，转载请注明出处** 

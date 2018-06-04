@@ -7,7 +7,7 @@ tags: [hbase]
 
 hbase和hadoop一样也分为单机版、伪分布式版和完全分布式集群版本，这篇文件介绍如何搭建完全分布式集群环境搭建。
 
-hbase依赖于hadoop环境，搭建habase之前首先需要搭建好hadoop的完全集群环境，因此看这篇文章之前需要先看我的上一篇文章：[hadoop分布式集群搭建](http://www.mooooc.com/hadoop/2017/07/24/hadoop-cluster-setup.html)。本文中没有按照独立的zookeeper，使用了hbase自带的zookeeper。
+hbase依赖于hadoop环境，搭建habase之前首先需要搭建好hadoop的完全集群环境，因此看这篇文章之前需要先看我的上一篇文章：[hadoop分布式集群搭建](http://www.ityouknow.com/hadoop/2017/07/24/hadoop-cluster-setup.html)。本文中没有按照独立的zookeeper，使用了hbase自带的zookeeper。
 
 ## 环境准备
 

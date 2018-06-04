@@ -8,7 +8,7 @@ tags: [life]
 
 把一群有着相同爱好的人，组织到一起也是一件蛮有意思的事情。
 
-![](http://www.mooooc.com/assets/images/2018/life/chat1.jpeg)
+![](http://www.ityouknow.com/assets/images/2018/life/chat1.jpeg)
 
 我在刚开始写博客的时候，就想找一些相同爱好的朋友一起交流，一直没有好的途径。直到后来做了公众号，才慢慢有人把我拉到各种各样的群中，跟着大家学习了很多运营的方法和技巧，了解到不同的技术和不同观点。
 
@@ -49,9 +49,9 @@ tags: [life]
 
 6、**理财交流群**，关键字：**理财**
 
-之前写过一个文章叫做：[程序员该用哪种姿势去理财](http://www.mooooc.com/life/2016/05/08/%E7%A8%8B%E5%BA%8F%E5%91%98%E8%AF%A5%E7%94%A8%E5%93%AA%E7%A7%8D%E5%A7%BF%E5%8A%BF%E6%9D%A5%E7%90%86%E8%B4%A2.html)，吸引了一批对理财感兴趣的朋友聚在了一些。
+之前写过一个文章叫做：[程序员该用哪种姿势去理财](http://www.ityouknow.com/life/2016/05/08/%E7%A8%8B%E5%BA%8F%E5%91%98%E8%AF%A5%E7%94%A8%E5%93%AA%E7%A7%8D%E5%A7%BF%E5%8A%BF%E6%9D%A5%E7%90%86%E8%B4%A2.html)，吸引了一批对理财感兴趣的朋友聚在了一些。
 
-![](http://www.mooooc.com/assets/images/2018/life/chat2.jpeg)
+![](http://www.ityouknow.com/assets/images/2018/life/chat2.jpeg)
 
 
 **知识星球**
@@ -68,7 +68,7 @@ tags: [life]
 
 > 扫描下方二维码即可加入，因为圈子内容比较多，建议入群后先阅读精华区的内容
 
-![](http://www.mooooc.com/assets/images/2018/life/xingqiu.jpeg)
+![](http://www.ityouknow.com/assets/images/2018/life/xingqiu.jpeg)
 
 
 **加我微信的一些说明**
@@ -82,7 +82,7 @@ tags: [life]
 - 如果您想和我交流框架、性能优化这种大问题，因为太大我不知道从何说起，比如：上来就问spring boot/hadoop并发量支持多少的这类问题，真对不起，本人才疏学浅真的爱莫能助，问题越具体交流越有效。
 - 我不一定能及时回复您，加我之后有问题尽请直说，不用问“在吗”之类的问题，当我闲下来的时候，每个人的留言，我都会尽量去回复。
 
-![](http://www.mooooc.com/assets/images/2018/life/chat3.jpeg)
+![](http://www.ityouknow.com/assets/images/2018/life/chat3.jpeg)
 
 
 > 最后如果您还有其它方面有交流的需求，也可以给我留言。

@@ -22,7 +22,7 @@ keywords: Spring Boot,open source
 
 **产品截图**
 
-![](http://www.mooooc.com/assets/images/2018/springboot/awesome-spring-boot.png)
+![](http://www.ityouknow.com/assets/images/2018/springboot/awesome-spring-boot.png)
 
 
 ## 2、 [云收藏](https://github.com/cloudfavorites/favorites-web)
@@ -39,7 +39,7 @@ keywords: Spring Boot,open source
 
 **产品截图**
 
-![](http://www.mooooc.com/assets/images/2016/favorites_index.png)  
+![](http://www.ityouknow.com/assets/images/2016/favorites_index.png)  
 
 
 ## 3、 Spring Boot 开源博客
@@ -61,7 +61,7 @@ My Blog是由Docker+SpringBoot+Mybatis+thymeleaf等技术实现的Java博客系�
 
 **产品截图**
 
-![](http://www.mooooc.com/assets/images/2018/springboot/My-Blog.png)
+![](http://www.ityouknow.com/assets/images/2018/springboot/My-Blog.png)
 
 
 
@@ -79,7 +79,7 @@ My Blog是由Docker+SpringBoot+Mybatis+thymeleaf等技术实现的Java博客系�
 
 **产品截图**
 
-![](http://www.mooooc.com/assets/images/2018/springboot/springblog.png)
+![](http://www.ityouknow.com/assets/images/2018/springboot/springblog.png)
 
 
 ### 3.3、 [V部落](https://github.com/lenve/VBlog)
@@ -93,7 +93,7 @@ V部落是一个多用户博客管理平台，采用Vue+SpringBoot开发。
 
 **产品截图**
 
-![](http://www.mooooc.com/assets/images/2018/springboot/VBlog.png)
+![](http://www.ityouknow.com/assets/images/2018/springboot/VBlog.png)
 
 
 ## 4、 [spring-boot-pay](https://gitee.com/52itstyle/spring-boot-pay)
@@ -110,7 +110,7 @@ V部落是一个多用户博客管理平台，采用Vue+SpringBoot开发。
 
 **产品截图**
 
-![](http://www.mooooc.com/assets/images/2018/springboot/spring-boot-pay.png)  
+![](http://www.ityouknow.com/assets/images/2018/springboot/spring-boot-pay.png)  
 
 
 
@@ -125,7 +125,7 @@ Any Video 是基于 Spring Boot 开发的应用，利用网络爬虫技术，实
 
 **产品截图**
 
-![](http://www.mooooc.com/assets/images/2018/springboot/any-video.jpg)  
+![](http://www.ityouknow.com/assets/images/2018/springboot/any-video.jpg)  
 
 
 
@@ -143,7 +143,7 @@ Any Video 是基于 Spring Boot 开发的应用，利用网络爬虫技术，实
 
 **产品截图**
 
-![](http://www.mooooc.com/assets/images/2018/springboot/spring-boot-filemanager.gif)  
+![](http://www.ityouknow.com/assets/images/2018/springboot/spring-boot-filemanager.gif)  
 
 
 
@@ -157,7 +157,7 @@ Any Video 是基于 Spring Boot 开发的应用，利用网络爬虫技术，实
 
 **产品截图**
 
-![](http://www.mooooc.com/assets/images/2018/springboot/vhr.png)  
+![](http://www.ityouknow.com/assets/images/2018/springboot/vhr.png)  
 
 
 ## 8、 [spring-boot-mail](https://gitee.com/52itstyle/spring-boot-mail)
@@ -170,7 +170,7 @@ Any Video 是基于 Spring Boot 开发的应用，利用网络爬虫技术，实
 
 **产品截图**
 
-![](http://www.mooooc.com/assets/images/2018/springboot/spring-boot-mail.png)  
+![](http://www.ityouknow.com/assets/images/2018/springboot/spring-boot-mail.png)  
 
 
 ## 9、 [webappchat](https://gitee.com/JiaGou-XiaoGe/webappchat)
@@ -183,7 +183,7 @@ Spring Boot mybatis mysql后台商城 h5 小程序
 
 **产品截图**
 
-![](http://www.mooooc.com/assets/images/2018/springboot/webappchat.png) 
+![](http://www.ityouknow.com/assets/images/2018/springboot/webappchat.png) 
 
 
 ## 10、 [spring-boot-examples](https://github.com/ityouknow/spring-boot-examples)
@@ -196,7 +196,7 @@ Spring Boot 技术栈示例代码，快速简单上手教程，一个帮助大�
 
 **产品截图**
 
-![](http://www.mooooc.com/assets/images/2018/springboot/spring-boot-examples.png) 
+![](http://www.ityouknow.com/assets/images/2018/springboot/spring-boot-examples.png) 
 
 
 

@@ -26,13 +26,13 @@ no-post-nav: true
 在公司工作的三年中，我们技术部门的同事每走一个人，我都请他们一起吃个饭道个别，到我离职的这天，当然也要请部门的兄弟姐妹一起吃个饭，最后一聚。吃饭喝酒自不用说，在大家热热闹闹的时候，有点恍惚，眼前的同事竟都是如此可爱。让我惊喜的一件事情是，大家一起送给了我一件全员签名的T恤，搞的我像退役的球员一样，我很喜欢。像波仔说的那样，有这样一群兄弟，有这样一段经历，值了！
 
  
-![](http://www.mooooc.com/assets/images/2017/life/we.png)
+![](http://www.ityouknow.com/assets/images/2017/life/we.png)
 
  
-![](http://www.mooooc.com/assets/images/2017/life/t-front.png)
+![](http://www.ityouknow.com/assets/images/2017/life/t-front.png)
 
  
-![](http://www.mooooc.com/assets/images/2017/life/t-back.png)
+![](http://www.ityouknow.com/assets/images/2017/life/t-back.png)
 
 今天香港回归祖国二十周年，当时有一个画面记忆深刻，就是驻港部队和英国部队做交接的时候，我方一个威风凛凛军官高声说到：“我代表中国人民解放军驻香港部队接管军营。你们可以下岗,我们上岗。祝你们一路平安。“看到这个场景的时候，瞬间爱国情怀高涨。1997年7月0点0分香港正式回归祖国，全国一片欢腾。
 

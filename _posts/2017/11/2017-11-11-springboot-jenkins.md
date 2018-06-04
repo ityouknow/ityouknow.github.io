@@ -123,33 +123,33 @@ This may also be found at: /root/.jenkins/secrets/initialAdminPassword
 访问
 浏览器访问：```http://localhost:8080/```
 
-![](http://www.mooooc.com/assets/images/2017/jenkins/1.png)
+![](http://www.ityouknow.com/assets/images/2017/jenkins/1.png)
 
 输入：0cca37389e6540c08ce6e4c96f46da0f
 
 
 进入用户自定义插件界面，建议选择安装官方推荐插件，因为安装后自己也得安装:
 
-![](http://www.mooooc.com/assets/images/2017/jenkins/2.png)
+![](http://www.ityouknow.com/assets/images/2017/jenkins/2.png)
 
 接下来是进入插件安装进度界面:
 
-![](http://www.mooooc.com/assets/images/2017/jenkins/3.png)
+![](http://www.ityouknow.com/assets/images/2017/jenkins/3.png)
 
 
 插件一次可能不会完全安装成功，可以点击Retry再次安装。直到全部安装成功
 
-![](http://www.mooooc.com/assets/images/2017/jenkins/32.png)
+![](http://www.ityouknow.com/assets/images/2017/jenkins/32.png)
 
 等待一段时间之后，插件安装完成，配置用户名密码:
 
-![](http://www.mooooc.com/assets/images/2017/jenkins/4.png)
+![](http://www.ityouknow.com/assets/images/2017/jenkins/4.png)
 
 输入：admin/admin
 
 系统管理-》全局工具配置  jdk路径，
 
-![](http://www.mooooc.com/assets/images/2017/jenkins/5.png)
+![](http://www.ityouknow.com/assets/images/2017/jenkins/5.png)
 
 
 ## 第二步，插件安装和配置
@@ -158,7 +158,7 @@ This may also be found at: /root/.jenkins/secrets/initialAdminPassword
 
 插件安装：系统管理 > 插件管理 > 可选插件,勾选需要安装的插件，点击直接安装或者下载重启后安装
 
-![](http://www.mooooc.com/assets/images/2017/jenkins/6.png)
+![](http://www.ityouknow.com/assets/images/2017/jenkins/6.png)
 
 ### 配置全局变量
 
@@ -168,13 +168,13 @@ This may also be found at: /root/.jenkins/secrets/initialAdminPassword
 
 配置本地JDK的路径，去掉勾选自动安装
 
-![](http://www.mooooc.com/assets/images/2017/jenkins/7.png)
+![](http://www.ityouknow.com/assets/images/2017/jenkins/7.png)
 
 **Maven**
 
 配置本地maven的路径，去掉勾选自动安装
 
-![](http://www.mooooc.com/assets/images/2017/jenkins/8.png)
+![](http://www.ityouknow.com/assets/images/2017/jenkins/8.png)
 
 其它内容可以根据自己的情况选择安装。
 
@@ -225,7 +225,7 @@ service sshd restart
 
 选择 Publish over SSH
 
-![](http://www.mooooc.com/assets/images/2017/jenkins/9.png)
+![](http://www.ityouknow.com/assets/images/2017/jenkins/9.png)
 
 Passphrase 不用设置
 Path to key 写上生成的ssh路径：```/root/.ssh/id_rsa```
@@ -243,23 +243,23 @@ Remote Directory 不填
 
 首页点击**新建**：输入项目名称
 
-![](http://www.mooooc.com/assets/images/2017/jenkins/10.png)
+![](http://www.ityouknow.com/assets/images/2017/jenkins/10.png)
 
 下方选择构建一个maven项目，点击确定。
 
 勾选**丢弃旧的构建**，选择是否备份被替换的旧包。我这里选择备份最近的10个
 
-![](http://www.mooooc.com/assets/images/2017/jenkins/12.png)
+![](http://www.ityouknow.com/assets/images/2017/jenkins/12.png)
 
 源码管理,选择svn,配置SVN相关信息，点击add可以输入svn的账户和密码
 
-![](http://www.mooooc.com/assets/images/2017/jenkins/11.png)
+![](http://www.ityouknow.com/assets/images/2017/jenkins/11.png)
 
 svn地址：http://192.168.0.xx/svn/xxx@HEAD,```@HEAD```意思取最新版本
 
 构建环境中勾选“Add timestamps to the Console Output”，代码构建的过程中会将日志打印出来
 
-![](http://www.mooooc.com/assets/images/2017/jenkins/13.png)
+![](http://www.ityouknow.com/assets/images/2017/jenkins/13.png)
 
 在Build中输入打包前的mvn命令，如：
 
@@ -269,19 +269,19 @@ clean install -Dmaven.test.skip=true -Ptest
 
 意思是：排除测试的包内容，使用后缀为test的配置文件。
 
-![](http://www.mooooc.com/assets/images/2017/jenkins/14.png)
+![](http://www.ityouknow.com/assets/images/2017/jenkins/14.png)
 
 Post Steps 选择 Run only if build succeeds 
 
-![](http://www.mooooc.com/assets/images/2017/jenkins/15.png)
+![](http://www.ityouknow.com/assets/images/2017/jenkins/15.png)
 
 点击**Add post-build step**，选择 Send files or execute commands over SSH
 
-![](http://www.mooooc.com/assets/images/2017/jenkins/16.png)
+![](http://www.ityouknow.com/assets/images/2017/jenkins/16.png)
 
 Name选择上面配置的Push SSH
 
-![](http://www.mooooc.com/assets/images/2017/jenkins/17.png)
+![](http://www.ityouknow.com/assets/images/2017/jenkins/17.png)
 
 Source files配置:target/xxx-0.0.1-SNAPSHOT.jar 项目jar包名
 Remove prefix:target/
