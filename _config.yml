@@ -22,7 +22,7 @@ url: http://www.ityouknow.com
 enforce_ssl: ityouknow.com
 
 ## Gem
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-geo-pattern
   - rouge
