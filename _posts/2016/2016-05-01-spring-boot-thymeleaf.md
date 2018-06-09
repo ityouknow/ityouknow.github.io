@@ -482,7 +482,7 @@ htmlhead 是指定义的代码片段 如 ```th:fragment="copy"```
 -------------
 
 **作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/springboot/2016/05/01/springboot(%E5%9B%9B)-thymeleaf%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3.html)**    
+**出处：[www.ityouknow.com](http://www.ityouknow.com)**   
 **版权所有，欢迎保留原文链接进行转载：)**
 
 

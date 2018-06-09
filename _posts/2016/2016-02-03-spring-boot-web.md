@@ -394,7 +394,7 @@ bootRun {
 -------------
 
 **作者：纯洁的微笑**  
-**出处：[www.ityouknow.com](http://www.ityouknow.com/springboot/2016/02/03/springboot(%E4%BA%8C)-web%E7%BB%BC%E5%90%88%E5%BC%80%E5%8F%91.html)**    
+**出处：[www.ityouknow.com](http://www.ityouknow.com)**    
 **版权所有，欢迎保留原文链接进行转载：)**
 
 

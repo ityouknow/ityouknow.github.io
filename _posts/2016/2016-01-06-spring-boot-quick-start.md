@@ -195,5 +195,5 @@ public class HelloTests {
 -------------
 
 **作者：纯洁的微笑**  
-**出处：[www.ityouknow.com](http://www.ityouknow.com/springboot/2016/01/06/springboot(%E4%B8%80)-%E5%85%A5%E9%97%A8%E7%AF%87.html)**    
+**出处：[www.ityouknow.com](http://www.ityouknow.com)**    
 **版权所有，欢迎保留原文链接进行转载：)**

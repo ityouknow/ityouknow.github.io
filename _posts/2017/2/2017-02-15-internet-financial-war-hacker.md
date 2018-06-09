@@ -125,5 +125,5 @@ DDOS攻击我们也是遇到了很多次，确实也没有比较好办法，最�
 -------------
 
 **作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/arch/2017/02/15/%E4%BA%92%E8%81%94%E7%BD%91%E9%87%91%E8%9E%8D%E5%A4%A7%E6%88%98%E9%BB%91%E5%AE%A2.html)**      
+**出处：[www.ityouknow.com](http://www.ityouknow.com)**
 **版权归作者所有，转载请注明出处** 

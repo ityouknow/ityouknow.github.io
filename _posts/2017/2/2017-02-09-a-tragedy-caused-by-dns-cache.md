@@ -88,5 +88,5 @@ dns从用户访问到响应的整个流程
 -------------
 
 **作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/arch/2017/02/09/%E4%B8%80%E6%AC%A1dns%E7%BC%93%E5%AD%98%E5%BC%95%E5%8F%91%E7%9A%84%E6%83%A8%E6%A1%88.html)**      
+**出处：[www.ityouknow.com](http://www.ityouknow.com)**   
 **版权归作者所有，转载请注明出处** 

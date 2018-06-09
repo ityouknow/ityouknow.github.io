@@ -197,5 +197,5 @@ esac
 -------------
 
 **作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/arth/2017/02/12/%E4%B8%80%E4%B8%AA%E8%84%9A%E6%9C%AC%E5%BC%95%E5%8F%91%E7%9A%84%E8%A1%80%E6%A1%88.html)**      
+**出处：[www.ityouknow.com](http://www.ityouknow.com)**    
 **版权归作者所有，转载请注明出处** 

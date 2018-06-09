@@ -83,7 +83,7 @@ tags: [life]
 -------------
 
 **作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/%E7%94%9F%E6%B4%BB/2016/05/08/%E7%A8%8B%E5%BA%8F%E5%91%98%E8%AF%A5%E7%94%A8%E5%93%AA%E7%A7%8D%E5%A7%BF%E5%8A%BF%E6%9D%A5%E7%90%86%E8%B4%A2.html)**      
+**出处：[www.ityouknow.com](http://www.ityouknow.com)**      
 **版权归作者所有，转载请注明出处** 
 
 

@@ -156,5 +156,5 @@ mysql实时同步到mongodb，我们使用的是[tungsten-relicator](https://git
 -------------
 
 **作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/arch/2017/01/10/%E4%BB%8E%E9%9B%B6%E5%88%B0%E7%99%BE%E4%BA%BF%E4%BA%92%E8%81%94%E7%BD%91%E9%87%91%E8%9E%8D%E6%9E%B6%E6%9E%84%E5%8F%91%E5%B1%95%E5%8F%B2.html)**    
+**出处：[www.ityouknow.com](http://www.ityouknow.com)**   
 **版权所有，欢迎保留原文链接进行转载：)** 
