@@ -3,8 +3,11 @@ layout: page
 title: Spring Boot 系列文章
 titlebar: spring-boot
 subtitle: <span class="mega-octicon octicon-cloud-download"></span>&nbsp;&nbsp;
-     <a href ="http://www.ityouknow.com/assets/images/keeppuresmile.jpg">关注公众号：<font color="#00FF00">纯洁的微笑</font>，回复"springboot" 进群交流。</a>&nbsp;&nbsp;<br/>
-     <a href ="https://github.com/ityouknow/spring-boot-leaning">Spring Boot 精选课程</a>
+     <a href ="https://github.com/ityouknow/spring-boot-leaning"><font color="#00FF00">Spring Boot 精选课程</font></a>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <br/>
+     <a href ="http://www.ityouknow.com/assets/images/keeppuresmile.jpg">关注公众号：<font color="#00FF00">纯洁的微笑</font>，回复"springboot" 进群交流。</a>
+     
 
 
 menu: spring-boot
