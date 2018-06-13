@@ -6,6 +6,9 @@ tags: [springboot]
 keywords: Spring Boot,Java 程序员，
 ---
 
+Spring Boot 诞生的背景是什么？Spring 企业又是基于什么样的考虑创建 Spring Boot? 传统企业使用 Spring Boot 会给我们带来什么样变革?
+
+
 Spring Boot 2.0 的推出又激起了一阵学习 Spring Boot 热，就单从我个人的博客的访问量大幅增加就可以感受到大家对学习 Spring Boot 的热情，那么在这么多人热衷于学习 Spring Boot 之时，我自己也在思考： Spring Boot 诞生的背景是什么？Spring 企业又是基于什么样的考虑创建 Spring Boot? 传统企业使用 Spring Boot 会给我们带来什么样变革?
 
 带着这些问题，我们一起来了解下 Spring Boot 到底是什么?
