@@ -21,7 +21,7 @@ Dockerfile 可以让用户管理一个单独的应用容器；而 Compose 则允
 
 Docker Compose 工作原理图
 
-![](http://www.ityouknow.com/assets/images/2018/docker/docker-compose.png)
+![](http://www.mooooc.com/assets/images/2018/docker/docker-compose.png)
 
 
 Compose 中有两个重要的概念：
@@ -223,7 +223,7 @@ services:
 Hello World! I have been seen 1 times.
 ```
 
-![](http://www.ityouknow.com/assets/images/2018/docker/quick-hello-world-1.png)
+![](http://www.mooooc.com/assets/images/2018/docker/quick-hello-world-1.png)
 
 刷新再次访问返回
 
@@ -231,7 +231,7 @@ Hello World! I have been seen 1 times.
 Hello World! I have been seen 2 times.
 ```
 
-![](http://www.ityouknow.com/assets/images/2018/docker/quick-hello-world-2.png)
+![](http://www.mooooc.com/assets/images/2018/docker/quick-hello-world-2.png)
 
 不断的刷新数字会不断的增长。
 

@@ -76,7 +76,7 @@ public class HelloController {
 添加```@EnableDiscoveryClient```注解后，项目就具有了服务注册的功能。启动工程后，就可以在注册中心的页面看到SPRING-CLOUD-PRODUCER服务。
 
  
-![](http://www.ityouknow.com/assets/images/2017/springcloud/eureka_server.png)
+![](http://www.mooooc.com/assets/images/2017/springcloud/eureka_server.png)
 
 到此服务提供者配置就完成了。
 
@@ -212,7 +212,7 @@ eureka.client.serviceUrl.defaultZone=http://localhost:8000/eureka/
 打包启动后，在eureka就会发现两个服务提供者，如下图：
 
  
-![](http://www.ityouknow.com/assets/images/2017/springcloud/eureka_server2.png)
+![](http://www.mooooc.com/assets/images/2017/springcloud/eureka_server2.png)
 
 然后在浏览器再次输入：```http://localhost:9001/hello/neo```  进行测试：
 

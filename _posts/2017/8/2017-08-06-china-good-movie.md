@@ -16,7 +16,7 @@ tags: [movie]
 为什么这部电影会火，其实是中国人太缺少这种类型的电影了，我们都是看着美国各种超级英雄拯救世界，中国人在电影中不是反派，就是被调侃。在印度和中国边境对峙的时间点上，突然有这么一部电影，有好莱坞级别的制作，又大晒中国肌肉，看完电影热血沸腾，明显感觉中国已经强大了起来，但是我们更应该自信起来。
 
  
-![](http://www.ityouknow.com/assets/images/2017/movie/wolf.jpg)
+![](http://www.mooooc.com/assets/images/2017/movie/wolf.jpg)
 
 已经有太多的文章介绍这部电影，这里只简单描述几个场景。影片开头，货船在海上遇到海盗，当大家慌乱不堪的时候，吴京直接从大船上跳下，接下来在海里有三分钟的大战很精彩。时间回退到退伍前，吴京和战友将战友的骨灰盒送到老家的时候，遇到了地头蛇，一阵乱打之后地头蛇被放倒，地头蛇给吴京说，你小子还挺能打呀，但你总有走的一天，等你走了看我咋弄死他们，吴京直接一脚把地头蛇给踢死了，特别过瘾。非洲的城市战争那一段真的很精彩，战争太无情了，AK47到处狂扫，坦克、火箭弹到处乱飞，死伤无数。电影中还有一个亮点是当康书记的表演，真的是可圈可点呀，演技不得不服，最后就是坦克大战了。
 
@@ -29,7 +29,7 @@ tags: [movie]
 经典台词：说的是一辈子！差一年，一个月，一天，一个时辰，都不算一辈子！
 
  
-![](http://www.ityouknow.com/assets/images/2017/movie/bwbj.jpeg)
+![](http://www.mooooc.com/assets/images/2017/movie/bwbj.jpeg)
 
 **云水谣** 
 
@@ -44,7 +44,7 @@ tags: [movie]
 经典台词：茶凉了，我去给你续上。
 
  
-![](http://www.ityouknow.com/assets/images/2017/movie/ayls.jpeg)
+![](http://www.mooooc.com/assets/images/2017/movie/ayls.jpeg)
 
 **无人区** 
 
@@ -68,7 +68,7 @@ tags: [movie]
 ```
 
  
-![](http://www.ityouknow.com/assets/images/2017/movie/dcxj.jpeg)
+![](http://www.mooooc.com/assets/images/2017/movie/dcxj.jpeg)
 
 **喜剧之王** 
 
@@ -97,7 +97,7 @@ tags: [movie]
 ```
 
  
-![](http://www.ityouknow.com/assets/images/2017/movie/xjzw.jpeg)
+![](http://www.mooooc.com/assets/images/2017/movie/xjzw.jpeg)
 
 
 > 有什么好的国产电影，记得推荐给我。

@@ -216,11 +216,11 @@ public String singleFileUpload(@RequestParam("file") MultipartFile file,
 
 上传成功之后，将文件的路径展示到页面，效果图如下：
 
-![](http://www.ityouknow.com/assets/images/2018/fastdfs/fastDfs_sucees.png)
+![](http://www.mooooc.com/assets/images/2018/fastdfs/fastDfs_sucees.png)
 
 在浏览器中访问此Url，可以看到成功通过FastDFS展示：
 
-![](http://www.ityouknow.com/assets/images/2018/fastdfs/fastDfs_pic.png)
+![](http://www.mooooc.com/assets/images/2018/fastdfs/fastDfs_pic.png)
 
 > 这样使用Spring Boot 集成FastDFS的案例就完成了。
 

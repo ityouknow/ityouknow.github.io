@@ -25,7 +25,7 @@ Spring Boot 2.0 的推出又激起了一阵学习 Spring Boot 热，就单从我
 
 他是谁呢，他就是大名鼎鼎的 Rod Johnson （下图）,  Rod Johnson 在悉尼大学不仅获得了计算机学位，同时还获得了音乐学位，更令人吃惊的是在回到软件开发领域之前，他还获得了音乐学的博士学位。现在 Rod Johnson 已经离开了 Spring ，成为了一个天使投资人，同时也是多个公司的董事，早已走上人生巅峰。
 
-![](http://www.ityouknow.com/assets/images/2018/springboot/rod.jpg)
+![](http://www.mooooc.com/assets/images/2018/springboot/rod.jpg)
 
 在这本书发布后，一对一的 J2EE 设计和开发一炮而红。这本书免费提供的大部分基础架构代码都是高度可重用的。 2003 年 Rod Johnson 和同伴在此框架的基础上开发了一个全新的框架命名为 Spring ,据 Rod Johnson 介绍 Spring 是传统 J2EE 新的开始。随后 Spring 发展进入快车道。
 
@@ -46,13 +46,13 @@ Spring 似乎也意识到了这些问题，急需有这么一套软件可以解�
 
 Spring Boot 诞生之初，就受到开源社区的持续关注，陆续有一些个人和企业尝试着使用了 Spring Boot，并迅速喜欢上了这款开源软件。直到2016年，在国内 Spring Boot 才被正真使用了起来，期间很多研究 Spring Boot 的开发者在网上写了大量关于 Spring Boot 的文章，同时有一些公司在企业内部进行了小规模的使用，并将使用经验分享了出来。从2016年到2018年，使用 Spring Boot 的企业和个人开发者越来越多，我们从 Spring Boot 关键字的百度指数就可以看出。
 
-![](http://www.ityouknow.com/assets/images/2018/springboot/springboot-hot.png)
+![](http://www.mooooc.com/assets/images/2018/springboot/springboot-hot.png)
 
 上图为2014年到2018年 Spring Boot 的百度指数，可以看出 Spring Boot 2.0 的推出引发了搜索高峰。
 
 当然 Spring Boot 不是为了取代 Spring ,Spring Boot 基于 Spring 开发，是为了让人们更容易的使用 Spring。看到 Spring Boot 的市场反应，Spring 官方也非常重视 Spring Boot 的后续发展，已经将 Spring Boot 作为公司最顶级的项目来推广，放到了官网上第一的位置，因此后续 Spring Boot 的持续发展也被看好。
 
-![](http://www.ityouknow.com/assets/images/2017/chat/spring.png)  
+![](http://www.mooooc.com/assets/images/2017/chat/spring.png)  
 
 
 ## 什么是 Spring Boot 
@@ -161,8 +161,8 @@ Spring Boot Admin 是一个针对 spring-boot 的 actuator 接口进行UI美化�
 
 使用 Spring Boot Admin 不仅可以监控 Spring Boot 项目，还可以监控 Spring Cloud 项目，因此使用了 Spring Boot 项目之后我们监控 Spring Boot 集群效果如下：
 
-![](http://www.ityouknow.com/assets/images/2018/springboot/admin1.png)  
-![](http://www.ityouknow.com/assets/images/2018/springboot/admin3.png) 
+![](http://www.mooooc.com/assets/images/2018/springboot/admin1.png)  
+![](http://www.mooooc.com/assets/images/2018/springboot/admin3.png) 
 
 简单、直观、易用是它的特点，针对一些特殊情况还可以提供报警服务。所以说使用 Spring Boot Actuator 解决了单个 Spring Boot 的监控问题，使用 Spring Boot Admin 就是解决了整个集群监控的问题。
 
@@ -188,7 +188,7 @@ Spring 并没有重复制造轮子，它只是将目前各家公司开发的比�
 
 如果大家想系列学习 Spring Boot 课程，欢迎大家关注我在 gitchat 上面的课程：快速学习 Spring Boot 技术栈，他们官网正在做活动，有很大的优惠。
 
-![](http://www.ityouknow.com/assets/images/2018/springboot/springboot-gitchat.png)
+![](http://www.mooooc.com/assets/images/2018/springboot/springboot-gitchat.png)
 
 给大家推荐一个专门收集 Spring Boot 学习资源的网站：[Spring Boot 中文索引](http://springboot.fun/)  
 
