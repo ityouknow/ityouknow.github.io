@@ -1,6 +1,6 @@
 ---
 layout: post
-title: springcloud(十三)：注册中心 Spring Cloud Consul 使用
+title: springcloud(十三)：Eureka 虽然闭源了，但注册中心还有更多选择：Consul 使用详解
 category: springcloud
 tags: [springcloud]
 keywords: springcloud, Consul，注册中心，消费者，提供者
@@ -194,7 +194,7 @@ Spring Boot 版本使用的是 2.0.3.RELEASE，Spring Cloud 最新版本是 Finc
 </dependencyManagement>
 ```
 
-完整的 pox.xml 文件大家可以参考示例源码。
+完整的 pom.xml 文件大家可以参考示例源码。
 
 ### 配置文件
 
