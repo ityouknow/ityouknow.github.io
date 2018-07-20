@@ -7,7 +7,7 @@ keywords: springcloud, Consul，注册中心，消费者，提供者
 excerpt: Spring Cloud Consul 使用详解
 ---
 
-在上个月我们知道 Eureka 2.0 闭源了，但其实对国内的用户影响甚小，一方面国内大都使用的是 Eureka 1.X 系列，另一方面
+在上个月我们知道 Eureka 2.X 遇到困难停止开发了，但其实对国内的用户影响甚小，一方面国内大都使用的是 Eureka 1.X 系列，另一方面
 Spring Cloud 支持很多服务发现的软件，Eureka 只是其中之一，下面是 Spring Cloud 支持的服务发现软件以及特性对比：
 
 | Feature |  euerka | Consul | zookeeper | etcd |
