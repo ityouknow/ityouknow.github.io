@@ -64,7 +64,7 @@ X苗之王讲述的是这三位的发家之史，高俊芳、韩刚君与杜伟�
 
 但是，又来一个神奇的但是，当年管三鹿的人，2018年还在管疫苗！！！
 
-![](http://www.mooooc.com/assets/images/2018/life/ysuixianze.jpg)
+![](http://www.mooooc.com/assets/images/2018/life/ysuixianze1.jpg)
 
 **孙咸泽，是在三聚氰胺事件中受处分，并没有免职。2012年升任国家食品药品监督管理局副局长，2014年6月开始直到2018年2月，一直兼任药品安全总监。**
 
