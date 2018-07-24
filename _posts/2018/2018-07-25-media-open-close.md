@@ -9,11 +9,19 @@ excerpt: 据统计，2017年中国在册新闻调查记者仅剩175人。
 
 ![](http://www.mooooc.com/assets/images/2018/life/fengsha.png)
 
+<<<<<<< HEAD
 果不其然周天写的[X苗之王，X的是国人那颗脆弱的心](http://www.ityouknow.com/life/2018/07/22/yi-miao-zhi-wang.html)这篇文章被删了，没有活过24小时，超过5千多人分享，最后数据定个在了61460。
 
 ![](http://www.mooooc.com/assets/images/2018/life/fengsha.png)
 
 大家如果还想看就只能访问我的博客：[www.ityouknow.com](http://www.ityouknow.com/)去阅读了。经过这么一件事也引起了一些思考：为什么会被删帖？中国人的发声之路都经历了什么？
+=======
+果不其然然
+
+![](http://www.mooooc.com/assets/images/2018/life/fengsha.png)
+
+
+>>>>>>> origin/master
 
 ![](http://www.mooooc.com/assets/images/2018/life/ydazhen.jpeg)
 
@@ -58,7 +66,11 @@ excerpt: 据统计，2017年中国在册新闻调查记者仅剩175人。
 > 2016年，《兰州晨报》《兰州晚报》《西部商报》三名驻武威记者，因被当地部门视为发布‌‌“负面报道‌‌”而遭遇逮捕。    
 > ……
 
+<<<<<<< HEAD
 在上面这些名单里，有一个和本次疫苗相关的记者，他就是中国第一大黑记者王克勤。
+=======
+在上面这些名单里，有一个和本次疫苗相关的记者，他就是：王克勤。
+>>>>>>> origin/master
 
 2016年3月22日，原《经济日报》深度报导调查记者王克勤，在微博上揭露六年前《中国经济时报》揭露导致一百多山西儿童死亡事件的调查报导《山西疫苗乱象调查》后，遭到山西省、卫生部、新华社三大集团联合攻击打压，而负责签发这个报导的社长总编辑包月阳及副总编辑车海刚起草了强硬的《关于“山西疫苗乱象调查”报导的声明》。
 
@@ -67,7 +79,11 @@ excerpt: 据统计，2017年中国在册新闻调查记者仅剩175人。
 北京有知情市民也表示，“当年王克勤先生为此做了九个整版的山西毒疫苗深度报导。结果问题没有得到解决，他先被解决了。中华民族难道是一个受到诅咒的民族？”  
 王克勤从照片上来看是一个很憨厚的汉子，让我们记住这个有良知的记者。
 
+<<<<<<< HEAD
 ![](http://www.mooooc.com/assets/images/2018/life/wangkeqian.jpg)
+=======
+![](http://www.mooooc.com/assets/images/2018/life/wangkeqiang.png)
+>>>>>>> origin/master
 
 也许这就是现在调查记者越来越少的原因之一吧！
 
