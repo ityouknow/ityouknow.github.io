@@ -1,15 +1,23 @@
 ---
 layout:     post
-title:      从疫苗事件来中国人的发声之路
+title:      从疫苗事件来民众的发声之路
 no-post-nav: true
 category: life
 tags: [life]
 excerpt: 据统计，2017年中国在册新闻调查记者仅剩175人。
 ---
 
+![](http://www.mooooc.com/assets/images/2018/life/fengsha.png)
+
+果不其然然
+
+![](http://www.mooooc.com/assets/images/2018/life/fengsha.png)
+
+
+
 ![](http://www.mooooc.com/assets/images/2018/life/ydazhen.jpeg)
 
-这两天封面的这个小孩火了，当然我们都知道是为什么？当我们思考疫苗事件给大家带来这么大的震惊之外，再想另外一个问题，为什么这么大的新闻或者说类似的事情，到现在都是由自媒体最新报道的，这不是我们官媒应该起的作用吗？这是一个时代的进步还是退步？
+这两天这个小孩火了，当然我们都知道是为什么？当我们思考疫苗事件给大家带来这么大的震惊之外，再想另外一个问题，为什么这么大的新闻或者说类似的事情，到现在都是由自媒体最新报道的，这不是我们官媒应该起的作用吗？这是一个时代的进步还是退步？
 
 朋友圈一个山东的朋友更是愤慨的写下这段话，引人惊醒：
 
