@@ -73,7 +73,7 @@ Spring Boot 简化了基于 Spring 的应用开发，通过少量的代码就能
 - 强大的开发包，支持热启动
 - 自动管理依赖
 - 自带应用监控
-- 支持各种 IED，如 IntelliJ IDEA 、NetBeans
+- 支持各种 IDE，如 IntelliJ IDEA 、NetBeans
 
 Spring Boot 这些特性会给我们研发带来非常大的优势，下面我们可以分开来介绍：
 
