@@ -117,7 +117,7 @@ Spring Boot 对测试的支持不可谓不强大，Spring Boot 内置了7种强�
 - JSONassert：一个针对 JSON 的断言库
 - JsonPath：JSON XPath 库
 
-我们只需要在项目中引入`spring-boot-start-test`依赖包，就可以对数据库、Mock、 Web 等各种情况进行测试。
+我们只需要在项目中引入`spring-boot-starter-test`依赖包，就可以对数据库、Mock、 Web 等各种情况进行测试。
 
 
 Spring Boot Test 中包含了我们需要使用的各种测试场景，满足我们日常项目的测试需求。
