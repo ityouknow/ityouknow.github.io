@@ -1,6 +1,6 @@
 ---
 layout: post
-title: springcloud(十三)：Eureka 2.X 停止开发，但注册中心还有更多选择：Consul 使用详解
+title: springcloud(十三)：注册中心 Consul 使用详解
 category: springcloud
 tags: [springcloud]
 keywords: springcloud, Consul，注册中心，消费者，提供者
