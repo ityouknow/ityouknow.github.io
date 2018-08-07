@@ -45,7 +45,7 @@ PiggyMetrics 的项目架构图
 
 **产品截图**
 
-![](http://www.mooooc.com/assets/images/2018/springcloud/piggyMetrics.gif)
+![](http://www.mooooc.com/assets/images/2018/springcloud/piggyMetrics.png)
 
 ## 3、 [spaascloud-master](https://github.com/paascloud/paascloud-master)
 

@@ -143,7 +143,7 @@ Any Video 是基于 Spring Boot 开发的应用，利用网络爬虫技术，实
 
 **产品截图**
 
-![](http://www.mooooc.com/assets/images/2018/springboot/spring-boot-filemanager.gif)  
+![](http://www.mooooc.com/assets/images/2018/springboot/spring-boot-filemanager.png)  
 
 
 
