@@ -8,10 +8,6 @@ tags: [share]
 
 超过1024G的IT学习资料免费领取，你值得拥有！
 
-领取资源方式，关注“纯洁的微笑”公众号，回复对应的关键字
-
-或者
-
 直接扫描二维码关注“IT轻社区”，此公号内回复对应的关键字
 
 ![](http://www.mooooc.com/assets/images/itmind.jpg)  
