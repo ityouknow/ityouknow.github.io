@@ -14,7 +14,7 @@ Swarm 在 Docker 1.12 版本之前属于一个独立的项目，在 Docker 1.12 
 
 Docker Swarm 是一个为 IT 运维团队提供集群和调度能力的编排工具。用户可以把集群中所有 Docker Engine 整合进一个「虚拟 Engine」的资源池，通过执行命令与单一的主 Swarm 进行沟通，而不必分别和每个 Docker Engine 沟通。在灵活的调度策略下，IT 团队可以更好地管理可用的主机资源，保证应用容器的高效运行。
 
-![](http://www.mooooc.com/assets/images/2018/docker/swarmcluster.png)
+![](http://www.ityouknow.com/assets/images/2018/docker/swarmcluster.png)
 
 ##  Docker Swarm 优点
 
@@ -51,7 +51,7 @@ Swarm 对 Docker API 完全支持，这意味着它能为使用不同 Docker 工
 
 工作节点是任务执行节点，管理节点将服务 (service) 下发至工作节点执行。管理节点默认也作为工作节点。你也可以通过配置让服务只运行在管理节点。下图展示了集群中管理节点与工作节点的关系。  
 
-![](http://www.mooooc.com/assets/images/2018/docker/swarm_manager_worker.png)
+![](http://www.ityouknow.com/assets/images/2018/docker/swarm_manager_worker.png)
 
 ###   服务和任务
 
@@ -63,7 +63,7 @@ Swarm 对 Docker API 完全支持，这意味着它能为使用不同 Docker 工
 
 两种模式通过 docker service create 的 --mode 参数指定。下图展示了容器、任务、服务的关系。
 
-![](http://www.mooooc.com/assets/images/2018/docker/swarm_services.png)
+![](http://www.ityouknow.com/assets/images/2018/docker/swarm_services.png)
 
 
 ### 创建 Swarm 集群

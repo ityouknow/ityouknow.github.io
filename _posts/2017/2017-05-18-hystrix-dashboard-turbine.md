@@ -56,7 +56,7 @@ public class ConsumerApplication {
 启动工程后访问 http://localhost:9001/hystrix，将会看到如下界面：
 
  
-![](http://www.mooooc.com/assets/images/2017/springcloud/hystrix-dashboard-1.jpg)
+![](http://www.ityouknow.com/assets/images/2017/springcloud/hystrix-dashboard-1.jpg)
 
 图中会有一些提示：
 
@@ -85,12 +85,12 @@ data: {"type":...}
 到监控页面就会显示如下图：
 
  
-![](http://www.mooooc.com/assets/images/2017/springcloud/hystrix-dashboard-2.jpg)
+![](http://www.ityouknow.com/assets/images/2017/springcloud/hystrix-dashboard-2.jpg)
 
 其实就是http://localhost:9001/hystrix.stream返回结果的图形化显示，Hystrix Dashboard Wiki上详细说明了图上每个指标的含义，如下图：
 
  
-![](http://www.mooooc.com/assets/images/2017/springcloud/hystrix-dashboard-3.png)
+![](http://www.ityouknow.com/assets/images/2017/springcloud/hystrix-dashboard-3.png)
 
 到此单个应用的熔断监控已经完成。
 
@@ -205,7 +205,7 @@ public interface HelloRemote {
 打开eureka后台可以看到注册了三个服务：
 
  
-![](http://www.mooooc.com/assets/images/2017/springcloud/turbine-01.jpg)
+![](http://www.ityouknow.com/assets/images/2017/springcloud/turbine-01.jpg)
 
 
 访问 http://localhost:8001/turbine.stream
@@ -220,7 +220,7 @@ data: {"reportingHostsLast10Seconds":1,"name":"meta","type":"meta","timestamp":1
 并且会不断刷新以获取实时的监控数据，说明和单个的监控类似，返回监控项目的信息。进行图形化监控查看，输入：http://localhost:8001/hystrix，返回酷酷的小熊界面，输入： http://localhost:8001/turbine.stream，然后点击 Monitor Stream ,可以看到出现了俩个监控列表
 
  
-![](http://www.mooooc.com/assets/images/2017/springcloud/turbine-02.jpg)
+![](http://www.ityouknow.com/assets/images/2017/springcloud/turbine-02.jpg)
 
 
 **[示例代码-github](https://github.com/ityouknow/spring-cloud-examples)**

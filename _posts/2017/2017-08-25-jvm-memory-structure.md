@@ -10,7 +10,7 @@ tags: [jvm]
 先看一张图，这张图能很清晰的说明JVM内存结构布局。
 
  
-![](http://www.mooooc.com/assets/images/2017/jvm/jvm03.png)
+![](http://www.ityouknow.com/assets/images/2017/jvm/jvm03.png)
 
 JVM内存结构主要有三大块：**堆内存**、**方法区**和**栈**。堆内存是JVM中最大的一块由年轻代和老年代组成，而年轻代内存又被分成三部分，**Eden空间**、**From Survivor空间**、**To Survivor空间**,默认情况下年轻代按照**8:1:1**的比例来分配；
 
@@ -20,7 +20,7 @@ JVM内存结构主要有三大块：**堆内存**、**方法区**和**栈**。�
 在通过一张图来了解如何通过参数来控制各区域的内存大小
 
  
-![](http://www.mooooc.com/assets/images/2017/jvm/jvm04.png)
+![](http://www.ityouknow.com/assets/images/2017/jvm/jvm04.png)
 
 控制参数
 
@@ -40,7 +40,7 @@ JVM内存结构主要有三大块：**堆内存**、**方法区**和**栈**。�
 从更高的一个维度再次来看JVM和系统调用之间的关系
 
  
-![](http://www.mooooc.com/assets/images/2017/jvm/jvm05.png)
+![](http://www.ityouknow.com/assets/images/2017/jvm/jvm05.png)
 
 *方法区和对是所有线程共享的内存区域；而java栈、本地方法栈和程序员计数器是运行是线程私有的内存区域。*
 

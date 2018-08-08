@@ -15,7 +15,7 @@ tags: [life]
 - 2017.12.18号用户突破一万五
 - 2017.12.25号用户16666
 
-![](http://www.mooooc.com/assets/images/2017/life/wechat.png)  
+![](http://www.ityouknow.com/assets/images/2017/life/wechat.png)  
 
 我们都生活在一个世界，却因为各种不同的经历生活千差万别，又因同一个公号而聚集在了一起，我觉得这是一个很奇妙的事情。我的公号以分享技术为开始，但我不想仅仅去分享技术，生活中有太多其它的事情更值得让我们关注和思考，所以我的slogan就是：分享技术，品味生活。
 
@@ -29,27 +29,27 @@ tags: [life]
 
 从性别分布上来看，IT行业男女比例严重失衡，男女比例可以到达惊人的12:1，要不说程序员找老婆不容易，接触的机会太少呀。
 
-![](http://www.mooooc.com/assets/images/2017/life/wechat1.png)  
+![](http://www.ityouknow.com/assets/images/2017/life/wechat1.png)  
 
 从语言分布来讲，居然还有一部分用户使用英文和繁体，不知道是不是海外或者港台的用户，有的话可以留个言，辨别一下真伪。
 
-![](http://www.mooooc.com/assets/images/2017/life/wechat2.png)  
+![](http://www.ityouknow.com/assets/images/2017/life/wechat2.png)  
 
 从省份分布来讲，北上广一线依然在前列，广东排名超过上海是因为包括了深圳，上海的传统金融公司比较多，互联网公司偏少估计也是原因之一，浙江省和四川省是近两年发展特别迅猛的两个省份，也是很多IT同行回二线城市的首选。	
 
-![](http://www.mooooc.com/assets/images/2017/life/wechat3.png)  
+![](http://www.ityouknow.com/assets/images/2017/life/wechat3.png)  
 
 当然当我们把视角仅仅放到市这级别就会发现，北京市遥遥领先，上海市排名第二、深圳市超过了广州市排名第三，杭州市和成都市是两匹新秀黑马。
 
-![](http://www.mooooc.com/assets/images/2017/life/wechat4.png)  
+![](http://www.ityouknow.com/assets/images/2017/life/wechat4.png)  
 
 从终端的使用情况来看，公号读者的用户中有近一万人使用的是安卓手机，六千多人使用的是苹果手机，WP已经是个位数了。
 
-![](http://www.mooooc.com/assets/images/2017/life/wechat5.png)  
+![](http://www.ityouknow.com/assets/images/2017/life/wechat5.png)  
 
 从机型分布 TOP10的使用情况来看，安卓手机还是排名第一，但因型号过多都被列入未知行列，接下来就是一片苹果手机，看来IT行业的码农们，也大都喜欢使用苹果手机，小米和华为也榜上有名。
 
-![](http://www.mooooc.com/assets/images/2017/life/wechat6.png)  
+![](http://www.ityouknow.com/assets/images/2017/life/wechat6.png)  
 
 > 以上数据截取于2017年12月24号
 

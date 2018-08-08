@@ -14,7 +14,7 @@ tags: [book]
 说到人工智能，就不得不提计算机届的一个传奇人物：阿兰.图灵博士。1950年，图灵在《思想》（mind）杂志上发表了一篇《计算的机器和智能》的论文。在论文中，图灵既没有讲计算机怎样才能获得智能，也没有提出如何解决复杂问题的智能方法，知识提出了一个验证机器有无智能的的判别方法。
 
  
-![](http://www.mooooc.com/assets/images/2017/reading/TuringTest.png)
+![](http://www.ityouknow.com/assets/images/2017/reading/TuringTest.png)
 
 让一台机器和一个人坐在幕后，让一个裁判同时与幕后的人和机器进行交流，如果这个裁判无法判断自己交流的对象是人还是机器，就说明这台机器有了和人同等的智能。就是大名鼎鼎的图灵测试。后来，计算机科学家对此进行了补充，如果计算机实现了下面几件事情中的一件，就可以认为它有图灵所说的那种智能：
 
@@ -37,7 +37,7 @@ tags: [book]
 会上纽厄尔和西蒙讨论了“逻辑理论家”，而麦卡锡则说服与会者接受“人工智能”一词作为本领域的名称。1956年达特矛斯会议上人工智能的名称和任务得以确定，同时出现了最初的成就和最早的一批研究者，因此这一事件被广泛承认为人工智能诞生的标志。
 
  
-![](http://www.mooooc.com/assets/images/2017/reading/Dartmouth_College_campus_60.jpeg)  
+![](http://www.ityouknow.com/assets/images/2017/reading/Dartmouth_College_campus_60.jpeg)  
 60年前的达特茅斯大学
 
 
@@ -73,7 +73,7 @@ tags: [book]
 受到日本刺激，其他国家纷纷作出响应。英国开始了耗资三亿五千万英镑的Alvey工程。美国一个企业协会组织了MCC（Microelectronics and Computer Technology Corporation，微电子与计算机技术集团），向AI和信息技术的大规模项目提供资助。DARPA也行动起来，组织了战略计算促进会（Strategic Computing Initiative），其1988年向AI的投资是1984年的三倍。人工智能又迎来了大发展。
 
  
-![](http://www.mooooc.com/assets/images/2017/reading/Symbolics3640_Modified.jpg)  
+![](http://www.ityouknow.com/assets/images/2017/reading/Symbolics3640_Modified.jpg)  
 早期的专家系统Symbolics 3640
 
 专家系统是一种程序，能够依据一组从专门知识中推演出的逻辑规则在某一特定领域回答或解决问题。最早的示例由Edward Feigenbaum和他的学生们开发。1965年起设计的Dendral能够根据分光计读数分辨混合物。1972年设计的MYCIN能够诊断血液传染病。它们展示了这一方法的威力。专家系统仅限于一个很小的知识领域，从而避免了常识问题；其简单的设计又使它能够较为容易地编程实现或修改。总之，实践证明了这类程序的实用性。直到现在AI才开始变得实用起来。
@@ -103,7 +103,7 @@ XCON等最初大获成功的专家系统维护费用居高不下。它们难以�
 深蓝实际上收集了世界上百位国际大师的对弈棋谱，供计算机学习。这样一来，深蓝其实看到了名家们在各种局面下的走法。当然深蓝也会考虑卡斯伯罗夫可能采用的走法，对不同的状态给出可能性评估，然后根据对方下一步走法对盘面的影响，核实这些可能性的估计，找到一个最有利自己的状态，并走出这步棋。因此深蓝团队其实把一个机器智能问题变成了一个大数据和大量计算的问题。
 
  
-![](http://www.mooooc.com/assets/images/2017/reading/Deep_Blue.jpg)  
+![](http://www.ityouknow.com/assets/images/2017/reading/Deep_Blue.jpg)  
 IBM“深蓝”战胜国际象棋世界冠军
 
 越来越多的AI研究者们开始开发和使用复杂的数学工具。人们广泛地认识到，许多AI需要解决的问题已经成为数学，经济学和运筹学领域的研究课题。数学语言的共享不仅使AI可以与其他学科展开更高层次的合作，而且使研究结果更易于评估和证明。AI已成为一门更严格的科学分支。
@@ -125,7 +125,7 @@ Judea Pearl发表于1988年的名著将概率论和决策理论引入AI。现已
 大数据是一种思维方式的改变。现在的相比过去大了很多，量变带来了质变，思维方式、做事情的方法就应该和以往有所不同。这其实是帮助我们理解大数据概念的一把钥匙。在有大数据之前，计算机并不擅长解决需要人类智能来解决的问题，但是今天这些问题换个思路就可以解决了，其核心就是变智能问题为数据问题。由此，全世界开始了新的一轮技术革命——智能革命。
 
  
-![](http://www.mooooc.com/assets/images/2017/reading/Artificial_intelligence.jpg)
+![](http://www.ityouknow.com/assets/images/2017/reading/Artificial_intelligence.jpg)
 
 > 建议购买正版书籍，如需试读电子版本，请在公众号回复：”智能时代“
 

@@ -22,7 +22,7 @@ excerpt: 运营好一个圈子和做好一个产品同样的不容易
 
 下图是我没有任何引导的情况下，看到星球内的朋友对我开通的知识星球的评价，说实话看到这个评价有个小小的惊喜，算是对我的一个认可，对于圈内的朋友表示感谢。
 
-![](http://www.mooooc.com/assets/images/2018/life/zsxqpj.jpeg)
+![](http://www.ityouknow.com/assets/images/2018/life/zsxqpj.jpeg)
 
 ## 第二个新功能开通：发布作业
 
@@ -33,7 +33,7 @@ excerpt: 运营好一个圈子和做好一个产品同样的不容易
 
 有一些朋友参与了进来，我对优质的内容进行了赞赏，其中有一个稳稳的幸福的朋友，分享了他的读书故事我觉得写的很好，大家可以一起看下。
 
-![](http://www.mooooc.com/assets/images/2018/life/xqzy.png)
+![](http://www.ityouknow.com/assets/images/2018/life/xqzy.png)
 
 ## 第三个功能：邀请返利
 
@@ -43,7 +43,7 @@ excerpt: 运营好一个圈子和做好一个产品同样的不容易
 
 其中群内有一个小明哥，特别擅长总结，隔个几天就会给大家分享一些实战精华内容，特别感谢小明，年底我要给小明发个最佳贡献奖，他现在也在找工作，如果有合适的岗位也可以联系他，他的邮箱是：2292567579@qq.com。我准备过一段时间，把小明哥的分享汇总一下发到微信公众号让大家一起学习一下。
 
-![](http://www.mooooc.com/assets/images/2018/life/liaotian.png)
+![](http://www.ityouknow.com/assets/images/2018/life/liaotian.png)
 
 运营知识星球之后，每天的习惯性动作就是打开知识星球app刷一下，看有木有朋友问我问题，有没有朋友分享新的内容。创建知识星球还有一些小福利，我会不时的送一些我的免费课程，分享一些我不太成熟的想法和建议，也希望和星球内的朋友一起成长，共同探讨对技术和生活的理解。
 
@@ -51,7 +51,7 @@ excerpt: 运营好一个圈子和做好一个产品同样的不容易
 
 好了我在知识星球等你，我们一起畅谈技术与梦想。
 
-![](http://www.mooooc.com/assets/images/2018/life/xingqiu.jpeg)
+![](http://www.ityouknow.com/assets/images/2018/life/xingqiu.jpeg)
 
 
 ## 后记

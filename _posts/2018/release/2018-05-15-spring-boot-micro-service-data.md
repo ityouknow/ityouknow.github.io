@@ -53,13 +53,13 @@ Spring Boot 基于 Spring 开发，Spirng Boot 本身并不提供 Spring 框架�
 
 Spring Boot 一经推出就受到开源社区的追捧，Spring Boot 官方提供了很多 Starters 方便集成第三方产品，很多主流的框架也纷纷进行了主动的集成，比如 Mybatis。Spring 官方非常重视 Spring Boot 的发展，在 Spring 官网首页进行重点推荐介绍，是目前 Spring 官方重点发展的项目之一。
 
-![](http://www.mooooc.com/assets/images/2017/chat/spring.png)  
+![](http://www.ityouknow.com/assets/images/2017/chat/spring.png)  
 
 
 Spring Boot 本身发展特别快，自从 2014 年 4 月发布 Spring Boot 1.0 之后，版本更新非常频繁，我在 2016 年使用的时候是 1.3.X，到现在 Spring Boot 已经发布了 Spring Boot 2.0，Spring Boot 2.0 集成了很多最新优秀的技术和新特性，并且对 Spring Boot 1.0 的 API 进行了大幅优化。Spring Boot 一经推出就迅速的成为一门热门的技术，从下图也可以看出这个结论：
 
 
-![](http://www.mooooc.com/assets/images/2018/springboot/springboot-hot.png)  
+![](http://www.ityouknow.com/assets/images/2018/springboot/springboot-hot.png)  
 
 上图为2014年到2018年 Spring Boot 的百度指数，可以看出 Spring Boot 2.0 的推出引发了搜索高峰。
 
@@ -114,5 +114,5 @@ Spring Boot 是 Java 领域微服务架构最优落地技术，Spring Boot+Mongo
 
 **专栏地址:[微服务技术架构和大数据治理实战](http://blog.51cto.com/cloumn/detail/4)**
 
-![](http://www.mooooc.com/assets/images/2018/springboot/51cto-spring-boot.jpg)
+![](http://www.ityouknow.com/assets/images/2018/springboot/51cto-spring-boot.jpg)
 

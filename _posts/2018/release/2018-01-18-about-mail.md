@@ -67,7 +67,7 @@ IMAP的一个与POP3的区别是：IMAP它只下载邮件的主题，并不是�
 
 ## 邮件发送流程
 
-![](http://www.mooooc.com/assets/images/2018/springboot/mail-process.png)
+![](http://www.ityouknow.com/assets/images/2018/springboot/mail-process.png)
 
 
 - 发信人在用户代理上编辑邮件，并写清楚收件人的邮箱地址；
