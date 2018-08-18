@@ -4,8 +4,10 @@ title:      昨天日入一万
 no-post-nav: true
 category: life
 tags: [life]
-excerpt: 一场头脑风暴之旅
+excerpt: 可以说这个圈子就是《就聊挣钱》的深入实践
 ---
+
+> 可以说这个圈子就是《就聊挣钱》的深入实践
 
 昨天我在公号发了一篇文章[任何一个想赚钱的程序员都可以看看这篇文章](http://www.ityouknow.com/life/2018/08/17/make-money.html)，介绍了新开的知识星球《就聊挣钱》。
 
