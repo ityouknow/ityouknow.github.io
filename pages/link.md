@@ -43,7 +43,6 @@ permalink: /link
 - [ityouknow](http://www.ityouknow.com/) - 个人独立博客
 - [github](https://github.com/ityouknow) -  我分享代码的地方
 - [博客园](https://www.cnblogs.com/ityouknow/) - 博客园个人博客，最开始写博客的地方
-- [微博](http://weibo.com/ityouknow) - 个人微博地址，虽然一直没有用过
 - [知乎](https://www.zhihu.com/people/ityouknow) - 个人知乎地址，用的不太多大多数都在潜水
 - [CSDN](http://blog.csdn.net/ityouknow)  - 最开始写博客的地方
 - [51CTO](http://blog.51cto.com/ityouknow) - 个人微博地址，虽然一直没有用过
