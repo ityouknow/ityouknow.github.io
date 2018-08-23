@@ -210,7 +210,7 @@ public class UserMapperTest {
 pom文件和上个版本一样，只是```application.properties```新增以下配置
 
 ``` properties
-mybatis.config-locations=classpath:mybatis/mybatis-config.xml
+mybatis.config-location=classpath:mybatis/mybatis-config.xml
 mybatis.mapper-locations=classpath:mybatis/mapper/*.xml
 ```
 
