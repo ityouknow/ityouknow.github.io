@@ -10,7 +10,7 @@ permalink: /link
 
 ## 友情链接
 
-- [匠心零度博客](http://www.jiangxinlingdu.com/) - 将来的你，一定会感激现在拼命努力的自己。 
+- [匠心零度博客](http://www.jiangxinlingdu.com/) - 以匠心，铸非凡！
 - [麦田技术博客](http://blog.itmyhome.com/) - 将来的你，一定会感激现在拼命努力的自己。 
 - [王登科-DK博客](http://www.wdk.pw) - 一个技术创业者  
 - [架构师小密圈](http://www.3xmq.com/) - 架构师的小圈子  
