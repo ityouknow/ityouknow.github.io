@@ -78,7 +78,7 @@ tags: [arch]
 
 ![](http://www.ityouknow.com/assets/images/2017/optimize/once1.png)
 
-目前网站和平台APP均是采用了两台服务来做均衡负责，每台服务器中安装了apache来做服务端接受处理，每台apache最大可以处理大约2000条连接。因此理论上目前网站或者APP可以处理大于4000个用户请求。如果要支持同时1万的请求，则需要5台apache服务器来支持,因此目前缺少6台web服务器。  
+目前网站和平台APP均是采用了两台服务来做均衡负载，每台服务器中安装了apache来做服务端接受处理，每台apache最大可以处理大约2000条连接。因此理论上目前网站或者APP可以处理大于4000个用户请求。如果要支持同时1万的请求，则需要5台apache服务器来支持,因此目前缺少6台web服务器。  
 升级服务器后的访问示意图  
 ![](http://www.ityouknow.com/assets/images/2017/optimize/once2.png)
 
