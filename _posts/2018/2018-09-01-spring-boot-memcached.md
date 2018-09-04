@@ -4,6 +4,7 @@ title: Spring Boot 2.0(八)：Spring Boot 集成 Memcached
 category: springboot
 tags: [springboot]
 keywords: Spring Boot,Memcached
+excerpt: Spring Boot 和 Memcached 的解决方案
 ---
 
 ## Memcached 介绍
