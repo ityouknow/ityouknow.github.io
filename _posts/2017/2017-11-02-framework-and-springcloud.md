@@ -80,7 +80,7 @@ SOA服务化的优点是，它可以根据需求通过网络对松散耦合的�
 ### 为什么考虑Spring Cloud
 
 - Spring Cloud来源于Spring，质量、稳定性、持续性都可以得到保证  
-- Spirng Cloud天然支持Spring Boot，更加便于业务落地。  
+- Spring Cloud天然支持Spring Boot，更加便于业务落地。  
 - Spring Cloud发展非常的快，从16年开始接触的时候相关组件版本为1.x，到现在将要发布2.x系列  
 - Spring Cloud是Java领域最适合做微服务的框架。  
 - 相比于其它框架,Spring Cloud对微服务周边环境的支持力度最大。  

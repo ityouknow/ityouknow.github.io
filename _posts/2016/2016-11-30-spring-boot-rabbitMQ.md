@@ -111,7 +111,7 @@ springboot集成RabbitMQ非常简单，如果只是简单的使用配置非常�
 配置rabbitmq的安装地址、端口以及账户信息
 
 ``` properties
-spring.application.name=spirng-boot-rabbitmq
+spring.application.name=Spring-boot-rabbitmq
 
 spring.rabbitmq.host=192.168.0.86
 spring.rabbitmq.port=5672
@@ -208,16 +208,16 @@ public void oneToMany() throws Exception {
 结果如下：
 
 ``` xml
-Receiver 1: spirng boot neo queue ****** 11
-Receiver 2: spirng boot neo queue ****** 12
-Receiver 2: spirng boot neo queue ****** 14
-Receiver 1: spirng boot neo queue ****** 13
-Receiver 2: spirng boot neo queue ****** 15
-Receiver 1: spirng boot neo queue ****** 16
-Receiver 1: spirng boot neo queue ****** 18
-Receiver 2: spirng boot neo queue ****** 17
-Receiver 2: spirng boot neo queue ****** 19
-Receiver 1: spirng boot neo queue ****** 20
+Receiver 1: Spring boot neo queue ****** 11
+Receiver 2: Spring boot neo queue ****** 12
+Receiver 2: Spring boot neo queue ****** 14
+Receiver 1: Spring boot neo queue ****** 13
+Receiver 2: Spring boot neo queue ****** 15
+Receiver 1: Spring boot neo queue ****** 16
+Receiver 1: Spring boot neo queue ****** 18
+Receiver 2: Spring boot neo queue ****** 17
+Receiver 2: Spring boot neo queue ****** 19
+Receiver 1: Spring boot neo queue ****** 20
 
 ```
 
@@ -243,18 +243,18 @@ Receiver 1: spirng boot neo queue ****** 20
 结果如下：
 
 ``` xml
-Receiver 1: spirng boot neo queue ****** 20
-Receiver 2: spirng boot neo queue ****** 20
-Receiver 1: spirng boot neo queue ****** 21
-Receiver 2: spirng boot neo queue ****** 21
-Receiver 1: spirng boot neo queue ****** 22
-Receiver 2: spirng boot neo queue ****** 22
-Receiver 1: spirng boot neo queue ****** 23
-Receiver 2: spirng boot neo queue ****** 23
-Receiver 1: spirng boot neo queue ****** 24
-Receiver 2: spirng boot neo queue ****** 24
-Receiver 1: spirng boot neo queue ****** 25
-Receiver 2: spirng boot neo queue ****** 25
+Receiver 1: Spring boot neo queue ****** 20
+Receiver 2: Spring boot neo queue ****** 20
+Receiver 1: Spring boot neo queue ****** 21
+Receiver 2: Spring boot neo queue ****** 21
+Receiver 1: Spring boot neo queue ****** 22
+Receiver 2: Spring boot neo queue ****** 22
+Receiver 1: Spring boot neo queue ****** 23
+Receiver 2: Spring boot neo queue ****** 23
+Receiver 1: Spring boot neo queue ****** 24
+Receiver 2: Spring boot neo queue ****** 24
+Receiver 1: Spring boot neo queue ****** 25
+Receiver 2: Spring boot neo queue ****** 25
 ```
 
 > 结论：和一对多一样，接收端仍然会均匀接收到消息

@@ -68,7 +68,7 @@ Spring Boot可以离开Spring Cloud独立使用开发项目，但是Spring Cloud
 
 2、学习
 
-有很多种方式，现在Spring Cloud越来越火的情况下，各种资源也越来越丰富，查看官方文档和示例，现在很多优秀的博客在写spirng cloud的相关教程，我这里收集了一些Spring Boot和Spring Cloud的相关资源可以参考，找到博客也就找到人和组织了。
+有很多种方式，现在Spring Cloud越来越火的情况下，各种资源也越来越丰富，查看官方文档和示例，现在很多优秀的博客在写Spring cloud的相关教程，我这里收集了一些Spring Boot和Spring Cloud的相关资源可以参考，找到博客也就找到人和组织了。
 
 - [Spring Boot学习资料汇总](http://www.ityouknow.com/springboot/2015/12/30/springboot-collect.html)：
 - [Spring Cloud学习资料汇总](http://www.ityouknow.com/springcloud/2016/12/30/springcloud-collect.html) ：
@@ -122,7 +122,7 @@ Turbine、zipkin可以用来做熔断和性能监控；动态上下线某个节�
 
 以上就是一个完整的Spring Cloud生态图。
 
-最后送一个完整示例的Spirng Cloud开源项目等你去[spring-cloud-examples](https://github.com/ityouknow/spring-cloud-examples)
+最后送一个完整示例的Spring Cloud开源项目等你去[spring-cloud-examples](https://github.com/ityouknow/spring-cloud-examples)
 
 -------------
 

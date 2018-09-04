@@ -192,7 +192,7 @@ hello 小明，this is two messge
 #zuul.routes.api-a.serviceId=spring-cloud-producer
 ```
 
-重新启动后，访问```http://localhost:8888/spring-cloud-producer/hello?name=%E5%B0%8F%E6%98%8E```，测试返回结果和上述示例相同，说明spirng cloud zuul默认已经提供了转发功能。
+重新启动后，访问```http://localhost:8888/spring-cloud-producer/hello?name=%E5%B0%8F%E6%98%8E```，测试返回结果和上述示例相同，说明Spring cloud zuul默认已经提供了转发功能。
 
 到此zuul的基本使用我们就介绍完了。关于zuul更高级使用，我们下篇再来介绍。
 
