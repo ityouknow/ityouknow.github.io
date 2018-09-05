@@ -2,6 +2,7 @@
 layout: post
 title: Spring Boot 2.0(八)：Spring Boot 集成 Memcached
 category: springboot
+no-post-nav: true
 tags: [springboot]
 keywords: Spring Boot,Memcached
 excerpt: Spring Boot 和 Memcached 的解决方案
@@ -13,7 +14,7 @@ Memcached 是一个高性能的分布式内存对象缓存系统，用于动态W
 
 因为 Spring Boot 没有针对 Memcached 提供对应的组建包，因此需要我们自己来集成。官方推出的 Java 客户端 Spymemcached 是一个比较好的选择之一。
 
-Spymemcached  介绍
+**Spymemcached 介绍**
 
 Spymemcached 最早由 Dustin Sallings 开发，Dustin 后来和别人一起创办了 Couchbase (原NorthScale)，职位为首席架构师。2014 加入 Google。
 
