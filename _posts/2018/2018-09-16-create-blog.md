@@ -52,12 +52,7 @@ Jekyll 是一个简单的博客形态的静态站点生产机器。它有一个�
 我的博客最初使用的是[Yummy-Jekyll](https://github.com/DONGChuan/Yummy-Jekyll)，但这个主题已经尽两年多都没有更新了。因此后期我在这个主题的基础上做了一些改动，其中有依赖组件的更新，结合个人情况对个别页面进行了改版，就成为了现在的样子：
 
 ![](http://www.ityouknow.com/assets/images/2018/it/blog1.png)
-![](http://www.ityouknow.com/assets/images/2018/it/blog2.png)
-![](http://www.ityouknow.com/assets/images/2018/it/blog3.png)
-![](http://www.ityouknow.com/assets/images/2018/it/blog4.png)
-![](http://www.ityouknow.com/assets/images/2018/it/blog5.png)
-![](http://www.ityouknow.com/assets/images/2018/it/blog6.png)
-![](http://www.ityouknow.com/assets/images/2018/it/blog7.png)
+
 
 使用这个主题的原因是，我比较喜欢简洁大气的风格，并且此博客主题对代码展示支持良好。
 
