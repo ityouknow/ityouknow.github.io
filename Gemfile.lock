@@ -46,7 +46,7 @@ GEM
     erubis (2.7.0)
     faraday (0.13.1)
       multipart-post (>= 1.2, < 3)
-    ffi (1.9.18-x64-mingw32)
+    ffi (~> 1.9.24)
     forwardable-extended (2.6.0)
     geo_pattern (1.2.1)
       color (~> 1.5)
