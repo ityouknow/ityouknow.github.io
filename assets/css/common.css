@@ -251,3 +251,7 @@
 .archives-list li{ width: 50%; line-height: 1.5; float: left; margin: 10px 0; }
 .archives-list li span{ color: #666; }
 .archives-list h3{ clear: both; margin: 0; padding: 20px 0 10px; }
+
+blockquote {
+    font-size: 15.5px;
+}
