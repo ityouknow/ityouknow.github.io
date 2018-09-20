@@ -59,85 +59,85 @@ paginate: 10
 paginate_path: 'page:num'
 
 # Navigation. If you do not like these modules, just remove them :D
-navs:
+# navs:
 
-  -
-    href: /
-    label: Home
+  # -
+    # href: /
+    # label: Home
 
-  -
-    href: /spring-boot.html
-    label: Spring-Boot
+  # -
+    # href: /spring-boot.html
+    # label: Spring-Boot
 
-  -
-    href: /spring-cloud.html
-    label: Spring-Cloud
+  # -
+    # href: /spring-cloud.html
+    # label: Spring-Cloud
 
-  -
-    href: /archives.html
-    label: Archives
+  # -
+    # href: /archives.html
+    # label: Archives
 
-  -
-    href: /link.html
-    label: Link
+  # -
+    # href: /link.html
+    # label: Link
 
-  -
-    href: /about.html
-    label: About
+  # -
+    # href: /about.html
+    # label: About
 
 
 # labels. my blog key words
-labels:
+# labels:
 
-  -
-    href: /share/2017/10/01/resource-sharing.html
-    name: 资源
+  # -
+    # href: /share/2017/10/01/resource-sharing.html
+    # name: 资源
 
-  -
-    href: /life.html
-    name: 故事
+  # -
+    # href: /life.html
+    # name: 故事
 
-  -
-    href: /arch.html
-    name: 架构
+  # -
+    # href: /arch.html
+    # name: 架构
     
-  -
-    href: /jvm.html
-    name: Jvm
+  # -
+    # href: /jvm.html
+    # name: Jvm
 
-  -
-    href: /fastdfs.html
-    name: FastDFS
+  # -
+    # href: /fastdfs.html
+    # name: FastDFS
 
-  -
-    href: /mongodb.html
-    name: MongoDB
+  # -
+    # href: /mongodb.html
+    # name: MongoDB
 
-  -
-    href: /docker.html
-    name: Docker
+  # -
+    # href: /docker.html
+    # name: Docker
 
-  -
-    href: /open-source.html
-    name: Code   
+  # -
+    # href: /open-source.html
+    # name: Code   
 
 # selected articles
-classes:
+# classes:
 
-  -
-    href: /life.html
-    name: 我的故事
-    describe: 生活就是故事，故事就是生活
+  # -
+    # href: /life.html
+    # name: 我的故事
+    # describe: 生活就是故事，故事就是生活
 
-  -
-    href: /arch.html
-    name: 架构师之路
-    describe: 一个架构师的自我修养
+  # -
+    # href: /arch.html
+    # name: 架构师之路
+    # describe: 一个架构师的自我修养
 
-  -
-    href: /jvm.html
-    name: Jvm系列文章
-    describe: Java之根基，Java程序员必学
+  # -
+    # href: /jvm.html
+    # name: Jvm系列文章
+    # describe: Java之根基，Java程序员必学
 
 
 # ---------------- #
