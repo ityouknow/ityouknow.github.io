@@ -171,19 +171,19 @@ comments_provider: gitalk
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username: ityouknow
+    username: devilyang123
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: ityouknow
-    repo: blog-comments
+    owner: devilyang123
+    repo: devilyang123.github.io
     oauth:
-        client_id: 61bfc53d957e74e78f8f
-        client_secret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
+        client_id: 2e28f81e74668aa6cc31
+        client_secret: e464edc229f494c1545c391f18faa4558d0df9b7
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: ityouknow
-    repo: blog-comments
-    clientID: 61bfc53d957e74e78f8f
-    clientSecret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
+    owner: devilyang123
+    repo: devilyang123.github.io
+    clientID: 2e28f81e74668aa6cc31
+    clientSecret: e464edc229f494c1545c391f18faa4558d0df9b7
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : true
