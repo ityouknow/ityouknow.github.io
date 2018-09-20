@@ -59,11 +59,11 @@ paginate: 10
 paginate_path: 'page:num'
 
 # Navigation. If you do not like these modules, just remove them :D
-# navs:
+navs:
 
-  # -
-    # href: /
-    # label: Home
+  -
+    href: /
+    label: Home
 
   # -
     # href: /spring-boot.html
