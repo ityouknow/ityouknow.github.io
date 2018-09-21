@@ -11,4 +11,4 @@
 
 ## 我的微信号
 
-![](http://www.ityouknow.com/assets/images/keeppuresmile_430.jpg)
+![](https://handsomzohn.github.io/assets/images/handSomZohn.png)
