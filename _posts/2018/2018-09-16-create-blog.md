@@ -113,7 +113,7 @@ url: https://github_username.github.io
 
 ![](http://www.ityouknow.com/assets/images/2018/it/blogcdn.png)
 
-> 空框内，需要填写自己`github_username`值。
+> 红框内，需要填写自己`github_username`值。
 
 然后重新打开项目的 Settings > GitHub Pages 页面，Custom domain 下的输入框输入刚才设置的域名：xxx.com，点击保存即可。
 
