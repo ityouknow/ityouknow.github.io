@@ -56,10 +56,6 @@ excerpt: 你觉得呢。
 - 无所谓
 
 可以给我留言。
---------
-
-[今晚我在gitchat上有一个**免费的**技术分享，感兴趣点我直达](https://gitbook.cn/m/mazi/activity/5b8f9c603ac0c61dcc7dbed0?sceneId=52f717b0bc7911e8a584674408362b63)
-
 
 
 
