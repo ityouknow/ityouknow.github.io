@@ -18,7 +18,7 @@ favicon: favicon.png
 repository: handsomZohn/handsomZohn.github.io
 github_url: https://github.com/handsomZohn
 url: https://www.handsomzohn.xyz
-enforce_ssl: handsomZohn.com
+enforce_ssl: handsomZohn.xyz
 
 ## Gem
 plugins:
