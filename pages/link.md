@@ -14,7 +14,6 @@ permalink: /link
 - [麦田技术博客](http://blog.itmyhome.com/) - 将来的你，一定会感激现在拼命努力的自己。 
 - [王登科-DK博客](http://www.wdk.pw) - 一个技术创业者  
 - [架构师小密圈](http://www.3xmq.com/) - 架构师的小圈子  
-- [spring4all](http://spring4all.com/) - Spring For All 垂直技术社区  
 - [猿天地](http://cxytiandi.com/) - 天地是一个综合性的网站,以程序猿用户为主,提供各种开发相关的内容。     
 - [rickiyeat的博客](http://blog.csdn.net/rickiyeat) - hadoop、spring boot/cloud技术博客   
 - [丑胖侠的技术生涯](http://blog.csdn.net/wo541075754) - 每一步成长都想与你分享    
