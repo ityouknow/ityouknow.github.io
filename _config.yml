@@ -18,8 +18,8 @@ favicon: favicon.png
 repository: peerless24/peerless24.github.io
 github_url: https://github.com/peerless24
 cnblog_url: http://www.cnblogs.com/peerless24
-url: http://peerless24.github.io
-enforce_ssl: ityouknow.com
+url: http://www.fuyingfeng.com
+enforce_ssl: www.fuyingfeng.com
 
 ## Gem
 plugins:
