@@ -185,11 +185,6 @@ Spring 并没有重复制造轮子，它只是将目前各家公司开发的比�
 
 > Spring ioc/aop > Spring > Spring Boot > Spring Cloud 
 
-
-如果大家想系列学习 Spring Boot 课程，欢迎大家关注我在 gitchat 上面的课程：快速学习 Spring Boot 技术栈，他们官网正在做活动，有很大的优惠。
-
-![](http://www.ityouknow.com/assets/images/2018/springboot/springboot-gitchat.png)
-
 给大家推荐一个专门收集 Spring Boot 学习资源的网站：[Spring Boot 中文索引](http://springboot.fun/)  
 
 
