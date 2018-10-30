@@ -18,46 +18,46 @@ tags: [springboot]
 1、手动下载[favorites-web](https://github.com/cloudfavorites/favorites-web)代码到本地，或者通过idea的VCS功能下载到本地。
 
  
-![](http://www.ityouknow.com/assets/images/2017/cloudfavorites/gradle1.png)
+![](http://www.itmind.net/assets/images/2017/cloudfavorites/gradle1.png)
 
 
 2、导入项目
 
  
-![](http://www.ityouknow.com/assets/images/2017/cloudfavorites/gradle2.png)
+![](http://www.itmind.net/assets/images/2017/cloudfavorites/gradle2.png)
 
 
  
-![](http://www.ityouknow.com/assets/images/2017/cloudfavorites/gradle3.png)
+![](http://www.itmind.net/assets/images/2017/cloudfavorites/gradle3.png)
 
 
 3、选择gradle的方式导入
 
  
-![](http://www.ityouknow.com/assets/images/2017/cloudfavorites/gradle4.png)
+![](http://www.itmind.net/assets/images/2017/cloudfavorites/gradle4.png)
 
 
  
-![](http://www.ityouknow.com/assets/images/2017/cloudfavorites/gradle5.png)
+![](http://www.itmind.net/assets/images/2017/cloudfavorites/gradle5.png)
 
 
 4、导入完成之后，选择Project Stucture查看项目依赖(最新版本已经修复，使用最新版本构建可以跳过第4、5步)
 
 
  
-![](http://www.ityouknow.com/assets/images/2017/cloudfavorites/gradle6.png)
+![](http://www.itmind.net/assets/images/2017/cloudfavorites/gradle6.png)
 
 
 发现有部分的jar包级别是Provided  
 
  
-![](http://www.ityouknow.com/assets/images/2017/cloudfavorites/gradle7.png)
+![](http://www.itmind.net/assets/images/2017/cloudfavorites/gradle7.png)
 
 
 5、将标红色部分的jar级别由Provided改为Compile(最新版本已经修复，使用最新版本构建可以跳过第4、5步)
 
  
-![](http://www.ityouknow.com/assets/images/2017/cloudfavorites/gradle8.png)
+![](http://www.itmind.net/assets/images/2017/cloudfavorites/gradle8.png)
 
 修改对应的配置文件为本地配置信息，在运行Application项目便可成功启动
 
@@ -68,7 +68,7 @@ tags: [springboot]
 
 
  
-![](http://www.ityouknow.com/assets/images/2017/cloudfavorites/mvn3.png)
+![](http://www.itmind.net/assets/images/2017/cloudfavorites/mvn3.png)
 
 
 感谢@souvc提供mvn的支持！  

@@ -13,11 +13,11 @@ excerpt: 说起我的博客那是一个故事
 
 通过这个链接我打开了作者的博客，发现这个博客主题简洁、大方，整体淡蓝色的风格深受我的喜欢。下图是它最初的模样：
 
-![](http://www.ityouknow.com/assets/images/2018/life/yummy.png)
+![](http://www.itmind.net/assets/images/2018/life/yummy.png)
 
 后面我根据自己的情况，做了一些定制，就成了现在的样子：
 
-![](http://www.ityouknow.com/assets/images/2018/life/ityouknow.png)
+![](http://www.itmind.net/assets/images/2018/life/ityouknow.png)
 
 
 刚开始接触 Jekyll 的时候对它并不是很了解，Markdown 语法也只是停留在”听说过“这个阶段，看到这个主题后，花了一点时间尝试着按照它的语法写了一篇文章，发现有一种用敲代码的方式去写文章的感觉，文章渲染之后的效果也很好。掌握了这个技能之后，我的写作利器就成了 Sublime text 3 + Markdown 组件 + Github + Jekyll。
@@ -40,13 +40,13 @@ excerpt: 说起我的博客那是一个故事
 
 **备案需要25天！**
 
-![](http://www.ityouknow.com/assets/images/2018/life/beian.png)
+![](http://www.itmind.net/assets/images/2018/life/beian.png)
 
 我在5月11号在腾讯云提交的备案请求，因为需要填表、照相花费了大概一周的时间，将所有的资料初审完成之后，腾讯云客服通知我说，网站在备案期间必须关闭，不然有可能备案不通过。没办法那段时间只能将域名解析关闭掉，同时将博客链接到：[www.ityouknow.com](http://www.ityouknow.com/)，在备案的期间，天天有网友给我留言、发邮件或者微信、QQ沟通说是不是我的博客挂掉了，每天给大家解释真的是心累。
 
 眼看着一周过去了，两周过去了，备案还是没有下来，我隔两天就登录系统看下情况，终于在6月4号下午收到了备案通过的通知：
 
-![](http://www.ityouknow.com/assets/images/2018/life/beian2.png)
+![](http://www.itmind.net/assets/images/2018/life/beian2.png)
 
 其实我到现在也想不通，就那么一点点信息，为什么备案需要20个工作日，效率低的让人崩溃。
 

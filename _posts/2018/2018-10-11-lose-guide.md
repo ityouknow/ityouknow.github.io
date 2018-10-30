@@ -9,7 +9,7 @@ excerpt: 初心还在。
 
 我是纯洁的微笑，我还在。
 
-![](http://www.ityouknow.com/assets/images/2018/life/find.jpg)
+![](http://www.itmind.net/assets/images/2018/life/find.jpg)
 
 很多人给我留言说，你一个技术人就不要瞎操心别的事情了，好好搞好你的技术就行了。首先你是一个人，一个有是非观念的人，一个有独立人格的人，其次你的身份才是技术人！正是因为广大麻木不仁的民众，才会有现如今太多的不作为。
 
@@ -25,7 +25,7 @@ excerpt: 初心还在。
 
 以后类似敏感的文章，我都会优先发送到这个公号内，以避免不必要的一些麻烦，也劳烦各位读者大人们关注。准备了一些小礼物，关注后公号内回复：1024 即可获取。
 
-![](http://www.ityouknow.com/assets/images/2018/life/flyever.jpg)
+![](http://www.itmind.net/assets/images/2018/life/flyever.jpg)
 
 2、[我的博客](http://www.ityouknow.com/)
 
@@ -49,4 +49,4 @@ excerpt: 初心还在。
 
 最后大家也可以添加我的个人微信号，不过它是个机器人，大家给它回复：加群，可以自动拉你去交流群外，其它的内容不一定可以回复你。
 
-![](http://www.ityouknow.com/assets/images/2018/life/group.jpg)
+![](http://www.itmind.net/assets/images/2018/life/group.jpg)

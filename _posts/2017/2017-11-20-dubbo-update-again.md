@@ -23,7 +23,7 @@ Dubbo 是阿里巴巴公司一个开源的高性能服务框架，致力于提�
 - 集群容错，提供基于接口方法的透明远程过程调用，包括多协议支持，以及软负载均衡，失败容错，地址路由，动态配置等集群支持。
 - 自动发现，基于注册中心目录服务，使服务消费方能动态的查找服务提供方，使地址透明，使服务提供方可以平滑增加或减少机器。 
 
-![](http://www.ityouknow.com/assets/images/2017/architecture/dubbo-architecture.png)  
+![](http://www.itmind.net/assets/images/2017/architecture/dubbo-architecture.png)  
 
 
 ## Dubbo发展史
@@ -40,7 +40,7 @@ Dubbo 开源之后，框架发展比较迅速，几乎两三个月会发布一�
 
 2014 年的 10 月 20 号，当当网 Fork 了阿里的一个 Dubbo 版本开始维护，并命名为 dubbox-2.8.0。值得注意的是，当当网扩展 Dubbo 服务框架支持 REST 风格远程调用，并且跟随着 ZooKeepe 和 Spring 升级了对应的版本。之后 Dubbox 一直在小版本维护，2015 年 3 月 31 号发布了最后一个版本 **dubbox-2.8.4**。
 
-![](http://www.ityouknow.com/assets/images/2017/architecture/dubbox_rest.jpg)  
+![](http://www.itmind.net/assets/images/2017/architecture/dubbox_rest.jpg)  
 
 ## Dubbo团队这三个月都做了什么
 
@@ -164,7 +164,7 @@ MonitorService初次调用，如遇zk不可达，当前版本会忽略monitor数
 - Dubbo 有更强大的后台管理，Dubbo 提供的后台管理 Dubbo Admin 功能强大，提供了路由规则、动态配置、访问控制、权重调节、均衡负载等诸多强大的功能。  
 - 可以限制某个 IP 流量的访问权限，设置不同服务器分发不同的流量权重，并且支持多种算法，利用这些功能我们可以在线上做灰度发布、故障转移等，Spring Cloud 到现在还不支持灰度发布、流量权重等功能。
 
-![](http://www.ityouknow.com/assets/images/2017/architecture/dubbo_admin.png)  
+![](http://www.itmind.net/assets/images/2017/architecture/dubbo_admin.png)  
 
 **所以Dubbo专注于服务治理；Spring Cloud关注于微服务架构生态。**
 

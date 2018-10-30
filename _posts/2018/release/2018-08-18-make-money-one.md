@@ -13,7 +13,7 @@ excerpt: 可以说这个圈子就是《就聊挣钱》的深入实践
 
 文章发出后瞬间拥入超过一百多人，因为入群的要求是每人做一个自我介绍，至少分享一个创意、点子、想法。导致昨天的自我介绍+创意想法近一百多个，直接导致《就聊挣钱》星球当天持续活跃在知识星球的排行榜中，最高排名到第二。
 
-![](http://www.ityouknow.com/assets/images/2018/life/paihang.png)
+![](http://www.itmind.net/assets/images/2018/life/paihang.png)
 
 我仔细看了每一个自我介绍和创意分享，发现入圈的朋友有很多我认识和不认识的大佬，有来自BATMD的程序员，有来自萌新的女程序猿，有来自新西兰的网络大咖，有很多同样做公号的兄弟，也有来自其它行业的朋友。其中有不少朋友分享了他的创意+想法，有两个创意分享被评为精选，赞赏圈费的六分之一。
 
@@ -21,19 +21,19 @@ excerpt: 可以说这个圈子就是《就聊挣钱》的深入实践
 
 自我介绍：
 
-![](http://www.ityouknow.com/assets/images/2018/life/jieshao1.jpg)
-![](http://www.ityouknow.com/assets/images/2018/life/jieshao2.jpg)
-![](http://www.ityouknow.com/assets/images/2018/life/jieshao3.jpg)
+![](http://www.itmind.net/assets/images/2018/life/jieshao1.jpg)
+![](http://www.itmind.net/assets/images/2018/life/jieshao2.jpg)
+![](http://www.itmind.net/assets/images/2018/life/jieshao3.jpg)
 
 创意分享：
 
-![](http://www.ityouknow.com/assets/images/2018/life/anli1.jpg)
-![](http://www.ityouknow.com/assets/images/2018/life/anli2.jpg)
-![](http://www.ityouknow.com/assets/images/2018/life/anli3.jpg)
+![](http://www.itmind.net/assets/images/2018/life/anli1.jpg)
+![](http://www.itmind.net/assets/images/2018/life/anli2.jpg)
+![](http://www.itmind.net/assets/images/2018/life/anli3.jpg)
 
 到了晚上有朋友给我发消息说看见有人在朋友圈说我的知识星球，我让帮忙给截了一个图，看了下觉得挺有意思：
 
-![](http://www.ityouknow.com/assets/images/2018/life/pyq.jpg)
+![](http://www.itmind.net/assets/images/2018/life/pyq.jpg)
 
 完整内容如下：
 
@@ -60,4 +60,4 @@ excerpt: 可以说这个圈子就是《就聊挣钱》的深入实践
 
 关于圈子的详细介绍大家可以看上一篇文章《[任何一个想赚钱的程序员都可以看看这篇文章](http://www.ityouknow.com/life/2018/08/17/make-money.html)》
 
-![](http://www.ityouknow.com/assets/images/2018/life/zhengqian.png)
+![](http://www.itmind.net/assets/images/2018/life/zhengqian.png)

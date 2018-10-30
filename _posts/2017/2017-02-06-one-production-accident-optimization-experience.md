@@ -13,7 +13,7 @@ tags: [arch]
 其实以前也会有陆续的用户反馈不减少，给客户以小米抢手机为例子忽悠了过去，这次用户反馈太过强烈，才让我们重视了起来。我们前端一共三款产品，app、官网、H5，其中app使用量最大，官网其次，H5平时使用量极少但是做活动期间流量会暴增（活动一般都是H5游戏居多，H5也便于推广营销）,前端的三款产品都是分别使用lvs负载到后端的两台web服务器中（如下图），这次用户反馈基本在web和app端，所以重点观察这四台服务器。
 
  
-![](http://www.ityouknow.com/assets/images/2017/optimize/once1.png)
+![](http://www.itmind.net/assets/images/2017/optimize/once1.png)
 
 首先怀疑网络带宽是否被涌满，找到网络工程师通过工具来监控，在抢标的时候带宽最高使用率只有70%左右，随排除之；再次怀疑web服务器是否抗不住了，使用top命令查看官网负载的两台服务器，在抢标的瞬间会飙到6-8左右，抢标后也慢慢的恢复了正常，app两台服务器高峰到10-12，随后也恢复正常。
 
@@ -23,11 +23,11 @@ tags: [arch]
 
 在抢标过程中继续观察，apache的连接数在抢标的时候仍然可以飙到2600-2800之间，根据客服反馈，仍然有很多用户反馈抢标的问题，但比之前稍微好一点，但是有零星的用户反馈已经抢到标的，最后又给回退了。然后继续观察数据库服务器，使用top命令和MySQLWorkbench查看mysql主库和从库的各项负载吓一跳（如下图），mysql服务器主库的各项指标均已经达到峰值，而从库几乎没有太大压力。
 
-![](http://www.ityouknow.com/assets/images/2017/optimize/mysql_before.jpg)
+![](http://www.itmind.net/assets/images/2017/optimize/mysql_before.jpg)
 
 跟踪代码发现，三端的业务代码全部连接主库，从库只有后台的查询业务在使用，于是立刻启动改造；将除过抢标过程中的查询外，其它页面或者业务的所有查询改造为查询从库，改造之后观察，发现主库的压力明显减少，从库的压力开始上来了。如下图：
 
-![](http://www.ityouknow.com/assets/images/2017/optimize/mysql_after.jpg)
+![](http://www.itmind.net/assets/images/2017/optimize/mysql_after.jpg)
 
 
 根据客服的反馈，改造之后抢到标回退的问题几乎没有了，抢标过程中页面打不开或者打开慢的问题有一定的缓解但仍有部分用户反馈此问题，根据上面各项目分析结果得出：
@@ -48,7 +48,7 @@ tags: [arch]
 
 ### 2 用户访问示意图
 
-![](http://www.ityouknow.com/assets/images/2017/optimize/userVisit.jpg)
+![](http://www.itmind.net/assets/images/2017/optimize/userVisit.jpg)
 
 目前平台有三款产品面对用户，平台官网、平台APP、平台小网页；其中平台官网和平台APP的压力比较大。
 
@@ -76,22 +76,22 @@ tags: [arch]
 1、web服务器解决方案  
 单个用户访问web服务的示意图
 
-![](http://www.ityouknow.com/assets/images/2017/optimize/once1.png)
+![](http://www.itmind.net/assets/images/2017/optimize/once1.png)
 
 目前网站和平台APP均是采用了两台服务来做均衡负载，每台服务器中安装了apache来做服务端接受处理，每台apache最大可以处理大约2000条连接。因此理论上目前网站或者APP可以处理大于4000个用户请求。如果要支持同时1万的请求，则需要5台apache服务器来支持,因此目前缺少6台web服务器。  
 升级服务器后的访问示意图  
-![](http://www.ityouknow.com/assets/images/2017/optimize/once2.png)
+![](http://www.itmind.net/assets/images/2017/optimize/once2.png)
 
  
 2、数据库解决方案  
 当前数据库的部署方案  
-![](http://www.ityouknow.com/assets/images/2017/optimize/once3.png)
+![](http://www.itmind.net/assets/images/2017/optimize/once3.png)
 
  
 1)主从分离解决主库80%的查询压力。目前平台官网、APP均连接mysql主库导致主库压力倍增，把服务中的查询全部迁移到从数据库可以大量减轻主库的压力。
 
 2)增加缓存服务器。当从库查询到达峰值的时候，也会影响主从的同步，从而影响交易，因此对用户经常使用的查询进行缓存以达到减少数据库的请求压力。需要新增三台缓存服务器搭建redis集群。  
- ![](http://www.ityouknow.com/assets/images/2017/optimize/once4.png)
+ ![](http://www.itmind.net/assets/images/2017/optimize/once4.png)
 
 3、其它优化  
 1）官网首页静态化，从cnzz统计来分析，首页占比网站的整体访问量的15%左右，对于首页不经常变动的数据通过静态化来处理，提升官网打开的流畅度。
@@ -105,20 +105,20 @@ tags: [arch]
 
 1、平台最大的压力来自于数据库，需要将现在的一主一从，改为一主四从。官网/app/小网页产生的大量查询，由虚IP分发到三台从库，后台管理查询走另外的一个从库。数据库需要新增三台服务器  
 数据库升级后的示意图  
-![](http://www.ityouknow.com/assets/images/2017/optimize/once5.png)
+![](http://www.itmind.net/assets/images/2017/optimize/once5.png)
  
 2、增加缓存减少数据的压力，需要新增两台大内存的缓存服务器  
-![](http://www.ityouknow.com/assets/images/2017/optimize/once6.png)
+![](http://www.itmind.net/assets/images/2017/optimize/once6.png)
  
 3、需要新增三台web服务器分解用户访问请求  
 
 **app需要新增两台服务器**  
 在抢标过程中app服务器压力最大，需要新增两台服务器，配置完成后的示意图  
-![](http://www.ityouknow.com/assets/images/2017/optimize/once7.png)
+![](http://www.itmind.net/assets/images/2017/optimize/once7.png)
 
 **官网需要新增一台服务器**  
 官网在抢标过程也有一定的压力，需要新增一条服务器，完成后示意图如下：  
-![](http://www.ityouknow.com/assets/images/2017/optimize/once8.png)
+![](http://www.itmind.net/assets/images/2017/optimize/once8.png)
 
 > 总合计之后需要购置8台服务器，其中有两台要求有大内存（64G以上）
 

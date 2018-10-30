@@ -88,7 +88,7 @@ storage接受到写文件请求时，会根据配置好的规则（后面会介�
 **meta data** ：文件相关属性，键值对（ Key Value Pair） 方式，如：width=1024,heigth=768 。
 
 
-![](http://www.ityouknow.com/assets/images/2018/fastdfs/fastdfs_arch.png)
+![](http://www.itmind.net/assets/images/2018/fastdfs/fastdfs_arch.png)
 
 Tracker相当于FastDFS的大脑，不论是上传还是下载都是通过tracker来分配资源；客户端一般可以使用ngnix等静态服务器来调用或者做一部分的缓存；存储服务器内部分为卷（或者叫做组），卷于卷之间是平行的关系，可以根据资源的使用情况随时增加，卷内服务器文件相互同步备份，以达到容灾的目的。
 
@@ -96,7 +96,7 @@ Tracker相当于FastDFS的大脑，不论是上传还是下载都是通过tracke
 
 首先客户端请求Tracker服务获取到存储服务器的ip地址和端口，然后客户端根据返回的IP地址和端口号请求上传文件，存储服务器接收到请求后生产文件，并且将文件内容写入磁盘并返回给客户端file_id、路径信息、文件名等信息，客户端保存相关信息上传完毕。
 
-![](http://www.ityouknow.com/assets/images/2018/fastdfs/upload.png)
+![](http://www.itmind.net/assets/images/2018/fastdfs/upload.png)
 
 内部机制如下：
 
@@ -140,7 +140,7 @@ Tracker相当于FastDFS的大脑，不论是上传还是下载都是通过tracke
 
 客户端带上文件名信息请求Tracker服务获取到存储服务器的ip地址和端口，然后客户端根据返回的IP地址和端口号请求下载文件，存储服务器接收到请求后返回文件给客户端。
 
-![](http://www.ityouknow.com/assets/images/2018/fastdfs/download.png)
+![](http://www.itmind.net/assets/images/2018/fastdfs/download.png)
 
 跟upload file一样，在download file时客户端可以选择任意tracker server。tracker发送download请求给某个tracker，必须带上文件名信息，tracke从文件名中解析出文件的group、大小、创建时间等信息，然后为该请求选择一个storage用来服务读请求。由于group内的文件同步时在后台异步进行的，所以有可能出现在读到时候，文件还没有同步到某些storage server上，为了尽量避免访问到这样的storage，tracker按照如下规则选择group内可读的storage。
 
@@ -155,7 +155,7 @@ Tracker相当于FastDFS的大脑，不论是上传还是下载都是通过tracke
 当一个文件上传成功后，客户端马上发起对该文件下载请求（或删除请求）时，tracker是如何选定一个适用的存储服务器呢？
 其实每个存储服务器都需要定时将自身的信息上报给tracker，这些信息就包括了本地同步时间（即，同步到的最新文件的时间戳）。而tracker根据各个存储服务器的上报情况，就能够知道刚刚上传的文件，在该存储组中是否已完成了同步。同步信息上报如下图：
 
-![](http://www.ityouknow.com/assets/images/2018/fastdfs/sync.png)
+![](http://www.itmind.net/assets/images/2018/fastdfs/sync.png)
 
 写文件时，客户端将文件写至group内一个storage server即认为写文件成功，storage server写完文件后，会由后台线程将文件同步至同group内其他的storage server。
 
@@ -169,7 +169,7 @@ storage的同步进度会作为元数据的一部分汇报到tracker上，tracke
 
 说到下载就不得不提文件索引（又称：FID）的精巧设计了。文件索引结构如下图，是客户端上传文件后存储服务器返回给客户端，用于以后访问该文件的索引信息。文件索引信息包括：组名，虚拟磁盘路径，数据两级目录，文件名。
 
-![](http://www.ityouknow.com/assets/images/2018/fastdfs/id.png)
+![](http://www.itmind.net/assets/images/2018/fastdfs/id.png)
 
 - 组名：文件上传后所在的存储组名称，在文件上传成功后有存储服务器返回，需要客户端自行保存。
 - 虚拟磁盘路径：存储服务器配置的虚拟路径，与磁盘选项store_path*对应。
@@ -183,13 +183,13 @@ storage的同步进度会作为元数据的一部分汇报到tracker上，tracke
 - 1、通过组名tracker能够很快的定位到客户端需要访问的存储服务器组，并将选择合适的存储服务器提供客户端访问；
 - 2、存储服务器根据“文件存储虚拟磁盘路径”和“数据文件两级目录”可以很快定位到文件所在目录，并根据文件名找到客户端需要访问的文件。
 
-![](http://www.ityouknow.com/assets/images/2018/fastdfs/find.jpg)
+![](http://www.itmind.net/assets/images/2018/fastdfs/find.jpg)
 
 
 **如何搭建FastDFS？参考我博客的这篇文章[FastDFS 集群 安装 配置
 ](http://www.ityouknow.com/fastdfs/2017/10/10/cluster-building-fastdfs.html)**，下图为某用户搭建的架构示意图
 
-![](http://www.ityouknow.com/assets/images/2018/fastdfs/install.png)
+![](http://www.itmind.net/assets/images/2018/fastdfs/install.png)
 
 > 文中图片均来源于网络
 

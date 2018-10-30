@@ -51,7 +51,7 @@ Jekyll 是一个简单的博客形态的静态站点生产机器。它有一个�
 
 我的博客最初使用的是[Yummy-Jekyll](https://github.com/DONGChuan/Yummy-Jekyll)，但这个主题已经尽两年多都没有更新了。因此后期我在这个主题的基础上做了一些改动，其中有依赖组件的更新，结合个人情况对个别页面进行了改版，就成为了现在的样子：
 
-![](http://www.ityouknow.com/assets/images/2018/it/blog1.png)
+![](http://www.itmind.net/assets/images/2018/it/blog1.png)
 
 使用这个主题的原因是，我比较喜欢简洁大气的风格，并且此博客主题对代码展示支持良好。
 
@@ -61,7 +61,7 @@ Jekyll 是一个简单的博客形态的静态站点生产机器。它有一个�
 
 1、首先打开地址[https://github.com/ityouknow/ityouknow.github.io](https://github.com/ityouknow/ityouknow.github.io)，点击 Fork 按钮将代码复制一份到自己的仓库。
 
-![](http://www.ityouknow.com/assets/images/2018/it/blog8.png)
+![](http://www.itmind.net/assets/images/2018/it/blog8.png)
 
 过上一分钟，你的 github 仓库发现一个 ityouknow.github.io 项目。
 
@@ -73,13 +73,13 @@ Jekyll 是一个简单的博客形态的静态站点生产机器。它有一个�
 
 点击 Settings 按钮打开设置页面，页面往下拉到 GitHub Pages 相关设置，在 Source 下面的复选框中选择 master branch ，然后点击旁边的 Save 按钮保存设置。
 
-![](http://www.ityouknow.com/assets/images/2018/it/blog9.png)
+![](http://www.itmind.net/assets/images/2018/it/blog9.png)
 
 4、重命名项目
 
 点击 Settings 按钮打开设置页面，重命名项目名称为：github_username.github.io。
 
-![](http://www.ityouknow.com/assets/images/2018/it/blog11.png)
+![](http://www.itmind.net/assets/images/2018/it/blog11.png)
 
 > github_username 是你的 github 登录用户名
 
@@ -87,7 +87,7 @@ Jekyll 是一个简单的博客形态的静态站点生产机器。它有一个�
 
 会发现存在这样一个地址： https://github_username.github.io
 
-![](http://www.ityouknow.com/assets/images/2018/it/blog10.png)
+![](http://www.itmind.net/assets/images/2018/it/blog10.png)
 
 这个时候，你访问此地址已经可以看到博客的首页，但是点击文章的时链接跳转地址不对，这是因为少配置了一个文件。
 
@@ -111,13 +111,13 @@ url: https://github_username.github.io
 
 首先需要设置域名解析，将域名的地址指向自己的 github 博客地址。这里以万网的域名配置为例，选择需要设置的域名点击解析，在域名解析页面添加以下两条记录
 
-![](http://www.ityouknow.com/assets/images/2018/it/blogcdn.png)
+![](http://www.itmind.net/assets/images/2018/it/blogcdn.png)
 
 > 红框内，需要填写自己`github_username`值。
 
 然后重新打开项目的 Settings > GitHub Pages 页面，Custom domain 下的输入框输入刚才设置的域名：xxx.com，点击保存即可。
 
-![](http://www.ityouknow.com/assets/images/2018/it/jiexi.png)
+![](http://www.itmind.net/assets/images/2018/it/jiexi.png)
 
 重新配置 _config.yml 
 
