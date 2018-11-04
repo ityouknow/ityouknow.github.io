@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spring Boot 2.0(二)：Spring Boot 2.0尝鲜-动态 Banner
+title: Spring Boot 2 (二)：Spring Boot 2 尝鲜-动态 Banner
 category: springboot
 tags: [springboot]
 keywords: Spring Boot,Banner

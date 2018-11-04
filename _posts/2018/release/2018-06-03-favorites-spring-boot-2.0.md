@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spring Boot 2.0 版的开源项目云收藏来了！
+title: Spring Boot 2 版的开源项目云收藏来了！
 no-post-nav: true
 category: springboot
 tags: [springboot]

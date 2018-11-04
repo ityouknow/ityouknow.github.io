@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spring Boot 2.0(一)：【重磅】Spring Boot 2.0权威发布
+title: Spring Boot 2(一)：【重磅】Spring Boot 2.0权威发布
 category: springboot
 tags: [springboot]
 excerpt: 有哪些新特性值得我们关注
@@ -51,7 +51,7 @@ Spring Boot1.0并没有提供对 Quartz 的支持，之前出现了各种集成�
 
 **Metrics**
 
-Metrics方面，Spring Boot 2引入了Micrometer，来统一metrics的规范，使得开发人员更好的理解和使用metrics的模块，而不需要关心对接的具体存储是什么。
+Metrics 方面，Spring Boot 2引入了Micrometer，来统一metrics的规范，使得开发人员更好的理解和使用metrics的模块，而不需要关心对接的具体存储是什么。
 
 **监控方面**
 
