@@ -59,7 +59,7 @@ keywords: Spring Boot,Spring Boot 2.1,发布,Spring Boot 2.1 新特性
 
 > 如果不是特别需要使用 Spring Boot 2.0 上面提到的新特性，就尽量不要着急进行升级，等 Spring Boot 2.0 彻底稳定下来后再使用。如果想要升级也请先从早期的版本升级到 Spring Boot 1.5X 系列之后，再升级到 Spring Boot 2.0 版本，Spring Boot 2.0 的很多配置内容和 Spring Boot 1.0 不一致需要注意。
 
-这是因为 Spring Boot 2.0 刚刚发布会有一段时间的稳定期，现在 Spring Boot 2.1.0 的发布，意味着 Spring Boot 2.0 已经彻底稳定下来，如果公司比较喜欢常新，现在可以大胆的使用了。
+这是因为 Spring Boot 2.0 刚刚发布会有一段时间的稳定期，现在 Spring Boot 2.1.0 的发布，意味着 Spring Boot 2.0 已经彻底稳定下来，如果公司比较喜欢尝新，现在可以大胆的使用了。
 
 [另外我在 GitChat 的课程《精通 Spring Boot 42 讲》也会基于最新的 Spring Boot 2.1.0，大家感兴趣可以关注](https://gitbook.cn/gitchat/column/5b86228ce15aa17d68b5b55a#catalog)
 
