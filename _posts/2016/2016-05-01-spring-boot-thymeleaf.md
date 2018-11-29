@@ -465,9 +465,9 @@ htmlhead 是指定义的代码片段 如 ```th:fragment="copy"```
 
 这里有一个开源项目几乎使用了这里介绍的所有标签和布局，大家可以参考：
 
-**[示例代码-github](https://github.com/cloudfavorites/favorites-web)**
+**[示例代码-github](https://github.com/ityouknow/spring-boot-examples)**
 
-**[示例代码-码云](https://gitee.com/ityouknow/favorites-web)**
+**[示例代码-码云](https://gitee.com/ityouknow/spring-boot-examples)**
 
 ## 参考 
 

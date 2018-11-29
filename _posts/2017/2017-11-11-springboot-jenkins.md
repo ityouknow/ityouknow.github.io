@@ -7,7 +7,7 @@ tags: [springboot]
 
 jenkins是devops神器，本篇文章介绍如何安装和使用jenkins部署Spring Boot项目
 
-jenkins搭建 部署分为三个步骤；
+jenkins搭建 部署分为四个步骤；
 
 - 第一步，jenkins安装  
 - 第二步，插件安装和配置  
@@ -23,11 +23,11 @@ jenkins搭建 部署分为三个步骤；
 JDK:1.8  
 Jenkins:2.83
 Centos:7.3  
-maven 3.5‘
+maven 3.5
 
-> jdk默认已经安装完成
+> jdk 默认已经安装完成
 
-### 配置maven
+### 配置 maven
 
 版本要求maven3.5.0
 
