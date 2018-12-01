@@ -8,7 +8,7 @@ keywords: Spring Boot,Spring Boot 2.0,云收藏,升级
 excerpt: 给大家聊一聊云收藏从 Spring Boot 1.0 升级到 2.0 所踩的坑
 ---
 
-先给大家晒一下云收藏的几个数据，作为一个 Spring Boot 的开源项目（[https://github.com/cloudfavorites/favorites-web](https://github.com/cloudfavorites/favorites-web)）目前在 Github 上面已经有1600多个 Star，如果按照 SpringBoot 标签进行筛选的话也可以排到第五位。
+先给大家晒一下云收藏的几个数据，作为一个 Spring Boot 的开源项目（[https://github.com/cloudfavorites/favorites-web](https://github.com/cloudfavorites/favorites-web)）目前在 Github 上面已经有2600多个 Star，如果按照 SpringBoot 标签进行筛选的话也可以排到第五位。
 
 当云收藏1.0开发完成之后，同步将云收藏部署到了服务器上，申请了一个域名[www.favorites.ren](http://favorites.ren/)方便大家使用，到目前为止：网站的注册用户4000多人，共计收藏文章100000多条，在百度上搜索：云收藏，排在第一的就是云收藏的官网。2年多的时间这个数据其实也并不是很耀眼，但是作为一个学习 Spring Boot 的开源软件来讲，已经不错了。
 
