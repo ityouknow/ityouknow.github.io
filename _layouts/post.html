@@ -12,10 +12,14 @@ css: ['sidebar-post-nav.css']
 
             {{ content }}
 
-            <!-- copyright -->
-            {% include copyright.html %}
+
+            {% if page.copyright=='flyever' %}
+               {% include copyright_flyever.html %}
+            {% else %}
+               {% include copyright.html %}
+            {% endif %}
+
             <!-- Comments -->
-      
            <div class="comment">
              {% include comments.html %}
            </div>
@@ -26,12 +30,16 @@ css: ['sidebar-post-nav.css']
 
             {{ content }}
 
-            <!-- copyright -->
-            {% include copyright.html %}
+            {% if page.copyright=='flyever' %}
+               {% include copyright_flyever.html %}
+            {% else %}
+               {% include copyright.html %}
+            {% endif %}
+
             <!-- Comments -->
-          <div class="comment">
+            <div class="comment">
              {% include comments.html %}
-           </div>
+            </div>
         </div>
 
         <div class="col-md-3">
