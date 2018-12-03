@@ -1,6 +1,12 @@
 <div>
    <p align="center">
-         <img src="http://www.ityouknow.com/assets/images/keeppuresmile.jpg" >
+         	{% if page.copyright=='flyever' %}
+             <img src="http://www.ityouknow.com/assets/images/flyever.jpg" >
+            {% elsif page.copyright=='itmind' %}
+             <img src="http://www.ityouknow.com/assets/images/itmind.jpg" >
+            {% else %}
+             <img src="http://www.ityouknow.com/assets/images/keeppuresmile.jpg" >
+            {% endif %}
          <br/>
           扫码关注有惊喜
    </p>

@@ -2,6 +2,7 @@
 layout: post
 title: 超过1024G的IT学习资料免费领取
 no-post-nav: true
+copyright: itmind
 category: share
 tags: [share]
 ---
