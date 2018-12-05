@@ -138,6 +138,7 @@ public class RabbitConfig {
 rabbitTemplate是springboot 提供的默认实现
 
 ``` java
+@component
 public class HelloSender {
 
 	@Autowired
