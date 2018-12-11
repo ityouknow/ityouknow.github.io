@@ -448,12 +448,13 @@ spring:
 通过今天的学习我们发现 Spring Cloud Gateway 使用非常的灵活，可以根据不同的情况来进行路由分发，在实际项目中我们可以根据情况自由组合使用。同时 Spring Cloud 还有更多很酷的功能，比如 Filter 、熔断和限流等，下次我们继续学习 Spring Cloud 的高级功能。
 
 
-## 参考
-
-[Spring Cloud Gateway](http://cloud.spring.io/spring-cloud-gateway/single/spring-cloud-gateway.html)  
-[Spring Cloud（十三）：Spring Cloud Gateway（路由）](https://windmt.com/2018/05/07/spring-cloud-13-spring-cloud-gateway-router/)
-
-
 **[示例代码-github](https://github.com/ityouknow/spring-cloud-examples)**
 
 **[示例代码-码云](https://gitee.com/ityouknow/spring-cloud-examples)**
+
+
+## 参考
+
+[Spring Cloud Gateway](http://cloud.spring.io/spring-cloud-gateway/single/spring-cloud-gateway.html)  
+[Spring Cloud Gateway（路由）](https://windmt.com/2018/05/07/spring-cloud-13-spring-cloud-gateway-router/)
+
