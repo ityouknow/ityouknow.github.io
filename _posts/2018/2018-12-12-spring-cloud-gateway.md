@@ -7,9 +7,9 @@ keywords: springcloud, GateWay，服务网关
 excerpt: Spring Cloud GateWay 服务网关入门
 ---
 
-还是自己的亲儿子好控制，Spring 官网还是按捺不住推出了自己的网关服务组件：Spring Cloud Gateway ，相比之前我们使用的 Zuul（1.x系列） 它有哪些优势呢？Zuul 基于 Servlet，使用阻塞 API，它不支持任何长连接，如 WebSockets，Spring Cloud Gateway 使用非阻塞 API，支持 WebSockets，支持限流等新特性。
+还是自己的亲儿子好控制，Spring 官方还是按捺不住推出了自己的网关组件：Spring Cloud Gateway ，相比之前我们使用的 Zuul（1.x） 它有哪些优势呢？Zuul（1.x） 基于 Servlet，使用阻塞 API，它不支持任何长连接，如 WebSockets，Spring Cloud Gateway 使用非阻塞 API，支持 WebSockets，支持限流等新特性。
 
-## Spring Cloud Gateway
+## Spring Cloud Gateway 
 
 Spring Cloud Gateway 是 Spring Cloud 的一个全新项目，该项目是基于 Spring 5.0，Spring Boot 2.0 和 Project Reactor 等技术开发的网关，它旨在为微服务架构提供一种简单有效的统一的 API 路由管理方式。
 
@@ -49,7 +49,7 @@ Spring Cloud Gateway 网关路由有两种配置方式：
 
 这两种方式是等价的，建议使用 yml 方式进配置。
 
-使用 Spring Cloud Finchley 版本，Finchley 版本依赖于 Spring Boot 2.0.2.RELEASE。
+使用 Spring Cloud Finchley 版本，Finchley 版本依赖于 Spring Boot 2.0.6.RELEASE。
 
 ``` xml
 <parent>
@@ -83,7 +83,7 @@ Spring Cloud Gateway 网关路由有两种配置方式：
 </dependency>
 ```
 
-Spring Cloud Gateway 是使用  netty+webflux 实现因此不需要再引入 web 模块。
+Spring Cloud Gateway 是使用 netty+webflux 实现因此不需要再引入 web 模块。
 
 我们先来测试一个最简单的请求转发。
 
@@ -144,9 +144,9 @@ public class GateWayApplication {
 
 ## 路由规则
 
-Spring Cloud Gateway 的功能很强大，我们仅仅通过 Predicates 的设计就可以看出来，前面我们只是使用了 predicates 进行了简单的条件匹配，其实 Spring Cloud Gataway 帮我们内置了很多 Predicates 功能，接下来我们一一介绍。
+Spring Cloud Gateway 的功能很强大，我们仅仅通过 Predicates 的设计就可以看出来，前面我们只是使用了 predicates 进行了简单的条件匹配，其实 Spring Cloud Gataway 帮我们内置了很多 Predicates 功能。
 
-Spring Cloud Gateway 是通过 Spring WebFlux 的 `HandlerMapping` 做为底层支持来匹配到转发路由，Spring Cloud Gateway 内置了很多 Predicates 工厂，这些 Predicates 工厂通过不同的 HTTP 请求数学来匹配，多个 Predicates 工厂可以组合使用。
+Spring Cloud Gateway 是通过 Spring WebFlux 的 `HandlerMapping` 做为底层支持来匹配到转发路由，Spring Cloud Gateway 内置了很多 Predicates 工厂，这些 Predicates 工厂通过不同的 HTTP 请求参数来匹配，多个 Predicates 工厂可以组合使用。
 
 ### Predicate 介绍
 
@@ -195,8 +195,7 @@ spring:
 
 就表示在这个时间之前可以进行路由，在这时间之后停止路由，修改完之后重启项目再次访问地址`http://localhost:8080`，页面会报 404 没有找到地址。
 
-
-除过在实际之前或者之后外，Gateway 还支持限制路由请求在某一个时间段范围内，可以使用 Between Route Predicate 来实现。
+除过在时间之前或者之后外，Gateway 还支持限制路由请求在某一个时间段范围内，可以使用 Between Route Predicate 来实现。
 
 ``` xml
 spring:
@@ -209,13 +208,11 @@ spring:
          - Between=2018-01-20T06:06:06+08:00[Asia/Shanghai], 2019-01-20T06:06:06+08:00[Asia/Shanghai]
 ```
 
-这样设置就意味着在这个时间段内可以匹配到此路由，超过这个时间段范围则不会进行匹配。
-
-真心感觉通过时间匹配路由的功能很酷，可以用在限时抢购的一些场景中。
+这样设置就意味着在这个时间段内可以匹配到此路由，超过这个时间段范围则不会进行匹配。通过时间匹配路由的功能很酷，可以用在限时抢购的一些场景中。
 
 ### 通过 Cookie 匹配
 
-Cookie Route Predicate 可以接收两个参数，一个是 Cookie name ,一个是正则表达式，路由规则会通过获取对应的  Cookie name 值和增则表达式去匹配，如果匹配上就会执行路由，如果没有匹配上则不执行。
+Cookie Route Predicate 可以接收两个参数，一个是 Cookie name ,一个是正则表达式，路由规则会通过获取对应的  Cookie name 值和正则表达式去匹配，如果匹配上就会执行路由，如果没有匹配上则不执行。
 
 ``` xml
 spring:
@@ -438,14 +435,14 @@ spring:
         - After=2018-01-20T06:06:06+08:00[Asia/Shanghai]
 ```
 
-各种 Predicates 同时存在于同一个路由时，请求必须同时满足所有的谓词条件才被这个路由匹配。
+各种 Predicates 同时存在于同一个路由时，请求必须同时满足所有的条件才被这个路由匹配。
 
 > 一个请求满足多个路由的谓词条件时，请求只会被首个成功匹配的路由转发
 
 
 ## 总结
 
-通过今天的学习我们发现 Spring Cloud Gateway 使用非常的灵活，可以根据不同的情况来进行路由分发，在实际项目中我们可以根据情况自由组合使用。同时 Spring Cloud 还有更多很酷的功能，比如 Filter 、熔断和限流等，下次我们继续学习 Spring Cloud 的高级功能。
+通过今天的学习发现 Spring Cloud Gateway 使用非常的灵活，可以根据不同的情况来进行路由分发，在实际项目中可以自由组合使用。同时 Spring Cloud Gateway 还有更多很酷的功能，比如 Filter 、熔断和限流等，下次我们继续学习 Spring Cloud Gateway 的高级功能。
 
 
 **[示例代码-github](https://github.com/ityouknow/spring-cloud-examples)**
