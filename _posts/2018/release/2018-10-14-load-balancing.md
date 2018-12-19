@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 应用服务器集群的伸缩设计
-category: other
-tags: [other]
+category: architecture
+tags: [architecture]
 no-post-nav: true
 excerpt: 负载均衡是网站必不可少的基础技术手段，不但可以实现网站的伸缩性，同时还改善网站的性能。
 keywords: 原创
