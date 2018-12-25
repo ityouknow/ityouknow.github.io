@@ -292,7 +292,7 @@ URL在Web应用模板中占据着十分重要的地位，需要特别注意的�
 
 ## Gradle 构建工具
 
-spring 项目建议使用Gradle进行构建项目，相比maven来讲 Gradle更简洁，而且gradle更时候大型复杂项目的构建。gradle吸收了maven和ant的特点而来，不过目前maven仍然是Java界的主流，大家可以先了解了解。
+spring 项目建议使用Gradle进行构建项目，相比maven来讲 Gradle更简洁，而且gradle更适合大型复杂项目的构建。gradle吸收了maven和ant的特点而来，不过目前maven仍然是Java界的主流，大家可以先了解了解。
 
 一个使用gradle配置的项目
 
