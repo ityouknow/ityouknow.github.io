@@ -8,7 +8,7 @@ tags: [life]
 excerpt: 贪心是人生之大敌
 ---
 
-不了解整个事事件的朋友，请先移步看这篇文章[《我的英语外教老师被骗 10000 RMB的惨痛经历》](http://www.ityouknow.com/life/2018/10/22/english-teacher-10000-rmb.html)。
+不了解整个事事件的朋友，请先移步看这篇文章[《我的英语外教老师被骗 10000 RMB的惨痛经历》](http://www.itmind.net/life/2018/10/22/english-teacher-10000-rmb.html)。
 
 前两天我还在想这个哥们可能刚开始是想帮忙，只是后面出了问题。结果这两天英语老师又给我发了一张截图，这张图片明显可以看出钱已经被提现到他的银行卡中，不管他的微信是否被腾讯警告什么的，那么至少钱已经到了他的银行卡。接收到钱之后立刻删除外教老师微信，另外一个外教老师在帮忙沟通了几次之后也被拉黑T除了。
 
@@ -22,7 +22,7 @@ excerpt: 贪心是人生之大敌
 
 FaceBook 地址：[https://www.facebook.com/guoping.nie.75](https://www.facebook.com/guoping.nie.75)
 
-有读者看完这个文章[《我的英语外教老师被骗 10000 RMB的惨痛经历》](http://www.ityouknow.com/life/2018/10/22/english-teacher-10000-rmb.html)之后说有办法把钱追回来，我问了一下有什么办法，给了一个链接，看了一下就是按照步骤向腾讯去投诉。投诉的步骤如下：
+有读者看完这个文章[《我的英语外教老师被骗 10000 RMB的惨痛经历》](http://www.itmind.net/life/2018/10/22/english-teacher-10000-rmb.html)之后说有办法把钱追回来，我问了一下有什么办法，给了一个链接，看了一下就是按照步骤向腾讯去投诉。投诉的步骤如下：
 
 ![](http://www.itmind.net/assets/images/2018/life/wxjb.png)
 

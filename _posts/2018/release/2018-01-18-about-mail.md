@@ -148,7 +148,7 @@ public void simpleSend() {
 
 **Spring Boot And  Mail**
 
-再到了后来，Spring Boot就出现了，更加简单了邮件发送的步骤，想了解如何使用Spring Boot发送邮件看这里：[springboot(十)：邮件服务](http://www.ityouknow.com/springboot/2017/05/06/springboot-mail.html)
+再到了后来，Spring Boot就出现了，更加简单了邮件发送的步骤，想了解如何使用Spring Boot发送邮件看这里：[springboot(十)：邮件服务](http://www.itmind.net/springboot/2017/05/06/springboot-mail.html)
 
 参考：
 

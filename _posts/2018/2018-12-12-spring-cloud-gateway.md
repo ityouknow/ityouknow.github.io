@@ -23,7 +23,7 @@ Spring Cloud Gateway 作为 Spring Cloud 生态系统中的网关，目标是替
 
 **工作流程：**
 
-![](http://www.ityouknow.com/assets/images/2018/springcloud/spring-cloud-gateway.png)
+![](http://www.itmind.net/assets/images/2018/springcloud/spring-cloud-gateway.png)
 
 客户端向 Spring Cloud Gateway 发出请求。如果 Gateway Handler Mapping 中找到与请求相匹配的路由，将其发送到 Gateway Web Handler。Handler 再通过指定的过滤器链来将请求发送到我们实际的服务执行业务逻辑，然后返回。
 过滤器之间用虚线分开是因为过滤器可能会在发送代理请求之前（“pre”）或之后（“post”）执行业务逻辑。
@@ -96,7 +96,7 @@ spring:
     gateway:
       routes:
       - id: neo_route
-        uri: http://www.ityouknow.com
+        uri: http://www.itmind.net
         predicates:
         - Path=/spring-cloud
 ```
@@ -108,9 +108,9 @@ spring:
 - predicates：路由条件，Predicate 接受一个输入参数，返回一个布尔值结果。该接口包含多种默认方法来将 Predicate 组合成其他复杂的逻辑（比如：与，或，非）。
 - filters：过滤规则，本示例暂时没用。
 
-上面这段配置的意思是，配置了一个 id 为 neo_route 的路由规则，当访问地址 `http://localhost:8080/spring-cloud`时会自动转发到地址：`http://www.ityouknow.com/spring-cloud`。配置完成启动项目即可在浏览器访问进行测试，当我们访问地址`http://localhost:8080/spring-cloud` 时会展示页面展示如下：
+上面这段配置的意思是，配置了一个 id 为 neo_route 的路由规则，当访问地址 `http://localhost:8080/spring-cloud`时会自动转发到地址：`http://www.itmind.net/spring-cloud`。配置完成启动项目即可在浏览器访问进行测试，当我们访问地址`http://localhost:8080/spring-cloud` 时会展示页面展示如下：
 
-![](http://www.ityouknow.com/assets/images/2018/springcloud/spring-cloud-gateway1.png)
+![](http://www.itmind.net/assets/images/2018/springcloud/spring-cloud-gateway1.png)
 
 证明页面转发成功。
 
@@ -135,7 +135,7 @@ public class GateWayApplication {
 }
 ```
 
-上面配置了一个 id 为 path_route 的路由，当访问地址`http://localhost:8080/about`时会自动转发到地址：`http://www.ityouknow.com/about`和上面的转发效果一样，只是这里转发的是以`项目地址/about`格式的请求地址。
+上面配置了一个 id 为 path_route 的路由，当访问地址`http://localhost:8080/about`时会自动转发到地址：`http://www.itmind.net/about`和上面的转发效果一样，只是这里转发的是以`项目地址/about`格式的请求地址。
 
 上面两个示例中 uri 都是指向了我的个人网站，在实际项目使用中可以将 uri 指向对外提供服务的项目地址，统一对外输出接口。
 
@@ -154,7 +154,7 @@ Predicate 来源于 Java 8，是 Java 8 中引入的一个函数，Predicate 接
 
 在 Spring Cloud Gateway 中 Spring 利用 Predicate 的特性实现了各种路由匹配规则，有通过 Header、请求参数等不同的条件来进行作为条件匹配到对应的路由。网上有一张图总结了 Spring Cloud 内置的几种 Predicate 的实现。
 
-![](http://www.ityouknow.com/assets/images/2018/springcloud/spring-cloud-gateway3.png)
+![](http://www.itmind.net/assets/images/2018/springcloud/spring-cloud-gateway3.png)
 
 说白了 Predicate 就是为了实现一组匹配规则，方便让请求过来找到对应的 Route 进行处理，接下来我们接下 Spring Cloud GateWay 内置几种 Predicate 的使用。
 

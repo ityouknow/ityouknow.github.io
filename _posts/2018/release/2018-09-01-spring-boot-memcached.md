@@ -81,7 +81,7 @@ public class MemcacheSource {
 
 ## 启动初始化 MemcachedClient
 
-我们使用上一节的内容[Spring Boot 2 (七)：Spring Boot 如何解决项目启动时初始化资源](http://www.ityouknow.com/springboot/2018/05/03/spring-boot-commandLineRunner.html),利用 CommandLineRunner 在项目启动的时候配置好 MemcachedClient 。
+我们使用上一节的内容[Spring Boot 2 (七)：Spring Boot 如何解决项目启动时初始化资源](http://www.itmind.net/springboot/2018/05/03/spring-boot-commandLineRunner.html),利用 CommandLineRunner 在项目启动的时候配置好 MemcachedClient 。
 
 ``` java
 @Component

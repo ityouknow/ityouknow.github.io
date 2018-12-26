@@ -187,7 +187,7 @@ storage的同步进度会作为元数据的一部分汇报到tracker上，tracke
 
 
 **如何搭建FastDFS？参考我博客的这篇文章[FastDFS 集群 安装 配置
-](http://www.ityouknow.com/fastdfs/2017/10/10/cluster-building-fastdfs.html)**，下图为某用户搭建的架构示意图
+](http://www.itmind.net/fastdfs/2017/10/10/cluster-building-fastdfs.html)**，下图为某用户搭建的架构示意图
 
 ![](http://www.itmind.net/assets/images/2018/fastdfs/install.png)
 

@@ -27,9 +27,9 @@ excerpt: 初心还在。
 
 ![](http://www.itmind.net/assets/images/2018/life/flyever.jpg)
 
-2、[我的博客](http://www.ityouknow.com/)
+2、[我的博客](http://www.itmind.net/)
 
-[www.ityouknow.com](http://www.ityouknow.com/)，这个博客是我独立搭建的网站，任何时候都会存在，并且此博客只发表我自己的文章，很纯洁。
+[www.ityouknow.com](http://www.itmind.net/)，这个博客是我独立搭建的网站，任何时候都会存在，并且此博客只发表我自己的文章，很纯洁。
 
 3、[我的知乎](https://www.zhihu.com/people/ityouknow/)
 

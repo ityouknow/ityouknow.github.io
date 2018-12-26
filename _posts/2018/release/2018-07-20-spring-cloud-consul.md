@@ -23,7 +23,7 @@ excerpt: Spring Cloud Consul 使用详解
 | spring cloud 集成 | 已支持 | 已支持 | 已支持 | 已支持 |
 
 在以上服务发现的软件中，Euerka 和 Consul 使用最为广泛。如果大家对注册中心的概念和 Euerka 不太了解的话， 可以参考我前期的文章：[springcloud(二)：注册中心Eureka
-](http://www.ityouknow.com/springcloud/2017/05/10/springcloud-eureka.html)，本篇文章主要给大家介绍 Spring Cloud Consul 的使用。
+](http://www.itmind.net/springcloud/2017/05/10/springcloud-eureka.html)，本篇文章主要给大家介绍 Spring Cloud Consul 的使用。
 
 
 ## Consul 介绍
