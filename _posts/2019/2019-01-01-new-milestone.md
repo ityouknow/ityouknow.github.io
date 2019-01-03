@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 中国有多少个程序员？
+no-post-nav: true
 category: life
 tags: [life]
 keywords: 程序员
