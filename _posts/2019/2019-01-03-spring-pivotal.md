@@ -207,6 +207,7 @@ Pivotal 公司的产品有 Spring Boot 、Spring Cloud 、RabbitMQ 等非常著�
 
 Pivotal 掌握很多最新前沿的开源技术，公司提供的从云端部署到一整套的大数据解决方案，从开发到平台到提供解决方案到提供咨询，可以说真正依赖技术挣钱的典范，我辈之楷模！
 
+最后送大家一个学习 Spring Boot 的开源项目: [spring-boot-examples](https://github.com/ityouknow/spring-boot-examples)
 
 ## 参考
 
