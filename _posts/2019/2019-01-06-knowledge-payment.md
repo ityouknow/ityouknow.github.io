@@ -2,8 +2,8 @@
 layout: post
 title: 知识付费是骗人的吗？
 no-post-nav: true
-category: life
-tags: [life]
+category: it
+tags: [it]
 keywords: 知识付费，Gitchat，慕课网，极客时间，掘金小册
 ---
 
