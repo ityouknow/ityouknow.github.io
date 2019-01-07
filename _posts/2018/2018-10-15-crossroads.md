@@ -2,8 +2,8 @@
 layout:     post
 title:      小米从北京迁往武汉南京，一线大厂逃离或为新常态？
 no-post-nav: true
-category: life
-tags: [life]
+category: it
+tags: [it]
 excerpt: 一线大龄程序员该如何抉择
 ---
 
