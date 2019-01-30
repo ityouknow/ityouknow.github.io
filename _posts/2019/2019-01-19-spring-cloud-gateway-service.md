@@ -62,7 +62,7 @@ spring-cloud-producer(Eureka Client)的 pom 文件更改。因为配置中心需
 
 ### 服务网关注册到注册中心
 
-复制上一节的示例项目 [cloud-gateway](http://www.ityouknow.com/springcloud/2018/12/12/spring-cloud-gateway.html) 重新命名为 cloud-gateway-eureka，添加 eureka 的客户端依赖包。
+复制上一节的示例项目 [cloud-gateway](http://www.ityouknow.com/springcloud/2018/12/12/spring-cloud-gateway-start.html) 重新命名为 cloud-gateway-eureka，添加 eureka 的客户端依赖包。
 
 ```
 <dependency>
