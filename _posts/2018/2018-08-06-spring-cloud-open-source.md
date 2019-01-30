@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spring Cloud (十四)：Spring Cloud 开源软件都有哪些？
+title: Spring Cloud(十四)：Spring Cloud 开源软件都有哪些？
 category: springcloud
 tags: [springcloud]
 keywords: Spring Cloud,open source

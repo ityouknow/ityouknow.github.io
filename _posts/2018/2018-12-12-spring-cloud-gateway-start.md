@@ -1,6 +1,6 @@
 ---
 layout: post
-title: springcloud(十五)：服务网关 Spring Cloud GateWay 初级篇
+title: springcloud(十五)：服务网关 Spring Cloud GateWay 入门
 category: springcloud
 tags: [springcloud]
 keywords: springcloud, GateWay，服务网关
@@ -219,10 +219,10 @@ spring:
   cloud:
     gateway:
       routes:
-  		 - id: cookie_route
-              uri: http://ityouknow.com
-              predicates:
-              - Cookie=ityouknow, kee.e
+       - id: cookie_route
+         uri: http://ityouknow.com
+         predicates:
+         - Cookie=ityouknow, kee.e
 ```
 
 使用 curl 测试，命令行输入:
