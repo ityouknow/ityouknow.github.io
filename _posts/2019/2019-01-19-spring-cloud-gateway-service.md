@@ -128,7 +128,7 @@ hello world smile!
 
 ## 基于 Filter(过滤器) 实现的高级功能
 
-在[服务网关Zuul高级篇](http://www.ityouknow.com/springcloud/2018/01/20/spring-cloud-zuul.htm)中大概介绍过 Filter 的概念。
+在[服务网关Zuul高级篇](http://www.ityouknow.com/springcloud/2018/01/20/spring-cloud-zuul.html)中大概介绍过 Filter 的概念。
 
 Spring Cloud Gateway 的 Filter 的生命周期不像 Zuul 的那么丰富，它只有两个：“pre” 和 “post”。
 
@@ -142,7 +142,7 @@ Spring Cloud Gateway 内置了9种 GlobalFilter，比如 Netty Routing Filter、
 利用 GatewayFilter 可以修改请求的 Http 的请求或者响应，或者根据请求或者响应做一些特殊的限制。
 更多时候我们会利用 GatewayFilter 做一些具体的路由配置，下面我们做一些简单的介绍。
 
-### 快速上手  Filter 使用
+### 快速上手 Filter 使用
 
 我们以 AddRequestParameter GatewayFilter 来演示一下，如何在项目中使用 GatewayFilter，AddRequestParameter GatewayFilter 可以在请求中添加指定参数。
 
@@ -238,7 +238,7 @@ hello bar!!
 
 **[示例代码-码云](https://gitee.com/ityouknow/spring-cloud-examples)**
 
-## 参考:
+## 参考
 
-[Spring Cloud（十四）：Spring Cloud Gateway（过滤器）](https://windmt.com/2018/05/08/spring-cloud-14-spring-cloud-gateway-filter/)
+[Spring Cloud（十四）：Spring Cloud Gateway（过滤器）](https://windmt.com/2018/05/08/spring-cloud-14-spring-cloud-gateway-filter/)  
 [spring cloud gateway 2 深入了解 - filter](https://www.jianshu.com/p/5e40bbc95eb9)
