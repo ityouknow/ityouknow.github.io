@@ -96,7 +96,7 @@ spring:
     gateway:
       routes:
       - id: neo_route
-        uri: http://www.itmind.net
+        uri: http://www.ityouknow.com
         predicates:
         - Path=/spring-cloud
 ```
@@ -108,7 +108,7 @@ spring:
 - predicates：路由条件，Predicate 接受一个输入参数，返回一个布尔值结果。该接口包含多种默认方法来将 Predicate 组合成其他复杂的逻辑（比如：与，或，非）。
 - filters：过滤规则，本示例暂时没用。
 
-上面这段配置的意思是，配置了一个 id 为 neo_route 的路由规则，当访问地址 `http://localhost:8080/spring-cloud`时会自动转发到地址：`http://www.itmind.net/spring-cloud`。配置完成启动项目即可在浏览器访问进行测试，当我们访问地址`http://localhost:8080/spring-cloud` 时会展示页面展示如下：
+上面这段配置的意思是，配置了一个 id 为 neo_route 的路由规则，当访问地址 `http://localhost:8080/spring-cloud`时会自动转发到地址：`http://www.ityouknow.com/spring-cloud`。配置完成启动项目即可在浏览器访问进行测试，当我们访问地址`http://localhost:8080/spring-cloud` 时会展示页面展示如下：
 
 ![](http://www.itmind.net/assets/images/2018/springcloud/spring-cloud-gateway1.png)
 
@@ -135,7 +135,7 @@ public class GateWayApplication {
 }
 ```
 
-上面配置了一个 id 为 path_route 的路由，当访问地址`http://localhost:8080/about`时会自动转发到地址：`http://www.itmind.net/about`和上面的转发效果一样，只是这里转发的是以`项目地址/about`格式的请求地址。
+上面配置了一个 id 为 path_route 的路由，当访问地址`http://localhost:8080/about`时会自动转发到地址：`http://www.ityouknow.com/about`和上面的转发效果一样，只是这里转发的是以`项目地址/about`格式的请求地址。
 
 上面两个示例中 uri 都是指向了我的个人网站，在实际项目使用中可以将 uri 指向对外提供服务的项目地址，统一对外输出接口。
 

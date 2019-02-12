@@ -165,7 +165,7 @@ Gson 是google解析Json的一个开源框架,同类的框架fastJson,JackJson�
 
 **向Spring致敬，向开源致敬！**
 
-[点我了解更多Spring Boot系列文章](http://www.itmind.net/spring-boot.html)
+[点我了解更多Spring Boot系列文章](http://www.ityouknow.com/spring-boot.html)
 
 ## 参考
 

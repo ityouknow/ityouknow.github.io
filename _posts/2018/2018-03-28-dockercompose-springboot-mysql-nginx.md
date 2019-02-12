@@ -241,8 +241,8 @@ FROM maven:3.5-jdk-8
 
 我们将项目拷贝到服务器中进行测试，服务器需要先安装 Docker 和 Docker Compos 环境，如果不了解的朋友可以查看我前面的两篇文章：
 
-- [Docker(一)：Docker入门教程](http://www.itmind.net/docker/2018/03/07/docker-introduction.html)
-- [Docker(四)：Docker 三剑客之 Docker Compose](http://www.itmind.net/docker/2018/03/22/docker-compose.html)
+- [Docker(一)：Docker入门教程](http://www.ityouknow.com/docker/2018/03/07/docker-introduction.html)
+- [Docker(四)：Docker 三剑客之 Docker Compose](http://www.ityouknow.com/docker/2018/03/22/docker-compose.html)
 
 将项目拷贝到服务器中，进入目录`cd  dockercompose-springboot-mysql-nginx`
 

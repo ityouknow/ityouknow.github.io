@@ -7,7 +7,7 @@ keywords: springcloud, zuul，路由，网关
 excerpt: Spring Cloud Zuul网关 Filter、熔断、重试、高可用的使用方式。
 ---
 
-时间过的很快，写[springcloud(十)：服务网关zuul初级篇](http://www.itmind.net/springcloud/2017/06/01/gateway-service-zuul.html)还在半年前，现在已经是2018年了，我们继续探讨Zuul更高级的使用方式。
+时间过的很快，写[springcloud(十)：服务网关zuul初级篇](http://www.ityouknow.com/springcloud/2017/06/01/gateway-service-zuul.html)还在半年前，现在已经是2018年了，我们继续探讨Zuul更高级的使用方式。
 
 上篇文章主要介绍了Zuul网关使用模式，以及自动转发机制，但其实Zuul还有更多的应用场景，比如：鉴权、流量转发、请求统计等等，这些功能都可以使用Zuul来实现。
 

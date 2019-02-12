@@ -6,7 +6,7 @@ tags: [docker]
 keywords: docker,Dockerfile,使用
 ---
 
-上一篇文章[Docker(一)：Docker入门教程](http://www.itmind.net/docker/2018/03/07/docker-introduction.html)介绍了 Docker 基本概念，其中镜像、容器和 Dockerfile 。我们使用 Dockerfile 定义镜像，依赖镜像来运行容器，因此 Dockerfile 是镜像和容器的关键，Dockerfile 可以非常容易的定义镜像内容，同时在我们后期的微服务实践中，Dockerfile 也是重点关注的内容，今天我们就来一起学习它。
+上一篇文章[Docker(一)：Docker入门教程](http://www.ityouknow.com/docker/2018/03/07/docker-introduction.html)介绍了 Docker 基本概念，其中镜像、容器和 Dockerfile 。我们使用 Dockerfile 定义镜像，依赖镜像来运行容器，因此 Dockerfile 是镜像和容器的关键，Dockerfile 可以非常容易的定义镜像内容，同时在我们后期的微服务实践中，Dockerfile 也是重点关注的内容，今天我们就来一起学习它。
 
 首先通过一张图来了解 Docker 镜像、容器和 Dockerfile 三者之间的关系。
 

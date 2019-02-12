@@ -9,11 +9,11 @@ excerpt: 据统计，2017年中国在册新闻调查记者仅剩175人。
 
 ![](http://www.itmind.net/assets/images/2018/life/fengsha.png)
 
-果不其然周天写的《[X苗之王，X的是国人那颗脆弱的心](http://www.itmind.net/life/2018/07/22/yi-miao-zhi-wang.html)》这篇文章被删了，没有活过24小时，超过5千多人分享，最后数据定格在了61043。
+果不其然周天写的《[X苗之王，X的是国人那颗脆弱的心](http://www.ityouknow.com/life/2018/07/22/yi-miao-zhi-wang.html)》这篇文章被删了，没有活过24小时，超过5千多人分享，最后数据定格在了61043。
 
 ![](http://www.itmind.net/assets/images/2018/life/xdata.png)
 
-大家如果还想看就只能访问我的博客：[www.ityouknow.com](http://www.itmind.net/)去阅读了。经过这么一件事也引起了一些思考：为什么会被删X？中国人的发声之路都经历了什么？
+大家如果还想看就只能访问我的博客：[www.ityouknow.com](http://www.ityouknow.com/)去阅读了。经过这么一件事也引起了一些思考：为什么会被删X？中国人的发声之路都经历了什么？
 
 ![](http://www.itmind.net/assets/images/2018/life/dazhen.png)
 

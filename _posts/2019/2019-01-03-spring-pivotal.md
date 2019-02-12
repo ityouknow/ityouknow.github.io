@@ -57,7 +57,7 @@ keywords: Spring Boot,Pivotal,Spring Cloud, 研发团队
 看了简介大家可能会有点犯迷糊，这不是一个 2013 年成立的 IT 服务公司吗，和 2002 年发展起来的 Spring 又是怎么扯上关系的呢？其实呀，要说起 Pivotal 公司的起源要追溯到 1989 年的  Pivotal Labs 实验室。
 
 
-![Pivotal 中国办公室环境](http://www.itmind.net/assets/images/2018/springboot/pivotaoffice.jpeg)
+![Pivotal 中国办公室环境](http://www.ityouknow.com/assets/images/2018/springboot/pivotaoffice.jpeg)
 
 
 ## Pivotal Labs 公司
