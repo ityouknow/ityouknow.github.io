@@ -204,6 +204,7 @@ dao只要继承JpaRepository类就可以，几乎可以不用写方法，还有�
 public interface UserRepository extends JpaRepository<User, Long> {
     User findByUserName(String userName);
     User findByUserNameOrEmail(String username, String email);
+}
 ```
 
 ### 4、测试
@@ -285,7 +286,7 @@ URL在Web应用模板中占据着十分重要的地位，需要特别注意的�
 
 ### 页面即原型
 
-在Web开发过程中一个绕不开的话题就是前端工程师与后端工程师的写作，在传统Java Web开发过程中，前端工程师和后端工程师一样，也需要安装一套完整的开发环境，然后各类Java IDE中修改模板、静态资源文件，启动/重启/重新加载应用服务器，刷新页面查看最终效果。
+在Web开发过程中一个绕不开的话题就是前端工程师与后端工程师的协作，在传统Java Web开发过程中，前端工程师和后端工程师一样，也需要安装一套完整的开发环境，然后各类Java IDE中修改模板、静态资源文件，启动/重启/重新加载应用服务器，刷新页面查看最终效果。
 
 但实际上前端工程师的职责更多应该关注于页面本身而非后端，使用JSP，Velocity等传统的Java模板引擎很难做到这一点，因为它们必须在应用服务器中渲染完成后才能在浏览器中看到结果，而Thymeleaf从根本上颠覆了这一过程，通过属性进行模板渲染不会引入任何新的浏览器不能识别的标签，例如JSP中的<form:input>，不会在Tag内部写表达式。整个页面直接作为HTML文件用浏览器打开，几乎就可以看到最终的效果，这大大解放了前端工程师的生产力，它们的最终交付物就是纯的HTML/CSS/JavaScript文件。
 
@@ -388,7 +389,6 @@ bootRun {
 [新一代Java模板引擎Thymeleaf](http://www.tianmaying.com/tutorial/using-thymeleaf)
 
 [Spring Boot参考指南-中文版](https://qbgbook.gitbooks.io/spring-boot-reference-guide-zh/content/)
-
 
 
 -------------
