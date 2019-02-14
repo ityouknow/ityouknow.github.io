@@ -7,20 +7,17 @@ menu: Link
 permalink: /link
 ---
 
-
 ## 友情链接
 
 - [匠心零度博客](http://www.jiangxinlingdu.com/) - 以匠心，铸非凡！
 - [麦田技术博客](http://blog.itmyhome.com/) - 将来的你，一定会感激现在拼命努力的自己。 
 - [王登科-DK博客](http://www.wdk.pw) - 一个技术创业者  
-- [架构师小密圈](http://www.3xmq.com/) - 架构师的小圈子  
 - [猿天地](http://cxytiandi.com/) - 天地是一个综合性的网站,以程序猿用户为主,提供各种开发相关的内容。     
 - [rickiyeat的博客](http://blog.csdn.net/rickiyeat) - hadoop、spring boot/cloud技术博客   
-- [丑胖侠的技术生涯](http://blog.csdn.net/wo541075754) - 每一步成长都想与你分享    
 - [梁桂钊的博客](http://blog.720ui.com/) - 后端攻城狮
 - [cmsblogs](http://cmsblogs.com/) - chenssy记录、分享JAVA技术
 - [韩威博客](http://www.hanwei1234.com) - 韩威java知识分享网
-- [小柒博客](http://blog.52itstyle.com/) - 小柒博客，一个主JAVA，次架构，偶尔聊聊生活的地方。
+- [小柒博客](https://blog.52itstyle.vip) - 小柒博客，一个主JAVA，次架构，偶尔聊聊生活的地方。
 - [六月](http://www.liuyue.ren/) - 一个博友的博客
 - [荒蛮故事](http://relatos.top/) - 一个分享故事的网站
 
