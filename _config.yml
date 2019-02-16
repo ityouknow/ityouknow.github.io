@@ -6,20 +6,20 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title:  纯洁的微笑
+title:  peerless_fu
 subtitle: 分享技术，品味人生
-name: 纯洁的微笑 
-email: ityouknow@126.com
-description: 本站是纯洁的微笑的技术分享博客。内容涵盖生活故事、Java后端技术、Spring Boot、Spring Cloud、微服务架构、大数据演进、高可用架构、中间件使用、系统监控等相关的研究与知识分享。
-keywords: ityouknow,纯洁的微笑,Spring,Spring Boot,Spring Cloud,MongoDB,Jvm,Docker,生活故事,架构,大数据,一线,FastDFS,开发者,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,IT技术博客,Java,Python,
+name: peerless_fu 
+email: 603018514@qq.com
+description: 本站是peerless_fu的技术分享博客。内容涵盖生活故事、Java后端技术、Spring Boot、Spring Cloud、微服务架构、大数据演进、高可用架构、中间件使用、系统监控等相关的研究与知识分享。
+keywords: peerless_fu,Spring,Spring Boot,Jvm,生活故事,架构,大数据,一线,开发者,编程,代码,开源,IT网站,Developer,Programmer,Coder,IT技术博客,Java,Python,
 encoding: "utf-8"
 favicon: favicon.png 
 
-repository: ityouknow/ityouknow.github.io
-github_url: https://github.com/ityouknow
-cnblog_url: http://www.cnblogs.com/ityouknow
-url: http://www.ityouknow.com
-enforce_ssl: ityouknow.com
+repository: peerless24/peerless24.github.io
+github_url: https://github.com/peerless24
+cnblog_url: http://www.cnblogs.com/peerless24
+url: http://www.fuyingfeng.com
+enforce_ssl: www.fuyingfeng.com
 
 ## Gem
 plugins:
@@ -64,10 +64,6 @@ navs:
   -
     href: /spring-boot.html
     label: Spring-Boot
-
-  -
-    href: /spring-cloud.html
-    label: Spring-Cloud
 
   -
     href: /archives.html
@@ -171,10 +167,10 @@ comments_provider: gitalk
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username: ityouknow
+    username: peerless24
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: ityouknow
+    owner: peerless24
     repo: blog-comments
     oauth:
         client_id: 61bfc53d957e74e78f8f
