@@ -96,6 +96,10 @@ labels:
   -
     href: /arch.html
     name: 架构
+
+  -
+    href: /payment.html
+    name: 支付     
     
   -
     href: /jvm.html
@@ -122,8 +126,10 @@ labels:
     name: It   
 
   -
-    href: /payment.html
-    name: 支付   
+    href: /python.html
+    name: Python   
+
+
 
 # selected articles
 classes:
