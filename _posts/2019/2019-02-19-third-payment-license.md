@@ -132,4 +132,4 @@ keywords: 第三分支付，支付宝，牌照，网络支付，PayPal
 
 本篇是第三方支付系列文章的第二篇文章，往期参考：
 
-[第三方支付(一):概述、起源 | PayPal、支付宝诞生的故事](http://www.ityouknow.com/payment/2019/02/18/third-payment-origin.html)
+[第三方支付(一):PayPal、支付宝诞生的故事 | 概述起源篇](http://www.ityouknow.com/payment/2019/02/18/third-payment-origin.html)
