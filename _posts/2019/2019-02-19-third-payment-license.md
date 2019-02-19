@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 第三方支付(二):揭秘第三方支付包含哪些业务 | 牌照角色篇
+title: 揭秘第三方支付包含哪些业务 | 牌照角色篇
 no-post-nav: true
 category: payment
 tags: [payment]

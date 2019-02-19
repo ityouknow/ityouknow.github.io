@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 第三方支付(一):PayPal、支付宝诞生的故事 | 概述起源篇
+title: PayPal、支付宝诞生的故事 | 概述起源篇
 no-post-nav: true
 category: payment
 tags: [payment]
