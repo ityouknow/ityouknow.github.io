@@ -121,6 +121,10 @@ labels:
     href: /it.html
     name: It   
 
+  -
+    href: /payment.html
+    name: 支付   
+
 # selected articles
 classes:
 
