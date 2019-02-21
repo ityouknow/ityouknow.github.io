@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 人生苦短，我用 Python
-no-post-nav: true
 copyright: python
 category: python
 tags: [python]
