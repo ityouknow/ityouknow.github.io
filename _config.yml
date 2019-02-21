@@ -86,8 +86,8 @@ menus:
 navs:
 
   -
-    href: https://github.com/ityouknow
-    label: GitHub
+    href: /
+    label: Home
 
   -
     href: /spring-boot.html
