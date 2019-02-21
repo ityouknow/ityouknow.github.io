@@ -1,9 +1,7 @@
 <div>
    <p align="center">
-         	{% if page.copyright=='flyever' %}
-             <img src="http://www.ityouknow.com/assets/images/flyever.jpg" >
-            {% elsif page.copyright=='itmind' %}
-             <img src="http://www.ityouknow.com/assets/images/itmind.jpg" >
+         	  {% if page.copyright %}
+             <img src="http://www.ityouknow.com/assets/images/{{ page.copyright }}.jpg" >
             {% else %}
              <img src="http://www.ityouknow.com/assets/images/keeppuresmile.jpg" >
             {% endif %}
