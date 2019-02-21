@@ -1,6 +1,6 @@
 ---
 layout: post
-title: jvm系列(一):java类的加载机制
+title: Jvm 系列(一):Java 类的加载机制
 category: jvm
 tags: [jvm]
 ---

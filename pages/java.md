@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Jvm系列文章
-titlebar: jvm
-subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; jvm系列文章
-menu: jvm
+title: 这里分享关于 Java 的一切
+titlebar: java
+subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; Java 系列文章
+menu: java
 css: ['blog-page.css']
-permalink: /jvm
+permalink: /java
 ---
 
 <div class="row">
@@ -14,7 +14,7 @@ permalink: /jvm
 
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='jvm' %}
+                {% if post.category=='java' or post.category=='jvm' or post.keywords contains 'java' %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>

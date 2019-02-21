@@ -1,6 +1,6 @@
 ---
 layout: post
-title: jvm系列(三):GC算法 垃圾收集器
+title: Jvm 系列(三):GC 算法 垃圾收集器
 category: jvm
 tags: [jvm]
 ---

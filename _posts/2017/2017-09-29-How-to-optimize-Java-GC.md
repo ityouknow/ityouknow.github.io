@@ -1,6 +1,6 @@
 ---
 layout: post
-title: jvm系列(九):如何优化Java GC「译」
+title: jvm 系列(九):如何优化 Java GC 「译」
 category: jvm
 tags: [jvm]
 ---

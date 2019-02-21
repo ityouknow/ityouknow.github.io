@@ -54,28 +54,66 @@ syntax_highlighter_opts:
 paginate: 10
 paginate_path: 'page:num'
 
-# Navigation. If you do not like these modules, just remove them :D
+# Navigation. top menu list
+menus:
+
+  -
+    href: /share/2017/10/01/resource-sharing.html
+    label: 资源
+
+  -
+    href: /life.html
+    label: 故事
+
+  -
+    href: /arch.html
+    label: 架构
+
+  -
+    href: /payment.html
+    label: 支付     
+
+  -
+    href: /link.html
+    label: 友链
+
+  -
+    href: /about.html
+    label: 关于
+
+
+# Navigation. main menu list
 navs:
 
   -
-    href: /
-    label: Home
+    href: https://github.com/ityouknow
+    label: GitHub
 
   -
     href: /spring-boot.html
-    label: Spring-Boot
+    label: Spring Boot
+    subnav:
+
+      -
+        subHref: /spring-boot.html
+        subLabel: Spring Boot
+
+      -
+        subHref: /spring-cloud.html
+        subLabel: Spring Cloud
 
   -
     href: /spring-cloud.html
-    label: Spring-Cloud
+    label: Spring Cloud
+
+  -
+    
+    href: /java.html
+    label: Java
 
   -
     href: /archives.html
     label: Archives
-
-  -
-    href: /link.html
-    label: Link
 
   -
     href: /about.html
@@ -86,49 +124,28 @@ navs:
 labels:
 
   -
-    href: /share/2017/10/01/resource-sharing.html
-    name: 资源
-
-  -
-    href: /life.html
-    name: 故事
-
-  -
-    href: /arch.html
-    name: 架构
-
-  -
-    href: /payment.html
-    name: 支付     
-    
-  -
-    href: /jvm.html
-    name: Jvm
-
-  -
     href: /fastdfs.html
-    name: FastDFS
+    label: FastDFS
 
   -
     href: /mongodb.html
-    name: MongoDB
+    label: MongoDB
 
   -
     href: /docker.html
-    name: Docker
+    label: Docker
 
   -
     href: /open-source.html
-    name: Code   
+    label: Code   
 
   -
     href: /it.html
-    name: It   
+    label: It   
 
   -
     href: /python.html
-    name: Python   
-
+    label: Python   
 
 
 # selected articles

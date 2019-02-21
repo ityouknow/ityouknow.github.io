@@ -33,3 +33,7 @@
 .site-header.site-header-nav-scrolled a:hover {
     color: #4183c4;
 }
+
+.site-header .site-header-nav-item a {
+    color: #9acfea;
+}

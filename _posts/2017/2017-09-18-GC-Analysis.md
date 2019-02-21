@@ -1,6 +1,6 @@
 ---
 layout: post
-title: jvm系列(五):Java GC 分析
+title: Jvm 系列(五):Java GC 分析
 category: jvm
 tags: [jvm]
 ---

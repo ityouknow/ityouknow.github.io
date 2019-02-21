@@ -1,6 +1,6 @@
 ---
 layout: post
-title: jvm系列(二):JVM内存结构
+title: Jvm 系列(二):Jvm 内存结构
 category: jvm
 tags: [jvm]
 ---
