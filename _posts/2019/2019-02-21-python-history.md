@@ -171,9 +171,9 @@ Python 除了极少的事情不能做之外，基本上可以说全能，系统�
 
 **那么此时不学 Python ，更待何时？**
 
-> 后面会持续更新 python 的相关文章。
+> 后面会持续更新 Python 的相关文章。
 
 本文主要参考：
-
-https://zh.wikipedia.org/wiki/Python  
-http://www.cnblogs.com/vamei/archive/2013/02/06/2892628.html
+ 
+- [维基百科 Python](https://zh.wikipedia.org/wiki/Python)。
+- [Python 简史](http://www.cnblogs.com/vamei/archive/2013/02/06/2892628.html)。
