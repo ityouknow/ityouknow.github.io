@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 知识星球推出三大新功能，然后又关闭了一个。
+copyright: money
 no-post-nav: true
 category: money
 tags: [money]

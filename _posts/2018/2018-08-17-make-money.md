@@ -1,6 +1,7 @@
 ---
 layout:     post
 title:      任何一个想赚钱的程序员都可以看看这篇文章
+copyright: money
 no-post-nav: true
 category: money
 tags: [money]

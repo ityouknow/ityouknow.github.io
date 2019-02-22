@@ -1,6 +1,7 @@
 ---
 layout:     post
 title:      昨天日入过万
+copyright: money
 no-post-nav: true
 category: money
 tags: [money]
