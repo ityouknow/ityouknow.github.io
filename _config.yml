@@ -59,26 +59,32 @@ menus:
   -
     href: /money.html
     label: 挣钱
+    target: _blank
 
   -
     href: /life.html
     label: 故事
+    target: _self
 
   -
     href: /arch.html
     label: 架构
+    target: _self
 
   -
     href: /payment.html
     label: 支付     
+    target: _self
 
   -
     href: /link.html
     label: 友链
+    target: _self
 
   -
     href: /about.html
     label: 关于
+    target: _self
 
 
 # Navigation. main menu list
@@ -91,6 +97,7 @@ navs:
   -
     href: /spring-boot.html
     label: Spring Boot
+    target: _self
     subnav:
 
       -
@@ -104,19 +111,23 @@ navs:
   -
     href: /spring-cloud.html
     label: Spring Cloud
+    target: _self
 
   -
     
     href: /java.html
     label: Java
+    target: _self
 
   -
     href: /archives.html
     label: Archives
+    target: _self
 
   -
     href: /about.html
     label: About
+    target: _self
 
 
 # labels. my blog key words
@@ -125,26 +136,32 @@ labels:
   -
     href: /fastdfs.html
     label: FastDFS
+    target: _blank
 
   -
     href: /mongodb.html
     label: MongoDB
+    target: _blank
 
   -
     href: /docker.html
     label: Docker
+    target: _blank
 
   -
     href: /open-source.html
-    label: Code   
+    label: Code  
+    target: _blank
 
   -
     href: /it.html
-    label: It   
+    label: It 
+    target: _blank
 
   -
     href: /python.html
-    label: Python   
+    label: Python  
+    target: _blank
 
 
 # selected articles
