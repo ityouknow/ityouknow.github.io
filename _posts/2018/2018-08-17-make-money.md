@@ -2,8 +2,8 @@
 layout:     post
 title:      任何一个想赚钱的程序员都可以看看这篇文章
 no-post-nav: true
-category: life
-tags: [life]
+category: money
+tags: [money]
 excerpt: 挣钱能力，几乎是判定一个人综合能力的最高标准
 ---
 

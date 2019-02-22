@@ -57,8 +57,8 @@ paginate_path: 'page:num'
 menus:
 
   -
-    href: /share/2017/10/01/resource-sharing.html
-    label: 资源
+    href: /money.html
+    label: 挣钱
 
   -
     href: /life.html

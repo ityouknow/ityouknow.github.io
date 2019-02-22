@@ -3,8 +3,8 @@ layout:     post
 title:      英语外教老师被骗后续：石锤证据，果真是骗子！
 no-post-nav: true
 copyright: flyever
-category: life
-tags: [life]
+category: money
+tags: [money]
 excerpt: 贪心是人生之大敌
 ---
 
@@ -47,3 +47,8 @@ FaceBook 地址：[https://www.facebook.com/guoping.nie.75](https://www.facebook
 估计都没好好把文章看完就来喷我，就这智商和理解能力，我只能给他回复一下，让他认清现实。
 
 尽管这个世界大部分时候都是让人很失望和无语的，但是也得保留一点点最后的底线，给留那么一点点光吧。大家可以帮忙转发此文章让更多的人看到，相信终究会让骗子看到这篇文章，无处可藏！
+
+
+---
+
+后记，最后帮老师要回了一大半的资金，剩余金额两个人还在拉锯中...

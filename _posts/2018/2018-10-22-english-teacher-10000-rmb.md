@@ -3,8 +3,8 @@ layout:     post
 title:      我的英语外教老师被骗 10000 RMB的惨痛经历
 no-post-nav: true
 copyright: flyever
-category: life
-tags: [life]
+category: money
+tags: [money]
 excerpt: 轻信是人生之大敌
 ---
 
