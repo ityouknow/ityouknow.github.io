@@ -178,9 +178,9 @@ classes:
     describe: 一个架构师的自我修养
 
   -
-    href: /jvm.html
-    name: Jvm系列文章
-    describe: Java之根基，Java程序员必学
+    href: /java.html
+    name: Java 系列文章
+    describe: Java 之根基，Java 程序员必学
 
 
 # ---------------- #
