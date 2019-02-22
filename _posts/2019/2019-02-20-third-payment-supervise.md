@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 揭秘第三方支付包含哪些业务 | 监管成长篇
+title: 揭秘第三方支付盈利模式、发展概况 | 监管成长篇
 category: payment
 tags: [payment]
 keywords: 第三分支付，支付宝，牌照，网络支付，PayPal
