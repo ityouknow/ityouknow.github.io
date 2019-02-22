@@ -61,4 +61,3 @@ excerpt: 可以说这个圈子就是《就聊挣钱》的深入实践
 
 关于圈子的详细介绍大家可以看上一篇文章《[任何一个想赚钱的程序员都可以看看这篇文章](http://www.ityouknow.com/life/2018/08/17/make-money.html)》
 
-![](http://www.itmind.net/assets/images/2018/life/zhengqian.png)

@@ -59,7 +59,7 @@ menus:
   -
     href: /money.html
     label: 挣钱
-    target: _blank
+    target: _self
 
   -
     href: /life.html

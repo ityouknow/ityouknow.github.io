@@ -56,4 +56,3 @@ excerpt: 挣钱能力，几乎是判定一个人综合能力的最高标准
 
 加入《就聊挣钱》来一场思维之旅。
 
-![](http://www.itmind.net/assets/images/2018/life/zhengqian.png)
