@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java 诞生的趣事
+title: Java 诞生的趣史
 copyright: java
 category: java
 tags: [java]
