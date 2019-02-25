@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 揭秘第三方支付包含哪些业务 | 发展趋势篇
+title: 第三方支付兼并出海浪潮 | 发展趋势篇
 category: payment
 tags: [payment]
 keywords: 第三分支付，支付宝，牌照，网络支付，PayPal
