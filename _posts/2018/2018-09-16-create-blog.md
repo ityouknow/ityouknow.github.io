@@ -152,6 +152,37 @@ jekyll build --destination=/usr/share/nginx/html
 > 执行此脚本的前提是安装好 git\jekyll 环境，这个网上有很多案例，这里就不再多描述了。  
 > 关于 Jekyll 环境搭建和使用可以参考这里：[https://jekyllcn.com/docs/home/](https://jekyllcn.com/docs/home/)
 
+## 可能会出现的问题
+
+有一些小伙伴反馈在克隆博客的时候出现了一些问题，在这里集中回复一下。
+
+1、克隆博客后格式丢失
+
+这是很多读者反馈的第一个问题，因为我的博客 css 和 图片是放到另外一个域名下的：www.itmind.net ，因此这块大家克隆过去需要改成本地的。
+
+主要涉及的文件 `ityouknow.github.io\_includes` 目录下 head.html 和 footer.html 两个文件夹，将文件中的 `http://www.itmind.net/xxx/xxx` 改为相对路径`/xxx/xxx`即可。
+
+
+2、留言功能丢失
+
+这里就需要大家修改一下 _config.yml 中 gitalk 的配置信息。具体如何操作大家可以参考这篇文章 [jekyll-theme-H2O 配置 gitalk
+](https://weijunzii.github.io/2018/06/29/Add-Gitalk-In-Jekyll-Theme-H2O.html)。注册完之后，需要在 _config.yml 配置以下信息：
+
+```
+gitalk:
+    owner: ityouknow
+    repo: blog-comments
+    clientID: 61bfc53d957e74e78f8f
+    clientSecret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
+```
+
+将这里改成你注册好的信息
+
+
+3、博客
+
+博客现在还缺检索功能，下一页和上一页功能、系列文章优化查看的功能，大家克隆后有完善功能的，也请帮忙留意，共同把这个博客完善的更好。
+
 
 
 最后，大家可以在这篇文章下留下你的个人博客地址，方便同行们观赏、交流、学习。
