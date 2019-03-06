@@ -51,7 +51,7 @@ spring.redis.lettuce.pool.max-idle=8
 spring.redis.lettuce.pool.min-idle=0
 ```
 
-3、添加cache的配置类
+3、添加 cache 的配置类
 
 ``` java
 @Configuration
