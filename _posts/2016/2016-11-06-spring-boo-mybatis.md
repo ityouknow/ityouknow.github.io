@@ -198,7 +198,7 @@ public class UserMapperTest {
 }
 ```
 
-源码中controler层有完整的增删改查，这里就不贴了  
+源码中controller层有完整的增删改查，这里就不贴了  
 
 ## 极简xml版本
 
