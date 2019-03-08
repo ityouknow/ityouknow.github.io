@@ -206,6 +206,8 @@ t(spring:session:expirations:1472976480000
 
 **[示例代码-码云](https://gitee.com/ityouknow/spring-boot-examples/tree/master/spring-boot-redis)**
 
+> 文章内容已经升级到 Spring Boot 2.x 
+
 ## 参考
 
 [Redis的两个典型应用场景](http://emacoo.cn/blog/spring-redis)   

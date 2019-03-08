@@ -475,6 +475,8 @@ layout 是文件地址，如果有文件夹可以这样写`fileName/layout:htmlh
 
 **[示例代码-码云](https://gitee.com/ityouknow/spring-boot-examples/tree/master/spring-boot-thymeleaf)**
 
+> 文章内容已经升级到 Spring Boot 2.x 
+
 ## 参考 
 
 [thymeleaf官方指南](http://www.thymeleaf.org/doc/tutorials/2.1/thymeleafspring.html#integrating-thymeleaf-with-spring)  
