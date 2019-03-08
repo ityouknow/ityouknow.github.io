@@ -7,7 +7,7 @@ tags: [thymeleaf]
 
 在上篇文章[Spring Boot (二)：Web 综合开发](http://www.ityouknow.com/springboot/2016/02/03/spring-boot-web.html)中简单介绍了一下 Thymeleaf，这篇文章将更加全面详细的介绍 Thymeleaf 的使用。Thymeleaf 是新一代的模板引擎，在 Spring4.0 中推荐使用 Thymeleaf 来做前端模版引擎。
 
-## thymeleaf介绍
+## Thymeleaf 介绍
 
 简单说，Thymeleaf 是一个跟 Velocity、FreeMarker 类似的模板引擎，它可以完全替代 JSP 。相较与其他的模板引擎，它有如下三个极吸引人的特点：
 
@@ -409,6 +409,7 @@ Spring Boot 2.0 将布局单独提取了出来，需要单独引入依赖：thym
     <groupId>nz.net.ultraq.thymeleaf</groupId>
     <artifactId>thymeleaf-layout-dialect</artifactId>
 </dependency>
+```
 
 定义代码片段
 
