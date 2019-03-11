@@ -9,7 +9,6 @@ tags: [springboot]
 
 使用 Spring Boot Jpa 开发时，发现国内对 Spring Boot Jpa 全面介绍的文章比较少案例也比较零碎，因此写文章总结一下。本人也正在翻译[Spring Data JPA 参考指南](https://ityouknow.gitbooks.io/spring-data-jpa-reference-documentation/content/),有兴趣的同学欢迎联系我，一起加入翻译中！
 
-
 ##  Spring Boot Jpa 介绍
 
 ### 首先了解 Jpa 是什么？
