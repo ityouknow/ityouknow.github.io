@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Spring Boot 实战：我们的第一款开源软件
+copyright: java
 category: springboot
 tags: [云收藏]
 ---

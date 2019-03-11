@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Spring Boot(四)：Thymeleaf 使用详解
+copyright: java
 category: springboot
 tags: [thymeleaf]
 ---

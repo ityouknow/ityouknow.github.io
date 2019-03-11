@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Spring Boot(三)：Spring Boot 中 Redis 的使用
+copyright: java
 category: springboot
 tags: [springboot]
 ---

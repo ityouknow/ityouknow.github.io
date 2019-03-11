@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Github 上 Star 最多的个人 Spring Boot 开源学习项目
+copyright: java
 category: springboot
 tags: [springboot]
 keywords: Spring Boot,开源项目,学习教程
