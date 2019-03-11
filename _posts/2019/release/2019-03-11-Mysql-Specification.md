@@ -105,7 +105,7 @@ MySQL限制每个表最多存储4096列，并且每一行数据的大小不能�
 
 mysql提供了两个方法来处理ip地址：
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/JdLkEI9sZffXkbKriaKhRH3gTt14Vd1HiandHUWDzicDjMHdUVQohH34VedBziaTPwHCC0R3MUiaEs8ZO64bux6OUXg/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](https://www.handsomzohn.xyz/assets/images/2019/mysql/inet.jpg)
 
 插入数据前，先用inet_aton把ip地址转为整型，可以节省空间。显示数据时，使用inet_ntoa把整型的ip地址转为地址显示即可。
 
