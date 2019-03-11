@@ -105,7 +105,7 @@ MySQL限制每个表最多存储4096列，并且每一行数据的大小不能�
 
 mysql提供了两个方法来处理ip地址：
 
-![](https://www.handsomzohn.xyz/assets/images/2019/mysql/inet.jpg)
+![](https://www.handsomzohn.xyz/assets/images/2019/mysql/inet.png)
 
 插入数据前，先用inet_aton把ip地址转为整型，可以节省空间。显示数据时，使用inet_ntoa把整型的ip地址转为地址显示即可。
 
@@ -113,7 +113,7 @@ mysql提供了两个方法来处理ip地址：
 
 因为：无符号相对于有符号可以多出一倍的存储空间
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/JdLkEI9sZffXkbKriaKhRH3gTt14Vd1HiaBOLbnjtTM3CVVLXwnrnvP5Hn12AVKM7JDP6aGessTInZz213vaUfEw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](https://www.handsomzohn.xyz/assets/images/2019/mysql/suint.png)
 
 VARCHAR(N)中的N代表的是字符数，而不是字节数
 
@@ -345,11 +345,11 @@ in的值不要超过500个in操作可以更有效的利用索引，or大多数�
 
  **· 不推荐：**
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/JdLkEI9sZffXkbKriaKhRH3gTt14Vd1HiaZQc19VM56AwDqtoXWLTVHKar1icHAssTOwoZXcaqXGs5PjC3jPOFgibQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](https://www.handsomzohn.xyz/assets/images/2019/mysql/btj.png)
 
  **· 推荐：**
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/JdLkEI9sZffXkbKriaKhRH3gTt14Vd1HiayKhkZjdDeH2NqYAq4qfaiaiaI3BR6qUOfTp8WbL4xsv0YodPu7q6YjHA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](https://www.handsomzohn.xyz/assets/images/2019/mysql/tj.png)
 
 **14、在明显不会有重复值时使用UNION ALL而不是UNION**
 
