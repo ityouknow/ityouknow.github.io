@@ -62,33 +62,33 @@ Mybatis 初期使用比较麻烦，需要各种配置文件、实体类、Dao �
 ### 2、`application.properties` 添加相关配置
 
 ``` properties
-mybatis.type-aliases-package=com.neo.entity
+mybatis.type-aliases-package=com.neo.model
 
-spring.datasource.driverClassName = com.mysql.jdbc.Driver
-spring.datasource.url = jdbc:mysql://localhost:3306/test1?useUnicode=true&characterEncoding=utf-8
-spring.datasource.username = root
-spring.datasource.password = root
+spring.datasource.url=jdbc:mysql://localhost:3306/test?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=true
+spring.datasource.username=root
+spring.datasource.password=root
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 ```
 
-springboot会自动加载spring.datasource.*相关配置，数据源就会自动注入到sqlSessionFactory中，sqlSessionFactory会自动注入到Mapper中，对了你一切都不用管了，直接拿起来使用就行了。
+Spring Boot 会自动加载 `spring.datasource.*` 相关配置，数据源就会自动注入到 sqlSessionFactory 中，sqlSessionFactory 会自动注入到 Mapper 中，对了，你一切都不用管了，直接拿起来使用就行了。
 
-在启动类中添加对mapper包扫描`@MapperScan`
+在启动类中添加对 mapper 包扫描`@MapperScan`
 
 ``` java
 @SpringBootApplication
 @MapperScan("com.neo.mapper")
-public class Application {
+public class MybatisAnnotationApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(MybatisAnnotationApplication.class, args);
 	}
 }
 ```
 
-或者直接在Mapper类上面添加注解`@Mapper`,建议使用上面那种，不然每个mapper加个注解也挺麻烦的
+或者直接在 Mapper 类上面添加注解`@Mapper`，建议使用上面那种，不然每个 mapper 加个注解也挺麻烦的
 
 
-### 3、开发Mapper  
+### 3、开发 Mapper  
 
 第三步是最关键的一块， Sql 生产都在这里
 
@@ -134,7 +134,7 @@ public interface UserMapper {
 > **注意，使用#符号和$符号的不同：**
 
 
-``` java
+```
 // This example creates a prepared statement, something like select * from teacher where name = ?;
 @Select("Select * from teacher where name = #{name}")
 Teacher selectTeachForGivenName(@Param("name") String name);
@@ -146,7 +146,7 @@ Teacher selectTeachForGivenName(@Param("name") String name);
 
 ### 4、使用  
 
-上面三步就基本完成了相关dao层开发，使用的时候当作普通的类注入进入就可以了
+上面三步就基本完成了相关 Mapper 层开发，使用的时候当作普通的类注入进入就可以了
 
 
 ``` java
@@ -155,44 +155,45 @@ Teacher selectTeachForGivenName(@Param("name") String name);
 public class UserMapperTest {
 
 	@Autowired
-	private UserMapper UserMapper;
+	private UserMapper userMapper;
 
 	@Test
 	public void testInsert() throws Exception {
-		UserMapper.insert(new UserEntity("aa", "a123456", UserSexEnum.MAN));
-		UserMapper.insert(new UserEntity("bb", "b123456", UserSexEnum.WOMAN));
-		UserMapper.insert(new UserEntity("cc", "b123456", UserSexEnum.WOMAN));
+		userMapper.insert(new User("aa1", "a123456", UserSexEnum.MAN));
+		userMapper.insert(new User("bb1", "b123456", UserSexEnum.WOMAN));
+		userMapper.insert(new User("cc1", "b123456", UserSexEnum.WOMAN));
 
-		Assert.assertEquals(3, UserMapper.getAll().size());
+		Assert.assertEquals(3, userMapper.getAll().size());
 	}
 
 	@Test
 	public void testQuery() throws Exception {
-		List<UserEntity> users = UserMapper.getAll();
+		List<User> users = userMapper.getAll();
 		System.out.println(users.toString());
 	}
 	
+	
 	@Test
 	public void testUpdate() throws Exception {
-		UserEntity user = UserMapper.getOne(3l);
+		User user = userMapper.getOne(30l);
 		System.out.println(user.toString());
 		user.setNickName("neo");
-		UserMapper.update(user);
-		Assert.assertTrue(("neo".equals(UserMapper.getOne(3l).getNickName())));
+		userMapper.update(user);
+		Assert.assertTrue(("neo".equals(userMapper.getOne(30l).getNickName())));
 	}
 }
 ```
 
-源码中controller层有完整的增删改查，这里就不贴了  
+源码中 Controller 层有完整的增删改查，这里就不贴了  
 
-## 极简xml版本
+## 极简 xml 版本
 
-极简xml版本保持映射文件的老传统，优化主要体现在不需要实现dao的是实现层，系统会自动根据方法名在映射文件中找对应的 Sql .
+极简 xml 版本保持映射文件的老传统，接口层只需要定义空方法，系统会自动根据方法名在映射文件中找对应的 Sql .
 
 
 ### 1、配置
 
-pom文件和上个版本一样，只是`application.properties`新增以下配置
+pom 文件和上个版本一样，只是`application.properties`新增以下配置
 
 ``` properties
 mybatis.config-location=classpath:mybatis/mybatis-config.xml
@@ -219,7 +220,7 @@ mybatis-config.xml 配置
 这里也可以添加一些 Mybatis 基础的配置
 
 
-### 2、添加User的映射文件
+### 2、添加 User 的映射文件
 
 ``` xml
 <mapper namespace="com.neo.mapper.UserMapper" >
@@ -276,10 +277,10 @@ mybatis-config.xml 配置
 </mapper>
 ```
 
-其实就是把上个版本中mapper的 Sql 搬到了这里的xml中了
+其实就是把上个版本中 Mapper 的 Sql 搬到了这里的 xml 中了
 
 
-### 3、编写Dao层的代码
+### 3、编写 Mapper 层的代码
 
 ``` java
 public interface UserMapper {
@@ -296,12 +297,13 @@ public interface UserMapper {
 
 }
 ```
-对比上一步这里全部只剩了接口方法
+
+对比上一步，这里只需要定义接口方法
 
 
 ### 4、使用
 
-使用和上个版本没有任何区别，大家就看代码吧
+使用和上个版本没有任何区别，大家就看文章对应的示例代码吧
 
 
 ## 如何选择
@@ -310,12 +312,6 @@ public interface UserMapper {
 
 老传统模式比适合大型项目，可以灵活的动态生成 Sql ，方便调整 Sql ，也有痛痛快快，洋洋洒洒的写 Sql 的感觉。
 
-**[示例代码-github](https://github.com/ityouknow/spring-boot-examples)**
+**[示例代码-github](https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-mybatis)**
 
-**[示例代码-码云](https://gitee.com/ityouknow/spring-boot-examples)**
-
--------------
-
-**作者：纯洁的微笑**  
-**出处：[www.ityouknow.com](http://www.ityouknow.com)**   
-**版权所有，欢迎保留原文链接进行转载：)**
+**[示例代码-码云](https://gitee.com/ityouknow/spring-boot-examples/tree/master/spring-boot-mybatis)**
