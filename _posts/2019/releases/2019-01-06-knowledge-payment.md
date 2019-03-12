@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 知识付费是骗人的吗？
+title: 谈谈 IT 行业的知识付费
 no-post-nav: true
 category: it
 tags: [it]

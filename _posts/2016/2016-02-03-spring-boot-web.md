@@ -164,6 +164,7 @@ spring.jpa.properties.hibernate.hbm2ddl.auto=update
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect
 spring.jpa.show-sql= true
 ```
+
 其实这个 hibernate.hbm2ddl.auto 参数的作用主要用于：自动创建|更新|验证数据库表结构,有四个值：
 
 > 1. create： 每次加载 hibernate 时都会删除上一次的生成的表，然后根据你的 model 类再重新来生成新表，哪怕两次没有任何改变也要这样执行，这就是导致数据库表数据丢失的一个重要原因。
@@ -171,8 +172,8 @@ spring.jpa.show-sql= true
 > 3. update：最常用的属性，第一次加载 hibernate 时根据 model 类会自动建立起表的结构（前提是先建立好数据库），以后加载 hibernate 时根据 model 类自动更新表结构，即使表结构改变了但表中的行仍然存在不会删除以前的行。要注意的是当部署到服务器后，表结构是不会被马上建立起来的，是要等 应用第一次运行起来后才会。
 > 4.  validate ：每次加载 hibernate 时，验证创建数据库表结构，只会和数据库中的表进行比较，不会创建新表，但是会插入新值。
 
-`dialect` 主要是指定生成表名的存储引擎为 InneoDB  
-`show-sq` 是否打印出自动生产的 SQL，方便调试的时候查看
+`dialect` 主要是指定生成表名的存储引擎为 InnoDBD  
+`show-sql` 是否打印出自动生成的 SQL，方便调试的时候查看
 
 ### 3、添加实体类和 Dao
 
@@ -199,7 +200,7 @@ public class User implements Serializable {
 
 }
 ```
-dao 只要继承 JpaRepository 类就可以，几乎可以不用写方法，还有一个特别有尿性的功能非常赞，就是可以根据方法名来自动的生产 SQL，比如`findByUserName` 会自动生产一个以 `userName` 为参数的查询方法，比如 `findAlll` 自动会查询表里面的所有数据，比如自动分页等等。。
+dao 只要继承 JpaRepository 类就可以，几乎可以不用写方法，还有一个特别有尿性的功能非常赞，就是可以根据方法名来自动的生成 SQL，比如`findByUserName` 会自动生成一个以 `userName` 为参数的查询方法，比如 `findAlll` 自动会查询表里面的所有数据，比如自动分页等等。。
 
 **Entity 中不映射成列的字段得加 @Transient 注解，不加注解也会映射成列**
 
