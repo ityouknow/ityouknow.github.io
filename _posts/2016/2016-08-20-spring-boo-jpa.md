@@ -311,7 +311,7 @@ private String  userName;
 
 这里有一个开源项目几乎使用了这里介绍的所有标签和布局，大家可以参考：
 
-**[示例代码-github](https://gitee.com/ityouknow/spring-boot-examples/tree/master/spring-boot-jpa)**
+**[示例代码-github](https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-jpa)**
 
 **[示例代码-码云](https://gitee.com/ityouknow/spring-boot-examples/tree/master/spring-boot-jpa)**
 

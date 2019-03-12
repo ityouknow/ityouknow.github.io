@@ -1,55 +1,45 @@
 ---
 layout: post
-title: springboot(六)：如何优雅的使用mybatis
+title: Spring Boot(六)：如何优雅的使用 Mybatis
 category: springboot
 tags: [springboot]
 ---
 
-这两天启动了一个新项目因为项目组成员一直都使用的是mybatis，虽然个人比较喜欢jpa这种极简的模式，但是为了项目保持统一性技术选型还是定了 mybatis。到网上找了一下关于spring boot和mybatis组合的相关资料，各种各样的形式都有，看的人心累，结合了mybatis的官方demo和文档终于找到了最简的两种模式，花了一天时间总结后分享出来。
+这两天启动了一个新项目因为项目组成员一直都使用的是 Mybatis，虽然个人比较喜欢 Jpa 这种极简的模式，但是为了项目保持统一性技术选型还是定了 Mybatis 。到网上找了一下关于 Spring Boot 和 Mybatis 组合的相关资料，各种各样的形式都有，看的人心累，结合了 Mybatis 的官方 Demo 和文档终于找到了最简的两种模式，花了一天时间总结后分享出来。
 
-orm框架的本质是简化编程中操作数据库的编码，发展到现在基本上就剩两家了，一个是宣称可以不用写一句SQL的hibernate，一个是可以灵活调试动态sql的mybatis,两者各有特点，在企业级系统开发中可以根据需求灵活使用。发现一个有趣的现象：传统企业大都喜欢使用hibernate,互联网行业通常使用mybatis。
+Orm 框架的本质是简化编程中操作数据库的编码，发展到现在基本上就剩两家了，一个是宣称可以不用写一句 Sql 的 Hibernate，一个是可以灵活调试动态 Sql 的 Mybatis ,两者各有特点，在企业级系统开发中可以根据需求灵活使用。发现一个有趣的现象：传统企业大都喜欢使用 Hibernate ,互联网行业通常使用 Mybatis 。
 
-hibernate特点就是所有的sql都用Java代码来生成，不用跳出程序去写（看）sql，有着编程的完整性，发展到最顶端就是spring data jpa这种模式了，基本上根据方法名就可以生成对应的sql了，有不太了解的可以看我的上篇文章[springboot(五)：spring data jpa的使用](http://www.ityouknow.com/springboot/2016/08/20/spring-boo-jpa.html)。
+Hibernate 特点就是所有的 Sql 都用 Java 代码来生成，不用跳出程序去写（看） Sql ，有着编程的完整性，发展到最顶端就是 Spring Data Jpa 这种模式了，基本上根据方法名就可以生成对应的 Sql 了，有不太了解的可以看我的上篇文章[springboot(五)： Spring Data Jpa 的使用](http://www.ityouknow.com/springboot/2016/08/20/spring-boo-jpa.html)。
 
-mybatis初期使用比较麻烦，需要各种配置文件、实体类、dao层映射关联、还有一大推其它配置。当然mybatis也发现了这种弊端，初期开发了[generator](https://github.com/mybatis/generator)可以根据表结果自动生产实体类、配置文件和dao层代码，可以减轻一部分开发量；后期也进行了大量的优化可以使用注解了，自动管理dao层和配置文件等，发展到最顶端就是今天要讲的这种模式了，mybatis-spring-boot-starter就是springboot+mybatis可以完全注解不用配置文件，也可以简单配置轻松上手。
+Mybatis 初期使用比较麻烦，需要各种配置文件、实体类、Dao 层映射关联、还有一大推其它配置。当然 Mybatis 也发现了这种弊端，初期开发了[generator](https://github.com/mybatis/generator)可以根据表结果自动生产实体类、配置文件和 Dao 层代码，可以减轻一部分开发量；后期也进行了大量的优化可以使用注解了，自动管理 Dao 层和配置文件等，发展到最顶端就是今天要讲的这种模式了，`mybatis-spring-boot-starter` 就是 Spring Boot+ Mybatis 可以完全注解不用配置文件，也可以简单配置轻松上手。
 
-> 现在想想spring boot 就是牛逼呀，任何东西只要关联到spring boot都是化繁为简。
+> 现在想想 Spring Boot  就是牛逼呀，任何东西只要关联到 Spring Boot 都是化繁为简。
 
 ## mybatis-spring-boot-starter
 
-官方说明：```MyBatis Spring-Boot-Starter will help you use MyBatis with Spring Boot```  
-其实就是myBatis看spring boot这么火热也开发出一套解决方案来凑凑热闹,但这一凑确实解决了很多问题，使用起来确实顺畅了许多。mybatis-spring-boot-starter主要有两种解决方案，一种是使用注解解决一切问题，一种是简化后的老传统。
+官方说明：`MyBatis Spring-Boot-Starter will help you use MyBatis with Spring Boot`  
+其实就是 Mybatis 看 Spring Boot 这么火热也开发出一套解决方案来凑凑热闹，但这一凑确实解决了很多问题，使用起来确实顺畅了许多。`mybatis-spring-boot-starter`主要有两种解决方案，一种是使用注解解决一切问题，一种是简化后的老传统。
 
-当然任何模式都需要首先引入mybatis-spring-boot-starter的pom文件,现在最新版本是1.1.1（```刚好快到双11了 :)```）
+当然任何模式都需要首先引入`mybatis-spring-boot-starter`的 Pom 文件，现在最新版本是 2.0.0
 
 ``` xml
 <dependency>
 	<groupId>org.mybatis.spring.boot</groupId>
 	<artifactId>mybatis-spring-boot-starter</artifactId>
-	<version>1.1.1</version>
+	<version>2.0.0</version>
 </dependency>
 ```
 
 好了下来分别介绍两种开发模式
 
-
 ## 无配置文件注解版
 
 就是一切使用注解搞定。
 
-### 1 添加相关maven文件
+### 1 添加相关 Maven 文件
 
 ``` xml
 <dependencies>
-	<dependency>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter</artifactId>
-	</dependency>
-	<dependency>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-test</artifactId>
-		<scope>test</scope>
-	</dependency>
 	<dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-web</artifactId>
@@ -57,24 +47,19 @@ mybatis初期使用比较麻烦，需要各种配置文件、实体类、dao层�
 	<dependency>
 		<groupId>org.mybatis.spring.boot</groupId>
 		<artifactId>mybatis-spring-boot-starter</artifactId>
-		<version>1.1.1</version>
+		<version>2.0.0</version>
 	</dependency>
      <dependency>
         <groupId>mysql</groupId>
         <artifactId>mysql-connector-java</artifactId>
     </dependency>
-     <dependency>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-devtools</artifactId>
-        <optional>true</optional>
-	</dependency>
 </dependencies>
 ```
 
-完整的pom包这里就不贴了，大家直接看源码
+完整的 Pom 包这里就不贴了，大家直接看源码
 
 
-### 2、```application.properties``` 添加相关配置
+### 2、`application.properties` 添加相关配置
 
 ``` properties
 mybatis.type-aliases-package=com.neo.entity
@@ -87,7 +72,7 @@ spring.datasource.password = root
 
 springboot会自动加载spring.datasource.*相关配置，数据源就会自动注入到sqlSessionFactory中，sqlSessionFactory会自动注入到Mapper中，对了你一切都不用管了，直接拿起来使用就行了。
 
-在启动类中添加对mapper包扫描```@MapperScan```
+在启动类中添加对mapper包扫描`@MapperScan`
 
 ``` java
 @SpringBootApplication
@@ -100,12 +85,12 @@ public class Application {
 }
 ```
 
-或者直接在Mapper类上面添加注解```@Mapper```,建议使用上面那种，不然每个mapper加个注解也挺麻烦的
+或者直接在Mapper类上面添加注解`@Mapper`,建议使用上面那种，不然每个mapper加个注解也挺麻烦的
 
 
 ### 3、开发Mapper  
 
-第三步是最关键的一块，sql生产都在这里
+第三步是最关键的一块， Sql 生产都在这里
 
 ``` java
 public interface UserMapper {
@@ -202,19 +187,19 @@ public class UserMapperTest {
 
 ## 极简xml版本
 
-极简xml版本保持映射文件的老传统，优化主要体现在不需要实现dao的是实现层，系统会自动根据方法名在映射文件中找对应的sql.
+极简xml版本保持映射文件的老传统，优化主要体现在不需要实现dao的是实现层，系统会自动根据方法名在映射文件中找对应的 Sql .
 
 
 ### 1、配置
 
-pom文件和上个版本一样，只是```application.properties```新增以下配置
+pom文件和上个版本一样，只是`application.properties`新增以下配置
 
 ``` properties
 mybatis.config-location=classpath:mybatis/mybatis-config.xml
 mybatis.mapper-locations=classpath:mybatis/mapper/*.xml
 ```
 
-指定了mybatis基础配置文件和实体类映射文件的地址
+指定了 Mybatis 基础配置文件和实体类映射文件的地址
 
 mybatis-config.xml 配置
 
@@ -231,7 +216,7 @@ mybatis-config.xml 配置
 </configuration>
 ```
 
-这里也可以添加一些mybatis基础的配置
+这里也可以添加一些 Mybatis 基础的配置
 
 
 ### 2、添加User的映射文件
@@ -291,7 +276,7 @@ mybatis-config.xml 配置
 </mapper>
 ```
 
-其实就是把上个版本中mapper的sql搬到了这里的xml中了
+其实就是把上个版本中mapper的 Sql 搬到了这里的xml中了
 
 
 ### 3、编写Dao层的代码
@@ -323,7 +308,7 @@ public interface UserMapper {
 
 两种模式各有特点，注解版适合简单快速的模式，其实像现在流行的这种微服务模式，一个微服务就会对应一个自已的数据库，多表连接查询的需求会大大的降低，会越来越适合这种模式。
 
-老传统模式比适合大型项目，可以灵活的动态生成SQL，方便调整SQL，也有痛痛快快，洋洋洒洒的写SQL的感觉。
+老传统模式比适合大型项目，可以灵活的动态生成 Sql ，方便调整 Sql ，也有痛痛快快，洋洋洒洒的写 Sql 的感觉。
 
 **[示例代码-github](https://github.com/ityouknow/spring-boot-examples)**
 
