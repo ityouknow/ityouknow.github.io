@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Java 诞生的趣史
+title: 差点把 Java 命名成了 Silk（丝绸）
 copyright: java
 category: java
 tags: [java]
 keywords: java，java 历史，Jame Gosling，java 发展史
 ---
 
-差点把 Java 命名成了 Silk（丝绸）
+Java 诞生的历史
 
 ## Java 命名的由来
 
