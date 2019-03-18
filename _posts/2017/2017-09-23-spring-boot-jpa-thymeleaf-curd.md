@@ -53,7 +53,7 @@ spring.datasource.username=root
 spring.datasource.password=root
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
-spring.jpa.properties.hibernate.hbm2ddl.auto=update
+spring.jpa.properties.hibernate.hbm2ddl.auto=create
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect
 spring.jpa.show-sql= true
 
@@ -323,6 +323,8 @@ list 列表
 ![](http://www.itmind.net/assets/images/2017/springboot/edit.png)
 
 这样一个使用 Jpa 和 Thymeleaf 的增删改查示例就完成了。
+
+> 文章内容已经升级到 Spring Boot 2.x 
 
 当然所以的示例代码都在这里： 
  

@@ -1,23 +1,24 @@
 ---
 layout: post
-title: springboot(十七)：使用Spring Boot上传文件
+title: Spring Boot(十七)：使用 Spring Boot 上传文件
 category: springboot
 tags: [springboot]
-excerpt: 使用thymeleaf制作上传页面，Spring Boot接收文件并保持到本地。
-keywords: FastDFS, Spring Boot
+excerpt: 使用 Thymeleaf 制作上传页面，Spring Boot 接收文件并保持到本地。
+keywords: 上传文件, Spring Boot
+copyright: java
 ---
 
-上传文件是互联网中常常应用的场景之一，最典型的情况就是上传头像等，今天就带着带着大家做一个Spring Boot上传文件的小案例。
+上传文件是互联网中常常应用的场景之一，最典型的情况就是上传头像等，今天就带着带着大家做一个 Spring Boot 上传文件的小案例。
 
-## 1、pom包配置
+## 1、pom 包配置
 
-我们使用Spring Boot最新版本1.5.9、jdk使用1.8、tomcat8.0。
+我们使用 Spring Boot 版本 2.1.0、jdk 1.8、tomcat 8.0。
 
 ``` xml
 <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>1.5.9.RELEASE</version>
+    <version>2.1.0.RELEASE</version>
 </parent>
 
 <properties>
@@ -54,10 +55,9 @@ public class FileUploadWebApplication {
         SpringApplication.run(FileUploadWebApplication.class, args);
     }
 
-    //Tomcat large file upload connection reset
     @Bean
-    public TomcatEmbeddedServletContainerFactory tomcatEmbedded() {
-        TomcatEmbeddedServletContainerFactory tomcat = new TomcatEmbeddedServletContainerFactory();
+    public TomcatServletWebServerFactory tomcatEmbedded() {
+        TomcatServletWebServerFactory tomcat = new TomcatServletWebServerFactory();
         tomcat.addConnectorCustomizers((TomcatConnectorCustomizer) connector -> {
             if ((connector.getProtocolHandler() instanceof AbstractHttp11Protocol<?>)) {
                 //-1 means unlimited
@@ -70,7 +70,7 @@ public class FileUploadWebApplication {
 }
 ```
 
-tomcatEmbedded这段代码是为了解决，上传文件大于10M出现连接重置的问题。此异常内容GlobalException也捕获不到。
+tomcatEmbedded 这段代码是为了解决，上传文件大于10M出现连接重置的问题。此异常内容 GlobalException 也捕获不到。
 
 ![](http://www.itmind.net/assets/images/2018/springboot/connect_rest.png)
 
@@ -93,7 +93,7 @@ tomcatEmbedded这段代码是为了解决，上传文件大于10M出现连接重
 </html>
 ```
 
-非常简单的一个Post请求，一个选择框选择文件，一个提交按钮，效果如下：
+非常简单的一个 Post 请求，一个选择框选择文件，一个提交按钮，效果如下：
 
 ![](http://www.itmind.net/assets/images/2018/springboot/upload_submit.png)
 
@@ -118,7 +118,7 @@ tomcatEmbedded这段代码是为了解决，上传文件大于10M出现连接重
 
 ## 4、编写上传控制类
 
-访问localhost自动跳转到上传页面：
+访问 localhost 自动跳转到上传页面：
 
 ``` java
 @GetMapping("/")
@@ -192,15 +192,20 @@ public class GlobalExceptionHandler {
 
 ## 6、总结
 
-这样一个使用Spring Boot上传文件的简单Demo就完成了，感兴趣的同学可以将示例代码下载下来试试吧。
+这样一个使用 Spring Boot 上传文件的简单 Demo 就完成了，感兴趣的同学可以将示例代码下载下来试试吧。
+
+> 文章内容已经升级到 Spring Boot 2.x 
+
+
+**[示例代码-github](https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-file-upload)**
+
+**[示例代码-码云](https://gitee.com/ityouknow/spring-boot-examples/tree/master/spring-boot-file-upload)**
+
 
 **参考**：
 
 [Spring Boot file upload example](http://www.mkyong.com/spring-boot/spring-boot-file-upload-example/)
 
-**[示例代码-github](https://github.com/ityouknow/spring-boot-examples)**
-
-**[示例代码-码云](https://gitee.com/ityouknow/spring-boot-examples)**
 
 
 

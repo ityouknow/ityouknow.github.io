@@ -30,7 +30,7 @@ excerpt: 用了三年时间
 
 每个文章几乎都有小的项目示例，将这些小的示例项目放到了一个开源项目下面，随着文章越来越多， Star 数量增长也越来快，到了今天这个开源项目的 Star 数已经超过一万。
 
-## [spring-boot-examples(star 10600+)](https://github.com/ityouknow/spring-boot-examples)  
+## [spring-boot-examples(star 11600+)](https://github.com/ityouknow/spring-boot-examples)  
 
 **项目主页**
 

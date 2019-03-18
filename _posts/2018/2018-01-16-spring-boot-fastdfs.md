@@ -1,19 +1,18 @@
 ---
 layout: post
-title: springboot(十八)：使用Spring Boot集成FastDFS
+title: Spring Boot(十八)：使用 Spring Boot 集成 FastDFS
 category: springboot
 tags: [springboot]
 excerpt: 分布式文件系统FastDFS和Spring Boot的故事。
 keywords: FastDFS, Spring Boot
+copyright: java
 ---
 
-上篇文章介绍了[如何使用Spring Boot上传文件](http://www.ityouknow.com/springboot/2018/01/12/spring-boot-upload-file.html)，这篇文章我们介绍如何使用Spring Boot将文件上传到分布式文件系统FastDFS中。
+上篇文章介绍了[如何使用 Spring Boot 上传文件](http://www.ityouknow.com/springboot/2018/01/12/spring-boot-upload-file.html)，这篇文章我们介绍如何使用 Spring Boot 将文件上传到分布式文件系统 FastDFS 中。
 
 这个项目会在上一个项目的基础上进行构建。
 
-## 1、pom包配置
-
-我们使用Spring Boot最新版本1.5.9、jdk使用1.8、tomcat8.0。
+## 1、pom 包配置
 
 ``` xml
 <dependency>
@@ -23,14 +22,14 @@ keywords: FastDFS, Spring Boot
 </dependency>
 ```
 
-加入了`fastdfs-client-java`包，用来调用FastDFS相关的API。
+加入了`fastdfs-client-java`包，用来调用 FastDFS 相关的 API。
 
 
 ## 2、配置文件
 
-resources目录下添加`fdfs_client.conf`文件
+resources 目录下添加`fdfs_client.conf`文件
 
-``` java
+```
 connect_timeout = 60
 network_timeout = 60
 charset = UTF-8
@@ -42,11 +41,11 @@ tracker_server = 192.168.53.85:22122
 tracker_server = 192.168.53.86:22122
 ```
 
-配置文件设置了连接的超时时间，编码格式以及tracker_server地址等信息
+配置文件设置了连接的超时时间，编码格式以及 tracker_server 地址等信息
 
 详细内容参考：[fastdfs-client-java](https://github.com/happyfish100/fastdfs-client-java)
 
-## 3、封装FastDFS上传工具类
+## 3、封装 FastDFS 上传工具类
 
 封装FastDFSFile，文件基础信息包括文件名、内容、文件类型、作者等。
 
@@ -58,9 +57,10 @@ public class FastDFSFile {
     private String md5;
     private String author;
     //省略getter、setter
+}
 ```
 
-封装FastDFSClient类，包含常用的上传、下载、删除等方法。
+封装 FastDFSClient 类，包含常用的上传、下载、删除等方法。
 
 首先在类加载的时候读取相应的配置信息，并进行初始化。
 
@@ -110,9 +110,9 @@ public static String[] upload(FastDFSFile file) {
 }
 ```
 
-使用FastDFS提供的客户端storageClient来进行文件上传，最后将上传结果返回。
+使用 FastDFS 提供的客户端 storageClient 来进行文件上传，最后将上传结果返回。
 
-根据groupName和文件名获取文件信息。
+根据 groupName 和文件名获取文件信息。
 
 ``` java
 public static FileInfo getFile(String groupName, String remoteFileName) {
@@ -157,11 +157,11 @@ public static void deleteFile(String groupName, String remoteFileName)
 }
 ```
 
-使用FastDFS时，直接调用FastDFSClient对应的方法即可。
+使用 FastDFS 时，直接调用 FastDFSClient 对应的方法即可。
 
 ## 4、编写上传控制类
 
-从MultipartFile中读取文件信息，然后使用FastDFSClient将文件上传到FastDFS集群中。
+从 MultipartFile 中读取文件信息，然后使用 FastDFSClient 将文件上传到 FastDFS 集群中。
 
 ``` java
 public String saveFile(MultipartFile multipartFile) throws IOException {
@@ -222,11 +222,11 @@ public String singleFileUpload(@RequestParam("file") MultipartFile file,
 
 ![](http://www.itmind.net/assets/images/2018/fastdfs/fastDfs_pic.png)
 
-> 这样使用Spring Boot 集成FastDFS的案例就完成了。
+> 这样使用 Spring Boot 集成 FastDFS 的案例就完成了。文章内容已经升级到 Spring Boot 2.x 
 
 
-**[示例代码-github](https://github.com/ityouknow/spring-boot-examples)**
+**[示例代码-github](https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-fastDFS)**
 
-**[示例代码-码云](https://gitee.com/ityouknow/spring-boot-examples)**
+**[示例代码-码云](https://gitee.com/ityouknow/spring-boot-examples/tree/master/spring-boot-fastDFS)**
 
 
