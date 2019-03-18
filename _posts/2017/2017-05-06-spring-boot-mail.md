@@ -1,20 +1,21 @@
 ---
 layout: post
-title: springboot(十)：邮件服务
+title:  Spring Boot (十)：邮件服务
 category: springboot 
 tags: [springboot]
+copyright: java
 ---
 
-springboot仍然在狂速发展，才五个多月没有关注，现在看[官网](http://projects.spring.io/spring-boot/)已经到1.5.3.RELEASE版本了。准备慢慢在写写springboot相关的文章，本篇文章使用springboot最新版本1.5.3进行开发。
+ Spring Boot 仍然在狂速发展，才几个多月没有关注，现在看[官网](http://projects.spring.io/spring-boot/)已经到 2.1.0.RELEASE 版本了。准备慢慢在写写 Spring Boot 相关的文章，本篇文章使用 Spring Boot 最新版本 2.1.0 进行开发。
 
-发送邮件应该是网站的必备功能之一，什么注册验证，忘记密码或者是给用户发送营销信息。最早期的时候我们会使用JavaMail相关api来写发送邮件的相关代码，后来spring推出了JavaMailSender更加简化了邮件发送的过程，在之后springboot对此进行了封装就有了现在的spring-boot-starter-mail,本章文章的介绍主要来自于此包。
+发送邮件应该是网站的必备功能之一，什么注册验证，忘记密码或者是给用户发送营销信息。最早期的时候我们会使用 JavaMail 相关 api 来写发送邮件的相关代码，后来 Spring 推出了 JavaMailSender 更加简化了邮件发送的过程，在之后 Spring Boot 对此进行了封装就有了现在的 `spring-boot-starter-mail` ,本章文章的介绍主要来自于此包。
 
 
 ## 简单使用
 
-### 1、pom包配置
+### 1、pom 包配置
 
-pom包里面添加spring-boot-starter-mail包引用
+pom 包里面添加 `spring-boot-starter-mail` 包引用
 
 ``` xml
 <dependencies>
@@ -25,7 +26,7 @@ pom包里面添加spring-boot-starter-mail包引用
 </dependencies>
 ```
 
-### 2、在application.properties中添加邮箱配置
+### 2、在 application.properties 中添加邮箱配置
 
 ``` properties
 spring.mail.host=smtp.qiye.163.com //邮箱服务器地址
@@ -36,7 +37,7 @@ spring.mail.default-encoding=UTF-8
 mail.fromMail.addr=xxx@oo.com  //以谁来发送邮件
 ```
 
-### 3、编写mailService,这里只提出实现类。
+### 3、编写 mailService，这里只提出实现类。
 
 ``` java
 @Component
@@ -70,7 +71,7 @@ public class MailServiceImpl implements MailService{
 ```
 
 
-### 4、编写test类进行测试
+### 4、编写 test 类进行测试
 
 ``` java
 @RunWith(SpringRunner.class)
@@ -92,12 +93,12 @@ public class MailServiceTest {
 
 ## 加点料
 
-但是在正常使用的过程中，我们通常在邮件中加入图片或者附件来丰富邮件的内容，下面讲介绍如何使用springboot来发送丰富的邮件。
+但是在正常使用的过程中，我们通常在邮件中加入图片或者附件来丰富邮件的内容，下面讲介绍如何使用 Spring Boot 来发送丰富的邮件。
 
 
-### 发送html格式邮件
+### 发送 html 格式邮件
 
-其它都不变在MailService添加sendHtmlMail方法.
+其它都不变在 MailService 添加 sendHtmlMail 方法.
 
 ``` java
 public void sendHtmlMail(String to, String subject, String content) {
@@ -119,7 +120,7 @@ public void sendHtmlMail(String to, String subject, String content) {
 }
 ```
 
-在测试类中构建html内容，测试发送
+在测试类中构建 html 内容，测试发送
 
 ``` java
 @Test
@@ -136,7 +137,7 @@ public void testHtmlMail() throws Exception {
 
 ### 发送带附件的邮件
 
-在MailService添加sendAttachmentsMail方法.
+在 MailService 添加 sendAttachmentsMail 方法.
 
 ``` java
 public void sendAttachmentsMail(String to, String subject, String content, String filePath){
@@ -175,7 +176,7 @@ public void sendAttachmentsMail() {
 
 ### 发送带静态资源的邮件
 
-邮件中的静态资源一般就是指图片，在MailService添加sendAttachmentsMail方法.
+邮件中的静态资源一般就是指图片，在 MailService 添加 sendAttachmentsMail 方法.
 
 ``` java
 public void sendInlineResourceMail(String to, String subject, String content, String rscPath, String rscId){
@@ -213,7 +214,7 @@ public void sendInlineResourceMail() {
 }
 ```
 
-> 添加多个图片可以使用多条 ```<img src='cid:" + rscId + "' >``` 和  ```helper.addInline(rscId, res)``` 来实现
+> 添加多个图片可以使用多条 `<img src='cid:" + rscId + "' >` 和  `helper.addInline(rscId, res)` 来实现
 
 
 到此所有的邮件发送服务已经完成了。
@@ -229,15 +230,15 @@ public void sendInlineResourceMail() {
 
 ``` xml
 尊敬的neo用户：
-                  
-              恭喜您注册成为xxx网的用户,，同时感谢您对xxx的关注与支持并欢迎您使用xx的产品与服务。
-              ...
+              
+          恭喜您注册成为xxx网的用户,，同时感谢您对xxx的关注与支持并欢迎您使用xx的产品与服务。
+          ...
 
 ```
 
-其中只有neo这个用户名在变化，其它邮件内容均不变，如果每次发送邮件都需要手动拼接的话会不够优雅，并且每次模板的修改都需要改动代码的话也很不方便，因此对于这类邮件需求，都建议做成邮件模板来处理。模板的本质很简单，就是在模板中替换变化的参数，转换为html字符串即可，这里以```thymeleaf```为例来演示。
+其中只有 neo 这个用户名在变化，其它邮件内容均不变，如果每次发送邮件都需要手动拼接的话会不够优雅，并且每次模板的修改都需要改动代码的话也很不方便，因此对于这类邮件需求，都建议做成邮件模板来处理。模板的本质很简单，就是在模板中替换变化的参数，转换为 html 字符串即可，这里以`thymeleaf`为例来演示。
 
-**1、pom中导入thymeleaf的包**
+**1、pom 中导入 thymeleaf 的包**
 
 ``` xml
 <dependency>
@@ -246,7 +247,7 @@ public void sendInlineResourceMail() {
 </dependency>
 ```
 
-**2、在resorces/templates下创建emailTemplate.html**
+**2、在 resorces/templates 下创建 emailTemplate.html **
 
 ``` html
 <!DOCTYPE html>
@@ -289,19 +290,14 @@ public void sendTemplateMail() {
 
 很多时候邮件发送并不是我们主业务必须关注的结果，比如通知类、提醒类的业务可以允许延时或者失败。这个时候可以采用异步的方式来发送邮件，加快主交易执行速度，在实际项目中可以采用MQ发送邮件相关参数，监听到消息队列之后启动发送邮件。
 
-可以参考前期文章：[springboot(八)：RabbitMQ详解](http://www.ityouknow.com/springboot/2016/11/30/springboot(%E5%85%AB)-RabbitMQ%E8%AF%A6%E8%A7%A3.html) 来实现。
+可以参考前期文章：[Spring Boot(八)：RabbitMQ 详解](http://www.ityouknow.com/springboot/2016/11/30/spring-boot-rabbitMQ.html) 来实现。
+
+> 文章内容已经升级到 Spring Boot 2.x 
 
 
-**[示例代码-github](https://github.com/ityouknow/spring-boot-examples)**
+**[示例代码-github](https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-mail)**
 
-**[示例代码-码云](https://gitee.com/ityouknow/spring-boot-examples)**
+**[示例代码-码云](https://gitee.com/ityouknow/spring-boot-examples/tree/master/spring-boot-mail)**
 
-**参考:**
+**参考:**  
 [spring boot 发送邮件](http://blog.csdn.net/clementad/article/details/51833416)
-
-
--------------
-
-**作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/springboot/2017/05/06/springboot-mail.html)**      
-**版权归作者所有，转载请注明出处** 

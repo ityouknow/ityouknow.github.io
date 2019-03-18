@@ -3,6 +3,7 @@ layout: post
 title: Spring Boot(八)：RabbitMQ 详解
 category: springboot 
 tags: [springboot]
+copyright: java
 ---
 
 RabbitMQ 即一个消息队列，主要是用来实现应用程序的异步和解耦，同时也能起到消息缓冲，消息分发的作用。
@@ -420,6 +421,8 @@ fanout Receiver C: hi, fanout msg
 ```
 
 结果说明，绑定到 fanout 交换机上面的队列都收到了消息
+
+> 文章内容已经升级到 Spring Boot 2.x 
 
 
 **[示例代码-github](https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-rabbitmq)**

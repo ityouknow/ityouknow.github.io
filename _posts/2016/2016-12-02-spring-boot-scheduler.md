@@ -3,6 +3,7 @@ layout: post
 title:  Spring Boot(九)：定时任务
 category: springboot 
 tags: [springboot]
+copyright: java
 ---
 
 在我们开发项目过程中，经常需要定时任务来帮助我们来做一些内容， Spring Boot 默认已经帮我们实行了，只需要添加相应的注解就可以实现
@@ -103,6 +104,7 @@ this is scheduler task runing  3
 - `@Scheduled(fixedDelay = 6000)` ：上一次执行完毕时间点之后6秒再执行
 - `@Scheduled(initialDelay=1000, fixedRate=6000)` ：第一次延迟1秒后执行，之后按 fixedRate 的规则每6秒执行一次
 
+> 文章内容已经升级到 Spring Boot 2.x 
 
 **[示例代码-github](https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-scheduler)**
 

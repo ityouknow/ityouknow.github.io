@@ -1,69 +1,67 @@
 ---
 layout: post
-title: springboot(十四)：springboot整合shiro-登录认证和权限管理
+title:  Spring Boot (十四)： Spring Boot 整合 Shiro-登录认证和权限管理
 category: springboot 
 tags: [springboot]
+copyright: java
 ---
 
-这篇文章我们来学习如何使用Spring Boot集成Apache Shiro。安全应该是互联网公司的一道生命线，几乎任何的公司都会涉及到这方面的需求。在Java领域一般有Spring Security、Apache Shiro等安全框架，但是由于Spring Security过于庞大和复杂，大多数公司会选择Apache Shiro来使用，这篇文章会先介绍一下Apache Shiro，在结合Spring Boot给出使用案例。
+这篇文章我们来学习如何使用 Spring Boot 集成 Apache Shiro 。安全应该是互联网公司的一道生命线，几乎任何的公司都会涉及到这方面的需求。在 Java 领域一般有 Spring Security、 Apache Shiro 等安全框架，但是由于 Spring Security 过于庞大和复杂，大多数公司会选择 Apache Shiro 来使用，这篇文章会先介绍一下 Apache Shiro ，在结合 Spring Boot 给出使用案例。
 
 
 ## Apache Shiro
 
 ### What is Apache Shiro? 
 
-Apache Shiro是一个功能强大、灵活的，开源的安全框架。它可以干净利落地处理身份验证、授权、企业会话管理和加密。
+Apache Shiro 是一个功能强大、灵活的，开源的安全框架。它可以干净利落地处理身份验证、授权、企业会话管理和加密。
 
-Apache Shiro的首要目标是易于使用和理解。安全通常很复杂，甚至让人感到很痛苦，但是Shiro却不是这样子的。一个好的安全框架应该屏蔽复杂性，向外暴露简单、直观的API，来简化开发人员实现应用程序安全所花费的时间和精力。
+Apache Shiro 的首要目标是易于使用和理解。安全通常很复杂，甚至让人感到很痛苦，但是 Shiro 却不是这样子的。一个好的安全框架应该屏蔽复杂性，向外暴露简单、直观的 API，来简化开发人员实现应用程序安全所花费的时间和精力。
 
-Shiro能做什么呢？
+Shiro 能做什么呢？
 
-* 验证用户身份
-* 用户访问权限控制，比如：1、判断用户是否分配了一定的安全角色。2、判断用户是否被授予完成某个操作的权限
-* 在非 web 或 EJB 容器的环境下可以任意使用Session API
-* 可以响应认证、访问控制，或者 Session 生命周期中发生的事件
-* 可将一个或以上用户安全数据源数据组合成一个复合的用户 "view"(视图)
-* 支持单点登录(SSO)功能
-* 支持提供“Remember Me”服务，获取用户关联信息而无需登录  
+- 验证用户身份
+- 用户访问权限控制，比如：1、判断用户是否分配了一定的安全角色。2、判断用户是否被授予完成某个操作的权限
+- 在非 Web 或 EJB 容器的环境下可以任意使用 Session API
+- 可以响应认证、访问控制，或者 Session 生命周期中发生的事件
+- 可将一个或以上用户安全数据源数据组合成一个复合的用户 "view"(视图)
+- 支持单点登录(SSO)功能
+- 支持提供“Remember Me”服务，获取用户关联信息而无需登录  
 … 
 
-等等——都集成到一个有凝聚力的易于使用的API。
+等等——都集成到一个有凝聚力的易于使用的 API。
 
 Shiro 致力在所有应用环境下实现上述功能，小到命令行应用程序，大到企业应用中，而且不需要借助第三方框架、容器、应用服务器等。当然 Shiro 的目的是尽量的融入到这样的应用环境中去，但也可以在它们之外的任何环境下开箱即用。
 
 ### Apache Shiro Features 特性
 
-Apache Shiro是一个全面的、蕴含丰富功能的安全框架。下图为描述Shiro功能的框架图：
+Apache Shiro 是一个全面的、蕴含丰富功能的安全框架。下图为描述 Shiro 功能的框架图：
 
- 
 ![](http://www.itmind.net/assets/images/2017/springboot/ShiroFeatures.png)
 
 Authentication（认证）, Authorization（授权）, Session Management（会话管理）, Cryptography（加密）被 Shiro 框架的开发团队称之为应用安全的四大基石。那么就让我们来看看它们吧：
 
-* **Authentication（认证）：**用户身份识别，通常被称为用户“登录”
-* **Authorization（授权）：**访问控制。比如某个用户是否具有某个操作的使用权限。
-* **Session Management（会话管理）：**特定于用户的会话管理,甚至在非web 或 EJB 应用程序。
-* **Cryptography（加密）：**在对数据源使用加密算法加密的同时，保证易于使用。
+- **Authentication（认证）：**用户身份识别，通常被称为用户“登录”
+- **Authorization（授权）：**访问控制。比如某个用户是否具有某个操作的使用权限。
+- **Session Management（会话管理）：**特定于用户的会话管理,甚至在非web 或 EJB 应用程序。
+- **Cryptography（加密）：**在对数据源使用加密算法加密的同时，保证易于使用。
 
 还有其他的功能来支持和加强这些不同应用环境下安全领域的关注点。特别是对以下的功能支持：
 
-* Web支持：Shiro 提供的 web 支持 api ，可以很轻松的保护 web 应用程序的安全。
-* 缓存：缓存是 Apache Shiro 保证安全操作快速、高效的重要手段。
-* 并发：Apache Shiro 支持多线程应用程序的并发特性。
-* 测试：支持单元测试和集成测试，确保代码和预想的一样安全。
-* "Run As"：这个功能允许用户假设另一个用户的身份(在许可的前提下)。
-* "Remember Me"：跨 session 记录用户的身份，只有在强制需要时才需要登录。
+- Web支持：Shiro 提供的 Web 支持 api ，可以很轻松的保护 Web 应用程序的安全。
+- 缓存：缓存是 Apache Shiro 保证安全操作快速、高效的重要手段。
+- 并发：Apache Shiro 支持多线程应用程序的并发特性。
+- 测试：支持单元测试和集成测试，确保代码和预想的一样安全。
+- "Run As"：这个功能允许用户假设另一个用户的身份(在许可的前提下)。
+- "Remember Me"：跨 session 记录用户的身份，只有在强制需要时才需要登录。
 
 
-> 注意： Shiro不会去维护用户、维护权限，这些需要我们自己去设计/提供，然后通过相应的接口注入给Shiro
+> 注意： Shiro 不会去维护用户、维护权限，这些需要我们自己去设计/提供，然后通过相应的接口注入给 Shiro
 
 ### High-Level Overview 高级概述
 
-在概念层，Shiro 架构包含三个主要的理念：Subject,SecurityManager和 Realm。下面的图展示了这些组件如何相互作用，我们将在下面依次对其进行描述。
-
+在概念层，Shiro 架构包含三个主要的理念：Subject，SecurityManager和 Realm。下面的图展示了这些组件如何相互作用，我们将在下面依次对其进行描述。
  
 ![](http://www.itmind.net/assets/images/2017/springboot/ShiroBasicArchitecture.png)
-
 
 - Subject：当前用户，Subject 可以是一个人，但也可以是第三方服务、守护进程帐户、时钟守护任务或者其它--当前和软件交互的任何事件。
 - SecurityManager：管理所有Subject，SecurityManager 是 Shiro 架构的核心，配合内部安全组件共同组成安全伞。
@@ -71,9 +69,7 @@ Authentication（认证）, Authorization（授权）, Session Management（会�
 
 我们需要实现Realms的Authentication 和 Authorization。其中 Authentication 是用来验证用户身份，Authorization 是授权访问控制，用于对用户进行的操作授权，证明该用户是否允许进行当前操作，如访问某个链接，某个资源文件等。
 
-
 ## 快速上手
-
 
 ### 基础信息
 
@@ -81,37 +77,37 @@ Authentication（认证）, Authorization（授权）, Session Management（会�
 
 ``` xml
 <dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-thymeleaf</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>net.sourceforge.nekohtml</groupId>
-			<artifactId>nekohtml</artifactId>
-			<version>1.9.22</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.shiro</groupId>
-			<artifactId>shiro-spring</artifactId>
-			<version>1.4.0</version>
-		</dependency>
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<scope>runtime</scope>
-		</dependency>
-	</dependencies>
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-data-jpa</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-thymeleaf</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>net.sourceforge.nekohtml</groupId>
+		<artifactId>nekohtml</artifactId>
+		<version>1.9.22</version>
+	</dependency>
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-web</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>org.apache.shiro</groupId>
+		<artifactId>shiro-spring</artifactId>
+		<version>1.4.0</version>
+	</dependency>
+	<dependency>
+		<groupId>mysql</groupId>
+		<artifactId>mysql-connector-java</artifactId>
+		<scope>runtime</scope>
+	</dependency>
+</dependencies>
 ```
 
-重点是 shiro-spring包
+重点是 shiro-spring 包
 
 **配置文件**
 
@@ -172,7 +168,7 @@ thymeleaf的配置是为了去掉html的校验
 
 RBAC 是基于角色的访问控制（Role-Based Access Control ）在 RBAC 中，权限与角色相关联，用户通过成为适当角色的成员而得到这些角色的权限。这就极大地简化了权限的管理。这样管理都是层级相互依赖的，权限赋予给角色，而把角色又赋予用户，这样的权限设计很清楚，管理起来很方便。
 
-采用jpa技术来自动生成基础表格，对应的entity如下：
+采用 Jpa 技术来自动生成基础表格，对应的实体如下：
 
 用户信息
 
@@ -246,7 +242,7 @@ public class SysPermission implements Serializable {
  }
 ```
 
-根据以上的代码会自动生成user_info（用户信息表）、sys_role（角色表）、sys_permission（权限表）、sys_user_role（用户角色表）、sys_role_permission（角色权限表）这五张表，为了方便测试我们给这五张表插入一些初始化数据：
+根据以上的代码会自动生成 user_info（用户信息表）、sys_role（角色表）、sys_permission（权限表）、sys_user_role（用户角色表）、sys_role_permission（角色权限表）这五张表，为了方便测试我们给这五张表插入一些初始化数据：
 
 ``` sql
 INSERT INTO `user_info` (`uid`,`username`,`name`,`password`,`salt`,`state`) VALUES ('1', 'admin', '管理员', 'd3c59d25033dbf980d29554025c23a75', '8d78869f470951332959580424d4bf4f', 0);
@@ -265,9 +261,8 @@ INSERT INTO `sys_user_role` (`role_id`,`uid`) VALUES (1,1);
 
 ### Shiro 配置
 
-首先要配置的是ShiroConfig类，Apache Shiro 核心通过 Filter 来实现，就好像SpringMvc 通过DispachServlet 来主控制一样。
-既然是使用 Filter 一般也就能猜到，是通过URL规则来进行过滤和权限校验，所以我们需要定义一系列关于URL的规则和访问权限。
-
+首先要配置的是 ShiroConfig 类，Apache Shiro 核心通过 Filter 来实现，就好像 SpringMvc 通过 DispachServlet 来主控制一样。
+既然是使用 Filter 一般也就能猜到，是通过 URL 规则来进行过滤和权限校验，所以我们需要定义一系列关于 URL 的规则和访问权限。
 
 **ShiroConfig**
 
@@ -315,14 +310,14 @@ public class ShiroConfig {
 }
 ```
 
-Filter Chain定义说明：
+Filter Chain 定义说明：
 
-- 1、一个URL可以配置多个Filter，使用逗号分隔
+- 1、一个URL可以配置多个 Filter，使用逗号分隔
 - 2、当设置多个过滤器时，全部验证通过，才视为通过
-- 3、部分过滤器可指定参数，如perms，roles
+- 3、部分过滤器可指定参数，如 perms，roles
 
 
-Shiro内置的FilterChain
+Shiro 内置的 FilterChain
 
 Filter Name |  Class
 ---     |  ---      
@@ -336,15 +331,15 @@ roles | org.apache.shiro.web.filter.authz.RolesAuthorizationFilter
 ssl | org.apache.shiro.web.filter.authz.SslFilter
 user | org.apache.shiro.web.filter.authc.UserFilter
 
-- anon:所有url都都可以匿名访问 
+- anon:所有 url 都都可以匿名访问 
 - authc: 需要认证才能进行访问 
 - user:配置记住我或认证通过可以访问 
 
 
 **登录认证实现**
 
-在认证、授权内部实现机制中都有提到，最终处理都将交给Real进行处理。因为在Shiro中，最终是通过Realm来获取应用程序中的用户、角色及权限信息的。通常情况下，在Realm中会直接从我们的数据源中获取Shiro需要的验证信息。可以说，Realm是专用于安全框架的DAO.
-Shiro的认证过程最终会交由Realm执行，这时会调用Realm的```getAuthenticationInfo(token)```方法。
+在认证、授权内部实现机制中都有提到，最终处理都将交给Real进行处理。因为在 Shiro 中，最终是通过 Realm 来获取应用程序中的用户、角色及权限信息的。通常情况下，在 Realm 中会直接从我们的数据源中获取 Shiro 需要的验证信息。可以说，Realm 是专用于安全框架的 DAO.
+Shiro 的认证过程最终会交由 Realm 执行，这时会调用 Realm 的```getAuthenticationInfo(token)```方法。
 
 该方法主要执行以下操作:  
 
@@ -354,9 +349,9 @@ Shiro的认证过程最终会交由Realm执行，这时会调用Realm的```getAu
 - 4、验证通过将返回一个封装了用户信息的```AuthenticationInfo```实例。  
 - 5、验证失败则抛出```AuthenticationException```异常信息。  
 
-而在我们的应用程序中要做的就是自定义一个Realm类，继承AuthorizingRealm抽象类，重载doGetAuthenticationInfo()，重写获取用户信息的方法。
+而在我们的应用程序中要做的就是自定义一个 Realm 类，继承AuthorizingRealm 抽象类，重载 doGetAuthenticationInfo()，重写获取用户信息的方法。
 
-doGetAuthenticationInfo的重写
+doGetAuthenticationInfo 的重写
 
 ``` java
 @Override
@@ -385,7 +380,7 @@ protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token)
 
 **链接权限的实现**
 
-shiro的权限授权是通过继承```AuthorizingRealm```抽象类，重载```doGetAuthorizationInfo();```当访问到页面的时候，链接配置了相应的权限或者shiro标签才会执行此方法否则不会执行，所以如果只是简单的身份认证没有权限的控制的话，那么这个方法可以不进行实现，直接返回null即可。在这个方法中主要是使用类：```SimpleAuthorizationInfo```进行角色的添加和权限的添加。
+Shiro 的权限授权是通过继承```AuthorizingRealm```抽象类，重载```doGetAuthorizationInfo();```当访问到页面的时候，链接配置了相应的权限或者 Shiro 标签才会执行此方法否则不会执行，所以如果只是简单的身份认证没有权限的控制的话，那么这个方法可以不进行实现，直接返回 null 即可。在这个方法中主要是使用类：```SimpleAuthorizationInfo```进行角色的添加和权限的添加。
 
 ``` java
 @Override
@@ -403,7 +398,7 @@ protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principal
 }
 ```
 
-当然也可以添加set集合：roles是从数据库查询的当前用户的角色，stringPermissions是从数据库查询的当前用户对应的权限
+当然也可以添加 set 集合：roles 是从数据库查询的当前用户的角色，stringPermissions 是从数据库查询的当前用户对应的权限
 
 ``` java
 authorizationInfo.setRoles(roles);
@@ -415,7 +410,7 @@ authorizationInfo.setStringPermissions(stringPermissions);
 
 **登录实现**
 
-登录过程其实只是处理异常的相关信息，具体的登录验证交给shiro来处理
+登录过程其实只是处理异常的相关信息，具体的登录验证交给 Shiro 来处理
 
 ``` java
 @RequestMapping("/login")
@@ -447,22 +442,25 @@ public String login(HttpServletRequest request, Map<String, Object> map) throws 
 }
 ```
 
-其它dao层和service的代码就不贴出来了大家直接看代码。
+其它 Dao 层和 Service 的代码就不贴出来了大家直接看代码。
 
 
 ### 测试
 
-1、编写好后就可以启动程序，访问`http://localhost:8080/userInfo/userList`页面，由于没有登录就会跳转到`http://localhost:8080/login`页面。登录之后就会跳转到index页面，登录后，直接在浏览器中输入`http://localhost:8080/userInfo/userList`访问就会看到用户信息。上面这些操作时候触发```MyShiroRealm.doGetAuthenticationInfo()```这个方法，也就是登录认证的方法。
+1、编写好后就可以启动程序，访问`http://localhost:8080/userInfo/userList`页面，由于没有登录就会跳转到`http://localhost:8080/login`页面。登录之后就会跳转到 index 页面，登录后，直接在浏览器中输入`http://localhost:8080/userInfo/userList`访问就会看到用户信息。上面这些操作时候触发```MyShiroRealm.doGetAuthenticationInfo()```这个方法，也就是登录认证的方法。
 
 2、登录admin账户，访问：```http://127.0.0.1:8080/userInfo/userAdd```显示```用户添加界面```，访问```http://127.0.0.1:8080/userInfo/userDel```显示```403没有权限```。上面这些操作时候触发```MyShiroRealm.doGetAuthorizationInfo()```这个方面，也就是权限校验的方法。
 
-3、修改admin不同的权限进行测试
+3、修改 admin不 同的权限进行测试
 
-shiro很强大，这仅仅是完成了登录认证和权限管理这两个功能，更多内容以后有时间再做探讨。
+Shiro 很强大，这仅仅是完成了登录认证和权限管理这两个功能，更多内容以后有时间再做探讨。
 
-**[示例代码-github](https://github.com/ityouknow/spring-boot-examples)**
+> 文章内容已经升级到 Spring Boot 2.x 
 
-**[示例代码-码云](https://gitee.com/ityouknow/spring-boot-examples)**
+
+**[示例代码-github](https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-shiro)**
+
+**[示例代码-码云](https://gitee.com/ityouknow/spring-boot-examples/tree/master/spring-boot-shiro)**
 
 
 参考：

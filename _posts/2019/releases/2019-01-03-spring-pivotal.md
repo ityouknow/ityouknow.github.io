@@ -187,8 +187,8 @@ Pivotal 的定位是一家下一代云计算和大数据应用相结合的公司
 
 **规划、构建和集成软件**
 
-- Spirng Boot，借助领先的Java框架快速构建功能强大的应用和服务。
-- Spirng Cloud，
+- Spring Boot，借助领先的Java框架快速构建功能强大的应用和服务。
+- Spring Cloud，
 将经过验证的微服务模式融入您的软件。提供配置存储、服务发现、消息传递等功能。
 - Steeltoe，受 Spring Cloud 启发，用该框架构建恢复力强、可扩展的.NET应用。
 - Pivotal Cloud Cache，采用基于 Pivotal GemFire 的快速且高度可用的缓存，可提供地理复制和后台写入功能。

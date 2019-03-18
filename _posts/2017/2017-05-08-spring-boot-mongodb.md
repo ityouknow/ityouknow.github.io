@@ -1,34 +1,35 @@
 ---
 layout: post
-title: springboot(十一)：Spring boot中mongodb的使用
+title: Spring Boot(十一)：Spring Boot 中 MongoDB 的使用
 category: springboot 
 tags: [springboot]
 keywords: mongodb
+copyright: java
 ---
 
-mongodb是最早热门非关系数据库的之一，使用也比较普遍，一般会用做离线数据分析来使用，放到内网的居多。由于很多公司使用了云服务，服务器默认都开放了外网地址，导致前一阵子大批 MongoDB 因配置漏洞被攻击，数据被删，引起了人们的注意，感兴趣的可以看看这篇文章：[场屠戮MongoDB的盛宴反思：超33000个数据库遭遇入侵勒索](http://www.freebuf.com/articles/database/125127.html)，同时也说明了很多公司生产中大量使用mongodb。
+MongoDB 是最早热门非关系数据库的之一，使用也比较普遍，一般会用做离线数据分析来使用，放到内网的居多。由于很多公司使用了云服务，服务器默认都开放了外网地址，导致前一阵子大批 MongoDB 因配置漏洞被攻击，数据被删，引起了人们的注意，感兴趣的可以看看这篇文章：[场屠戮MongoDB的盛宴反思：超33000个数据库遭遇入侵勒索](http://www.freebuf.com/articles/database/125127.html)，同时也说明了很多公司生产中大量使用mongodb。
 
 
-## mongodb简介
+## MongoDB 简介
 
-MongoDB（来自于英文单词“Humongous”，中文含义为“庞大”）是可以应用于各种规模的企业、各个行业以及各类应用程序的开源数据库。基于分布式文件存储的数据库。由C++语言编写。旨在为WEB应用提供可扩展的高性能数据存储解决方案。MongoDB是一个高性能，开源，无模式的文档型数据库，是当前NoSql数据库中比较热门的一种。
+MongoDB（来自于英文单词“Humongous”，中文含义为“庞大”）是可以应用于各种规模的企业、各个行业以及各类应用程序的开源数据库。基于分布式文件存储的数据库。由C++语言编写。旨在为 WEB 应用提供可扩展的高性能数据存储解决方案。MongoDB 是一个高性能，开源，无模式的文档型数据库，是当前 NoSql 数据库中比较热门的一种。
 
-MongoDB是一个介于关系数据库和非关系数据库之间的产品，是非关系数据库当中功能最丰富，最像关系数据库的。他支持的数据结构非常松散，是类似json的bjson格式，因此可以存储比较复杂的数据类型。Mongo最大的特点是他支持的查询语言非常强大，其语法有点类似于面向对象的查询语言，几乎可以实现类似关系数据库单表查询的绝大部分功能，而且还支持对数据建立索引。
+MongoDB 是一个介于关系数据库和非关系数据库之间的产品，是非关系数据库当中功能最丰富，最像关系数据库的。他支持的数据结构非常松散，是类似 json 的 bjson 格式，因此可以存储比较复杂的数据类型。MongoDB 最大的特点是他支持的查询语言非常强大，其语法有点类似于面向对象的查询语言，几乎可以实现类似关系数据库单表查询的绝大部分功能，而且还支持对数据建立索引。
 
-传统的关系数据库一般由数据库（database）、表（table）、记录（record）三个层次概念组成，MongoDB是由数据库（database）、集合（collection）、文档对象（document）三个层次组成。MongoDB对于关系型数据库里的表，但是集合中没有列、行和关系概念，这体现了模式自由的特点。
+传统的关系数据库一般由数据库（database）、表（table）、记录（record）三个层次概念组成，MongoDB 是由数据库（database）、集合（collection）、文档对象（document）三个层次组成。MongoDB 对于关系型数据库里的表，但是集合中没有列、行和关系概念，这体现了模式自由的特点。
 
-MongoDB中的一条记录就是一个文档，是一个数据结构，由字段和值对组成。MongoDB文档与JSON对象类似。字段的值有可能包括其它文档、数组以及文档数组。MongoDB支持OS X、Linux及Windows等操作系统，并提供了Python，PHP，Ruby，Java及C++语言的驱动程序，社区中也提供了对Erlang及.NET等平台的驱动程序。
+MongoDB 中的一条记录就是一个文档，是一个数据结构，由字段和值对组成。MongoDB 文档与 JSON 对象类似。字段的值有可能包括其它文档、数组以及文档数组。MongoDB 支持 OS X、Linux 及 Windows 等操作系统，并提供了 Python，PHP，Ruby，Java及 C++ 语言的驱动程序，社区中也提供了对 Erlang 及 .NET 等平台的驱动程序。
 
-MongoDB的适合对大量或者无固定格式的数据进行存储，比如：日志、缓存等。对事物支持较弱，不适用复杂的多文档（多表）的级联查询。文中演示mongodb版本为3.4。
+MongoDB 的适合对大量或者无固定格式的数据进行存储，比如：日志、缓存等。对事物支持较弱，不适用复杂的多文档（多表）的级联查询。文中演示 Mongodb 版本为 3.5。
 
 
-## mongodb的增删改查
+## MongoDB 的增删改查
 
-Spring Boot对各种流行的数据源都进行了封装，当然也包括了mongodb,下面给大家介绍如何在spring boot中使用mongodb：
+Spring Boot 对各种流行的数据源都进行了封装，当然也包括了 Mongodb,下面给大家介绍如何在 Spring Boot 中使用 Mongodb：
 
-### 1、pom包配置
+### 1、pom 包配置
 
-pom包里面添加spring-boot-starter-data-mongodb包引用
+pom 包里面添加 `spring-boot-starter-data-mongodb` 包引用
 
 ``` xml
 <dependencies>
@@ -39,13 +40,13 @@ pom包里面添加spring-boot-starter-data-mongodb包引用
 </dependencies>
 ```
 
-### 2、在application.properties中添加配置
+### 2、在 application.properties 中添加配置
 
 ``` properties
 spring.data.mongodb.uri=mongodb://name:pass@localhost:27017/test
 ```
 
-多个IP集群可以采用以下配置：
+多个 IP 集群可以采用以下配置：
 
 ``` properties
 spring.data.mongodb.uri=mongodb://user:pwd@ip1:port1,ip2:port2/database
@@ -55,7 +56,7 @@ spring.data.mongodb.uri=mongodb://user:pwd@ip1:port1,ip2:port2/database
 ### 2、创建数据实体
 
 ``` java
-public class UserEntity implements Serializable {
+public class User implements Serializable {
         private static final long serialVersionUID = -3258839839160856613L;
         private Long id;
         private String userName;
@@ -65,13 +66,13 @@ public class UserEntity implements Serializable {
 }
 ```
 
-### 3、创建实体dao的增删改查操作
+### 3、创建实体的增删改查操作
 
-dao层实现了UserEntity对象的增删改查
+Repository 层实现了 User 对象的增删改查
 
 ``` java
 @Component
-public class UserDaoImpl implements UserDao {
+public class UserRepositoryImpl implements UserRepository {
 
     @Autowired
     private MongoTemplate mongoTemplate;
@@ -81,7 +82,7 @@ public class UserDaoImpl implements UserDao {
      * @param user
      */
     @Override
-    public void saveUser(UserEntity user) {
+    public void saveUser(User user) {
         mongoTemplate.save(user);
     }
 
@@ -91,9 +92,9 @@ public class UserDaoImpl implements UserDao {
      * @return
      */
     @Override
-    public UserEntity findUserByUserName(String userName) {
+    public User findUserByUserName(String userName) {
         Query query=new Query(Criteria.where("userName").is(userName));
-        UserEntity user =  mongoTemplate.findOne(query , UserEntity.class);
+        User user =  mongoTemplate.findOne(query , User.class);
         return user;
     }
 
@@ -102,13 +103,17 @@ public class UserDaoImpl implements UserDao {
      * @param user
      */
     @Override
-    public void updateUser(UserEntity user) {
+    public long updateUser(User user) {
         Query query=new Query(Criteria.where("id").is(user.getId()));
         Update update= new Update().set("userName", user.getUserName()).set("passWord", user.getPassWord());
         //更新查询返回结果集的第一条
-        mongoTemplate.updateFirst(query,update,UserEntity.class);
+        UpdateResult result =mongoTemplate.updateFirst(query,update,User.class);
         //更新查询返回结果集的所有
         // mongoTemplate.updateMulti(query,update,UserEntity.class);
+        if(result!=null)
+            return result.getMatchedCount();
+        else
+            return 0;
     }
 
     /**
@@ -118,10 +123,9 @@ public class UserDaoImpl implements UserDao {
     @Override
     public void deleteUserById(Long id) {
         Query query=new Query(Criteria.where("id").is(id));
-        mongoTemplate.remove(query,UserEntity.class);
+        mongoTemplate.remove(query,User.class);
     }
 }
-
 ```
 
 
@@ -170,71 +174,56 @@ public class UserDaoTest {
 
 ### 5、查看验证结果
 
-可以使用工具mongoVUE工具来连接后直接图形化展示查看，也可以登录服务器用命令来查看
+可以使用工具 MongoVUE 工具来连接后直接图形化展示查看，也可以登录服务器用命令来查看
 
-1.登录mongos
+1.登录 mongos
 > bin/mongo -host localhost -port 20000
 
-2、切换到test库
+2、切换到 test 库
 > use test
 
-3、查询userEntity集合数据
-> db.userEntity.find()
+3、查询 user 集合数据
+> db.user.find()
 
 
 根据3查询的结果来观察测试用例的执行是否正确。
 
 
-到此springboot对应mongodb的增删改查功能已经全部实现。
+到此 Spring Boot 对应 MongoDB 的增删改查功能已经全部实现。
 
 
-## 多数据源mongodb的使用
+## 多数据源 MongoDB 的使用
 
-在多mongodb数据源的情况下，我们换种更优雅的方式来实现
+接下来实现 MongoDB 多数据源的使用
 
 
-### 1、pom包配置
-
-添加lombok和spring-boot-autoconfigure包引用
+### 1、pom 包配置
 
 ``` xml
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-data-mongodb</artifactId>
-</dependency>
-<dependency>
-    <groupId>org.projectlombok</groupId>
-    <artifactId>lombok</artifactId>
-</dependency>
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-autoconfigure</artifactId>
-    <version>RELEASE</version>
-</dependency>
+<dependencies>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-data-mongodb</artifactId>
+    </dependency>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-test</artifactId>
+    </dependency>
+</dependencies>
 ```
 
-- Lombok - 是一个可以通过简单的注解形式来帮助我们简化消除一些必须有但显得很臃肿的Java代码的工具，通过使用对应的注解，可以在编译源码的时候生成对应的方法。简单试了以下这个工具还挺好玩的，加上注解我们就不用手动写 getter\setter、构建方式类似的代码了。
-
-- spring-boot-autoconfigure - 就是spring boot的自动化配置
-
-
-### 2、配置文件使用YAML的形式添加两条数据源，如下：
+### 2、配置两条数据源，如下：
 
 ``` properties
-mongodb:
-  primary:
-    host: 192.168.9.60
-    port: 20000
-    database: test
-  secondary:
-    host: 192.168.9.60
-    port: 20000
-    database: test1
+mongodb.primary.uri=mongodb://192.168.0.75:20000
+mongodb.primary.database=primary
+mongodb.secondary.uri=mongodb://192.168.0.75:20000
+mongodb.secondary.database=secondary
 ```
 
 ### 3、配置两个库的数据源
 
-封装读取以mongodb开头的两个配置文件
+封装读取以 Mongodb 开头的两个配置文件
 
 ``` java
 @Data
@@ -272,7 +261,7 @@ public class SecondaryMongoConfig {
 }
 ```
 
-读取对应的配置信息并且构造对应的MongoTemplate
+读取对应的配置信息并且构造对应的 MongoTemplate
 
 ``` java
 @Configuration
@@ -310,31 +299,25 @@ public class MultipleMongoConfig {
 
 两个库的配置信息已经完成。
 
-### 4、创建两个库分别对应的对象和Repository
+### 4、创建两个库分别对应的对象和 Repository
 
-借助lombok来构建对象
+对应可以共用
 
 ``` java
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
-@Document(collection = "first_mongo")
-public class PrimaryMongoObject {
+public class User implements Serializable {
+        private static final long serialVersionUID = -3258839839160856613L;
+        private String  id;
+        private String userName;
+        private String passWord;
 
-	@Id
-	private String id;
-
-	private String value;
-
-	@Override
-	public String toString() {
-        return "PrimaryMongoObject{" + "id='" + id + '\'' + ", value='" + value + '\''
-				+ '}';
-	}
+        public User(String userName, String passWord) {
+                this.userName = userName;
+                this.passWord = passWord;
+        }
 }
 ```
 
-对应的Repository
+对应的 Repository
 
 
 ``` java
@@ -342,9 +325,9 @@ public interface PrimaryRepository extends MongoRepository<PrimaryMongoObject, S
 }
 ```
 
-继承了 MongoRepository 会默认实现很多基本的增删改查，省了很多自己写dao层的代码
+继承了 MongoRepository 会默认实现很多基本的增删改查，省了很多自己写 Repository 层的代码
 
-Secondary和上面的代码类似就不贴出来了
+Secondary 和上面的代码类似就不贴出来了
 
 
 ## 5、最后测试
@@ -392,14 +375,11 @@ public class MuliDatabaseTest {
 }
 ```
 
-到此，mongodb多数据源的使用已经完成。
+到此，MongoDB 多数据源的使用已经完成。
 
-**[示例代码-github](https://github.com/ityouknow/spring-boot-examples)**
+> 文章内容已经升级到 Spring Boot 2.x 
 
-**[示例代码-码云](https://gitee.com/ityouknow/spring-boot-examples)**
+**[示例代码-github](https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-mongodb)**
 
--------------
+**[示例代码-码云](https://gitee.com/ityouknow/spring-boot-examples/tree/master/spring-boot-mongodb)**
 
-**作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/springboot/2017/05/08/springboot-mongodb.html)**      
-**版权归作者所有，转载请注明出处** 

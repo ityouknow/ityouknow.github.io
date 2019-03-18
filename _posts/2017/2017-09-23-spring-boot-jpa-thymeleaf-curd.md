@@ -1,19 +1,20 @@
 ---
 layout: post
-title: springboot(十五)：springboot+jpa+thymeleaf增删改查示例
+title:  Spring Boot (十五)： Spring Boot + Jpa + Thymeleaf 增删改查示例
 category: springboot 
 tags: [springboot]
+copyright: java
 ---
 
-这篇文章介绍如何使用jpa和thymeleaf做一个增删改查的示例。
+这篇文章介绍如何使用 Jpa 和 Thymeleaf 做一个增删改查的示例。
 
-先和大家聊聊我为什么喜欢写这种脚手架的项目，在我学习一门新技术的时候，总是想快速的搭建起一个demo来试试它的效果，越简单越容易上手最好。在网上找相关资料的时候总是很麻烦，有的文章写的挺不错的但是没有源代码，有的有源代码但是文章介绍又不是很清楚，所在找资料的时候稍微有点费劲。因此在我学习Spring Boot的时候，会写一些最简单基本的示例项目，一方面方便其它朋友以最快的方式去了解，一方面如果我的项目需要用到相关技术的时候，直接在这个示例版本去改造或者集成就可以。
+先和大家聊聊我为什么喜欢写这种脚手架的项目，在我学习一门新技术的时候，总是想快速的搭建起一个 Demo 来试试它的效果，越简单越容易上手最好。在网上找相关资料的时候总是很麻烦，有的文章写的挺不错的但是没有源代码，有的有源代码但是文章介绍又不是很清楚，所在找资料的时候稍微有点费劲。因此在我学习 Spring Boot 的时候，会写一些最简单基本的示例项目，一方面方便其它朋友以最快的方式去了解，一方面如果我的项目需要用到相关技术的时候，直接在这个示例版本去改造或者集成就可以。
 
 现在的技术博客有很多的流派，有的喜欢分析源码，有的倾向于底层原理，我最喜欢写这种小而美的示例，方便自己方便他人。
 
-其实以前写过thymeleaf和jpa的相关文章：[springboot(四)：thymeleaf使用详解](http://www.ityouknow.com/springboot/2016/05/01/springboot(%E5%9B%9B)-thymeleaf%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3.html)和[springboot(五)：spring data jpa的使用](http://www.ityouknow.com/springboot/2016/08/20/springboot(%E4%BA%94)-spring-data-jpa%E7%9A%84%E4%BD%BF%E7%94%A8.html) 里面的代码示例都给的云收藏的内容[Favorites-web](https://github.com/cloudfavorites/favorites-web)，云收藏的内容比较多，查找起来不是很方便，因此想重新整理一篇快速上手、简单的内容，来介绍jpa和thymeleaf的使用，也就是本文的内容。
+其实以前写过 Thymeleaf 和 Jpa 的相关文章：[ Spring Boot (四)： Thymeleaf 使用详解](http://www.ityouknow.com/springboot/2016/05/01/spring-boot-thymeleaf.html)和[Spring Boot(五)：Spring Data Jpa 的使用](http://www.ityouknow.com/springboot/2016/08/20/spring-boot-jpa.html) 里面的代码示例都给的云收藏的内容[Favorites-web](https://github.com/cloudfavorites/favorites-web)，云收藏的内容比较多，查找起来不是很方便，因此想重新整理一篇快速上手、简单的内容，来介绍 Jpa 和 Thymeleaf 的使用，也就是本文的内容。
 
-这篇文章就不在介绍什么是jpa、thymeleaf，如果还不了解这些基本的概念，可以先移步前两篇相关文章。
+这篇文章就不在介绍什么是 Jpa 、 Thymeleaf ，如果还不了解这些基本的概念，可以先移步前两篇相关文章。
 
 
 ## 快速上手
@@ -21,9 +22,9 @@ tags: [springboot]
 
 ### 配置文件
 
-**pom包配置**
+**pom 包配置**
 
-pom包里面添加jpa和thymeleaf的相关包引用
+pom 包里面添加 Jpa 和 Thymeleaf 的相关包引用
 
 ``` xml
 <dependency>
@@ -50,7 +51,7 @@ pom包里面添加jpa和thymeleaf的相关包引用
 spring.datasource.url=jdbc:mysql://127.0.0.1/test?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC&useSSL=true
 spring.datasource.username=root
 spring.datasource.password=root
-spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
 spring.jpa.properties.hibernate.hbm2ddl.auto=update
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect
@@ -59,13 +60,13 @@ spring.jpa.show-sql= true
 spring.thymeleaf.cache=false
 ```
 
-其中```propertiesspring.thymeleaf.cache=false```是关闭thymeleaf的缓存，不然在开发过程中修改页面不会立刻生效需要重启，生产可配置为true。
+其中`propertiesspring.thymeleaf.cache=false`是关闭 Thymeleaf 的缓存，不然在开发过程中修改页面不会立刻生效需要重启，生产可配置为 true。
 
-在项目resources目录下会有两个文件夹：static目录用于放置网站的静态内容如css、js、图片；templates目录用于放置项目使用的页面模板。
+在项目 resources 目录下会有两个文件夹：static目录用于放置网站的静态内容如 css、js、图片；templates 目录用于放置项目使用的页面模板。
 
 ### 启动类
 
-启动类需要添加Servlet的支持
+启动类需要添加 Servlet 的支持
 
 ``` java
 @SpringBootApplication
@@ -101,7 +102,7 @@ public class User {
 }
 ```
 
-继承JpaRepository类会自动实现很多内置的方法，包括增删改查。也可以根据方法名来自动生成相关sql，具体可以参考：[springboot(五)：spring data jpa的使用](http://www.ityouknow.com/springboot/2016/08/20/springboot(%E4%BA%94)-spring-data-jpa%E7%9A%84%E4%BD%BF%E7%94%A8.html)
+继承 JpaRepository 类会自动实现很多内置的方法，包括增删改查。也可以根据方法名来自动生成相关 Sql，具体可以参考：[ Spring Boot (五)：Spring Data Jpa 的使用](http://www.ityouknow.com/springboot/2016/08/20/spring-boot-jpa.html)
 
 ``` java
 public interface UserRepository extends JpaRepository<User, Long> {
@@ -112,7 +113,7 @@ public interface UserRepository extends JpaRepository<User, Long> {
 
 ### 业务层处理
 
-service调用jpa实现相关的增删改查，实际项目中service层处理具体的业务代码。
+Service 调用 Jpa 实现相关的增删改查，实际项目中 Service 层处理具体的业务代码。
 
 ``` java
 @Service
@@ -148,7 +149,7 @@ public class UserServiceImpl implements UserService{
 }
 ```
 
-Controller负责接收请求，处理完后将页面内容返回给前端。
+Controller 负责接收请求，处理完后将页面内容返回给前端。
 
 ``` java
 @Controller
@@ -203,13 +204,13 @@ public class UserController {
 }
 ```
 
-- ```return "user/userEdit";``` 代表会直接去resources目录下找相关的文件。  
-- ```return "redirect:/list";``` 代表转发到对应的controller，这个示例就相当于删除内容之后自动调整到list请求，然后再输出到页面。
+- `return "user/userEdit";` 代表会直接去 resources 目录下找相关的文件。  
+- `return "redirect:/list";` 代表转发到对应的 Controller，这个示例就相当于删除内容之后自动调整到 list 请求，然后再输出到页面。
 
 
 ### 页面内容
 
-list列表
+list 列表
 
 ``` html
 <!DOCTYPE html>
@@ -261,9 +262,9 @@ list列表
 
 ![](http://www.itmind.net/assets/images/2017/springboot/list.png)
 
-```<tr  th:each="user : ${users}">``` 这里会从controler层model set的对象去获取相关的内容，```th:each```表示会循环遍历对象内容。
+`<tr  th:each="user : ${users}">` 这里会从 Controler 层 model set 的对象去获取相关的内容，`th:each`表示会循环遍历对象内容。
 
-其实还有其它的写法，具体的语法内容可以参考这篇文章：[springboot(四)：thymeleaf使用详解](http://www.ityouknow.com/springboot/2016/05/01/springboot(%E5%9B%9B)-thymeleaf%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3.html)
+其实还有其它的写法，具体的语法内容可以参考这篇文章：[ Spring Boot (四)： Thymeleaf 使用详解](http://www.ityouknow.com/springboot/2016/05/01/spring-boot-thymeleaf.html)
 
 
 修改页面：
@@ -314,16 +315,17 @@ list列表
 </body>
 </html>
 ```
+
 添加页面和修改类似就不在贴代码了。
 
 效果图：
 
 ![](http://www.itmind.net/assets/images/2017/springboot/edit.png)
 
-这样一个使用jpa和thymeleaf的增删改查示例就完成了。
+这样一个使用 Jpa 和 Thymeleaf 的增删改查示例就完成了。
 
 当然所以的示例代码都在这里： 
  
-**[示例代码-github](https://github.com/ityouknow/spring-boot-examples)**
+**[示例代码-github](https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-jpa-thymeleaf-curd)**
 
-**[示例代码-码云](https://gitee.com/ityouknow/spring-boot-examples)**
+**[示例代码-码云](https://gitee.com/ityouknow/spring-boot-examples/tree/master/spring-boot-jpa-thymeleaf-curd)**

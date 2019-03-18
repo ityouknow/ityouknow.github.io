@@ -5,10 +5,10 @@ category: springcloud
 tags: [springcloud]
 ---
 
-收集Spring Cloud相关的学习资料
+收集 Spring Cloud 相关的学习资料
 
 
-> 学习Spring Cloud首先需要了解Spring Boot，不了解Spring Boot的同学戳这里[Spring Boot学习资料汇总](http://www.ityouknow.com/springboot/2015/12/30/springboot-collect.html)
+> 学习 Spring Cloud 首先需要了解 Spring Boot，不了解 Spring Boot 的同学戳这里[Spring Boot学习资料汇总](http://www.ityouknow.com/springboot/2015/12/30/springboot-collect.html)
 
 
 **重点推荐：[Spring Cloud 中文索引](http://springcloud.fun/)**
