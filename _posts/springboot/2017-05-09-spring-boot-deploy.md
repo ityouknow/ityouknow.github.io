@@ -1,6 +1,6 @@
 ---
 layout: post
-title: springboot(十二)：Spring Boot 如何测试打包部署
+title: Spring Boot(十二)：Spring Boot 如何测试打包部署
 category: springboot 
 tags: [springboot]
 copyright: java

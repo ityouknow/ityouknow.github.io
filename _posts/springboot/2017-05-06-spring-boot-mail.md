@@ -6,7 +6,7 @@ tags: [springboot]
 copyright: java
 ---
 
- Spring Boot 仍然在狂速发展，才几个多月没有关注，现在看[官网](http://projects.spring.io/spring-boot/)已经到 2.1.0.RELEASE 版本了。准备慢慢在写写 Spring Boot 相关的文章，本篇文章使用 Spring Boot 最新版本 2.1.0 进行开发。
+Spring Boot 仍然在狂速发展，才几个多月没有关注，现在看[官网](http://projects.spring.io/spring-boot/)已经到 2.1.0.RELEASE 版本了。准备慢慢在写写 Spring Boot 相关的文章，本篇文章使用 Spring Boot 最新版本 2.1.0 进行开发。
 
 发送邮件应该是网站的必备功能之一，什么注册验证，忘记密码或者是给用户发送营销信息。最早期的时候我们会使用 JavaMail 相关 api 来写发送邮件的相关代码，后来 Spring 推出了 JavaMailSender 更加简化了邮件发送的过程，在之后 Spring Boot 对此进行了封装就有了现在的 `spring-boot-starter-mail` ,本章文章的介绍主要来自于此包。
 
