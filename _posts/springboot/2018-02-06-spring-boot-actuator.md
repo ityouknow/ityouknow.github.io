@@ -5,6 +5,7 @@ category: springboot
 tags: [springboot]
 excerpt: 监控是企业的一道生命线，Spring Boot Actuator 提供了一套完备的监控方案用来监控 Spring Boot 应用。
 keywords: Spring Boot Actuator，监控，应用
+copyright: java
 ---
 
 微服务的特点决定了功能模块的部署是分布式的，大部分功能模块都是运行在不同的机器上，彼此通过服务调用进行交互，前后台的业务流会经过很多个微服务的处理和传递，出现了异常如何快速定位是哪个环节出现了问题？
