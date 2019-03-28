@@ -2,8 +2,8 @@
 layout: post
 title: 人生第一个过万 Star 的 github 项目诞生
 copyright: java
-category: springboot
-tags: [springboot]
+category: life
+tags: [life]
 excerpt: 用了三年时间
 ---
 
