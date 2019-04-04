@@ -28,7 +28,7 @@ tags: [springcloud]
 </dependencies>
 ```
 
-需要多引入```spring-cloud-starter-eureka```包，来添加对eureka的支持。
+需要多引入`spring-cloud-starter-eureka`包，来添加对eureka的支持。
 
 ### 2、配置文件
 
@@ -57,7 +57,7 @@ eureka:
 
 ### 3、启动类
 
-启动类添加```@EnableDiscoveryClient```激活对配置中心的支持
+启动类添加`@EnableDiscoveryClient`激活对注册中心的支持
 
 ``` java
 @EnableDiscoveryClient
@@ -71,7 +71,7 @@ public class ConfigServerApplication {
 }
 ```
 
-这样server端的改造就完成了。先启动eureka注册中心，在启动server端，在浏览器中访问：```http://localhost:8000/``` 就会看到server端已经注册了到注册中心了。
+这样server端的改造就完成了。先启动eureka注册中心，在启动server端，在浏览器中访问：`http://localhost:8000/` 就会看到server端已经注册了到注册中心了。
 
  
 ![](http://www.itmind.net/assets/images/2017/springcloud/eureka-config01.jpg)
@@ -107,7 +107,7 @@ public class ConfigServerApplication {
 </dependencies>
 ```
 
-需要多引入```spring-cloud-starter-eureka```包，来添加对eureka的支持。
+需要多引入`spring-cloud-starter-eureka`包，来添加对eureka的支持。
 
 ### 2、配置文件
 
@@ -124,17 +124,17 @@ spring.cloud.config.discovery.serviceId=spring-cloud-config-server
 eureka.client.serviceUrl.defaultZone=http://localhost:8000/eureka/
 ```
 
-主要是去掉了```spring.cloud.config.uri```直接指向server端地址的配置，增加了最后的三个配置：
+主要是去掉了`spring.cloud.config.uri`直接指向server端地址的配置，增加了最后的三个配置：
 
-- ```spring.cloud.config.discovery.enabled``` ：开启Config服务发现支持
-- ```spring.cloud.config.discovery.serviceId``` ：指定server端的name,也就是server端```spring.application.name```的值
-- ```eureka.client.serviceUrl.defaultZone``` ：指向配置中心的地址
+- `spring.cloud.config.discovery.enabled` ：开启Config服务发现支持
+- `spring.cloud.config.discovery.serviceId` ：指定server端的name,也就是server端`spring.application.name`的值
+- `eureka.client.serviceUrl.defaultZone` ：指向注册中心的地址
 
-这三个配置文件都需要放到```bootstrap.properties```的配置中
+这三个配置文件都需要放到`bootstrap.properties`的配置中
 
 ### 3、启动类
 
-启动类添加```@EnableDiscoveryClient```激活对配置中心的支持
+启动类添加`@EnableDiscoveryClient`激活对配置中心的支持
 
 ``` java
 @EnableDiscoveryClient
@@ -147,7 +147,7 @@ public class ConfigClientApplication {
 }
 ```
 
-启动client端，在浏览器中访问：```http://localhost:8000/``` 就会看到server端和client端都已经注册了到注册中心了。
+启动client端，在浏览器中访问：`http://localhost:8000/` 就会看到server端和client端都已经注册了到注册中心了。
 
  
 ![](http://www.itmind.net/assets/images/2017/springcloud/eureka-config02.jpg)
@@ -162,7 +162,7 @@ public class ConfigClientApplication {
 
 如上图就可发现会有两个server端同时提供配置中心的服务，防止某一台down掉之后影响整个系统的使用。
 
-我们先单独测试服务端，分别访问：```http://localhost:8001/neo-config/dev```、```http://localhost:8003/neo-config/dev```返回信息：
+我们先单独测试服务端，分别访问：`http://localhost:8001/neo-config/dev`、`http://localhost:8003/neo-config/dev`返回信息：
 
 ```
 {
@@ -186,14 +186,9 @@ public class ConfigClientApplication {
 
 说明两个server端都正常读取到了配置信息。
 
-再次访问：```http://localhost:8002/hello```，返回：```hello im dev update```。说明客户端已经读取到了server端的内容，我们随机停掉一台server端的服务，再次访问```http://localhost:8002/hello```，返回：```hello im dev update```，说明达到了高可用的目的。
+再次访问：`http://localhost:8002/hello`，返回：`hello im dev update`。说明客户端已经读取到了server端的内容，我们随机停掉一台server端的服务，再次访问`http://localhost:8002/hello`，返回：`hello im dev update`，说明达到了高可用的目的。
 
 
 **[示例代码-github](https://github.com/ityouknow/spring-cloud-examples)**
 
 **[示例代码-码云](https://gitee.com/ityouknow/spring-cloud-examples)**
-
--------------
-**作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/springcloud/2017/05/25/springcloud-config-eureka.html)**      
-**版权归作者所有，转载请注明出处** 
