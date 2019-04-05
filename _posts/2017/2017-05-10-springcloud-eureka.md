@@ -292,13 +292,4 @@ java -jar spring-cloud-eureka-0.0.1-SNAPSHOT.jar --spring.profiles.active=peer3
 
 参考：
 
-[Spring Cloud构建微服务架构（六）高可用服务注册中心](http://blog.didispace.com/springcloud6/)
-
 [Peer Awareness](http://cloud.spring.io/spring-cloud-static/spring-cloud.html#_peer_awareness)
-
-
--------------
-
-**作者：纯洁的微笑**  
-**出处：[http://www.ityouknow.com/](http://www.ityouknow.com/springcloud/2017/05/10/springcloud-eureka.html)**      
-**版权归作者所有，转载请注明出处** 
