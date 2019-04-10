@@ -57,8 +57,18 @@ paginate_path: 'page:num'
 menus:
 
   -
-    href: /money.html
-    label: 挣钱
+    href: /zsxq.html
+    label: 星球
+    target: _self
+
+  -
+    href: /gitchat.html
+    label: GitChat
+    target: _self
+
+  -
+    href: /geektime.html
+    label: 极客
     target: _self
 
   -
@@ -72,19 +82,10 @@ menus:
     target: _self
 
   -
-    href: /payment.html
-    label: 支付     
-    target: _self
-
-  -
     href: /link.html
     label: 友链
     target: _self
 
-  -
-    href: /about.html
-    label: 关于
-    target: _self
 
 
 # Navigation. main menu list
@@ -134,6 +135,11 @@ navs:
 labels:
 
   -
+    href: /payment.html
+    label: 支付     
+    target: _self
+
+  -
     href: /fastdfs.html
     label: FastDFS
     target: _blank
@@ -155,7 +161,7 @@ labels:
 
   -
     href: /it.html
-    label: It 
+    label: IT 
     target: _blank
 
   -
