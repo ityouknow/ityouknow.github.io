@@ -63,7 +63,7 @@ menus:
 
   -
     href: /gitchat.html
-    label: GitChat
+    label: Chat
     target: _self
 
   -
