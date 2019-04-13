@@ -15,7 +15,7 @@ excerpt: Spring Cloud Consul 使用详解
 | 多数据中心 | — | 支持 | — | — |
 | kv 存储服务 |  — |支持 | 支持 | 支持 |
 | 一致性 | — |raft | paxos | raft | 
-| cap | ap | ca | cp | cp | 
+| cap | ap | cp | cp | cp | 
 | 使用接口(多语言能力) | http（sidecar） | 支持 http 和 dns | 客户端 | http/grpc | 
 | watch 支持 | 支持 long polling/大部分增量 | 全量/支持long polling | 支持 | 支持 long polling | 
 | 自身监控 | metrics | metrics | — | metrics |
