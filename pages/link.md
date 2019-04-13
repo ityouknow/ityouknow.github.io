@@ -9,6 +9,7 @@ permalink: /link
 
 ## 友情链接
 
+- [人工智能博客](http://www.captainbed.net/blog/neo) - 强烈推荐
 - [Java极客技术](http://www.justdojava.com/) - Java 技术人的一片天地
 - [匠心零度博客](http://www.jiangxinlingdu.com/) - 以匠心，铸非凡！
 - [麦田技术博客](http://blog.itmyhome.com/) - 将来的你，一定会感激现在拼命努力的自己。 
