@@ -9,8 +9,10 @@ permalink: /link
 
 ## 友情链接
 
-- [人工智能博客](http://www.captainbed.net/blog/neo) - 强烈推荐
-- [Java极客技术](http://www.justdojava.com/) - Java 技术人的一片天地
+- [知识星球精选](http://www.zsxq100.com/just-talk-about-make-money) - 各种好玩的知识兴趣推荐
+- [人工智能博客](http://www.captainbed.net/blog-neo) - 人工智能学习教程
+- [Java极客技术](http:
+//www.justdojava.com) - Java 技术人的一片天地
 - [匠心零度博客](http://www.jiangxinlingdu.com/) - 以匠心，铸非凡！
 - [麦田技术博客](http://blog.itmyhome.com/) - 将来的你，一定会感激现在拼命努力的自己。 
 - [王登科-DK博客](http://www.wdk.pw) - 一个技术创业者  
