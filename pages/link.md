@@ -9,7 +9,7 @@ permalink: /link
 
 ## 友情链接
 
-- [知识星球精选](http://www.zsxq100.com/just-talk-about-make-money) - 各种好玩的知识兴趣推荐
+- [知识星球精选](http://www.zsxq100.com/just-talk-about-make-money) - 各种好玩的知识星球推荐
 - [人工智能博客](http://www.captainbed.net/blog-neo) - 人工智能学习教程
 - [Java极客技术](http:
 //www.justdojava.com) - Java 技术人的一片天地
