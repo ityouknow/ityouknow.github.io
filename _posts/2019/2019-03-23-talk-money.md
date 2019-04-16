@@ -10,7 +10,7 @@ excerpt:  韭菜被割怕
 
 前两天写了一篇文章[《人生第一个过万 Star 的 GitHub 项目诞生》](http://www.ityouknow.com/springboot/2019/03/12/github-ten-thousand-star.html)，有一个前端兄弟给我发了一个留言如下下图：
 
-![](http://www.itmind.net/assets/images/2019/money/money40.jpg)
+![](http://www.itmind.net/assets/images/2019/zsxq/money40.jpg)
 对方说的费用是错的
 
 不得不承认现在网上各种各样的套路太多了，上次在星球内有一个朋友还分享了一个案例，说的是在网上看到割韭菜的文案简直写的太有吸引力，都是报名之后轻松月入5万，零门槛只要按照课程套路，轻松实现财富自由等等。
@@ -21,7 +21,7 @@ excerpt:  韭菜被割怕
 
 比如最近很多公号主就接了类似的广告，圈内的几个朋友还进行了解析，由于涉及到合作伙伴，暂时就不公开曝光文案了，星球内的朋友可以登录星球查看。
 
-![](http://www.itmind.net/assets/images/2019/money/money41.jpg)
+![](http://www.itmind.net/assets/images/2019/zsxq/money41.jpg)
 
 还有一些比较常见的，推荐你购买股票、购买什么理财产品，注册XXX会员等。
 
@@ -47,9 +47,9 @@ excerpt:  韭菜被割怕
 
 再随手给大家截几张星球内的分享，让大家感受一下：
 
-![](http://www.itmind.net/assets/images/2019/money/money42.jpg)
-![](http://www.itmind.net/assets/images/2019/money/money43.jpg)
-![](http://www.itmind.net/assets/images/2019/money/money44.jpg)
+![](http://www.itmind.net/assets/images/2019/zsxq/money42.jpg)
+![](http://www.itmind.net/assets/images/2019/zsxq/money43.jpg)
+![](http://www.itmind.net/assets/images/2019/zsxq/money44.jpg)
 
 另外，指望加入星球就能发大财挣快钱的投机类朋友，就不用进来了，本星球欢迎的是具有相同价值观，乐于分享探讨、脚踏实地、相互借鉴成长的朋友！
 

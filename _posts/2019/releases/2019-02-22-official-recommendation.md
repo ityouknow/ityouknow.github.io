@@ -18,7 +18,7 @@ excerpt: 见识决定选择
 
 随着星球的不断发展，越来越多的大牛级别人物加入到了知识星球，圈子的氛围也越来越好，相信早期加入星球的朋友感触最深一些。特别是人数到了800左右的时候，发生了明显的变化，星球被知识星球官方推荐了。
 
-![](http://www.itmind.net/assets/images/2019/money/money1.jpg)
+![](http://www.itmind.net/assets/images/2019/zsxq/money1.jpg)
 
 知识星球官方随机从星球选取精选内容，推荐到 App 的发现一栏中，随后迎来了一批用户增长，到现在《就聊挣钱》知识星球仍然在精华主题的推荐中，且已经持续了近两个月了。
 
@@ -26,19 +26,19 @@ excerpt: 见识决定选择
 
 1、偶尔知识星球能跑到活跃星球排行榜中。
 
-![](http://www.itmind.net/assets/images/2019/money/money2.jpg)
+![](http://www.itmind.net/assets/images/2019/zsxq/money2.jpg)
 
 2、愿意主动分享的用户越来越多，分享的内容和质量越来越高，点赞和参与讨论的朋友也越来多，平均每个精华分享有20人左右点赞，十几个人参与讨论。
 
-![](http://www.itmind.net/assets/images/2019/money/money3.jpg)
+![](http://www.itmind.net/assets/images/2019/zsxq/money3.jpg)
 
 3、越来越多的球友碰到了自己的有缘人，深度交流，互通资源。
 
-![](http://www.itmind.net/assets/images/2019/money/money4.jpg)
+![](http://www.itmind.net/assets/images/2019/zsxq/money4.jpg)
 
 4、精华主题阅读量暴涨。有一个数据大家可能看不到，就是每篇分享内容的阅读数，好像目前只开放给了圈主，之前的分享阅读量都是几百，但我发现最近精华区的所有分享内容阅读量都高达五六千。
 
-![](http://www.itmind.net/assets/images/2019/money/money5.jpg)
+![](http://www.itmind.net/assets/images/2019/zsxq/money5.jpg)
 
 这个是昨天分享的阅读量也到了 2 千多。
 
