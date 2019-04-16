@@ -1,11 +1,11 @@
 ---
 layout: post
-title: sublime3 使用总结
+title: github 好玩的开源项目
 category: other
 tags: [other]
 ---
 
-收集github 开源的好玩好用的项目
+收集 github 开源的好玩好用的项目
 
 
 ## X-Alarm 
