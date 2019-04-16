@@ -3,8 +3,8 @@ layout:     post
 title:      保持警惕性是好，但不要谈钱色变
 no-post-nav: true
 copyright: money
-category: money
-tags: [money]
+category: zsxq
+tags: [zsxq]
 excerpt:  韭菜被割怕
 ---
 

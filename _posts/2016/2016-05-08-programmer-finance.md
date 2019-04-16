@@ -2,8 +2,8 @@
 layout: post
 title: 程序员该用哪种姿势来理财
 copyright: money
-category: money
-tags: [money]
+category: zsxq
+tags: [zsxq]
 ---
 
 其实一直想写一篇文章名字都想好了，叫做“程序员该不该理财？”。后来想了想，该不该这个就不用想了，必须要理财！那么市面上那么多理财的方式对于我们屌丝的程序员该如何选择呢？

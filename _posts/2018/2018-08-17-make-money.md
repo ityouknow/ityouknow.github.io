@@ -3,8 +3,8 @@ layout:     post
 title:      任何一个想赚钱的程序员都可以看看这篇文章
 copyright: money
 no-post-nav: true
-category: money
-tags: [money]
+category: zsxq
+tags: [zsxq]
 excerpt: 挣钱能力，几乎是判定一个人综合能力的最高标准
 ---
 

@@ -3,8 +3,8 @@ layout:     post
 title:      我花200天打造的圈子，你要来吗？
 no-post-nav: true
 copyright: money
-category: money
-tags: [money]
+category: zsxq
+tags: [zsxq]
 excerpt:  这个时代，见识即财富，成长即赚钱。
 ---
 
