@@ -6,7 +6,9 @@ tags: [it]
 excerpt: 来谈谈中国的伪君子
 ---
 
-此文转载于<飞总聊IT>的公号，但内容也是我非常想说的。[查看原文点击这里](https://mp.weixin.qq.com/s/CQ_AmM2vH9U_CW_mEFrUWQ)
+此文转载于<飞总聊IT>的公号，但内容也是我非常想说的。
+
+[查看原文点击这里](https://mp.weixin.qq.com/s/CQ_AmM2vH9U_CW_mEFrUWQ)
 
 ## 1
 
