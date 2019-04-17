@@ -50,7 +50,7 @@ syntax_highlighter_opts:
    coderay_line_numbers:  nil
 
 # Pagination
-paginate: 10
+paginate: 12
 paginate_path: 'page:num'
 
 # Navigation. top menu list
