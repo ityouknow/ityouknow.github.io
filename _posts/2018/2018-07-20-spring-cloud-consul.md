@@ -236,12 +236,12 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String hello() {
-        return "helle consul";
+        return "hello consul";
     }
 }
 ```
 
-为了模拟注册均衡负载复制一份上面的项目重命名为 spring-cloud-consul-producer-2 ,修改对应的端口为 8502，修改 hello 方法的返回值为："helle consul two"，修改完成后依次启动两个项目。
+为了模拟注册均衡负载复制一份上面的项目重命名为 spring-cloud-consul-producer-2 ,修改对应的端口为 8502，修改 hello 方法的返回值为："hello consul two"，修改完成后依次启动两个项目。
 
 这时候我们再次在浏览器访问地址：http://localhost:8500，显示如下：
 
@@ -336,7 +336,7 @@ http://windows10.microdone.cn:8502
 ...
 ```
 
-说明 8501 和 8501 的两个服务会交替出现，从而实现了获取服务端地址的均衡负载。
+说明 8501 和 8502 的两个服务会交替出现，从而实现了获取服务端地址的均衡负载。
 
 大多数情况下我们希望使用均衡负载的形式去获取服务端提供的服务，因此使用第二种方法来模拟调用服务端提供的 hello 方法。
 
@@ -366,8 +366,8 @@ public class CallHelloController {
 使用 RestTemplate 进行远程调用。添加完之后重启 spring-cloud-consul-consumer 项目。在浏览器中访问地址：`http://localhost:8503/call`，依次返回结果如下：
 
 ```
-helle consul
-helle consul two
+hello consul
+hello consul two
 ...
 ```
 
