@@ -7,7 +7,6 @@ tags: [gitchat]
 excerpt: 为什么要学习 Spring Boot
 ---
 
-
 ## 1 什么是 Spring Boot ？
 
 解释一下：Spring Boot 可以构建一切。Spring Boot 设计之初就是为了最少的配置，最快的速度来启动和运行 Spring 项目。Spring Boot 使用特定的配置来构建生产就绪型的项目。
