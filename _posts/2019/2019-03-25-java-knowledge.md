@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java 核心知识点整理
+title: Java 生态核心知识点整理
 no-post-nav: true
 copyright: java
 category: java
