@@ -81,7 +81,7 @@ Spring Boot Webflux 有两种编程模型实现，一种类似 Spring MVC 注解
 
 ![](http://www.itmind.net/assets/images/2019/springboot/webflux.png)
 
-通过 IEDA 的依赖关系图我们可以返现`spring-boot-starter-webflux`依赖于`spring-webflux`、Reactor 和 Netty 相关依赖包。
+通过 IEDA 的依赖关系图我们可以发现`spring-boot-starter-webflux`依赖于`spring-webflux`、Reactor 和 Netty 相关依赖包。
 
 创建 Controller 
 
