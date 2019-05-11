@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      在你的城市，你觉得一个月收入多少，才可以让你感觉到有安全感。
+title:      在你的城市，月入多少，才可以让你感觉到有安全感。
 no-post-nav: true
 copyright: zsxq
 category: money

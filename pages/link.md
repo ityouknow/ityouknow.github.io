@@ -9,7 +9,6 @@ permalink: /link
 
 ## 友情链接
 
-- [知识星球精选](http://www.zsxq100.com/just-talk-about-make-money) - 各种好玩的知识星球推荐
 - [人工智能博客](http://www.captainbed.net/blog-neo) - 人工智能学习教程
 - [Java极客技术](http:
 //www.justdojava.com) - Java 技术人的一片天地
@@ -18,16 +17,14 @@ permalink: /link
 - [王登科-DK博客](http://www.wdk.pw) - 一个技术创业者  
 - [猿天地](http://cxytiandi.com/) - 天地是一个综合性的网站,以程序猿用户为主,提供各种开发相关的内容。     
 - [rickiyeat的博客](http://blog.csdn.net/rickiyeat) - hadoop、spring boot/cloud技术博客   
-- [梁桂钊的博客](http://blog.720ui.com/) - 后端攻城狮
 - [cmsblogs](http://cmsblogs.com/) - chenssy记录、分享JAVA技术
-- [韩威博客](http://www.hanwei1234.com) - 韩威java知识分享网
 - [小柒博客](https://blog.52itstyle.vip) - 小柒博客，一个主JAVA，次架构，偶尔聊聊生活的地方。
 - [六月](http://www.liuyue.ren/) - 一个博友的博客
 - [荒蛮故事](http://relatos.top/) - 一个分享故事的网站
 
 ## 推荐网站
 
-
+- [知识星球精选](http://www.zsxq100.com/just-talk-about-make-money) - 各种好玩的知识星球推荐
 - [抖音视频下载](https://free-tiktok.com/) - 抖音、Youtube、instagram视频去水印下载
 - [程序员导航网站](http://tooool.org/) - 程序员的导航网站 
 - [Spring Boot中文导航](http://springboot.fun/) - Spring Boot的资源导航网站    
