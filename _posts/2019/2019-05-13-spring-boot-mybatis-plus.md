@@ -6,6 +6,8 @@ tags: [springboot]
 keywords: Spring Boot,MyBatis,MyBatis-Plus
 ---
 
+MyBatis-Plus 是 MyBatis 的第三方使用插件。
+
 前两天在公众号中发了[《Spring Boot(六)：如何优雅的使用 Mybatis》](http://www.ityouknow.com/springboot/2016/11/06/spring-boot-mybatis.html)，有朋友留言说能不能写一下整合 MyBatis-Plus 的教程。
 
 在这之前我对 MyBatis-Plus 其实了解不是很多，一般情况下也不太愿意使用第三方的组件。找时间了解了一下 MyBatis-Plus 发现还是国人出品的开源项目，并且在 Github 上有 5000 多个关注，说明在国内使用的用户已经不少。
@@ -289,4 +291,3 @@ public void testPage() {
 参考出处：
 
 https://mp.baomidou.com/guide 
-}
