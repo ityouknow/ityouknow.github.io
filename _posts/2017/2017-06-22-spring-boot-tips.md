@@ -17,21 +17,23 @@ copyright: java
 在使用`spring boot jpa`的情况下设置`spring.jpa.hibernate.ddl-auto`的属性设置为 `create` or `create-drop`的时候，Spring Boot 启动时默认会扫描 classpath 下面（项目中一般是 resources 目录）是否有`import.sql`，如果有机会执行`import.sql`脚本。
 
 
-**使用 Spring JDBC **
+**使用 Spring JDBC**
 
 使用 Spring JDBC 需要在配置文件中添加以下配置
 
 ``` xml
 spring:
     datasource:
-      schema: database/data.sql
+        schema: classpath:db/schema.sql
+        data: classpath:db/data.sql
       sql-script-encoding: utf-8
     jpa:
       hibernate:
         ddl-auto: none
 ```
 
-- schema ：设置脚本的路径
+- schema ：脚本中创建表的语句
+- data ：脚本中初始化数据的预计
 - sql-script-encoding：设置脚本的编码
 
 Spring Boot 项目启动的时候会自动执行脚本。
@@ -70,6 +72,19 @@ LEGACYHTML5 需要搭配一个额外的库 NekoHTML 才可用，项目中使用�
 	<version>1.9.22</version>
 </dependency>
 ```
+
+## 自定义 Favicon
+
+Spring Boot 提供了一个默认的 Favicon，也就是 Spring 的 logo ，我们可以根据自己企业的需要来定制它。
+
+首先需要在 application.propertie 中关闭原有的logo
+
+``` properties
+spring.mvc.favicon.enable=false 
+```
+
+在将自己的 favicon.ico 放到`src/main/resources/static`下 ，然后再重新启动项目就可以了。
+
 
 > 文章内容已经升级到 Spring Boot 2.x 
 
