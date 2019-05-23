@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 纳尼，Java 存在内存泄泄泄泄泄泄漏吗？
-no-post-nav: true
 copyright: java
 category: java
 tags: [java]
@@ -142,10 +141,9 @@ for (int i=1;i<100; i++)
 ![](http://www.itmind.net/assets/images/java.jpg)
 >关注一下又不会怀孕
 
-
 参考出处：
 
-https://lovoedu.gitee.io/javablog/2017/08/27/20170827/
+https://lovoedu.gitee.io/javablog/2017/08/27/20170827/  
 https://www.ibm.com/developerworks/cn/java/l-JavaMemoryLeak/index.html
 
 
