@@ -9,7 +9,7 @@ permalink: /link
 
 ## 友情链接
 
-- [人工智能博客](http://www.captainbed.net/blog-neo) - 人工智能学习教程
+- [闷瓜蛋子的博客](https://fookwood.com) - 八年博客，大公司小公司游荡多年，目前为自由职业
 - [Java极客技术](http:
 //www.justdojava.com) - Java 技术人的一片天地
 - [匠心零度博客](http://www.jiangxinlingdu.com/) - 以匠心，铸非凡！
