@@ -9,9 +9,9 @@ permalink: /link
 
 ## 友情链接
 
+- [江南一点雨](https://www.javaboy.org/) - 专注于 Spring Boot + 微服务
 - [闷瓜蛋子的博客](https://fookwood.com) - 八年博客，大公司小公司游荡多年，目前为自由职业
-- [Java极客技术](http:
-//www.justdojava.com) - Java 技术人的一片天地
+- [Java极客技术](http://www.justdojava.com) - Java 技术人的一片天地
 - [匠心零度博客](http://www.jiangxinlingdu.com/) - 以匠心，铸非凡！
 - [麦田技术博客](http://blog.itmyhome.com/) - 将来的你，一定会感激现在拼命努力的自己。 
 - [王登科-DK博客](http://www.wdk.pw) - 一个技术创业者  
