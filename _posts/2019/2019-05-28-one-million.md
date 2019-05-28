@@ -2,6 +2,7 @@
 layout: post
 title: 3年，阅读量100万+, Github Star 15000+
 category: springboot
+no-post-nav: true
 tags: [springboot]
 keywords: Spring Boot,github,博客园
 excerpt: 超过预期。
@@ -26,7 +27,7 @@ excerpt: 超过预期。
 
 随着这篇文章的阅读量创新高，我的一个开源项目 Star 也飙升到 github 排行榜前面。早年在学习 Spring Boot 的时候，将学习的示例项目统一放到了一个开源项目下，随着时间的推移现在 Star 关注量超过了 15000+。
 
-项目地址:[https://github.com/ityouknow/spring-boot-examples](https://github.com/ityouknow/spring-boot-examples)
+项目地址：[https://github.com/ityouknow/spring-boot-examples](https://github.com/ityouknow/spring-boot-examples)
 
 ![](http://www.itmind.net/assets/images/2019/springboot/million04.jpg)
 
