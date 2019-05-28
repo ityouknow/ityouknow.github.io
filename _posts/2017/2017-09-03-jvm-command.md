@@ -557,6 +557,6 @@ jinfo [option] [args] LVMID
 ### 示例
 
 ```  xml
-$ jinfo -flag 11494
+$ jinfo -flags 11494
 -XX:CMSInitiatingOccupancyFraction=80
 ```
