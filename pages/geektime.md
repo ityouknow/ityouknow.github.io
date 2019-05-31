@@ -2,7 +2,7 @@
 layout: page
 title: 极客技术专栏
 titlebar: geektime
-subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; 自己购买的几个专栏
+subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; &nbsp;&nbsp;极客时间大礼包>&nbsp;&nbsp;>&nbsp;&nbsp;<a href ="http://gk.link/a/103Gb" target="_blank" ><font color="#EB9439">点我直达</font></a>
 menu: geektime
 css: ['blog-page.css']
 permalink: /geektime
