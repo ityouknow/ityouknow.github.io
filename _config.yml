@@ -69,7 +69,7 @@ menus:
   -
     href: http://gk.link/a/103Gb
     label: 极客
-    target: _self
+    target: _blank
 
   -
     href: /life.html
