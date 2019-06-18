@@ -18,7 +18,7 @@ excerpt:  这个时代，见识即财富，成长即赚钱。
 
 如果你是一个优秀的分享者，只需要两次精彩的圈内分享，赞赏的金额就会覆盖进圈子的费用。现在这个知识星球还在快速的成长中，我建议大家尽早加入，因为很快要调整价格了，现在是最适合的加入时机。
 
-![](http://www.itmind.net/assets/images/2019/zsxq/money.jpg)
+![](http://www.itmind.net/assets/images/2019/zsxq/zsxq.jpg)
 
 自说自己知识星球有多好，难免有些吹嘘，下面是一个朋友在他的网站上对《就聊挣钱》知识星球的介绍。首先这些内容都是真的，其次这些内容多数来源于我的博文和知识星球。
 
@@ -119,7 +119,7 @@ excerpt:  这个时代，见识即财富，成长即赚钱。
 
 这个时代，见识即财富，成长即赚钱。圈内各路大神藏龙卧虎，分享就是一种更高级的交流，相信会在你的人脉和认知上有所提升。
 
-![](http://www.itmind.net/assets/images/2019/zsxq/money.jpg)
+![](http://www.itmind.net/assets/images/2019/zsxq/zsxq.jpg)
 加入知识星球，三天内不满意任意退款！
 
 
