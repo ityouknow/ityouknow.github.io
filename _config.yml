@@ -16,8 +16,8 @@ encoding: "utf-8"
 favicon: favicon.ico 
 
 repository: lixinll/lixinll.github.io
-github_url: https://github.com/lixinll
-url: https://lixinll.github.io
+github_url: http://github.com/lixinll
+url: http://lixinll.github.io
 enforce_ssl: ityouknow.com
 
 ## Gem
