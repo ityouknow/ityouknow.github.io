@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      任何一个想赚钱的程序员都可以看看这篇文章
-copyright: money
+copyright: zsxq
 no-post-nav: true
 category: zsxq
 tags: [zsxq]

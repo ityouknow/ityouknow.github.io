@@ -2,7 +2,7 @@
 layout:     post
 title:      被官方加持了！
 no-post-nav: true
-copyright: money
+copyright: zsxq
 category: zsxq
 tags: [zsxq]
 excerpt: 见识决定选择

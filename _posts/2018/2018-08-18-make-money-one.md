@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      昨天日入过万
-copyright: money
+copyright: zsxq
 no-post-nav: true
 category: zsxq
 tags: [zsxq]

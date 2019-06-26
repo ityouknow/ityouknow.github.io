@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 程序员该用哪种姿势来理财
-copyright: money
+copyright: zsxq
 category: zsxq
 tags: [zsxq]
 ---

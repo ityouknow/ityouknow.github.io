@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Spring Boot 2 (三)：Spring Boot 开源软件都有哪些？
-copyright: money
 category: springboot
 tags: [springboot]
 keywords: Spring Boot,open source

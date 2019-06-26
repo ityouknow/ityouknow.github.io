@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      为什么技术公众号都要接广告？
-copyright: money
+copyright: zsxq
 no-post-nav: true
 category: zsxq
 tags: [zsxq]
