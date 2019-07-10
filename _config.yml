@@ -230,7 +230,7 @@ gitment:
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: mrlittlenew
-    repo: blog-comments
+    repo: mrlittlenew.github.io
     clientID: c3af05f956f15d976943
     clientSecret: 8a60ae90c8c6c8d9fe68441191c862eb5988e06d
 # 在使用其它评论组件时可点击显示 Disqus
