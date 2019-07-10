@@ -223,7 +223,7 @@ disqus:
 # https://imsun.net/posts/gitment-introduction/
 gitment:
     owner: mrlittlenew
-    repo: blog-comments
+    repo: mrlittlenew.github.io
     oauth:
         client_id: c3af05f956f15d976943
         client_secret: 8a60ae90c8c6c8d9fe68441191c862eb5988e06d
