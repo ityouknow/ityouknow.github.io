@@ -11,7 +11,6 @@ excerpt: 让我看看你属于什么垃圾？
 不禁让人想问这样一个问题：
 
 ![](http://www.itmind.net/assets/images/2019/it/laji01.jpg)
-![](http://www.itmind.net/assets/images/2019/it/laji02.jpg)
 
 
 ## 干垃圾 | 装逼程序员
@@ -133,4 +132,6 @@ excerpt: 让我看看你属于什么垃圾？
 消灭一批、送走一批、改造一批  
 还程序员行业一片朗朗晴空
 
+
+![](http://www.itmind.net/assets/images/2019/it/laji02.jpg)
 你觉得还有哪些程序员可以划分到垃圾分类中？
