@@ -65,7 +65,7 @@ excerpt: 让我看看你属于什么垃圾？
 ![](http://www.itmind.net/assets/images/2019/it/laji05.jpg)
 
 
-他们对什么都不敢兴趣  
+他们对什么都不感兴趣  
 对上班不感兴趣  
 对程序不感兴趣  
 对代码不感兴趣  
