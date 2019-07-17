@@ -46,7 +46,7 @@ Python 的神奇发展史
 
 Python 的创始人为吉多·范罗苏姆  1982年，Guido 从阿姆斯特丹大学 (University of Amsterdam) 获得了数学和计算机硕士学位。然而，尽管他算得上是一位数学家，但他更加享受计算机带来的乐趣。用他的话说，尽管拥有数学和计算机双料资质，他总趋向于做计算机相关的工作，并热衷于做任何和编程相关的活儿。
 
-![Guido von Rossum](http://www.itmind.net/assets/images/2019/python/Guido.jpg)
+![Guido von Rossum](http://www.ityoukow.com/assets/images/2019/python/Guido.jpg)
 
 
 在那个时候，他接触并使用过诸如 Pascal、C、 Fortran 等语言。这些语言的基本设计原则是让机器能更快运行。在80年代，虽然IBM和苹果已经掀起了个人电脑浪潮，但这些个人电脑的配置很低 (在今天看来)。比如早期的 Macintosh，只有 8MHz 的 CPU 主频和 128KB 的 RAM，一个大的数组就能占满内存。
@@ -69,7 +69,7 @@ ABC 是由荷兰的 CWI (Centrum Wiskunde & Informatica, 数学和计算机研�
 - **过度革新**。ABC 用自然语言的方式来表达程序的意义，比如上面程序中的 HOW TO (如何)。然而对于程序员来说，他们更习惯用 function 或者 define 来定义一个函数。同样，程序员也习惯了用等号(=)来分配变量。这尽管让 ABC 语言显得特别，但实际上增加了程序员的学习难度 (程序员大都掌握不止一种语言)。
 - **传播困难**。ABC 编译器很大，必须被保存在磁带(tape)上。当时 Guido 在访问的时候，就必须有一个大磁带来给别人安装 ABC 编译器。 这样，ABC 语言就很难快速传播。
 
-![IBM tape drive：读写磁带](http://www.itmind.net/assets/images/2019/python/tapedrive.gif)
+![IBM tape drive：读写磁带](http://www.ityoukow.com/assets/images/2019/python/tapedrive.gif)
 
  
 1989年，为了打发圣诞节假期，Guido 开始写 Python 语言的编译/解释器。Python 来自 Guido 所挚爱的电视剧 Monty Python's Flying Circus (BBC1960-1970年代播放的室内情景幽默剧，以当时的英国生活为素材)。他希望这个新的叫做 Python 的语言，能实现他的理念(一种 C 和 shell 之间，功能全面，易学易用，可拓展的语言)。Guido 作为一个语言设计爱好者，已经有过设计语言的(不很成功)的尝试。这一次，也不过是一次纯粹的 hacking 行为。
@@ -78,7 +78,7 @@ ABC 是由荷兰的 CWI (Centrum Wiskunde & Informatica, 数学和计算机研�
 
 1991年，第一个 Python 编译器(同时也是解释器)诞生。它是用 C 语言实现的，并能够调用 C 库(.so文件)。从一出生，Python 已经具有了：类(class)，函数(function)，异常处理(exception)，包括表(list)和词典(dictionary)在内的核心数据类型，以及模块(module)为基础的拓展系统。
 
-![](http://www.itmind.net/assets/images/2019/python/Pythonlogo.png)
+![](http://www.ityoukow.com/assets/images/2019/python/Pythonlogo.png)
 最初的 Python logo: 由 Guido 的兄弟 Just von Rossum 设计
 
 Python 语法很多来自 C，但又受到 ABC 语言的强烈影响。来自 ABC 语言的一些规定直到今天还富有争议，比如强制缩进。但这些语法规定让 Python 容易读。另一方面，Python 聪明的选择服从一些惯例(特别是 C 语言的惯例)。比如使用等号赋值，使用 def 来定义函数。Guido 认为，如果“常识”上确立的东西，没有必要过度纠结。
@@ -87,14 +87,14 @@ Python 从一开始就特别在意可拓展性(extensibility)。Python 可以在
 
 最初的 Python 完全由 Guido 本人开发。Python 得到 Guido 同事的欢迎。他们迅速的反馈使用意见，并参与到 Python 的改进。Guido 和一些同事构成 Python 的核心团队。他们将自己大部分的业余时间用于 hack Python (也包括工作时间，因为他们将 Python 用于工作)。随后，Python 拓展到 CWI 之外。Python 将许多机器层面上的细节隐藏，交给编译器处理，并凸显出逻辑层面的编程思考。Python 程序员可以花更多的时间用于思考程序的逻辑，而不是具体的实现细节 (Guido 有一件T恤，写着：人生苦短，我用 Python)。这一特征吸引了广大的程序员。Python 开始流行。
 
-![人生苦短，我用 Python](http://www.itmind.net/assets/images/2019/python/myuesPython.jpg)
+![人生苦短，我用 Python](http://www.ityoukow.com/assets/images/2019/python/myuesPython.jpg)
 
 
 ## 时势造英雄
  
 我们不得不暂停我们的 Python 时间，转而看一看这时的计算机概况。1990 年代初，个人计算机开始进入普通家庭。Intel 发布了 486 处理器，windows 发布window 3.0 开始的一系列视窗系统。计算机的性能大大提高。程序员开始关注计算机的易用性  (比如图形化界面)。
 
-![Windows 3.0](http://www.itmind.net/assets/images/2019/python/Windows3.0.png)
+![Windows 3.0](http://www.ityoukow.com/assets/images/2019/python/Windows3.0.png)
 
 由于计算机性能的提高，软件的世界也开始随之改变。硬件足以满足许多个人电脑的需要。硬件厂商甚至渴望高需求软件的出现，以带动硬件的更新换代。C++ 和 Java 相继流行。C++ 和 Java 提供了面向对象的编程范式，以及丰富的对象库。在牺牲了一定的性能的代价下，C++ 和 Java 大大提高了程序的产量。语言的易用性被提到一个新的高度。我们还记得，ABC 失败的一个重要原因是硬件的性能限制。从这方面说，Python 要比 ABC 幸运许多。
 
@@ -158,16 +158,16 @@ Python 除了极少的事情不能做之外，基本上可以说全能，系统�
 
 截止2019年2月，Python 在 TIOBE 流行编程语言排行榜，已经上升到第三名。比上个月上升了 2.41% 个百分点。
 
-![](http://www.itmind.net/assets/images/2019/python/TIOBE.png)
+![](http://www.ityoukow.com/assets/images/2019/python/TIOBE.png)
 
 
 而且如果看 2002-2018 年 Python 的使用情况， Python 明显就是一个赤裸裸的逆袭爆发史呀。
 
-![](http://www.itmind.net/assets/images/2019/python/TIOBE2.png)
+![](http://www.ityoukow.com/assets/images/2019/python/TIOBE2.png)
 
 我们把 TIOBE 排行榜中 其它编程语言隐藏掉就会发现 Python 语言的热点一直在震荡上行，特别是从 2017 年开始，呈现出爆发的现象。
 
-![](http://www.itmind.net/assets/images/2019/python/TIOBE3.png)
+![](http://www.ityoukow.com/assets/images/2019/python/TIOBE3.png)
 
 **那么此时不学 Python ，更待何时？**
 

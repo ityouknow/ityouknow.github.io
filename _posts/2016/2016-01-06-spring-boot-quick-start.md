@@ -31,7 +31,7 @@ Spring Boot 是由 Pivotal 团队提供的全新框架，其设计目的是用�
 
 使用 Spring Boot 到底有多爽，用下面这幅图来表达
  
-![](http://www.itmind.net/assets/images/2016/dog.jpg)  
+![](http://www.ityoukow.com/assets/images/2016/dog.jpg)  
 
 ## 快速入门
 
@@ -42,7 +42,7 @@ Spring Boot 是由 Pivotal 团队提供的全新框架，其设计目的是用�
 - 1、访问 http://start.spring.io/  
 - 2、选择构建工具 Maven Project、Java、Spring Boot 版本 2.1.3 以及一些工程基本信息，可参考下图所示：
 
-![](http://www.itmind.net/assets/images/2019/springboot/spring-boot-start.png)
+![](http://www.ityoukow.com/assets/images/2019/springboot/spring-boot-start.png)
 
 - 3、点击 Generate Project 下载项目压缩包
 - 4、解压后，使用 Idea 导入项目，File -> New -> Model from Existing Source.. -> 选择解压后的文件夹 -> OK，选择 Maven 一路 Next，OK done! 
@@ -56,7 +56,7 @@ Spring Boot 是由 Pivotal 团队提供的全新框架，其设计目的是用�
 
 **项目结构介绍**
  
-![](http://www.itmind.net/assets/images/2016/springboot2.png)  
+![](http://www.ityoukow.com/assets/images/2016/springboot2.png)  
 
 
 如上图所示，Spring Boot 的基础结构共三个文件:

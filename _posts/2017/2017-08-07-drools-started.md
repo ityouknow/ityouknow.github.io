@@ -53,7 +53,7 @@ public void execute() throws Exception {
 活动又进行了一天，运营人员通过后台监控发现提到2倍以后，用户积极性变的很差，活动效果不理想，和领导商议了一下，改为最初规则的1.5倍，及150元一下不给积分，750元以下给100积分... 小明这时候的心情大概是这样子的，一万个下图动物狂奔而过。
 
  
-![](http://www.itmind.net/assets/images/2017/drools/cnm.jpg)
+![](http://www.ityoukow.com/assets/images/2017/drools/cnm.jpg)
 
 没办法还得改不是，当然这次小明可学乖了，将这些数据（多少元送多少分）存到了数据库中，当老板再改主意的时候，只要改一下数据库的值就可以了，小明为自己的明聪明到有点小高兴。
 
@@ -87,7 +87,7 @@ public void execute() throws Exception {
 正当小明得意洋洋的打了个最新版本投产上线之后，产品经理小王说积分规则层次太少了，由以前的4组变成8组，小明此刻的心情：kao ...
 
  
-![](http://www.itmind.net/assets/images/2017/drools/kao.jpeg)
+![](http://www.ityoukow.com/assets/images/2017/drools/kao.jpeg)
 
 小明想这样下去非得被他们弄死，必须要找找有什么技术可以将活动规则和代码解耦，不管规则如何变化，执行端不用动。小明搜了半天还真有这样的东西，那就是规则引擎，那么规则引擎到底是什么东西呢？我们来看看。
 

@@ -11,7 +11,7 @@ tags: [share]
 
 直接扫描二维码关注“IT轻社区”，此公号内回复对应的关键字
 
-![](http://www.itmind.net/assets/images/itmind.jpg)  
+![](http://www.ityoukow.com/assets/images/itmind.jpg)  
 
 
 - 01、回复"**我要健康**"，获取程序员健康、内涵大礼包！  
@@ -35,16 +35,16 @@ tags: [share]
 
 - 回复 “程序员”，获取计算机专业超全教科书礼包
 
-![](http://www.itmind.net/assets/images/2017/book/programmer.jpeg)  
+![](http://www.ityoukow.com/assets/images/2017/book/programmer.jpeg)  
 
 
 - 回复“面试”，获取互联网行业私密面试大礼包
 
-![](http://www.itmind.net/assets/images/2017/book/Interview.jpg)  
+![](http://www.ityoukow.com/assets/images/2017/book/Interview.jpg)  
 
 - 回复“架构师",获取十套1000G精选架构师资料
 
-![](http://www.itmind.net/assets/images/2017/book/architect.png)  
+![](http://www.ityoukow.com/assets/images/2017/book/architect.png)  
 
 
 将不定期更新资源，欢迎持续关注。  

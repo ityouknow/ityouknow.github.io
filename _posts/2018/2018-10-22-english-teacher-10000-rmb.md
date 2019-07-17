@@ -8,7 +8,7 @@ tags: [zsxq]
 excerpt: 轻信是人生之大敌
 ---
 
-![](http://www.itmind.net/assets/images/2018/life/insane.png)
+![](http://www.ityoukow.com/assets/images/2018/life/insane.png)
 
 大家都知道作为一名程序员，学好英语是多么的重要，可以最快的速度去学习最权威的技术指南，可以在互联网上和全世界的技术人一起讨论问题。这也是我毕业这么多年一直没有放弃学习英语的重要原因之一。
 
@@ -18,15 +18,15 @@ excerpt: 轻信是人生之大敌
 
 上课的形式就是大家约定个时间，在微信上以视频的方式去交流，每次上完课后将课时费发红包给老师，就这样愉快的合作了一段时间。突然有一天（9月6号）这个英语老师问我微信给她谈了一个框，她不知道是什么，想让我帮忙解释一下。
 
-![](http://www.itmind.net/assets/images/2018/life/001.png)
+![](http://www.ityoukow.com/assets/images/2018/life/001.png)
 
 可能是微信最近收紧了微信支付限额政策，她不能通过转账将钱给别人。时间到了10月16号，这位老师突然问我有什么办法可以帮她把钱取出来，我确实帮不上忙。
 
-![](http://www.itmind.net/assets/images/2018/life/002.png)
+![](http://www.ityoukow.com/assets/images/2018/life/002.png)
 
 第二我正上班着，这名英语老师突然联系我，让我帮忙给她报警，吓了我一跳，不知道发生了什么？这个时候，她已经非常着急了，一边哭一边说这些钱不只是她的，还有一部分是其他老师的钱，如果她把这些钱搞丢了，这些人会杀了她。
 
-![](http://www.itmind.net/assets/images/2018/life/003.png)
+![](http://www.ityoukow.com/assets/images/2018/life/003.png)
 
 菲律宾英语老师一节课的课时费只有几十块钱，这一万块钱相当于半年的课时费了。看着英语老师这么着急的情况下，我给拿了她钱的深圳哥们打了个电话，我说你要是拿了人家钱你赶紧还给人家算了，不然的话我会选择曝光这个事情。
 
@@ -36,19 +36,19 @@ excerpt: 轻信是人生之大敌
 
 第一个微信聊天记录：
 
-![](http://www.itmind.net/assets/images/2018/life/004.jpg)
+![](http://www.ityoukow.com/assets/images/2018/life/004.jpg)
 
 第二个微信聊天记录：
 
-![](http://www.itmind.net/assets/images/2018/life/005.jpg)
+![](http://www.ityoukow.com/assets/images/2018/life/005.jpg)
 
 转完钱后，他就把这个老师给拉黑了，另外一个英语老师也认识这个哥们，因为帮忙联系这个哥们让帮忙给解决问题，大家可以看看，通话内容很嚣张。
 
-![](http://www.itmind.net/assets/images/2018/life/101.jpg)
-![](http://www.itmind.net/assets/images/2018/life/102.jpg)
-![](http://www.itmind.net/assets/images/2018/life/103.jpg)
-![](http://www.itmind.net/assets/images/2018/life/104.jpg)
-![](http://www.itmind.net/assets/images/2018/life/105.jpg)
+![](http://www.ityoukow.com/assets/images/2018/life/101.jpg)
+![](http://www.ityoukow.com/assets/images/2018/life/102.jpg)
+![](http://www.ityoukow.com/assets/images/2018/life/103.jpg)
+![](http://www.ityoukow.com/assets/images/2018/life/104.jpg)
+![](http://www.ityoukow.com/assets/images/2018/life/105.jpg)
 
 到现在为止，这个哥们仍然没有把钱退回给这位英语老师，并且将另外一个英语老师也给拉黑了。我有两个疑问：
 

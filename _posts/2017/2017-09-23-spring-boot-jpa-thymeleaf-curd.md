@@ -260,7 +260,7 @@ list 列表
 
 效果图：
 
-![](http://www.itmind.net/assets/images/2017/springboot/list.png)
+![](http://www.ityoukow.com/assets/images/2017/springboot/list.png)
 
 `<tr  th:each="user : ${users}">` 这里会从 Controler 层 model set 的对象去获取相关的内容，`th:each`表示会循环遍历对象内容。
 
@@ -320,7 +320,7 @@ list 列表
 
 效果图：
 
-![](http://www.itmind.net/assets/images/2017/springboot/edit.png)
+![](http://www.ityoukow.com/assets/images/2017/springboot/edit.png)
 
 这样一个使用 Jpa 和 Thymeleaf 的增删改查示例就完成了。
 

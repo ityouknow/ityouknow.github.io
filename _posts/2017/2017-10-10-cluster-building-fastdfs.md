@@ -521,7 +521,7 @@ http://192.168.53.85:8080/group2/M00/00/00/wKg26VncfamAEqZ0AAu-4Kcs3QI677.jpg
 
 看有查看到图片,说明集群搭建成功！
 
-![](http://www.itmind.net/assets/images/neo.jpg)
+![](http://www.ityoukow.com/assets/images/neo.jpg)
 
 > 生产中可以将：```/root/fastdfs``` 替换为：```/fdfs/storage```
 

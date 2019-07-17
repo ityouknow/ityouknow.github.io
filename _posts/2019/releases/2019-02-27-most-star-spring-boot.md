@@ -22,7 +22,7 @@ keywords: Spring Boot,开源项目,学习教程
 
 **产品截图**
 
-![](http://www.itmind.net/assets/images/2019/springboot/spring-boot-examples.png)
+![](http://www.ityoukow.com/assets/images/2019/springboot/spring-boot-examples.png)
 
 在 Github 上如果以 [spring-boot](https://github.com/topics/spring-boot)为关键字搜索，此开源项目全球总排名第四，前三名都是企业和组织，**个人开源项目中排名第一**；如果以[springboot](https://github.com/topics/springboot) 为关键字则**直接排名第一**。
 
@@ -46,7 +46,7 @@ keywords: Spring Boot,开源项目,学习教程
 
 **产品截图**
 
-![](http://www.itmind.net/assets/images/2016/favorites_index.png)  
+![](http://www.ityoukow.com/assets/images/2016/favorites_index.png)  
 
 ## [awesome-spring-boot(star 1555+)](https://github.com/ityouknow/awesome-spring-boot)
 
@@ -62,7 +62,7 @@ keywords: Spring Boot,开源项目,学习教程
 
 **产品截图**
 
-![](http://www.itmind.net/assets/images/2019/springboot/springbootfun.png)
+![](http://www.ityoukow.com/assets/images/2019/springboot/springbootfun.png)
 
 此开源项目收集全网优质的 Spring Boot 学习资源，还有一个对应的官网 [www.springboot.fun](http://springboot.fun/)，是学习 Spring Boot 的同学必须要关注的一个网站。
 

@@ -19,7 +19,7 @@ excerpt: 熬最晚的夜，吃最野的鸡，敷最贵的面膜。
 
 第二天顶着浓浓的黑眼圈，无精打采的去上班。依旧加班到很晚，一九每天熬着夜，生活好事进入了死循环。
 
-![](http://www.itmind.net/assets/images/2019/it/aoye01.jpg)
+![](http://www.ityoukow.com/assets/images/2019/it/aoye01.jpg)
 
 有人穷得太久了，如果一旦暴富，就疯狂的炫富性消费。
 
@@ -47,7 +47,7 @@ excerpt: 熬最晚的夜，吃最野的鸡，敷最贵的面膜。
 
 这不是最刺激的，在日本东京甚至出现了睡在街上的职场人。
 
-![](http://www.itmind.net/assets/images/2019/it/aoye02.jpg)
+![](http://www.ityoukow.com/assets/images/2019/it/aoye02.jpg)
 
 
 ## 为什么在坚持熬夜？
@@ -62,7 +62,7 @@ excerpt: 熬最晚的夜，吃最野的鸡，敷最贵的面膜。
 
 这是当代职场人的真实写照。
 
-![](http://www.itmind.net/assets/images/2019/it/aoye03.jpg)
+![](http://www.ityoukow.com/assets/images/2019/it/aoye03.jpg)
 
 熊猫眼、黑眼圈已经成为了职场人的标配，女生还可以用粉底、眼霜等化妆手段遮掩一下，男生基本都素颜出镜了。
 
@@ -70,7 +70,7 @@ excerpt: 熬最晚的夜，吃最野的鸡，敷最贵的面膜。
 
 然而，好不容易下班后回到家洗漱完趟床上时，那着手机或iPad就不自觉的享受起这好不容易属于自己的时间。没啥真正的目的，就是不小心刷了下抖音，追了下美剧，看了几集综艺等等就已到深夜。内心默默的对自己说，再熬最后一晚！最后一晚永远没有到来。
 
-![](http://www.itmind.net/assets/images/2019/it/aoye04.jpg)
+![](http://www.ityoukow.com/assets/images/2019/it/aoye04.jpg)
 
 ## 报复性熬夜的本质是什么？
 

@@ -27,7 +27,7 @@ keywords: 知识付费，Gitchat，慕课网，极客时间，掘金小册
 
 随着平台型知识付费公司不断发展，商业模式得到进一步验证之后，慢慢诞生了很多垂直领域的知识付费产品，比如在商业、英语、技术、职场等领域诞生的知识付费产品不断；也促进了服务于知识付费平台的工具类产品迅速崛起，比如新榜、西瓜数据、知识星球、小鹅通等。
 
-![](http://www.itmind.net/assets/images/2019/life/book.png)
+![](http://www.ityoukow.com/assets/images/2019/life/book.png)
 
 ## 技术领域知识付费
 
@@ -112,7 +112,7 @@ keywords: 知识付费，Gitchat，慕课网，极客时间，掘金小册
 
 开源精神是为了降低知识获得的成本，知识的获得总有成本，实践证明，互助共享才是学习的最快法则，只想获得不想付出，那么距离开源精神很远。知识付费丝毫不违逆历史潮流，按现在的社会状态看，还会愈演愈烈。
 
-![](http://www.itmind.net/assets/images/2019/life/zhishi.png)
+![](http://www.ityoukow.com/assets/images/2019/life/zhishi.png)
 
 ## 知识付费的价值
 

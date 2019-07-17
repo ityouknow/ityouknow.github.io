@@ -7,21 +7,21 @@ tags: [life]
 excerpt: 据统计，2017年中国在册新闻调查记者仅剩175人。
 ---
 
-![](http://www.itmind.net/assets/images/2018/life/fengsha.png)
+![](http://www.ityoukow.com/assets/images/2018/life/fengsha.png)
 
 果不其然周天写的《[X苗之王，X的是国人那颗脆弱的心](http://www.ityouknow.com/life/2018/07/22/yi-miao-zhi-wang.html)》这篇文章被删了，没有活过24小时，超过5千多人分享，最后数据定格在了61043。
 
-![](http://www.itmind.net/assets/images/2018/life/xdata.png)
+![](http://www.ityoukow.com/assets/images/2018/life/xdata.png)
 
 大家如果还想看就只能访问我的博客：[www.ityouknow.com](http://www.ityouknow.com/)去阅读了。经过这么一件事也引起了一些思考：为什么会被删X？中国人的发声之路都经历了什么？
 
-![](http://www.itmind.net/assets/images/2018/life/dazhen.png)
+![](http://www.ityoukow.com/assets/images/2018/life/dazhen.png)
 
 这两天这个小孩火了，当然我们都知道是为什么？当我们思考疫苗事件给大家带来这么大的震惊之外，再想另外一个问题，为什么这么大的新闻或者说类似的事情，到现在都是由自媒体最新报道的，这不是我们官媒应该起的作用吗？这是一个时代的进步还是退步？
 
 朋友圈一个山东的朋友更是愤慨的写下这段话，引人惊醒：
 
-![](http://www.itmind.net/assets/images/2018/life/pengyouqun.jpeg)
+![](http://www.ityoukow.com/assets/images/2018/life/pengyouqun.jpeg)
 
 为什么现在传统主流官方媒体，渐渐变的没有声音，要不就是被各种截图出来的“啪啪啪”打脸的内容。我们再认真想一下，如果我们的官媒要变的有声音需要什么样的条件？第一，需要有很好的素材并且敢于报道；第二，需要有专业报道新闻事件的记者。
 
@@ -31,7 +31,7 @@ excerpt: 据统计，2017年中国在册新闻调查记者仅剩175人。
 
 目前我们所有的官媒应该都是受到政府相关机构领导，那么在报道问题的时候就很难具有第三方独立性，地方政府害怕事情闹大影响了自己的政绩，害怕影响了企业的发展从而影响了当地的GDP等等。所以说媒体不能够独立，那么它报道出来的事情就很难有客观性。在此我强烈推荐大家看一部电影[《聚焦 Spotlight》](https://movie.douban.com/subject/25954475/)，看真正的媒体机构、媒体人应该是什么样的！
 
-![](http://www.itmind.net/assets/images/2018/life/Spotlight.png)
+![](http://www.ityoukow.com/assets/images/2018/life/Spotlight.png)
 
 再说第二点，我们需要有专业精神的记者，那么我们看下中国现在还存在多少记者。知乎上友一个问题是：2017 年最令你震惊、悚然的数据是什么？有这么一段回答：
 
@@ -66,7 +66,7 @@ excerpt: 据统计，2017年中国在册新闻调查记者仅剩175人。
 
 北京有知情市民也表示，“当年王克勤先生为此做了九个整版的山西毒疫苗深度报导。结果问题没有得到解决，他先被解决了。中华民族难道是一个受到诅咒的民族？”  让我们记住这个有良知的记者。
 
-![](http://www.itmind.net/assets/images/2018/life/wangkeqian.jpg)
+![](http://www.ityoukow.com/assets/images/2018/life/wangkeqian.jpg)
 
 也许这就是现在调查记者越来越少的原因之一吧！
 

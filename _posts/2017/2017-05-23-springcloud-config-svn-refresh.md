@@ -140,7 +140,7 @@ WebHook是当某个事件发生时，通过发送http post请求的方式来通�
 如此一来，你就可以通过这种方式去自动完成一些重复性工作，比如，你可以用Webhook来自动触发一些持续集成（CI）工具的运作，比如Travis CI；又或者是通过 Webhook 去部署你的线上服务器。下图就是github上面的webhook配置。
 
  
-![](http://www.itmind.net/assets/images/2017/springcloud/webhook.jpg)
+![](http://www.ityoukow.com/assets/images/2017/springcloud/webhook.jpg)
 
 
 - ```Payload URL``` ：触发后回调的URL  

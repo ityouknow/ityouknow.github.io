@@ -50,7 +50,7 @@ keywords: 第三分支付，支付宝，快捷支付，第三方支付概述，P
 
 “Paypal 黑帮”这个组织并不是特指某几个联合创始人，而是指早期带领 Paypal 跑马圈地、离开 Paypal 后依旧驰骋科技领域的一群科技达人。这群从 Paypal 走出来的科技达人在各自领域所开拓的疆土。
 
-![](http://www.itmind.net/assets/images/2019/payment/paypal.jpg)
+![](http://www.ityoukow.com/assets/images/2019/payment/paypal.jpg)
 
 早在1999年成立的北京首信和上海环迅两个企业是中国最早的第三方支付企业，由于电子商务在中国的缓慢发展，其影响力一直不大。直到2004年12月阿里巴巴公司支付宝的推出，在淘宝购物平台的强大影响下，其业务取得了突飞猛进的发展，第三方支付的交易规模也呈飞速增长趋势，仅用4年时间便以超过2亿使用用户的绝对优势胜过美国的 PayPal，成为全球最大的第三方支付平台。
 
@@ -66,7 +66,7 @@ keywords: 第三分支付，支付宝，快捷支付，第三方支付概述，P
 
 银行觉得利润很低不值得去做，民企没有支付牌照却面临着法律风险，正在团队犹豫之际，马云对团队说：
 
-![](http://www.itmind.net/assets/images/2019/payment/mayun.jpg)
+![](http://www.ityoukow.com/assets/images/2019/payment/mayun.jpg)
 
 想要了解这段经历可以点击链接查看视频：[《马云讲 Honor |视频》](https://mp.weixin.qq.com/s/rUlsZweOyP8wRwnaAcu-ww)
 

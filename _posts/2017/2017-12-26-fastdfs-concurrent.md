@@ -7,7 +7,7 @@ excerpt: 一次FastDFS并发问题的排查经历
 keywords: FastDFS,并发,架构
 ---
 
-![](http://www.itmind.net/assets/images/2017/life/router.jpg)  
+![](http://www.ityoukow.com/assets/images/2017/life/router.jpg)  
 
 前一段时间，业务部门同事反馈在一次生产服务器升级之后，POS消费上传小票业务偶现异常，上传小票业务有重试机制，有些重试三次也不会成功，他们排查了一下没有找到原因，希望架构部帮忙解决。
 

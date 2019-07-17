@@ -26,7 +26,7 @@ keywords: Spring Boot,Pivotal,Spring Cloud, 研发团队
 
 这个小伙子是谁呢？他就是大名鼎鼎的 Rod Johnson（下图），Rod Johnson 在悉尼大学不仅获得了计算机学位，同时还获得了音乐学位，更令人吃惊的是在回到软件开发领域之前，他还获得了音乐学的博士学位。现在 Rod Johnson 已经离开了 Spring，成为了一个天使投资人，同时也是多个公司的董事，早已走上人生巅峰。
 
-![](http://www.itmind.net/assets/images/2018/springboot/rod.jpg)
+![](http://www.ityoukow.com/assets/images/2018/springboot/rod.jpg)
 
 在这本书发布后，一对一的 J2EE 设计和开发一炮而红。这本书免费提供的大部分基础架构代码都是高度可重用的。2003 年 Rod Johnson 和同伴在此框架的基础上开发了一个全新的框架命名为 Spring，据 Rod Johnson 介绍 Spring 是传统 J2EE 新的开始，随后 Spring 发展进入快车道。
 
@@ -40,7 +40,7 @@ keywords: Spring Boot,Pivotal,Spring Cloud, 研发团队
 
 网上有一张图，清晰的展示了 Spring 发展：
 
-![](http://www.itmind.net/assets/images/2018/springboot/springhistoryinfographic.jpg)
+![](http://www.ityoukow.com/assets/images/2018/springboot/springhistoryinfographic.jpg)
 
 从上面这个时间线我们可以看出 Pivotal 团队和 Spring 在 2013 年交上了线，这是为什么呢？
 
@@ -101,7 +101,7 @@ VMware 于 1998 年成立，公司总部位于美国加州帕洛阿尔托，是�
 - 第三，是高度产品化。VMware 的毛利率长期保持在 85% 左右，咨询业务占比非常少，几乎将所有部署工作都交给合作伙伴。
 
 VMware 也是一个并购大户，通过投资和收购补全业务线，客户资源是一大优势。
-![](http://www.itmind.net/assets/images/2018/springboot/vmare.JPG)
+![](http://www.ityoukow.com/assets/images/2018/springboot/vmare.JPG)
 
 > 2012 年 Rod Johnson 宣布他将要离开 Spring Source 。
 
@@ -168,7 +168,7 @@ Pivotal 中国研发中心在中国创建于 2010 年，它的前身是 EMC Gree
 
 Pivotal 公司成立之后，于 2014 年发布了 Spring Boot，2015 年发布了 Spring Cloud，2018 年 Pivotal 公司在纽约上市。我们可以通过一张图来了解 Pivotal 公司的发展史。
 
-![](http://www.itmind.net/assets/images/2018/springboot/pivotal.jpeg)
+![](http://www.ityoukow.com/assets/images/2018/springboot/pivotal.jpeg)
 
 Pivotal 的定位是一家下一代云计算和大数据应用相结合的公司，而 VMWare 和原 EMC 的业务方向则依然是软件定义数据中心和信息基础架构。
 

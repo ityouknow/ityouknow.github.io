@@ -14,20 +14,20 @@ excerpt: 深度体验深圳华为+云
 
 18年年底的时候，华为云还送了一张年货购物卡，虽然钱不多，但也让我对华为云产生了更多的好感，原谅我这么庸俗，只是这件事让我觉得华为云这次可能是认真的，和其它云厂商一样要创建自己的技术社区，从这件事来看比阿里和腾讯云要大方很多。
 
-![](http://www.itmind.net/assets/images/2019/life/oepnlist.png)
+![](http://www.ityoukow.com/assets/images/2019/life/oepnlist.png)
 行程单
 
 2009年我在大四的时候来过深圳，这十余年就没有再去过，就想着借着这次机会好好在深圳再转两天，另外看了下活动安排，有华为松山湖基地参观，可以深度体验一下华为文化，且整个活动安排紧凑实在，于是确定了下时间就愉快的答应了。
 
 参加这次活动还给了一个称呼：华为云体验官，第一次当官竟然是这样 ：)，人生总是充满了想象呀。
 
-![](http://www.itmind.net/assets/images/2019/life/tyg.jpg)
+![](http://www.ityoukow.com/assets/images/2019/life/tyg.jpg)
 
 ## 入住酒店
 
 就这样我就飞到了深圳，入住了华为指定的安朴逸城酒店，到了酒店才知道这是华为自建的酒店，周围的整个园区也是华为自建的，园区有酒店也有住宅楼，酒店接待华为的合作客户和各地出差的员工，住宅楼是给华为员工自住，酒店应该算是四星级标准，但入住的舒适度比我住过某些五星级酒店还好一些，于是感慨华为是真有钱呀。
 
-![](http://www.itmind.net/assets/images/2019/life/yijiao.jpg)
+![](http://www.ityoukow.com/assets/images/2019/life/yijiao.jpg)
 酒店内景一角
 
 在酒店呆的这两天，在早上和下午遇到很多形色匆匆的华为人，年龄基本都在30-40多岁左右，脖子上挂着华为的工牌走路都带着风，华为真的是吸收了中国很大一部分实力雄厚的技术人，从这些人身上会感触到华为崛起的一偶。
@@ -41,31 +41,31 @@ excerpt: 深度体验深圳华为+云
 网上有松山湖欧洲小镇的一段航拍，大家可以根据视频感受下。[松山湖欧洲小镇航拍视频](https://v.qq.com/x/page/x07986kgcyn.html)
 
 园区的平面图
-![](http://www.itmind.net/assets/images/2019/life/pmt.jpg)
+![](http://www.ityoukow.com/assets/images/2019/life/pmt.jpg)
 
 园区内主要依赖小火车在各个区穿梭通勤，间隔半个小时跑一趟（一圈），我们参观也是坐的这个小火车。
 
-![](http://www.itmind.net/assets/images/2019/life/xhc.png)
+![](http://www.ityoukow.com/assets/images/2019/life/xhc.png)
 
 坐在小火车上望去，整个园区处处是景，空气质量好到爆，在这里办公的小伙伴太幸福了。
 
-![](http://www.itmind.net/assets/images/2019/life/jq.jpg)
+![](http://www.ityoukow.com/assets/images/2019/life/jq.jpg)
 
 园区内食堂一角，每个区内都有独立的食堂，食堂中西餐都有满足各个国家的同事就餐。
 
-![](http://www.itmind.net/assets/images/2019/life/shitang.jpg)
+![](http://www.ityoukow.com/assets/images/2019/life/shitang.jpg)
 
 印象比较深的就是园区的湖了，听讲解员说，华为的每个园区都会有湖，湖中都会养黑天鹅。任正非是一个非常具有忧患意识的领导，想通过这种方式来告诫华为人，黑天鹅事件随时都有可能发生，湖中除过黑天鹅之外，还会种植白莲花寓意华为人要纯净、廉洁。
 
-![](http://www.itmind.net/assets/images/2019/life/82ed9be715eaab3badfe280cf12e851.jpg)
+![](http://www.ityoukow.com/assets/images/2019/life/82ed9be715eaab3badfe280cf12e851.jpg)
 
 对了，整个园区造价100亿，还有两个区还没有建完，小镇的每一个区按照欧洲的一个国家风格来建造，于是就有了巴黎区、德国区、英国区...，听讲解员说经常接待政府官员和国内外团队。
 
-![](http://www.itmind.net/assets/images/2019/life/ssh.png)
+![](http://www.ityoukow.com/assets/images/2019/life/ssh.png)
 
 在参加松山湖小镇的时候，大家一起合了影。
 
-![](http://www.itmind.net/assets/images/2019/life/20190308194136.jpg)
+![](http://www.ityoukow.com/assets/images/2019/life/20190308194136.jpg)
 
 参观完毕，坐车回华为坂田基地。
 
@@ -77,7 +77,7 @@ excerpt: 深度体验深圳华为+云
 
 在参观的过程发现，坂田基地虽然没有欧洲小镇漂亮，但是园区绿化也是很不错的，随手拍了一张照片。
 
-![](http://www.itmind.net/assets/images/2019/life/f55e94a100f9b6a4473bb1601a0873c.jpg)
+![](http://www.ityoukow.com/assets/images/2019/life/f55e94a100f9b6a4473bb1601a0873c.jpg)
 
 参观完坂田基地园区，就开车直接去了 J5 展厅，一个专门展示华为产品的综合展区，因为需要接待外宾的原因，展区的服务员都是空姐级别的。
 
@@ -85,7 +85,7 @@ excerpt: 深度体验深圳华为+云
 
 由于展厅内不能拍照，在网上找了一个类似的监控大屏。
 
-![](http://www.itmind.net/assets/images/2019/life/daping.png)
+![](http://www.ityoukow.com/assets/images/2019/life/daping.png)
 
 华为云一直强调一个观念，华为不做上层的任何应用，只提供平台和通用型功能，任何上层的产品都是和合作厂商一起来做。第一，华为没有那么多人来做这些事情；第二，华为不想做小而美的产品；第三，华为想做一个底层的平台，避免和合作厂商产生竞争。
 
@@ -97,14 +97,14 @@ excerpt: 深度体验深圳华为+云
 
 我旁边的两个就是来自博客园，还有江南一点雨来自 CSDN，回来才发现博客园的路过秋天这次也来了。本次参加活动有三个团队，一个团队是华为云的 MVP 们，主要是研究云服务的专家，第二个团队是云享专家团队，也就是我本次参加的团队，第三个是媒体团队，有自媒体，有报社等。
 
-![](http://www.itmind.net/assets/images/2019/life/20190308194108.jpg)
+![](http://www.ityoukow.com/assets/images/2019/life/20190308194108.jpg)
 最前排是华为云 MVP ，我们坐在中间，媒体团队坐到最后面。
 
 我们落座没过多久，就看到华为云的三大老板急匆匆而来，一个是华为云BU总裁郑叶来，一个产品负责人 贾永利，还有华为云的 CTO 张宇昕。我坐在他们后面，特意看了一下三个领导的后脑勺，发现华为云技术负责人的头发比较稀疏，同为技术人的我一阵唏嘘。
 
 主持人简单介绍完之后，华为云总裁郑叶来给我们讲华为云的故事，郑老板在演讲的时候充满了自信和调侃，讲了很多华为的趣事。讲话内容包含华为文化，华为云给自己的定位，以及华为要做华为云的决心等等，最后讲了为什么要做华为云社区。华为一直是面向 B 端用户，突然一下子要学互联网面向 C 端，我还真有点不太适应感。
 
-![](http://www.itmind.net/assets/images/2019/life/luntan.png)
+![](http://www.ityoukow.com/assets/images/2019/life/luntan.png)
 
 在嘉宾提问环节还有人向郑叶来提问：如何看待最近某云大面积出现故障的事情，郑叶来说他们给内部交代了，谁也不能转发朋友圈，常在河边走谁能不湿鞋。同时也说，他们这样讲不是说华为也会出现这样类似的问题，只是要共同把市场做大。
 
@@ -112,7 +112,7 @@ excerpt: 深度体验深圳华为+云
 
 中间产品负责人分享了华为云社区的成长经历和2019年的目标，给这届的 MVP 颁发了杰出贡献奖，最后大家一起合了影。
 
-![](http://www.itmind.net/assets/images/2019/life/heying.png)
+![](http://www.ityoukow.com/assets/images/2019/life/heying.png)
 
 晚宴的时候一起侃大山认识了很多同行，都是活跃在各行各业，有来自深圳地铁的，有来自传统电信行业，还有一个 90 后 CEO 活跃在区块链行业，都因为一个共同的事情聚在了一起，喝了点酒后感慨，相遇算是缘分，相见便是朋友。
 

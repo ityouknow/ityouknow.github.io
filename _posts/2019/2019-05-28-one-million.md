@@ -10,7 +10,7 @@ excerpt: 超过预期。
 
 这两天突然发现，三年前在博客园写的一篇文章阅读量超过百万了，对，还是技术文章。这个让我蛮惊讶的，当时刚开始写这篇文章的时候，一周的阅读量也才两三千，随着时间慢慢的过去，在搜索引擎的加持下竟然超过了百万。
 
-![](http://www.itmind.net/assets/images/2019/springboot/million01.jpg)
+![](http://www.ityoukow.com/assets/images/2019/springboot/million01.jpg)
 
 大家可能对这个阅读量没有概念，很多技术人的博客，建站很多年访问量才可以超过百万、或者千万这个级别。我这通过一篇文章就搞定百万阅读了，当然了这也是沾了 Spring Boot 这两年越来越火的原因。
 
@@ -20,8 +20,8 @@ excerpt: 超过预期。
 
 百度和 Bing 搜索 Spring Boot  都可以排名到第二，第一是 Spring Boot 官网。谷歌搜索 Spring Boot 排名在第一页的第 6 条，搜狗和 360 搜索 Spring Boot 也同样排在前面。
 
-![](http://www.itmind.net/assets/images/2019/springboot/million02.jpg)
-![](http://www.itmind.net/assets/images/2019/springboot/million03.jpg)
+![](http://www.ityoukow.com/assets/images/2019/springboot/million02.jpg)
+![](http://www.ityoukow.com/assets/images/2019/springboot/million03.jpg)
 
 看来搜索引擎的力量真的很强大。
 
@@ -29,15 +29,15 @@ excerpt: 超过预期。
 
 项目地址：[https://github.com/ityouknow/spring-boot-examples](https://github.com/ityouknow/spring-boot-examples)
 
-![](http://www.itmind.net/assets/images/2019/springboot/million04.jpg)
+![](http://www.ityoukow.com/assets/images/2019/springboot/million04.jpg)
 
 在 Github 上 按照 spring-boot 标签来搜索，我这个开源项目只排在官网后面。在这个过程中有很多国外的友人也参加了进来，这种感觉真的挺不错的。
 
-![](http://www.itmind.net/assets/images/2019/springboot/million05.jpg)
+![](http://www.ityoukow.com/assets/images/2019/springboot/million05.jpg)
 
 2017年的时候国外友人让我把其中的说明翻译成英文，这个时候我才添加了英文版的 README 文件，同时我建议他应该多学习一下中文。
 
-![](http://www.itmind.net/assets/images/2019/springboot/million06.jpg)
+![](http://www.ityoukow.com/assets/images/2019/springboot/million06.jpg)
 
 现在想一想写这篇文章也值了，阅读量创新高，虽经历了质疑，也打开了对外交流的窗口，这一篇文章的发展史，以及从博客到专家博客和个人独立博客，这一切就像我个人的成长史。
 

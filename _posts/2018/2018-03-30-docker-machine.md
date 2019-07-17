@@ -26,13 +26,13 @@ Docker Machine 有这两个广泛的用例。
 
 - 我有一个较旧的桌面系统，并希望在 Mac 或 Windows 上运行 Docker
 
-![](http://www.itmind.net/assets/images/2018/docker/machine-mac-win.png)
+![](http://www.ityoukow.com/assets/images/2018/docker/machine-mac-win.png)
 
 如果你主要在不符合新的 Docker for Mac 和 Docker for Windows 应用程序的旧 Mac 或 Windows 笔记本电脑或台式机上工作，则需要 Docker Machine 来在本地“运行Docker”（即Docker Engine）。在 Mac 或 Windows box 中使用 Docker Toolbox 安装程序安装 Docker Machine 将为 Docker Engine 配置一个本地的虚拟机，使你能够连接它、并运行 docker 命令。
 
 - 我想在远程系统上配置 Docker 宿主机
 
-![](http://www.itmind.net/assets/images/2018/docker/provision-use-case.png)
+![](http://www.ityoukow.com/assets/images/2018/docker/provision-use-case.png)
 
 Docker Engine Linux 系统上原生地运行。如果你有一个 Linux 作为你的主系统，并且想要运行 docker 命令，所有你需要做的就是下载并安装 Docker Engine 。然而，如果你想要在网络上、云中甚至本地配置多个 Docker 宿主机有一个有效的方式，你需要 Docker Machine。
 
@@ -43,7 +43,7 @@ Docker Engine Linux 系统上原生地运行。如果你有一个 Linux 作为�
 
 当人们说“Docker”时，他们通常是指 Docker Engine，它是一个客户端 - 服务器应用程序，由 Docker 守护进程、一个REST API指定与守护进程交互的接口、和一个命令行接口（CLI）与守护进程通信（通过封装REST API）。Docker Engine 从 CLI 中接受docker 命令，例如`docker run <image>`、`docker ps` 来列出正在运行的容器、`docker images`来列出镜像，等等。
 
-![](http://www.itmind.net/assets/images/2018/docker/engine.png)
+![](http://www.ityoukow.com/assets/images/2018/docker/engine.png)
 
 
 Docker Machine 是一个用于配置和管理你的宿主机（上面具有 Docker Engine 的主机）的工具。通常，你在你的本地系统上安装 Docker Machine。Docker Machine有自己的命令行客户端 docker-machine 和 Docker Engine 客户端 docker。你可以使用 Machine 在一个或多个虚拟系统上安装 Docker Engine。
@@ -51,7 +51,7 @@ Docker Machine 是一个用于配置和管理你的宿主机（上面具有 Dock
 这些虚拟系统可以是本地的（就像你在 Mac 或 Windows 上使用 Machine 在 VirtualBox 中安装和运行 Docker Engine 一样）或远程的（就像你使用 Machine 在云提供商上 provision Dockerized 宿主机一样）。Dockerized 宿主机本身可以认为是，且有时就称为，被管理的“machines”。
 
 
-![](http://www.itmind.net/assets/images/2018/docker/machine.png)
+![](http://www.ityoukow.com/assets/images/2018/docker/machine.png)
 
 
 ## 安装和使用

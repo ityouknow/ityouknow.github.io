@@ -53,7 +53,7 @@ excerpt: 512 大地震 11年
 
 两种声音交织低沉而婉转，像是为逝去的人在哭泣，举国悲痛。
 
-![](http://www.itmind.net/assets/images/2019/life/google_512.jpg)
+![](http://www.ityoukow.com/assets/images/2019/life/google_512.jpg)
 
 这是一张2008年的老图，当时，还没有从中国撤出的谷歌在自己官方博客“谷歌黑板报”上贴出了这张图，记录的是汶川地震一周后，5月19日的流量曲线。
 

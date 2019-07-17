@@ -56,11 +56,11 @@ Consul 是 HashiCorp 公司推出的开源工具，用于实现分布式系统�
 
 Consul 客户端、服务端还支持夸中心的使用，更加提高了它的高可用性。
 
-![](http://www.itmind.net/assets/images/2018/springcloud/consul-server-client.png)
+![](http://www.ityoukow.com/assets/images/2018/springcloud/consul-server-client.png)
 
 **Consul 工作原理：**
 
-![](http://www.itmind.net/assets/images/2018/springcloud/consol_service.png)
+![](http://www.ityoukow.com/assets/images/2018/springcloud/consol_service.png)
 
 - 1、当 Producer 启动的时候，会向 Consul 发送一个 post 请求，告诉 Consul 自己的 IP 和 Port
 - 2、Consul 接收到 Producer 的注册后，每隔10s（默认）会向 Producer 发送一个健康检查的请求，检验Producer是否健康
@@ -102,12 +102,12 @@ Consul 不同于 Eureka 需要单独安装，访问[Consul 官网](https://www.c
 
 根据不同的系统类型选择不同的安装包，从下图也可以看出 Consul 支持所有主流系统。
 
-![](http://www.itmind.net/assets/images/2018/springcloud/consul_insall.png)
+![](http://www.ityoukow.com/assets/images/2018/springcloud/consul_insall.png)
 
 
 我这里以 Windows 为例，下载下来是一个 consul_1.2.1_windows_amd64.zip 的压缩包，解压是是一个 consul.exe 的执行文件。
 
-![](http://www.itmind.net/assets/images/2018/springcloud/consul_win.png)
+![](http://www.ityoukow.com/assets/images/2018/springcloud/consul_win.png)
 
 cd 到对应的目录下，使用 cmd 启动 Consul
 
@@ -126,11 +126,11 @@ pause
 
 启动结果如下：
 
-![](http://www.itmind.net/assets/images/2018/springcloud/consol_cmd.png)
+![](http://www.ityoukow.com/assets/images/2018/springcloud/consol_cmd.png)
 
 启动成功之后访问：`http://localhost:8500`，可以看到 Consul 的管理界面
 
-![](http://www.itmind.net/assets/images/2018/springcloud/consol_manage.png)
+![](http://www.ityoukow.com/assets/images/2018/springcloud/consol_manage.png)
 
 这样就意味着我们的 Consul 服务启动成功了。
 
@@ -245,11 +245,11 @@ public class HelloController {
 
 这时候我们再次在浏览器访问地址：http://localhost:8500，显示如下：
 
-![](http://www.itmind.net/assets/images/2018/springcloud/consol_producer.png)
+![](http://www.ityoukow.com/assets/images/2018/springcloud/consol_producer.png)
 
 我们发现页面多了 service-producer 服务，点击进去后页面显示有两个服务提供者：
 
-![](http://www.itmind.net/assets/images/2018/springcloud/consol_producer-2.png)
+![](http://www.ityoukow.com/assets/images/2018/springcloud/consol_producer-2.png)
 
 这样服务提供者就准备好了。
 
