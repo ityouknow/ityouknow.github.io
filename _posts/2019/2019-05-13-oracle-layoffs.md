@@ -10,7 +10,7 @@ excerpt: 拒绝变化才是职场最大的敌人
 
 史上最牛逼的数据库公司，Oracle 裁员了。
 
-![](http://www.ityoukow.com/assets/images/2019/it/oracle_logo.png)
+![](http://www.ityouknow.com/assets/images/2019/it/oracle_logo.png)
 
 2019年5月7日，甲骨文召开了面向全中国区的电话会议，亚太区人力资源负责人在会上简要介绍道，公司正进行业务结构调整，导致一部分人要离开岗位，这将是全球性的。
 
@@ -30,7 +30,7 @@ excerpt: 拒绝变化才是职场最大的敌人
 
 但显然，这份方案并没有获得甲骨文中国员工的完全认同，他们其中的一些人在当天下午，就在甲骨文中国公司楼下拉起了横幅。
 
-![](http://www.ityoukow.com/assets/images/2019/it/hengfu.png)
+![](http://www.ityouknow.com/assets/images/2019/it/hengfu.png)
 
 标语中有 “我们要工作”、“孩子要上学”、“为何如此下狠手”等词，我们可以体会到当事人的心情。
 

@@ -17,7 +17,7 @@ Java的名字如何得来，主要两种说法，一种是开发小组开会讨�
 
 就在Sun公司把自己的股票代码改为Java后不久，Java之父Jame Gosling接受Sys-con.com的采访，揭开了Java得名的来龙去脉。当时已经到了产品发布之前的关键时刻，谁知Gosling自己选择而且大家一直没有异议的Oak一名却被律师否决了——已经有另外一种语言命名为Oak。所以，重新取名成了头等大事。
 
-![Jame Gosling](http://www.ityoukow.com/assets/images/2019/java/James_Gosling_2008.jpg)
+![Jame Gosling](http://www.ityouknow.com/assets/images/2019/java/James_Gosling_2008.jpg)
  
 如果通过正式程序来注册产品的名称将即费时又费钱。简姆斯 古斯林决定通过市场部门，请来了一个命名顾问，召开命名征集会。当时，因为没有一个合适的名字，他们不得不延后这个语言的面世。
 
@@ -27,7 +27,7 @@ Java的名字如何得来，主要两种说法，一种是开发小组开会讨�
 
 是谁在命名征集会上提议Java的呢?   简姆斯 古斯林回忆道，“市场部组织了命名会，命名顾问主持了会议，我们喊叫着列出了一大堆名字。我记得第一个提议名字Java的是马克 奥颇门（Mark Opperman）。”
 
-![爪哇岛](http://www.ityoukow.com/assets/images/2019/java/1024px-Java_Topography.png)
+![爪哇岛](http://www.ityouknow.com/assets/images/2019/java/1024px-Java_Topography.png)
 
 马克 奥颇门是在一家咖啡店与同事品尝咖啡时得到灵感的。Java是印度尼西亚爪哇岛的英文名称，因盛产咖啡而闻名。国外的许多咖啡店用Java来命名或宣传，以彰显其咖啡的品质。Java语言中的许多库类名称，多与咖啡有关，如JavaBeans（咖啡豆）、NetBeans（网络豆）以及ObjectBeans （对象豆）等等。
 
@@ -55,7 +55,7 @@ Google一下，发现了Mark Opperman的简历。比较有趣的地方是，他�
 
 1994年6月，在同约翰·盖吉、詹姆斯·高斯林、比尔·乔伊、帕特里克·诺顿、韦恩·罗斯因和埃里克·施密特经历了一场历时三天的头脑风暴后，团队决定再一次改变努力的目标，这次他们决定将该技术应用于万维网。他们认为随着Mosaic浏览器的到来，因特网正在向同样的高度互动的远景演变，而这一远景正是他们在有线电视网中看到的。作为原型，帕特里克·诺顿写了一个小型万维网浏览器，WebRunner，后来改名为HotJava。
 
-![HotJava 3.0运行于Windows XP](http://www.ityoukow.com/assets/images/2019/java/800px-MainPage-HotJava3-Optim.png)
+![HotJava 3.0运行于Windows XP](http://www.ityouknow.com/assets/images/2019/java/800px-MainPage-HotJava3-Optim.png)
 HotJava 3.0运行于Windows XP
 
 1994年10月，HotJava和Java平台为公司高层进行演示。1994年，Java 1.0a版本已经可以提供下载，但是Java和HotJava浏览器的第一次公开发布却是在1995年3月23日SunWorld大会上进行的。升阳公司的科学指导约翰·盖吉宣告Java技术。这个发布是与网景公司的执行副总裁马克·安德森的惊人发布一起进行的，宣布网景将在其浏览器中包含对Java的支持。1996年1月，Sun公司成立了Java业务集团，专门开发Java技术。

@@ -34,7 +34,7 @@ jvm 中，程序计数器、虚拟机栈、本地方法栈都是随线程而生�
 
 它的主要缺点有两个：一个是效率问题，标记和清除过程的效率都不高；另外一个是空间问题，标记清除之后会产生大量不连续的内存碎片，空间碎片太多可能会导致，当程序在以后的运行过程中需要分配较大对象时无法找到足够的连续内存而不得不提前触发另一次垃圾收集动作。
 
-![](http://www.ityoukow.com/assets/images/2017/jvm/gc_garbage1.png)  
+![](http://www.ityouknow.com/assets/images/2017/jvm/gc_garbage1.png)  
 
 
 ### 复制算法
@@ -43,7 +43,7 @@ jvm 中，程序计数器、虚拟机栈、本地方法栈都是随线程而生�
 
 这样使得每次都是对其中的一块进行内存回收，内存分配时也就不用考虑内存碎片等复杂情况，只要移动堆顶指针，按顺序分配内存即可，实现简单，运行高效。只是这种算法的代价是将内存缩小为原来的一半，持续复制长生存期的对象则导致效率降低。
 
-![](http://www.ityoukow.com/assets/images/2017/jvm/gc_garbage2.png)  
+![](http://www.ityouknow.com/assets/images/2017/jvm/gc_garbage2.png)  
 
 ### 标记-压缩算法
 
@@ -51,7 +51,7 @@ jvm 中，程序计数器、虚拟机栈、本地方法栈都是随线程而生�
 
 根据老年代的特点，有人提出了另外一种“标记-整理”（Mark-Compact）算法，标记过程仍然与“标记-清除”算法一样，但后续步骤不是直接对可回收对象进行清理，而是让所有存活的对象都向一端移动，然后直接清理掉端边界以外的内存
 
-![](http://www.ityoukow.com/assets/images/2017/jvm/gc_garbage3.png)  
+![](http://www.ityouknow.com/assets/images/2017/jvm/gc_garbage3.png)  
 
 
 ### 分代收集算法
@@ -72,7 +72,7 @@ GC分代的基本假设：绝大部分对象的生命周期都非常短暂，存
 
 参数控制：```-XX:+UseSerialGC```  串行收集器
 
-![](http://www.ityoukow.com/assets/images/2017/jvm/gc_garbage4.png)  
+![](http://www.ityouknow.com/assets/images/2017/jvm/gc_garbage4.png)  
 
 ![]()
 ParNew收集器
@@ -83,7 +83,7 @@ ParNew收集器其实就是Serial收集器的多线程版本。新生代并行�
 ```-XX:+UseParNewGC```  ParNew收集器  
 ```-XX:ParallelGCThreads``` 限制线程数量
 
-![](http://www.ityoukow.com/assets/images/2017/jvm/gc_garbage5.png)  
+![](http://www.ityouknow.com/assets/images/2017/jvm/gc_garbage5.png)  
 
 ### Parallel收集器
 
@@ -123,7 +123,7 @@ CMS（Concurrent Mark Sweep）收集器是一种以获取最短回收停顿时�
 ```-XX:+CMSFullGCsBeforeCompaction```  设置进行几次Full GC后，进行一次碎片整理  
 ```-XX:ParallelCMSThreads```  设定CMS的线程数量（一般情况约等于可用CPU数量）
 
-![](http://www.ityoukow.com/assets/images/2017/jvm/gc_garbage6.png)  
+![](http://www.ityouknow.com/assets/images/2017/jvm/gc_garbage6.png)  
 
 
 ### G1收集器
@@ -135,7 +135,7 @@ G1是目前技术发展的最前沿成果之一，HotSpot开发团队赋予它�
 
 上面提到的垃圾收集器，收集的范围都是整个新生代或者老年代，而G1不再是这样。使用G1收集器时，Java堆的内存布局与其他收集器有很大差别，它将整个Java堆划分为多个大小相等的独立区域（Region），虽然还保留有新生代和老年代的概念，但新生代和老年代不再是物理隔阂了，它们都是一部分（可以不连续）Region的集合。
 
-![](http://www.ityoukow.com/assets/images/2017/jvm/gc_garbage7.jpg)  
+![](http://www.ityouknow.com/assets/images/2017/jvm/gc_garbage7.jpg)  
 
 
 G1的新生代收集跟ParNew类似，当新生代占用达到一定比例的时候，开始出发收集。和CMS类似，G1收集器收集老年代对象会有短暂停顿。
@@ -147,17 +147,17 @@ G1的新生代收集跟ParNew类似，当新生代占用达到一定比例的时
 - 2、Root Region Scanning，程序运行过程中会回收survivor区(存活到老年代)，这一过程必须在young GC之前完成。  
 - 3、Concurrent Marking，在整个堆中进行并发标记(和应用程序并发执行)，此过程可能被young GC中断。在并发标记阶段，若发现区域对象中的所有对象都是垃圾，那个这个区域会被立即回收(图中打X)。同时，并发标记过程中，会计算每个区域的对象活性(区域中存活对象的比例)。
 
-![](http://www.ityoukow.com/assets/images/2017/jvm/gc_garbage8.png)  
+![](http://www.ityouknow.com/assets/images/2017/jvm/gc_garbage8.png)  
 
 - 4、Remark, 再标记，会有短暂停顿(STW)。再标记阶段是用来收集 并发标记阶段 产生新的垃圾(并发阶段和应用程序一同运行)；G1中采用了比CMS更快的初始快照算法:snapshot-at-the-beginning (SATB)。
 
 - 5、Copy/Clean up，多线程清除失活对象，会有STW。G1将回收区域的存活对象拷贝到新区域，清除Remember Sets，并发清空回收区域并把它返回到空闲区域链表中。
 
-![](http://www.ityoukow.com/assets/images/2017/jvm/gc_garbage9.png)  
+![](http://www.ityouknow.com/assets/images/2017/jvm/gc_garbage9.png)  
 
 - 6、复制/清除过程后。回收区域的活性对象已经被集中回收到深蓝色和深绿色区域。
 
-![](http://www.ityoukow.com/assets/images/2017/jvm/gc_garbage10.png) 
+![](http://www.ityouknow.com/assets/images/2017/jvm/gc_garbage10.png) 
 
 ## 常用的收集器组合
 

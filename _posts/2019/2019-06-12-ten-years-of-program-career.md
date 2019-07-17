@@ -44,7 +44,7 @@ keywords: 建模竞赛，数学建模，高教社杯，程序生涯，十年程�
 
 我的这件事情发生在大学时期，参加了全国大学生《数学建模竞赛》。那年，我们小组还得了一个小奖，我把它保留至今。
 
-![](http://www.ityoukow.com/assets/images/2019/life/jianmoshenger.png)
+![](http://www.ityouknow.com/assets/images/2019/life/jianmoshenger.png)
 
 我给大家从头讲起。。。
 
@@ -78,7 +78,7 @@ keywords: 建模竞赛，数学建模，高教社杯，程序生涯，十年程�
 
 我给大家截图看下2018年数学建模的题目，大家看完就可以理解了。
 
-![](http://www.ityoukow.com/assets/images/2019/life/jianmo2018.png)
+![](http://www.ityouknow.com/assets/images/2019/life/jianmo2018.png)
 >感兴趣可以去这里下载：http://www.mcm.edu.cn/html_cn/block/8579f5fce999cdc896f78bca5d4f8237.html
 
 经过一个多月的封闭培训、模拟竞赛，我终于找到了自己擅长做的事情，那就是用编程来解决问题，我喜欢敲打键盘的那种感觉，通过 Coding 实际解决问题简直太酷了。那时候老师推荐使用 MATLAB 来做数据处理，但我个人更喜欢使用 C 语言来编程，也就是在那段时间让我体会到了编程的乐趣，于是心里想终于找到了我喜欢做的事情。
@@ -87,7 +87,7 @@ keywords: 建模竞赛，数学建模，高教社杯，程序生涯，十年程�
 
 2009年9月经过3个多月的拼杀，我们十几个人总于迎来了最终的考验，前面提到了我们学校准备今年干票大的，于是把我们整体拉到老校区的招待所里面，好吃好喝伺候，要求只有一个：三天三夜不许出去，完全无干扰的完成竞赛。
 
-![](http://www.ityoukow.com/assets/images/2017/life/jianmo.jpg)
+![](http://www.ityouknow.com/assets/images/2017/life/jianmo.jpg)
 >2009年竞赛照片，左小角就是我们团队。
 
 给大家解释一下《数学建模竞赛》规则，试题出来后会给参赛者三天时间，三天后交出一份解决方案的论文，附带程序。所以也会涉及到战术问题，是三天都不睡觉完成竞赛；还是第一天睡觉，第二天第三天不睡觉；每个团队根据情况自行决定。我们是第一天每人睡6小时，第二天轮流睡4小时，第三天通宵。

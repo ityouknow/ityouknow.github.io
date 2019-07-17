@@ -43,7 +43,7 @@ excerpt: 毫无疑问，Google是公认的大数据鼻祖。
 大家如果对技术与商业感兴趣，一定不要错过这个机会，相当于每节课不到 0.5 元，即可了解国内外大厂的发展经历和深入解读。
 
 
-![](http://www.ityoukow.com/assets/images/2019/geektime/business01.jpg)
+![](http://www.ityouknow.com/assets/images/2019/geektime/business01.jpg)
 
 
 说起飞总，再谈一些他的个人经历，他是计算机博士，资深架构师，大数据基础架构专家，早年在美国从事数据库和大数据基础架构的研究工作，在世界最顶级的会议和杂志上发表论文10余篇，曾经做过多个国际最顶级会议和杂志的评委和审稿人，获得过IBM Pat Goldbeg最佳论文奖。
@@ -71,7 +71,7 @@ excerpt: 毫无疑问，Google是公认的大数据鼻祖。
 仅需79元，一共159篇深度文章，带你看懂技术创新与商业模式。优惠名额有限，优惠时间也仅限24小时，先到先得。
 
 
-![](http://www.ityoukow.com/assets/images/2019/geektime/business02.jpg)
+![](http://www.ityouknow.com/assets/images/2019/geektime/business02.jpg)
 
 
 专栏我看过之后，大致内容包含三个方面：

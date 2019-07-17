@@ -14,7 +14,7 @@ keywords: CSDN,博客园,51CTO,V2EX,开源中国,头条,掘金,开发者头条,S
 
 ## CSDN
 
-![](http://www.ityoukow.com/assets/images/2018/it/csdn.png)
+![](http://www.ityouknow.com/assets/images/2018/it/csdn.png)
 
 CSDN (Chinese Software Developer Network) 是蒋涛创立于1999年，是中国专业的 IT 社区，为中国的软件开发者提供知识传播、在线学习、职业发展等全生命周期服务。 截止2018年6月，CSDN 拥有超过2500+万技术会员，论坛发帖数1000万+，技术资源700万+，Blog 文章1300万+，新媒体矩阵粉丝数量430万+。
 
@@ -26,11 +26,11 @@ CSDN 是国内IT行业覆盖最全的一个社区，有很多的高手和大神�
 
 从 Alexa 的排名来看目前排在全球第 41 位，当之无愧的为国内技术社区老大。
 
-![](http://www.ityoukow.com/assets/images/2018/it/csdn_alexa.png)
+![](http://www.ityouknow.com/assets/images/2018/it/csdn_alexa.png)
 
 ## 博客园
 
-![](http://www.ityoukow.com/assets/images/2018/it/cnblogs.png)
+![](http://www.ityouknow.com/assets/images/2018/it/cnblogs.png)
 
 博客园创立于2004年1月，是一个面向开发者的知识分享社区。自创建以来，博客园一直致力并专注于为开发者打造一个纯净的技术交流社区，推动并帮助开发者通过互联网分享知识，从而让更多开发者从中受益。博客园的使命是帮助开发者用代码改变世界。
 
@@ -44,11 +44,11 @@ CSDN 是国内IT行业覆盖最全的一个社区，有很多的高手和大神�
 
 博客园全球 alexa 排名在 210，仅次于 CSDN。
 
-![](http://www.ityoukow.com/assets/images/2018/it/cnblogs_alexa.png)
+![](http://www.ityouknow.com/assets/images/2018/it/cnblogs_alexa.png)
 
 ## SegmentFault
 
-![](http://www.ityoukow.com/assets/images/2018/it/sf.png)
+![](http://www.ityouknow.com/assets/images/2018/it/sf.png)
 
 SegmentFault 创立于 2012 年，是中文领域最大的技术问答交流社区平台，在这里你可以检索，交流和分享任何技术编程相关的问题及知识。其目标是覆盖和服务 1,000 万以上中国软件开发者和 IT 信息从业者，其实现方法是充分利用在各个平台上所能获得的各种技术创新机会为他们开发产品应用和服务。
 
@@ -58,11 +58,11 @@ SegmentFault 创立于 2012 年，是中文领域最大的技术问答交流社�
 
 SegmentFault 全球访问量排名在 768
 
-![](http://www.ityoukow.com/assets/images/2018/it/sf_alexa.png)
+![](http://www.ityouknow.com/assets/images/2018/it/sf_alexa.png)
 
 ## V2EX
 
-![](http://www.ityoukow.com/assets/images/2018/it/v2ex.png)
+![](http://www.ityouknow.com/assets/images/2018/it/v2ex.png)
 
 V2EX is a community of start-ups, designers, developers and creative people. 
 
@@ -74,11 +74,11 @@ V2EX 严格意义上不算是纯粹的技术社区，它定位是创意工作者
 
 V2EX 全球访问量排名在 931
 
-![](http://www.ityoukow.com/assets/images/2018/it/v2ex_alexa.png)
+![](http://www.ityouknow.com/assets/images/2018/it/v2ex_alexa.png)
 
 ## 开源中国
 
-![](http://www.ityoukow.com/assets/images/2018/it/oschina.png)
+![](http://www.ityouknow.com/assets/images/2018/it/oschina.png)
 
 开源中国 成立于2008年8月，是目前国内最大的开源技术社区，拥有超过200万会员，形成了由开源软件库、代码分享、资讯、协作翻译、讨论区和博客等几大频道内容，为IT开发者提供了一个发现、使用、并交流开源技术的平台。
 
@@ -90,11 +90,11 @@ V2EX 全球访问量排名在 931
 
 开源中国 全球访问量排名在 969
 
-![](http://www.ityoukow.com/assets/images/2018/it/oschina_alexa.png)
+![](http://www.ityouknow.com/assets/images/2018/it/oschina_alexa.png)
 
 ## W3School
 
-![](http://www.ityoukow.com/assets/images/2018/it/w3school.png)
+![](http://www.ityouknow.com/assets/images/2018/it/w3school.png)
 
 W3School 是因特网上最大的 WEB 开发者资源，其中包括全面的教程、完善的参考手册以及庞大的代码库。
 
@@ -112,12 +112,12 @@ W3School 是因特网上最大的 WEB 开发者资源，其中包括全面的教
 
 W3School 全球访问量排名在 989
 
-![](http://www.ityoukow.com/assets/images/2018/it/w3school_alexa.png)
+![](http://www.ityouknow.com/assets/images/2018/it/w3school_alexa.png)
 
 
 ## 51CTO
 
-![](http://www.ityoukow.com/assets/images/2018/it/51cto.png)
+![](http://www.ityouknow.com/assets/images/2018/it/51cto.png)
 
 51CTO 成立于2005年，目前已建成为专注于IT人职业成长平台；拥有1500万注册用户，覆盖了中国主流城市大多数IT从业人群，是国内排名第一的服务IT技术人员的专业性服务平台。
 
@@ -125,7 +125,7 @@ W3School 全球访问量排名在 989
 
 51CTO 全球访问量排名在 1145
 
-![](http://www.ityoukow.com/assets/images/2018/it/51cto_alexa.png)
+![](http://www.ityouknow.com/assets/images/2018/it/51cto_alexa.png)
 
 51CTO 最开始专注于运维这个领域，也是国内聚集运维技术人才最多的一个技术社区，到了后来逐渐的转为覆盖全领域的技术社区。
 
@@ -133,14 +133,14 @@ W3School 全球访问量排名在 989
 
 51CTO 博客
 
-![](http://www.ityoukow.com/assets/images/2018/it/51cto_blog.png)
+![](http://www.ityouknow.com/assets/images/2018/it/51cto_blog.png)
 
 博客链接：[http://blog.51cto.com/](http://blog.51cto.com/)
 
 
 ## ChinaUnix
 
-![](http://www.ityoukow.com/assets/images/2018/it/chinaunix.png)
+![](http://www.ityouknow.com/assets/images/2018/it/chinaunix.png)
 
 ChinaUnix.net(简称CU)是一个以讨论 Linux/Unix 类操作系统技术、软件开发技术、数据库技术和网络应用技术等为主的开源技术社区网站。创办于2001年，经过多年的努力和发展，如今CU已经成为全球最大、人气最旺的Linux/Unix技术中文网站。
 
@@ -150,12 +150,12 @@ CU的宗旨是给所有爱好Linux/Unix技术、开源技术的朋友提供一�
 
 ChinaUnix 全球访问量排名在 3835
 
-![](http://www.ityoukow.com/assets/images/2018/it/chinaunix_alexa.png)
+![](http://www.ityouknow.com/assets/images/2018/it/chinaunix_alexa.png)
 　　
 
 ## 伯乐在线
 
-![](http://www.ityoukow.com/assets/images/2018/it/jobbole.png)
+![](http://www.ityouknow.com/assets/images/2018/it/jobbole.png)
 
 伯乐在线成立于 2010 年，由黄余粮和黄利民联合发起，做专业的IT互联网职业社区。
 
@@ -165,12 +165,12 @@ ChinaUnix 全球访问量排名在 3835
 
 伯乐在线 全球访问量排名在 6004
 
-![](http://www.ityoukow.com/assets/images/2018/it/jobbole_alexa.png)
+![](http://www.ityouknow.com/assets/images/2018/it/jobbole_alexa.png)
 
 
 ## ITEye
 
-![](http://www.ityoukow.com/assets/images/2018/it/iteye.png)
+![](http://www.ityouknow.com/assets/images/2018/it/iteye.png)
 
 ITEye (曾名为JavaEye)是在2003年9月创办的，创始人范凯在学习和研究 java 的开源框架却发现没有一个讨论的地方，于是自己就建立了这个关于 Java 的网站。如今 ITEye 网站已经发展成为了一个内容齐全，功能丰富的中文IT技术门户和社区网站，涵盖整个软件开发领域的综合性网站。
 
@@ -180,7 +180,7 @@ ITEye以专业性著称，据说网站创建初期新用户注册时需要强制
 
 ITEye 全球访问量排名在 8473
 
-![](http://www.ityoukow.com/assets/images/2018/it/iteye_alexa.png)
+![](http://www.ityouknow.com/assets/images/2018/it/iteye_alexa.png)
 
 -----------------------------------
 
@@ -188,7 +188,7 @@ ITEye 全球访问量排名在 8473
 
 ## 掘金
 
-![](http://www.ityoukow.com/assets/images/2018/it/juejin.png)
+![](http://www.ityouknow.com/assets/images/2018/it/juejin.png)
 
 创建于2015年8月，掘金最初来自于稀土，是稀土的一个子版块，没想到稀土没有火起来，反而做为技术分享网站的掘金火爆了起来，于是创始人阴明随即调整了方向，大力发展掘金。去年的时候掘金也开通了自己的专栏、小册，慢慢从一个技术文章分享网站向全面技术社区转型，期待后续的发展。
 
@@ -196,11 +196,11 @@ ITEye 全球访问量排名在 8473
 
 掘金 全球访问量排名在 6306
 
-![](http://www.ityoukow.com/assets/images/2018/it/juejin_alexa.png)
+![](http://www.ityouknow.com/assets/images/2018/it/juejin_alexa.png)
 
 ## 开发者头条
 
-![](http://www.ityoukow.com/assets/images/2018/it/toutiao.png)
+![](http://www.ityouknow.com/assets/images/2018/it/toutiao.png)
 
 开发者头条也是近两年才突然活跃起来的一个技术分享平台，由一帮程序员所创建，我对它的最初印象是码农周刊，码农周刊是一份专为程序员打造的IT技术周刊。平台每周会精选一周IT技术干货，进行推送。曾经有一段时间发现我的独立博客有一些流量来源于这个网站，才发现它。目前开发者头条已经聚集了一帮技术爱好者。
 
@@ -208,12 +208,12 @@ ITEye 全球访问量排名在 8473
 
 开发者头条 全球访问量排名在 26398
 
-![](http://www.ityoukow.com/assets/images/2018/it/toutiao_alexa.png)
+![](http://www.ityouknow.com/assets/images/2018/it/toutiao_alexa.png)
 
 
 ## GitChat
 
-![](http://www.ityoukow.com/assets/images/2018/it/gitbook.png)
+![](http://www.ityouknow.com/assets/images/2018/it/gitbook.png)
 
 GitChat 是一款基于微信平台的知识分享产品，通过这款产品我们希望改变IT知识的学习方式。GitChat 算是技术付费的先驱了，在技术知识付费领域在国内做的比较早。
 
@@ -224,7 +224,7 @@ GitChat 是一款基于微信平台的知识分享产品，通过这款产品我
 
 GitChat 全球访问量排名在 31341
 
-![](http://www.ityoukow.com/assets/images/2018/it/gitbook_alexa.png)
+![](http://www.ityouknow.com/assets/images/2018/it/gitbook_alexa.png)
 
 
 ## 总结

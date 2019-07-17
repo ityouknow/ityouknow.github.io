@@ -15,7 +15,7 @@ excerpt: Spring Cloud Zuul网关 Filter、熔断、重试、高可用的使用�
 
 Filter是Zuul的核心，用来实现对外服务的控制。Filter的生命周期有4个，分别是“PRE”、“ROUTING”、“POST”、“ERROR”，整个生命周期可以用下图来表示。
 
-![](http://www.ityoukow.com/assets/images/2018/springcloud/zuul-core.png)
+![](http://www.ityouknow.com/assets/images/2018/springcloud/zuul-core.png)
 
 Zuul大部分功能都是通过过滤器来实现的，这些过滤器类型对应于请求的典型生命周期。
 
@@ -324,7 +324,7 @@ public String index(@RequestParam String name) {
 
 ## Zuul高可用
 
-![](http://www.ityoukow.com/assets/images/2018/springcloud/zuul-case.png)
+![](http://www.ityouknow.com/assets/images/2018/springcloud/zuul-case.png)
 
 我们实际使用Zuul的方式如上图，不同的客户端使用不同的负载将请求分发到后端的Zuul，Zuul在通过Eureka调用后端服务，最后对外输出。因此为了保证Zuul的高可用性，前端可以同时启动多个Zuul实例进行负载，在Zuul的前端使用Nginx或者F5进行负载转发以达到高可用性。
 

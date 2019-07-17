@@ -58,7 +58,7 @@ Spring Cloud是一系列框架的有序集合。它利用Spring Boot的开发便
 
 我们再来看一张图：
 
-![](http://www.ityoukow.com/assets/images/2017/springcloud/spring-cloud-architecture.png)
+![](http://www.ityouknow.com/assets/images/2017/springcloud/spring-cloud-architecture.png)
 
 通过这张图，我们来了解一下各组件配置使用运行流程：
 
@@ -110,7 +110,7 @@ Spring Cloud 工具框架
 
 2015年初的时候，因为公司业务的大量发展，我们开始对原有的业务进行拆分，新上的业务线也全部使用独立的项目来开发，项目和项目之间通过http接口进行访问。15年的业务发展非常迅速，项目数量也就相应急剧扩大，到了15底的时候项目达60多个，当项目数达到30几个的时候，其实我们就遇到了问题，经常某个项目因为扩展增加了新的IP地址，我们就需要被动的更新好几个相关的项目。服务越来越多，服务之间的调用关系也越来越复杂，有时候想画一张图来表示项目和项目之间的依赖关系，线条密密麻麻无法看清。网上有一张图可以表达我们的心情。
 
-![](http://www.ityoukow.com/assets/images/2017/architecture/calling_relation.png)  
+![](http://www.ityouknow.com/assets/images/2017/architecture/calling_relation.png)  
 
 这个时候我们就想找一种方案，可以将我们这么多分布式的服务给管理起来，到网上进行了技术调研。我们发现有两款开源软件比较适合我们，一个是Dubbo，一个是Spring Cloud。
 
@@ -142,7 +142,7 @@ Spring 推出Spring Boot/Cloud也是因为自身的很多原因。Spring最初�
 
 当我们将所有的新业务都使用Spring Cloud这套架构之后，就会出现这样一个现象，公司的系统被分成了两部分，一部分是传统架构的项目，一部分是微服务架构的项目，如何让这两套配合起来使用就成为了关键，这时候Spring Cloud里面的一个关键组件解决了我们的问题，就是Zuul。在Spring Cloud架构体系内的所有微服务都通过Zuul来对外提供统一的访问入口，所有需要和微服务架构内部服务进行通讯的请求都走统一网关。如下图：
 
-![](http://www.ityoukow.com/assets/images/2017/architecture/framework4.jpg)
+![](http://www.ityouknow.com/assets/images/2017/architecture/framework4.jpg)
 
 从上图可以看出我们对服务进行了分类，有四种：基础服务、业务服务、组合服务、前置服务。不同服务迁移的优先级不同
 

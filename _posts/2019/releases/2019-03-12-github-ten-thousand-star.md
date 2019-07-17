@@ -38,7 +38,7 @@ excerpt: 用了三年时间
 
 **产品截图**
 
-![](http://www.ityoukow.com/assets/images/2019/springboot/spring-boot-examples.png)
+![](http://www.ityouknow.com/assets/images/2019/springboot/spring-boot-examples.png)
 
 开源项目中有一部分示例还在 1.0，最近在持续更新到 2.x，已经更新了六篇，优化后的文章都会推送到公号：Java 极客技术 上面，如果对 Java 感兴趣，请一定要关注。
 

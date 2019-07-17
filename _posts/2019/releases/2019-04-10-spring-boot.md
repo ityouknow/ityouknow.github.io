@@ -72,4 +72,4 @@ Spring Boot 所集成的技术栈，几乎都是各互联网公司在使用的�
 
 这是我们目前写过最全的一个 Spring Boot 2.0 系列课程，感觉像写了一本小书，想深入学习 Spring Boot 技术的同学可以关注。订购本课程可获得专属海报，分享专属海报每成功邀请一位好友购买，即可获得 25% 的返现奖励（24元）。
 
-![](http://www.ityoukow.com/assets/images/2019/gitchat/springboot01.png)
+![](http://www.ityouknow.com/assets/images/2019/gitchat/springboot01.png)

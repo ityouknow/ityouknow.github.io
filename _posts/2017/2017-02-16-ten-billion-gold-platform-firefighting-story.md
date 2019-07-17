@@ -36,7 +36,7 @@ tags: [arch]
 购买标的流程图，不知道大家是否能根据此图发现问题呢？
 
  
-![](http://www.ityoukow.com/assets/images/2017/optimize/buy.png)
+![](http://www.ityouknow.com/assets/images/2017/optimize/buy.png)
 
 **超募**
 

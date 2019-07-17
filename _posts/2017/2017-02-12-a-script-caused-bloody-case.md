@@ -11,7 +11,7 @@ tags: [arch]
 首先介绍一下众筹系统的部署架构（如下图），网站和app请求都是首先到最前端的nginx,如果只是静态内容的访问nginx直接处理后返回；动态请求分别转发到后端的tomcat前端服务层，前端服务层只关注页面端业务逻辑不涉及数据库的操作，如果只是页面框架渲染以及不涉及数据库的请求，在前端服务层直接处理返回；如果涉及到数据库操作或者核心业务逻辑，前端服务层通过dubbo调用后端的接入层服务或者核心层服务。
 
  
-![](http://www.ityoukow.com/assets/images/2017/optimize/zhongchou.jpg)
+![](http://www.ityouknow.com/assets/images/2017/optimize/zhongchou.jpg)
 
 上线在生产测试期间，发现tomcat过一段时间就会莫名奇妙的down掉，特别是后端的tomcat down掉的频率比较高。后端的tomcat down掉之后对前端的页面展示没有影响，会影响后端的交易。
 
@@ -109,7 +109,7 @@ Caused by: java.util.concurrent.RejectedExecutionException: Thread pool is EXHAU
 根据这些信息随怀疑数据库连接池有问题，为了更好的监控连接池的使用，因此前期使用c3p0也会出现的一些问题，所以我们决定将数据库连接池替换成druid，已经在别的项目中使用测试过，因此非常快速的更换投产。投产后继续用压测工具来测试，根据druid的后台监控页面发现（项目地址/druid/index.html），每次前端掉用一次数据库连接就加一次,执行完成之后数据库连接并没有释放。如下图红色区域，我们将数据库连接池调整成1000,不一会就占满了。
 
  
-![](http://www.ityoukow.com/assets/images/2017/optimize/druid.jpg)
+![](http://www.ityouknow.com/assets/images/2017/optimize/druid.jpg)
 
 根据这些信息判断出，数据库执行sql后肯定没有释放数据库连接，导致数据库连接池用满后，后续的线程无法执行，检查代码之后发现果然有问题,请看下方代码，我们最先使用的是SqlSessionFactory，如果使用SqlSessionFactory,在执行完sql后必须要执行```session.close()```来关闭连接，才会被连接池重新回收。
 

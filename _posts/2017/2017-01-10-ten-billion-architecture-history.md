@@ -32,14 +32,14 @@ tags: [arch]
 基础服务和中间件，mysql做了最基本的主从来支持，第一代系统只是使用了mysql的主库，从库只是同步备份；memcached用来处理用户抢标的并发问题，也只用了这一块；ActiveMQ用来使用二级市场的转让撮合以及其它一些异步消息通知。项目部署：php使用apache部署，定时服务使用tomcat6来做应用服务器，使用lvs来做前端apache的负载，基本上第一代也就这些技术了，下面是第一代系统的架构图。
 
  
-![](http://www.ityoukow.com/assets/images/2017/architecture/framework1.jpg)  
+![](http://www.ityouknow.com/assets/images/2017/architecture/framework1.jpg)  
 
 第一代系统上线之后，网站和H5(手机浏览器或者微信端)系统建设就变的特别突出，作为一个互联网金融公司没有官网不能忍，于是马不停蹄的又开始开发网站和H5系统，在这个期间PHP之前做的后台这块摘了出来，用java从新规划了一版，至此PHP就负责了网站、APP接口、H5这三个系统，三个系统共用一个核心交易，java这边负责后台管理和定时服务，我们一般给这个架构叫做1.1代架构。
 
 第1.1代系统架构图，绿色部分为变动部分
 
  
-![](http://www.ityoukow.com/assets/images/2017/architecture/framework1.1.jpg)  
+![](http://www.ityouknow.com/assets/images/2017/architecture/framework1.1.jpg)  
 
 
 > 第一代系统的缺点是业务过于集中，仓促上线，后期问题较多
@@ -54,7 +54,7 @@ tags: [arch]
 一代系统做的很赶，产品界面又很烂，随即启动规划了网站2.0、APP2.0、H52.0，针对前端系统的需求，在后端开发了CMS系统来发布项目、公司的公告新闻等；第二代产品端普遍规划了很多大数据分析的一些需求，会在官网展示全量数据分析后投资偏好、投资的金额都跑到哪里去，前端用地图来展示，对于个人也会有还款日历，代收数据分析等，因为需要跑全量数据，在规划的时候都是设计离线来处理，将数据从mysql从库同步到mongodb的集群中，利用mongdo的mapreduce技术来处理大量的数据，于是我们的数据库层就变成下面的这个架构
 
  
-![](http://www.ityoukow.com/assets/images/2017/architecture/db.jpg)  
+![](http://www.ityouknow.com/assets/images/2017/architecture/db.jpg)  
 
 
 mysql实时同步到mongodb，我们使用的是[tungsten-relicator](https://github.com/vmware/tungsten-replicator)这个工具，会在mysql服务器端启动一个监控agent，实时监控mysql的binlog日志，同时在mongodb的服务器端也起了一个服务端，agent监控到数据变化后传送给服务端，服务端解析后插入到mongodb集群中以达到实时同步的效果，如上图，当初写了一篇文章来介绍：[大数据实践-数据同步篇tungsten-relicator（mysql->mongo）](http://www.cnblogs.com/ityouknow/p/4918164.html)，其实这个工具在使用中，也不是特别的稳定，但是当初的选择方案并不多，幸好后期慢慢的熟悉后算是稳定了下来。
@@ -64,14 +64,14 @@ mysql实时同步到mongodb，我们使用的是[tungsten-relicator](https://git
 大数据系统的架构图
 
  
-![](http://www.ityoukow.com/assets/images/2017/architecture/bigdata.jpg)  
+![](http://www.ityouknow.com/assets/images/2017/architecture/bigdata.jpg)  
 
 因为后端数据库的压力不断增大，后端管理系统、业务系统均作了主从分离；后台管理系统增加缓存，启动了redis做缓存；使用nginx搭建了独立的图片服务器；第二代系统开发过程中，也是公司发展最快的阶段，上线了N多的活动。
 
 第二代系统架构图：
 
  
-![](http://www.ityoukow.com/assets/images/2017/architecture/framework2.jpg)  
+![](http://www.ityouknow.com/assets/images/2017/architecture/framework2.jpg)  
 
  
 > 第二代架构上线了各业务系统，做了主从分离，搭建了大数据平台为以后更多的数据处理提供了技术基础  
@@ -88,7 +88,7 @@ mysql实时同步到mongodb，我们使用的是[tungsten-relicator](https://git
 改造后的架构图
 
  
-![](http://www.ityoukow.com/assets/images/2017/architecture/framework3.1.jpg)  
+![](http://www.ityouknow.com/assets/images/2017/architecture/framework3.1.jpg)  
 
 
 在这个基础上面，我们又抽离出来很多基础组件，comomn组件处理共用的基础类，包含字符类、日期类、加密类....，搭建了fastDFS集群来处理文件系统，做了redis集群的测试；单独开发了定时调度系统，将所有的定时任务统一集成到调度系统，那个系统需要定时任务都可以在页面自动添加调度策略；前端PHP做了系统改造，主从分离、静态优化等
@@ -97,7 +97,7 @@ mysql实时同步到mongodb，我们使用的是[tungsten-relicator](https://git
 在后来，公司又启动众筹平台的建设，这次系统完全采用java语言开发，app端采用混合开发模式，其中APP的所有一级页面全部采用原生开发，所有的二级页面都是H5+vue这种模式，后端全部采用dubbo做服务化，最终的架构如下：
 
  
-![](http://www.ityoukow.com/assets/images/2017/architecture/framework3.jpg)  
+![](http://www.ityouknow.com/assets/images/2017/architecture/framework3.jpg)  
 
 图里面系统只罗列一部分，使用其它服务来代替
 
@@ -118,7 +118,7 @@ mysql实时同步到mongodb，我们使用的是[tungsten-relicator](https://git
 
 
  
-![](http://www.ityoukow.com/assets/images/2017/architecture/framework4.jpg)  
+![](http://www.ityouknow.com/assets/images/2017/architecture/framework4.jpg)  
 
 
 在架构的这条路上面没有终点，变化就是永远的不变，架构的升级更是为了更好的支撑业务，二者相辅相成。
@@ -137,7 +137,7 @@ mysql实时同步到mongodb，我们使用的是[tungsten-relicator](https://git
 界面如下：
 
  
-![](http://www.ityoukow.com/assets/images/2017/architecture/generator.jpg)  
+![](http://www.ityouknow.com/assets/images/2017/architecture/generator.jpg)  
 
 
 

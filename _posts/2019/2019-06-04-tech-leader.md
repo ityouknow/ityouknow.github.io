@@ -17,7 +17,7 @@ excerpt: 任何问题抛开背景来讨论都是耍流氓。
 
 比如下面这个图片，正着看的时候是一个老太太，如果我们把手机倒过来看的话是一个小姑娘。
 
-![](http://www.ityoukow.com/assets/images/2019/it/notgirl.jpg)
+![](http://www.ityouknow.com/assets/images/2019/it/notgirl.jpg)
 
 这就是我们看待问题的角度不同，所展现给我们的视角也是不同的。
 

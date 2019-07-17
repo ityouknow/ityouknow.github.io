@@ -15,11 +15,11 @@ excerpt:  论新老程序员的竞争力
 
 感受了一下，这不就是新程序员要把老程序员拍到沙滩上吗？
 
-![](http://www.ityoukow.com/assets/images/2019/it/v2-bf7ce4a892a802a0274ae02c06b46cf0_b.jpg)
+![](http://www.ityouknow.com/assets/images/2019/it/v2-bf7ce4a892a802a0274ae02c06b46cf0_b.jpg)
 
 估计前端开发人员看到这个问题硬是要吐出一口老血了，前端框架的更替那叫一个火箭速度呀。今天还在 AngularJS ，明天突然就出现个 React，当 React 快要掌握的时候，市场上 Vue 大火，并且经常出现最新版本不能往后兼容，坑X呀。要想精通所有框架，对每个程序员来讲，那真的是臣妾做不到呀。
 
-![](http://www.ityoukow.com/assets/images/2019/it/cqzbd.png)
+![](http://www.ityouknow.com/assets/images/2019/it/cqzbd.png)
 
 那如果真按照新程序员说的那样，那老程序员不是早被淘汰了，为什么市面上老程序员的工资比新程序员高好几倍呢？难道 Hr 都是脑瘫。
 

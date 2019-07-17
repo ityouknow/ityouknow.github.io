@@ -49,7 +49,7 @@ Cookie 和 Session 有什么不同？
 
 那么 Cookie 和 Session 是如何配合的呢？我画了一张图大家可以先了解下。
 
-![](http://www.ityoukow.com/assets/images/2019/it/Cookie-Session.png)
+![](http://www.ityouknow.com/assets/images/2019/it/Cookie-Session.png)
 
 用户第一次请求服务器的时候，服务器根据用户提交的相关信息，创建创建对应的 Session ，请求返回时将此 Session 的唯一标识信息 SessionID 返回给浏览器，浏览器接收到服务器返回的 SessionID 信息后，会将此信息存入到 Cookie 中，同时 Cookie 记录此 SessionID 属于哪个域名。
 

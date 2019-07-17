@@ -13,7 +13,7 @@ keywords: 第三分支付，支付宝，牌照，网络支付，PayPal
 
 我国第三方支付行业加快增长，从2013年起，第三方支付市场的交易规模平均以50%的年均增速增长。2017年，我国第三方支付行业总交易规模达100万亿元。保守估计，2018年，我国第三方支付交易规模超过150万亿元。
 
-![](http://www.ityoukow.com/assets/images/2019/payment/guimo.png)
+![](http://www.ityouknow.com/assets/images/2019/payment/guimo.png)
 
 _数据来源：中商产业研究院整理_
 
@@ -37,7 +37,7 @@ _数据来源：中商产业研究院整理_
 
 2013-2020年中国第三方支付综合支付交易规模
 
-![](http://www.ityoukow.com/assets/images/2019/payment/guimo2.png)
+![](http://www.ityouknow.com/assets/images/2019/payment/guimo2.png)
 
 近年来，移动支付市场实现了爆发式增长，主要基于以下几点因素：
 
@@ -51,7 +51,7 @@ _数据来源：中商产业研究院整理_
 
 2013-2017年中国第三方支付交易规模结构
 
-![](http://www.ityoukow.com/assets/images/2019/payment/17jiegou.png)
+![](http://www.ityouknow.com/assets/images/2019/payment/17jiegou.png)
 
 
 截至2017年，中国移动支付交易额已经是美国的11倍。各国愈加重视中国第三方移动支付在海外的影响，世界经济论坛发布的报告也指出，中国已成为全球移动支付领导者。随着我国跨境电商、政策等因素为第三方移动支付跨境增长提供动力，我国第三方移动支付在海外发展潜力巨大。
@@ -66,7 +66,7 @@ _数据来源：中商产业研究院整理_
 
 2017年支付宝跨境支付业务增长情况（单位：%）
 
-![](http://www.ityoukow.com/assets/images/2019/payment/kuajing17.jpg)
+![](http://www.ityouknow.com/assets/images/2019/payment/kuajing17.jpg)
 
 中国支付清算协会统计数据显示， 2015 年，国内支付机构跨境互联网支付交易笔数为 4.10 亿笔，金额为 1,453.74 亿元，分别较上年增长 687.14%和460.01%。
 
@@ -76,7 +76,7 @@ _数据来源：中商产业研究院整理_
 
 **2017年第三季度中国第三方移动支付交易市场格局（单位：%）**
 
-![](http://www.ityoukow.com/assets/images/2019/payment/geju.jpg)
+![](http://www.ityouknow.com/assets/images/2019/payment/geju.jpg)
 
 ## 第三方支付并购
 
@@ -94,19 +94,19 @@ _数据来源：中商产业研究院整理_
 
 **互联网支付牌照、手机支付牌照是稀缺资源**
 
-![](http://www.ityoukow.com/assets/images/2019/payment/xique.png)
+![](http://www.ityouknow.com/assets/images/2019/payment/xique.png)
 
 其中，只有26家公司同时具备互联网支付、银行卡收单和移动/固定电话的支付资质，意味着这些公司可以拓展POS收单、PC端支付和手机支付业务，自然被有心布局独立支付系统的行业巨头相中，成了“抢手货”。
 
 **牌照业务功能分布，重叠拥有互联网支付、银行卡收单和移动****/****固定电话的支付资质只有****26****家**
 
-![](http://www.ityoukow.com/assets/images/2019/payment/26jia.png)
+![](http://www.ityouknow.com/assets/images/2019/payment/26jia.png)
 
 _备注：__62__家银行卡收单业务牌照公司，业务含全国和部分地区。拥有互联网支付和移动__/__固定电话支付资质的牌照公司有__18__家；拥有互联网支付和银行卡收单业务的牌照公司有__22__家。_
 
 互联网公司TOP20中,11家已斩获、5家拟收购
 
-![](http://www.ityoukow.com/assets/images/2019/payment/5jia.jpg)
+![](http://www.ityouknow.com/assets/images/2019/payment/5jia.jpg)
 
 互联网公司对于支付牌照的热情只增不减，单从数量上，前20家互联网公司中，获得支付牌照的公司已经占到半壁江山，而剩余9家互联网公司中，除网宿（互联网业务平台服务提供商）、三七互娱（游戏运营商）、新华网（新华社主办的综合新闻信息服务门户网站）对支付牌照不感冒以外，剩下6家公司中有5家曾均表示非常希望获得第三方支付牌照，以完善互联网金融业务布局。他们或积极准备材料申请，或正在寻求合适收购对象。
 
@@ -134,8 +134,8 @@ _备注：__62__家银行卡收单业务牌照公司，业务含全国和部分�
 
 了解更多第三方支付信息可查看《宜人智库：2017-2018年中国支付行业研究报告》
 
-![](http://www.ityoukow.com/assets/images/2019/payment/baogao.png)
-![](http://www.ityoukow.com/assets/images/2019/payment/baogao2.png)
+![](http://www.ityouknow.com/assets/images/2019/payment/baogao.png)
+![](http://www.ityouknow.com/assets/images/2019/payment/baogao2.png)
 
 **公号内回复关键词【支付报告】即可获取！**
 

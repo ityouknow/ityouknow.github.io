@@ -8,7 +8,7 @@ tags: [life]
 
 写在公号运营一周年之际
 
-![](http://www.ityoukow.com/assets/images/2018/life/rose.jpg)
+![](http://www.ityouknow.com/assets/images/2018/life/rose.jpg)
 
 就像我上面说的，一切都很奇妙。2016年的时候我开始写博客，在博客园积累了一点小人气，在朋友的鼓励下2017年4月25日开通了微信公众号，26号发了一篇文章[我开通了微信公众号](https://mp.weixin.qq.com/s/D9MOZ6mFz-0HPQ0gZx_L1Q)，转眼就一年过去了。
 
@@ -36,7 +36,7 @@ tags: [life]
 
 我一直相信一个道理，就是很多东西其实是不用去坚持的，听到坚持这个词，感觉是很累很痛苦的过程，但如果你真的热爱某一件事情的时候，就无所谓坚持，就是不断的受到鼓舞、激励，自然的就走了下来，当你回过头来的时候才发现已经走了这么远。
 
-![](http://www.ityoukow.com/assets/images/2018/life/zuizhong.png)
+![](http://www.ityouknow.com/assets/images/2018/life/zuizhong.png)
 
 摘录于平凡的世界：
 
