@@ -17,7 +17,7 @@ excerpt: 你怎么有那么多时间刷抖音？
 
 先抛一个截图，这是我在2017年的时候在博客园给一个读者的回复：
 
-![](http://www.ityouknow.com/assets/images/2019/it/write_time.jpg)
+![](http://favorites.ren/assets/images/2019/it/write_time.jpg)
 
 其实上图已经说明一点原因，只要我们平时多积累，写文章的时候就可以节省很多时间。
 

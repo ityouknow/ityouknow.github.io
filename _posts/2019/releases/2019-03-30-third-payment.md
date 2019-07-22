@@ -87,7 +87,7 @@ keywords: 第三分支付，支付，牌照，跨境支付
 
 “Paypal 黑帮”这个组织并不是特指某几个联合创始人，而是指早期带领 Paypal 跑马圈地、离开 Paypal 后依旧驰骋科技领域的一群科技达人。这群从 Paypal 走出来的科技达人在各自领域所开拓的疆土。
 
-![](http://www.ityouknow.com/assets/images/2019/payment/paypal.jpg)
+![](http://favorites.ren/assets/images/2019/payment/paypal.jpg)
 
 早在1999年成立的北京首信和上海环迅两个企业是中国最早的第三方支付企业，由于电子商务在中国的缓慢发展，其影响力一直不大。直到2004年12月阿里巴巴公司支付宝的推出，在淘宝购物平台的强大影响下，其业务取得了突飞猛进的发展，第三方支付的交易规模也呈飞速增长趋势，仅用4年时间便以超过2亿使用用户的绝对优势胜过美国的 PayPal，成为全球最大的第三方支付平台。
 
@@ -103,7 +103,7 @@ keywords: 第三分支付，支付，牌照，跨境支付
 
 银行觉得利润很低不值得去做，民企没有支付牌照却面临着法律风险，正在团队犹豫之际，马云对团队说：
 
-![](http://www.ityouknow.com/assets/images/2019/payment/mayun.jpg)
+![](http://favorites.ren/assets/images/2019/payment/mayun.jpg)
 
 想要了解这段经历可以点击链接查看视频：[《马云讲 Honor |视频》](https://mp.weixin.qq.com/s/rUlsZweOyP8wRwnaAcu-ww)
 
@@ -135,11 +135,11 @@ keywords: 第三分支付，支付，牌照，跨境支付
 
 历年第三方支付牌照发放情况：
 
-![](http://www.ityouknow.com/assets/images/2019/payment/payzhao.png)
+![](http://favorites.ren/assets/images/2019/payment/payzhao.png)
 
 首批获取牌照的部分公司：
 
-![](http://www.ityouknow.com/assets/images/2019/payment/gongsi.png)
+![](http://favorites.ren/assets/images/2019/payment/gongsi.png)
 
 这27家公司中有现在非常有名的支付宝、财付通、银联商务等，也有很多公司渐渐消失人们的视野中。但是可以肯定的是，可以在一批获取支付牌照的公司，在当时都是比较有代表性的第三方支付公司。后期随着互联网行业的发展，第三方支付牌照成为了 IT 巨头的标配，往往一个支付牌照在市场上就可以卖到数亿。
 
@@ -163,7 +163,7 @@ keywords: 第三分支付，支付，牌照，跨境支付
 
 据零壹财经·零壹智库统计，243家支付机构共拥有535张支付牌照。其中"预付卡发行"150张，"预付卡受理"155张，两者的占比之和超过50%；其次，"互联网支付"牌照共110张，占比21%。 以下为七种支付牌照类型的占比情况：
 
-![](http://www.ityouknow.com/assets/images/2019/payment/zhanbi.jpg)
+![](http://favorites.ren/assets/images/2019/payment/zhanbi.jpg)
 
 其中牌照中，我们可以按照最常使用的业务类型分为三类：
 
@@ -196,7 +196,7 @@ keywords: 第三分支付，支付，牌照，跨境支付
 
 下图为拥有牌照的代表性公司
 
-![](http://www.ityouknow.com/assets/images/2019/payment/daibiao.png)
+![](http://favorites.ren/assets/images/2019/payment/daibiao.png)
 
 在目前的市场上，网络支付牌照最为值钱，得益于中国互联网的飞速发展，使用场景广泛；银行卡收单牌照主要适用于线下 Pos 机类业务发展，是我国第三方支付最早的商业模式，但随着移动支付的发展，对线下收单造成了一定的冲击，但全国的收单牌照也非常值钱；预付卡作为特定行业的使用，相对来讲使用场景较少。
 
@@ -208,7 +208,7 @@ keywords: 第三分支付，支付，牌照，跨境支付
 
 第三方支付做为支付的中介，下游连接客户和商户，上游连接银/网联和发卡行。第三方支付内部有三个关键的团队，运营负责服务代理商、商户接入；风控负责审核商户资质，风险交易、防控反洗钱、盗卡等情况发生；结算团队负责给代理商分润、商户资金结算等。
 
-![](http://www.ityouknow.com/assets/images/2019/payment/jiaose.png)
+![](http://favorites.ren/assets/images/2019/payment/jiaose.png)
 
 **客户**，作为普通的购物者，我们都充当着客户的角色，在线上购物时在商户提供的平台中使用第三方支付进行付款购物；在线下商场、商超、商店等购物时使用 Pos 机、智能 Pos 等设备刷卡交易。
 
@@ -248,7 +248,7 @@ keywords: 第三分支付，支付，牌照，跨境支付
 
 目前，我国第三方支付的监管机构是中国人民银行及其分支机构，按照“属地原则”进行监管。以《非金融机构支付服务管理办法》为政策核心，人民银行为主导，行业自律管理、商业银行监督为辅。由于第三方支付的迅猛发展，从2014年开始，央行对第三方支付出台了相关政策进行规范，如2015年12月出台的《非银行支付机构网络支付业务管理办法》，明确了第三方支付行业只能是中国支付体系的补充，作为非银支付机构，小额、便捷是其本质，需要做好客户信息安全、资金安全，以及风险防范。2016年开始的互联网金融整治，包含了第三方支付行业，央行出台了《非银行支付机构分类评级管理办法》。
 
-![](http://www.ityouknow.com/assets/images/2019/payment/jiaqiang.png)
+![](http://favorites.ren/assets/images/2019/payment/jiaqiang.png)
 
 从支付牌照的收紧，到96费改执行，再到二维码支付的开闸放水，监管部门出台的政策都是针对此前行业乱象的整顿，极大地促进了行业的良性发展。
 
@@ -298,13 +298,13 @@ keywords: 第三分支付，支付，牌照，跨境支付
 
 **第三方支付企业**：电商交易商户交易佣金；电商平台支付解决方案；沉淀资金利息收入等。
 
-![](http://www.ityouknow.com/assets/images/2019/payment/yingli.png)
+![](http://favorites.ren/assets/images/2019/payment/yingli.png)
 
 ### 第三方支付企业的盈利模式
 
 支付清算是第三方支付的主要业务，是帮助实现资金转移支付的工具。银行对电子银行等业务的发展是为了更好的服务由资产业务和负债业务而产生的存量客户；电子支付作为第三方支付的根基，其要做到以支付产品去吸引用户，留住用户，所以在支付产品的开发、流程的优化的迫切性要远高于商业银行。资产负债类业务在银行电子支付业务之先，银行并非一定要通过支付数据的开发拓展新的业务模式，其对数据资源的重视和利用程度不如第三方支付。对于第三方支付企业，其盈利模式如下图所示：
 
-![](http://www.ityouknow.com/assets/images/2019/payment/yingli2.png)
+![](http://favorites.ren/assets/images/2019/payment/yingli2.png)
 
 2017年1月13日，央行下发通知，要求集中存管支付机构客户备付金。以后支付机构不能自由支配客户的备付金了，支付机构靠将备付金拿来投资获取收入的“吃利差”模式面临终结。
 
@@ -334,7 +334,7 @@ MCC 由银联和发改委参照 ISO 国际标准《金融零售业商户类别�
 
 总体而言，国外第三方支付市场的发展历程可归纳为两个阶段：一是依托个人电子商务市场（C to C 市场）起源、壮大和成熟；二是向外部专业化、垂直化电子商务网站（B to C 市场）深入拓展。
 
-![](http://www.ityouknow.com/assets/images/2019/payment/shijian.png)
+![](http://favorites.ren/assets/images/2019/payment/shijian.png)
 
 ### 国内第三方支付行业的发展概况
 
@@ -362,13 +362,13 @@ MCC 由银联和发改委参照 ISO 国际标准《金融零售业商户类别�
 
 2012 年是移动支付突破元年，基于智能手机的 SNS（社会性网络服务）、LBS（基于位置的服务）等应用都取得了较大突破，以智能终端和移动网络为依托的第三代支付风起云涌。同时，第三方支付与保险、信贷、证券等金融业务的新一轮互相渗透和融合正步入快车道，中国第三方支付将进入一个新技术、新金融、新体系、新格局不断涌现的重大变革阶段，并逐步走向成熟和完善。
 
-![](http://www.ityouknow.com/assets/images/2019/payment/shijian2.png)
+![](http://favorites.ren/assets/images/2019/payment/shijian2.png)
 
 ## 9、第三方支付行业发展趋势
 
 我国第三方支付行业加快增长，从2013年起，第三方支付市场的交易规模平均以50%的年均增速增长。2017年，我国第三方支付行业总交易规模达100万亿元。保守估计，2018年，我国第三方支付交易规模超过150万亿元。
 
-![](http://www.ityouknow.com/assets/images/2019/payment/guimo.png)
+![](http://favorites.ren/assets/images/2019/payment/guimo.png)
 
 _数据来源：中商产业研究院整理_
 
@@ -392,7 +392,7 @@ _数据来源：中商产业研究院整理_
 
 2013-2020年中国第三方支付综合支付交易规模
 
-![](http://www.ityouknow.com/assets/images/2019/payment/guimo2.png)
+![](http://favorites.ren/assets/images/2019/payment/guimo2.png)
 
 近年来，移动支付市场实现了爆发式增长，主要基于以下几点因素：
 
@@ -406,7 +406,7 @@ _数据来源：中商产业研究院整理_
 
 2013-2017年中国第三方支付交易规模结构
 
-![](http://www.ityouknow.com/assets/images/2019/payment/17jiegou.png)
+![](http://favorites.ren/assets/images/2019/payment/17jiegou.png)
 
 
 截至2017年，中国移动支付交易额已经是美国的11倍。各国愈加重视中国第三方移动支付在海外的影响，世界经济论坛发布的报告也指出，中国已成为全球移动支付领导者。随着我国跨境电商、政策等因素为第三方移动支付跨境增长提供动力，我国第三方移动支付在海外发展潜力巨大。
@@ -421,7 +421,7 @@ _数据来源：中商产业研究院整理_
 
 2017年支付宝跨境支付业务增长情况（单位：%）
 
-![](http://www.ityouknow.com/assets/images/2019/payment/kuajing17.jpg)
+![](http://favorites.ren/assets/images/2019/payment/kuajing17.jpg)
 
 中国支付清算协会统计数据显示， 2015 年，国内支付机构跨境互联网支付交易笔数为 4.10 亿笔，金额为 1,453.74 亿元，分别较上年增长 687.14%和460.01%。
 
@@ -431,7 +431,7 @@ _数据来源：中商产业研究院整理_
 
 **2017年第三季度中国第三方移动支付交易市场格局（单位：%）**
 
-![](http://www.ityouknow.com/assets/images/2019/payment/geju.jpg)
+![](http://favorites.ren/assets/images/2019/payment/geju.jpg)
 
 ## 10、第三方支付并购
 
@@ -449,19 +449,19 @@ _数据来源：中商产业研究院整理_
 
 **互联网支付牌照、手机支付牌照是稀缺资源**
 
-![](http://www.ityouknow.com/assets/images/2019/payment/xique.png)
+![](http://favorites.ren/assets/images/2019/payment/xique.png)
 
 其中，只有26家公司同时具备互联网支付、银行卡收单和移动/固定电话的支付资质，意味着这些公司可以拓展POS收单、PC端支付和手机支付业务，自然被有心布局独立支付系统的行业巨头相中，成了“抢手货”。
 
 **牌照业务功能分布，重叠拥有互联网支付、银行卡收单和移动/固定电话的支付资质只有26家**
 
-![](http://www.ityouknow.com/assets/images/2019/payment/26jia.png)
+![](http://favorites.ren/assets/images/2019/payment/26jia.png)
 
 _备注：__62__家银行卡收单业务牌照公司，业务含全国和部分地区。拥有互联网支付和移动__/__固定电话支付资质的牌照公司有__18__家；拥有互联网支付和银行卡收单业务的牌照公司有__22__家。_
 
 互联网公司TOP20中,11家已斩获、5家拟收购
 
-![](http://www.ityouknow.com/assets/images/2019/payment/5jia.jpg)
+![](http://favorites.ren/assets/images/2019/payment/5jia.jpg)
 
 互联网公司对于支付牌照的热情只增不减，单从数量上，前20家互联网公司中，获得支付牌照的公司已经占到半壁江山，而剩余9家互联网公司中，除网宿（互联网业务平台服务提供商）、三七互娱（游戏运营商）、新华网（新华社主办的综合新闻信息服务门户网站）对支付牌照不感冒以外，剩下6家公司中有5家曾均表示非常希望获得第三方支付牌照，以完善互联网金融业务布局。他们或积极准备材料申请，或正在寻求合适收购对象。
 
@@ -489,8 +489,8 @@ _备注：__62__家银行卡收单业务牌照公司，业务含全国和部分�
 
 了解更多第三方支付信息可查看《宜人智库：2017-2018年中国支付行业研究报告》
 
-![](http://www.ityouknow.com/assets/images/2019/payment/baogao.png)
-![](http://www.ityouknow.com/assets/images/2019/payment/baogao2.png)
+![](http://favorites.ren/assets/images/2019/payment/baogao.png)
+![](http://favorites.ren/assets/images/2019/payment/baogao2.png)
 
 **公号内回复关键词【支付报告】即可获取！**
 

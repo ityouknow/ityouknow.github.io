@@ -31,7 +31,7 @@ excerpt: 只需三步即可部署开源项目云收藏，打造专属个人的�
 
 **产品截图**
 
-![](http://www.ityouknow.com/assets/images/2016/favorites_index.png)  
+![](http://favorites.ren/assets/images/2016/favorites_index.png)  
 
 核心功能点：
 
@@ -71,7 +71,7 @@ excerpt: 只需三步即可部署开源项目云收藏，打造专属个人的�
 
 项目改造后的项目机构图如下：
 
-![](http://www.ityouknow.com/assets/images/2018/springboot/favorites_mulu.png)
+![](http://favorites.ren/assets/images/2018/springboot/favorites_mulu.png)
 
 因为上一篇文章[Spring Boot 2.0(五)：Docker Compose + Spring Boot + Nginx + Mysql 实践](http://www.ityouknow.com/springboot/2018/03/28/dockercompose-springboot-mysql-nginx.html) 已经介绍了此类项目结构和内容含义，因此这里主要描述新增内容。
 

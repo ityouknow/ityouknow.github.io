@@ -29,7 +29,7 @@ excerpt: 玩转Spring全家桶
 
 给大家奉上丁老师精心画的Spring学习脑图，如果你刚开始接触Spring，果断收藏下来为日后的学习做准备：
 
-![](http://www.ityouknow.com/assets/images/2019/geektime/spring1.jpg)
+![](http://favorites.ren/assets/images/2019/geektime/spring1.jpg)
 
 
 上述很多知识点都会在视频课《玩转 Spring 全家桶》中涉及到，整个课程以实战为主，在基础的实践之外，还会涉及一些背后的原理与相关的知识扩展。课程中有大量的示例，还有一个贯穿始终的在线咖啡馆系统——SpringBucks，包含了下单、制作、派送的步骤，随着课程的推进会不断丰满，会基于Spring Framework、Spring Boot和Spring Cloud打造一个完整的系统，麻雀虽小却五脏俱全。
@@ -58,4 +58,4 @@ excerpt: 玩转Spring全家桶
 
 扫描海报获取课程目录或者立即订阅
 
-![](http://www.ityouknow.com/assets/images/2019/geektime/spring.jpg)
+![](http://favorites.ren/assets/images/2019/geektime/spring.jpg)

@@ -15,7 +15,7 @@ excerpt: 毫无疑问，Google是公认的大数据鼻祖。
 
 
 
-![](http://www.ityouknow.com/assets/images/2019/geektime/Google01.jpg)
+![](http://favorites.ren/assets/images/2019/geektime/Google01.jpg)
 
 大数据技术生态圈
 
@@ -61,7 +61,7 @@ excerpt: 毫无疑问，Google是公认的大数据鼻祖。
 
 
 
-![](http://www.ityouknow.com/assets/images/2019/geektime/Google02.jpg)
+![](http://favorites.ren/assets/images/2019/geektime/Google02.jpg)
 
 
 为什么是蔡元楠？
@@ -106,7 +106,7 @@ excerpt: 毫无疑问，Google是公认的大数据鼻祖。
 
 第六部分着重培养你的技术远见。因为是否能现在就开始准备应对10年后人类社会的技术挑战，是你拉开与别人差距的重要一站。
 
-![](http://www.ityouknow.com/assets/images/2019/geektime/Google03.jpg)
+![](http://favorites.ren/assets/images/2019/geektime/Google03.jpg)
 
 
 
@@ -126,4 +126,4 @@ excerpt: 毫无疑问，Google是公认的大数据鼻祖。
 专栏目录
 
 
-![](http://www.ityouknow.com/assets/images/2019/geektime/Google04.jpg)
+![](http://favorites.ren/assets/images/2019/geektime/Google04.jpg)

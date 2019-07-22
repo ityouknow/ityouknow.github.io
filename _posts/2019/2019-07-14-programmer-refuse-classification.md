@@ -10,7 +10,7 @@ excerpt: 让我看看你属于什么垃圾？
 作为一名奋斗在一线的程序员  
 不禁让人想问这样一个问题：
 
-![](http://www.ityouknow.com/assets/images/2019/it/laji01.jpg)
+![](http://favorites.ren/assets/images/2019/it/laji01.jpg)
 
 
 ## 干垃圾 | 装逼程序员
@@ -31,7 +31,7 @@ excerpt: 让我看看你属于什么垃圾？
 
 当年我把这篇文章[《一次生产事故的优化经历》](http://www.ityouknow.com/arch/2017/02/06/one-production-accident-optimization-experience.html)文章发布到 51CTO 的时候，有一个史无前例的大神出现了。
 
-![](http://www.ityouknow.com/assets/images/2019/it/laji03.jpg)
+![](http://favorites.ren/assets/images/2019/it/laji03.jpg)
 
 听了大神的发言之后，心生崇拜之情  
 随手打开了他的博客  
@@ -42,7 +42,7 @@ excerpt: 让我看看你属于什么垃圾？
 10条里面有9条都类似  
 可能在精神上已经高潮了很多次  
 
-![](http://www.ityouknow.com/assets/images/2019/it/laji04.jpg)
+![](http://favorites.ren/assets/images/2019/it/laji04.jpg)
 
 装逼型程序员对行业是一种伤害  
 对小公司来讲合适才是最重要  
@@ -62,7 +62,7 @@ excerpt: 让我看看你属于什么垃圾？
 大概半个月没有洗头吧   
 对，很湿，还很，油  
 
-![](http://www.ityouknow.com/assets/images/2019/it/laji05.jpg)
+![](http://favorites.ren/assets/images/2019/it/laji05.jpg)
 
 
 他们对什么都不感兴趣  
@@ -78,7 +78,7 @@ excerpt: 让我看看你属于什么垃圾？
 有的还有特殊癖好  
 不说了不说了  
 
-![](http://www.ityouknow.com/assets/images/2019/it/laji06.jpg)
+![](http://favorites.ren/assets/images/2019/it/laji06.jpg)
 
 **湿垃圾建议处理措施：经生物技术就地处理堆肥，每吨可生产0.6~0.7吨有机肥料。**
 
@@ -95,7 +95,7 @@ excerpt: 让我看看你属于什么垃圾？
 反正总之一句，就是其它都烂  
 自己完全没有任何问题  
 
-![](http://www.ityouknow.com/assets/images/2019/it/laji07.jpg)
+![](http://favorites.ren/assets/images/2019/it/laji07.jpg)
 
 这种程序员属于有害垃圾，会影响团队  
 影响公司项目进展  
@@ -113,7 +113,7 @@ excerpt: 让我看看你属于什么垃圾？
 安排任务积极响应，组织活动积极参加   
 总之一切都很好，但唯一有一点不好  
 
-![](http://www.ityouknow.com/assets/images/2019/it/laji08.jpg)
+![](http://favorites.ren/assets/images/2019/it/laji08.jpg)
 
 给他分配任务，总是超过期限没有完成  
 安排他写代码，测试验收通过率为负数，因为跑不起来  
@@ -133,5 +133,5 @@ excerpt: 让我看看你属于什么垃圾？
 还程序员行业一片朗朗晴空
 
 
-![](http://www.ityouknow.com/assets/images/2019/it/laji02.jpg)
+![](http://favorites.ren/assets/images/2019/it/laji02.jpg)
 你觉得还有哪些程序员可以划分到垃圾分类中？

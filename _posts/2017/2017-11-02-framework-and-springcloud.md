@@ -28,7 +28,7 @@ Spring Cloud作为一套微服务治理的框架，几乎考虑到了微服务�
 
 下面是单体架构的架构图：
 
-![](http://www.ityouknow.com/assets/images/2017/chat/single_structure.jpg)  
+![](http://favorites.ren/assets/images/2017/chat/single_structure.jpg)  
 
 在单体架构中，技术选型非常灵活，优先满足快速上线的要求，也便于快速跟进市场。
 
@@ -40,7 +40,7 @@ Spring Cloud作为一套微服务治理的框架，几乎考虑到了微服务�
 
 下面是垂直架构的架构图：
 
-![](http://www.ityouknow.com/assets/images/2017/chat/vertical__structure.jpg) 
+![](http://favorites.ren/assets/images/2017/chat/vertical__structure.jpg) 
 
 
 在这个阶段SSH（struts+spring+hibernate）是项目的关键技术，Struts负责web层逻辑控制、Spring负责业务层管理Bean、Hibernate负责数据库操作进行封装，持久化数据。
@@ -56,7 +56,7 @@ SOA服务化的优点是，它可以根据需求通过网络对松散耦合的�
 
 下面是服务化架构图：
 
-![](http://www.ityouknow.com/assets/images/2017/chat/soa__structure.jpg)  
+![](http://favorites.ren/assets/images/2017/chat/soa__structure.jpg)  
 
 在这个阶段可以使用WebService或者dubbo来服务治理。
 
@@ -106,7 +106,7 @@ SOA服务化的优点是，它可以根据需求通过网络对松散耦合的�
 
 Spring Cloud解决的第一个问题就是：服务与服务之间的解耦。很多公司在业务高速发展的时候，服务组件也会相应的不断增加。服务和服务之间有着复杂的相互调用关系，经常有服务A调用服务B，服务B调用服务C和服务D ...，随着服务化组件的不断增多，服务之间的调用关系成指数级别的增长，极端情况下就如下图所示：
 
-![](http://www.ityouknow.com/assets/images/2017/architecture/calling_relation.png)  
+![](http://favorites.ren/assets/images/2017/architecture/calling_relation.png)  
 
 这样最容易导致的情况就是牵一发而动全身。经常出现由于某个服务更新而没有通知到其它服务，导致上线后惨案频发。这时候就应该进行服务治理，将服务之间的直接依赖转化为服务对服务中心的依赖。Spring Cloud 核心组件Eureka就是解决这类问题。
 
@@ -116,7 +116,7 @@ Eureka是Netflix开源的一款提供服务注册和发现的产品，它提供�
 
 用大白话讲，Eureka就是一个服务中心，将所有的可以提供的服务都注册到它这里来管理，其它各调用者需要的时候去注册中心获取，然后再进行调用，避免了服务之间的直接调用，方便后续的水平扩展、故障转移等。如下图：
 
-![](http://www.ityouknow.com/assets/images/2017/architecture/eureka.jpg)  
+![](http://favorites.ren/assets/images/2017/architecture/eureka.jpg)  
 
 当然服务中心这么重要的组件一但挂掉将会影响全部服务，因此需要搭建Eureka集群来保持高可用性，生产中建议最少两台。随着系统的流量不断增加，需要根据情况来扩展某个服务，Eureka内部已经提供均衡负载的功能，只需要增加相应的服务端实例既可。那么在系统的运行期间某个实例挂了怎么办？Eureka内容有一个心跳检测机制，如果某个实例在规定的时间内没有进行通讯则会自动被剔除掉，避免了某个实例挂掉而影响服务。
 
@@ -128,7 +128,7 @@ Eureka是Netflix开源的一款提供服务注册和发现的产品，它提供�
 
 如下图所示：A作为服务提供者，B为A的服务消费者，C和D是B的服务消费者。A不可用引起了B的不可用，并将不可用像滚雪球一样放大到C和D时，雪崩效应就形成了。
 
-![](http://www.ityouknow.com/assets/images/2017/springcloud/hystrix-1.png)
+![](http://favorites.ren/assets/images/2017/springcloud/hystrix-1.png)
 
 在这种情况下就需要整个服务机构具有故障隔离的功能，避免某一个服务挂掉影响全局。在Spring Cloud 中Hystrix组件就扮演这个角色。
 
@@ -143,7 +143,7 @@ Hystrix会在某个服务连续调用N次不响应的情况下，立即通知调
 Hystrix-dashboard是一款针对Hystrix进行实时监控的工具，通过Hystrix Dashboard我们可以直观地看到各Hystrix Command的请求响应时间, 请求成功率等数据。但是只使用Hystrix Dashboard的话, 你只能看到单个应用内的服务信息, 这明显不够. 我们需要一个工具能让我们汇总系统内多个服务的数据并显示到Hystrix Dashboard上, 这个工具就是Turbine.
 监控的效果图如下：
 
-![](http://www.ityouknow.com/assets/images/2017/springcloud/turbine-02.jpg)
+![](http://favorites.ren/assets/images/2017/springcloud/turbine-02.jpg)
 
 想了解具体都监控了哪些指标，以及如何监控可以参考这篇文章：[熔断监控Hystrix Dashboard和Turbine](http://www.ityouknow.com/springcloud/2017/05/18/hystrix-dashboard-turbine.html)
 
@@ -169,7 +169,7 @@ Spring Cloud Bus通过轻量消息代理连接各个分布的节点。这会用�
 
 Spring Cloud Bus是轻量级的通讯组件，也可以用在其它类似的场景中。有了Spring Cloud Bus之后，当我们改变配置文件提交到版本库中时，会自动的触发对应实例的Refresh，具体的工作流程如下：
 
-![](http://www.ityouknow.com/assets/images/2017/springcloud/configbus2.jpg)
+![](http://favorites.ren/assets/images/2017/springcloud/configbus2.jpg)
 
 也可以参考这篇文章来了解：[配置中心和消息总线](http://www.ityouknow.com/springcloud/2017/05/26/springcloud-config-eureka-bus.html)
 
@@ -177,7 +177,7 @@ Spring Cloud Bus是轻量级的通讯组件，也可以用在其它类似的场�
 
 在微服务架构模式下，后端服务的实例数一般是动态的，对于客户端而言很难发现动态改变的服务实例的访问地址信息。因此在基于微服务的项目中为了简化前端的调用逻辑，通常会引入API Gateway作为轻量级网关，同时API Gateway中也会实现相关的认证逻辑从而简化内部服务之间相互调用的复杂度。
 
-![](http://www.ityouknow.com/assets/images/2017/springcloud/api_gateway.png)
+![](http://favorites.ren/assets/images/2017/springcloud/api_gateway.png)
 
 Spring Cloud体系中支持API Gateway落地的技术就是Zuul。Spring Cloud Zuul路由是微服务架构中不可或缺的一部分，提供动态路由，监控，弹性，安全等的边缘服务。Zuul是Netflix出品的一个基于JVM路由和服务端的负载均衡器。
 
@@ -189,7 +189,7 @@ Spring Cloud体系中支持API Gateway落地的技术就是Zuul。Spring Cloud Z
 
 随着服务的越来越多，对调用链的分析会越来越复杂，如服务之间的调用关系、某个请求对应的调用链、调用之间消费的时间等，对这些信息进行监控就成为一个问题。在实际的使用中我们需要监控服务和服务之间通讯的各项指标，这些数据将是我们改进系统架构的主要依据。因此分布式的链路跟踪就变的非常重要，Spring Cloud也给出了具体的解决方案：Spring Cloud Sleuth和Zipkin
 
-![](http://www.ityouknow.com/assets/images/2017/architecture/dyl.png)
+![](http://favorites.ren/assets/images/2017/architecture/dyl.png)
 
 Spring Cloud Sleuth为服务之间调用提供链路追踪。通过Sleuth可以很清楚的了解到一个服务请求经过了哪些服务，每个服务处理花费了多长时间。从而让我们可以很方便的理清各微服务间的调用关系。
 
@@ -202,7 +202,7 @@ Zipkin是Twitter的一个开源项目，允许开发者收集 Twitter 各个服�
 
 我们从整体上来看一下Spring Cloud各个组件如何来配套使用：
 
-![](http://www.ityouknow.com/assets/images/2017/chat/spring_cloud_structure.png)
+![](http://favorites.ren/assets/images/2017/chat/spring_cloud_structure.png)
 
 从上图可以看出Spring Cloud各个组件相互配合，合作支持了一套完整的微服务架构。
 

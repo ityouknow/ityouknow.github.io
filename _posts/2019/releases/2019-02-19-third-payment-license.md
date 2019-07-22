@@ -18,11 +18,11 @@ keywords: 第三分支付，支付宝，牌照，网络支付，PayPal
 
 历年第三方支付牌照发放情况：
 
-![](http://www.ityouknow.com/assets/images/2019/payment/payzhao.png)
+![](http://favorites.ren/assets/images/2019/payment/payzhao.png)
 
 首批获取牌照的部分公司：
 
-![](http://www.ityouknow.com/assets/images/2019/payment/gongsi.png)
+![](http://favorites.ren/assets/images/2019/payment/gongsi.png)
 
 这27家公司中有现在非常有名的支付宝、财付通、银联商务等，也有很多公司渐渐消失人们的视野中。但是可以肯定的是，可以在一批获取支付牌照的公司，在当时都是比较有代表性的第三方支付公司。后期随着互联网行业的发展，第三方支付牌照成为了 IT 巨头的标配，往往一个支付牌照在市场上就可以卖到数亿。
 
@@ -46,7 +46,7 @@ keywords: 第三分支付，支付宝，牌照，网络支付，PayPal
 
 据零壹财经·零壹智库统计，243家支付机构共拥有535张支付牌照。其中"预付卡发行"150张，"预付卡受理"155张，两者的占比之和超过50%；其次，"互联网支付"牌照共110张，占比21%。 以下为七种支付牌照类型的占比情况：
 
-![](http://www.ityouknow.com/assets/images/2019/payment/zhanbi.jpg)
+![](http://favorites.ren/assets/images/2019/payment/zhanbi.jpg)
 
 其中牌照中，我们可以按照最常使用的业务类型分为三类：
 
@@ -79,7 +79,7 @@ keywords: 第三分支付，支付宝，牌照，网络支付，PayPal
 
 下图为拥有牌照的代表性公司
 
-![](http://www.ityouknow.com/assets/images/2019/payment/daibiao.png)
+![](http://favorites.ren/assets/images/2019/payment/daibiao.png)
 
 
 在目前的市场上，网络支付牌照最为值钱，得益于中国互联网的飞速发展，使用场景广泛；银行卡收单牌照主要适用于线下 Pos 机类业务发展，是我国第三方支付最早的商业模式，但随着移动支付的发展，对线下收单造成了一定的冲击，但全国的收单牌照也非常值钱；预付卡作为特定行业的使用，相对来讲使用场景较少。跨境支付牌照随着中国国际化的发展，未来值得期待。
@@ -92,7 +92,7 @@ keywords: 第三分支付，支付宝，牌照，网络支付，PayPal
 
 第三方支付做为支付的中介，下游连接客户和商户，上游连接银/网联和发卡行。第三方支付内部有三个关键的团队，运营负责服务代理商、商户接入；风控负责审核商户资质，风险交易、防控反洗钱、盗卡等情况发生；结算团队负责给代理商分润、商户资金结算等。
 
-![](http://www.ityouknow.com/assets/images/2019/payment/jiaose.png)
+![](http://favorites.ren/assets/images/2019/payment/jiaose.png)
 
 **客户**，作为普通的购物者，我们都充当着客户的角色，在线上购物时在商户提供的平台中使用第三方支付进行付款购物；在线下商场、商超、商店等购物时使用 Pos 机、智能 Pos 等设备刷卡交易。
 

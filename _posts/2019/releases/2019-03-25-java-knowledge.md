@@ -22,10 +22,10 @@ excerpt: 听说你在面试
 
 我随后截了几张图，大家可以仔细查看左边的菜单栏，覆盖的知识面真的很广，而且质量都很不错。
 
-![](http://www.ityouknow.com/assets/images/2019/java/java01.jpg)
-![](http://www.ityouknow.com/assets/images/2019/java/java02.jpg)
-![](http://www.ityouknow.com/assets/images/2019/java/java03.jpg)
-![](http://www.ityouknow.com/assets/images/2019/java/java04.jpg)
+![](http://favorites.ren/assets/images/2019/java/java01.jpg)
+![](http://favorites.ren/assets/images/2019/java/java02.jpg)
+![](http://favorites.ren/assets/images/2019/java/java03.jpg)
+![](http://favorites.ren/assets/images/2019/java/java04.jpg)
 
 说实话，作为一名 Java 程序员，不论你需不需要面试都应该好好看下这份资料。我大概撸了一边，真的是堪称典范。
 

@@ -9,7 +9,7 @@ excerpt: Elastic 上市对程序员意味着什么？
 
 10 月 6 日，Elastic 正式在纽约证券交易所上市，股票代码为"ESTC"。开盘之后股价直线拉升，最高点涨幅达122%，截止到收盘涨幅回落到94%，意味着上市第一天估值接近翻倍。
 
-![](http://www.ityouknow.com/assets/images/2018/it/elasticstock.png)
+![](http://favorites.ren/assets/images/2018/it/elasticstock.png)
 
 该公司最初位于阿姆斯特丹，而后搬迁到加利福尼亚，其股价定价为 33 至 35 美元，高于最初的每股 26 美元至 29 美元的价格指数。 700 万普通股募集资金约 1.92 亿美元，上市首日收盘价 70 美元。Elastic 公司拥有期权的程序员们估计今天又是一个不眠夜。
 
@@ -64,7 +64,7 @@ Elasticsearch 也使用 Java 开发并使用 Lucene 作为其核心来实现所�
 
 Elastic 公司上市给很多自由职业或者追求技术创业的朋友一个大大的鼓舞。中国已经有很多类似的初创企业，比如开源产品 TiDB 的公司 PingCAP 已经获得多轮投资，公司发展非常迅速。所以说：**技术创业可行，并且前景广阔**。
 
-![](http://www.ityouknow.com/assets/images/2018/it/elasticnyse.jpg)
+![](http://favorites.ren/assets/images/2018/it/elasticnyse.jpg)
 
 最后附 Elastic search 官网回顾自己的过往并展望未来：
 

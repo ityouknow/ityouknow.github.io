@@ -10,7 +10,7 @@ excerpt: 每一个故事都会给人带来不一样的启发。
 
 在本周星期一的时候，我在《就聊挣钱》知识星球发布了一个作业，和大家讨论这个话题。在这个人人焦虑的时代，月收入多少才能让我们在一个城市有安全感。
 
-![](http://www.ityouknow.com/assets/images/2019/zsxq/salary01.png)
+![](http://favorites.ren/assets/images/2019/zsxq/salary01.png)
 
 我相信每个人对安全感的理解是不同的，不同阶段不同城市对收入的要求也是不同的。有一个共同的安全感收入公式是，你在当地税后月收入-减去你本月的花费=有足够的节余来满足你的生活。
 
@@ -32,7 +32,7 @@ excerpt: 每一个故事都会给人带来不一样的启发。
 
 其中有一个分享，成功把我逗笑了：
 
-![](http://www.ityouknow.com/assets/images/2019/zsxq/salary02.jpg)
+![](http://favorites.ren/assets/images/2019/zsxq/salary02.jpg)
 
 杭州程序员，工作 6年，感觉躺着也能赚钱的时候，才有安全感。？？
 
@@ -42,16 +42,16 @@ excerpt: 每一个故事都会给人带来不一样的启发。
 
 有的朋友在上大学的时候，就通过灰产挣到了月薪上万；有的朋友当过兵、创过业、当过销售，后面才找到自己的发展之路；有的朋友做运营，做过客户，现在又开始学习手绘，感觉职场充满了惊喜，下面就是她的作品：
 
-![](http://www.ityouknow.com/assets/images/2019/zsxq/salary03.png)
+![](http://favorites.ren/assets/images/2019/zsxq/salary03.png)
 
 当然让我印象最深的，还是那位通过仲裁要回工资的程序员，感觉这个事情可以拿出来吹一辈子，难能可贵的是当大家对仲裁经历比较感兴趣的时候，他立刻就将整个过程重新整理分享了出来，包括很多可执行细节。
 
-![](http://www.ityouknow.com/assets/images/2019/zsxq/salary04.jpeg)
+![](http://favorites.ren/assets/images/2019/zsxq/salary04.jpeg)
 
 
 让我感动的是，球友们几乎都毫无保留的分享了自己经历，包括很多细节。让球友们可以参考借鉴，分享精神和开源精神一样值得点赞。
 
-![](http://www.ityouknow.com/assets/images/2019/zsxq/salary05.jpg)
+![](http://favorites.ren/assets/images/2019/zsxq/salary05.jpg)
 
 
 **每个人的经历都是一个故事，每一个故事都会给人带来不一样的启发。**

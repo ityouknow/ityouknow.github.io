@@ -46,7 +46,7 @@ WebFlux 模块的名称是 spring-webflux，名称中的 Flux 来源于 Reactor 
 - 基于注解的 @Controller 和其他注解也支持 Spring MVC
 - Functional 、Java 8 lambda 风格的路由和处理
 
-![](http://www.ityouknow.com/assets/images/2018/springboot/webflux.jpg)
+![](http://favorites.ren/assets/images/2018/springboot/webflux.jpg)
 
 如图所示，WebFlux 模块从上到下依次是 Router Functions、WebFlux、Reactive Streams 三个新组件。
 
@@ -79,7 +79,7 @@ Spring Boot Webflux 有两种编程模型实现，一种类似 Spring MVC 注解
 </dependency>
 ```
 
-![](http://www.ityouknow.com/assets/images/2019/springboot/webflux.png)
+![](http://favorites.ren/assets/images/2019/springboot/webflux.png)
 
 通过 IEDA 的依赖关系图我们可以发现`spring-boot-starter-webflux`依赖于`spring-webflux`、Reactor 和 Netty 相关依赖包。
 

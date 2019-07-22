@@ -14,7 +14,7 @@ tags: [arch]
 先看看下面这位吧：
 
  
-![](http://www.ityouknow.com/assets/images/2017/optimize/hacker.png)
+![](http://favorites.ren/assets/images/2017/optimize/hacker.png)
 
 这个家伙潜伏到我们公司的客户群里面，冒充我们的客户代表将头像和资料替换成一样，然后给群里所有的客服发送信息，想让客服把公司内部的后台地址发给他，想通过这种方式来寻找突破口，当然了这个算是里面的小菜鸟吧。
 
@@ -32,7 +32,7 @@ DDOS攻击我们也是遇到了很多次，确实也没有比较好办法，最�
 还有一次我们正在做周年庆活动，突然有人在QQ群里面给我们客服说了一句，叫你们的技术负责人来找我，然后我们的网站就挂了，我还保留了当时的一个截图如下：
 
  
-![](http://www.ityouknow.com/assets/images/2017/optimize/hacker02.png)  
+![](http://favorites.ren/assets/images/2017/optimize/hacker02.png)  
 
 完了之后客服就来找我，然后按照往常的策略处理完之后，我根据客服给我的QQ号码加上了那个人，开口就来吓我，我依稀记当年的对话如下：
 
@@ -61,7 +61,7 @@ DDOS攻击我们也是遇到了很多次，确实也没有比较好办法，最�
 曝光一下当年使用的假QQ号，刚查了下变了个头像和描述，如下：
 
  
-![](http://www.ityouknow.com/assets/images/2017/optimize/hacker01.jpg)   
+![](http://favorites.ren/assets/images/2017/optimize/hacker01.jpg)   
 
 后来我一直在想为什么DDOS攻击总是喜欢根据外网IP来攻击呢，慢慢好像是理解了。如果针对域名来攻击的话，那不就是攻击到域名商的服务器，一般域名商比较强大，黑客不太搞的定，也确实没有必要。当然记的前一段时间，某著名域名服务商被攻击，导致国外twitter等著名的互联网公司访问中断到达半天以上，还是很严重的。但是对于我们这些小公司，倒不至于搞这么大的动作。
 
@@ -79,7 +79,7 @@ DDOS攻击我们也是遇到了很多次，确实也没有比较好办法，最�
 
 
  
-![](http://www.ityouknow.com/assets/images/2017/optimize/sql.jpg)  
+![](http://favorites.ren/assets/images/2017/optimize/sql.jpg)  
 
 
 我一直在想为什么PHP一般比较容易出现SQL注入呢，而Java较少暴漏出来SQL漏洞的情况，我估摸着有两方面的原因：第一，PHP一般前端使用较多，受攻击的机会更多一些，Java一般做为后端服务攻击的可能性会比较少；第二，PHP框架较多而且很杂，很多早期的框架并没有特别考虑SQL注入的情况，Java大量普及了mybaits\hibernate这种orm框架，框架本身对常见的SQL注入有防范的功能，但不是说mybaits/hibernate框架就没有被sql注入的可能，大部分场景下是OK的。另外参数化查询可以有效的避免SQL注入。

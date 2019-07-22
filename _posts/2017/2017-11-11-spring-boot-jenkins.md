@@ -124,33 +124,33 @@ This may also be found at: /root/.jenkins/secrets/initialAdminPassword
 访问
 浏览器访问：`http://localhost:8080/`
 
-![](http://www.ityouknow.com/assets/images/2017/jenkins/1.png)
+![](http://favorites.ren/assets/images/2017/jenkins/1.png)
 
 输入：0cca37389e6540c08ce6e4c96f46da0f
 
 
 进入用户自定义插件界面，建议选择安装官方推荐插件，因为安装后自己也得安装:
 
-![](http://www.ityouknow.com/assets/images/2017/jenkins/2.png)
+![](http://favorites.ren/assets/images/2017/jenkins/2.png)
 
 接下来是进入插件安装进度界面:
 
-![](http://www.ityouknow.com/assets/images/2017/jenkins/3.png)
+![](http://favorites.ren/assets/images/2017/jenkins/3.png)
 
 
 插件一次可能不会完全安装成功，可以点击Retry再次安装。直到全部安装成功
 
-![](http://www.ityouknow.com/assets/images/2017/jenkins/32.png)
+![](http://favorites.ren/assets/images/2017/jenkins/32.png)
 
 等待一段时间之后，插件安装完成，配置用户名密码:
 
-![](http://www.ityouknow.com/assets/images/2017/jenkins/4.png)
+![](http://favorites.ren/assets/images/2017/jenkins/4.png)
 
 输入：admin/admin
 
 系统管理-》全局工具配置  jdk路径，
 
-![](http://www.ityouknow.com/assets/images/2017/jenkins/5.png)
+![](http://favorites.ren/assets/images/2017/jenkins/5.png)
 
 
 ## 第二步，插件安装和配置
@@ -159,7 +159,7 @@ This may also be found at: /root/.jenkins/secrets/initialAdminPassword
 
 插件安装：系统管理 > 插件管理 > 可选插件,勾选需要安装的插件，点击直接安装或者下载重启后安装
 
-![](http://www.ityouknow.com/assets/images/2017/jenkins/6.png)
+![](http://favorites.ren/assets/images/2017/jenkins/6.png)
 
 ### 配置全局变量
 
@@ -169,13 +169,13 @@ This may also be found at: /root/.jenkins/secrets/initialAdminPassword
 
 配置本地 JDK 的路径，去掉勾选自动安装
 
-![](http://www.ityouknow.com/assets/images/2017/jenkins/7.png)
+![](http://favorites.ren/assets/images/2017/jenkins/7.png)
 
 **Maven**
 
 配置本地maven的路径，去掉勾选自动安装
 
-![](http://www.ityouknow.com/assets/images/2017/jenkins/8.png)
+![](http://favorites.ren/assets/images/2017/jenkins/8.png)
 
 其它内容可以根据自己的情况选择安装。
 
@@ -225,11 +225,11 @@ service sshd restart
 
 (1)点击"高级"展开配置
 
-![](http://www.ityouknow.com/assets/images/2017/jenkins/40.png)
+![](http://favorites.ren/assets/images/2017/jenkins/40.png)
 
 (2)配置SSH的登陆密码
 
-![](http://www.ityouknow.com/assets/images/2017/jenkins/41.png)
+![](http://favorites.ren/assets/images/2017/jenkins/41.png)
 
 
 配置完成后可点击“Test Configuration”测试到目标主机的连接，出现”success“则成功连接，如果有多台应用服务器，可以点击”增加“，配置多个“SSH Servers” 点击“保存”以保存配置。
@@ -240,7 +240,7 @@ service sshd restart
 
 选择 Publish over SSH
 
-![](http://www.ityouknow.com/assets/images/2017/jenkins/9.png)
+![](http://favorites.ren/assets/images/2017/jenkins/9.png)
 
 Passphrase 不用设置
 Path to key 写上生成的ssh路径：`/root/.ssh/id_rsa`
@@ -258,23 +258,23 @@ Path to key 写上生成的ssh路径：`/root/.ssh/id_rsa`
 
 首页点击**新建**：输入项目名称
 
-![](http://www.ityouknow.com/assets/images/2017/jenkins/10.png)
+![](http://favorites.ren/assets/images/2017/jenkins/10.png)
 
 下方选择构建一个 Maven 项目，点击确定。
 
 勾选**丢弃旧的构建**，选择是否备份被替换的旧包。我这里选择备份最近的10个
 
-![](http://www.ityouknow.com/assets/images/2017/jenkins/12.png)
+![](http://favorites.ren/assets/images/2017/jenkins/12.png)
 
 源码管理，选择 SVN，配置 SVN 相关信息，点击 add 可以输入 SVN 的账户和密码
 
-![](http://www.ityouknow.com/assets/images/2017/jenkins/11.png)
+![](http://favorites.ren/assets/images/2017/jenkins/11.png)
 
 SVN  地址：http://192.168.0.xx/svn/xxx@HEAD,`@HEAD`意思取最新版本
 
 构建环境中勾选“Add timestamps to the Console Output”，代码构建的过程中会将日志打印出来
 
-![](http://www.ityouknow.com/assets/images/2017/jenkins/13.png)
+![](http://favorites.ren/assets/images/2017/jenkins/13.png)
 
 在 Build 中输入打包前的 mvn 命令，如：
 
@@ -284,19 +284,19 @@ clean install -Dmaven.test.skip=true -Ptest
 
 意思是：排除测试的包内容，使用后缀为 test 的配置文件。
 
-![](http://www.ityouknow.com/assets/images/2017/jenkins/14.png)
+![](http://favorites.ren/assets/images/2017/jenkins/14.png)
 
 Post Steps 选择 Run only if build succeeds 
 
-![](http://www.ityouknow.com/assets/images/2017/jenkins/15.png)
+![](http://favorites.ren/assets/images/2017/jenkins/15.png)
 
 点击**Add post-build step**，选择 Send files or execute commands over SSH
 
-![](http://www.ityouknow.com/assets/images/2017/jenkins/16.png)
+![](http://favorites.ren/assets/images/2017/jenkins/16.png)
 
 Name 选择上面配置的 Push SSH
 
-![](http://www.ityouknow.com/assets/images/2017/jenkins/17.png)
+![](http://favorites.ren/assets/images/2017/jenkins/17.png)
 
 Source files配置:target/xxx-0.0.1-SNAPSHOT.jar 项目jar包名
 Remove prefix:target/

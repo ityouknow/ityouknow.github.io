@@ -264,7 +264,7 @@ Spring Boot 的自动配置功能非常便利，但有时候也意味着出问�
 
 启动示例项目，访问：`http://localhost:8080/actuator/heapdump`会自动生成一个 Jvm 的堆文件 heapdump，我们可以使用 JDK 自带的 Jvm 监控工具 VisualVM 打开此文件查看内存快照。类似如下图：
 
-![](http://www.ityouknow.com/assets/images/2018/springboot/heapdump.png) 
+![](http://favorites.ren/assets/images/2018/springboot/heapdump.png) 
 
 ### shutdown
 

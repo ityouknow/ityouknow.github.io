@@ -15,7 +15,7 @@ keywords: 微服务,Spring Cloud,中小企业,架构
 **想在公司推广Spring Cloud，但我对这项技术还缺乏了解,画了一张脑图，总结了种种问题。**
 
 <div align="center">
-  <img src="http://www.ityouknow.com/assets/images/2017/springcloud/springcloud-question.png">
+  <img src="http://favorites.ren/assets/images/2017/springcloud/springcloud-question.png">
 </div>
 
 **微服务是这样一个结构吗?**  
@@ -107,7 +107,7 @@ Turbine、zipkin可以用来做熔断和性能监控；动态上下线某个节�
 我们从整体来看一下Spring Cloud主要的组件，以及它的访问流程
 
 <div align="center">
-  <img src="http://www.ityouknow.com/assets/images/2017/springcloud/spring-cloud-architecture.png">
+  <img src="http://favorites.ren/assets/images/2017/springcloud/spring-cloud-architecture.png">
 </div>
 
 

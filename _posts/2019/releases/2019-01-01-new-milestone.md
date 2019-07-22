@@ -21,7 +21,7 @@ keywords: 程序员
 
 在分析之前，先给大家分享一下这10万读者的增长图，同时感谢一直关注我的读者们。
 
-![](http://www.ityouknow.com/assets/images/2019/life/10w.png)
+![](http://favorites.ren/assets/images/2019/life/10w.png)
 
 从这张图可以看出从开通公众号到第一个一万用了将近六个多月，2017年底的时候关注用户量也才16666个，自从2018年的3月之后公号的关注读者才呈现了飞速上涨的趋势，也这印证了互联网行业的特征，越小越弱越大越容易发展。
 
@@ -31,36 +31,36 @@ keywords: 程序员
 
 特征一：女性极度稀少
 
-![](http://www.ityouknow.com/assets/images/2019/life/sex.png)
+![](http://favorites.ren/assets/images/2019/life/sex.png)
 
 10万的用户关注中，只有大概一万的女性读者们，其中的33个性别未知不知道是什么鬼？
 
 特征二：使用简体中文的用户多
 
-![](http://www.ityouknow.com/assets/images/2019/life/yuyan.png)
+![](http://favorites.ren/assets/images/2019/life/yuyan.png)
 
 这条好像有点是废话，中国的程序员当然是使用简体中文的读者多。当然还有一些亮点，其中有346名使用繁体中文的读者估计来自港澳台，也有3500多名使用英文语言的读者，可能都来自海外吧。
 
 特征三：江苏、四川崛起
 
-![](http://www.ityouknow.com/assets/images/2019/life/shengfen.png)
+![](http://favorites.ren/assets/images/2019/life/shengfen.png)
 
 上图是程序员最多的十大省份，广东省可以排名第二，完全是因为里面有了深圳和广州。省份排名靠前的完全都是因为有一个Super省会城市呀，所以强二线的省份都在拼命的建设省会城市。
 
 特征四：杭州已超广州
 
-![](http://www.ityouknow.com/assets/images/2019/life/city.png)
+![](http://favorites.ren/assets/images/2019/life/city.png)
 
 上图是程序员最多的十大城市，这个图就非常有意思了：第一，杭州快速崛起，现在已经超过广州成为程序员的另外一个优先选择；第二，二线城市慢慢崛起，后面的成都、南京、西安、武汉、长沙慢慢在追赶之中，根据这些排名可以看出程序员多的城市不是一线城市就是高校资源比较丰富的城市。
 
 特征五：安卓用户大于苹果
 
-![](http://www.ityouknow.com/assets/images/2019/life/zhongduan.png)
+![](http://favorites.ren/assets/images/2019/life/zhongduan.png)
 
 这个就不解释了，毕竟安卓的选择范围大很多。
 
 特征六：苹果用户集中
 
-![](http://www.ityouknow.com/assets/images/2019/life/phone.png)
+![](http://favorites.ren/assets/images/2019/life/phone.png)
 
 除了绝大部分不能识别的机型除外，其它的十大使用机型其中有9个都是苹果，不知道是因为程序员都喜欢使用苹果，还是因为苹果机型容易识别。

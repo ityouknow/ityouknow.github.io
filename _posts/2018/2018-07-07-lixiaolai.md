@@ -39,7 +39,7 @@ excerpt: 币群真乱
 
 大家如果想听完整版，可以在公号内回复：**李笑来**，获取录音文件。
 
-![](http://www.ityouknow.com/assets/images/2018/life/xiaolai.jpg)
+![](http://favorites.ren/assets/images/2018/life/xiaolai.jpg)
 
 其实在这之前我是不知道李笑来是何许人也，顺手也百度了一下：
 
@@ -63,12 +63,12 @@ excerpt: 币群真乱
 
 录音泄露之后，疑似当事人回复：
 
-![](http://www.ityouknow.com/assets/images/2018/life/lixiaolaith.png)
-![](http://www.ityouknow.com/assets/images/2018/life/laopao.png)
+![](http://favorites.ren/assets/images/2018/life/lixiaolaith.png)
+![](http://favorites.ren/assets/images/2018/life/laopao.png)
 
 老猫是何许人也？
 
-![](http://www.ityouknow.com/assets/images/2018/life/laomaoren.jpg)
+![](http://favorites.ren/assets/images/2018/life/laomaoren.jpg)
 
 
 老猫，币圈老炮之一，2013年开始参与比特币投资，2014年入行，先后担任YUNBI COO，ICOINFO CEO，INB Partner，BigONE CEO。

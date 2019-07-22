@@ -13,7 +13,7 @@ keywords: Spring Boot,Spring Boot2.0,发布,Spring Boot 2.0新特性
 
 熟悉Spring Boot/Cloud的技术者们都知道，Spring Boot依赖于Spring，而Spring Cloud又依赖于Spring Boot，因此Spring Boot2.0的发布正式整合了Spring5.0的很多特性，同样后面Spring Cloud最新版本的发布也需要整合最新的Spring Boot2.0内容。
 
-![](http://www.ityouknow.com/assets/images/2018/springboot/new.jpg)
+![](http://favorites.ren/assets/images/2018/springboot/new.jpg)
 
 ## 新版本特性
 
@@ -97,7 +97,7 @@ WebFlux 模块的名称是 spring-webflux，名称中的 Flux 来源于 Reactor 
 - 基于注解的 @Controller 和其他注解也支持 Spring MVC
 - Functional 、Java 8 lambda 风格的路由和处理
 
-![](http://www.ityouknow.com/assets/images/2018/springboot/webflux.jpg)
+![](http://favorites.ren/assets/images/2018/springboot/webflux.jpg)
 
 默认情况下，Spring Boot 2使用Netty WebFlux，因为Netty在异步非阻塞空间中被广泛使用，异步非阻塞连接可以节省更多的资源，提供更高的响应度。通过比较Servlet 3.1非阻塞I / O没有太多的使用，因为使用它的成本比较高，Spring WebFlux打开了一条实用的通路。
 
@@ -161,7 +161,7 @@ Gson 是google解析Json的一个开源框架,同类的框架fastJson,JackJson�
 
 从2002年Rod Johnson的`interface21`到如今的`Spring Boot2.0`，Spring 走过了16年的春秋，经历了N多的贡献者，Spring 也从一个小小的开源框架，发展成Java领域最成功的开源软件没有之一！同时做为一名Java开发从业者，也特别的感谢Spring这类的开源组织，为推动企业级开发做了巨大的贡献，全世界的Java开发者都是它的受益者！
 
-![](http://www.ityouknow.com/assets/images/2018/life/spring.jpg)
+![](http://favorites.ren/assets/images/2018/life/spring.jpg)
 
 **向Spring致敬，向开源致敬！**
 

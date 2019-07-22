@@ -8,7 +8,7 @@ tags: [pay]
 在互联网行业中只要涉及到支付，必然就会有对账的需求，几乎所有互联网公司的业务中多多少少的都会涉及到支付，大一点的公司甚至都标配有了自己的第三方支付公司，因此对账具有普遍性。对账系统是支付体系中最重要的一环，也是保证交易、资金安全的最后一道防线。在大多数的互联网公司中，一般都会有独立的对账系统来处理，比如：电商平台、互联网金融、第三方支付公司等。
 
  
-![](http://www.ityouknow.com/assets/images/2017/pay/reconciliation.jpg)
+![](http://favorites.ren/assets/images/2017/pay/reconciliation.jpg)
 
 对账是支付系统中的一环，因此在对账前我们先了解一下相关的业务知识
 
@@ -75,7 +75,7 @@ tags: [pay]
 ### 对账设计
 
  
-![](http://www.ityouknow.com/assets/images/2017/pay/reconciliation_design.jpg)
+![](http://favorites.ren/assets/images/2017/pay/reconciliation_design.jpg)
 
 
 对账系统的设计阶段，将对账系统分为四个模块，每个模块的负责自己的职能。
@@ -114,7 +114,7 @@ tags: [pay]
 ### 对账流程
 
  
-![](http://www.ityouknow.com/assets/images/2017/pay/reconciliation_process.jpg)
+![](http://favorites.ren/assets/images/2017/pay/reconciliation_process.jpg)
 
 
 **1、下载对账单**

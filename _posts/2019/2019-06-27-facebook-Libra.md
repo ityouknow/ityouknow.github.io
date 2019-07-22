@@ -20,7 +20,7 @@ excerpt: 解读 Facebook 加密稳定币 Libra
 
 无国界货币、未来支付方式、冲击美元霸权、覆盖全球三分之一人口，各行大佬、媒体纷纷报道，那么 Facebook 发布的 Libra 项目到底是个啥？
 
-![](http://www.ityouknow.com/assets/images/2019/it/libra01.png)
+![](http://favorites.ren/assets/images/2019/it/libra01.png)
 
 ## Libra 币的使命
 
@@ -50,7 +50,7 @@ Libra 目标是成为一个稳定加密货币，那具体是怎么操作的呢�
 
 算上 Facebook 和其新子公司 Calibra，该协会目前已有 29 个创始成员。在 Facebook 的计划中，到2020上半年，协会的创始人数量能够达到100个左右。
 
-![](http://www.ityouknow.com/assets/images/2019/it/libra02.png)
+![](http://favorites.ren/assets/images/2019/it/libra02.png)
 
 
 看来 Facebook 是要把利益相关方都绑定到这艘船上，大伙好一起搞事情。

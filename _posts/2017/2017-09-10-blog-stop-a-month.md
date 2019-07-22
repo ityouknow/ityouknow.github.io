@@ -89,7 +89,7 @@ Hi 您好：
 求助主题作者和自力更生都无果之后，就想着找一些对jekyll和前端比较熟悉的大牛，帮我看看如何去解决。在QQ群中发了一些求助信息后，也没有找到合适的对象，于是就想到了[v2ex](https://www.v2ex.com/)，以前总听说v2ex是一个神奇的社区，但我完全不明白神奇在哪里，以前也使用过一两次，也么看出个所以然。当然我还是抱着死马当作活马医的态度在v2ex发了一个帖子：
 
 <div align="center">
-  <img src="http://www.ityouknow.com/assets/images/2017/v2ex.png">
+  <img src="http://favorites.ren/assets/images/2017/v2ex.png">
 </div>
 
 不一会，就收到了一个网友的回复："上班中，现在没时间帮你验证， 你把 readme 删掉试试是否 ok"，虽然我明明知道这个建议是多么的不靠谱，但我还是试了，仍然报错。突然在v2ex上有一个叫做"lzhr"的小伙伴给我回复了这么一条信息：

@@ -18,7 +18,7 @@ excerpt:  这个时代，见识即财富，成长即赚钱。
 
 如果你是一个优秀的分享者，只需要两次精彩的圈内分享，赞赏的金额就会覆盖进圈子的费用。现在这个知识星球还在快速的成长中，我建议大家尽早加入，因为很快要调整价格了，现在是最适合的加入时机。
 
-![](http://www.ityouknow.com/assets/images/2019/zsxq/zsxq.jpg)
+![](http://favorites.ren/assets/images/2019/zsxq/zsxq.jpg)
 
 自说自己知识星球有多好，难免有些吹嘘，下面是一个朋友在他的网站上对《就聊挣钱》知识星球的介绍。首先这些内容都是真的，其次这些内容多数来源于我的博文和知识星球。
 
@@ -66,43 +66,43 @@ excerpt:  这个时代，见识即财富，成长即赚钱。
 
 例如：#精华总结# 星主每月会将圈友优质内容分享整理出来，方便大家查看
 
-![](http://www.ityouknow.com/assets/images/2019/zsxq/money21.jpg)
-![](http://www.ityouknow.com/assets/images/2019/zsxq/money22.jpg)
-![](http://www.ityouknow.com/assets/images/2019/zsxq/money23.jpg)
+![](http://favorites.ren/assets/images/2019/zsxq/money21.jpg)
+![](http://favorites.ren/assets/images/2019/zsxq/money22.jpg)
+![](http://favorites.ren/assets/images/2019/zsxq/money23.jpg)
 （完整内容可以加入星球查看）
 
 例如：#流量# 星主分享流量生意的一些心得
 
-![](http://www.ityouknow.com/assets/images/2019/zsxq/money24.jpg)
+![](http://favorites.ren/assets/images/2019/zsxq/money24.jpg)
 （完整内容可以加入星球查看）
 
 例如：#创意分享# 圈友分享了要想赚钱，需要的 3 个思维方式
 
-![](http://www.ityouknow.com/assets/images/2019/zsxq/money25.jpg)
+![](http://favorites.ren/assets/images/2019/zsxq/money25.jpg)
 （完整内容可以加入星球查看）
 
 例如：#赚钱案例# 圈友分享如何利用营销策略赚钱的案例
 
-![](http://www.ityouknow.com/assets/images/2019/zsxq/money26.jpg)
+![](http://favorites.ren/assets/images/2019/zsxq/money26.jpg)
 
 分享的内容和质量越来越高，点赞和参与讨论的朋友也越来多，平均每个精华分享有20人左右点赞，十几个人参与讨论。
 
-![](http://www.ityouknow.com/assets/images/2019/zsxq/money27.jpg)
+![](http://favorites.ren/assets/images/2019/zsxq/money27.jpg)
 
 
 很多球友碰到了自己的有缘人，深度交流，互通资源。
 
-![](http://www.ityouknow.com/assets/images/2019/zsxq/money28.jpg)
+![](http://favorites.ren/assets/images/2019/zsxq/money28.jpg)
 
 
 每篇精华区的分享阅读量都高达好几千，知识星球也频繁被官方推荐。
 
-![](http://www.ityouknow.com/assets/images/2019/zsxq/money29.jpg)
+![](http://favorites.ren/assets/images/2019/zsxq/money29.jpg)
 （完整内容可以加入星球查看）
 
 圈内有来自各行各业的大神，有BATM的程序员、产品经理，还有很多独立的创业者，自由职业者，分享着他们的创业故事和挣钱经验。
 
-![](http://www.ityouknow.com/assets/images/2019/zsxq/money30.jpg)
+![](http://favorites.ren/assets/images/2019/zsxq/money30.jpg)
 
 
 ### 知识星球数据
@@ -119,7 +119,7 @@ excerpt:  这个时代，见识即财富，成长即赚钱。
 
 这个时代，见识即财富，成长即赚钱。圈内各路大神藏龙卧虎，分享就是一种更高级的交流，相信会在你的人脉和认知上有所提升。
 
-![](http://www.ityouknow.com/assets/images/2019/zsxq/zsxq.jpg)
+![](http://favorites.ren/assets/images/2019/zsxq/zsxq.jpg)
 加入知识星球，三天内不满意任意退款！
 
 

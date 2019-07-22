@@ -18,11 +18,11 @@ keywords: Spring Boot
 
 三年前写的一个 Spring Boot 入门的文章，单篇文章阅读量超过百万！在百度指数上搜索 Spring Boot 关键字，可以看到一个气势如虹的增长曲线。
 
-![](http://www.ityouknow.com/assets/images/2019/springboot/spring-boot-hot-01.jpg)
+![](http://favorites.ren/assets/images/2019/springboot/spring-boot-hot-01.jpg)
 
 2016年，在 Github 上写了一个 Spring Boot 的开源项目，现在竟有 15000+ Star，6600 + Fork ，在 Github 上 Star 排名今次于 Spring Boot 官方。
 
-![](http://www.ityouknow.com/assets/images/2019/springboot/spring-boot-hot-02.jpg)
+![](http://favorites.ren/assets/images/2019/springboot/spring-boot-hot-02.jpg)
 
 项目名称：spring-boot-examples  
 
@@ -34,7 +34,7 @@ keywords: Spring Boot
 
 Spring 官方也特别特别重视 Spring Boot ，直接将 Spring Boot 摆放到官网第一的位置上来。
 
-![](http://www.ityouknow.com/assets/images/2019/springboot/spring-boot-hot-03.jpg)
+![](http://favorites.ren/assets/images/2019/springboot/spring-boot-hot-03.jpg)
 
 ## Spring Boot 为什么这么火
 
@@ -98,7 +98,7 @@ Pivotal 公司的背后其实是一场商业并购大片，有很多著名的公
 
 Spring Boot 的干爹是谁呢？毫无疑问就是 Spring 了。有图为证，看下面：
 
-![](http://www.ityouknow.com/assets/images/2019/springboot/spring-boot-hot-04.jpg)
+![](http://favorites.ren/assets/images/2019/springboot/spring-boot-hot-04.jpg)
 
 Spring Boot 完全依赖 Spring 来开发，发明 Spring Boot 也是为了让大家更好的使用 Spring，而不是消灭 Spring ，所以说没有 Spring 这个干爹，就没有 Spring Boot 。
 

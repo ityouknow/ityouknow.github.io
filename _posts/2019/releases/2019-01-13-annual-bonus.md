@@ -22,7 +22,7 @@ excerpt:
 
 长文如下：
 
-![](http://www.ityouknow.com/assets/images/2019/life/nzj.jpeg)
+![](http://favorites.ren/assets/images/2019/life/nzj.jpeg)
 
 看完这篇内部信之后，**感觉说的好像还蛮有道理，也有一股淡淡的耍流氓的感觉**，内部信强调了几次和业绩无关，意思说我们不差钱不差钱但就是不给技术团队发年终奖，为什么呢？因为得到创始人一致认为这是一个非常不好的制度。
 

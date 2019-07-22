@@ -8,7 +8,7 @@ tags: [life]
 在北京有流传着这几句话：没有遇到黑中介的北漂都不算是真正的北漂，没有经历过黑中介的北漂不足以谈人生。其实根据这两句话就可以基本了解北京的租房生活是何等的艰辛，但北京租房只是全国大租房的一个缩影，中国有着全世界最多的人口，而北京有着全中国最大的的流动人口，大量年轻人来到大城市寻找梦想，租住着价格高昂却狭小昏暗的房间，而这几十平米的空间，却是大多数北漂奋斗十几年都买不下来的，所以在北京这些租房群体也有了专有的名词：蜗居、 蚁族、鼠族、胶囊公寓等等。
 
  
-![](http://www.ityouknow.com/assets/images/2017/life/zhongjie.jpg)
+![](http://favorites.ren/assets/images/2017/life/zhongjie.jpg)
 
 身边朋友租房的遭遇也各种各样。有住到一半的时候，房东突然一个电话说儿子要结婚给一周的时间腾空房间；有住进去几个月房东随意涨价10%，不接受就走人，押金也就别想要了，随便找个理由就给扣下了。还有各种黑中介，我有一个朋友和中介打官司，每次法官传唤，中介都不去，最后也是不了了之；有的合同已经签了，出了问题，签合同的销售早离职了，公司不认说是销售人员自己签的合同没和公司报备。总之就是只有你想不到、没有他们使不到的手段，简直都可以召集北漂们写一个租房防坑手册了。
 
@@ -28,7 +28,7 @@ tags: [life]
 
 刚刚用百度街景地图看了一下当初的房子，那时外边小三层现在已经变成了十几层的洋楼，变化真大。  
  
-![](http://www.ityouknow.com/assets/images/2017/life/chuzhong.jpg)
+![](http://favorites.ren/assets/images/2017/life/chuzhong.jpg)
 
 高中住在城西，房东是一个二层的小洋楼，房东住在一楼我们住在二楼，楼上其实没有几间房子，所以大家都很熟悉，闲的时候在一起聊聊天，洗洗衣服。高中的三年我换了两个室友，第一个来的时候还不认识就这样搭伙住在一起了，那个家伙特别爱看小说，这个爱好和我相当的一致，我俩就进入了各种武侠世界，甚至办了当时书店借书的金卡，每天借书两毛钱，但这个家伙看书有点走火入魔，天天看小说，最后都不去上学了，就在宿舍专门看小说，最后被他爸从老家敢过来打了一顿带回家了。
 
@@ -39,7 +39,7 @@ tags: [life]
 
 高中我就住在这个沟里面
  
-![](http://www.ityouknow.com/assets/images/2017/life/gaozhong.jpg)
+![](http://favorites.ren/assets/images/2017/life/gaozhong.jpg)
 
 
 ## 二、大西安
@@ -49,7 +49,7 @@ tags: [life]
 
 沙井村
  
-![](http://www.ityouknow.com/assets/images/2017/life/shajingcun.jpg)
+![](http://favorites.ren/assets/images/2017/life/shajingcun.jpg)
 
 *第一间房子-双水磨-一个月*
 
@@ -80,7 +80,7 @@ tags: [life]
 
 胡家庄大概就是这个样子
  
-![](http://www.ityouknow.com/assets/images/2017/life/hujiazhuang.jpg)
+![](http://favorites.ren/assets/images/2017/life/hujiazhuang.jpg)
 
 *第六间房子-鱼化寨-六个月*
 
@@ -92,7 +92,7 @@ tags: [life]
 
 鱼化寨就是这么繁华
  
-![](http://www.ityouknow.com/assets/images/2017/life/yuhuazhan.jpg)
+![](http://favorites.ren/assets/images/2017/life/yuhuazhan.jpg)
 
 [鱼化寨历史介绍](http://www.xadqw.cn/pub/xadfz/zjll/dqcs/xacljysj/201609/t20160919_150155.htm)
 
@@ -104,7 +104,7 @@ tags: [life]
 
 这就是365的那个房子。
  
-![](http://www.ityouknow.com/assets/images/2017/life/365room.jpg)
+![](http://favorites.ren/assets/images/2017/life/365room.jpg)
 
 那时候，我已经换了第二份工作，好兄弟波仔也搬了过来，就住在我隔壁的隔壁，早上一起上班，中午一起吃饭，晚上下班之后我们一起看电视、谈人生，到夏天的时候搞几个西瓜、几个凉菜、一箱9度，一边吃喝一边聊天。那时候的我和波仔就经常开玩笑说我们是24小时距离都不会超过100米的基友，每天如此。记得每次发工资了，我俩就商量，今天发工资了呀，得吃点好的啊，来个肉夹馍吧，平常我们都吃菜夹馍的。
 
@@ -122,7 +122,7 @@ tags: [life]
 分钟寺拆迁前的片景
 
  
-![](http://www.ityouknow.com/assets/images/2017/life/fenzhongsi.jpg)
+![](http://favorites.ren/assets/images/2017/life/fenzhongsi.jpg)
 
 
 *分钟寺*
@@ -135,7 +135,7 @@ tags: [life]
 分钟寺 住的房子
 
  
-![](http://www.ityouknow.com/assets/images/2017/life/fenzhongsiroom.jpg)
+![](http://favorites.ren/assets/images/2017/life/fenzhongsiroom.jpg)
 
 
 *纪家庙*
@@ -146,7 +146,7 @@ tags: [life]
 
 
  
-![](http://www.ityouknow.com/assets/images/2017/life/jijiamiao.jpg)
+![](http://favorites.ren/assets/images/2017/life/jijiamiao.jpg)
 
 
 ##  四、最后
