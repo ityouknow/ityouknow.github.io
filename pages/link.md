@@ -26,6 +26,7 @@ permalink: /link
 
 ## 推荐网站
 
+- [小白学堂](http://www.itmind.net/) - 学的不仅是技术，更是前程！
 - [知识星球精选](http://www.zsxq100.com/just-talk-about-make-money) - 各种好玩的知识星球推荐
 - [抖音视频下载](https://free-tiktok.com/) - 抖音、Youtube、instagram视频去水印下载
 - [程序员导航网站](http://tooool.org/) - 程序员的导航网站 
