@@ -28,7 +28,10 @@ plugins:
   - kramdown
   - jekyll-github-metadata
   - jekyll-octicons
-  
+
+gems:
+  - jekyll-octicons
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
