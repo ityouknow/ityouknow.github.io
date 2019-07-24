@@ -29,8 +29,6 @@ plugins:
   - jekyll-github-metadata
   - jekyll-octicons
 
-gems:
-  - jekyll-octicons
 
 # Build settings
 markdown: kramdown
