@@ -118,6 +118,11 @@ navs:
     href: http://www.justdojava.com
     label: Java
     target: _blank
+    subnav:
+
+      -
+        subHref: /java.html
+        subLabel: Jvm 系列文章
 
   -
     href: /archives.html
