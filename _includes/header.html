@@ -30,7 +30,9 @@
                 {% if nav.subnav %}
                 <ul class="submenu">
                     {% for subItem in nav.subnav %}
-                    <li><a href="{{ subItem.subHref }}">{{ subItem.subLabel }}</a></li>
+                    <li><a href="{{ subItem.subHref }}" 
+                           target="{{ subItem.target | default: _self }}"
+                     >{{ subItem.subLabel }}</a></li>
                     {% endfor %}
                 </ul>
                 {% endif %}
