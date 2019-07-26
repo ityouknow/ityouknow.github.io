@@ -123,6 +123,11 @@ navs:
       -
         subHref: /java.html
         subLabel: Jvm 系列文章
+        
+      -
+        subHref: http://www.justdojava.com
+        subLabel: Java 极客技术
+        target: _blank
 
   -
     href: /archives.html
