@@ -153,37 +153,58 @@ jekyll build --destination=/usr/share/nginx/html
 
 ## 自动化部署
 
-配置 webhook
+这两天看到[方志朋搞了自动化部署](https://www.fangzhipeng.com/life/2018/10/14/how-to-build-blog.html)，我也按照他的步骤实践了一番，很好用，所以把自动化部署这段写补上。
 
-首先设置github仓库的webhook，在github仓库的项目界面，比我的我的项目界面 https://github.com/ityouknow/ityouknow.github.io，点击 Setting->Webhooks->Add Webhook，在添加 Webhooks 的配置信息，我的配置信息如下：
+### 配置 Webhook
+
+在开发过程中的 Webhook，是一种通过通常的 callback，去增加或者改变 Web page或者 Web app 行为的方法。这些 Callback 可以由第三方用户和开发者维持当前，修改，管理，而这些使用者与网站或者应用的原始开发没有关联。Webhook 这个词是由 Jeff Lindsay 在 2007 年在计算机科学 hook 项目第一次提出的。
+
+用大白话讲就是，代码仓库在收到代码提交的时候，会自动触发一个 url 类型的通知，你可以根据这个通知去做一些事情，比如提交了代码就自动去部署项目。
+
+我们的自动部署博客也是利用了这个机制，Github 自带了  Webhook 功能，我们直接配置即可使用。
+
+在 Github 仓库的项目界面，比如本博客项目 `https://github.com/ityouknow/ityouknow.github.io`，点击 Setting->Webhooks->Add Webhook，在添加 Webhooks 的配置信息，我的配置信息如下：
 
 Payload URL: http://www.ityouknow.com/deploy
 Content type: application/json
-Secret: ityouknow
+Secret: 123456
 
-centos7 安装 node  环境
+如下图：
 
-添加源
+![](http://favorites.ren/assets/images/2018/it/webhook.png)
 
-sudo rpm -ivh https://dl.fedoraproject.org/pub/epel/7/x86_64/Packages/e/epel-release-7-11.noarch.rpm
+### 服务器接受推送
 
-//yum安装node.js
-yum install -y nodejs
+我们需要在博客的服务器上面建立一个服务，来接收 Github 提交代码后的推送，从而来触发部署的脚本。 Github 上有一个开源项目可以做这个事情 [github-webhook-handler](https://github.com/rvagg/github-webhook-handler)。
 
+这个开源项目目的很单纯，就是负责接收 Github 推送过来的通知，然后执行部署脚本，不过他是使用 NodeJs 来开发的，所以我们先需要在 Centos 上面按照 Node 环境。
 
-安装 github-webhook-handler
+centos7 安装 Node 环境
+
+首先添加源
 
 ```
-cd /usr/share/nginx/html
-npm install -g github-webhook-handler     #安装github-webhook-handler
-###如果没有安装成功，可以选择法2来安装
+sudo rpm -ivh https://dl.fedoraproject.org/pub/epel/7/x86_64/Packages/e/epel-release-7-11.noarch.rpm
+```
+//yum安装node.js
+yum install -y nodejs
+```
+
+然后在安装 github-webhook-handler
+
+```
+npm install -g github-webhook-handler     #安装 github-webhook-handler
+#如果没有安装成功，可以选择法2来安装
 npm install -g cnpm --registry=http://r.cnpmjs.org
 cnpm install -g github-webhook-handler
 ```
 
+安装成功之后，我们需要添加一个脚本。进入到安装目录下：
 
 
+```
 cd  /usr/lib/node_modules/github-webhook-handler
+```
 
 新建 deploy.js
 
@@ -191,10 +212,12 @@ cd  /usr/lib/node_modules/github-webhook-handler
 vi deploy.js
 ```
 
+脚本内容如下：
+
 ```
 var http = require('http')
 var createHandler = require('github-webhook-handler')
-var handler = createHandler({ path: '/deploy', secret: 'ityouknow' }) 
+var handler = createHandler({ path: '/deploy', secret: 'ityouknow' }) //监听请求路径，和Github 配置的密码
  
 function run_cmd(cmd, args, callback) {
   var spawn = require('child_process').spawn;
@@ -210,7 +233,7 @@ http.createServer(function (req, res) {
     res.statusCode = 404
     res.end('no such location')
   })
-}).listen(3006)
+}).listen(3006)//监听的端口
  
 handler.on('error', function (err) {
   console.error('Error:', err.message)
@@ -220,11 +243,13 @@ handler.on('push', function (event) {
   console.log('Received a push event for %s to %s',
     event.payload.repository.name,
     event.payload.ref);
-  run_cmd('sh', ['/usr/local/depoly.sh'], function(text){ console.log(text) });
+  run_cmd('sh', ['/usr/local/depoly.sh'], function(text){ console.log(text) });//成功后，执行的脚本。
 })
 ```
 
-部署博客的代码
+脚本的作业就是启动一个监听端口来接收请求，接收到请求后执行部署脚本，脚本内容的关键点已经标注上注释。
+
+部署博客的脚本如下：depoly.sh
 
 ```
 echo `date`
@@ -235,8 +260,11 @@ echo start build..
 jekyll build --destination=/usr/share/nginx/html
 ```
 
-然后需要使用forever来启动deploy.js的服务，执行命令如下：
+就是拉取代码，进行部署而已。
 
+这个脚本的启动需要借助 Node 中的一个管理 forever 。forever 可以看做是一个 nodejs 的守护进程，能够启动，停止，重启我们的 app 应用。
+
+不过我们的先安装 forever，然后需要使用 forever 来启动 deploy.js 的服务，执行命令如下：
 
 ```
 npm install forever -g   #安装
@@ -249,14 +277,17 @@ $ forever start -l forever.log -o out.log -e err.log deploy.js   #输出日志�
 /root/node-v8.12.0-linux-x64/lib/node_modules/forever/bin/forever start -a -l forever.log -o out.log -e err.log deploy.js
 ```
 
+同时一般情况下，我们不会对外保留很多端口，所以需要通过博客的地址来转发，需要在 Nginx 上面添加一个转发配置，用来监听的 /deploy 请求转发到 nodejs 服务上，配置代码如下：
 
-最后一步，需要在nginx服务器的配置文件，需要将监听的/deploy请求转发到nodejs服务上，配置代码如下：
-
+```
 location = /deploy {
      proxy_pass http://127.0.0.1:3006/deploy;
 }
+```
 
+这样我们整个自动化部署就完了，每次提交代码时，Github 会发送 Webhook 给地址`http://www.ityouknow.com/deploy`，Nginx 将 `/deploy` 地址转发给 Nodejs 端口为 3306 的服务，最后通过 github-webhook-handler 来执行部署脚本，已到达自动部署的目的。
 
+以后只需要我们提交代码到 Github ,就会自动触发博客的自动化部署。
 
 ## 可能会出现的问题
 
