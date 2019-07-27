@@ -165,9 +165,11 @@ jekyll build --destination=/usr/share/nginx/html
 
 在 Github 仓库的项目界面，比如本博客项目 `https://github.com/ityouknow/ityouknow.github.io`，点击 Setting->Webhooks->Add Webhook，在添加 Webhooks 的配置信息，我的配置信息如下：
 
+```
 Payload URL: http://www.ityouknow.com/deploy
 Content type: application/json
 Secret: 123456
+```
 
 如下图：
 
