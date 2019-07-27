@@ -104,7 +104,7 @@ url: https://github_username.github.io
 
 > github_username 为你的 github id。
 
-### 自定义域名
+## 自定义域名
 
 虽然通过地址`https://github_username.github.io`可以正常访问博客，但是技术小伙伴们肯定有人想使用自己的域名访问博客，这样的需求 GitHub Pages 也是支持的。
 
