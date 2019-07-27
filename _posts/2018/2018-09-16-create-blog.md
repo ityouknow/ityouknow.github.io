@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      技术人如何搭建自己的技术博客
-no-post-nav: true
 category: other
 tags: [other]
 excerpt: 每个程序员都想拥有一个博客
@@ -152,6 +151,113 @@ jekyll build --destination=/usr/share/nginx/html
 > 执行此脚本的前提是安装好 git\jekyll 环境，这个网上有很多案例，这里就不再多描述了。  
 > 关于 Jekyll 环境搭建和使用可以参考这里：[https://jekyllcn.com/docs/home/](https://jekyllcn.com/docs/home/)
 
+## 自动化部署
+
+配置 webhook
+
+首先设置github仓库的webhook，在github仓库的项目界面，比我的我的项目界面 https://github.com/ityouknow/ityouknow.github.io，点击 Setting->Webhooks->Add Webhook，在添加 Webhooks 的配置信息，我的配置信息如下：
+
+Payload URL: http://www.ityouknow.com/deploy
+Content type: application/json
+Secret: ityouknow
+
+centos7 安装 node  环境
+
+添加源
+
+sudo rpm -ivh https://dl.fedoraproject.org/pub/epel/7/x86_64/Packages/e/epel-release-7-11.noarch.rpm
+
+//yum安装node.js
+yum install -y nodejs
+
+
+安装 github-webhook-handler
+
+```
+cd /usr/share/nginx/html
+npm install -g github-webhook-handler     #安装github-webhook-handler
+###如果没有安装成功，可以选择法2来安装
+npm install -g cnpm --registry=http://r.cnpmjs.org
+cnpm install -g github-webhook-handler
+```
+
+
+
+cd  /usr/lib/node_modules/github-webhook-handler
+
+新建 deploy.js
+
+```
+vi deploy.js
+```
+
+```
+var http = require('http')
+var createHandler = require('github-webhook-handler')
+var handler = createHandler({ path: '/deploy', secret: 'ityouknow' }) 
+ 
+function run_cmd(cmd, args, callback) {
+  var spawn = require('child_process').spawn;
+  var child = spawn(cmd, args);
+  var resp = "";
+ 
+  child.stdout.on('data', function(buffer) { resp += buffer.toString(); });
+  child.stdout.on('end', function() { callback (resp) });
+}
+ 
+http.createServer(function (req, res) {
+  handler(req, res, function (err) {
+    res.statusCode = 404
+    res.end('no such location')
+  })
+}).listen(3006)
+ 
+handler.on('error', function (err) {
+  console.error('Error:', err.message)
+})
+ 
+handler.on('push', function (event) {
+  console.log('Received a push event for %s to %s',
+    event.payload.repository.name,
+    event.payload.ref);
+  run_cmd('sh', ['/usr/local/depoly.sh'], function(text){ console.log(text) });
+})
+```
+
+部署博客的代码
+
+```
+echo `date`
+cd /usr/local/ityouknow.github.io
+echo start pull from github 
+git pull http://github.com/ityouknow/ityouknow.github.io.git
+echo start build..
+jekyll build --destination=/usr/share/nginx/html
+```
+
+然后需要使用forever来启动deploy.js的服务，执行命令如下：
+
+
+```
+npm install forever -g   #安装
+$ forever start deploy.js          #启动
+$ forever stop deploy.js           #关闭
+$ forever start -l forever.log -o out.log -e err.log deploy.js   #输出日志和错误
+/root/node-v8.12.0-linux-x64/lib/node_modules/forever/bin/forever start -l forever.log -o out.log -e err.log deploy.js
+
+如果报错：
+/root/node-v8.12.0-linux-x64/lib/node_modules/forever/bin/forever start -a -l forever.log -o out.log -e err.log deploy.js
+```
+
+
+最后一步，需要在nginx服务器的配置文件，需要将监听的/deploy请求转发到nodejs服务上，配置代码如下：
+
+location = /deploy {
+     proxy_pass http://127.0.0.1:3006/deploy;
+}
+
+
+
 ## 可能会出现的问题
 
 有一些小伙伴反馈在克隆博客的时候出现了一些问题，在这里集中回复一下。
@@ -166,7 +272,7 @@ jekyll build --destination=/usr/share/nginx/html
 2、留言功能丢失
 
 这里就需要大家修改一下 _config.yml 中 gitalk 的配置信息。具体如何操作大家可以参考这篇文章 [jekyll-theme-H2O 配置 gitalk
-](https://weijunzii.github.io/2018/06/29/Add-Gitalk-In-Jekyll-Theme-H2O.html)。注册完之后，需要在 _config.yml 配置以下信息：
+](https://weijunzii.github.io/2018/06/29/Add-Gitalk-In-Jekyll-Theme-H2O.html)。注册完之后，需要在 `_config.yml` 配置以下信息：
 
 ```
 gitalk:
