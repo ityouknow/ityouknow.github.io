@@ -187,7 +187,7 @@ centos7 安装 Node 环境
 
 ```
 sudo rpm -ivh https://dl.fedoraproject.org/pub/epel/7/x86_64/Packages/e/epel-release-7-11.noarch.rpm
-```
+
 //yum安装node.js
 yum install -y nodejs
 ```
@@ -202,7 +202,6 @@ cnpm install -g github-webhook-handler
 ```
 
 安装成功之后，我们需要添加一个脚本。进入到安装目录下：
-
 
 ```
 cd  /usr/lib/node_modules/github-webhook-handler
