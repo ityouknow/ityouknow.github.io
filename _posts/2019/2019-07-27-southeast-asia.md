@@ -2,10 +2,10 @@
 layout: post
 title: 东南亚痴狂诈骗的背后，意外暴露一个大型“围猎”程序员的现场
 no-post-nav: true
-category: life
-tags: [life]
+category: it
 excerpt: 有人杀猪，有人给猪圈修护栏。
 ---
+
 东南亚某地，一个简陋的办公室中，正进行着一场有关前途命运的“仪式”：
 
 “仪式”是不定期的，**充满暴力与哀嚎。**

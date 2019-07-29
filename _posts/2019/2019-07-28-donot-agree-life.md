@@ -6,6 +6,7 @@ category: life
 tags: [life]
 excerpt: 我命由我，不由天。
 ---
+
 ![](http://favorites.ren/assets/images/2019/it/life01.png)
 
 每当我在电影院看好莱坞动漫电影的时候，我都会在想什么时候，我们国家也能出品一些优质的动漫电影。
