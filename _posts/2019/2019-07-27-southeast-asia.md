@@ -1,4 +1,4 @@
-2019-07-27-southeast-asia.md---
+---
 layout: post
 title: 东南亚痴狂诈骗的背后，意外暴露一个大型“围猎”程序员的现场
 no-post-nav: true
