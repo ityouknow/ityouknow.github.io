@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Spring Boot 面试，一个问题就干趴下了！
-category: spring-boot
+category: springboot
 excerpt: 实在...
 ---
 
