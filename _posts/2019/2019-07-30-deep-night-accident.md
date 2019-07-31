@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 深夜生产事故，人工多线程来救场！
-category: it
+category: arch
 excerpt: 什么才是优秀的程序员？
 ---
 
