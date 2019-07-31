@@ -24,7 +24,7 @@ css: ['index.css', 'sidebar-popular-repo.css']
 
             <ol class="post-list">
                 {% for post in paginator.posts %}
-                 {% if post.category != 'zsxq' and post.category != 'gitchat' and post.category != 'geektime' %}
+                 {% if  post.category != 'gitchat' and post.category != 'geektime' %}
                     <li class="post-list-item">
                         <h2 class="post-list-title">
                             <a class="hvr-underline-from-center" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
