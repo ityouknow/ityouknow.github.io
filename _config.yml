@@ -61,8 +61,8 @@ menus:
     target: _self
 
   -
-    href: /gitchat.html
-    label: Chat
+    href: /it.html
+    label: IT
     target: _self
 
   -
@@ -169,8 +169,8 @@ labels:
     target: _blank
 
   -
-    href: /it.html
-    label: IT 
+    href: /gitchat.html
+    label: Chat
     target: _blank
 
   -
