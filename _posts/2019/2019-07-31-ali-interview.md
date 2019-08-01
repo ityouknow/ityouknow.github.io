@@ -25,19 +25,13 @@ excerpt: 面试资源
 
 相信它会给大家带来很多收获。
 
-> 画外音：xmind 源文件，以及面试资料，文末获取，建议下载到电脑上查看。
+> 画外音：xmind 文件，以及面试资料，文末获取，建议下载到电脑上查看。
 
 
 ![](http://favorites.ren/assets/images/2019/it/kkb01.jpg)
 ![](http://favorites.ren/assets/images/2019/it/kkb02.jpg)
 ![](http://favorites.ren/assets/images/2019/it/kkb03.jpg)
 ![](http://favorites.ren/assets/images/2019/it/kkb04.jpg)
-
-
-
-
-
-
 
 
 
