@@ -23,7 +23,7 @@ excerpt: 为什么学 Python?
 
 2019年， TIOBE 编程语言排行榜，Python 语言已经冲到了第三名。
 
-![](http://favorites.ren/assets/images/2019/it/100python01.png)
+![](http://favorites.ren/assets/images/2019/it/100python02.png)
 
 看到 Python 的这条增长曲线，有稳稳赶超第二名C语言，第一名 Java 的地位。
 
