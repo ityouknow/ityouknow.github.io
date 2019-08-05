@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 100 天 Python 学习计划
+no-post-nav: true
 category: python
 copyright: python
 excerpt: 为什么学 Python?
