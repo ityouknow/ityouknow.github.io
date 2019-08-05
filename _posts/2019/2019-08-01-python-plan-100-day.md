@@ -60,3 +60,6 @@ Java 有 Java 的优势， Python 有 Python 的优势，做事情就是要发�
 - [莫烦Python](https://morvanzhou.github.io/)
 
 另外我也创建了一个 Python 新手学习交流群，大家如果有兴趣的话，可以在公号Python技术内回复 ：Python，添加微信时备注：学习。
+
+
+100天计划代码仓库：[python-100-days](https://github.com/ityouknow/python-100-days)
