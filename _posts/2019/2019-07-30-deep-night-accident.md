@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 深夜生产事故：数据迁移惊险一幕，人工多线程来破局！
+title: 凌晨1点突发致命生产事故，人工多线程来破局！
 category: arch
 excerpt: 什么才是优秀的程序员？
 ---
