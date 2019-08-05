@@ -66,9 +66,9 @@ menus:
     target: _self
 
   -
-    href: /geektime.html
-    label: 极客
-    target: _blank
+    href: /zsxq.html
+    label: 星球
+    target: _self   
 
   -
     href: /life.html
@@ -174,9 +174,9 @@ labels:
     target: _blank
 
   -
-    href: /zsxq.html
-    label: 星球
-    target: _self
+    href: /geektime.html
+    label: 极客
+    target: _blank
 
 
 # selected articles
