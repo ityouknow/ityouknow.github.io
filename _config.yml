@@ -56,8 +56,8 @@ paginate_path: 'page:num'
 menus:
 
   -
-    href: /zsxq.html
-    label: 星球
+    href: /python.html
+    label: Python  
     target: _self
 
   -
@@ -174,9 +174,9 @@ labels:
     target: _blank
 
   -
-    href: /python.html
-    label: Python  
-    target: _blank
+    href: /zsxq.html
+    label: 星球
+    target: _self
 
 
 # selected articles
