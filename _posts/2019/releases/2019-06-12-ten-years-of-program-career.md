@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 十年系列：我是如何走向程序生涯
+title: 我是如何走向程序生涯 | 十年系列
 category: life
 tags: [life]
 excerpt: 我是一个有魄力的人
