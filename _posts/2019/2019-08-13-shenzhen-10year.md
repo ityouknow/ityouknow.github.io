@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 深圳流水线工厂，我差点和主管打了起来 | 十年系列
-category: it
-tags: [it]
+category: life
+tags: [life]
 excerpt: 真实的生活
 ---
 
