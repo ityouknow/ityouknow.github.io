@@ -2,6 +2,7 @@
 layout: post
 title: 再见 Spring Boot 1.X ，Spring Boot 2.X 走向舞台中心
 category: springboot
+no-post-nav: true
 tags: [springboot]
 keywords: Spring Boot 1.X ,Spring Boot 2.X
 ---
