@@ -31,7 +31,6 @@ Spring Boot 2.X 也是时候走向舞台中心接力 Spring Boot 1.x 的历史�
 - 2018年03月01号，Spring Boot 发布 v2.0.0.RELEASE，2.0更新的内容就太多了，详情请参考：[Spring Boot 2.0权威发布](http://www.ityouknow.com/springboot/2018/03/01/spring-boot-2.0.html)
 - 2018年10月30号，Spring Boot 发布 v2.1.0.RELEASE，主要更新了相关特性，详见：[Spring Boot 2.1.0 权威发布](http://www.ityouknow.com/springboot/2018/03/01/spring-boot-2.0.html)
 
-
 当时 Spring Boot 2.0 刚刚发布的时候，我说过一段话：
 
 > Spring Boot 2.0 是历时 4 年开发出来的巨作，在 Spring Boot 1.0 的基础上进行了大量的优化，淘汰了很多过期的 API，同时引入了一大批最新的技术，这些新技术在未来的一段时间内都具有引导性。
