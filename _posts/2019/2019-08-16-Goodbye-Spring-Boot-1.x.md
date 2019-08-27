@@ -15,7 +15,7 @@ keywords: Spring Boot 1.X ,Spring Boot 2.X
 
 ![](http://favorites.ren/assets/images/2019/springboot/goodbay1.x-2.png)
 
-如今 Spring Boot 1.X 版本最后将永久的定格在 `v1.5.22.RELEASE`，其实回想起来自从 Spring Boot 1.0 发布已经过去了 5 年多，相当于 Spring Boot 一年发布一个大的子版本，到了现在的 1.5.x。
+如今 Spring Boot 1.X 版本最后将永久的定格在 `v1.5.22.RELEASE`，其实回想起来自从 Spring Boot 1.0 发布已经过去了 5 年多，相当于 Spring Boot 一年发布一个大的子版本，然后到了现在的 1.5.x。
 
 而 Spring Boot 2.0.0 也于2018年3月1号正式发布，如今已经过了整整一年多，同时 Spring Boot 2.2 已经到了第五个里程碑。
 
@@ -36,19 +36,19 @@ Spring Boot 2.X 也是时候走向舞台中心接力 Spring Boot 1.x 的历史�
 
 > Spring Boot 2.0 是历时 4 年开发出来的巨作，在 Spring Boot 1.0 的基础上进行了大量的优化，淘汰了很多过期的 API，同时引入了一大批最新的技术，这些新技术在未来的一段时间内都具有引导性。
 > 
-> 如果不是特别需要使用 Spring Boot 2.0 上面提到的新特性，就尽量不要着急进行升级，等 Spring Boot 2.0 彻底稳定下来后再使用。如果想要升级也请先从早期的版本升级到 Spring Boot 1.5X 系列之后，再升级到 Spring Boot 2.0 版本，Spring Boot 2.0 的很多配置内容和 Spring Boot 1.0 不一致需要注意。
+> 如果不是特别需要使用 Spring Boot 2.0 上面提到的新特性，就尽量不要着急进行升级，等 Spring Boot 2.0 彻底稳定下来后再使用。如果想要升级也请先从早期的版本升级到 Spring Boot 1.5.X 系列之后，再升级到 Spring Boot 2.0 版本，Spring Boot 2.0 的很多配置内容和 Spring Boot 1.0 不一致需要注意。
 
 当时因为 Spring Boot 2.0 刚刚发布有一些特性可能不是特别稳定，并不推荐大家立刻在生产环境使用，但到了今天 Spring Boot 2.X 系列最新稳定版本已经到了 2.1.7，大家可以放心的在生产环境使用了。
 
 **生产中正在使用 Spring Boot 1.x 需要立刻升级吗？**
 
-Spring Boot 1.x 只是停止维护，并不是不能用了，如果你不是特别着急想用 Spring Boot 2.x 的新特性，在用个几年也是没有任何问题的。
+Spring Boot 1.x 只是停止维护，并不是不能用了，如果你不是特别着急想用 Spring Boot 2.x 的新特性，再用个几年也是没有任何问题的。
 
 另外，Spring Boot 1.x 到  2.x 中间更新了很多 API 以及依赖组件。升级时需要先将 Spring Boot 1.X 系列升级到 1.5.x，再从 1.5.x 升级到 2.x 最新稳定版本。
 
 Spring Boot 2.x 对 Java 环境的要求最低为 JDK 8，可能还有很多的公司服务器还在 1.6 或者 1.7 的环境中跑着，升级的时候也需要先升级服务器的基础环境。
 
-如果项目中使用了微服务架构，建议可以一个一个子服务进行升级，不要一次全部升级完成，保障整个服务在升级过程的稳定性。我之前写过 Spring Boot 1.x 升级 2.x 的文章，大家可以参考：[Spring Boot 2 版的开源项目云收藏来了！](http://www.ityouknow.com/springboot/2018/06/03/favorites-spring-boot-2.0.html)。
+如果项目中使用了微服务架构，建议可以一个一个子服务进行升级，不要一次全部升级完成，保障整个服务在升级过程的稳定性。我之前写过 Spring Boot 1.x 升级 2.x 的文章，大家可以参考：[Spring Boot 2.0 版的开源项目云收藏来了！](http://www.ityouknow.com/springboot/2018/06/03/favorites-spring-boot-2.0.html)。
 
 最后祝愿 Spirng Boot 发展越来越好。
 
@@ -56,7 +56,7 @@ Spring Boot 2.x 对 Java 环境的要求最低为 JDK 8，可能还有很多的�
 
 **同时大家如果想系统学习 Spring Boot 的使用，可以关注下面这个开源项目**
 
-全网最全的 Spring Boot 学习示例项目，击下方链接即可获取。
+全网最全的 Spring Boot 学习示例项目，点击下方链接即可获取。
 
 **[spring-boot-examples](https://github.com/ityouknow/spring-boot-examples)**
 
