@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 每天有一万人教我如何写文章
+title: 每天有10000人教我写文章
 category: life
 tags: [life]
 excerpt: 生活大澡堂
