@@ -56,20 +56,9 @@ paginate_path: 'page:num'
 menus:
 
   -
-    
-    href: http://www.justdopython.com
-    label: Python
-    target: _blank
-    subnav:
-
-      -
-        subHref: /python.html
-        subLabel: Python 100天系列文章
-        
-      -
-        subHref: http://www.justdopython.com
-        subLabel: Python 技术
-        target: _blank
+    href: /python.html
+    label: Python  
+    target: _self
 
   -
     href: /it.html
