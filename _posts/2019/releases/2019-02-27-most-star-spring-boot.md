@@ -9,11 +9,11 @@ keywords: Spring Boot,开源项目,学习教程
 
 2016年，在一次技术调研的过程中认识到了 Spring Boot ，试用之后便一发不可收拾的爱上它。为了防止学习之后忘记，就在网上连载了 [Spring Boot 系列文章](http://www.ityouknow.com/spring-boot.html)，没想到这一开始便与 Spring Boot 深度结缘。
 
-近三年的时间写了一百多篇关于 Spring Boot 的文章（包含两个课程），在写文章的过程中将文中的示例项目托管在 Github 上面，随着学习 Spring Boot 的朋友越来越多，在 Github 上面的关注（Star）人数也越来越多，到现在已经高达 8300 多个 Star。
+近三年的时间写了一百多篇关于 Spring Boot 的文章（包含两个课程），在写文章的过程中将文中的示例项目托管在 Github 上面，随着学习 Spring Boot 的朋友越来越多，在 Github 上面的关注（Star）人数也越来越多，到现在已经高达 18300 多个 Star。
 
 这个开源项目就是 [spring-boot-examples](https://github.com/ityouknow/spring-boot-examples)  ，这是一个专注帮助初学者学习 Spring Boot 的开源项目，里面分享了各种场景下 Spring Boot 使用示例，此开源项目下都是一个一个独立的小项目，以最小依赖、最简单的方式呈现出来，非常方便初始者学习。
 
-## [spring-boot-examples(star 12000+)](https://github.com/ityouknow/spring-boot-examples)  
+## [spring-boot-examples(star 18000+)](https://github.com/ityouknow/spring-boot-examples)  
 
 
 **项目主页**
@@ -32,7 +32,7 @@ keywords: Spring Boot,开源项目,学习教程
 
 ![](http://favorites.ren/assets/images/java.jpg)
 
-## [云收藏(star 3000+)](https://github.com/cloudfavorites/favorites-web)
+## [云收藏(star 3600+)](https://github.com/cloudfavorites/favorites-web)
 
 云收藏是一个使用 Spring Boot 构建的开源网站，可以让用户在线随时随地收藏的一个网站，在网站上分类整理收藏的网站或者文章，可以作为稍后阅读的一个临时存放。作为一个开放开源的软件，可以让用户从浏览器将收藏夹内容导入到云收藏，也支持随时将云收藏收集的文章导出去做备份。 
 
@@ -48,7 +48,7 @@ keywords: Spring Boot,开源项目,学习教程
 
 ![](http://favorites.ren/assets/images/2016/favorites_index.png)  
 
-## [awesome-spring-boot(star 1555+)](https://github.com/ityouknow/awesome-spring-boot)
+## [awesome-spring-boot(star 2500+)](https://github.com/ityouknow/awesome-spring-boot)
 
 下面要推荐一个 Spring Boot 最强开源项目：awesome-spring-boot，
 

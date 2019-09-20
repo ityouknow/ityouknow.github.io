@@ -161,7 +161,7 @@ Gson 是google解析Json的一个开源框架,同类的框架fastJson,JackJson�
 
 从2002年Rod Johnson的`interface21`到如今的`Spring Boot2.0`，Spring 走过了16年的春秋，经历了N多的贡献者，Spring 也从一个小小的开源框架，发展成Java领域最成功的开源软件没有之一！同时做为一名Java开发从业者，也特别的感谢Spring这类的开源组织，为推动企业级开发做了巨大的贡献，全世界的Java开发者都是它的受益者！
 
-![](http://favorites.ren/assets/images/2018/life/spring.jpg)
+![](http://favorites.ren/assets/images/2018/springboot/spring.jpg)
 
 **向Spring致敬，向开源致敬！**
 
