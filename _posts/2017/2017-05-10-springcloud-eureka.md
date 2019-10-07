@@ -3,6 +3,7 @@ layout: post
 title: springcloud(二)：注册中心Eureka
 category: springcloud
 tags: [springcloud]
+lock: need
 ---
 
 Eureka是Netflix开源的一款提供服务注册和发现的产品，它提供了完整的Service Registry和Service Discovery实现。也是springcloud体系中最重要最核心的组件之一。

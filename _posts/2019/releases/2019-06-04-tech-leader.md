@@ -5,6 +5,7 @@ no-post-nav: true
 category: it
 tags: [it]
 excerpt: 任何问题抛开背景来讨论都是耍流氓。
+lock: need
 ---
 
 这是一个非常敏感的话题，每次谈论到技术总监要不要写代码的时候，总会引起一片争论。

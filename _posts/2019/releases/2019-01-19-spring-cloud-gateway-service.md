@@ -5,6 +5,7 @@ category: springcloud
 tags: [springcloud]
 keywords: springcloud, GateWay，服务网关
 excerpt: Spring Cloud GateWay 服务网关和注册中心结合使用
+lock: need
 ---
 
 上一篇文章[服务网关 Spring Cloud GateWay 初级篇](http://www.ityouknow.com/springcloud/2018/12/12/spring-cloud-gateway-start.html)，介绍了 Spring Cloud Gateway 的相关术语、技术原理，以及如何快速使用 Spring Cloud Gateway。这篇文章我们继续学习 Spring Cloud Gateway 的高级使用方式，比如如何配置服务中心来使用，如何使用熔断、限流等高级功能。

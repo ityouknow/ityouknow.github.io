@@ -4,6 +4,7 @@ title: 为什么说 Java 程序员到了必须掌握 Spring Boot 的时候？
 category: springboot
 tags: [springboot]
 keywords: Spring Boot,Java 程序员,架构
+lock: need
 ---
 
 Spring Boot 诞生的背景是什么？Spring 企业又是基于什么样的考虑创建 Spring Boot? 传统企业使用 Spring Boot 会给我们带来什么样变革?

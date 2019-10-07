@@ -4,6 +4,7 @@ title: Spring Boot(十六)：使用 Jenkins 部署 Spring Boot
 category: springboot
 tags: [springboot]
 copyright: java
+lock: need
 ---
 
 Jenkins 是 Devops 神器，本篇文章介绍如何安装和使用 Jenkins 部署 Spring Boot 项目

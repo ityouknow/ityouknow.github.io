@@ -4,6 +4,7 @@ title: Spring Boot(六)：如何优雅的使用 Mybatis
 category: springboot
 tags: [springboot]
 copyright: java
+lock: need
 ---
 
 这两天启动了一个新项目因为项目组成员一直都使用的是 Mybatis，虽然个人比较喜欢 Jpa 这种极简的模式，但是为了项目保持统一性技术选型还是定了 Mybatis 。到网上找了一下关于 Spring Boot 和 Mybatis 组合的相关资料，各种各样的形式都有，看的人心累，结合了 Mybatis 的官方 Demo 和文档终于找到了最简的两种模式，花了一天时间总结后分享出来。

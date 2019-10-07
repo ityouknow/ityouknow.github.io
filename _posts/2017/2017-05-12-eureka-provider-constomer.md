@@ -3,6 +3,7 @@ layout: post
 title: springcloud(三)：服务提供与调用
 category: springcloud
 tags: [springcloud]
+lock: need
 ---
 
 上一篇文章我们介绍了eureka服务注册中心的搭建，这篇文章介绍一下如何使用eureka服务注册中心，搭建一个简单的服务端注册服务，客户端去调用服务使用的案例。

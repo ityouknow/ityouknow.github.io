@@ -3,6 +3,7 @@ layout: post
 title: springcloud(六)：配置中心git示例
 category: springcloud
 tags: [springcloud]
+lock: need
 ---
 
 随着线上项目变的日益庞大，每个项目都散落着各种配置文件，如果采用分布式的开发模式，需要的配置文件随着服务增加而不断增多。某一个基础服务信息变更，都会引起一系列的更新和重启，运维苦不堪言也容易出错。配置中心便是解决此类问题的灵丹妙药。

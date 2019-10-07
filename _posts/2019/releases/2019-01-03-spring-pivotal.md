@@ -4,6 +4,7 @@ title: 是时候给大家介绍 Spring Boot/Cloud 背后豪华的研发团队了
 category: springboot
 tags: [springboot]
 keywords: Spring Boot,Pivotal,Spring Cloud, 研发团队
+lock: need
 ---
 
 看了 Pivotal 公司的发展历史，这尼玛就是一场商业大片呀。

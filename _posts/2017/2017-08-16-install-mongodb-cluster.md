@@ -3,6 +3,7 @@ layout: post
 title: mongodb 3.4 集群搭建升级版 五台集群
 category: mongodb
 tags: [mongodb]
+lock: need
 ---
 
 最新版mongodb推荐使用yaml语法来做配置，另外一些旧的配置在最新版本中已经不在生效，所以我们在生产实际搭建mongodb集群的时候做了一些改进。如果大家不熟悉什么是分片、副本集、仲裁者的话请先移步查看上一篇文章：[mongodb 3.4 集群搭建：分片+副本集](http://www.ityouknow.com/mongodb/2017/08/05/mongodb-cluster-setup.html)

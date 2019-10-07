@@ -4,6 +4,7 @@ title: Spring Boot(八)：RabbitMQ 详解
 category: springboot 
 tags: [springboot]
 copyright: java
+lock: need
 ---
 
 RabbitMQ 即一个消息队列，主要是用来实现应用程序的异步和解耦，同时也能起到消息缓冲，消息分发的作用。

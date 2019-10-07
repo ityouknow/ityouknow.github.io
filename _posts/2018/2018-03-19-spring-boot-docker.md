@@ -4,6 +4,7 @@ title: Spring Boot 2 (四)：使用 Docker 部署 Spring Boot
 category: springboot
 tags: [springboot]
 keywords: Spring Boot,Docker,部署,docker
+lock: need
 ---
 
 Docker 技术发展为微服务落地提供了更加便利的环境，使用 Docker 部署 Spring Boot 其实非常简单，这篇文章我们就来简单学习下。

@@ -4,6 +4,7 @@ title: Spring Boot 2 (十)：Spring Boot 中的响应式编程和 WebFlux 入门
 category: springboot
 tags: [springboot]
 keywords: Spring Boot,WebFlux,响应式编程,反应式编程
+lock: need
 ---
 
 Spring 5.0 中发布了重量级组件 Webflux，拉起了响应式编程的规模使用序幕。

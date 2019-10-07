@@ -4,6 +4,7 @@ title: Spring Boot(五)：Spring Boot Jpa 的使用
 category: springboot
 copyright: java
 tags: [springboot]
+lock: need
 ---
 
 在上篇文章[Spring Boot(二)：Web 综合开发](http://www.ityouknow.com/springboot/2016/02/03/spring-boot-web.html)中简单介绍了一下 Spring Boot Jpa 的基础性使用，这篇文章将更加全面的介绍 Spring Boot Jpa 常见用法以及注意事项。

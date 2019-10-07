@@ -3,6 +3,7 @@ layout: post
 title: 互联网金融大战黑客
 category: arch 
 tags: [arch]
+lock: need
 ---
 
 在互联网行业里，如果你们的系统还没有被黑客们练过，说明你们的系统还不够成熟。

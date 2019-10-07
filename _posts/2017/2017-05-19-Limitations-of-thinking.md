@@ -3,6 +3,7 @@ layout: post
 title: 思维的局限
 category: life
 tags: [life]
+lock: need
 ---
 
 

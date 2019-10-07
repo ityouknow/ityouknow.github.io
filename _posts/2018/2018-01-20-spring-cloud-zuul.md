@@ -5,6 +5,7 @@ category: springcloud
 tags: [springcloud]
 keywords: springcloud, zuul，路由，网关
 excerpt: Spring Cloud Zuul网关 Filter、熔断、重试、高可用的使用方式。
+lock: need
 ---
 
 时间过的很快，写[springcloud(十)：服务网关zuul初级篇](http://www.ityouknow.com/springcloud/2017/06/01/gateway-service-zuul.html)还在半年前，现在已经是2018年了，我们继续探讨Zuul更高级的使用方式。
