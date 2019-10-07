@@ -3,6 +3,7 @@ layout: post
 title: 中国最顶级的一批程序员，从首富到首负！
 category: it
 tags: [it]
+lock: need
 excerpt: 别人也许会叫错你的真名，却不会叫错你的花名
 ---
 
