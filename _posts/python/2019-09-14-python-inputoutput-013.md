@@ -9,6 +9,8 @@ copyright: python
 
 在前几篇文章中，我们其实已经接触了 Python 的输入输出功能，本篇文章中我们再来详细学习一下。
 
+<!--more-->
+
 ## 1 格式化输出
 
 Python 输出值的方式有两种：表达式语句和 print 函数（文件对象的输出使用 write 方法，标准文件输出可以参考 sys.stdout ，[详细文档](https://docs.python.org/zh-cn/3/faq/extending.html#how-do-i-catch-the-output-from-pyerr-print-or-anything-that-prints-to-stdout-stderr)）。
@@ -93,10 +95,10 @@ Jack: 456; Sjoerd: 123; Dcab: 789789789789
 Jack: 456; Sjoerd: 123; Dcab: 789789789789
 ```
 
+
 ## 2 读取键盘输入
 
 Python 提供了 input() 内置函数从标准输入读入一行文本，默认的标准输入是键盘，input() 可以接收一个 Python 表达式作为输入，并将运算结果返回。示例如下：
-
 ```
 >>> str = input("请输入：");
 >>> print ("输入的内容是: ", str)
@@ -219,8 +221,13 @@ True
 
 本节给大家介绍了 Python 输入输出，对 Python 工程师提供了支撑，能够根据实际情况选择合适的输入输出方式。
 
+> 示例代码：[Python-100-days-day013](https://github.com/JustDoPython/python-100-day/tree/master/day-013)
+
 参考：
 
-[1] [https://docs.python.org/zh-cn/3/library/string.html#formatspec](https://docs.python.org/zh-cn/3/library/string.html#formatspec)
+[https://docs.python.org/zh-cn/3/library/string.html#formatspec](https://docs.python.org/zh-cn/3/library/string.html#formatspec)
 
-[2] [https://docs.pythontab.com/python/python3.5/inputoutput.html#tut-files](https://docs.pythontab.com/python/python3.5/inputoutput.html#tut-files)
+[https://docs.pythontab.com/python/python3.5/inputoutput.html#tut-files](https://docs.pythontab.com/python/python3.5/inputoutput.html#tut-files)
+
+
+

@@ -5,11 +5,13 @@ category: python
 copyright: python
 ---
 
->   by 小小摸虾
+>  by 小小摸虾
 
 函数式编程现在逐渐被广大开发群体接受，越来越多的开发者门开始使用这种优雅的开发模式，而我们使用函数式编程最主要的是需要清楚：
 1. 什么是高阶函数（**Higher-order Functions**）？
 2. Python 中高阶函数有哪些？要怎么用？
+
+<!--more-->
 
 ## 高阶函数概念
 
@@ -44,7 +46,7 @@ print(high_func(square, list(range(10))))
 
 ## Python 常用高阶函数
 
-如同java、scala等语言，我们很多常用的高阶函数基本都一致。在开发中我们经常使用的最基本的高阶函数其实就几个，而我们也可以基于这些函数去进行适当的扩展，那么下面开始介绍几种常用的高阶函数。
+如同 java、scala 等语言，我们很多常用的高阶函数基本都一致。在开发中我们经常使用的最基本的高阶函数其实就几个，而我们也可以基于这些函数去进行适当的扩展，那么下面开始介绍几种常用的高阶函数。
 
 ### map
 
@@ -78,7 +80,7 @@ print(list(squareMap))
 # print out: [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 ```
 
-可以看到输出了同样的结果，只是与  `python2.X`  不用的是，  `python3.X`  中返回  `map` 类
+可以看到输出了同样的结果，只是与  `python2.X`  不同的是，  `python3.X`  中返回  `map` 类
 ，而前者直接返回一个列表。
 
 我们使用匿名函数，也可以传入多个序列，如下
@@ -106,7 +108,7 @@ reduce(function, sequence[, initial]) -> value
 ```
 -  `function`  # 函数, 序列中的每个元素需要执行的操作, 可以是匿名函数
 -  `sequence`  # 需要执行操作的序列
--  `initial`  # 可选，初始参数
+-  `initial`   # 可选，初始参数
 
 最后返回函数的计算结果, 和初始参数类型相同
 
@@ -140,7 +142,7 @@ print(s)
 
 > Return an iterator yielding those items of iterable for which function(item) is true. If function is None, return the items that are true.
 
- `filter()`  函数用来过滤序列中不符合条件的值，返回一个迭代器，该迭代器生成那些函数(项)为true的iterable项。如果函数为None，则返回为true的项。定义如下：
+ `filter()`  函数用来过滤序列中不符合条件的值，返回一个迭代器，该迭代器生成那些函数(项)为 true 的 iterable 项。如果函数为 None，则返回为 true 的项。定义如下：
 
 ```python
 filter(function or None, iterable) --> filter object
@@ -189,7 +191,7 @@ def sorted(iterable: Iterable[_T], *,
 
 -  `iterable`  # 序列
 -  `key`  # 可以用来计算的排序函数。
--  `reverse`  # 排序规则，reverse = True降序，reverse = False 升序(默认）。
+-  `reverse`  # 排序规则，reverse = True 降序，reverse = False 升序(默认）。
 
 举个简单例子：
 
@@ -220,4 +222,6 @@ print(sorted(list02, key=lambda x: len(x), reverse=True))
 以上我们简单的介绍了几个常用的高阶函数的使用，当然还有很多的高阶函数我们可以去研究，比如  `zip`  函数等，希望此节的介绍对大家有所帮助。
 
 ## 代码地址
-[python 高阶函数](https://github.com/JustDoPython/python-100-day/tree/master/day-005)
+
+> 示例代码：[Python-100-days-day018](https://github.com/JustDoPython/python-100-day/tree/master/day-018)
+

@@ -7,11 +7,12 @@ copyright: python
 
 >  by 轩辕御龙
 
+
 # Python 之迭代器
 
 ## 1 概念引入
 
-在之前的教程中，我们已经接触过一些典型的`for`语句，比如：
+在之前的教程中，我们已经接触过一些典型的`for`语句<!--more-->，比如：
 
 ```python
 >>> list_example = [0, 1, 2, 3, 4]
@@ -97,7 +98,7 @@ False
 
 迭代器对象本质上代表的是一个数据流，通过反复调用其方法`__next__()`或将其作为参数传入`next()`函数，即可按顺序逐个返回数据流中的每一项；直到流中不再有数据项，从而抛出一个`StopIteration`异常，终止迭代。
 
-在 Python 中内置了两个函数：`iter()`和`iter()`，分别用于“**将参数对象转换为迭代器对象**”和“**从迭代器中取出下一项**”。
+在 Python 中内置了两个函数：`iter()`和`next()`，分别用于“**将参数对象转换为迭代器对象**”和“**从迭代器中取出下一项**”。
 
 实际上所有具有方法`__iter__()`的对象均被视作“可迭代的”。因为方法`__iter__()`进行的操作其实就是返回一个该对象对应的迭代器，也就是说“可迭代的（iterable）”的真实含义其实是“可以被转换为迭代器（iterator）的”。而内置函数`iter()`也是调用对象本身具有的`__iter__()`方法来实现特定对象到迭代器的转换。
 
@@ -209,6 +210,8 @@ class Reverse:
 
 本文探究了 Python 中迭代器的相关知识点，深入理解了迭代器的属性和行为，学到了两个重要的方法`__iter__()`和`__next__()`。同时搞明白了 Python 实现`for`循环的内部机制。
 
+> 示例代码：[Python-100-days-day019](https://github.com/JustDoPython/python-100-day/tree/master/day-019)
+
 ## 参考资料
 
 [1] [Python3 文档-内置类型](https://docs.python.org/3/library/stdtypes.html)
@@ -216,3 +219,4 @@ class Reverse:
 [2] [廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/1016959663602400/1017323698112640)
 
 [3] [Python3 文档-类-9.8 迭代器](https://docs.python.org/3/tutorial/classes.html?highlight=iterator#iterators)
+

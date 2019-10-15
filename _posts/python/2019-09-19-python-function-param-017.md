@@ -5,15 +5,17 @@ category: python
 copyright: python
 ---
 
-> by 小小摸虾
+>  by 小小摸虾
 
 定义一个函数非常简单，但是怎么定义一个函数，需要什么参数，怎么去调用却是我们需要去思考的问题。
 
 如同大多数语言一样（如 Java），Python 也提供了多种参数的设定（如：默认值参数、关键字参数、形参等）。使用这些参数定义出来的代码，可以让我们适应不同的开放场景，也能简化我们的代码开发工作。
 
+<!--more-->
+
 ## 默认值参数
 
-我们创建一个函数，定义参数中一个或多个赋予默认值后，我们可以使用比允许的更少的参数去调用此函数，举个例子（*注意:以下代码都使用python3.7版本*）：
+我们创建一个函数，定义参数中一个或多个赋予默认值后，我们可以使用比允许的更少的参数去调用此函数，举个例子（*注意:以下代码都使用 python3.7 版本*）：
 
 ```python
 def def_param_fun(prompt, retries=4, reminder='Please try again!'):
@@ -78,7 +80,7 @@ print(f(3))
 
 ## 可变参数
 
-可变参数也就是我们对于函数中定义的参数是可以一个或多个可以变化的，其中 \*args代表着可以传入一个list或者tuple, \*\*args代表着可以传入一个dict。举个例子：
+可变参数也就是我们对于函数中定义的参数是可以一个或多个可以变化的，其中 `*args` 代表着可以传入一个 list 或者 tuple, `**args` 代表着可以传入一个 dict。举个例子：
 
 ```python
 def variable_fun(kind, *arguments, **keywords):
@@ -116,7 +118,7 @@ dict01 = {'mother': 'xiaoma', 'father': 'xiaoba', 'son': 'see you'}
 variable_fun("xiaoming", *list01, **dict01)
 ```
 
-以上其实是python的解包操作，和java类似。
+以上其实是 python 的解包操作，和 java 类似。
 
 ## 关键字参数
 
@@ -147,11 +149,9 @@ key_fun(100, voltage=1000)                             # error
 ```
 
 ## 总结
-
-本节主要简单的介绍了python中函数参数的使用，设定的方式可以配合使用，但是也不要过多的去设计，否则会造成函数的可读性变的很差。
+本节主要简单的介绍了 python 中函数参数的使用，设定的方式可以配合使用，但是也不要过多的去设计，否则会造成函数的可读性变的很差。
 
 ## 代码地址
-[python中函数的参数设定](https://github.com/JustDoPython/python-100-day/tree/master/day-005)
 
-
+> 示例代码：[Python-100-days-day017](https://github.com/JustDoPython/python-100-day/tree/master/day-017)
 

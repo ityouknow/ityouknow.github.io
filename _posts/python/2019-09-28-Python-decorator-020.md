@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  第22天：Python 之装饰器
+title:  第20天：Python 之装饰器
 category: python
 copyright: python
 ---
 
-> by 轩辕御龙
+>  by 轩辕御龙
 
 # Python 之装饰器
 
@@ -14,6 +14,8 @@ copyright: python
 **装饰器**（decorator），又称“装饰函数”，即一种返回值也是函数的函数，可以称之为“函数的函数”。其目的是在不对现有函数进行修改的情况下，实现额外的功能。最基本的理念来自于一种被称为“装饰模式”的设计模式。
 
 在 Python 中，装饰器属于纯粹的“语法糖”，不使用也没关系，但是使用的话能够大大简化代码，使代码更加易读——当然，是对知道这是怎么回事儿的人而言。
+
+<!--more-->
 
 想必经过一段时间的学习，大概率已经在 Python 代码中见过`@`这个符号。没错，这个符号正是使用装饰器的标识，也是正经的 Python 语法。
 
@@ -53,7 +55,7 @@ tobeDecorated = IAmDecorator(tobeDecorated)
 
 而装饰函数就好像为原来的函数套了一层壳。如图所示，最后得到的组合函数即为应用装饰器产生的新函数：
 
-![2019-09-23-装饰器_03.gif](https://ws1.sinaimg.cn/large/006cMbyIly1g79vi4kevog30ui0ltadr.gif)
+![2019-09-23-装饰器_03.gif](http://www.justdopython.com/assets/images/2019/09/23/2019-09-23-decorator_03.gif)
 
 这里要注意一点，上述两段代码在具体执行上还是存在些微的差异。在第二段代码中，函数名`tobeDecorated`实际上是先指向了原函数，在经过装饰器修饰之后，才指向了新的函数；但第一段代码的执行就没有这个中间过程，直接得到的就是名为`tobeDecorated`的新函数。
 
@@ -69,7 +71,7 @@ Python 中，装饰器分为两种，分别是“函数装饰器”和“类装�
 
 对装饰函数的定义大致可以总结为如图所示的模板，即：
 
-![装饰函数模板示意图.png](https://ws1.sinaimg.cn/large/006cMbyIly1g79wrt6bv4j30cf09pq2z.jpg)
+![装饰函数模板示意图.png](http://www.justdopython.com/assets/images/2019/09/23/template_of_decoratorFunction.png)
 
 由于要求装饰函数返回值也为一个函数的缘故，为了在原函数的基础上对功能进行扩充，并且使得扩充的功能能够以函数的形式返回，因此需要在装饰函数的定义中再定义一个内部函数，在这个内部函数中进一步操作。最后`return`的对象就应该是这个内部函数对象，也只有这样才能够正确地返回一个附加了新功能的函数。
 
@@ -285,6 +287,8 @@ func = f1(arg)(f2(func))
 ## 4. 总结
 
 本文介绍了 Python 中的装饰器这一特性，详细讲解了装饰器的实际原理和使用方式，能够大大帮助学习者掌握有关装饰器的知识，减小读懂 Python 代码的阻力，写出更加 pythonic 的代码。
+
+> 示例代码：[Python-100-days-day022](https://github.com/JustDoPython/python-100-day/tree/master/day-020)
 
 ## 参考资料
 

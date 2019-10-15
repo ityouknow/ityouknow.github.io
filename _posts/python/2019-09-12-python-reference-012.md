@@ -13,7 +13,9 @@ copyright: python
 
 Python 中对于变量的处理与 C 语言有着很大的不同，Python 中的变量具有一个特殊的属性：identity，即“身份标识”。这种特殊的属性也在很多地方被称为“引用”。
 
-为了更加清晰地说明引用相关的问题，我们首先要介绍两个工具：一个 Python 的内置函数：`id()`；一个运算符：`is`；同时还要介绍一个`sys`模块内的函数：`getrefcount()`。
+<!--more-->
+
+为了更加清晰地说明引用相关的问题，我们首先要介绍两个工具：一个Python的内置函数：`id()`；一个运算符：`is`；同时还要介绍一个`sys`模块内的函数：`getrefcount()`。
 
 ### 1.1 内置函数`id()`
 
@@ -62,46 +64,46 @@ C 语言中，变量代表的就是一段固定的内存，而赋给变量的值
 举例来说，对于如下的 C 代码：
 
 ```c
-int a = 10000;
+int c_variable = 10000;
 printf("original address: %p\n", &a); // original address: 0060FEFC
-a = 12345;
+c_variable = 12345;
 printf("second address: %p\n", &a); // second address: 0060FEFC
 ```
 
-对于有 C 语言编程经验的人来说，上述结果是显而易见的：变量`a`的地址并不会因为赋给它的值有变化而发生变化。对于 C 编译器来说，变量`a`只是协助它区别各个内存地址的标识，是直接与特定的内存地址绑定的，如图所示：
+对于有 C 语言编程经验的人来说，上述结果是显而易见的：变量`c_variable`的地址并不会因为赋给它的值有变化而发生变化。对于 C 编译器来说，变量`c_variable`只是协助它区别各个内存地址的标识，是直接与特定的内存地址绑定的，如图所示：
 
-![C 语言中的变量赋值](https://ws1.sinaimg.cn/large/006cMbyIly1g6wx9mqrqvj30f707o3yf.jpg)
+![C 语言中的变量赋值](http://www.justdopython.com/assets/images/2019/09/12/2019-09-12-python-reference-012-C.png)
 
 但 Python 就不一样的。考虑如下代码：
 
 ```python
->>> a = 10000
->>> id(a)
+>>> python_variable = 10000
+>>> id(python_variable)
 1823863879824
->>> a = 12345
->>> id(a)
+>>> python_variable = 12345
+>>> id(python_variable)
 1823863880176
 ```
 
 这就有点儿意思了，更加神奇的是，即使赋给变量同一个常数，其得到的`id`也可能不同：
 
 ```python
->>> a = 10000
->>> id(a)
+>>> python_variable = 10000
+>>> id(python_variable)
 1823863880304
->>> a = 10000
->>> id(a)
+>>> python_variable = 10000
+>>> id(python_variable)
 1823863879408
 ```
 
-假如`a`对应的数据类型是一个列表，那么：
+假如`python_variable`对应的数据类型是一个列表，那么：
 
 ```python
->>> a = [1,2]
->>> id(a)
+>>> python_variable = [1,2]
+>>> id(python_variable)
 2161457994952
->>> a = [1,2]
->>> id(a)
+>>> python_variable = [1,2]
+>>> id(python_variable)
 2161458037448
 ```
 
@@ -109,29 +111,29 @@ printf("second address: %p\n", &a); // second address: 0060FEFC
 
 正如前文所述，在 Python 中，变量就是一块砖，哪里需要哪里搬。每次将一个新的对象赋值给一个变量，都在内存中**重新创建**了一个对象，这个对象就具有新的引用值。作为一个“标签”，变量也是哪里需要哪里贴，毫无节操可言。
 
-![Snipaste_2019-09-12_18-50-30.png](https://ws1.sinaimg.cn/large/006cMbyIly1g6wxgtfe84j30vh0cjdfx.jpg)
+![Python 中的变量赋值](http://www.justdopython.com/assets/images/2019/09/12/2019-09-12-python-reference-012-python-assignment.png)
 
 > 但要注意的是，这里还有一个问题：之所以说“即使赋给变量同一个常数，其得到的`id`也**可能**不同”，实际上是因为并不是对所有的常数都存在这种情况。以常数`1`为例，就有如下结果：
 >
 > ```python
-> >>> a = 1
-> >>> id(a)
+> >>> littleConst = 1 # 数值较小的整型对象
+> >>> id(littleConst)
 > 140734357607232
-> >>> a = 1
-> >>> id(a)
+> >>> littleConst = 1
+> >>> id(littleConst)
 > 140734357607232
 > >>> id(1)
 > 140734357607232
 > ```
 >
-> 可以看到，常数`1`对应的`id`一直都是相同的，没有发生变化，因此变量`a`的`id`也就没有变化。
+> 可以看到，常数`1`对应的`id`一直都是相同的，没有发生变化，因此变量`littleConst`的`id`也就没有变化。
 >
 > 这是因为Python在内存中维护了一个特定数量的常量池，对于一定范围内的数值均不再创建新的对象，而直接在这个常量池中进行分配。实际上在我的机器上使用如下代码可以得到这个常量池的范围是 [0, 256] ，而 256 刚好是一个字节的二进制码可以表示的值的个数。
 >
 > ```python
-> for b in range(300):
->     if b is not range(300)[b]:
->         print("常量池最大值为：", (b - 1))
+> for constant in range(300):
+>     if constant is not range(300)[constant]:
+>         print("常量池最大值为：", (constant - 1))
 >         break
 > # 常量池最大值为： 256
 > ```
@@ -139,26 +141,26 @@ printf("second address: %p\n", &a); // second address: 0060FEFC
 相应地，对于数值进行加减乘除并将结果赋给原来的变量，都会改变变量对应的引用值：
 
 ```python
->>> a = 10000
->>> id(a)
+>>> change_ref = 10000
+>>> id(change_ref)
 2161457772304
->>> a = a + 1
->>> a
+>>> change_ref = change_ref + 1
+>>> change_ref
 10001
->>> id(a)
+>>> id(change_ref)
 2161457772880
 ```
 
-比较代码块第 3、8行的输出结果，可以看到对数值型变量执行加法并赋值会改变对应变量的引用值。这样的表现应该比较好理解。因为按照 Python 运算符的优先级，`a = a + 1`实际上就是`a = (a + 1)`，对变量`a`对应的数值加1之后得到的是一个新的数值，再将这个新的数值赋给`a` ，于是`a`的引用也就随之改变。列表也一样：
+比较代码块第 3、8行的输出结果，可以看到对数值型变量执行加法并赋值会改变对应变量的引用值。这样的表现应该比较好理解。因为按照 Python 运算符的优先级，`change_ref = change_ref + 1`实际上就是`change_ref = (change_ref + 1)`，对变量`change_ref`对应的数值加1之后得到的是一个新的数值，再将这个新的数值赋给`change_ref` ，于是`change_ref`的引用也就随之改变。列表也一样：
 
 ```python
->>> a = [1,2]
->>> id(a)
+>>> list_change_ref = [1,2]
+>>> id(list_change_ref)
 2161458326920
->>> a = a + [4]
->>> a
+>>> list_change_ref = list_change_ref + [4]
+>>> list_change_ref
 [1, 2, 4]
->>> id(a)
+>>> id(list_change_ref)
 2161458342792
 ```
 
@@ -167,18 +169,18 @@ printf("second address: %p\n", &a); // second address: 0060FEFC
 与数值不同，Python 中对列表对象的操作还表现出另一种特性。考虑下面的代码：
 
 ```python
->>> c = [1, 2, 3]
->>> id(c)
+>>> list_nonchange = [1, 2, 3]
+>>> id(list_nonchange)
 2161458355400
->>> c[2] = 5
->>> c
+>>> list_nonchange[2] = 5
+>>> list_nonchange
 [1, 2, 5]
->>> id(c)
+>>> id(list_nonchange)
 2161458355400
->>> c.append(3)
->>> c
+>>> list_nonchange.append(3)
+>>> list_nonchange
 [1, 2, 5, 3]
->>> id(c)
+>>> id(list_nonchange)
 2161458355400
 ```
 
@@ -187,56 +189,56 @@ printf("second address: %p\n", &a); // second address: 0060FEFC
 更进一步地，如果是两个变量同时引用同一个列表，则对其中一个变量本身直接进行操作，也会影响到另一个变量的值：
 
 ```python
->>> c = [1, 2, 3]
->>> cc = c
->>> id(c)
+>>> list_example = [1, 2, 3]
+>>> list_same_ref = list_example
+>>> id(list_example)
 1823864610120
->>> id(cc)
+>>> id(list_same_ref)
 1823864610120
 ```
 
-显然此时的变量`c`和`cc`的`id`是一致的。现在改变`c`所引用的列表值：
+显然此时的变量`list_example`和`list_same_ref`的`id`是一致的。现在改变`list_example`所引用的列表值：
 
 ```python
->>> c[2] = 5
->>> cc
+>>> list_example[2] = 5
+>>> list_same_ref
 [1, 2, 5]
 ```
 
-可以看到`cc`所引用的列表值也随之变化了。再看看相应地`id`：
+可以看到`list_same_ref`所引用的列表值也随之变化了。再看看相应地`id`：
 
 ```python
->>> id(c)
+>>> id(list_example)
 1823864610120
->>> id(cc)
+>>> id(list_same_ref)
 1823864610120
 ```
 
 两个变量的`id`都没有发生变化。再调用`append()`方法：
 
 ```python
->>> c.append(3)
->>> c
+>>> list_example.append(3)
+>>> list_example
 [1, 2, 5, 3]
->>> cc
+>>> list_same_ref
 [1, 2, 5, 3]
->>> id(c)
+>>> id(list_example)
 1823864610120
->>> id(cc)
+>>> id(list_same_ref)
 1823864610120
 ```
 
 删除元素：
 
 ```python
->>> del c[3]
->>> c
+>>> del list_example[3]
+>>> list_example
 [1, 2, 5]
->>> cc
+>>> list_same_ref
 [1, 2, 5]
->>> id(c)
+>>> id(list_example)
 1823864610120
->>> id(cc)
+>>> id(list_same_ref)
 1823864610120
 ```
 
@@ -285,18 +287,17 @@ printf("second address: %p\n", &a); // second address: 0060FEFC
 由于数字是不可变对象，我们不能够对数值本身进行任何可以改变数据值的操作。因此在 Python 中，每出现一个数值都意味着需要另外分配一个新的内存空间（常量池中的数值例外）。
 
 ```python
->>> a = 10000
->>> a == 10000
+>>> const_ref = 10000 # 
+>>> const_ref == 10000
 True
->>> a is 10000
+>>> const_ref is 10000
 False
->>> id(a)
+>>> id(const_ref)
 2161457773424
 >>> id(10000)
 2161457773136
->>> 
-from sys import getrefcount
->>> getrefcount(a)
+>>> from sys import getrefcount
+>>> getrefcount(const_ref)
 2
 >>> getrefcount(10000)
 3
@@ -304,7 +305,7 @@ from sys import getrefcount
 
 前 9 行的代码容易理解：即使是同样的数值，也可能具有不同的引用值。关键在于这个值是否来自于同一个对象。
 
-而第 10 行的代码则说明除了`getrefcount()`函数的引用外，变量`a`所引用的对象就只有1个引用，也就是变量`a`。一旦变量`a`被释放，则相应的对象引用计数归零，也会被释放；并且只有此时，这个对象对应的内存空间才是真正的“被释放”。
+而第 12 行的代码则说明除了`getrefcount()`函数的引用外，变量`const_ref`所引用的对象就只有1个引用，也就是变量`const_ref`。一旦变量`const_ref`被释放，则相应的对象引用计数归零，也会被释放；并且只有此时，这个对象对应的内存空间才是真正的“被释放”。
 
 而作为可变对象，列表的值是可以在不新建对象的情况下进行改变的，因此对列表对象本身直接进行操作，是可以达到“改变变量值而不改变引用”的目的的。
 
@@ -312,7 +313,9 @@ from sys import getrefcount
 
 对于列表、字典和集合这些“可变对象”，通过对变量所引用对象本身进行操作，可以只改变变量的值而不改变变量的引用；但对于数字、字符串和元组这些“不可变对象”，由于对象本身是不能够进行变值操作的，因此要想改变相应变量的值，就必须要新建对象，再把新建对象赋值给变量。
 
-通过这样的探究，也能更加生动地理解“万物皆对象”的深刻含义。
+通过这样的探究，也能更加生动地理解“万物皆对象”的深刻含义。0
+
+> 示例代码：[Python-100-days-day012](https://github.com/JustDoPython/python-100-day/tree/master/day-012)
 
 ## 5. 参考资料
 
@@ -325,3 +328,4 @@ from sys import getrefcount
 [Python 3.7.4 文档-术语表](https://docs.python.org/3.7/glossary.html?highlight=getrefcount)
 
 [关于Python中的引用](https://www.cnblogs.com/yuyan/archive/2012/04/21/2461673.html)
+
