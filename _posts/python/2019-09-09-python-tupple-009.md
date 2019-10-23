@@ -3,6 +3,7 @@ layout: post
 title:  第9天：Python tupple（元组）
 category: python
 copyright: python
+lock: need
 ---
 
 >  by 沉默王二

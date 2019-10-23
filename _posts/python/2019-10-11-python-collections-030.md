@@ -3,6 +3,7 @@ layout: post
 title:  第30天： Python collections 模块
 category: python
 copyright: python
+lock: need
 ---
 
 >  by 豆豆

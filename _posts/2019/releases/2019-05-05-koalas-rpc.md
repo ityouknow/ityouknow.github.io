@@ -4,6 +4,7 @@ title: 百亿级企业级 RPC 框架开源了！
 category: it
 tags: [it]
 excerpt: 可靠的 RPC 框架技术方案
+lock: need
 ---
 
 今天给大家介绍给一款性能卓越的 RPC 开源框架，其作者就是我推荐每个 Java 程序员都应该看的[《Java 生态核心知识点整理》](http://www.ityouknow.com/java/2019/03/25/java-knowledge.html)的原作者张玉龙。

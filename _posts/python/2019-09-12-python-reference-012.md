@@ -3,6 +3,7 @@ layout: post
 title:  第12天：Python 之引用
 category: python
 copyright: python
+lock: need
 ---
 
 >  by 轩辕御龙

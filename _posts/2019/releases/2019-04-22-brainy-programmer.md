@@ -4,6 +4,7 @@ title: 做一个有脑子的程序员
 no-post-nav: true
 category: life
 tags: [life]
+lock: need
 excerpt: 脑子是个好东西，出门请带上。
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title:  第20天：Python 之装饰器
 category: python
 copyright: python
+lock: need
 ---
 
 >  by 轩辕御龙
