@@ -173,11 +173,6 @@ labels:
     label: Chat
     target: _blank
 
-  -
-    href: /geektime.html
-    label: 极客
-    target: _blank
-
 
 # selected articles
 classes:
