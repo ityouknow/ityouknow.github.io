@@ -10,7 +10,7 @@ permalink: /link
 ## 友情链接
 
 - [人工智能教程博客](http://www.captainbed.net/blog-neo) - 一个幽默的系列课程
-- [沉默王二](http://www.qingmiaokeji.cn/) - 一个有趣的程序员
+- [沉默王二](http://www.itwanger.com) - 一个有趣的程序员
 - [江南一点雨](https://www.javaboy.org/) - 专注于 Spring Boot + 微服务
 - [闷瓜蛋子的博客](https://fookwood.com) - 八年博客，大公司小公司游荡多年，目前为自由职业
 - [Java极客技术](http://www.justdojava.com) - Java 技术人的一片天地
