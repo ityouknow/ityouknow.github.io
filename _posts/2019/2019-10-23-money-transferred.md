@@ -1,6 +1,6 @@
---
+---
 layout: post
-title: 买买买的时候，你的钱是如何被划走的？
+title: 从刷卡购物来讲，第三方支付是怎么运转的？
 category: payment
 tags: [payment]
 keywords: 那些你不知道的行业"内幕"
