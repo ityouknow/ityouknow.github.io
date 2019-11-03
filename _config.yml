@@ -161,7 +161,7 @@ labels:
 
   -
     href: /payment.html
-    label: 支付     
+    label: Pay     
     target: _self
 
   -
