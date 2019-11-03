@@ -137,7 +137,6 @@ navs:
     
     href: /python.html
     label: Python
-    target: _blank
     subnav:
 
       -
