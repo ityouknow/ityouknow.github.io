@@ -65,7 +65,7 @@ public class DockerApplication {
 }
 ```
 
-添加完毕后启动项目，启动成功后浏览器放问：`http://localhost:8080/`，页面返回：`Hello Docker!`，说明 Spring Boot 项目配置正常。
+添加完毕后启动项目，启动成功后浏览器访问：`http://localhost:8080/`，页面返回：`Hello Docker!`，说明 Spring Boot 项目配置正常。
 
 
 ## Spring Boot 项目添加 Docker 支持
