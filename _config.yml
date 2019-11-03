@@ -199,14 +199,14 @@ classes:
     describe: 生活就是故事，故事就是生活
 
   -
+    href: /it.html
+    name: IT行业深度报道
+    describe: IT大佬，互联网知名公司的故事
+
+  -
     href: /arch.html
     name: 架构师之路
     describe: 一个架构师的自我修养
-
-  -
-    href: /java.html
-    name: Java 系列文章
-    describe: Java 之根基，Java 程序员必学
 
 
 # ---------------- #
