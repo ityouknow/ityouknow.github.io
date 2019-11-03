@@ -142,7 +142,7 @@ navs:
 
       -
         subHref: /python.html
-        subLabel: Python 系列文章
+        subLabel: Python 教程
         
       -
         subHref: http://www.justdopython.com
