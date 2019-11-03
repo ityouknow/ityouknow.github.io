@@ -1,12 +1,15 @@
 <div>
    <p align="center">
-         	  {% if page.copyright %}
-             <img src="http://favorites.ren/assets/images/{{ page.copyright }}.jpg" >
-            {% else %}
-             <img src="http://favorites.ren/assets/images/keeppuresmile.jpg" >
-            {% endif %}
+     	  {% if page.copyright %}
+         <img src="http://favorites.ren/assets/images/{{ page.copyright }}.jpg" >
          <br/>
-          一个有故事的程序员
+         微信扫描二维码，关注我的公众号
+        {% else %}
+         <img src="http://favorites.ren/assets/images/keeppuresmile.jpg" >
+         <br/>
+         微信扫描二维码，关注一个有故事的程序员
+        {% endif %}
+
    </p>
    <p align="center" style="margin-top: 15px; font-size: 11px;color: #cc0000;">
        <strong>（转载本站文章请注明作者和出处 <a href="http://favorites.ren">纯洁的微笑-ityouknow</a>）</strong>
