@@ -1,8 +1,8 @@
 ---
 layout: page
-title: 互联网代表着未来
+title: 互联网那些事
 titlebar: it
-subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; 互联网那些事
+subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; IT行业大佬，知名互联网公司的那些故事...
 menu: it
 css: ['blog-page.css']
 permalink: /it
