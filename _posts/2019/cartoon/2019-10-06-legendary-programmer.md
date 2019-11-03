@@ -4,6 +4,7 @@ title: 漫画 | 外行对程序员误会有多深！
 category: cartoon
 no-post-nav: true
 tags: [cartoon]
+copyright: cartoon
 excerpt: 传说中的程序员
 ---
 
