@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 漫画 | 外行对程序员误会有多深！
-category: it
+category: cartoon
 no-post-nav: true
-tags: [it]
+tags: [cartoon]
 excerpt: 传说中的程序员
 ---
 

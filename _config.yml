@@ -55,14 +55,15 @@ paginate_path: 'page:num'
 # Navigation. top menu list
 menus:
 
+
   -
-    href: /python.html
-    label: Python  
+    href: /cartoon.html
+    label: 漫画
     target: _self
 
   -
     href: /it.html
-    label: IT
+    label: 深度
     target: _self
 
   -
@@ -85,7 +86,10 @@ menus:
     label: 友链
     target: _self
 
-
+  -
+    href: /about.html
+    label: 关于
+    target: _self
 
 # Navigation. main menu list
 navs:
@@ -130,14 +134,26 @@ navs:
         target: _blank
 
   -
+    
+    href: /python.html
+    label: Python
+    target: _blank
+    subnav:
+
+      -
+        subHref: /python.html
+        subLabel: Python 系列文章
+        
+      -
+        subHref: http://www.justdopython.com
+        subLabel: Python 技术
+        target: _blank
+
+  -
     href: /archives.html
     label: Archives
     target: _self
 
-  -
-    href: /about.html
-    label: About
-    target: _self
 
 
 # labels. my blog key words
