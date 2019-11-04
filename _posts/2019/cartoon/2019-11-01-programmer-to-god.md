@@ -2,15 +2,16 @@
 layout: post
 title: 漫画 | 程序员成神之路，一年挖坑，五年扛旗，十年成神
 category: cartoon
+no-post-nav: true
 tags: [cartoon]
 copyright: cartoon
 excerpt: 盘！！！
 ---
 
+![](http://favorites.ren/assets/images/2019/cartoon/togod01.jpg)
 
-
-作者：阿波
-漫画师：毛球球
+*作者：阿波  
+漫画师：毛球球*
 
 
 自人类社会诞生以来
@@ -25,8 +26,6 @@ excerpt: 盘！！！
 
 称之为“小白”
 
- 
-
 在程序员的世界里
 
 等级同样森严
@@ -39,34 +38,18 @@ excerpt: 盘！！！
 
 我们一起来看看
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![](http://favorites.ren/assets/images/2019/cartoon/togod02.jpg)
+![](http://favorites.ren/assets/images/2019/cartoon/togod03.jpg)
+![](http://favorites.ren/assets/images/2019/cartoon/togod04.jpg)
+![](http://favorites.ren/assets/images/2019/cartoon/togod05.jpg)
+![](http://favorites.ren/assets/images/2019/cartoon/togod06.jpg)
+![](http://favorites.ren/assets/images/2019/cartoon/togod07.jpg)
+![](http://favorites.ren/assets/images/2019/cartoon/togod08.jpg)
+![](http://favorites.ren/assets/images/2019/cartoon/togod09.jpg)
+![](http://favorites.ren/assets/images/2019/cartoon/togod10.jpg)
+![](http://favorites.ren/assets/images/2019/cartoon/togod11.jpg)
+![](http://favorites.ren/assets/images/2019/cartoon/togod12.jpg)
+![](http://favorites.ren/assets/images/2019/cartoon/togod13.jpg)
 
 每个人都做过小白
 
@@ -78,8 +61,6 @@ excerpt: 盘！！！
 
 而是汗水和经验
 
- 
-
 小白们
 
 莫急莫燥
@@ -88,15 +69,11 @@ excerpt: 盘！！！
 
 所谓“十年磨一剑”
 
- 
-
 听内心之声音
 
 找前进之方向
 
 按自己之快慢
-
- 
 
 最后就是一个字
 
