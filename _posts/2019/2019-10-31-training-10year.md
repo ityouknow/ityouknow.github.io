@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 面对培训机构的这些争议！| 十年系列
+title: 我在培训机构折腾的经历，再和大家聊聊这个行业| 十年系列
 category: life
 tags: [life]
 excerpt: 原谅我这一生不羁放纵爱自由
