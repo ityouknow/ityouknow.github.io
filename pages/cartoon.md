@@ -1,8 +1,8 @@
 ---
 layout: page
-title: 用漫画讲故事
+title: 不会笑青年
 titlebar: cartoon
-subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; 欢迎关注不会笑青年
+subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; 用漫画讲故事
 menu: cartoon
 css: ['blog-page.css']
 permalink: /cartoon

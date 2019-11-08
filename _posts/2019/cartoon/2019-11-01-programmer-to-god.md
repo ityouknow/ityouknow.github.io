@@ -26,6 +26,7 @@ excerpt: 盘！！！
 
 称之为“小白”
 
+
 在程序员的世界里
 
 等级同样森严
@@ -37,6 +38,7 @@ excerpt: 盘！！！
 就会脱胎换骨一次
 
 我们一起来看看
+
 
 ![](http://favorites.ren/assets/images/2019/cartoon/togod02.jpg)
 ![](http://favorites.ren/assets/images/2019/cartoon/togod03.jpg)
@@ -77,7 +79,4 @@ excerpt: 盘！！！
 
 最后就是一个字
 
-盘！！！
-
-
-
+盘它！！！
