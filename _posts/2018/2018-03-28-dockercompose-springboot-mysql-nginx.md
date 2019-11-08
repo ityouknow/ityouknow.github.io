@@ -7,11 +7,11 @@ keywords: Spring Boot,Docker,Compose,Nginx,Mysql,docker
 excerpt: 感受 Docker 魅力，排解决多应用部署之疼，Docker Compose + Spring Boot + Nginx + Mysql 实践
 ---
 
-我知道大家这段时间看了我写关于 docker 相关的几篇文章，不疼不痒的，仍然没有感受 docker 的便利，是的，我也是这样认为的，I know your felling 。
+我知道大家这段时间看了我写关于 docker 相关的几篇文章，不疼不痒的，仍然没有感受 docker 的便利，是的，我也是这样认为的，I know your feeling 。
 
 前期了解概念什么的确实比较无聊，请不要着急精彩马上开始，当大家对 docker 相关概念有所了解之后，后面我会结合 Spring Boot 给大家来一系列的小例子，会让大家感受到使用 Docker 就是这么爽！
 
-今天给大家演出的导演是 Docker 家族的 docker-compare ，主演是 Spring Boot、Nginx、Mysql 三位又红又紫的大碗，名导名演在一起的时候往往是准备搞事情，接下来又一场经典大片值得大家期待。
+今天给大家演出的导演是 Docker 家族的 docker-compose ，主演是 Spring Boot、Nginx、Mysql 三位又红又紫的大碗，名导名演在一起的时候往往是准备搞事情，接下来又一场经典大片值得大家期待。
 
 ![](http://favorites.ren/assets/images/2018/springboot/qifen.gif)
 
