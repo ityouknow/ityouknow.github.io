@@ -32,7 +32,7 @@ excerpt: 原谅我这一生不羁放纵爱自由
 
 - [① 我是如何走向程序生涯](https://mp.weixin.qq.com/s/WQF7MvavYwplcIkJbiVCLw)
 
-- [② 毕业即失业，找工作找到怀疑人生]
+- [② 毕业即失业，找工作找到怀疑人生](http://www.ityouknow.com/life/2019/08/10/jobless.html)
 
 - [③深圳流水线工厂，我差点和主管打了起来](https://mp.weixin.qq.com/s/DcfMcs4Q3XkQj0Ww6gu_uA)
 
