@@ -66,7 +66,7 @@ lock: need
 
 再使用360搜索“天汽车城”，发现第一个是泉州海天汽车城。
 
-![](http://favorites.ren/assets/images/2019/it/photoleak08.jpeg)
+![](http://favorites.ren/assets/images/2019/it/photoleak09.jpeg)
 
 再使用地图看一下
 
