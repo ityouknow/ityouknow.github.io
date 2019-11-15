@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "第 1 份工作，我只干了 2 周就被辞退了" | 十年系列
+title: 第 1 份工作，我只干了 2 周就被辞退了 | 十年系列
 category: life
 tags: [life]
 excerpt: 一段不好意思和人聊起的经历
