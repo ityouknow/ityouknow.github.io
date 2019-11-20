@@ -88,7 +88,6 @@ export HBASE_LOG_DIR=/usr/local/hbase/logs
 
 ``` shell 
 vim /usr/local/hbase/conf/regionservers
-hadoop-master
 hadoop-slave1
 hadoop-slave2
 hadoop-slave3
