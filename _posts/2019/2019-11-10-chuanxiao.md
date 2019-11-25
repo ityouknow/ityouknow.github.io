@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 程序员被空姐骗到香港做传销！
+title: 程序员被空姐骗到香港做传销
 category: it
 tags: [it]
 excerpt: 警惕突然来的关心
