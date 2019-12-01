@@ -1,4 +1,3 @@
-2019-11-24-thangkgiving.md
 ---
 layout: post
 title: 漫画 | 感恩节，我TM要感恩全世界！
@@ -8,6 +7,7 @@ tags: [cartoon]
 copyright: cartoon
 excerpt: 感谢领导画大饼，感谢大厂996！
 ---
+
 ![](http://favorites.ren/assets/images/2019/cartoon/thanksgiving18.png)
 ![](http://favorites.ren/assets/images/2019/cartoon/thanksgiving01.jpeg)
 ![](http://favorites.ren/assets/images/2019/cartoon/thanksgiving02.jpeg)
