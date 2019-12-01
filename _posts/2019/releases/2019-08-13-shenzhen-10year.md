@@ -31,7 +31,7 @@ lock: need
 
 - [② 毕业即失业，找工作找到怀疑人生](https://mp.weixin.qq.com/s/unR9eCfn_KqLAaqZT8llQA)
 
-如果着急了解我的 10 年经历，可以看看这个漫画：[“失败”的北漂十年经历](https://mp.weixin.qq.com/s/-zhXIkyL2dSABxC3211QEQ)，这里有我的一段故事。
+提前了解 10 年经历，可以看看这个漫画：[“失败”的北漂十年经历](https://mp.weixin.qq.com/s/-zhXIkyL2dSABxC3211QEQ)，这里有我的一段故事。
 
 ## 2. 割裂的深圳
 

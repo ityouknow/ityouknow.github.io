@@ -34,7 +34,7 @@ excerpt: 生活没有希望...
 
 - [③深圳流水线工厂，我差点和主管打了起来](https://mp.weixin.qq.com/s/DcfMcs4Q3XkQj0Ww6gu_uA)
 
-如果着急了解我的 10 年经历，可以看看这个漫画：[“失败”的北漂十年经历](https://mp.weixin.qq.com/s/-zhXIkyL2dSABxC3211QEQ)，这里有我的一段故事。
+提前了解 10 年经历，可以看看这个漫画：[“失败”的北漂十年经历](https://mp.weixin.qq.com/s/-zhXIkyL2dSABxC3211QEQ)，这里有我的一段故事。
 
 ## 2.河南农村小伙马向前
 

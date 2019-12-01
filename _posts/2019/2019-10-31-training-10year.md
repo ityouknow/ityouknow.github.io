@@ -38,7 +38,7 @@ excerpt: 原谅我这一生不羁放纵爱自由
 
 - [④富士康14跳被我赶上了，流水线车间真的没有梦想](https://mp.weixin.qq.com/s?__biz=MzI4NDY5Mjc1Mg==&mid=2247489232&idx=1&sn=1fb01594b8ea081f5b7cb2beec0ff0bc&chksm=ebf6ceafdc8147b9d3eebbef73d9bf7efba77cd7aca21956b590c78f43eac811e56e650325fe&scene=21#wechat_redirect)
 
-如果着急了解我的 10 年经历，可以看看这个漫画：[“失败”的北漂十年经历](https://mp.weixin.qq.com/s/-zhXIkyL2dSABxC3211QEQ)，这里有我的一段故事。
+提前了解 10 年经历，可以看看这个漫画：[“失败”的北漂十年经历](https://mp.weixin.qq.com/s/-zhXIkyL2dSABxC3211QEQ)，这里有我的一段故事。
 
 
 ## 2.写在前面的前面
