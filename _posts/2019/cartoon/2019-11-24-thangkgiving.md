@@ -8,7 +8,6 @@ copyright: cartoon
 excerpt: 感谢领导画大饼，感谢大厂996！
 ---
 
-![](http://favorites.ren/assets/images/2019/cartoon/thanksgiving18.png)
 ![](http://favorites.ren/assets/images/2019/cartoon/thanksgiving01.jpeg)
 ![](http://favorites.ren/assets/images/2019/cartoon/thanksgiving02.jpeg)
 ![](http://favorites.ren/assets/images/2019/cartoon/thanksgiving03.jpeg)
