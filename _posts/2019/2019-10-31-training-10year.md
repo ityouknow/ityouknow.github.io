@@ -10,17 +10,12 @@ excerpt: 原谅我这一生不羁放纵爱自由
 
 ## 1.写在前面
 
-十年前，我还是象牙塔中数学系的一名普通的大三学生。
-
-九年前，我是富士康流水线工厂的一名工人。
-
-六年前，我包里揣着 3000  RMB 来北漂。
-
-三年前，我在一家互联网金融公司做到了技术负责人。
-
-两年前，我在一家第三方支付公司担任研发副总，最多管理超过100人。
-
-现在，我是一名自由职业者，走遍大江南北寻找生活的意义。
+十年前，我还是象牙塔中数学系的一名普通的大三学生。  
+九年前，我是富士康流水线工厂的一名工人。  
+六年前，我包里揣着 3000  RMB 来北漂。  
+三年前，我在一家互联网金融公司做到了技术负责人。  
+两年前，我在一家第三方支付公司担任研发副总，最多管理超过100人。  
+现在，我是一名自由职业者，走遍世界寻找生活的意义。  
 
 我将用系列文章，回顾十年程序生涯，一方面是对职场生涯的阶段性总结，另一方面希望这些经历，对大家往后职场生涯有所启发。
 
@@ -30,13 +25,10 @@ excerpt: 原谅我这一生不羁放纵爱自由
 
 十年系列文章：
 
-- [① 我是如何走向程序生涯](https://mp.weixin.qq.com/s/WQF7MvavYwplcIkJbiVCLw)
-
+- [① 我是如何走向程序生涯](http://www.ityouknow.com/life/2019/06/12/ten-years-of-program-career.html)
 - [② 毕业即失业，找工作找到怀疑人生](http://www.ityouknow.com/life/2019/08/10/jobless.html)
-
-- [③深圳流水线工厂，我差点和主管打了起来](https://mp.weixin.qq.com/s/DcfMcs4Q3XkQj0Ww6gu_uA)
-
-- [④富士康14跳被我赶上了，流水线车间真的没有梦想](https://mp.weixin.qq.com/s?__biz=MzI4NDY5Mjc1Mg==&mid=2247489232&idx=1&sn=1fb01594b8ea081f5b7cb2beec0ff0bc&chksm=ebf6ceafdc8147b9d3eebbef73d9bf7efba77cd7aca21956b590c78f43eac811e56e650325fe&scene=21#wechat_redirect)
+- [③ 深圳流水线工厂，我差点和主管打了起来](http://www.ityouknow.com/life/2019/08/13/shenzhen-10year.html)
+- [④ 富士康14跳被我赶上了，流水线车间真的没有梦想](http://www.ityouknow.com/life/2019/09/12/fushikang-10year.html)
 
 提前了解 10 年经历，可以看看这个漫画：[“失败”的北漂十年经历](https://mp.weixin.qq.com/s/-zhXIkyL2dSABxC3211QEQ)，这里有我的一段故事。
 
