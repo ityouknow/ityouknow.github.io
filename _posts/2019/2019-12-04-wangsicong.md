@@ -3,6 +3,7 @@ layout: post
 title: 王思聪很混蛋，但就像他的熊猫一样，稀有！
 category: it
 tags: [it]
+no-post-nav: true
 excerpt: 皇帝没有穿衣服
 ---
 

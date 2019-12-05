@@ -4,6 +4,7 @@ title: 孙宇晨也许会迟到，但永远不会缺席！
 category: it
 tags: [it]
 excerpt: 蹭热点我只服孙宇晨
+lock: need
 ---
 
 ![](http://favorites.ren/assets/images/2019/it/sunyuchen01.jpg)
