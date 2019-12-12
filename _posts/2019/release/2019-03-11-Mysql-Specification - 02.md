@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Mysql-Specification
+title:      Mysql-Specification-002
 category: mysql
 tags: [mysql]
 no-post-nav: true
