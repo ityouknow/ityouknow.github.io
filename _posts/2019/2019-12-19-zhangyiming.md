@@ -2,9 +2,9 @@
 layout: post
 title: 张一鸣：每个逆袭的年轻人，都具备的底层能力
 category: it
+no-post-nav: true
 tags: [it]
 excerpt: 我们都需要在残酷的世界里，闯出自己的一片天空
-lock: need
 ---
 
 >**纯洁的微笑**——用技术的角度看世界，这里是一个有故事的程序员。
