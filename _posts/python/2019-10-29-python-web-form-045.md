@@ -52,8 +52,8 @@ MyForm 是自定义的类，继承自 FlaskForm，其中定义了一个字段 na
 {% raw %}
 ```html
 <form method="POST" action="/">
-    {{ form.csrf_token }}
-    {{ form.name.label }} {{ form.name(size=20) }}
+    \{\{ form.csrf_token \}\}
+    \{\{ form.name.label \}\}\{\{ form.name(size=20) \}\}
     <input type="submit" value="Go">
 </form>
 ```
@@ -162,12 +162,12 @@ class MyForm(FlaskForm):
 {% raw %}
 ```jinjia
 {% macro render_field(field) %}
-  <dt>{{ field.label }}:
-  <dd>{{ field(**kwargs)|safe }}
+  <dt>\{\{ field.label \}\}:
+  <dd>\{\{ field(**kwargs)|safe \}\}
   {% if field.errors %}
     <ul class=errors>
     {% for error in field.errors %}
-      <li>{{ error }}</li>
+      <li>\{\{ error \}\}</li>
     {% endfor %}
     </ul>
   {% endif %}
@@ -221,8 +221,8 @@ app.config['UPLOAD_FOLDER'] = './upload'
 {% raw %}
 ```html
 <form action="/upload" method="post" enctype="multipart/form-data">
-    {{ form.csrf_token() }}
-    {{ form.photo() }}
+    \{\{ form.csrf_token() \}\}
+    \{\{ form.photo() \}\}
     <input type="submit" value="提交">
 </form>
 ```
@@ -248,7 +248,7 @@ app.config['UPLOAD_FOLDER'] = './upload'
 
 {% raw %}
 ```jinjia
-{{ render_form(form) }}
+\{\{ render_form(form) \}\}
 ```
 {% endraw %}
 
@@ -256,7 +256,7 @@ app.config['UPLOAD_FOLDER'] = './upload'
 
 {% raw %}
 ```jinjia
-{{ render_field(form.name) }}
+\{\{ render_field(form.name) \}\}
 ```
 {% endraw %}
 
@@ -267,22 +267,22 @@ app.config['UPLOAD_FOLDER'] = './upload'
 {% raw %}
 ```html
 {% from 'bootstrap/form.html' import render_form, render_form_row, render_field %}
-{{ bootstrap.load_css() }}
+\{\{ bootstrap.load_css() \}\}
 <h1> render_form </h1>
-{{ render_form(form) }}
+\{\{ render_form(form) \}\}
 
 <h1>render_form_row</h1>
 <form method="post" >
-    {{ render_form_row([form.name, form.city]) }}
-    {{ render_form_row([form.gender, form.birthday]) }}
-    {{ render_form_row([form.interest]) }}
+    \{\{ render_form_row([form.name, form.city]) \}\}
+    \{\{ render_form_row([form.gender, form.birthday]) \}\}
+    \{\{ render_form_row([form.interest]) \}\}
 </form>
 
 <h1>render_field</h1>
 <form method="post" >
-    {{ render_field(form.name) }}
-    {{ render_field(form.gender) }}
-    {{ render_field(form.interest) }}
+    \{\{ render_field(form.name) \}\}
+    \{\{ render_field(form.gender) \}\}
+    \{\{ render_field(form.interest) \}\}
 </form>
 ```
 {% endraw %}
