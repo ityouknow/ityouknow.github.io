@@ -52,12 +52,11 @@ from flask import render_template
 例如模板文件 `hello.html` 为：
 
 {% raw %}
-
-```Jinja
+```
 <h1>Hello {{ name }} </h1>
 ```
-
 {% endraw %}
+
 
 视图函数可以写成:
 
@@ -75,7 +74,7 @@ Flask提供的 `render_template` 函数把Jinja2模板引擎集成到了程序�
 
 {% raw %}
 
-```Jinja
+```
 <p> A value form a string: {{ name }}.</p>
 <p> A value form a int: {{ myindex }}.</p>
 <p> A value form a list: {{ mylist[3]] }}.</p>
@@ -84,8 +83,8 @@ Flask提供的 `render_template` 函数把Jinja2模板引擎集成到了程序�
 <p> A value form a tuple: {{ mytuple }}.</p>
 <p> A value form a tuple by index: {{ mytuple[myindex] }}.</p>
 ```
-
 {% endraw %}
+
 
 视图函数代码:
 

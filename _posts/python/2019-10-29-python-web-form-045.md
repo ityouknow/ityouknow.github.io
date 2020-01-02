@@ -49,6 +49,7 @@ MyForm 是自定义的类，继承自 FlaskForm，其中定义了一个字段 na
 
 接下来创建一个表单模板 `submit.html`，例如:
 
+{% raw %}
 ```html
 <form method="POST" action="/">
     {{ form.csrf_token }}
@@ -56,6 +57,8 @@ MyForm 是自定义的类，继承自 FlaskForm，其中定义了一个字段 na
     <input type="submit" value="Go">
 </form>
 ```
+{% endraw %}
+
 
 其中 `form.csrf_token` 是 Flask-WTF 提供的一个防止**跨站请求伪造**的隐藏字段。原理是将一个密钥根据请求特征加密，在表单提交时一起送到服务器端，作校验。
 
