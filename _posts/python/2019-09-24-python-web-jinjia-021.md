@@ -73,7 +73,6 @@ Flask提供的 `render_template` 函数把Jinja2模板引擎集成到了程序�
 模板文件就是普通的文本文件，然后将需要替换的部分用双大括号( `{{ }}` )标记出来，双大括号中，表示要替换的变量名，这个变量支持基本数据类型，以及列表、词典、对象和元组。如模板 `template.html`:
 
 {% raw %}
-
 ```
 <p> A value form a string: {{ name }}.</p>
 <p> A value form a int: {{ myindex }}.</p>
@@ -115,21 +114,17 @@ def template():
 Jinjia2 模板引擎中，过滤器类似于 Linux 命令中的管道,例如将字符串变量的首字母大写
 
 {% raw %}
-
 ```html
 <h1>{{ name | capitalize}}</h1>
 ```
-
 {% endraw %}
 
 过滤器可以拼接，和 linux 的管道命令一样，如对值进行全部变大写，并且去除前后空白字符：
 
 {% raw %}
-
 ```html
 <h1>{{ name | upper | trim }}</h1>
 ```
-
 {% endraw %}
 
 如上代码，过滤器和变量之间用管道符号 | 相连，相当于对变量值作进一步加工。
@@ -150,11 +145,9 @@ Jinjia2 模板引擎中，过滤器类似于 Linux 命令中的管道,例如将�
 例如模板文件`html.html`为:
 
 {% raw %}
-
 ```Jinja
 <h1>{{ html | safe }}</h1>
 ```
-
 {% endraw %}
 
 视图函数为：
@@ -170,8 +163,8 @@ def html():
 还有一些有用的过滤器
 
 - `default`，可以当变量未定义时，提供默认值，如果想将 `false`、`False` 和空( `none` )视为未定义，需要提供第二个参数为 `true`
-{% raw %}
 
+{% raw %}
 ```Jinja
 <!-- 提供默认值过滤器 -->
 <h1>Hello {{ name | default('world') }}!</h1>
@@ -179,8 +172,8 @@ def html():
 <!-- 将false、False和空(none)视为未定义的默认值过滤器 -->
 <h1>Hello {{ name | default('world', true)! }}</h1>
 ```
-
 {% endraw %}
+
 当变量 `name` 的未定义时，上下两个显示效果一样，当值为 `none` 时，上面会显示 `Hello none!`, 而下面的会显示 `Hello world!`
 
 - 列表过滤器 `min`, `max`, 得到列表中的最小值或最大值
@@ -211,11 +204,9 @@ def myfilter():
 模板文件
 
 {% raw %}
-
 ```html
 <h1>电话号码是：{{ phone }}, 长度为：{{ phone | mylen }}，运营商号：{{ phone | interval(0,3) }}</h1>
 ```
-
 {% endraw %}
 
 > 过滤器注册代码还可以写在初始化代码 `__init__.py` 中
@@ -229,7 +220,6 @@ def myfilter():
 即在模板中用 `if-else` 控制结构
 
 {% raw %}
-
 ```Jinja
 {% if gender=='male' %}
     Hello, Mr {{ name }}
@@ -237,7 +227,6 @@ def myfilter():
     Hello, Ms {{ name }}
 {% endif %}
 ```
-
 {% endraw %}
 
 视图函数
@@ -255,7 +244,6 @@ def hello2(name, gender):
 循环对于渲染列表，很有帮助，循环的标记是 `for`。例如奖列表的内容显示在 `ul` 中
 
 {% raw %}
-
 ```Jinja
 <ul>
 {% for name in names %}
@@ -263,7 +251,6 @@ def hello2(name, gender):
 {% endfor %}
 </ul>
 ```
-
 {% endraw %}
 
 例如给定一个学生列表，将其用无序列表 `ul` 显示出来
@@ -274,18 +261,18 @@ def hello2(name, gender):
 首先，定义一个宏:
 
 mymacro.html
-{% raw %}
 
+{% raw %}
 ```Jinja
 {% macro render_name(name) %}
     <li>{{ name }}</li>
 {% endmacro %}
 ```
-
 {% endraw %}
-然后使用宏, 例如将循环结构的例子中，显示名称的地方，改为调用宏
-{% raw %}
 
+然后使用宏, 例如将循环结构的例子中，显示名称的地方，改为调用宏
+
+{% raw %}
 ```Jinja
 <ul>
     {% for name in names %}
@@ -293,14 +280,12 @@ mymacro.html
     {% endfor %}
 </ul>
 ```
-
 {% endraw %}
 
 调用宏，和调用函数是一样的，不过要将代码写在 `{{}}` 双大括号内。
 一般我们会将宏存在单独的文件中，以便复用，在需要用到宏的地方，引用就好了
 
 {% raw %}
-
 ```Jinja
 {% import 'mymarco.html' as macros %}
 <ul>
@@ -309,7 +294,6 @@ mymacro.html
     {% endfor%}
 </ul>
 ```
-
 {% endraw %}
 
 如上所述，用 improt 引入宏定义文件，通过 as 指定别名，和 python 的模块引入一样。指定别名是一个良好的编程习惯，可以将一个复杂的东西形象化，同时像一个命名空间一样，有效的避免冲突。
@@ -319,11 +303,9 @@ mymacro.html
 另外可以将多个模板片段写入一个单独文件，再包含( `include` )在所有模板中，以提高开发效率:
 
 {% raw %}
-
 ```Jinja
 {% include 'common.html' %}
 ```
-
 {% endraw %}
 
 `include` 进来的文件，相当于将文件中的内容复制到 `include` 的位置，所以自使用之前需要考虑仔细
@@ -332,8 +314,8 @@ mymacro.html
 
 如果觉得 `include` 过于呆板，灵活性差，Jinja2 模板引擎还有更高级的功能——继承。类似于 Python 代码中类的继承，一起看看。
 首先定义一个基类, base.html:
-{% raw %}
 
+{% raw %}
 ```Jinja
 <html>
 <head>
@@ -348,14 +330,12 @@ mymacro.html
 </body>
 </html>
 ```
-
 {% endraw %}
 
 其中的 `block` 标签，定义了可以被子类重构（替换）的部分，每个 `blcok` 标签，需要指定一个特殊的名称，例如 `head`、`title` 等，以便子类用特定的名称来重构。另外 `block` 标签需要有结束标签 `endblock`,类似于类C语言中的大括号，当然 `block` 标签也可以嵌套。
 接下来，定义一个子类模板 hello3.html：
 
 {% raw %}
-
 ```Jinja
 {% extends "base.html" %}
 {% block title %}Index{% endblock %}
@@ -368,7 +348,6 @@ mymacro.html
     <h3>这是子类的内容 Hello world!</h>
 {% endblock %}
 ```
-
 {% endraw %}
 
 效果如图所示:
