@@ -53,7 +53,7 @@ from flask import render_template
 
 {% raw %}
 ```
-<h1>Hello \{\{ name \}\}</h1>
+<h1>Hello {{ name }} </h1>
 ```
 {% endraw %}
 
@@ -70,17 +70,17 @@ Flask提供的 `render_template` 函数把Jinja2模板引擎集成到了程序�
 
 ### 变量
 
-模板文件就是普通的文本文件，然后将需要替换的部分用双大括号( `\{\{ }}` )标记出来，双大括号中，表示要替换的变量名，这个变量支持基本数据类型，以及列表、词典、对象和元组。如模板 `template.html`:
+模板文件就是普通的文本文件，然后将需要替换的部分用双大括号( `{{ }}` )标记出来，双大括号中，表示要替换的变量名，这个变量支持基本数据类型，以及列表、词典、对象和元组。如模板 `template.html`:
 
 {% raw %}
 ```
-<p> A value form a string: \{\{ name }}.</p>
-<p> A value form a int: \{\{ myindex }}.</p>
-<p> A value form a list: \{\{ mylist[3]] }}.</p>
-<p> A value form a list, with a variable index: \{\{ mylist[myindex] }}.</p>
-<p> A value form a dictionary: \{\{ mydict['key'] }}.</p>
-<p> A value form a tuple: \{\{ mytuple }}.</p>
-<p> A value form a tuple by index: \{\{ mytuple[myindex] }}.</p>
+<p> A value form a string: {{ name }}.</p>
+<p> A value form a int: {{ myindex }}.</p>
+<p> A value form a list: {{ mylist[3]] }}.</p>
+<p> A value form a list, with a variable index: {{ mylist[myindex] }}.</p>
+<p> A value form a dictionary: {{ mydict['key'] }}.</p>
+<p> A value form a tuple: {{ mytuple }}.</p>
+<p> A value form a tuple by index: {{ mytuple[myindex] }}.</p>
 ```
 {% endraw %}
 
@@ -115,7 +115,7 @@ Jinjia2 模板引擎中，过滤器类似于 Linux 命令中的管道,例如将�
 
 {% raw %}
 ```html
-<h1>\{\{ name | capitalize}}</h1>
+<h1>{{ name | capitalize}}</h1>
 ```
 {% endraw %}
 
@@ -123,7 +123,7 @@ Jinjia2 模板引擎中，过滤器类似于 Linux 命令中的管道,例如将�
 
 {% raw %}
 ```html
-<h1>\{\{ name | upper | trim }}</h1>
+<h1>{{ name | upper | trim }}</h1>
 ```
 {% endraw %}
 
@@ -146,7 +146,7 @@ Jinjia2 模板引擎中，过滤器类似于 Linux 命令中的管道,例如将�
 
 {% raw %}
 ```Jinja
-<h1>\{\{ html | safe }}</h1>
+<h1>{{ html | safe }}</h1>
 ```
 {% endraw %}
 
@@ -167,10 +167,10 @@ def html():
 {% raw %}
 ```Jinja
 <!-- 提供默认值过滤器 -->
-<h1>Hello \{\{ name | default('world') }}!</h1>
+<h1>Hello {{ name | default('world') }}!</h1>
 
 <!-- 将false、False和空(none)视为未定义的默认值过滤器 -->
-<h1>Hello \{\{ name | default('world', true)! }}</h1>
+<h1>Hello {{ name | default('world', true)! }}</h1>
 ```
 {% endraw %}
 
@@ -205,7 +205,7 @@ def myfilter():
 
 {% raw %}
 ```html
-<h1>电话号码是：\{\{ phone }}, 长度为：\{\{ phone | mylen }}，运营商号：\{\{ phone | interval(0,3) }}</h1>
+<h1>电话号码是：{{ phone }}, 长度为：{{ phone | mylen }}，运营商号：{{ phone | interval(0,3) }}</h1>
 ```
 {% endraw %}
 
@@ -222,9 +222,9 @@ def myfilter():
 {% raw %}
 ```Jinja
 {% if gender=='male' %}
-    Hello, Mr \{\{ name }}
+    Hello, Mr {{ name }}
 {% else %}
-    Hello, Ms \{\{ name }}
+    Hello, Ms {{ name }}
 {% endif %}
 ```
 {% endraw %}
@@ -247,7 +247,7 @@ def hello2(name, gender):
 ```Jinja
 <ul>
 {% for name in names %}
-    <li>\{\{ name \}\}</li>
+    <li>{{ name }} </li>
 {% endfor %}
 </ul>
 ```
@@ -265,7 +265,7 @@ mymacro.html
 {% raw %}
 ```Jinja
 {% macro render_name(name) %}
-    <li>\{\{ name }}</li>
+    <li>{{ name }}</li>
 {% endmacro %}
 ```
 {% endraw %}
@@ -276,13 +276,13 @@ mymacro.html
 ```Jinja
 <ul>
     {% for name in names %}
-        \{\{ render_name(name) }}
+        {{ render_name(name) }}
     {% endfor %}
 </ul>
 ```
 {% endraw %}
 
-调用宏，和调用函数是一样的，不过要将代码写在 `\{\{}}` 双大括号内。
+调用宏，和调用函数是一样的，不过要将代码写在 `{{}}` 双大括号内。
 一般我们会将宏存在单独的文件中，以便复用，在需要用到宏的地方，引用就好了
 
 {% raw %}
@@ -290,7 +290,7 @@ mymacro.html
 {% import 'mymarco.html' as macros %}
 <ul>
     {% for name in names %}
-        \{\{ macros.render_name(name) }}
+        {{ macros.render_name(name) }}
     {% endfor%}
 </ul>
 ```
@@ -340,11 +340,11 @@ mymacro.html
 {% extends "base.html" %}
 {% block title %}Index{% endblock %}
 {% block head %}
-    \{\{ super() }}
+    {{ super() }}
     <style></style>
 {% endblock %}
 {% block body %}
-    \{\{ super() }}
+    {{ super() }}
     <h3>这是子类的内容 Hello world!</h>
 {% endblock %}
 ```
