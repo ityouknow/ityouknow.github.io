@@ -8,7 +8,7 @@ copyright: cartoon
 excerpt: 有点意思
 ---
 
-[](http://favorites.ren/assets/images/2019/cartoon/tenmanhua01.jpg)
+[](http://favorites.ren/assets/images/2020/cartoon/tenmanhua01.jpg)
 
 相比较于文字，漫画给人带来的阅读体验显然是另一个层面上的，2019年公号发布了 18 篇漫画，相信给不少的朋友们带来了欢笑！
 
@@ -24,39 +24,39 @@ excerpt: 有点意思
 
 很多朋友看完漫画后直呼不要太真实，你平时也是这样吗？
 
-[](http://favorites.ren/assets/images/2019/cartoon/tenmanhua02.jpg)
+[](http://favorites.ren/assets/images/2020/cartoon/tenmanhua02.jpg)
 
 第二篇[《程序员成神之路，一年挖坑，五年扛旗，十年成神》](https://mp.weixin.qq.com/s/SjbHtvikSsXQpiyWsWjFZg)，这篇漫画用**风趣幽默**的方式，给大家讲述了程序员 1 年 5 年 10 年的差别，算是不会笑青年的**第一个漫画爆款。**
 
-[](http://favorites.ren/assets/images/2019/cartoon/tenmanhua03.jpg)
+[](http://favorites.ren/assets/images/2020/cartoon/tenmanhua03.jpg)
 
 第三篇[《程序员相亲，真的太太太太太太难了》](https://mp.weixin.qq.com/s/EGP27FkYYL4gQTjzG91iCQ)，这是我的好朋友阿波的真实经历改编，那个时候我们总开玩笑说，阿波**不是在相亲就是在相亲的路上。**
 
 不过好歹经历过101次相亲后，阿波终于找到了自己的女朋友。
 
-[](http://favorites.ren/assets/images/2019/cartoon/tenmanhua04.jpg)
+[](http://favorites.ren/assets/images/2020/cartoon/tenmanhua04.jpg)
 
 第四篇[《男人，到底什么时候能长大？》](https://mp.weixin.qq.com/s/S0sRvnlvbqONh-7PnhD-nA)，这篇漫画来自于主创阿波的经历，看完之后很**让人感动。**
 
 故事讲述了一个小孩，如何从**男孩脱变成男人，**期间经历了多少波折，但是长大了就真的那么好吗？
 
-[](http://favorites.ren/assets/images/2019/cartoon/tenmanhua05.jpg)
+[](http://favorites.ren/assets/images/2020/cartoon/tenmanhua05.jpg)
 
 第五篇[《这才是真正的陕西，5000年历史的超级“网红”！》](https://mp.weixin.qq.com/s/Er3pjkeRSvBIlLYl_0lxFA)，作为一名老家**来自陕西的孩子**，当然要给大家好好介绍介绍**陕西的文化。**
 
 想知道坐拥超过 5000 年历史文化的陕西人都有什么特点，那里有什么好吃的好玩的，那你可得点开看看。
 
-[](http://favorites.ren/assets/images/2019/cartoon/tenmanhua06.jpg)
+[](http://favorites.ren/assets/images/2020/cartoon/tenmanhua06.jpg)
 
 第六篇[《2017-2019，互联网人扎肾图鉴！》](https://mp.weixin.qq.com/s/Z7Fc_2AmzNp8HC0HhzIPeQ)，前一段时间突然朋友圈刷屏对比 2017-2019，我们也**借着这个潮流**，对比了一下互联网大佬和自己的 2017-2019。
 
-[](http://favorites.ren/assets/images/2019/cartoon/tenmanhua07.jpg)
+[](http://favorites.ren/assets/images/2020/cartoon/tenmanhua07.jpg)
 
 第七篇[《直男们是如何通过送礼物气死自己女朋友的？》](https://mp.weixin.qq.com/s/0UfmAv7eOH7hZ_HW565clg)，说实话我相信直男们都不知道怎么给女朋友送礼物，我当时也一样**每逢佳节倍头疼。**
 
 这个漫画就给大家讲述了男主角刚开始是怎么被虐，后面又是通过什么样的方法找到了**制胜的法宝**。对于头疼送什么礼物的你，可以瞧瞧。
 
-[](http://favorites.ren/assets/images/2019/cartoon/tenmanhua08.jpg)
+[](http://favorites.ren/assets/images/2020/cartoon/tenmanhua08.jpg)
 
 第八篇[《感恩节，我TM要感恩全世界！》](https://mp.weixin.qq.com/s/eY89SrcCv33VBU7RXoEQIg)，这是我们在感恩节发布的一个特辑，因为当时我们并没有计划这个主题的漫画。
 
@@ -72,7 +72,7 @@ excerpt: 有点意思
 
 不论是创意或是漫画表现手法我们自己还是比较满意的，漫画推出后的好评也很多，被读者认可，是我们主创团队的**最高光时刻。**
 
-[](http://favorites.ren/assets/images/2019/cartoon/tenmanhua09.jpg)
+[](http://favorites.ren/assets/images/2020/cartoon/tenmanhua09.jpg)
 
 第九篇[《“失败”的北漂十年，我真的尽力了。。。》](https://mp.weixin.qq.com/s/-zhXIkyL2dSABxC3211QEQ)，这篇漫画我们仅仅光**文案**就写了**二周**，后面又经过了**一周**的**修改**才定型。
 
@@ -80,7 +80,7 @@ excerpt: 有点意思
 
 对，它也同样**来自真实故事改编，**了解我的读者估计知道这里面哪些部分来自**我的真实元素。**
 
-[](http://favorites.ren/assets/images/2019/cartoon/tenmanhua10.jpg)
+[](http://favorites.ren/assets/images/2020/cartoon/tenmanhua10.jpg)
 
 第十篇[《王姨，我不想努力了！》](https://mp.weixin.qq.com/s/S98F65vNcI0jhqTSwlFIHw)，这篇漫画灵感最初来源于一个微信群，大家都喜欢发一张：王姨，我不想努力了！的**微信聊天截图。**
 
@@ -88,11 +88,11 @@ excerpt: 有点意思
 
 这也是史上**最难产**的一篇漫画，**换了 5 位漫画师**才真正将文案表现了出来，相信我，看完这篇漫画你不会失望的。
 
-[](http://favorites.ren/assets/images/2019/cartoon/tenmanhua11.jpg)
+[](http://favorites.ren/assets/images/2020/cartoon/tenmanhua11.jpg)
 
 还有一个特别篇漫画[《网友最悲催的一天！没有之一！》](https://mp.weixin.qq.com/s/dK2FJkleXaUnK_rYZVMdiA)，**比较重口味**，讲述了一个网友看病时候的遭遇，据说看过这篇漫画的朋友，都**笑成了傻子！**
 
-[](http://favorites.ren/assets/images/2019/cartoon/tenmanhua12.jpg)
+[](http://favorites.ren/assets/images/2020/cartoon/tenmanhua12.jpg)
 
 最后：
 
@@ -102,6 +102,6 @@ excerpt: 有点意思
 
 关注公众号“不会笑青年”，第一时间阅读**原创精品漫画**作品，觉得不错，欢迎**推荐**给你的朋友们。
 
-[](http://favorites.ren/assets/images/2019/cartoon/tenmanhua13.jpg)
+[](http://favorites.ren/assets/images/2020/cartoon/tenmanhua13.jpg)
 
 **不会笑青年**，祝您 2020 年**笑口常开！**
