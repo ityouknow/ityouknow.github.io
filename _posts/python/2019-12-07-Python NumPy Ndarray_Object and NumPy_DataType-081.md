@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  第81天：NumPy Ndarray_Object&NumPy_Data_Type
+title: 第81天：NumPy Ndarray_Object&NumPy_Data_Type
 category: python
 copyright: python
 ---
@@ -356,3 +356,5 @@ https://www.runoob.com/numpy/numpy-ndarray-object.html
 https://www.runoob.com/numpy/numpy-dtype.html
 
 > 文中示例代码：[python-100-days](https://github.com/JustDoPython/python-100-day)
+
+
