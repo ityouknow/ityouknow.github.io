@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  第第87天： OAuth2.0 简介
+title:  第87天： OAuth2.0 简介
 category: python
 copyright: python
 ---
