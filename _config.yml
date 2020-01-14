@@ -103,8 +103,6 @@ navs:
     label: 漫画
     target: _self
 
-
-
   -
     href: /spring-boot.html
     label: Spring Boot
@@ -118,8 +116,6 @@ navs:
       -
         subHref: /spring-cloud.html
         subLabel: Spring Cloud
-
-
 
   -
     href: http://www.justdojava.com
@@ -196,6 +192,11 @@ labels:
 classes:
 
   -
+    href: /cartoon.html
+    name: 架构师之路
+    describe: 内心沉稳 ，放荡不羁。
+
+  -
     href: /life.html
     name: 我的故事
     describe: 生活就是故事，故事就是生活
@@ -205,10 +206,7 @@ classes:
     name: IT行业深度报道
     describe: IT大佬，互联网知名公司的故事
 
-  -
-    href: /arch.html
-    name: 架构师之路
-    describe: 一个架构师的自我修养
+
 
 
 # ---------------- #
