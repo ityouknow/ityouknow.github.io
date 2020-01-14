@@ -57,8 +57,8 @@ menus:
 
 
   -
-    href: /cartoon.html
-    label: 漫画
+    href: /spring-cloud.html
+    label: Cloud
     target: _self
 
   -
@@ -99,6 +99,13 @@ navs:
     label: Home
 
   -
+    href: /cartoon.html
+    label: 漫画
+    target: _self
+
+
+
+  -
     href: /spring-boot.html
     label: Spring Boot
     target: _self
@@ -112,13 +119,9 @@ navs:
         subHref: /spring-cloud.html
         subLabel: Spring Cloud
 
-  -
-    href: /spring-cloud.html
-    label: Spring Cloud
-    target: _self
+
 
   -
-    
     href: http://www.justdojava.com
     label: Java
     target: _blank
