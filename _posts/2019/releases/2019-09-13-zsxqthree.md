@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 2000万矩阵，2月变现72w，知乎Live 40 万，他们都做对了什么！
-copyright: zsxq
-category: zsxq
-tags: [zsxq]
+copyright: money
+category: money
+tags: [money]
 excerpt: 凭啥这么牛
 ---
 

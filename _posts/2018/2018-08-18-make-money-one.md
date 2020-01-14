@@ -1,10 +1,10 @@
 ---
 layout:     post
 title:      昨天日入过万
-copyright: zsxq
+copyright: money
 no-post-nav: true
-category: zsxq
-tags: [zsxq]
+category: money
+tags: [money]
 excerpt: 可以说这个圈子就是《就聊挣钱》的深入实践
 ---
 

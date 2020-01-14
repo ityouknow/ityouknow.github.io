@@ -2,9 +2,9 @@
 layout:     post
 title:      被官方加持了！
 no-post-nav: true
-copyright: zsxq
-category: zsxq
-tags: [zsxq]
+copyright: money
+category: money
+tags: [money]
 excerpt: 见识决定选择
 ---
 
