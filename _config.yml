@@ -58,7 +58,7 @@ menus:
 
   -
     href: /spring-cloud.html
-    label: Cloud
+    label: SCloud
     target: _self
 
   -
