@@ -1,7 +1,9 @@
 ---
 layout: post
 title: 把副业干成了主业
-category: zsxq
+category: money
+copyright: money
+tags: [money]
 excerpt: 副业是什么
 ---
 

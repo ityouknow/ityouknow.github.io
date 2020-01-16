@@ -3,8 +3,8 @@ layout:     post
 title:      英语外教老师被骗后续：石锤证据，果真是骗子！
 no-post-nav: true
 copyright: flyever
-category: zsxq
-tags: [zsxq]
+category: money
+tags: [money]
 excerpt: 贪心是人生之大敌
 ---
 

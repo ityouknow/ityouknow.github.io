@@ -2,9 +2,9 @@
 layout:     post
 title:      在你的城市，月入多少，才可以让你感觉到有安全感。
 no-post-nav: true
-copyright: zsxq
-category: zsxq
-tags: [zsxq]
+copyright: money
+category: money
+tags: [money]
 excerpt: 每一个故事都会给人带来不一样的启发。
 ---
 

@@ -2,8 +2,8 @@
 layout: post
 title: 知识星球推出三大新功能，然后又关闭了一个。
 no-post-nav: true
-category: zsxq
-tags: [zsxq]
+category: money
+tags: [money]
 excerpt: 运营好一个圈子和做好一个产品同样的不容易
 ---
 
