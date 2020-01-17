@@ -6,6 +6,7 @@ no-post-nav: true
 tags: [cartoon]
 copyright: cartoon
 excerpt: 眼中的光一年不如一年…
+lock: need
 ---
 
 ![](http://favorites.ren/assets/images/2019/cartoon/failbeipiao01.jpg)

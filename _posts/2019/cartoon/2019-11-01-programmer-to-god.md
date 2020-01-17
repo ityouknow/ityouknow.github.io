@@ -6,6 +6,7 @@ no-post-nav: true
 tags: [cartoon]
 copyright: cartoon
 excerpt: 盘！！！
+lock: need
 ---
 
 ![](http://favorites.ren/assets/images/2019/cartoon/togod01.jpg)
