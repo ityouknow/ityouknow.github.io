@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 外包程序员==二等公民？
+title: 漫画 | 外包程序员==二等公民？
 category: cartoon
 no-post-nav: true
 tags: [cartoon]
