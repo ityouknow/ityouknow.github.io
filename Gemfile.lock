@@ -46,6 +46,7 @@ GEM
     erubis (2.7.0)
     faraday (0.13.1)
       multipart-post (>= 1.2, < 3)
+    ffi (1.9.24)
     ffi (1.9.24-x64-mingw32)
     forwardable-extended (2.6.0)
     geo_pattern (1.2.1)
@@ -93,11 +94,13 @@ GEM
     mercenary (0.3.6)
     middleware (0.1.0)
     mini_mime (1.0.0)
-    mini_portile2 (2.3.0)
+    mini_portile2 (2.4.0)
     minitest (5.10.3)
     multipart-post (2.0.0)
-    nokogiri (1.8.2-x64-mingw32)
-      mini_portile2 (~> 2.3.0)
+    nokogiri (1.10.9)
+      mini_portile2 (~> 2.4.0)
+    nokogiri (1.10.9-x64-mingw32)
+      mini_portile2 (~> 2.4.0)
     octicons (5.2.0)
       nokogiri (>= 1.10.8)
     octokit (4.7.0)
@@ -168,6 +171,7 @@ GEM
       thread_safe (~> 0.1)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
