@@ -9,11 +9,11 @@ permalink: /link
 
 ## 友情链接
 
-- [人工智能教程博客](http://www.captainbed.net/blog-neo) - 一个幽默的系列课程
+- [Python 技术](http://www.justdopython.com/) - 专业的 Python 学习网站
+- [Java 极客技术](http://www.justdojava.com) - Java 技术人的一片天地
 - [沉默王二](http://www.itwanger.com) - 一个有趣的程序员
 - [江南一点雨](https://www.javaboy.org/) - 专注于 Spring Boot + 微服务
 - [闷瓜蛋子的博客](https://fookwood.com) - 八年博客，大公司小公司游荡多年，目前为自由职业
-- [Java极客技术](http://www.justdojava.com) - Java 技术人的一片天地
 - [匠心零度博客](http://www.jiangxinlingdu.com/) - 以匠心，铸非凡！
 - [麦田技术博客](http://blog.itmyhome.com/) - 将来的你，一定会感激现在拼命努力的自己。 
 - [王登科-DK博客](http://www.wdk.pw) - 一个技术创业者  
@@ -37,6 +37,7 @@ permalink: /link
 - [wherebt](http://wherebt.com/) - 提供各种BT资源导航,主要收录了bt sync keys的分享网站
 - [公众号编辑器](http://md.ityouknow.com/) - 可以以优雅的方式在微信公众号去发布markdown文章
 - [技术博客联盟](http://techblog.pub/) - 原创技术博客作者交流的地方
+- [人工智能教程博客](http://www.captainbed.net/blog-neo) - 一个幽默的系列课程
 
 
 ## 个人链接
