@@ -6,6 +6,7 @@ no-post-nav: true
 tags: [cartoon]
 copyright: cartoon
 excerpt: 最可怕的不是悲剧，而是悲剧之后忘记了悲剧！
+lock: need
 ---
 
 ![](http://favorites.ren/assets/images/2020/cartoon/supervirus01.jpeg)

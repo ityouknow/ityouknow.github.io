@@ -4,6 +4,7 @@ title: 来北京的那 1 年，我被动创业了 2 次！ | 十年系列
 category: life
 tags: [life]
 excerpt: 选择真的很重要
+lock: need
 ---
 
 一个有所追求的人。

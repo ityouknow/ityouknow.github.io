@@ -6,6 +6,7 @@ no-post-nav: true
 tags: [cartoon]
 copyright: cartoon
 excerpt: 因为这次疫情，突然明白了好多...
+lock: need
 ---
 
 

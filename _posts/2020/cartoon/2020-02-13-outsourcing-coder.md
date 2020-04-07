@@ -6,6 +6,7 @@ no-post-nav: true
 tags: [cartoon]
 copyright: cartoon
 excerpt: 外包程序员的真实体验!
+lock: need
 ---
 
 
