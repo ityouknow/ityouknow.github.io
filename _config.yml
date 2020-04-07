@@ -57,19 +57,14 @@ menus:
 
 
   -
-    href: /spring-cloud.html
-    label: SCloud
-    target: _self
+    href: /money.html
+    label: 挣钱
+    target: _self   
 
   -
     href: /it.html
     label: 深度
     target: _self
-
-  -
-    href: /money.html
-    label: 挣钱
-    target: _self   
 
   -
     href: /life.html
