@@ -11,7 +11,7 @@ tags: [share]
 
 直接扫描二维码关注“不会笑青年”，此公号内回复对应的关键字
 
-![](http://favorites.ren/assets/images/itmind.jpg)  
+![](http://favorites.ren/assets/images/cartoon.jpg)  
 
 
 - 01、回复"**我要健康**"，获取程序员健康、内涵大礼包！  
