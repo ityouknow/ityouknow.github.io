@@ -2,7 +2,7 @@
 layout: post
 title: Java 生态核心知识点整理
 no-post-nav: true
-copyright: java
+copyright: cartoon
 category: java
 tags: [java]
 excerpt: 听说你在面试
