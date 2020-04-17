@@ -9,7 +9,7 @@ tags: [share]
 
 超过1024G的IT学习资料免费领取，你值得拥有！
 
-直接扫描二维码关注“IT轻社区”，此公号内回复对应的关键字
+直接扫描二维码关注“不会笑青年”，此公号内回复对应的关键字
 
 ![](http://favorites.ren/assets/images/itmind.jpg)  
 
