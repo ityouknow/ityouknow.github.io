@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 泪目，司徒正美知乎最后回答奇迹，“猝死”距离程序员究竟有多远？
+title: 泪目，司徒正美知乎最后回答，“猝死”距离程序员究竟有多远？
 category: it
 tags: [it]
 excerpt: 身体是革命的本钱。
