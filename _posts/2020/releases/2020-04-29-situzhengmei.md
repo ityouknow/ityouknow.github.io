@@ -6,19 +6,19 @@ tags: [it]
 excerpt: 身体是革命的本钱。
 ---
 
-![](http://favorites.ren/assets/images/2020/it/situzhengmei01.jpg)  
+![](http://favorites.ren/assets/images/2020/it/situzhengmei01.jpg)   
 
 前一段时间，前端技术大牛司徒正美不幸去世。圈内朋友们都很震惊，因为之前只是听说他颈椎病，没想到突然就走了。
 
 他在知乎回答的最后一个问题是：为什么一线城市这么多优秀的女性还找不到男朋友？
 
-![](http://favorites.ren/assets/images/2020/it/situzhengmei02.jpg)  
+![](http://favorites.ren/assets/images/2020/it/situzhengmei02.jpg) 
 
 在这个问题的回答下面已经有190条留言，绝大部分都是技术圈的朋友在缅怀，纷纷留言：大神，一路走好。
 
 目前为止还在继续....
 
-![](http://favorites.ren/assets/images/2020/it/situzhengmei03.jpg)  
+![](http://favorites.ren/assets/images/2020/it/situzhengmei03.jpg) 
 
 看到这么多亲切的内容，突然有点泪目！
 
@@ -47,7 +47,7 @@ excerpt: 身体是革命的本钱。
 
 每月都会安排一名嘉宾分享他的自由之路，上个月的时候一个嘉宾给我说，他不分享自己的自由经历，想给大家科普一下“猝死”。
 
-![](http://favorites.ren/assets/images/2020/it/situzhengmei04.jpg)  
+![](http://favorites.ren/assets/images/2020/it/situzhengmei04.jpg) 
 
 因为他去年突然中风，险些偏瘫痪，到目前为止仍然没有恢复过来，右手不能操作精细化的动作，不能提起重物。
 直到他经历过这一次，才真正明白了“猝死”距离我们有多远？特别是距离IT行业的朋友有多远！
@@ -68,11 +68,11 @@ excerpt: 身体是革命的本钱。
 
 这个百度自动提示就说明人们对中风这种病的认识确实有限。
 
-![](http://favorites.ren/assets/images/2020/it/situzhengmei05.jpg)  
+![](http://favorites.ren/assets/images/2020/it/situzhengmei05.jpg) 
 
 为什么说“中风比中奖概率高得多，中风比中暑严重得多”？
 
-![](http://favorites.ren/assets/images/2020/it/situzhengmei06.jpg)  
+![](http://favorites.ren/assets/images/2020/it/situzhengmei06.jpg) 
 
 ## 4、中国是世界第一中风大国
 
@@ -111,7 +111,7 @@ excerpt: 身体是革命的本钱。
 
 比如高以翔事件、这个医生、这个同行以及张孝祥（老程序员应该都知道）。
 
-![](http://favorites.ren/assets/images/2020/it/situzhengmei07.jpg)  
+![](http://favorites.ren/assets/images/2020/it/situzhengmei07.jpg) 
 
 这些人平时看着都没病，然后突发心脑血管疾病，人就没了。
 
@@ -122,7 +122,7 @@ excerpt: 身体是革命的本钱。
 
 网上有一张图片，中风的10大危险因素，大家可以查查自己都占了哪几条？
 
-![](http://favorites.ren/assets/images/2020/it/situzhengmei08.jpg)  
+![](http://favorites.ren/assets/images/2020/it/situzhengmei08.jpg) 
 
 我自己算了一下，大概快5条，身边的朋友我也都让对照查了一下，大部分程序员都在 5 条左右。
 
