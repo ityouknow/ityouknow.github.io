@@ -3,6 +3,7 @@ layout: post
 title: 在北京，我遇上每天必须挣1000元的出租车司机！
 category: life
 tags: [life]
+no-post-nav: true
 excerpt: 生活不易
 ---
 
