@@ -5,7 +5,7 @@ category: cartoon
 no-post-nav: true
 tags: [cartoon]
 copyright: cartoon
-excerpt: 谁都逃不过的真香定律
+excerpt: 关于当代青年人的11个秘密，被发现了！
 ---
 
 ![](http://favorites.ren/assets/images/2020/cartoon/shoupolan/shoupolan01.jpg)

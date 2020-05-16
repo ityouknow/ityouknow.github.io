@@ -5,7 +5,7 @@ category: cartoon
 no-post-nav: true
 tags: [cartoon]
 copyright: cartoon
-excerpt: 不断学习，不断进步！
+excerpt: 早面对，少遭罪
 ---
 
 ![](http://favorites.ren/assets/images/2020/cartoon/byehulianwang/byehulianwang01.jpg)

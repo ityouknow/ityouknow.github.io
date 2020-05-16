@@ -5,7 +5,7 @@ category: cartoon
 no-post-nav: true
 tags: [cartoon]
 copyright: cartoon
-excerpt: 另一个世界
+excerpt: 空空荡荡静悄悄的软件园，再也没人加班了
 ---
 
 2021年10月24日
