@@ -3,7 +3,7 @@ layout: post
 title: 一个高中女学生，在抖音找兼职被骗4元钱的经历！
 category: life
 tags: [life]
-excerpt: 
+excerpt: 警防上当受骗
 ---
 
 大家好，我是纯洁的微笑，一个喜欢帮读者爆料的博主！
