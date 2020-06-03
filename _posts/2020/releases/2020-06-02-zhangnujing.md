@@ -406,7 +406,7 @@ excerpt: 下一个20年，又会属于谁呢？
 
 ![](http://favorites.ren/assets/images/2020/it/zhangnujing/zhangnujing17.jpg) 
 
-## 7、写在最后
+## 07、写在最后
 
 **我们都在说自己“强大”的时候，其实软肋早被别人看的一清二楚，一打一个准。**
 
