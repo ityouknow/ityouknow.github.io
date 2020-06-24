@@ -20,8 +20,8 @@ permalink: /link
 - [rickiyeat的博客](http://blog.csdn.net/rickiyeat) - hadoop、spring boot/cloud技术博客   
 - [cmsblogs](http://cmsblogs.com/) - chenssy记录、分享JAVA技术
 - [小柒博客](https://blog.52itstyle.vip) - 小柒博客，一个主JAVA，次架构，偶尔聊聊生活的地方。
-- [六月](http://www.liuyue.ren/) - 一个博友的博客
 - [荒蛮故事](http://relatos.top/) - 一个分享故事的网站
+- [飞哥专栏](https://www.ffeeii.com) - 关注技术开发和工程效率
 
 ## 推荐网站
 
