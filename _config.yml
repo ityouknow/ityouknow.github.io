@@ -55,6 +55,10 @@ paginate_path: 'page:num'
 # Navigation. top menu list
 menus:
 
+  -
+    href: http://favorites.ren/stock.html
+    label: 股票
+    target: _blank  
 
   -
     href: /money.html
