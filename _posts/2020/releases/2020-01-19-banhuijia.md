@@ -153,4 +153,4 @@ https://www.zhihu.com/question/21099313
 https://www.guancha.cn/internation/2019_07_10_508890.shtml
 https://m.huanbao-world.com/view.php?aid=108580
 
->作者简介：纯洁的微笑，[一个有故事的程序员](https://mp.weixin.qq.com/s/yD8FlQectD057l5i1CZfZA)（👈详细了解）。曾在互联网金融，第三方支付公司工作，现为一名自由职业者，和你一起用技术的角度去看这个世界。我的微信号**puresmile2**，欢迎大家找我聊天，记录你我的故事。
+>作者简介：纯洁的微笑，[一个有故事的程序员](https://mp.weixin.qq.com/s/yD8FlQectD057l5i1CZfZA)（👈详细了解）。曾在互联网金融，第三方支付公司工作，现为一名自由职业者，和你一起用技术的角度去看这个世界。我的微信号**puresmilea**，欢迎大家找我聊天，记录你我的故事。
