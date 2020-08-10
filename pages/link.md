@@ -9,6 +9,7 @@ permalink: /link
 
 ## 友情链接
 
+- [不会笑青年](http://www.justdopython.com/) - 全网唯二以程序员为主题的漫画网站
 - [Python 技术](http://www.justdopython.com/) - 专业的 Python 学习网站
 - [Java 极客技术](http://www.justdojava.com) - Java 技术人的一片天地
 - [沉默王二](http://www.itwanger.com) - 一个有趣的程序员
