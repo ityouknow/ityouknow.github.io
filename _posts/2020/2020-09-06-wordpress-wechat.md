@@ -2,6 +2,7 @@
 layout: post
 title: Wordpress 实现关注微信公众号后，才可下载特定资源
 category: it
+no-post-nav: true
 tags: [it]
 keywords: 微信公众号涨粉,wordpress,微信,涨粉,插件
 excerpt: 市面上wordpress5.0唯一解决方案
