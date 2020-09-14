@@ -60,6 +60,9 @@ function e_secret($atts, $content=null){
 		';
 	 }
 }
+
+
+add_shortcode('secret','e_secret');
 ```
 
 然后注入到主函数中。
@@ -67,17 +70,11 @@ function e_secret($atts, $content=null){
 
 上面这段代码比较简单，意思就是页面是否有隐藏代码的标注，如果有的话显示需要验证的页面，如果是提交了页面秘密之后，根据秘密判断是否正确，如果正确展示出隐藏的内容。
 
-主题对应的 css 改动如下：
+自己主题 main.css 或者 style.css 或者 app.css 样式文件里添加下面代码 css 改动如下：
 
 
 
 ```
-input.euc-y-s[type="submit"]{background-color:#3498db;color:#fff;font-size:21px;box-shadow:none;-webkit-transition: .4s;-moz-transition: .4s;-o-transition: .4s;transition:.4s;-webkit-backface-visibility:hidden;position:relative;cursor:pointer;padding: 13px 20px;text-align: center;border-radius: 50px;-webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none;border: 0;height: auto;outline: medium;line-height: 20px;margin: 0;}
-input.euc-y-s[type="submit"]:hover{background-color:#5dade2;}
-input.euc-y-i[type="text"],input.euc-y-i[type="password"]{border:1px solid #F2EFEF;color:#777;display:block;background: #FCFCFC;font-size:18px;transition:all .5s ease 0;outline:0;box-sizing:border-box;-webkit-border-radius:25px;-moz-border-radius:25px;border-radius:25px;padding:5px 16px; margin: 0;height: auto;line-height: 30px;}
-input.euc-y-i[type="text"]:hover,input.euc-y-i[type="password"]:hover{border:1px solid #56b4ef;box-shadow:0 0 4px #56b4ef;}
-
-
 .e-secret {
     background: none repeat scroll 0 0 #fcffff;
     border: 1px dashed #24b4f0;
