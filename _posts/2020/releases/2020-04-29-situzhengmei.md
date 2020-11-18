@@ -4,6 +4,7 @@ title: 泪目，司徒正美知乎最后回答，“猝死”距离程序员究�
 category: it
 tags: [it]
 excerpt: 身体是革命的本钱。
+lock: need
 ---
 
 ![](http://favorites.ren/assets/images/2020/it/situzhengmei01.jpg)   
