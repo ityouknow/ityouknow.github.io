@@ -56,8 +56,8 @@ paginate_path: 'page:num'
 menus:
 
   -
-    href: http://favorites.ren/stock.html
-    label: 股票
+    href: http://www.itmind.net/4469.html
+    label: IDEA破解
     target: _blank  
 
   -
@@ -185,6 +185,11 @@ labels:
     href: /gitchat.html
     label: Chat
     target: _blank
+
+  -
+    href: http://favorites.ren/stock.html
+    label: 股票
+    target: _blank  
 
 
 # selected articles
