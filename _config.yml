@@ -56,7 +56,7 @@ paginate_path: 'page:num'
 menus:
 
   -
-    href: http://www.itmind.net/4469.html
+    href: http://itmooc.tech/
     label: IDEA破解
     target: _blank  
 

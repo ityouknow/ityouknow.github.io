@@ -29,6 +29,7 @@ permalink: /link
 
 ## 推荐网站
 
+- [jetbrains全家桶注册码](http://itmooc.tech/) - IntelliJ IDEA 破解码网站
 - [知识星球精选](http://www.zsxq100.com/just-talk-about-make-money) - 各种好玩的知识星球推荐
 - [抖音视频下载](https://free-tiktok.com/) - 抖音、Youtube、instagram视频去水印下载
 - [MD工具](http://relatos.top/md/) - markdown转发html在线工具  
