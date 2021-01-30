@@ -173,11 +173,11 @@ GC最基础的算法有三种：标记 -清除算法、复制算法、标记-压
 
 Young GC日志:
  
-![](http://ityouknow.com/assets/images/2017/jvm/Young GC.png)
+![](http://favorites.ren/assets/images/2017/jvm/Young GC.png)
 
 Full GC日志:
  
-![](http://ityouknow.com/assets/images/2017/jvm/Full GC.png)
+![](http://favorites.ren/assets/images/2017/jvm/Full GC.png)
 
 **调优命令**  
 
