@@ -17,8 +17,8 @@ favicon: favicon.ico
 
 repository: yayi2/yayi2.github.io
 github_url: https://github.com/yayi2
-url: https://yayi2.github.io
-enforce_ssl: ityouknow.com
+url: https://ifyoukonw.github.io
+enforce_ssl: 
 
 ## Gem
 plugins:
