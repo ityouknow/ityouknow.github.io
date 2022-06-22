@@ -17,7 +17,7 @@ favicon: favicon.ico
 
 repository: tokgofail/loveC.github.io
 github_url: https://github.com/tokgofail
-url: https://lovec.xyz
+url: http://lovec.xyz
 enforce_ssl: lovec.xyz
 
 ## Gem
