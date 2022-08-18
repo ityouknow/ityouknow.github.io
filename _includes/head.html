@@ -5,13 +5,16 @@
     <!-- Favicon Icon -->
     <link rel="shortcut icon" type="image/x-icon" href="/assets/images/{{ site.favicon }}">
 
-    <title>{% if page.titlebar %} {{ page.titlebar | escape }} - 纯洁的微笑博客 {% elsif page.title %} {{ page.title | escape }} - 纯洁的微笑博客 {% else %}{{ site.title | escape }}{% endif %}</title>
-    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords | escape }}{% else %}{{ site.keywords }}{% endif %}">
+    <title>{% if page.titlebar %} {{ page.titlebar | escape }} - 蓝色爱封印的博客 {% elsif page.title %} {{ page.title | escape
+        }} - 蓝色爱封印的博客 {% else %}{{ site.title | escape }}{% endif %}</title>
+    <meta name="keywords"
+        content="{% if page.keywords %}{{ page.keywords | escape }}{% else %}{{ site.keywords }}{% endif %}">
     <meta name="description"
-          content="{% if page.excerpt %}{{ page.excerpt | escape }}{% else %}{{ site.description }}{% endif %}">
+        content="{% if page.excerpt %}{{ page.excerpt | escape }}{% else %}{{ site.description }}{% endif %}">
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml" | prepend:
+        site.baseurl | prepend: site.url }}">
 
     <!-- Third-Party CSS -->
     <link rel="stylesheet" href="http://favorites.ren/bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -21,7 +24,7 @@
     <link rel="stylesheet" href="http://favorites.ren/assets/css/syntax.css">
     <link rel="stylesheet" href="http://favorites.ren/assets/css/gitalk.css">
 
-    
+
 
     <!-- My CSS -->
     <link rel="stylesheet" href="http://favorites.ren/assets/css/common.css">
@@ -36,9 +39,11 @@
     <link rel="stylesheet" href="http://favorites.ren/assets/css/{{css}}">
     {% endfor %}
 
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
     <script type="text/javascript" src="http://favorites.ren/bower_components/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="http://favorites.ren/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript"
+        src="http://favorites.ren/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="http://www.ityouknow.com/assets/js/lock.js"></script>
 </head>
